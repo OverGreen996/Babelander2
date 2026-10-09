@@ -1,0 +1,127 @@
+{
+  "fixture_count": 5,
+  "warm_repetitions": 3,
+  "results": [
+    {
+      "policy": "min",
+      "case": "dialog-28",
+      "recognized": "Alice, we must leave before sunset.",
+      "exact_content": true,
+      "median_ms": 587.81,
+      "samples_ms": [
+        587.81,
+        583.85,
+        742.15
+      ]
+    },
+    {
+      "policy": "min",
+      "case": "equipment-22",
+      "recognized": "Gain +50% Fire Resistance for 10 seconds.",
+      "exact_content": true,
+      "median_ms": 706.9,
+      "samples_ms": [
+        731.97,
+        706.9,
+        668.13
+      ]
+    },
+    {
+      "policy": "min",
+      "case": "quest-16",
+      "recognized": "Collect 3/10 moonstones before 01:30.",
+      "exact_content": true,
+      "median_ms": 723.47,
+      "samples_ms": [
+        723.47,
+        709.38,
+        733.75
+      ]
+    },
+    {
+      "policy": "min",
+      "case": "chat-14",
+      "recognized": "[Party] Player_007: Wait for me.",
+      "exact_content": true,
+      "median_ms": 684.3,
+      "samples_ms": [
+        645.7,
+        694.58,
+        684.3
+      ]
+    },
+    {
+      "policy": "min",
+      "case": "card-multiline-18",
+      "recognized": "Gain +50% Fire Resistance for 10 seconds. If health is below 30%, gain 12% movement speed. Otherwise, lose -5% movement speed.",
+      "exact_content": true,
+      "median_ms": 1279.26,
+      "samples_ms": [
+        1228.25,
+        1279.26,
+        1285.91
+      ]
+    },
+    {
+      "policy": "max",
+      "case": "dialog-28",
+      "recognized": "Alice, we must leave before sunset.",
+      "exact_content": true,
+      "median_ms": 113.25,
+      "samples_ms": [
+        109.8,
+        128.01,
+        113.25
+      ]
+    },
+    {
+      "policy": "max",
+      "case": "equipment-22",
+      "recognized": "Gain +50% Fire Resistance for 10 seconds.",
+      "exact_content": true,
+      "median_ms": 121.05,
+      "samples_ms": [
+        124.23,
+        109.89,
+        121.05
+      ]
+    },
+    {
+      "policy": "max",
+      "case": "quest-16",
+      "recognized": "Collect 3/10 moonstones before 01:30.",
+      "exact_content": true,
+      "median_ms": 122.23,
+      "samples_ms": [
+        119.36,
+        122.23,
+        125.96
+      ]
+    },
+    {
+      "policy": "max",
+      "case": "chat-14",
+      "recognized": "[Party] Player_007: Wait for me.",
+      "exact_content": true,
+      "median_ms": 102.98,
+      "samples_ms": [
+        115.09,
+        102.98,
+        96.23
+      ]
+    },
+    {
+      "policy": "max",
+      "case": "card-multiline-18",
+      "recognized": "Gain +50% Fire Resistance for 10 seconds. If health is below 30%, gain 12% movement speed. Otherwise, lose -5% movement speed.",
+      "exact_content": true,
+      "median_ms": 203.89,
+      "samples_ms": [
+        203.89,
+        196.11,
+        210.22
+      ]
+    }
+  ],
+  "note": "Self-rendered white/black Arial fixtures, 14–28pt. Not evidence for all game fonts/backgrounds."
+}

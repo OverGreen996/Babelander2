@@ -1,0 +1,345 @@
+{
+  "passed": true,
+  "checks": {
+    "main_capture_excluded": true,
+    "picker_ocr_translate_overlay": true,
+    "ocr_fixture_recognized": true,
+    "capture_preview_real_roi_and_scores": true,
+    "capture_review_excluded_and_readonly": true,
+    "capture_review_zoom_and_box_toggle": true,
+    "stale_capture_cannot_replace_preview": true,
+    "capture_review_stops_then_edits_snapshot": true,
+    "capture_review_closed_releases_dialog": true,
+    "overlay_capture_excluded": true,
+    "equipment_ocr_translation": true,
+    "quest_ocr_translation": true,
+    "chat_monitors_and_preserves_speaker": true,
+    "reply_ui_translation": true,
+    "screen_ui_translation": true,
+    "reply_popup_enter_and_draft": true,
+    "reply_draft_survives_hide": true,
+    "real_ocr_wrapped_condition_retains_otherwise": true,
+    "card_overlay_has_source_target_and_confidence": true,
+    "genuine_transparency_retains_full_text_opacity": true,
+    "overlay_title_drag_moves_window": true,
+    "keyboard_geometry_dialog_resizes": true,
+    "overlay_geometry_background_persisted": true,
+    "disconnected_screen_position_recovers": true,
+    "low_confidence_ui_editable_and_warns": true,
+    "generic_overlay_shows_review_warning": true,
+    "busy_enter_does_not_submit_duplicate": true,
+    "busy_button_restored_after_completion": true,
+    "idle_model_control_available": true,
+    "overlay_passthrough": true,
+    "overlay_interaction_restored": true,
+    "hotkeys_registered": true,
+    "native_hotkey_dispatch": true,
+    "hidden_overlay_stays_hidden_on_new_result": true,
+    "hidden_overlay_can_be_restored": true,
+    "clear_releases_capture_preview": true,
+    "clear_chat_removes_session_messages_and_overlay": true,
+    "stale_failure_cannot_cancel_new_generation": true,
+    "stale_status_cannot_replace_current_status": true,
+    "keyboard_0_1190": true,
+    "keyboard_1_1190": true,
+    "keyboard_2_1190": true,
+    "keyboard_3_1190": true,
+    "keyboard_4_1190": true,
+    "keyboard_5_1190": true,
+    "keyboard_6_1190": true,
+    "keyboard_7_1190": true,
+    "keyboard_8_1190": true,
+    "keyboard_0_880": true,
+    "keyboard_1_880": true,
+    "keyboard_2_880": true,
+    "keyboard_3_880": true,
+    "keyboard_4_880": true,
+    "keyboard_5_880": true,
+    "keyboard_6_880": true,
+    "keyboard_7_880": true,
+    "keyboard_8_880": true,
+    "zero_legacy_imports": true,
+    "zero_ui_errors": true,
+    "all_workers_stopped": true,
+    "window_closed": true
+  },
+  "errors": [],
+  "screenshots": [
+    {
+      "page": 0,
+      "width": 1190,
+      "file": "1190-page-0.png",
+      "scroll_max": 19
+    },
+    {
+      "page": 1,
+      "width": 1190,
+      "file": "1190-page-1.png",
+      "scroll_max": 132
+    },
+    {
+      "page": 2,
+      "width": 1190,
+      "file": "1190-page-2.png",
+      "scroll_max": 79
+    },
+    {
+      "page": 3,
+      "width": 1190,
+      "file": "1190-page-3.png",
+      "scroll_max": 19
+    },
+    {
+      "page": 4,
+      "width": 1190,
+      "file": "1190-page-4.png",
+      "scroll_max": 0
+    },
+    {
+      "page": 5,
+      "width": 1190,
+      "file": "1190-page-5.png",
+      "scroll_max": 72
+    },
+    {
+      "page": 6,
+      "width": 1190,
+      "file": "1190-page-6.png",
+      "scroll_max": 0
+    },
+    {
+      "page": 7,
+      "width": 1190,
+      "file": "1190-page-7.png",
+      "scroll_max": 0
+    },
+    {
+      "page": 8,
+      "width": 1190,
+      "file": "1190-page-8.png",
+      "scroll_max": 823
+    },
+    {
+      "page": 0,
+      "width": 880,
+      "file": "880-page-0.png",
+      "scroll_max": 199
+    },
+    {
+      "page": 1,
+      "width": 880,
+      "file": "880-page-1.png",
+      "scroll_max": 312
+    },
+    {
+      "page": 2,
+      "width": 880,
+      "file": "880-page-2.png",
+      "scroll_max": 259
+    },
+    {
+      "page": 3,
+      "width": 880,
+      "file": "880-page-3.png",
+      "scroll_max": 199
+    },
+    {
+      "page": 4,
+      "width": 880,
+      "file": "880-page-4.png",
+      "scroll_max": 135
+    },
+    {
+      "page": 5,
+      "width": 880,
+      "file": "880-page-5.png",
+      "scroll_max": 252
+    },
+    {
+      "page": 6,
+      "width": 880,
+      "file": "880-page-6.png",
+      "scroll_max": 0
+    },
+    {
+      "page": 7,
+      "width": 880,
+      "file": "880-page-7.png",
+      "scroll_max": 0
+    },
+    {
+      "page": 8,
+      "width": 880,
+      "file": "880-page-8.png",
+      "scroll_max": 1003
+    }
+  ],
+  "results": [
+    {
+      "mode": "dialog",
+      "total_ms": 1217.4774000013713,
+      "ocr_ms": 880.2653000020655,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "provider": "local",
+          "origin": "本機模型",
+          "warning": "",
+          "cache_hit": true,
+          "model_ms": 1291.4921000046888,
+          "ocr_confidence": 0.99975
+        }
+      ]
+    },
+    {
+      "mode": "equipment",
+      "total_ms": 128.01909999689087,
+      "ocr_ms": 125.07809999806341,
+      "translations": [
+        {
+          "source": "Gain +50% Fire Resistance for 10 seconds.",
+          "target": "獲得 +50% 火焰抗性，持續 10 秒。",
+          "provider": "local",
+          "origin": "詞庫／完整規則",
+          "warning": "",
+          "cache_hit": true,
+          "model_ms": 0,
+          "ocr_confidence": 0.99966
+        }
+      ]
+    },
+    {
+      "mode": "quest",
+      "total_ms": 128.35860000632238,
+      "ocr_ms": 127.24270000762772,
+      "translations": [
+        {
+          "source": "Collect 3/10 moonstones before 01:30.",
+          "target": "收集 3/10 月石於 01:30 前。",
+          "provider": "local",
+          "origin": "本機模型",
+          "warning": "",
+          "cache_hit": true,
+          "model_ms": 93.9426000113599,
+          "ocr_confidence": 0.99224
+        }
+      ]
+    },
+    {
+      "mode": "chat",
+      "total_ms": 1490.51750000217,
+      "ocr_ms": 105.75689999677707,
+      "translations": [
+        {
+          "source": "[Party] Player_007: Wait for me.",
+          "target": "[Party] Player_007: 等我。",
+          "provider": "local",
+          "origin": "本機模型",
+          "warning": "",
+          "cache_hit": false,
+          "model_ms": 1370.6702000054065,
+          "ocr_confidence": 0.98787
+        }
+      ]
+    },
+    {
+      "mode": "reply",
+      "total_ms": 82.96410000184551,
+      "ocr_ms": 0,
+      "translations": [
+        {
+          "source": "我 5 分鐘後回來，請不要開始。",
+          "target": "I will return in 5 minutes, please do not start.",
+          "provider": "local",
+          "origin": "本機模型",
+          "warning": "",
+          "cache_hit": false,
+          "model_ms": 82.62269999249838,
+          "ocr_confidence": null
+        }
+      ]
+    },
+    {
+      "mode": "screen",
+      "total_ms": 1.4125000016065314,
+      "ocr_ms": 0,
+      "translations": [
+        {
+          "source": "Please read the update notes before entering the dungeon.",
+          "target": "請先閱讀更新筆記再進入地牢。",
+          "provider": "local",
+          "origin": "本機模型",
+          "warning": "",
+          "cache_hit": true,
+          "model_ms": 75.40440000593662,
+          "ocr_confidence": null
+        }
+      ]
+    },
+    {
+      "mode": "reply",
+      "total_ms": 0.11419999646022916,
+      "ocr_ms": 0,
+      "translations": [
+        {
+          "source": "我 5 分鐘後回來，請不要開始。",
+          "target": "I will return in 5 minutes, please do not start.",
+          "provider": "local",
+          "origin": "本機模型",
+          "warning": "",
+          "cache_hit": true,
+          "model_ms": 82.62269999249838,
+          "ocr_confidence": null
+        }
+      ]
+    },
+    {
+      "mode": "equipment",
+      "total_ms": 293.58500000671484,
+      "ocr_ms": 289.7177999984706,
+      "translations": [
+        {
+          "source": "If health is below 30%,\ngain +12% Movement Speed for 5 seconds.\nOtherwise, gain +3% Fire Resistance.",
+          "target": "若生命值低於 30%，獲得 +12% 移動速度，持續 5 秒；否則獲得 +3% 火焰抗性。",
+          "provider": "local",
+          "origin": "詞庫／完整規則",
+          "warning": "",
+          "cache_hit": true,
+          "model_ms": 0,
+          "ocr_confidence": 0.99642
+        },
+        {
+          "source": "Gain +50% Fire Resistance for 10 seconds.",
+          "target": "獲得 +50% 火焰抗性，持續 10 秒。",
+          "provider": "local",
+          "origin": "詞庫／完整規則",
+          "warning": "",
+          "cache_hit": true,
+          "model_ms": 0,
+          "ocr_confidence": 0.99477
+        }
+      ]
+    },
+    {
+      "mode": "reply",
+      "total_ms": 54.12200000137091,
+      "ocr_ms": 0,
+      "translations": [
+        {
+          "source": "請在 7 分鐘後回來，不要開始。",
+          "target": "Please return in 7 minutes. Do not start.",
+          "provider": "local",
+          "origin": "本機模型",
+          "warning": "",
+          "cache_hit": false,
+          "model_ms": 53.776999993715435,
+          "ocr_confidence": null
+        }
+      ]
+    }
+  ],
+  "real_desktop_capture": true,
+  "concurrent_soak": false,
+  "capture": "Only synthetic fixture region captured from real desktop; no user game or other desktop content exported"
+}

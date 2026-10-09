@@ -1,0 +1,112 @@
+{
+  "passed": true,
+  "requests": 6,
+  "input_chars_per_provider": 49,
+  "current_validation_policy_passed": true,
+  "credentials": "Existing DPAPI decrypted in process; never copied, saved or exported",
+  "accounting": "Temporary V2 reserve/confirm ledger; original application ledger unchanged",
+  "usage": [
+    [
+      "google",
+      49,
+      49
+    ],
+    [
+      "azure",
+      49,
+      49
+    ],
+    [
+      "deepl",
+      49,
+      49
+    ]
+  ],
+  "results": [
+    {
+      "provider": "google",
+      "mode": "dialog",
+      "source": "Alice, we must leave before sunset.",
+      "target": "愛麗絲，我們必須在日落前離開。",
+      "origin": "google",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 230.69389999727719,
+      "ocr_confidence": null,
+      "ms": 236.13,
+      "cache_without_extra_request": true,
+      "passed": true
+    },
+    {
+      "provider": "google",
+      "mode": "reply",
+      "source": "我五分鐘後回來，請不要開始。",
+      "target": "I'll be back in five minutes, please don't start.",
+      "origin": "google",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 112.59520000021439,
+      "ocr_confidence": null,
+      "ms": 113.03,
+      "cache_without_extra_request": true,
+      "passed": true
+    },
+    {
+      "provider": "azure",
+      "mode": "dialog",
+      "source": "Alice, we must leave before sunset.",
+      "target": "愛麗絲，我們必須在日落前離開。",
+      "origin": "azure",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 794.8420999891823,
+      "ocr_confidence": null,
+      "ms": 875.37,
+      "cache_without_extra_request": true,
+      "passed": true
+    },
+    {
+      "provider": "azure",
+      "mode": "reply",
+      "source": "我五分鐘後回來，請不要開始。",
+      "target": "I'll be back in five minutes, please don't start.",
+      "origin": "azure",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 277.92609999596607,
+      "ocr_confidence": null,
+      "ms": 278.38,
+      "cache_without_extra_request": true,
+      "passed": true
+    },
+    {
+      "provider": "deepl",
+      "mode": "dialog",
+      "source": "Alice, we must leave before sunset.",
+      "target": "愛麗絲，我們必須在日落前出發。",
+      "origin": "deepl",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 887.7824999945005,
+      "ocr_confidence": null,
+      "ms": 888.66,
+      "cache_without_extra_request": true,
+      "passed": true
+    },
+    {
+      "provider": "deepl",
+      "mode": "reply",
+      "source": "我五分鐘後回來，請不要開始。",
+      "target": "I'll be back in five minutes. Please don't start yet.",
+      "origin": "deepl",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 887.728599991533,
+      "ocr_confidence": null,
+      "ms": 888.11,
+      "cache_without_extra_request": true,
+      "passed": true
+    }
+  ],
+  "note": "Two small synthetic requests per provider; repeat after font/overlay settings reconfiguration uses cache with no extra billable request; not a production performance benchmark"
+}

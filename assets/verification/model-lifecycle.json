@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "checks": {
+    "owned_crash_restarts": true,
+    "crashed_log_handle_closed": true,
+    "idle_unloads_real_model": true,
+    "next_request_reloads": true,
+    "presentation_settings_keep_loaded_process": true,
+    "manual_unload_stops_owned_model": true,
+    "workers_stopped": true
+  },
+  "owned_process_ids": [
+    39612,
+    40144,
+    20852
+  ],
+  "scope": "Real local CUDA, distinct owned child per startup; clock advanced by setting last request time to exercise automatic idle path without a five-minute sleep."
+}

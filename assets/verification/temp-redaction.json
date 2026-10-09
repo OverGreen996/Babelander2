@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "scope": "Only the two verified interrupted test temp databases. Unexpected fixture source/target redacted; diagnostic directories retained. Actual Babelander user data untouched.",
+  "results": [
+    {
+      "test_directory": "Babelander2-soak-_p9xca7o",
+      "redacted_history_rows": 0,
+      "redacted_cache_rows": 0
+    },
+    {
+      "test_directory": "Babelander2-soak-6xxcpr6k",
+      "redacted_history_rows": 22,
+      "redacted_cache_rows": 0
+    }
+  ]
+}

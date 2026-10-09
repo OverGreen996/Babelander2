@@ -1,0 +1,9 @@
+{
+  "checks": 21,
+  "passed": true,
+  "failures": [],
+  "errors": [],
+  "offscreen": true,
+  "real_ocr": false,
+  "real_model": false
+}

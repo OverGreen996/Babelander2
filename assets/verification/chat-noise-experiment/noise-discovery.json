@@ -1,0 +1,34 @@
+{
+  "noise": [
+    {
+      "amplitude": 8,
+      "ocr_triggered": 0,
+      "n": 30,
+      "mean_filter_ms": 9.719186666688984,
+      "reasons": {
+        "noise": 30
+      }
+    },
+    {
+      "amplitude": 14,
+      "ocr_triggered": 0,
+      "n": 30,
+      "mean_filter_ms": 9.249463333291411,
+      "reasons": {
+        "noise": 30
+      }
+    },
+    {
+      "amplitude": 24,
+      "ocr_triggered": 30,
+      "n": 30,
+      "mean_filter_ms": 9.658206666654223,
+      "reasons": {
+        "structure": 30
+      }
+    }
+  ],
+  "transitions": [],
+  "immediate": 0,
+  "n": 0
+}

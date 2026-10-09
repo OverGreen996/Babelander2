@@ -1,0 +1,79 @@
+{
+  "passed": true,
+  "ocr": "Alice, we must leave before sunset.",
+  "results": [
+    {
+      "mode": "dialog",
+      "source": "Alice, we must leave before sunset.",
+      "target": "艾莉絲，我們必須在日落前離開。",
+      "provider": "local",
+      "origin": "本機模型",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 1283.5931000008713,
+      "ocr_confidence": null,
+      "ms": 1289.3
+    },
+    {
+      "mode": "equipment",
+      "source": "Gain +50% Fire Resistance for 10 seconds.",
+      "target": "獲得 +50% 火焰抗性，持續 10 秒。",
+      "provider": "local",
+      "origin": "詞庫／完整規則",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 0,
+      "ocr_confidence": null,
+      "ms": 1.08
+    },
+    {
+      "mode": "quest",
+      "source": "Collect 3/10 moonstones before 01:30. Do not leave the area.",
+      "target": "收集 3/10 月石於 01:30 前。勿離開區域。",
+      "provider": "local",
+      "origin": "本機模型",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 102.7652000047965,
+      "ocr_confidence": null,
+      "ms": 104.2
+    },
+    {
+      "mode": "chat",
+      "source": "Do not start the raid. I will return in 5 minutes.",
+      "target": "不啟動 團隊副本。我將在5分鐘後返回。",
+      "provider": "local",
+      "origin": "本機模型",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 86.0298000043258,
+      "ocr_confidence": null,
+      "ms": 86.99
+    },
+    {
+      "mode": "reply",
+      "source": "我 5 分鐘後回來，請不要開始。",
+      "target": "I will return in 5 minutes, please do not start.",
+      "provider": "local",
+      "origin": "本機模型",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 74.1756999923382,
+      "ocr_confidence": null,
+      "ms": 74.49
+    },
+    {
+      "mode": "screen",
+      "source": "Please read the update notes before entering the dungeon.",
+      "target": "請先閱讀更新筆記再進入地牢。",
+      "provider": "local",
+      "origin": "本機模型",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 68.05669999448583,
+      "ocr_confidence": null,
+      "ms": 69.17
+    }
+  ],
+  "legacy_application_imports": 0
+}

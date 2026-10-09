@@ -1,0 +1,41 @@
+{
+  "passed": true,
+  "checks": {
+    "300_real_captures_without_gdi_growth": true,
+    "startup_cancel_0": true,
+    "startup_cancel_1": true,
+    "startup_cancel_2": true
+  },
+  "gdi_before": 6,
+  "gdi_after": 6,
+  "startup_cancellations": [
+    {
+      "started_process": true,
+      "thread_stopped": true,
+      "owned_process_stopped": true,
+      "backend_process_cleared": true,
+      "errors": [
+        "BackendError"
+      ]
+    },
+    {
+      "started_process": true,
+      "thread_stopped": true,
+      "owned_process_stopped": true,
+      "backend_process_cleared": true,
+      "errors": [
+        "BackendError"
+      ]
+    },
+    {
+      "started_process": true,
+      "thread_stopped": true,
+      "owned_process_stopped": true,
+      "backend_process_cleared": true,
+      "errors": [
+        "BackendError"
+      ]
+    }
+  ],
+  "note": "Own white fixture only; 300 captures and 3 startup cancellations, not a long-running game stress test"
+}

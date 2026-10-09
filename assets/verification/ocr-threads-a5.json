@@ -1,0 +1,204 @@
+{
+  "scope": "CPU-only, three identical saved frames, three warm repetitions each. No game CPU contention, no VRAM or RAM assertion.",
+  "rows": [
+    {
+      "threads": 2,
+      "cpu_seconds": 4.609375,
+      "samples": [
+        {
+          "case": 1,
+          "repeat": 0,
+          "ms": 154.1919000010239,
+          "text": "The lighthouse keeper has returned."
+        },
+        {
+          "case": 50,
+          "repeat": 0,
+          "ms": 211.80549998825882,
+          "text": "Carry the sealed container upright throughout the journey across the dunes."
+        },
+        {
+          "case": 100,
+          "repeat": 0,
+          "ms": 331.8959000025643,
+          "text": "We have enough medicine to stabilize the injured passengers tonight, but finding a doctor before morning will require someone to cross the damaged railway bridge."
+        },
+        {
+          "case": 1,
+          "repeat": 1,
+          "ms": 173.98969999339897,
+          "text": "The lighthouse keeper has returned."
+        },
+        {
+          "case": 50,
+          "repeat": 1,
+          "ms": 222.21859999990556,
+          "text": "Carry the sealed container upright throughout the journey across the dunes."
+        },
+        {
+          "case": 100,
+          "repeat": 1,
+          "ms": 372.5624999933643,
+          "text": "We have enough medicine to stabilize the injured passengers tonight, but finding a doctor before morning will require someone to cross the damaged railway bridge."
+        },
+        {
+          "case": 1,
+          "repeat": 2,
+          "ms": 160.0244000001112,
+          "text": "The lighthouse keeper has returned."
+        },
+        {
+          "case": 50,
+          "repeat": 2,
+          "ms": 191.5554000006523,
+          "text": "Carry the sealed container upright throughout the journey across the dunes."
+        },
+        {
+          "case": 100,
+          "repeat": 2,
+          "ms": 422.1745999966515,
+          "text": "We have enough medicine to stabilize the injured passengers tonight, but finding a doctor before morning will require someone to cross the damaged railway bridge."
+        }
+      ],
+      "mean_ms": 248.93538888621455,
+      "by_case": {
+        "1": 162.73533333151136,
+        "50": 208.52649999627224,
+        "100": 375.54433333086007
+      }
+    },
+    {
+      "threads": 3,
+      "cpu_seconds": 6.59375,
+      "samples": [
+        {
+          "case": 1,
+          "repeat": 0,
+          "ms": 144.8855999915395,
+          "text": "The lighthouse keeper has returned."
+        },
+        {
+          "case": 50,
+          "repeat": 0,
+          "ms": 157.14870000374503,
+          "text": "Carry the sealed container upright throughout the journey across the dunes."
+        },
+        {
+          "case": 100,
+          "repeat": 0,
+          "ms": 300.3813999966951,
+          "text": "We have enough medicine to stabilize the injured passengers tonight, but finding a doctor before morning will require someone to cross the damaged railway bridge."
+        },
+        {
+          "case": 1,
+          "repeat": 1,
+          "ms": 124.54859999706969,
+          "text": "The lighthouse keeper has returned."
+        },
+        {
+          "case": 50,
+          "repeat": 1,
+          "ms": 164.46249998989515,
+          "text": "Carry the sealed container upright throughout the journey across the dunes."
+        },
+        {
+          "case": 100,
+          "repeat": 1,
+          "ms": 393.09460000367835,
+          "text": "We have enough medicine to stabilize the injured passengers tonight, but finding a doctor before morning will require someone to cross the damaged railway bridge."
+        },
+        {
+          "case": 1,
+          "repeat": 2,
+          "ms": 191.32700000773184,
+          "text": "The lighthouse keeper has returned."
+        },
+        {
+          "case": 50,
+          "repeat": 2,
+          "ms": 182.60759999975562,
+          "text": "Carry the sealed container upright throughout the journey across the dunes."
+        },
+        {
+          "case": 100,
+          "repeat": 2,
+          "ms": 315.6487000087509,
+          "text": "We have enough medicine to stabilize the injured passengers tonight, but finding a doctor before morning will require someone to cross the damaged railway bridge."
+        }
+      ],
+      "mean_ms": 219.34496666654013,
+      "by_case": {
+        "1": 153.587066665447,
+        "50": 168.07293333113194,
+        "100": 336.37490000304143
+      }
+    },
+    {
+      "threads": 4,
+      "cpu_seconds": 8.0,
+      "samples": [
+        {
+          "case": 1,
+          "repeat": 0,
+          "ms": 132.96139999874867,
+          "text": "The lighthouse keeper has returned."
+        },
+        {
+          "case": 50,
+          "repeat": 0,
+          "ms": 146.96309999271762,
+          "text": "Carry the sealed container upright throughout the journey across the dunes."
+        },
+        {
+          "case": 100,
+          "repeat": 0,
+          "ms": 292.47610000311397,
+          "text": "We have enough medicine to stabilize the injured passengers tonight, but finding a doctor before morning will require someone to cross the damaged railway bridge."
+        },
+        {
+          "case": 1,
+          "repeat": 1,
+          "ms": 134.2785000015283,
+          "text": "The lighthouse keeper has returned."
+        },
+        {
+          "case": 50,
+          "repeat": 1,
+          "ms": 167.20170000917278,
+          "text": "Carry the sealed container upright throughout the journey across the dunes."
+        },
+        {
+          "case": 100,
+          "repeat": 1,
+          "ms": 296.6918000020087,
+          "text": "We have enough medicine to stabilize the injured passengers tonight, but finding a doctor before morning will require someone to cross the damaged railway bridge."
+        },
+        {
+          "case": 1,
+          "repeat": 2,
+          "ms": 117.75790000683628,
+          "text": "The lighthouse keeper has returned."
+        },
+        {
+          "case": 50,
+          "repeat": 2,
+          "ms": 150.0674999988405,
+          "text": "Carry the sealed container upright throughout the journey across the dunes."
+        },
+        {
+          "case": 100,
+          "repeat": 2,
+          "ms": 275.3956999949878,
+          "text": "We have enough medicine to stabilize the injured passengers tonight, but finding a doctor before morning will require someone to cross the damaged railway bridge."
+        }
+      ],
+      "mean_ms": 190.42152222310608,
+      "by_case": {
+        "1": 128.3326000023711,
+        "50": 154.74410000024363,
+        "100": 288.1878666667035
+      }
+    }
+  ],
+  "outputs_identical": true
+}

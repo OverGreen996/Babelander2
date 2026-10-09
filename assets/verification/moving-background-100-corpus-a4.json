@@ -1,0 +1,502 @@
+[
+  {
+    "id": 1,
+    "group": "short",
+    "text": "The lighthouse keeper has returned."
+  },
+  {
+    "id": 2,
+    "group": "short",
+    "text": "My compass points toward the ruins."
+  },
+  {
+    "id": 3,
+    "group": "short",
+    "text": "Her gloves are covered in ash."
+  },
+  {
+    "id": 4,
+    "group": "short",
+    "text": "The elevator stopped between floors."
+  },
+  {
+    "id": 5,
+    "group": "short",
+    "text": "Our pilot forgot the landing code."
+  },
+  {
+    "id": 6,
+    "group": "short",
+    "text": "This helmet muffles every sound."
+  },
+  {
+    "id": 7,
+    "group": "short",
+    "text": "Someone moved the bronze mirror."
+  },
+  {
+    "id": 8,
+    "group": "short",
+    "text": "The market closes before sunset."
+  },
+  {
+    "id": 9,
+    "group": "short",
+    "text": "Your lantern attracts those insects."
+  },
+  {
+    "id": 10,
+    "group": "short",
+    "text": "A familiar voice called from below."
+  },
+  {
+    "id": 11,
+    "group": "short",
+    "text": "The waterwheel turns against the current."
+  },
+  {
+    "id": 12,
+    "group": "short",
+    "text": "Our tracker found fresh claw marks."
+  },
+  {
+    "id": 13,
+    "group": "short",
+    "text": "That robot recognizes your insignia."
+  },
+  {
+    "id": 14,
+    "group": "short",
+    "text": "The balcony overlooks an empty garden."
+  },
+  {
+    "id": 15,
+    "group": "short",
+    "text": "His boots leave silver footprints."
+  },
+  {
+    "id": 16,
+    "group": "short",
+    "text": "The carriage needs a new axle."
+  },
+  {
+    "id": 17,
+    "group": "short",
+    "text": "My radio receives only static."
+  },
+  {
+    "id": 18,
+    "group": "short",
+    "text": "The giant appears to be sleeping."
+  },
+  {
+    "id": 19,
+    "group": "short",
+    "text": "Her portrait conceals a narrow passage."
+  },
+  {
+    "id": 20,
+    "group": "short",
+    "text": "The desert wind carries distant music."
+  },
+  {
+    "id": 21,
+    "group": "story",
+    "text": "The baker remembered our faces even though we had visited in disguise."
+  },
+  {
+    "id": 22,
+    "group": "story",
+    "text": "He traded his last pearl for a ticket aboard the departing airship."
+  },
+  {
+    "id": 23,
+    "group": "story",
+    "text": "We discovered a handwritten invitation inside the damaged mechanical bird."
+  },
+  {
+    "id": 24,
+    "group": "story",
+    "text": "The dancer kept performing long after the audience had left the hall."
+  },
+  {
+    "id": 25,
+    "group": "story",
+    "text": "My uncle built this shelter during the first volcanic eruption."
+  },
+  {
+    "id": 26,
+    "group": "story",
+    "text": "She returned the medal because the victory had cost too many lives."
+  },
+  {
+    "id": 27,
+    "group": "story",
+    "text": "The astronomer vanished on the evening when both moons turned orange."
+  },
+  {
+    "id": 28,
+    "group": "story",
+    "text": "I recognized the tune from a lullaby my grandmother used to sing."
+  },
+  {
+    "id": 29,
+    "group": "story",
+    "text": "Their leader placed a white feather beside each empty bunk."
+  },
+  {
+    "id": 30,
+    "group": "story",
+    "text": "The diplomat seemed relieved when the meeting ended without an agreement."
+  },
+  {
+    "id": 31,
+    "group": "story",
+    "text": "We reached the monastery just as its oldest bell cracked in half."
+  },
+  {
+    "id": 32,
+    "group": "story",
+    "text": "His daughter repaired the watch but kept the mysterious engraving secret."
+  },
+  {
+    "id": 33,
+    "group": "story",
+    "text": "The rescued sailor described an island absent from every official chart."
+  },
+  {
+    "id": 34,
+    "group": "story",
+    "text": "She offered us shelter in exchange for a story about the mainland."
+  },
+  {
+    "id": 35,
+    "group": "story",
+    "text": "The historian hid the original manuscript inside an ordinary recipe book."
+  },
+  {
+    "id": 36,
+    "group": "story",
+    "text": "Our guide grew nervous whenever the conversation turned to the abandoned station."
+  },
+  {
+    "id": 37,
+    "group": "story",
+    "text": "The gardener planted roses along the road where his companions disappeared."
+  },
+  {
+    "id": 38,
+    "group": "story",
+    "text": "I expected an apology, but he handed me a freshly sharpened dagger."
+  },
+  {
+    "id": 39,
+    "group": "story",
+    "text": "Their final broadcast repeated a set of coordinates nobody could explain."
+  },
+  {
+    "id": 40,
+    "group": "story",
+    "text": "The young mechanic smiled when the ancient engine finally began to hum."
+  },
+  {
+    "id": 41,
+    "group": "action",
+    "text": "Cover the rear entrance while the miners climb the emergency ladder."
+  },
+  {
+    "id": 42,
+    "group": "action",
+    "text": "Place the empty lantern on the platform beside the marble basin."
+  },
+  {
+    "id": 43,
+    "group": "action",
+    "text": "Bring spare cables to the technician working inside the observation dome."
+  },
+  {
+    "id": 44,
+    "group": "action",
+    "text": "Follow the orange flags through the field of dormant stone giants."
+  },
+  {
+    "id": 45,
+    "group": "action",
+    "text": "Ask the ferryman to leave enough space for the medical wagon."
+  },
+  {
+    "id": 46,
+    "group": "action",
+    "text": "Hold the rope steady while I inspect the broken suspension cable."
+  },
+  {
+    "id": 47,
+    "group": "action",
+    "text": "Gather the scattered documents before the wind carries them into the canal."
+  },
+  {
+    "id": 48,
+    "group": "action",
+    "text": "Lead the frightened animals away from the malfunctioning defense turret."
+  },
+  {
+    "id": 49,
+    "group": "action",
+    "text": "Turn the central dial clockwise until the indicator reaches the green mark."
+  },
+  {
+    "id": 50,
+    "group": "action",
+    "text": "Carry the sealed container upright throughout the journey across the dunes."
+  },
+  {
+    "id": 51,
+    "group": "action",
+    "text": "Check the lower decks for passengers who missed the evacuation announcement."
+  },
+  {
+    "id": 52,
+    "group": "action",
+    "text": "Leave a wooden marker wherever the underground trail divides into two paths."
+  },
+  {
+    "id": 53,
+    "group": "action",
+    "text": "Draw the creature toward the shallow pool beside the ruined amphitheater."
+  },
+  {
+    "id": 54,
+    "group": "action",
+    "text": "Wait for the patrol boat to pass before swimming across the inlet."
+  },
+  {
+    "id": 55,
+    "group": "action",
+    "text": "Deliver the replacement lens to the lookout stationed above the canyon."
+  },
+  {
+    "id": 56,
+    "group": "action",
+    "text": "Use the maintenance hatch to reach the control room beneath the arena."
+  },
+  {
+    "id": 57,
+    "group": "action",
+    "text": "Help the apprentice arrange the colored stones around the damaged sundial."
+  },
+  {
+    "id": 58,
+    "group": "action",
+    "text": "Signal the caravan when the final obstacle has been removed."
+  },
+  {
+    "id": 59,
+    "group": "action",
+    "text": "Collect the fallen branches and reinforce the shelter before the hail arrives."
+  },
+  {
+    "id": 60,
+    "group": "action",
+    "text": "Read the inscription aloud while I examine the symbols on the ceiling."
+  },
+  {
+    "id": 61,
+    "group": "conditions",
+    "text": "This shield restores 18 energy after blocking 3 consecutive attacks."
+  },
+  {
+    "id": 62,
+    "group": "conditions",
+    "text": "If the platform begins shaking, release the handle and crouch immediately."
+  },
+  {
+    "id": 63,
+    "group": "conditions",
+    "text": "Only enter the chamber when both pressure gauges display exactly 60."
+  },
+  {
+    "id": 64,
+    "group": "conditions",
+    "text": "The drone scans a radius of 14 meters for 8 seconds."
+  },
+  {
+    "id": 65,
+    "group": "conditions",
+    "text": "Deliver 5 medical kits before the countdown reaches 01:30."
+  },
+  {
+    "id": 66,
+    "group": "conditions",
+    "text": "Do not cross the painted line while the examination lamp is flashing."
+  },
+  {
+    "id": 67,
+    "group": "conditions",
+    "text": "Your critical chance increases by 12% while your health remains above 75%."
+  },
+  {
+    "id": 68,
+    "group": "conditions",
+    "text": "The special ammunition pierces 2 targets but deals 30% less damage afterward."
+  },
+  {
+    "id": 69,
+    "group": "conditions",
+    "text": "You cannot equip this relic until your reputation reaches level 9."
+  },
+  {
+    "id": 70,
+    "group": "conditions",
+    "text": "After collecting 11 fragments, return to the excavation supervisor."
+  },
+  {
+    "id": 71,
+    "group": "conditions",
+    "text": "If the scanner detects movement, remain still for at least 4 seconds."
+  },
+  {
+    "id": 72,
+    "group": "conditions",
+    "text": "The protective field lasts 16 seconds unless its generator is destroyed."
+  },
+  {
+    "id": 73,
+    "group": "conditions",
+    "text": "Do not spend the last repair charge before checking the rear engine."
+  },
+  {
+    "id": 74,
+    "group": "conditions",
+    "text": "Each rescued worker adds 25 seconds to the remaining evacuation time."
+  },
+  {
+    "id": 75,
+    "group": "conditions",
+    "text": "This recipe requires 3 mushrooms, 2 bottles of water, and 1 copper pot."
+  },
+  {
+    "id": 76,
+    "group": "conditions",
+    "text": "You may choose another reward only after declining the offered weapon."
+  },
+  {
+    "id": 77,
+    "group": "conditions",
+    "text": "The eastern lift remains unavailable until the power conduit is repaired."
+  },
+  {
+    "id": 78,
+    "group": "conditions",
+    "text": "Prevent the crawler from losing more than 35% of its armor."
+  },
+  {
+    "id": 79,
+    "group": "conditions",
+    "text": "The marked opponent takes 22 additional damage from your next ranged attack."
+  },
+  {
+    "id": 80,
+    "group": "conditions",
+    "text": "Do not interrupt the ritual unless the outer circle changes from gold to violet."
+  },
+  {
+    "id": 81,
+    "group": "long",
+    "text": "The curator insists that the damaged painting depicts a real location, although the coastline in the background resembles nothing on our modern maps."
+  },
+  {
+    "id": 82,
+    "group": "long",
+    "text": "We could follow the smugglers through the caves, but the rising tide would trap anyone who failed to reach the second exit before nightfall."
+  },
+  {
+    "id": 83,
+    "group": "long",
+    "text": "She accepted the assignment because it offered a chance to find her missing teacher, rather than because she believed the promised reward would ever be paid."
+  },
+  {
+    "id": 84,
+    "group": "long",
+    "text": "The caretaker asked us to repair the broken fountain before searching the mansion, explaining that its running water kept the restless spirits calm."
+  },
+  {
+    "id": 85,
+    "group": "long",
+    "text": "Although the new armor protected him from the explosion, its weight prevented him from escaping the flooded compartment without help from the other divers."
+  },
+  {
+    "id": 86,
+    "group": "long",
+    "text": "I left the package beside the red doorway as instructed, yet the woman who collected it claimed she had expected us to arrive several days earlier."
+  },
+  {
+    "id": 87,
+    "group": "long",
+    "text": "If you decide to reopen the laboratory, make sure the ventilation system is working before disturbing any of the dust covering the experimental equipment."
+  },
+  {
+    "id": 88,
+    "group": "long",
+    "text": "The envoy brought a proposal that seemed generous at first, but accepting its final condition would leave the border villages entirely dependent on foreign supplies."
+  },
+  {
+    "id": 89,
+    "group": "long",
+    "text": "Our scout believes the tracks belong to a wounded animal, though their perfectly even spacing suggests that someone may be trying to lure us into an ambush."
+  },
+  {
+    "id": 90,
+    "group": "long",
+    "text": "Before activating the beacon, gather everyone inside the reinforced shelter and check that the emergency shutters can still close over the damaged western windows."
+  },
+  {
+    "id": 91,
+    "group": "long",
+    "text": "The singer recognized the stolen instrument by a tiny scratch near its handle, a detail she had described to the investigators before they found the suspect."
+  },
+  {
+    "id": 92,
+    "group": "long",
+    "text": "You are free to take the mountain route, provided that you bring enough climbing equipment for the companions who have never crossed an ice field before."
+  },
+  {
+    "id": 93,
+    "group": "long",
+    "text": "The captain refused to abandon the cargo until we showed him that the cracked containers were leaking a substance capable of dissolving the ships wooden hull."
+  },
+  {
+    "id": 94,
+    "group": "long",
+    "text": "We assumed the apprentice had misunderstood the instructions, until the master admitted that he had deliberately given her an incomplete version of the spell."
+  },
+  {
+    "id": 95,
+    "group": "long",
+    "text": "If the creatures remain quiet after the music stops, lower your weapons slowly and allow the youngest one to approach the food placed near the entrance."
+  },
+  {
+    "id": 96,
+    "group": "long",
+    "text": "The abandoned tram still runs between the two settlements, but nobody knows who repairs its engine or why it always stops at the empty hillside station."
+  },
+  {
+    "id": 97,
+    "group": "long",
+    "text": "She would have recognized the impostor sooner if the council had allowed her to examine the signature on the treaty instead of keeping it locked away."
+  },
+  {
+    "id": 98,
+    "group": "long",
+    "text": "The device can locate buried metal objects, but it cannot distinguish valuable artifacts from ordinary scrap without a separate reading from the portable analyzer."
+  },
+  {
+    "id": 99,
+    "group": "long",
+    "text": "After the storm passes, send a messenger to each neighboring village so that we can learn which roads are safe enough for the supply convoys to use."
+  },
+  {
+    "id": 100,
+    "group": "long",
+    "text": "We have enough medicine to stabilize the injured passengers tonight, but finding a doctor before morning will require someone to cross the damaged railway bridge."
+  }
+]

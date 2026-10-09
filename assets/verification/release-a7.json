@@ -1,0 +1,11 @@
+{
+  "version": "2.0.0a7",
+  "core_checks": 57,
+  "pipeline_checks": 39,
+  "asset_checks": 12,
+  "exe_checks": 17,
+  "wheel_checks": 17,
+  "source_files": 31,
+  "latency_100_sentence_test_run": false,
+  "full_700_ms_acceptance": false
+}

@@ -1,0 +1,35 @@
+{
+  "scope": "Separate single-cue diagnostic, real local model. WDDM PID-specific memory snapshot, not full-replay peak or physical residency.",
+  "source": "You are free to take the mountain route, provided that you bring enough\nclimbing equipment for the companions who have never crossed an ice field\nbefore.",
+  "raw_outputs": [
+    "你可以選擇走山道，但必須帶足夠的攀爬裝備，以應對那些尚未穿越過冰川的同伴。"
+  ],
+  "result": {
+    "source": "You are free to take the mountain route, provided that you bring enough\nclimbing equipment for the companions who have never crossed an ice field\nbefore.",
+    "target": "",
+    "provider": "local",
+    "origin": "未取得可靠譯文",
+    "warning": "譯文可能遺漏否定，已保留原文。",
+    "cache_hit": false,
+    "model_ms": 151.4774999814108,
+    "ocr_confidence": null,
+    "queue_ms": 0.053499999921768904,
+    "postprocess_ms": 0.5253000126685947,
+    "backend_state": "warm"
+  },
+  "owned_gpu_process_memory": {
+    "pid": 11552,
+    "counter": "WDDM GPUProcessMemory",
+    "dedicated_mib": 1551.53,
+    "shared_mib": 82.0,
+    "adapter_rows": [
+      {
+        "Name": "pid_11552_luid_0x00000000_0x000121EB_phys_0",
+        "DedicatedUsage": 1626898432,
+        "SharedUsage": 85983232
+      }
+    ]
+  },
+  "own_model_stopped": true,
+  "workers_stopped": true
+}

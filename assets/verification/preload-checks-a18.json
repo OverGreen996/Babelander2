@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "tests_run": 24,
+  "failures": 0,
+  "errors": 0,
+  "qt_platform": "offscreen",
+  "backend": "controlled fake",
+  "real_game": false,
+  "visible_windows": false,
+  "paid_api": false
+}

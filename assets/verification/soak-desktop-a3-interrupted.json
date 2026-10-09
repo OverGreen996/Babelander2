@@ -1,0 +1,222 @@
+{
+  "passed": false,
+  "status": "interrupted_by_user_to_remove_obstructing_windows",
+  "version": "2.0.0a3",
+  "frozen": true,
+  "exe_sha256": "842c52cd894c5c37aa0d3393752bb8c2bb6d94b4b06eda4450ccfe4aa2cffcfc",
+  "observed_seconds": 1501.19,
+  "last_sample_result_count": 492,
+  "warning_events": 20,
+  "capture_fixture_occluded": true,
+  "samples": [
+    {
+      "elapsed": 0.0,
+      "results": 0,
+      "rss_mb": 171.27,
+      "private_mb": 581.82,
+      "gdi": 17,
+      "handles": 1242
+    },
+    {
+      "elapsed": 60.08,
+      "results": 20,
+      "rss_mb": 265.95,
+      "private_mb": 662.09,
+      "gdi": 16,
+      "handles": 1326
+    },
+    {
+      "elapsed": 120.12,
+      "results": 40,
+      "rss_mb": 262.07,
+      "private_mb": 658.16,
+      "gdi": 16,
+      "handles": 1328
+    },
+    {
+      "elapsed": 180.17,
+      "results": 59,
+      "rss_mb": 260.71,
+      "private_mb": 658.12,
+      "gdi": 16,
+      "handles": 1327
+    },
+    {
+      "elapsed": 240.22,
+      "results": 79,
+      "rss_mb": 265.66,
+      "private_mb": 662.93,
+      "gdi": 16,
+      "handles": 1324
+    },
+    {
+      "elapsed": 300.27,
+      "results": 98,
+      "rss_mb": 261.21,
+      "private_mb": 658.22,
+      "gdi": 16,
+      "handles": 1327
+    },
+    {
+      "elapsed": 360.31,
+      "results": 118,
+      "rss_mb": 258.45,
+      "private_mb": 658.22,
+      "gdi": 16,
+      "handles": 1328
+    },
+    {
+      "elapsed": 420.36,
+      "results": 138,
+      "rss_mb": 263.35,
+      "private_mb": 664.0,
+      "gdi": 16,
+      "handles": 1334
+    },
+    {
+      "elapsed": 480.41,
+      "results": 157,
+      "rss_mb": 239.18,
+      "private_mb": 658.3,
+      "gdi": 16,
+      "handles": 1331
+    },
+    {
+      "elapsed": 540.45,
+      "results": 177,
+      "rss_mb": 238.98,
+      "private_mb": 659.2,
+      "gdi": 16,
+      "handles": 1332
+    },
+    {
+      "elapsed": 600.5,
+      "results": 196,
+      "rss_mb": 243.86,
+      "private_mb": 664.04,
+      "gdi": 16,
+      "handles": 1333
+    },
+    {
+      "elapsed": 660.55,
+      "results": 216,
+      "rss_mb": 239.13,
+      "private_mb": 659.23,
+      "gdi": 16,
+      "handles": 1334
+    },
+    {
+      "elapsed": 720.61,
+      "results": 236,
+      "rss_mb": 243.97,
+      "private_mb": 664.0,
+      "gdi": 16,
+      "handles": 1333
+    },
+    {
+      "elapsed": 780.66,
+      "results": 255,
+      "rss_mb": 239.27,
+      "private_mb": 659.23,
+      "gdi": 16,
+      "handles": 1338
+    },
+    {
+      "elapsed": 840.7,
+      "results": 275,
+      "rss_mb": 239.37,
+      "private_mb": 659.2,
+      "gdi": 16,
+      "handles": 1336
+    },
+    {
+      "elapsed": 900.75,
+      "results": 294,
+      "rss_mb": 275.35,
+      "private_mb": 707.26,
+      "gdi": 16,
+      "handles": 1336
+    },
+    {
+      "elapsed": 960.8,
+      "results": 314,
+      "rss_mb": 238.45,
+      "private_mb": 659.16,
+      "gdi": 16,
+      "handles": 1339
+    },
+    {
+      "elapsed": 1020.84,
+      "results": 334,
+      "rss_mb": 244.37,
+      "private_mb": 664.0,
+      "gdi": 16,
+      "handles": 1340
+    },
+    {
+      "elapsed": 1080.89,
+      "results": 353,
+      "rss_mb": 239.62,
+      "private_mb": 659.2,
+      "gdi": 16,
+      "handles": 1341
+    },
+    {
+      "elapsed": 1140.94,
+      "results": 373,
+      "rss_mb": 244.49,
+      "private_mb": 664.03,
+      "gdi": 16,
+      "handles": 1347
+    },
+    {
+      "elapsed": 1200.99,
+      "results": 392,
+      "rss_mb": 243.68,
+      "private_mb": 663.13,
+      "gdi": 16,
+      "handles": 1348
+    },
+    {
+      "elapsed": 1261.03,
+      "results": 412,
+      "rss_mb": 238.92,
+      "private_mb": 659.3,
+      "gdi": 16,
+      "handles": 1345
+    },
+    {
+      "elapsed": 1321.08,
+      "results": 432,
+      "rss_mb": 243.75,
+      "private_mb": 664.1,
+      "gdi": 16,
+      "handles": 1324
+    },
+    {
+      "elapsed": 1381.12,
+      "results": 451,
+      "rss_mb": 238.96,
+      "private_mb": 659.3,
+      "gdi": 16,
+      "handles": 1325
+    },
+    {
+      "elapsed": 1441.19,
+      "results": 473,
+      "rss_mb": 242.61,
+      "private_mb": 658.52,
+      "gdi": 19,
+      "handles": 1374
+    },
+    {
+      "elapsed": 1501.19,
+      "results": 492,
+      "rss_mb": 288.8,
+      "private_mb": 716.82,
+      "gdi": 19,
+      "handles": 1378
+    }
+  ],
+  "scope": "Incomplete real desktop test. User requested unobstructed desktop. Raw accidentally overlapping UI text removed; no full 30 minute pass claimed."
+}

@@ -1,0 +1,8506 @@
+{
+  "version": "2.0.0a3",
+  "frozen": true,
+  "exe_sha256": "86f3cc901c3fffcaf7a40104f53d158a6ed96b6eb5335d191c077cfb06064497",
+  "qt_platform": "offscreen",
+  "passed": true,
+  "duration_seconds": 1800.41,
+  "checks": {
+    "duration_completed": true,
+    "ongoing_results": true,
+    "no_controller_errors": true,
+    "no_translation_warnings": true,
+    "offscreen_platform_without_desktop_capture": true,
+    "bounded_handles": true,
+    "bounded_private_memory": true,
+    "workers_stopped": true,
+    "owned_model_stopped": true
+  },
+  "changes": 588,
+  "samples": [
+    {
+      "elapsed": 0.0,
+      "results": 0,
+      "rss_mb": 110.07,
+      "private_mb": 557.11,
+      "gdi": 0,
+      "handles": 450
+    },
+    {
+      "elapsed": 60.0,
+      "results": 21,
+      "rss_mb": 207.99,
+      "private_mb": 641.01,
+      "gdi": 0,
+      "handles": 557
+    },
+    {
+      "elapsed": 120.05,
+      "results": 41,
+      "rss_mb": 202.99,
+      "private_mb": 635.49,
+      "gdi": 0,
+      "handles": 556
+    },
+    {
+      "elapsed": 180.09,
+      "results": 60,
+      "rss_mb": 221.57,
+      "private_mb": 653.77,
+      "gdi": 0,
+      "handles": 554
+    },
+    {
+      "elapsed": 240.14,
+      "results": 80,
+      "rss_mb": 215.76,
+      "private_mb": 648.38,
+      "gdi": 0,
+      "handles": 556
+    },
+    {
+      "elapsed": 300.19,
+      "results": 99,
+      "rss_mb": 221.49,
+      "private_mb": 653.67,
+      "gdi": 0,
+      "handles": 553
+    },
+    {
+      "elapsed": 360.24,
+      "results": 119,
+      "rss_mb": 210.8,
+      "private_mb": 643.17,
+      "gdi": 0,
+      "handles": 555
+    },
+    {
+      "elapsed": 420.28,
+      "results": 139,
+      "rss_mb": 203.56,
+      "private_mb": 636.85,
+      "gdi": 0,
+      "handles": 554
+    },
+    {
+      "elapsed": 480.33,
+      "results": 158,
+      "rss_mb": 210.89,
+      "private_mb": 643.46,
+      "gdi": 0,
+      "handles": 556
+    },
+    {
+      "elapsed": 540.38,
+      "results": 178,
+      "rss_mb": 228.45,
+      "private_mb": 660.57,
+      "gdi": 0,
+      "handles": 559
+    },
+    {
+      "elapsed": 600.42,
+      "results": 197,
+      "rss_mb": 218.24,
+      "private_mb": 651.11,
+      "gdi": 0,
+      "handles": 555
+    },
+    {
+      "elapsed": 660.47,
+      "results": 217,
+      "rss_mb": 211.44,
+      "private_mb": 643.16,
+      "gdi": 0,
+      "handles": 557
+    },
+    {
+      "elapsed": 720.52,
+      "results": 237,
+      "rss_mb": 223.22,
+      "private_mb": 655.66,
+      "gdi": 0,
+      "handles": 558
+    },
+    {
+      "elapsed": 780.56,
+      "results": 256,
+      "rss_mb": 217.47,
+      "private_mb": 649.73,
+      "gdi": 0,
+      "handles": 551
+    },
+    {
+      "elapsed": 840.61,
+      "results": 276,
+      "rss_mb": 207.11,
+      "private_mb": 639.26,
+      "gdi": 0,
+      "handles": 553
+    },
+    {
+      "elapsed": 900.66,
+      "results": 295,
+      "rss_mb": 229.84,
+      "private_mb": 661.9,
+      "gdi": 0,
+      "handles": 555
+    },
+    {
+      "elapsed": 960.7,
+      "results": 315,
+      "rss_mb": 212.43,
+      "private_mb": 645.39,
+      "gdi": 0,
+      "handles": 553
+    },
+    {
+      "elapsed": 1020.75,
+      "results": 335,
+      "rss_mb": 207.81,
+      "private_mb": 639.95,
+      "gdi": 0,
+      "handles": 555
+    },
+    {
+      "elapsed": 1080.8,
+      "results": 354,
+      "rss_mb": 218.6,
+      "private_mb": 651.19,
+      "gdi": 0,
+      "handles": 553
+    },
+    {
+      "elapsed": 1140.84,
+      "results": 374,
+      "rss_mb": 207.39,
+      "private_mb": 640.05,
+      "gdi": 0,
+      "handles": 555
+    },
+    {
+      "elapsed": 1200.89,
+      "results": 393,
+      "rss_mb": 231.07,
+      "private_mb": 662.96,
+      "gdi": 0,
+      "handles": 557
+    },
+    {
+      "elapsed": 1260.94,
+      "results": 413,
+      "rss_mb": 219.42,
+      "private_mb": 651.06,
+      "gdi": 0,
+      "handles": 554
+    },
+    {
+      "elapsed": 1320.99,
+      "results": 433,
+      "rss_mb": 214.74,
+      "private_mb": 647.23,
+      "gdi": 0,
+      "handles": 556
+    },
+    {
+      "elapsed": 1381.03,
+      "results": 452,
+      "rss_mb": 220.06,
+      "private_mb": 652.54,
+      "gdi": 0,
+      "handles": 555
+    },
+    {
+      "elapsed": 1441.08,
+      "results": 472,
+      "rss_mb": 210.26,
+      "private_mb": 643.38,
+      "gdi": 0,
+      "handles": 557
+    },
+    {
+      "elapsed": 1501.12,
+      "results": 491,
+      "rss_mb": 232.28,
+      "private_mb": 664.09,
+      "gdi": 0,
+      "handles": 559
+    },
+    {
+      "elapsed": 1561.17,
+      "results": 511,
+      "rss_mb": 213.77,
+      "private_mb": 647.19,
+      "gdi": 0,
+      "handles": 556
+    },
+    {
+      "elapsed": 1621.22,
+      "results": 531,
+      "rss_mb": 226.98,
+      "private_mb": 659.27,
+      "gdi": 0,
+      "handles": 559
+    },
+    {
+      "elapsed": 1681.28,
+      "results": 550,
+      "rss_mb": 215.59,
+      "private_mb": 647.79,
+      "gdi": 0,
+      "handles": 560
+    },
+    {
+      "elapsed": 1741.33,
+      "results": 570,
+      "rss_mb": 221.54,
+      "private_mb": 653.52,
+      "gdi": 0,
+      "handles": 558
+    }
+  ],
+  "results": [
+    {
+      "elapsed": 0.66,
+      "ms": 0,
+      "warnings": 0,
+      "count": 0,
+      "translations": []
+    },
+    {
+      "elapsed": 2.91,
+      "ms": 1925.07,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 3.62,
+      "ms": 435.31,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 6.53,
+      "ms": 423.79,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 10.12,
+      "ms": 790.01,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 12.72,
+      "ms": 418.79,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 15.91,
+      "ms": 406.97,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 18.83,
+      "ms": 421.4,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 22.06,
+      "ms": 420.63,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 24.99,
+      "ms": 438.17,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 28.19,
+      "ms": 423.42,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 31.11,
+      "ms": 423.28,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 34.34,
+      "ms": 437.02,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 37.25,
+      "ms": 424.05,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 40.45,
+      "ms": 404.19,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 43.36,
+      "ms": 421.66,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 46.59,
+      "ms": 433.12,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 49.5,
+      "ms": 421.3,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 52.67,
+      "ms": 390.79,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 55.56,
+      "ms": 394.39,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 58.77,
+      "ms": 402.32,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 61.95,
+      "ms": 686.19,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 64.92,
+      "ms": 475.47,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 67.78,
+      "ms": 391.48,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 71.36,
+      "ms": 753.33,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 73.94,
+      "ms": 407.45,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 77.12,
+      "ms": 388.67,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 80.02,
+      "ms": 406.58,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 83.24,
+      "ms": 405.39,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 86.14,
+      "ms": 433.6,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 89.33,
+      "ms": 389.48,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 92.52,
+      "ms": 390.9,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 95.41,
+      "ms": 402.0,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 98.59,
+      "ms": 404.57,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 101.47,
+      "ms": 375.08,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 104.66,
+      "ms": 388.82,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 107.53,
+      "ms": 389.32,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 110.74,
+      "ms": 409.48,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 113.92,
+      "ms": 388.89,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 116.8,
+      "ms": 392.16,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 119.99,
+      "ms": 392.9,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 123.12,
+      "ms": 654.17,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 126.08,
+      "ms": 479.4,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 128.97,
+      "ms": 391.51,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 132.5,
+      "ms": 719.28,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 135.39,
+      "ms": 424.33,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 138.28,
+      "ms": 392.29,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 141.52,
+      "ms": 435.46,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 144.41,
+      "ms": 405.66,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 147.74,
+      "ms": 484.03,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 150.62,
+      "ms": 408.45,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 153.53,
+      "ms": 424.63,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 156.75,
+      "ms": 420.41,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 159.66,
+      "ms": 420.46,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 162.86,
+      "ms": 404.1,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 165.77,
+      "ms": 420.63,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 168.99,
+      "ms": 423.34,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 171.89,
+      "ms": 406.06,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 175.09,
+      "ms": 405.98,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 178.0,
+      "ms": 405.64,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 181.5,
+      "ms": 696.36,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 184.56,
+      "ms": 587.36,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 187.66,
+      "ms": 606.53,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 190.55,
+      "ms": 410.9,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 193.45,
+      "ms": 418.31,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 196.69,
+      "ms": 428.29,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 199.58,
+      "ms": 410.05,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 202.77,
+      "ms": 392.63,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 205.67,
+      "ms": 419.61,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 208.89,
+      "ms": 421.81,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 211.8,
+      "ms": 411.1,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 215.0,
+      "ms": 406.3,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 217.89,
+      "ms": 408.01,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 221.11,
+      "ms": 421.25,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 224.02,
+      "ms": 407.81,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 227.2,
+      "ms": 390.61,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 230.08,
+      "ms": 391.32,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 233.28,
+      "ms": 391.24,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 236.16,
+      "ms": 381.09,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 239.34,
+      "ms": 390.69,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 242.86,
+      "ms": 705.73,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 245.61,
+      "ms": 573.8,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 248.7,
+      "ms": 597.47,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 251.61,
+      "ms": 407.71,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 254.8,
+      "ms": 390.54,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 257.69,
+      "ms": 407.01,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 260.89,
+      "ms": 391.9,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 263.78,
+      "ms": 393.94,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 266.97,
+      "ms": 391.72,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 269.89,
+      "ms": 423.79,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 273.12,
+      "ms": 421.81,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 276.02,
+      "ms": 391.14,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 279.2,
+      "ms": 393.43,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 282.41,
+      "ms": 391.48,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 285.27,
+      "ms": 375.58,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 288.47,
+      "ms": 407.32,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 291.36,
+      "ms": 393.11,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 294.56,
+      "ms": 405.12,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 297.44,
+      "ms": 376.31,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 300.62,
+      "ms": 390.7,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 304.06,
+      "ms": 632.53,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 306.8,
+      "ms": 575.09,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 309.94,
+      "ms": 636.25,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 312.81,
+      "ms": 389.9,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 316.02,
+      "ms": 388.22,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 318.91,
+      "ms": 409.26,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 322.09,
+      "ms": 389.62,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 325.0,
+      "ms": 406.99,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 328.2,
+      "ms": 407.96,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 331.39,
+      "ms": 390.5,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 334.27,
+      "ms": 391.2,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 337.45,
+      "ms": 390.99,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 340.36,
+      "ms": 410.38,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 343.58,
+      "ms": 404.36,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 346.44,
+      "ms": 376.51,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 349.69,
+      "ms": 406.14,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 352.58,
+      "ms": 394.17,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 355.81,
+      "ms": 439.41,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 358.7,
+      "ms": 387.04,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 361.94,
+      "ms": 419.52,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 365.2,
+      "ms": 784.24,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 368.3,
+      "ms": 630.55,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 371.39,
+      "ms": 607.15,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 374.3,
+      "ms": 418.62,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 377.19,
+      "ms": 408.05,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 380.41,
+      "ms": 421.22,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 383.3,
+      "ms": 403.82,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 386.5,
+      "ms": 391.74,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 389.41,
+      "ms": 410.01,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 392.61,
+      "ms": 423.63,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 395.53,
+      "ms": 421.21,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 398.72,
+      "ms": 389.68,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 401.64,
+      "ms": 422.62,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 404.88,
+      "ms": 424.19,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 407.77,
+      "ms": 405.99,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 410.99,
+      "ms": 422.83,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 413.91,
+      "ms": 423.55,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 417.14,
+      "ms": 435.44,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 420.03,
+      "ms": 406.23,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 423.24,
+      "ms": 391.86,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 426.42,
+      "ms": 699.96,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 429.55,
+      "ms": 637.53,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 432.64,
+      "ms": 597.95,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 435.56,
+      "ms": 436.17,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 438.47,
+      "ms": 427.64,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 441.67,
+      "ms": 444.6,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 444.53,
+      "ms": 412.2,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 447.7,
+      "ms": 414.49,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 450.58,
+      "ms": 428.35,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 453.77,
+      "ms": 429.64,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 456.95,
+      "ms": 433.36,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 459.86,
+      "ms": 424.88,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 463.09,
+      "ms": 423.48,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 465.99,
+      "ms": 405.04,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 469.24,
+      "ms": 431.6,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 472.14,
+      "ms": 417.59,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 475.36,
+      "ms": 422.85,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 478.27,
+      "ms": 421.03,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 481.77,
+      "ms": 691.83,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 484.36,
+      "ms": 407.63,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 487.77,
+      "ms": 616.07,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 490.88,
+      "ms": 621.24,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 493.45,
+      "ms": 390.64,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 496.66,
+      "ms": 421.51,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 499.89,
+      "ms": 428.13,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 502.81,
+      "ms": 436.81,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 505.7,
+      "ms": 406.19,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 508.92,
+      "ms": 419.72,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 511.81,
+      "ms": 408.96,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 515.03,
+      "ms": 416.26,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 518.22,
+      "ms": 390.85,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 521.08,
+      "ms": 389.23,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 524.27,
+      "ms": 391.0,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 527.16,
+      "ms": 390.95,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 530.34,
+      "ms": 389.47,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 533.53,
+      "ms": 390.29,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 536.41,
+      "ms": 392.14,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 539.61,
+      "ms": 404.5,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 542.77,
+      "ms": 661.66,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 545.62,
+      "ms": 389.14,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 549.14,
+      "ms": 713.21,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 551.89,
+      "ms": 582.26,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 554.75,
+      "ms": 387.23,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 558.0,
+      "ms": 438.61,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 560.88,
+      "ms": 392.95,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 564.08,
+      "ms": 403.32,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 566.95,
+      "ms": 389.08,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 570.14,
+      "ms": 388.83,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 573.34,
+      "ms": 393.36,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 576.22,
+      "ms": 392.05,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 579.39,
+      "ms": 390.35,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 582.28,
+      "ms": 393.62,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 585.47,
+      "ms": 402.37,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 588.67,
+      "ms": 405.47,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 591.55,
+      "ms": 390.71,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 594.75,
+      "ms": 408.45,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 597.64,
+      "ms": 406.24,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 601.14,
+      "ms": 717.56,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 603.78,
+      "ms": 457.66,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 606.97,
+      "ms": 388.16,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 610.12,
+      "ms": 654.52,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 613.02,
+      "ms": 392.37,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 616.2,
+      "ms": 392.91,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 619.09,
+      "ms": 405.83,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 622.28,
+      "ms": 392.06,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 625.17,
+      "ms": 395.04,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 628.38,
+      "ms": 390.27,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 631.25,
+      "ms": 391.34,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 634.47,
+      "ms": 417.68,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 637.36,
+      "ms": 408.64,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 640.55,
+      "ms": 374.94,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 643.75,
+      "ms": 390.64,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 646.64,
+      "ms": 406.83,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 649.84,
+      "ms": 410.84,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 652.74,
+      "ms": 391.18,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 655.92,
+      "ms": 390.45,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 658.81,
+      "ms": 401.76,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 662.31,
+      "ms": 698.49,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 665.27,
+      "ms": 478.77,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 668.16,
+      "ms": 389.95,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 671.69,
+      "ms": 738.81,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 674.25,
+      "ms": 391.1,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 677.45,
+      "ms": 389.53,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 680.33,
+      "ms": 389.98,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 683.53,
+      "ms": 403.45,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 686.41,
+      "ms": 404.54,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 689.59,
+      "ms": 387.6,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 692.77,
+      "ms": 391.71,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 695.66,
+      "ms": 406.14,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 698.84,
+      "ms": 403.44,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 701.72,
+      "ms": 392.68,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 704.91,
+      "ms": 392.78,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 708.11,
+      "ms": 403.54,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 711.08,
+      "ms": 449.77,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 713.97,
+      "ms": 390.83,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 717.16,
+      "ms": 392.83,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 720.33,
+      "ms": 390.17,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 723.52,
+      "ms": 703.2,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 726.45,
+      "ms": 460.1,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 729.33,
+      "ms": 402.77,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 732.88,
+      "ms": 746.42,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 735.44,
+      "ms": 391.75,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 738.62,
+      "ms": 387.03,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 741.5,
+      "ms": 394.95,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 744.7,
+      "ms": 407.23,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 747.92,
+      "ms": 405.8,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 750.78,
+      "ms": 389.01,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 753.99,
+      "ms": 391.8,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 756.84,
+      "ms": 390.7,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 760.05,
+      "ms": 407.11,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 762.94,
+      "ms": 392.24,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 766.19,
+      "ms": 450.27,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 769.09,
+      "ms": 405.02,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 772.28,
+      "ms": 406.32,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 775.17,
+      "ms": 389.4,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 778.36,
+      "ms": 392.36,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 781.89,
+      "ms": 717.33,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 784.62,
+      "ms": 556.4,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 787.67,
+      "ms": 577.87,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 790.56,
+      "ms": 391.14,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 793.77,
+      "ms": 404.78,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 796.64,
+      "ms": 392.86,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 799.83,
+      "ms": 389.21,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 803.08,
+      "ms": 425.26,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 805.95,
+      "ms": 390.05,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 809.16,
+      "ms": 402.95,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 812.03,
+      "ms": 389.1,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 815.22,
+      "ms": 388.95,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 818.12,
+      "ms": 419.49,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 821.31,
+      "ms": 404.73,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 824.17,
+      "ms": 390.23,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 827.38,
+      "ms": 407.7,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 830.61,
+      "ms": 421.01,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 833.55,
+      "ms": 450.92,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 836.49,
+      "ms": 436.11,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 839.67,
+      "ms": 406.21,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 842.83,
+      "ms": 675.9,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 845.92,
+      "ms": 608.74,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 848.88,
+      "ms": 452.45,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 851.8,
+      "ms": 420.06,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 855.02,
+      "ms": 410.56,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 857.91,
+      "ms": 406.62,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 861.12,
+      "ms": 427.32,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 864.02,
+      "ms": 404.8,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 867.22,
+      "ms": 407.67,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 870.44,
+      "ms": 423.1,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 873.34,
+      "ms": 406.4,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 876.56,
+      "ms": 422.11,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 879.47,
+      "ms": 421.74,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 882.38,
+      "ms": 421.11,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 885.59,
+      "ms": 409.06,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 888.52,
+      "ms": 424.98,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 891.74,
+      "ms": 421.54,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 894.66,
+      "ms": 437.2,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 897.86,
+      "ms": 409.43,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 900.75,
+      "ms": 403.89,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 904.08,
+      "ms": 528.65,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 907.16,
+      "ms": 590.8,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 910.11,
+      "ms": 470.12,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 913.02,
+      "ms": 408.42,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 916.24,
+      "ms": 421.92,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 919.14,
+      "ms": 421.63,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 922.31,
+      "ms": 388.33,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 925.5,
+      "ms": 386.66,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 928.41,
+      "ms": 405.0,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 931.59,
+      "ms": 405.11,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 934.47,
+      "ms": 387.24,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 937.64,
+      "ms": 387.6,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 940.83,
+      "ms": 403.83,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 943.72,
+      "ms": 403.32,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 946.91,
+      "ms": 389.17,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 949.78,
+      "ms": 388.92,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 952.97,
+      "ms": 393.45,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 955.89,
+      "ms": 421.5,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 959.09,
+      "ms": 406.55,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 962.03,
+      "ms": 425.32,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 965.42,
+      "ms": 592.37,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 968.52,
+      "ms": 609.26,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 971.45,
+      "ms": 453.34,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 974.36,
+      "ms": 420.25,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 977.58,
+      "ms": 421.13,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 980.49,
+      "ms": 421.27,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 983.67,
+      "ms": 391.02,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 986.55,
+      "ms": 391.41,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 989.75,
+      "ms": 407.37,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 992.66,
+      "ms": 422.27,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 995.89,
+      "ms": 440.82,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 998.81,
+      "ms": 419.03,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 1002.0,
+      "ms": 419.27,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 1004.89,
+      "ms": 404.25,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 1008.09,
+      "ms": 390.38,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 1011.3,
+      "ms": 408.11,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 1014.17,
+      "ms": 388.72,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 1017.36,
+      "ms": 403.59,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 1020.24,
+      "ms": 389.03,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 1023.42,
+      "ms": 389.94,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 1026.41,
+      "ms": 498.21,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 1029.97,
+      "ms": 764.38,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 1032.64,
+      "ms": 493.85,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 1035.55,
+      "ms": 418.94,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 1038.77,
+      "ms": 423.1,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 1041.7,
+      "ms": 432.59,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 1044.92,
+      "ms": 423.28,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 1047.81,
+      "ms": 407.53,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 1051.0,
+      "ms": 395.36,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 1053.91,
+      "ms": 407.49,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 1057.09,
+      "ms": 389.15,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 1060.28,
+      "ms": 389.49,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 1063.17,
+      "ms": 406.17,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 1066.39,
+      "ms": 405.85,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 1069.27,
+      "ms": 388.34,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 1072.45,
+      "ms": 389.14,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 1075.36,
+      "ms": 421.17,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 1078.61,
+      "ms": 439.27,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 1081.53,
+      "ms": 460.18,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 1084.75,
+      "ms": 423.56,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 1087.78,
+      "ms": 530.92,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 1090.88,
+      "ms": 591.73,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 1093.75,
+      "ms": 413.47,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 1096.95,
+      "ms": 431.84,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 1100.12,
+      "ms": 432.22,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 1103.03,
+      "ms": 446.12,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 1106.2,
+      "ms": 429.53,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 1109.08,
+      "ms": 431.75,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 1112.25,
+      "ms": 416.52,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 1115.42,
+      "ms": 413.66,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 1118.27,
+      "ms": 397.34,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 1121.44,
+      "ms": 410.99,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 1124.61,
+      "ms": 414.9,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 1127.47,
+      "ms": 410.91,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 1130.69,
+      "ms": 407.72,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 1133.59,
+      "ms": 407.11,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 1136.81,
+      "ms": 423.41,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 1139.74,
+      "ms": 421.57,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 1143.0,
+      "ms": 446.23,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 1145.88,
+      "ms": 407.48,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 1149.25,
+      "ms": 565.51,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 1152.36,
+      "ms": 599.99,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 1154.95,
+      "ms": 407.48,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 1158.17,
+      "ms": 422.48,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 1161.09,
+      "ms": 424.39,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 1164.34,
+      "ms": 429.91,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 1167.25,
+      "ms": 412.01,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 1170.45,
+      "ms": 407.14,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 1173.34,
+      "ms": 404.66,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 1176.59,
+      "ms": 422.85,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 1179.49,
+      "ms": 406.42,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 1182.7,
+      "ms": 404.08,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 1185.61,
+      "ms": 418.13,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 1188.84,
+      "ms": 417.86,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 1191.75,
+      "ms": 404.66,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 1194.97,
+      "ms": 419.8,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 1197.88,
+      "ms": 421.67,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 1201.25,
+      "ms": 567.86,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 1204.22,
+      "ms": 473.13,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 1207.12,
+      "ms": 420.3,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 1210.49,
+      "ms": 547.95,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 1213.36,
+      "ms": 421.35,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 1216.28,
+      "ms": 425.17,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 1219.49,
+      "ms": 408.06,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 1222.45,
+      "ms": 483.54,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 1225.67,
+      "ms": 421.16,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 1228.55,
+      "ms": 389.97,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 1231.78,
+      "ms": 422.06,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 1234.67,
+      "ms": 405.84,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 1237.91,
+      "ms": 420.99,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 1240.8,
+      "ms": 393.75,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 1244.0,
+      "ms": 407.55,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 1246.91,
+      "ms": 407.46,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 1250.14,
+      "ms": 422.53,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 1253.05,
+      "ms": 408.3,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 1256.27,
+      "ms": 405.41,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 1259.19,
+      "ms": 420.41,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 1262.72,
+      "ms": 713.76,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 1265.38,
+      "ms": 479.87,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 1268.27,
+      "ms": 408.55,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 1271.89,
+      "ms": 791.24,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 1274.49,
+      "ms": 421.44,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 1277.69,
+      "ms": 395.25,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 1280.61,
+      "ms": 420.14,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 1283.83,
+      "ms": 409.38,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 1286.74,
+      "ms": 420.22,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 1289.95,
+      "ms": 402.3,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 1292.83,
+      "ms": 385.62,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 1296.06,
+      "ms": 413.78,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 1298.97,
+      "ms": 420.32,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 1302.14,
+      "ms": 375.96,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 1305.02,
+      "ms": 387.83,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 1308.22,
+      "ms": 391.89,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 1311.41,
+      "ms": 390.4,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 1314.28,
+      "ms": 393.11,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 1317.49,
+      "ms": 388.86,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 1320.36,
+      "ms": 389.48,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 1323.91,
+      "ms": 741.57,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 1326.53,
+      "ms": 459.7,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 1329.72,
+      "ms": 389.37,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 1332.89,
+      "ms": 672.55,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 1335.78,
+      "ms": 404.96,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 1338.64,
+      "ms": 378.45,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 1341.84,
+      "ms": 392.05,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 1345.03,
+      "ms": 390.36,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 1347.91,
+      "ms": 406.08,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 1351.09,
+      "ms": 377.68,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 1354.28,
+      "ms": 391.27,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 1357.16,
+      "ms": 392.98,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 1360.36,
+      "ms": 403.39,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 1363.24,
+      "ms": 388.83,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 1366.44,
+      "ms": 400.86,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 1369.33,
+      "ms": 395.54,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 1372.53,
+      "ms": 405.81,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 1375.39,
+      "ms": 373.63,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 1378.58,
+      "ms": 389.79,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 1382.06,
+      "ms": 685.21,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 1384.83,
+      "ms": 582.37,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 1387.91,
+      "ms": 603.62,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 1390.8,
+      "ms": 389.46,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 1393.99,
+      "ms": 391.4,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 1396.86,
+      "ms": 392.62,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 1400.05,
+      "ms": 390.25,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 1403.24,
+      "ms": 388.73,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 1406.11,
+      "ms": 391.89,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 1409.33,
+      "ms": 409.65,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 1412.22,
+      "ms": 391.31,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 1415.41,
+      "ms": 390.06,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 1418.59,
+      "ms": 390.98,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 1421.49,
+      "ms": 402.42,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 1424.69,
+      "ms": 393.74,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 1427.56,
+      "ms": 390.72,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 1430.75,
+      "ms": 389.48,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 1433.64,
+      "ms": 390.99,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 1436.83,
+      "ms": 389.4,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 1440.03,
+      "ms": 390.25,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 1443.25,
+      "ms": 725.64,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 1446.31,
+      "ms": 574.59,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 1449.41,
+      "ms": 603.47,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 1452.27,
+      "ms": 390.58,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 1455.14,
+      "ms": 391.25,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 1458.34,
+      "ms": 391.83,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 1461.22,
+      "ms": 389.66,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 1464.41,
+      "ms": 393.47,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 1467.61,
+      "ms": 405.55,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 1470.49,
+      "ms": 389.93,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 1473.67,
+      "ms": 377.07,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 1476.55,
+      "ms": 388.87,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 1479.74,
+      "ms": 391.58,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 1482.62,
+      "ms": 404.78,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 1485.83,
+      "ms": 409.38,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 1489.05,
+      "ms": 407.23,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 1491.94,
+      "ms": 408.14,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 1495.19,
+      "ms": 441.06,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 1498.06,
+      "ms": 390.25,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 1501.28,
+      "ms": 408.1,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 1504.42,
+      "ms": 643.27,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 1507.5,
+      "ms": 590.52,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 1510.56,
+      "ms": 587.15,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 1513.45,
+      "ms": 390.56,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 1516.33,
+      "ms": 388.54,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 1519.52,
+      "ms": 393.09,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 1522.7,
+      "ms": 378.33,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 1525.58,
+      "ms": 391.89,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 1528.78,
+      "ms": 392.33,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 1531.69,
+      "ms": 406.44,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 1534.89,
+      "ms": 409.86,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 1537.77,
+      "ms": 391.11,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 1540.99,
+      "ms": 408.21,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 1543.89,
+      "ms": 421.14,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 1547.09,
+      "ms": 390.77,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 1550.31,
+      "ms": 422.88,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 1553.25,
+      "ms": 437.23,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 1556.17,
+      "ms": 441.4,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 1559.39,
+      "ms": 410.99,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 1562.31,
+      "ms": 425.44,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 1565.78,
+      "ms": 656.11,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 1568.99,
+      "ms": 725.98,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 1571.66,
+      "ms": 498.46,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 1574.55,
+      "ms": 421.88,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 1577.77,
+      "ms": 406.57,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 1580.67,
+      "ms": 411.65,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 1583.88,
+      "ms": 390.37,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 1586.78,
+      "ms": 408.21,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 1590.0,
+      "ms": 421.57,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 1592.94,
+      "ms": 438.94,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 1596.14,
+      "ms": 407.79,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 1599.06,
+      "ms": 423.29,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 1602.28,
+      "ms": 407.63,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 1605.19,
+      "ms": 424.54,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 1608.41,
+      "ms": 411.31,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 1611.31,
+      "ms": 423.31,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 1614.55,
+      "ms": 424.43,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 1617.44,
+      "ms": 392.61,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 1620.66,
+      "ms": 420.49,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 1623.58,
+      "ms": 423.8,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 1627.14,
+      "ms": 754.74,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 1629.92,
+      "ms": 606.1,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 1632.94,
+      "ms": 526.05,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 1635.81,
+      "ms": 392.15,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 1639.08,
+      "ms": 441.21,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 1642.0,
+      "ms": 437.97,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 1645.24,
+      "ms": 423.31,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 1648.14,
+      "ms": 421.98,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 1651.38,
+      "ms": 423.49,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 1654.27,
+      "ms": 403.06,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 1657.45,
+      "ms": 391.14,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 1660.36,
+      "ms": 404.88,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 1663.58,
+      "ms": 418.53,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 1666.47,
+      "ms": 403.57,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 1669.69,
+      "ms": 410.01,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 1672.59,
+      "ms": 422.9,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 1675.83,
+      "ms": 426.1,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 1678.74,
+      "ms": 422.94,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 1682.12,
+      "ms": 587.22,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 1685.02,
+      "ms": 404.86,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 1688.14,
+      "ms": 628.64,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 1691.24,
+      "ms": 604.4,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 1694.12,
+      "ms": 405.58,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 1697.03,
+      "ms": 422.37,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 1700.25,
+      "ms": 410.21,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 1703.17,
+      "ms": 438.21,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 1706.39,
+      "ms": 405.61,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 1709.3,
+      "ms": 417.36,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 1712.53,
+      "ms": 422.91,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 1715.44,
+      "ms": 405.92,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 1718.62,
+      "ms": 391.35,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 1721.53,
+      "ms": 406.73,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 1724.75,
+      "ms": 408.25,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 1727.66,
+      "ms": 421.8,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 1730.88,
+      "ms": 400.74,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 1733.78,
+      "ms": 422.34,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 1737.02,
+      "ms": 423.19,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 1739.91,
+      "ms": 405.47,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 1743.38,
+      "ms": 660.51,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 1746.25,
+      "ms": 391.35,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 1749.5,
+      "ms": 753.56,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 1752.59,
+      "ms": 592.86,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 1755.5,
+      "ms": 408.95,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 1758.42,
+      "ms": 438.18,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 1761.33,
+      "ms": 407.72,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 1764.56,
+      "ms": 424.8,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 1767.45,
+      "ms": 403.64,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 1770.67,
+      "ms": 407.9,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 1773.88,
+      "ms": 405.96,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 1776.78,
+      "ms": 410.36,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 1779.97,
+      "ms": 391.73,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 1782.86,
+      "ms": 403.48,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 1786.11,
+      "ms": 439.47,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 1789.05,
+      "ms": 439.08,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 1791.94,
+      "ms": 405.79,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 1795.19,
+      "ms": 428.91,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 1798.09,
+      "ms": 420.21,
+      "warnings": 0,
+      "count": 1,
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "real_desktop_capture": false,
+  "scope": "Offscreen owned raster fixture: Qt/OCR/local CUDA/monitor, no Win32 desktop capture or GDI lifetime validation. No games or paid cloud soak; process private memory excludes separate llama.cpp model process."
+}

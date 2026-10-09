@@ -1,0 +1,439 @@
+{
+  "scope": "Real full CPU OCR on identical pre-rendered frames, alternating order, ONNX threads fixed at 2; OpenCV 16 versus 1. No translation or game FPS claim.",
+  "original_opencv_threads": 16,
+  "rows": [
+    {
+      "id": "1",
+      "expected": "The lighthouse keeper has returned.",
+      "runs": {
+        "16": {
+          "elapsed_ms": 121.71660002786666,
+          "cpu_seconds": 0.296875,
+          "text": "The lighthouse keeper has returned."
+        },
+        "1": {
+          "elapsed_ms": 129.04989998787642,
+          "cpu_seconds": 0.296875,
+          "text": "The lighthouse keeper has returned."
+        }
+      },
+      "texts_match": true
+    },
+    {
+      "id": "6",
+      "expected": "This helmet muffles every sound.",
+      "runs": {
+        "1": {
+          "elapsed_ms": 135.27619998785667,
+          "cpu_seconds": 0.34375,
+          "text": "This helmet muffles every sound."
+        },
+        "16": {
+          "elapsed_ms": 128.53730001370423,
+          "cpu_seconds": 0.296875,
+          "text": "This helmet muffles every sound."
+        }
+      },
+      "texts_match": true
+    },
+    {
+      "id": "11",
+      "expected": "The waterwheel turns against the current.",
+      "runs": {
+        "16": {
+          "elapsed_ms": 143.01549998344854,
+          "cpu_seconds": 0.34375,
+          "text": "The waterwheel turns against the current."
+        },
+        "1": {
+          "elapsed_ms": 132.35420000273734,
+          "cpu_seconds": 0.3125,
+          "text": "The waterwheel turns against the current."
+        }
+      },
+      "texts_match": true
+    },
+    {
+      "id": "16",
+      "expected": "The carriage needs a new axle.",
+      "runs": {
+        "1": {
+          "elapsed_ms": 126.45940002403222,
+          "cpu_seconds": 0.296875,
+          "text": "The carriage needs a new axle."
+        },
+        "16": {
+          "elapsed_ms": 117.10559998755343,
+          "cpu_seconds": 0.28125,
+          "text": "The carriage needs a new axle."
+        }
+      },
+      "texts_match": true
+    },
+    {
+      "id": "21",
+      "expected": "The baker remembered our faces even though we had visited in disguise.",
+      "runs": {
+        "16": {
+          "elapsed_ms": 185.91830000514165,
+          "cpu_seconds": 0.375,
+          "text": "The baker remembered our faces even though we had visited in disguise."
+        },
+        "1": {
+          "elapsed_ms": 167.96719998819754,
+          "cpu_seconds": 0.40625,
+          "text": "The baker remembered our faces even though we had visited in disguise."
+        }
+      },
+      "texts_match": true
+    },
+    {
+      "id": "26",
+      "expected": "She returned the medal because the victory had cost too many lives.",
+      "runs": {
+        "1": {
+          "elapsed_ms": 184.66679999255575,
+          "cpu_seconds": 0.328125,
+          "text": "She returned the medal because the victory had cost too many lives."
+        },
+        "16": {
+          "elapsed_ms": 163.4718000132125,
+          "cpu_seconds": 0.390625,
+          "text": "She returned the medal because the victory had cost too many lives."
+        }
+      },
+      "texts_match": true
+    },
+    {
+      "id": "31",
+      "expected": "We reached the monastery just as its oldest bell cracked in half.",
+      "runs": {
+        "16": {
+          "elapsed_ms": 171.81020000134595,
+          "cpu_seconds": 0.375,
+          "text": "We reached the monastery just as its oldest bell cracked in half."
+        },
+        "1": {
+          "elapsed_ms": 151.75979997729883,
+          "cpu_seconds": 0.375,
+          "text": "We reached the monastery just as its oldest bell cracked in half."
+        }
+      },
+      "texts_match": true
+    },
+    {
+      "id": "36",
+      "expected": "Our guide grew nervous whenever the conversation turned to the abandoned station.",
+      "runs": {
+        "1": {
+          "elapsed_ms": 306.2307999935001,
+          "cpu_seconds": 0.609375,
+          "text": "Our guide grew nervous whenever the conversation turned to the abandoned station."
+        },
+        "16": {
+          "elapsed_ms": 258.2898999971803,
+          "cpu_seconds": 0.5625,
+          "text": "Our guide grew nervous whenever the conversation turned to the abandoned station."
+        }
+      },
+      "texts_match": true
+    },
+    {
+      "id": "41",
+      "expected": "Cover the rear entrance while the miners climb the emergency ladder.",
+      "runs": {
+        "16": {
+          "elapsed_ms": 188.39339999249205,
+          "cpu_seconds": 0.375,
+          "text": "Cover the rear entrance while the miners climb the emergency ladder."
+        },
+        "1": {
+          "elapsed_ms": 152.13889998267405,
+          "cpu_seconds": 0.359375,
+          "text": "Cover the rear entrance while the miners climb the emergency ladder."
+        }
+      },
+      "texts_match": true
+    },
+    {
+      "id": "46",
+      "expected": "Hold the rope steady while I inspect the broken suspension cable.",
+      "runs": {
+        "1": {
+          "elapsed_ms": 195.2342000149656,
+          "cpu_seconds": 0.4375,
+          "text": "Hold the rope steady while I inspect the broken suspension cable."
+        },
+        "16": {
+          "elapsed_ms": 156.10540000488982,
+          "cpu_seconds": 0.359375,
+          "text": "Hold the rope steady while I inspect the broken suspension cable."
+        }
+      },
+      "texts_match": true
+    },
+    {
+      "id": "51",
+      "expected": "Check the lower decks for passengers who missed the evacuation announcement.",
+      "runs": {
+        "16": {
+          "elapsed_ms": 306.762099993648,
+          "cpu_seconds": 0.625,
+          "text": "Check the lower decks for passengers who missed the evacuation announcement."
+        },
+        "1": {
+          "elapsed_ms": 238.04230001405813,
+          "cpu_seconds": 0.53125,
+          "text": "Check the lower decks for passengers who missed the evacuation announcement."
+        }
+      },
+      "texts_match": true
+    },
+    {
+      "id": "56",
+      "expected": "Use the maintenance hatch to reach the control room beneath the arena.",
+      "runs": {
+        "1": {
+          "elapsed_ms": 201.81339999544434,
+          "cpu_seconds": 0.40625,
+          "text": "Use the maintenance hatch to reach the control room beneath the arena."
+        },
+        "16": {
+          "elapsed_ms": 181.86480001895688,
+          "cpu_seconds": 0.421875,
+          "text": "Use the maintenance hatch to reach the control room beneath the arena."
+        }
+      },
+      "texts_match": true
+    },
+    {
+      "id": "61",
+      "expected": "This shield restores 18 energy after blocking 3 consecutive attacks.",
+      "runs": {
+        "16": {
+          "elapsed_ms": 190.690799994627,
+          "cpu_seconds": 0.390625,
+          "text": "This shield restores 18 energy after blocking 3 consecutive attacks."
+        },
+        "1": {
+          "elapsed_ms": 158.2328999938909,
+          "cpu_seconds": 0.359375,
+          "text": "This shield restores 18 energy after blocking 3 consecutive attacks."
+        }
+      },
+      "texts_match": true
+    },
+    {
+      "id": "66",
+      "expected": "Do not cross the painted line while the examination lamp is flashing.",
+      "runs": {
+        "1": {
+          "elapsed_ms": 184.74379999679513,
+          "cpu_seconds": 0.40625,
+          "text": "Do not cross the painted line while the examination lamp is flashing."
+        },
+        "16": {
+          "elapsed_ms": 156.31649998249486,
+          "cpu_seconds": 0.359375,
+          "text": "Do not cross the painted line while the examination lamp is flashing."
+        }
+      },
+      "texts_match": true
+    },
+    {
+      "id": "71",
+      "expected": "If the scanner detects movement, remain still for at least 4 seconds.",
+      "runs": {
+        "16": {
+          "elapsed_ms": 179.20739998226054,
+          "cpu_seconds": 0.40625,
+          "text": "If the scanner detects movement, remain still for at least 4 seconds."
+        },
+        "1": {
+          "elapsed_ms": 163.37720002047718,
+          "cpu_seconds": 0.359375,
+          "text": "If the scanner detects movement, remain still for at least 4 seconds."
+        }
+      },
+      "texts_match": true
+    },
+    {
+      "id": "76",
+      "expected": "You may choose another reward only after declining the offered weapon.",
+      "runs": {
+        "1": {
+          "elapsed_ms": 189.840799983358,
+          "cpu_seconds": 0.390625,
+          "text": "You may choose another reward only after declining the offered weapon."
+        },
+        "16": {
+          "elapsed_ms": 160.6681999983266,
+          "cpu_seconds": 0.421875,
+          "text": "You may choose another reward only after declining the offered weapon."
+        }
+      },
+      "texts_match": true
+    },
+    {
+      "id": "81",
+      "expected": "The curator insists that the damaged painting depicts a real location, although the coastline in the background resembles nothing on our modern maps.",
+      "runs": {
+        "16": {
+          "elapsed_ms": 303.8379000208806,
+          "cpu_seconds": 0.671875,
+          "text": "The curator insists that the damaged painting depicts a real location, although the coastline in the background resembles nothing on our modern maps."
+        },
+        "1": {
+          "elapsed_ms": 236.1562000005506,
+          "cpu_seconds": 0.515625,
+          "text": "The curator insists that the damaged painting depicts a real location, although the coastline in the background resembles nothing on our modern maps."
+        }
+      },
+      "texts_match": true
+    },
+    {
+      "id": "86",
+      "expected": "I left the package beside the red doorway as instructed, yet the woman who collected it claimed she had expected us to arrive several days earlier.",
+      "runs": {
+        "1": {
+          "elapsed_ms": 322.8120999992825,
+          "cpu_seconds": 0.65625,
+          "text": "I left the package beside the red doorway as instructed, yet the woman who collected it claimed she had expected us to arrive several days earlier."
+        },
+        "16": {
+          "elapsed_ms": 235.01280002528802,
+          "cpu_seconds": 0.515625,
+          "text": "I left the package beside the red doorway as instructed, yet the woman who collected it claimed she had expected us to arrive several days earlier."
+        }
+      },
+      "texts_match": true
+    },
+    {
+      "id": "91",
+      "expected": "The singer recognized the stolen instrument by a tiny scratch near its handle, a detail she had described to the investigators before they found the suspect.",
+      "runs": {
+        "16": {
+          "elapsed_ms": 289.9037000024691,
+          "cpu_seconds": 0.546875,
+          "text": "The singer recognized the stolen instrument by a tiny scratch near its handle, a detail she had described to the investigators before they found the suspect."
+        },
+        "1": {
+          "elapsed_ms": 244.55859998124652,
+          "cpu_seconds": 0.53125,
+          "text": "The singer recognized the stolen instrument by a tiny scratch near its handle, a detail she had described to the investigators before they found the suspect."
+        }
+      },
+      "texts_match": true
+    },
+    {
+      "id": "96",
+      "expected": "The abandoned tram still runs between the two settlements, but nobody knows who repairs its engine or why it always stops at the empty hillside station.",
+      "runs": {
+        "1": {
+          "elapsed_ms": 335.6056999764405,
+          "cpu_seconds": 0.703125,
+          "text": "The abandoned tram still runs between the two settlements, but nobody knows who repairs its engine or why it always stops at the empty hillside station."
+        },
+        "16": {
+          "elapsed_ms": 246.98480000370182,
+          "cpu_seconds": 0.53125,
+          "text": "The abandoned tram still runs between the two settlements, but nobody knows who repairs its engine or why it always stops at the empty hillside station."
+        }
+      },
+      "texts_match": true
+    },
+    {
+      "id": "mixed_inline-base",
+      "expected": "Open the copper gate",
+      "runs": {
+        "16": {
+          "elapsed_ms": 116.81269999826327,
+          "cpu_seconds": 0.234375,
+          "text": "Open the copper gate"
+        },
+        "1": {
+          "elapsed_ms": 115.77110001235269,
+          "cpu_seconds": 0.296875,
+          "text": "Open the copper gate"
+        }
+      },
+      "texts_match": true
+    },
+    {
+      "id": "mixed_inline-changed",
+      "expected": "Open the copper gate before midnight.",
+      "runs": {
+        "1": {
+          "elapsed_ms": 139.2889999842737,
+          "cpu_seconds": 0.34375,
+          "text": "Open the copper gate before midnight."
+        },
+        "16": {
+          "elapsed_ms": 131.02919998345897,
+          "cpu_seconds": 0.328125,
+          "text": "Open the copper gate before midnight."
+        }
+      },
+      "texts_match": true
+    },
+    {
+      "id": "mixed_new_line-base",
+      "expected": "Open the silver gate",
+      "runs": {
+        "16": {
+          "elapsed_ms": 116.66449997574091,
+          "cpu_seconds": 0.25,
+          "text": "Open the silver gate"
+        },
+        "1": {
+          "elapsed_ms": 109.1339000267908,
+          "cpu_seconds": 0.28125,
+          "text": "Open the silver gate"
+        }
+      },
+      "texts_match": true
+    },
+    {
+      "id": "mixed_new_line-changed",
+      "expected": "Open the silver gate before midnight.",
+      "runs": {
+        "1": {
+          "elapsed_ms": 144.02750000590459,
+          "cpu_seconds": 0.3125,
+          "text": "Open the silver gate before midnight."
+        },
+        "16": {
+          "elapsed_ms": 144.98890002141707,
+          "cpu_seconds": 0.328125,
+          "text": "Open the silver gate before midnight."
+        }
+      },
+      "texts_match": true
+    }
+  ],
+  "all_recognized_texts_match": true,
+  "summary": {
+    "1": {
+      "latency": {
+        "n": 24,
+        "mean_ms": 186.02,
+        "p50_ms": 163.38,
+        "p95_ms": 322.81,
+        "max_ms": 335.61
+      },
+      "cpu_core_seconds": 9.859,
+      "expected_texts_seen": 24
+    },
+    "16": {
+      "latency": {
+        "n": 24,
+        "mean_ms": 183.13,
+        "p50_ms": 163.47,
+        "p95_ms": 303.84,
+        "max_ms": 306.76
+      },
+      "cpu_core_seconds": 9.688,
+      "expected_texts_seen": 24
+    }
+  }
+}

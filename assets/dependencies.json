@@ -1,0 +1,300 @@
+[
+  {
+    "name": "altgraph",
+    "version": "0.17.5",
+    "license": "MIT",
+    "notices": [
+      "assets/licenses/altgraph/LICENSE"
+    ]
+  },
+  {
+    "name": "antlr4-python3-runtime",
+    "version": "4.9.3",
+    "license": "BSD",
+    "notices": []
+  },
+  {
+    "name": "certifi",
+    "version": "2026.7.22",
+    "license": "MPL-2.0",
+    "notices": [
+      "assets/licenses/certifi/LICENSE"
+    ]
+  },
+  {
+    "name": "charset-normalizer",
+    "version": "3.5.2",
+    "license": "MIT",
+    "notices": [
+      "assets/licenses/charset-normalizer/LICENSE"
+    ]
+  },
+  {
+    "name": "colorama",
+    "version": "0.4.6",
+    "license": "See installed package notices",
+    "notices": [
+      "assets/licenses/colorama/LICENSE.txt"
+    ]
+  },
+  {
+    "name": "colorlog",
+    "version": "6.12.0",
+    "license": "MIT License",
+    "notices": [
+      "assets/licenses/colorlog/LICENSE"
+    ]
+  },
+  {
+    "name": "flatbuffers",
+    "version": "25.12.19",
+    "license": "Apache 2.0",
+    "notices": []
+  },
+  {
+    "name": "idna",
+    "version": "3.20",
+    "license": "BSD-3-Clause",
+    "notices": [
+      "assets/licenses/idna/LICENSE.md"
+    ]
+  },
+  {
+    "name": "numpy",
+    "version": "2.5.3",
+    "license": "BSD-3-Clause AND 0BSD AND MIT AND Zlib AND CC0-1.0",
+    "notices": [
+      "assets/licenses/numpy/LICENSE.txt",
+      "assets/licenses/numpy/LICENSE.txt",
+      "assets/licenses/numpy/COPYING",
+      "assets/licenses/numpy/LICENSE",
+      "assets/licenses/numpy/dragon4_LICENSE.txt",
+      "assets/licenses/numpy/LICENSE.md",
+      "assets/licenses/numpy/LICENSE",
+      "assets/licenses/numpy/LICENSE.md",
+      "assets/licenses/numpy/LICENSE.txt",
+      "assets/licenses/numpy/LICENSE",
+      "assets/licenses/numpy/LICENSE.md",
+      "assets/licenses/numpy/LICENSE.md",
+      "assets/licenses/numpy/LICENSE.md",
+      "assets/licenses/numpy/LICENSE.md",
+      "assets/licenses/numpy/LICENSE.md",
+      "assets/licenses/numpy/LICENSE.md",
+      "assets/licenses/numpy/LICENSE.md"
+    ]
+  },
+  {
+    "name": "omegaconf",
+    "version": "2.3.1",
+    "license": "See installed package notices",
+    "notices": [
+      "assets/licenses/omegaconf/LICENSE"
+    ]
+  },
+  {
+    "name": "onnxruntime",
+    "version": "1.30.0",
+    "license": "MIT License",
+    "notices": []
+  },
+  {
+    "name": "opencc-python-reimplemented",
+    "version": "0.1.7",
+    "license": "Apache License",
+    "notices": [
+      "assets/licenses/opencc-python-reimplemented/LICENSE.txt"
+    ]
+  },
+  {
+    "name": "opencv-python",
+    "version": "5.0.0.93",
+    "license": "Apache 2.0",
+    "notices": [
+      "assets/licenses/opencv-python/LICENSE-3RD-PARTY.txt",
+      "assets/licenses/opencv-python/LICENSE.txt"
+    ]
+  },
+  {
+    "name": "packaging",
+    "version": "26.3",
+    "license": "Apache-2.0 OR BSD-2-Clause",
+    "notices": [
+      "assets/licenses/packaging/LICENSE",
+      "assets/licenses/packaging/LICENSE.APACHE",
+      "assets/licenses/packaging/LICENSE.BSD"
+    ]
+  },
+  {
+    "name": "pefile",
+    "version": "2024.8.26",
+    "license": "MIT",
+    "notices": [
+      "assets/licenses/pefile/LICENSE"
+    ]
+  },
+  {
+    "name": "pillow",
+    "version": "12.3.0",
+    "license": "MIT-CMU",
+    "notices": [
+      "assets/licenses/pillow/LICENSE"
+    ]
+  },
+  {
+    "name": "pip",
+    "version": "25.0.1",
+    "license": "MIT",
+    "notices": [
+      "assets/licenses/pip/LICENSE.txt"
+    ]
+  },
+  {
+    "name": "protobuf",
+    "version": "7.36.2",
+    "license": "3-Clause BSD License",
+    "notices": [
+      "assets/licenses/protobuf/LICENSE"
+    ]
+  },
+  {
+    "name": "pyclipper",
+    "version": "1.4.0",
+    "license": "MIT",
+    "notices": [
+      "assets/licenses/pyclipper/LICENSE"
+    ]
+  },
+  {
+    "name": "pyinstaller",
+    "version": "6.22.3",
+    "license": "GPLv2-or-later with a special exception which allows to use PyInstaller to build and distribute non-free programs (including commercial ones)",
+    "notices": [
+      "assets/licenses/pyinstaller/COPYING.txt"
+    ]
+  },
+  {
+    "name": "pyinstaller-hooks-contrib",
+    "version": "2026.8",
+    "license": "See installed package notices",
+    "notices": [
+      "assets/licenses/pyinstaller-hooks-contrib/LICENSE"
+    ]
+  },
+  {
+    "name": "PySide6",
+    "version": "6.11.2",
+    "license": "LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+    "notices": [
+      "assets/licenses/PySide6/LicenseRef-Qt-Commercial.txt"
+    ]
+  },
+  {
+    "name": "PySide6_Addons",
+    "version": "6.11.2",
+    "license": "LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+    "notices": [
+      "assets/licenses/PySide6_Addons/LicenseRef-Qt-Commercial.txt"
+    ]
+  },
+  {
+    "name": "PySide6_Essentials",
+    "version": "6.11.2",
+    "license": "LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+    "notices": [
+      "assets/licenses/PySide6_Essentials/LicenseRef-Qt-Commercial.txt"
+    ]
+  },
+  {
+    "name": "pywin32-ctypes",
+    "version": "0.2.3",
+    "license": "BSD-3-Clause",
+    "notices": [
+      "assets/licenses/pywin32-ctypes/LICENSE.txt"
+    ]
+  },
+  {
+    "name": "PyYAML",
+    "version": "6.0.3",
+    "license": "MIT",
+    "notices": [
+      "assets/licenses/PyYAML/LICENSE"
+    ]
+  },
+  {
+    "name": "rapidocr",
+    "version": "3.9.2",
+    "license": "Apache-2.0",
+    "notices": []
+  },
+  {
+    "name": "requests",
+    "version": "2.34.2",
+    "license": "Apache-2.0",
+    "notices": [
+      "assets/licenses/requests/LICENSE",
+      "assets/licenses/requests/NOTICE"
+    ]
+  },
+  {
+    "name": "setuptools",
+    "version": "84.0.0",
+    "license": "MIT",
+    "notices": [
+      "assets/licenses/setuptools/LICENSE",
+      "assets/licenses/setuptools/LICENSE",
+      "assets/licenses/setuptools/LICENSE",
+      "assets/licenses/setuptools/LICENSE",
+      "assets/licenses/setuptools/LICENSE",
+      "assets/licenses/setuptools/LICENSE",
+      "assets/licenses/setuptools/LICENSE",
+      "assets/licenses/setuptools/LICENSE",
+      "assets/licenses/setuptools/LICENSE",
+      "assets/licenses/setuptools/LICENSE.APACHE",
+      "assets/licenses/setuptools/LICENSE.BSD",
+      "assets/licenses/setuptools/LICENSE",
+      "assets/licenses/setuptools/LICENSE",
+      "assets/licenses/setuptools/LICENSE.txt",
+      "assets/licenses/setuptools/LICENSE"
+    ]
+  },
+  {
+    "name": "shapely",
+    "version": "2.2.0",
+    "license": "BSD-3-Clause",
+    "notices": [
+      "assets/licenses/shapely/LICENSE.txt",
+      "assets/licenses/shapely/LICENSE_GEOS",
+      "assets/licenses/shapely/LICENSE_win32"
+    ]
+  },
+  {
+    "name": "shiboken6",
+    "version": "6.11.2",
+    "license": "LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+    "notices": [
+      "assets/licenses/shiboken6/LicenseRef-Qt-Commercial.txt"
+    ]
+  },
+  {
+    "name": "six",
+    "version": "1.17.0",
+    "license": "MIT",
+    "notices": [
+      "assets/licenses/six/LICENSE"
+    ]
+  },
+  {
+    "name": "tqdm",
+    "version": "4.70.1",
+    "license": "MPL-2.0 AND MIT",
+    "notices": []
+  },
+  {
+    "name": "urllib3",
+    "version": "2.8.0",
+    "license": "MIT",
+    "notices": [
+      "assets/licenses/urllib3/LICENSE.txt"
+    ]
+  }
+]

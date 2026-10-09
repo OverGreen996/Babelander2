@@ -1,0 +1,336 @@
+{
+  "version": "2.0.0a23",
+  "exe_sha256": "0f1eded6aeecc2059f75a7e2926bfb11a8378d0dd0674bffb24f4d3aed742723",
+  "exit_code": 0,
+  "scope": "Owned EXE and its reported model PID only; WDDM counters are allocated dedicated/shared memory, not game FPS or power. Missing counters are N/A.",
+  "samples": [
+    {
+      "elapsed": 0.0,
+      "app": {
+        "working_mib": 1.89,
+        "private_mib": 0.41,
+        "cpu_seconds": 0.0
+      },
+      "model": null,
+      "gpu": []
+    },
+    {
+      "elapsed": 15.0,
+      "app": {
+        "working_mib": 200.57,
+        "private_mib": 638.33,
+        "cpu_seconds": 3.421875
+      },
+      "model": null,
+      "gpu": []
+    },
+    {
+      "elapsed": 30.0,
+      "app": {
+        "working_mib": 200.79,
+        "private_mib": 637.3,
+        "cpu_seconds": 5.265625
+      },
+      "model": null,
+      "gpu": []
+    },
+    {
+      "elapsed": 45.0,
+      "app": {
+        "working_mib": 201.31,
+        "private_mib": 637.59,
+        "cpu_seconds": 6.796875
+      },
+      "model": null,
+      "gpu": []
+    },
+    {
+      "elapsed": 60.0,
+      "app": {
+        "working_mib": 201.82,
+        "private_mib": 638.05,
+        "cpu_seconds": 8.4375
+      },
+      "model": null,
+      "gpu": []
+    },
+    {
+      "elapsed": 75.0,
+      "app": {
+        "working_mib": 202.57,
+        "private_mib": 638.15,
+        "cpu_seconds": 10.109375
+      },
+      "model": {
+        "working_mib": 1473.69,
+        "private_mib": 2003.35,
+        "cpu_seconds": 2.15625
+      },
+      "gpu": [
+        {
+          "pid": 5936,
+          "role": "app",
+          "dedicated_mib": null,
+          "shared_mib": null
+        },
+        {
+          "pid": 23424,
+          "role": "model",
+          "dedicated_mib": 1551.53,
+          "shared_mib": 82.0
+        }
+      ]
+    },
+    {
+      "elapsed": 90.94,
+      "app": {
+        "working_mib": 201.32,
+        "private_mib": 637.24,
+        "cpu_seconds": 11.984375
+      },
+      "model": {
+        "working_mib": 1473.69,
+        "private_mib": 2003.35,
+        "cpu_seconds": 2.15625
+      },
+      "gpu": []
+    },
+    {
+      "elapsed": 105.94,
+      "app": {
+        "working_mib": 202.86,
+        "private_mib": 638.15,
+        "cpu_seconds": 13.78125
+      },
+      "model": {
+        "working_mib": 1473.84,
+        "private_mib": 2003.49,
+        "cpu_seconds": 2.21875
+      },
+      "gpu": []
+    },
+    {
+      "elapsed": 120.94,
+      "app": {
+        "working_mib": 203.02,
+        "private_mib": 639.17,
+        "cpu_seconds": 15.46875
+      },
+      "model": {
+        "working_mib": 1473.84,
+        "private_mib": 2003.49,
+        "cpu_seconds": 2.234375
+      },
+      "gpu": []
+    },
+    {
+      "elapsed": 135.94,
+      "app": {
+        "working_mib": 234.22,
+        "private_mib": 682.36,
+        "cpu_seconds": 16.859375
+      },
+      "model": {
+        "working_mib": 1474.02,
+        "private_mib": 2003.68,
+        "cpu_seconds": 2.515625
+      },
+      "gpu": [
+        {
+          "pid": 5936,
+          "role": "app",
+          "dedicated_mib": null,
+          "shared_mib": null
+        },
+        {
+          "pid": 23424,
+          "role": "model",
+          "dedicated_mib": 1551.53,
+          "shared_mib": 82.0
+        }
+      ]
+    },
+    {
+      "elapsed": 151.75,
+      "app": {
+        "working_mib": 201.51,
+        "private_mib": 637.32,
+        "cpu_seconds": 18.65625
+      },
+      "model": {
+        "working_mib": 1474.02,
+        "private_mib": 2003.68,
+        "cpu_seconds": 2.546875
+      },
+      "gpu": []
+    },
+    {
+      "elapsed": 166.75,
+      "app": {
+        "working_mib": 201.78,
+        "private_mib": 638.18,
+        "cpu_seconds": 20.265625
+      },
+      "model": {
+        "working_mib": 1474.02,
+        "private_mib": 2003.68,
+        "cpu_seconds": 2.59375
+      },
+      "gpu": []
+    },
+    {
+      "elapsed": 181.75,
+      "app": {
+        "working_mib": 193.96,
+        "private_mib": 629.52,
+        "cpu_seconds": 21.640625
+      },
+      "model": {
+        "working_mib": 1474.02,
+        "private_mib": 2003.68,
+        "cpu_seconds": 2.609375
+      },
+      "gpu": []
+    },
+    {
+      "elapsed": 196.75,
+      "app": {
+        "working_mib": 214.64,
+        "private_mib": 650.0,
+        "cpu_seconds": 23.109375
+      },
+      "model": {
+        "working_mib": 1474.15,
+        "private_mib": 2003.8,
+        "cpu_seconds": 2.875
+      },
+      "gpu": [
+        {
+          "pid": 5936,
+          "role": "app",
+          "dedicated_mib": null,
+          "shared_mib": null
+        },
+        {
+          "pid": 23424,
+          "role": "model",
+          "dedicated_mib": 1551.53,
+          "shared_mib": 82.0
+        }
+      ]
+    },
+    {
+      "elapsed": 212.59,
+      "app": {
+        "working_mib": 235.81,
+        "private_mib": 684.21,
+        "cpu_seconds": 25.234375
+      },
+      "model": {
+        "working_mib": 1474.15,
+        "private_mib": 2003.8,
+        "cpu_seconds": 2.890625
+      },
+      "gpu": []
+    },
+    {
+      "elapsed": 227.59,
+      "app": {
+        "working_mib": 208.78,
+        "private_mib": 644.91,
+        "cpu_seconds": 26.78125
+      },
+      "model": {
+        "working_mib": 1474.15,
+        "private_mib": 2003.8,
+        "cpu_seconds": 2.921875
+      },
+      "gpu": []
+    },
+    {
+      "elapsed": 242.59,
+      "app": {
+        "working_mib": 208.94,
+        "private_mib": 644.92,
+        "cpu_seconds": 28.328125
+      },
+      "model": {
+        "working_mib": 1474.15,
+        "private_mib": 2003.8,
+        "cpu_seconds": 2.9375
+      },
+      "gpu": []
+    },
+    {
+      "elapsed": 257.59,
+      "app": {
+        "working_mib": 209.04,
+        "private_mib": 644.91,
+        "cpu_seconds": 29.75
+      },
+      "model": {
+        "working_mib": 1474.29,
+        "private_mib": 2003.95,
+        "cpu_seconds": 3.171875
+      },
+      "gpu": [
+        {
+          "pid": 5936,
+          "role": "app",
+          "dedicated_mib": null,
+          "shared_mib": null
+        },
+        {
+          "pid": 23424,
+          "role": "model",
+          "dedicated_mib": 1551.53,
+          "shared_mib": 82.0
+        }
+      ]
+    },
+    {
+      "elapsed": 273.3,
+      "app": {
+        "working_mib": 209.31,
+        "private_mib": 644.92,
+        "cpu_seconds": 31.359375
+      },
+      "model": {
+        "working_mib": 1474.32,
+        "private_mib": 2003.95,
+        "cpu_seconds": 3.171875
+      },
+      "gpu": []
+    },
+    {
+      "elapsed": 288.3,
+      "app": {
+        "working_mib": 209.43,
+        "private_mib": 644.93,
+        "cpu_seconds": 33.53125
+      },
+      "model": {
+        "working_mib": 1474.32,
+        "private_mib": 2003.95,
+        "cpu_seconds": 3.21875
+      },
+      "gpu": []
+    }
+  ],
+  "passed": true,
+  "resource_acceptance": {
+    "checks": {
+      "model_private_ram_bounded": true,
+      "owned_dedicated_memory_bounded": true,
+      "owned_shared_memory_bounded": true
+    },
+    "warmup_seconds": 120,
+    "allowed_drift_mib": 64,
+    "model_private_ram_range_mib": 0.46,
+    "owned_dedicated_memory_range_mib": 0.0,
+    "owned_shared_memory_range_mib": 0.0,
+    "gpu_counter_samples": 3,
+    "passed": true,
+    "scope": "64 MiB tolerance during this fixed-input replay, not a universal no-leak proof. GPU counter absence is N/A."
+  }
+}

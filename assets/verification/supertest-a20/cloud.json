@@ -1,0 +1,164 @@
+{
+  "live_api": true,
+  "credential_values_exported": false,
+  "original_data_modified": false,
+  "results": [
+    {
+      "provider": "google",
+      "mode": "dialog",
+      "source": "Do not cross the river until I return.",
+      "target": "在我回來之前，不要過河。",
+      "origin": "google",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 240.6009999976959,
+      "ocr_confidence": null,
+      "queue_ms": 0.07680000271648169,
+      "postprocess_ms": 5.138800013810396,
+      "backend_state": "cloud",
+      "request_ms": 248.51,
+      "cache_did_not_bill_again": true,
+      "passed": true
+    },
+    {
+      "provider": "google",
+      "mode": "reply",
+      "source": "請等我6分鐘，不要開始。",
+      "target": "Please wait 6 minutes before starting.",
+      "origin": "google",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 130.23689997498877,
+      "ocr_confidence": null,
+      "queue_ms": 0.055899989092722535,
+      "postprocess_ms": 1.2051999801769853,
+      "backend_state": "cloud",
+      "request_ms": 131.9,
+      "cache_did_not_bill_again": true,
+      "passed": true
+    },
+    {
+      "provider": "azure",
+      "mode": "dialog",
+      "source": "Do not cross the river until I return.",
+      "target": "在我回來之前，不要過河。",
+      "origin": "azure",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 361.8939000007231,
+      "ocr_confidence": null,
+      "queue_ms": 0.055800017435103655,
+      "postprocess_ms": 0.2783999952953309,
+      "backend_state": "cloud",
+      "request_ms": 364.55,
+      "cache_did_not_bill_again": true,
+      "passed": true
+    },
+    {
+      "provider": "azure",
+      "mode": "reply",
+      "source": "請等我6分鐘，不要開始。",
+      "target": "Please wait 6 minutes, don't start.",
+      "origin": "azure",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 351.27559999818914,
+      "ocr_confidence": null,
+      "queue_ms": 0.0641999940853566,
+      "postprocess_ms": 0.18080000882036984,
+      "backend_state": "cloud",
+      "request_ms": 351.85,
+      "cache_did_not_bill_again": true,
+      "passed": true
+    },
+    {
+      "provider": "deepl",
+      "mode": "dialog",
+      "source": "Do not cross the river until I return.",
+      "target": "在我回來之前，請勿渡河。",
+      "origin": "deepl",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 902.670700015733,
+      "ocr_confidence": null,
+      "queue_ms": 0.0610999995842576,
+      "postprocess_ms": 0.19010002142749727,
+      "backend_state": "cloud",
+      "request_ms": 905.04,
+      "cache_did_not_bill_again": true,
+      "passed": true
+    },
+    {
+      "provider": "deepl",
+      "mode": "reply",
+      "source": "請等我6分鐘，不要開始。",
+      "target": "Please wait 6 minutes; don't start yet.",
+      "origin": "deepl",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 802.6462999987416,
+      "ocr_confidence": null,
+      "queue_ms": 0.05979998968541622,
+      "postprocess_ms": 0.13380000018514693,
+      "backend_state": "cloud",
+      "request_ms": 803.15,
+      "cache_did_not_bill_again": true,
+      "passed": true
+    }
+  ],
+  "missing_credentials": [],
+  "requests_attempted": 6,
+  "network_provider_calls_attempted": 6,
+  "raw_synthetic_outputs": [
+    {
+      "provider": "google",
+      "source": "Do not cross the river until I return.",
+      "target": "在我回來之前，不要過河。"
+    },
+    {
+      "provider": "google",
+      "source": "請等我6分鐘，不要開始。",
+      "target": "Please wait 6 minutes before starting."
+    },
+    {
+      "provider": "azure",
+      "source": "Do not cross the river until I return.",
+      "target": "在我回來之前，不要過河。"
+    },
+    {
+      "provider": "azure",
+      "source": "請等我6分鐘，不要開始。",
+      "target": "Please wait 6 minutes, don't start."
+    },
+    {
+      "provider": "deepl",
+      "source": "Do not cross the river until I return.",
+      "target": "在我回來之前，請勿渡河。"
+    },
+    {
+      "provider": "deepl",
+      "source": "請等我6分鐘，不要開始。",
+      "target": "Please wait 6 minutes; don't start yet."
+    }
+  ],
+  "usage": [
+    [
+      "google",
+      50,
+      50
+    ],
+    [
+      "azure",
+      50,
+      50
+    ],
+    [
+      "deepl",
+      50,
+      50
+    ]
+  ],
+  "available_api_passed": true,
+  "all_three_apis_verified": true,
+  "version": "2.0.0a20"
+}

@@ -1,0 +1,28 @@
+{
+  "scope": "Three explicit local diagnostic reruns only; excluded from all original timing averages.",
+  "extra_model_requests": 3,
+  "rows": [
+    {
+      "id": 29,
+      "source": "Your father never told me why he burned the final map.",
+      "raw_model_output": "你父親從未告訴我他為什麼燒毀最後的圖紙。",
+      "normalized_output": "你父親從未告訴我他為什麼燒毀最後的圖紙。",
+      "warning": "譯文可能遺漏否定，已保留原文。"
+    },
+    {
+      "id": 86,
+      "source": "The prisoner claims he never entered the treasury, although the guards found a matching piece of his torn coat caught on the inner door.",
+      "raw_model_output": "囚犯声称他从未进入过 treasury，尽管守卫们在内门上发现了与他撕破外套上的一块匹配的碎片。",
+      "normalized_output": "囚犯聲稱他從未進入過 treasury，儘管守衛們在內門上發現了與他撕破外套上的一塊匹配的碎片。",
+      "warning": "譯文可能遺漏否定，已保留原文。"
+    },
+    {
+      "id": 97,
+      "source": "If the signal does not arrive by midnight, assume the rescue failed and lead the remaining survivors to the shelters beneath the old observatory.",
+      "raw_model_output": "若訊號在午夜前未到達，則假設救援失敗，並帶領餘下幸存者前往舊觀測站下方的避難所。",
+      "normalized_output": "若訊號在午夜前未到達，則假設救援失敗，並帶領餘下倖存者前往舊觀測站下方的避難所。",
+      "warning": "譯文可能遺漏否定，已保留原文。"
+    }
+  ],
+  "owned_model_stopped": true
+}

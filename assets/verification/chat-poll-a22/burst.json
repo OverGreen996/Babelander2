@@ -1,0 +1,4380 @@
+{
+  "version": "2.0.0a22",
+  "chat_scan_ms": 100,
+  "round": 0,
+  "period_ms": 350,
+  "source_sha256": {
+    "app.py": "891997819b10bb12d431986b25246913339e70cd69014fe1a8136e13d1bb0f47",
+    "assets.py": "bc9da3530b88152bb8d172741e5616510032ea7a6e2649f39a1a752dee88f42e",
+    "asset_ui.py": "c98c314c298318e801ffc016ff337c8521bac13367d0ebbe230f4f664e69719a",
+    "backends.py": "754ec21e991c083b766a99911acc96759c61874c16f1a6d33be13e584d51d3ab",
+    "capture.py": "aa2ba05263d1bdc42938f0ccd9baedd7ac678c49023b0bbf13f5078fd55d5bec",
+    "chat.py": "92850db5b4047a1d96e5da0ea86d84f3886a4ec64a062f8c050b32e05fa355b2",
+    "chat_ocr.py": "81fc5f7ab524f37989a1d61f54f0aa3ab4e3042018f7fa4ce6f37d1822970716",
+    "controller.py": "a6c0ec1103f30dd158d9d133eb882b7fa34a97c86410f5e40837863139b74254",
+    "engine.py": "aa9455fb84afcefcbd0a5269eef4bd50f3da0c249853e830ca3f967f4d92860b",
+    "equipment_fast_rules.py": "03f82464703190cf442007f3b4d44f4d8bf885a39641a1e36060b9251caef5d1",
+    "equipment_layout.py": "4a9e272f0b459e296aee5320d16dd1f3717ab23f64280e52de4c02e00dba36a9",
+    "equipment_lexicon.py": "793cec0949a5eacdae35af0c05d3a84fe8b356f98da54a679b3c4778fd0e23be",
+    "equipment_overlay.py": "09ab7f2628634e35dfa8d4eda3ec61f1592335b435508dc0453c67f07e006977",
+    "equipment_recovery.py": "cc2b83962fd7584453594eb466bf6944193c18230600024ee1abc4bb3382fb9f",
+    "evidence.py": "ac45a4f9ded83656246120a1982cf430542bac6c3b12370bd80bc4bc5df9dd1e",
+    "glossary.py": "1887b6df3eb833a5d510fcd61aad99f631b8f511d18d46f68391faf03b0c7a4c",
+    "language.py": "1fb8b6be99bc58c483b5cec8095088cc28e98081c25b54c990ef7896bcb0f2a3",
+    "layout.py": "27939d8c558579a2958457abfe420f7c8c804e39f21fe01225ea608cea7c6586",
+    "monitor.py": "ae8c343aa5d7ab737770e1b11b031f1d28285e3cab3f15fed74d9ffbb319d524",
+    "ocr.py": "0c7e2175ffcbc1aa2a552b6754c05a27e89a8cee5875c2c8734a009c568e69e2",
+    "pipeline.py": "36469e988e873af9cd54c2c9af107e15f28ad35d75460b717bf91c2b6624b1c6",
+    "quest_layout.py": "11725eb540c74c6b2e8a88113174cd98957a21a9b5b59dcf2c539eab4f408272",
+    "review_ui.py": "e13d0894d110c43f8f7b084fd4077cc55d5f20f0ec08e434cbb953625c56b50a",
+    "scheduler.py": "4cce01334a31035aaadd0273bee225e6698945293f044fcc02528a9c60aa0376",
+    "security.py": "191e1df1e890fac6977421935f3876c6220ef68886927bc9e43915cb2416e459",
+    "selftest.py": "f1575044881e80594dd1ff265516d3842b1946b8f1a61d8131ae01dedf396f85",
+    "semantic_rules.py": "c002b12a5c109878ad5cb80a958a490d7f4b8fd2a84a201e55cb7595dd3faab7",
+    "settings.py": "69e6518600607d2f7d92c1234c132d721581594f3a5e2a3d42ead87d0d2c9866",
+    "soaktest.py": "db0cb127b52f3742f11e958cdb8b01d5b362f02cb990261eb4c1c3c718ff2289",
+    "storage.py": "76f4f9c4ffb39a387f2b32756ddfbfe7a2421cf1068ebd94e25cbb8d4db513de",
+    "subtitle_layout.py": "691b94f9020f082eb0cec92fae0132de6b0becfe0c95cb45989490614651ae4b",
+    "subtitle_trigger.py": "9edad1eef072d16bd6fbbc271ec00505616baf9fc6ca1ca7e1d2388beb173b7a",
+    "theme.qss": "d38bee637cd6c60297687db7e6eba25b1597a0f23024e213651deb39453ac6d6",
+    "types.py": "b4aeec870a5d46f6dafff70d1fa29e7e295427be7b648c7c74f8feb0f0712950",
+    "validation.py": "ae8dcde09a8c621f7f124ebc23662d450a8b906e6692eda09f3349c3c1396b86",
+    "widgets.py": "3ad97215a30cf248f051527ceea93e48a0cd0037489a9caf040d47bda26ddfbd",
+    "window.py": "8fa7f109e3130d72d6222e9368b773c7aacff65909154af3c1fadfb10147cded",
+    "windows.py": "7195ffb79a16a83c70591f61f6f5ce70da982c93256edef1b19a3c177011265f",
+    "window_focus.py": "75bc4ee546a6b1fd50bc7e2a225f65305303122a1f83ed87786fc451cf4a58bf",
+    "__init__.py": "e0643366cba9ead4dcfe40c454af415dcddc6b3744f6aaf78732b7e04ab29625"
+  },
+  "results": [
+    {
+      "source": "[Party] P001: I need potions x4.",
+      "target": "[Party] P001: 我需要 藥水 x4。",
+      "provider": "local",
+      "origin": "本機模型",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 78.09560000896454,
+      "ocr_confidence": 0.99438,
+      "queue_ms": 0.1196000084746629,
+      "postprocess_ms": 0.2565000031609088,
+      "backend_state": "warm",
+      "index": 0,
+      "observed_ms": 289.7697000007611,
+      "shown_to_qt_ms": 310.3681999782566,
+      "stages": {
+        "capture_ms": 0.398799980757758,
+        "change_detection_ms": 1.0972000018227845,
+        "image_queue_wait_ms": 0.009200011845678091,
+        "ocr_ms": 206.53659998788498,
+        "dispatch_wait_ms": 0.16429999959655106,
+        "translation_queue_ms": 0.1196000084746629,
+        "translation_request_ms": 78.09560000896454,
+        "postprocess_ms": 0.2565000031609088
+      }
+    },
+    {
+      "source": "[Party] P002: Can you drop 3 arrows?",
+      "target": "[Party] P002: 可以放下3支箭嗎？",
+      "provider": "local",
+      "origin": "本機模型",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 75.59630001196638,
+      "ocr_confidence": 0.9784,
+      "queue_ms": 0.1689000055193901,
+      "postprocess_ms": 0.1438999897800386,
+      "backend_state": "warm",
+      "index": 1,
+      "observed_ms": 307.2008999879472,
+      "shown_to_qt_ms": 392.3160000122152,
+      "stages": {
+        "capture_ms": 0.4241999995429069,
+        "change_detection_ms": 1.626100012799725,
+        "image_queue_wait_ms": 0.0137000170070678,
+        "ocr_ms": 224.96639998280443,
+        "dispatch_wait_ms": 0.16529997810721397,
+        "translation_queue_ms": 0.1689000055193901,
+        "translation_request_ms": 75.59630001196638,
+        "postprocess_ms": 0.1438999897800386
+      }
+    },
+    {
+      "source": "[Party] P003: I need item x4.",
+      "target": "[Party] P003: 我需要物品 x4。",
+      "provider": "local",
+      "origin": "本機模型",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 67.84579998929985,
+      "ocr_confidence": 0.99574,
+      "queue_ms": 0.10410000686533749,
+      "postprocess_ms": 0.1750999945215881,
+      "backend_state": "warm",
+      "index": 2,
+      "observed_ms": 335.14879998983815,
+      "shown_to_qt_ms": 411.9174999941606,
+      "stages": {
+        "capture_ms": 0.4744000034406781,
+        "change_detection_ms": 1.0337999847251922,
+        "image_queue_wait_ms": 0.015199999324977398,
+        "ocr_ms": 263.3264999894891,
+        "dispatch_wait_ms": 0.049299997044727206,
+        "translation_queue_ms": 0.10410000686533749,
+        "translation_request_ms": 67.84579998929985,
+        "postprocess_ms": 0.1750999945215881
+      }
+    },
+    {
+      "source": "[Party] P004: Anyone got a spare shield?",
+      "target": "[Party] P004: 任何人有餘的防禦裝甲嗎？",
+      "provider": "local",
+      "origin": "本機模型",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 85.18090000143275,
+      "ocr_confidence": 0.99378,
+      "queue_ms": 0.13639999087899923,
+      "postprocess_ms": 0.14930000179447234,
+      "backend_state": "warm",
+      "index": 3,
+      "observed_ms": 323.7364999949932,
+      "shown_to_qt_ms": 424.19730001711287,
+      "stages": {
+        "capture_ms": 0.6639999919570982,
+        "change_detection_ms": 1.1635000118985772,
+        "image_queue_wait_ms": 0.017099984688684344,
+        "ocr_ms": 233.44749998068437,
+        "dispatch_wait_ms": 0.20559999393299222,
+        "translation_queue_ms": 0.13639999087899923,
+        "translation_request_ms": 85.18090000143275,
+        "postprocess_ms": 0.14930000179447234
+      }
+    },
+    {
+      "source": "[Party] P005: Trade 2 gems for 5 coins?",
+      "target": "[Party] P005: 交易 2 顆寶石以換取 5 硬幣？",
+      "provider": "local",
+      "origin": "本機模型",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 133.69580000289716,
+      "ocr_confidence": 0.99814,
+      "queue_ms": 0.1993000041693449,
+      "postprocess_ms": 0.308599992422387,
+      "backend_state": "warm",
+      "index": 4,
+      "observed_ms": 460.10240001487546,
+      "shown_to_qt_ms": 554.4492000190075,
+      "stages": {
+        "capture_ms": 0.35650000791065395,
+        "change_detection_ms": 1.0275999957229942,
+        "image_queue_wait_ms": 0.012699980288743973,
+        "ocr_ms": 319.89069998962805,
+        "dispatch_wait_ms": 0.14159997226670384,
+        "translation_queue_ms": 0.1993000041693449,
+        "translation_request_ms": 133.69580000289716,
+        "postprocess_ms": 0.308599992422387
+      }
+    },
+    {
+      "source": "[Party] P006: Save one potion for me.",
+      "target": "[Party] P006: 留一個藥水給我。",
+      "provider": "local",
+      "origin": "詞庫／完整規則",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 0,
+      "ocr_confidence": 0.99004,
+      "queue_ms": 0.09660000796429813,
+      "postprocess_ms": 0,
+      "backend_state": "none",
+      "index": 5,
+      "observed_ms": 296.01680001360364,
+      "shown_to_qt_ms": 364.670400012983,
+      "stages": {
+        "capture_ms": 0.729600025806576,
+        "change_detection_ms": 2.5235999783035368,
+        "image_queue_wait_ms": 0.005500012775883079,
+        "ocr_ms": 289.4889000162948,
+        "dispatch_wait_ms": 0.13840000610798597,
+        "translation_queue_ms": 0.09660000796429813,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0
+      }
+    },
+    {
+      "source": "[Party] P007: Need 10 wood and 6 stone.",
+      "target": "[Party] P007: 需要10塊木頭和6塊石頭。",
+      "provider": "local",
+      "origin": "本機模型",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 85.85530001437292,
+      "ocr_confidence": 0.97659,
+      "queue_ms": 1.496999990195036,
+      "postprocess_ms": 0.1863999932538718,
+      "backend_state": "warm",
+      "index": 6,
+      "observed_ms": 319.92979999631643,
+      "shown_to_qt_ms": 330.97139999154024,
+      "stages": {
+        "capture_ms": 0.4257999826222658,
+        "change_detection_ms": 2.337799989618361,
+        "image_queue_wait_ms": 0.0030999945010989904,
+        "ocr_ms": 226.86130000511184,
+        "dispatch_wait_ms": 0.13229998876340687,
+        "translation_queue_ms": 1.496999990195036,
+        "translation_request_ms": 85.85530001437292,
+        "postprocess_ms": 0.1863999932538718
+      }
+    },
+    {
+      "source": "[Party] P008: Please give me 4 bandages.",
+      "target": "[Party] P008: 請給我 4 繃帶。",
+      "provider": "local",
+      "origin": "本機模型",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 95.05319999880157,
+      "ocr_confidence": 0.98925,
+      "queue_ms": 0.09210000280290842,
+      "postprocess_ms": 0.26080000679939985,
+      "backend_state": "warm",
+      "index": 7,
+      "observed_ms": 378.720600012457,
+      "shown_to_qt_ms": 482.88789999787696,
+      "stages": {
+        "capture_ms": 0.436800008174032,
+        "change_detection_ms": 1.1884000268764794,
+        "image_queue_wait_ms": 0.016799982404336333,
+        "ocr_ms": 278.90360000310466,
+        "dispatch_wait_ms": 0.12440001592040062,
+        "translation_queue_ms": 0.09210000280290842,
+        "translation_request_ms": 95.05319999880157,
+        "postprocess_ms": 0.26080000679939985
+      }
+    },
+    {
+      "source": "[Party] P009: I have 2 keys left.",
+      "target": "[Party] P009: 我還有2把鑰匙。",
+      "provider": "local",
+      "origin": "本機模型",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 74.09340000594966,
+      "ocr_confidence": 0.98222,
+      "queue_ms": 0.12919999426230788,
+      "postprocess_ms": 0.152900000102818,
+      "backend_state": "warm",
+      "index": 8,
+      "observed_ms": 379.8116999969352,
+      "shown_to_qt_ms": 413.63860000274144,
+      "stages": {
+        "capture_ms": 0.41569999302737415,
+        "change_detection_ms": 2.9300000169314444,
+        "image_queue_wait_ms": 0.0026999914553016424,
+        "ocr_ms": 299.7883000061847,
+        "dispatch_wait_ms": 0.13979998766444623,
+        "translation_queue_ms": 0.12919999426230788,
+        "translation_request_ms": 74.09340000594966,
+        "postprocess_ms": 0.152900000102818
+      }
+    },
+    {
+      "source": "[Party] P010: Do not sell the quest item.",
+      "target": "[Party] P010: 不賣該任務物品。",
+      "provider": "local",
+      "origin": "本機模型",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 78.93990000593476,
+      "ocr_confidence": 0.99032,
+      "queue_ms": 0.25320000713691115,
+      "postprocess_ms": 0.7292999944183975,
+      "backend_state": "warm",
+      "index": 9,
+      "observed_ms": 356.4706000033766,
+      "shown_to_qt_ms": 449.3365999951493,
+      "stages": {
+        "capture_ms": 0.3902000025846064,
+        "change_detection_ms": 1.0021000052802265,
+        "image_queue_wait_ms": 0.016200006939470768,
+        "ocr_ms": 270.121100009419,
+        "dispatch_wait_ms": 0.05199998850002885,
+        "translation_queue_ms": 0.25320000713691115,
+        "translation_request_ms": 78.93990000593476,
+        "postprocess_ms": 0.7292999944183975
+      }
+    },
+    {
+      "source": "[Party] P011: Loot is on the ground.",
+      "target": "[Party] P011: 戰利品 在地面上。",
+      "provider": "local",
+      "origin": "本機模型",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 72.01530001475476,
+      "ocr_confidence": 0.99934,
+      "queue_ms": 0.17270000535063446,
+      "postprocess_ms": 0.14109999756328762,
+      "backend_state": "warm",
+      "index": 10,
+      "observed_ms": 333.47509999293834,
+      "shown_to_qt_ms": 347.36850002082065,
+      "stages": {
+        "capture_ms": 2.356100012548268,
+        "change_detection_ms": 2.2541999933309853,
+        "image_queue_wait_ms": 0.003200024366378784,
+        "ocr_ms": 253.52850000490434,
+        "dispatch_wait_ms": 0.047999987145885825,
+        "translation_queue_ms": 0.17270000535063446,
+        "translation_request_ms": 72.01530001475476,
+        "postprocess_ms": 0.14109999756328762
+      }
+    },
+    {
+      "source": "[Party] P012: Bag full, wait a sec.",
+      "target": "[Party] P012: 背包 全滿，請稍等。",
+      "provider": "local",
+      "origin": "本機模型",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 117.97359999036416,
+      "ocr_confidence": 0.99952,
+      "queue_ms": 0.13840000610798597,
+      "postprocess_ms": 0.18980001914314926,
+      "backend_state": "warm",
+      "index": 11,
+      "observed_ms": 379.47149999672547,
+      "shown_to_qt_ms": 411.1976999847684,
+      "stages": {
+        "capture_ms": 0.37739999243058264,
+        "change_detection_ms": 1.0112000163644552,
+        "image_queue_wait_ms": 0.015900004655122757,
+        "ocr_ms": 256.99550000717863,
+        "dispatch_wait_ms": 0.0686999992467463,
+        "translation_queue_ms": 0.13840000610798597,
+        "translation_request_ms": 117.97359999036416,
+        "postprocess_ms": 0.18980001914314926
+      }
+    },
+    {
+      "source": "[Party] P013: Take the loot, I already have it.",
+      "target": "[Party] P013: 取 戰利品，我已經有了。",
+      "provider": "local",
+      "origin": "本機模型",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 92.87759999278933,
+      "ocr_confidence": 0.99856,
+      "queue_ms": 0.061400001868605614,
+      "postprocess_ms": 0.19359998987056315,
+      "backend_state": "warm",
+      "index": 12,
+      "observed_ms": 319.1279999737162,
+      "shown_to_qt_ms": 376.3992000021972,
+      "stages": {
+        "capture_ms": 0.375000003259629,
+        "change_detection_ms": 1.0464999941177666,
+        "image_queue_wait_ms": 0.021099986042827368,
+        "ocr_ms": 221.04229999240488,
+        "dispatch_wait_ms": 0.23499998496845365,
+        "translation_queue_ms": 0.061400001868605614,
+        "translation_request_ms": 92.87759999278933,
+        "postprocess_ms": 0.19359998987056315
+      }
+    },
+    {
+      "source": "[Party] P014: Need ammo ASAP.",
+      "target": "[Party] P014: 需要 彈藥 儘快。",
+      "provider": "local",
+      "origin": "本機模型",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 85.36019999883138,
+      "ocr_confidence": 0.99918,
+      "queue_ms": 0.11000002268701792,
+      "postprocess_ms": 0.1849000109359622,
+      "backend_state": "warm",
+      "index": 13,
+      "observed_ms": 378.996699990239,
+      "shown_to_qt_ms": 411.80179998627864,
+      "stages": {
+        "capture_ms": 0.3538000164553523,
+        "change_detection_ms": 1.066600001649931,
+        "image_queue_wait_ms": 0.01400001929141581,
+        "ocr_ms": 289.03909999644384,
+        "dispatch_wait_ms": 0.05660002352669835,
+        "translation_queue_ms": 0.11000002268701792,
+        "translation_request_ms": 85.36019999883138,
+        "postprocess_ms": 0.1849000109359622
+      }
+    },
+    {
+      "source": "[Party] P015: I need mana, not health.",
+      "target": "[Party] P015: 我需要 魔力，而不是 生命值。",
+      "provider": "local",
+      "origin": "本機模型",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 117.27640000754036,
+      "ocr_confidence": 0.97524,
+      "queue_ms": 0.1331999956164509,
+      "postprocess_ms": 0.29779999749735,
+      "backend_state": "warm",
+      "index": 14,
+      "observed_ms": 410.78300002845936,
+      "shown_to_qt_ms": 489.07949999556877,
+      "stages": {
+        "capture_ms": 0.48049999168142676,
+        "change_detection_ms": 1.0818000009749085,
+        "image_queue_wait_ms": 0.018399994587525725,
+        "ocr_ms": 288.30200000084005,
+        "dispatch_wait_ms": 0.07080001523718238,
+        "translation_queue_ms": 0.1331999956164509,
+        "translation_request_ms": 117.27640000754036,
+        "postprocess_ms": 0.29779999749735
+      }
+    },
+    {
+      "source": "[Party] P016: GG",
+      "target": "[Party] P016: GG",
+      "provider": "local",
+      "origin": "詞庫／完整規則",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 0,
+      "ocr_confidence": 0.98958,
+      "queue_ms": 0.11529997573234141,
+      "postprocess_ms": 0,
+      "backend_state": "none",
+      "index": 15,
+      "observed_ms": 342.43670001160353,
+      "shown_to_qt_ms": 361.3158999942243,
+      "stages": {
+        "capture_ms": 0.6636000180151314,
+        "change_detection_ms": 3.584899997804314,
+        "image_queue_wait_ms": 0.003300025127828121,
+        "ocr_ms": 332.7193000004627,
+        "dispatch_wait_ms": 0.1467999827582389,
+        "translation_queue_ms": 0.11529997573234141,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0
+      }
+    },
+    {
+      "source": "[Party] P017: gg wp",
+      "target": "[Party] P017: GG WP",
+      "provider": "local",
+      "origin": "詞庫／完整規則",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 0,
+      "ocr_confidence": 0.95049,
+      "queue_ms": 0.17910002497956157,
+      "postprocess_ms": 0,
+      "backend_state": "none",
+      "index": 16,
+      "observed_ms": 274.4976000103634,
+      "shown_to_qt_ms": 280.1591000170447,
+      "stages": {
+        "capture_ms": 0.4512000014074147,
+        "change_detection_ms": 4.372600000351667,
+        "image_queue_wait_ms": 0.0024999899324029684,
+        "ocr_ms": 266.7420000070706,
+        "dispatch_wait_ms": 0.2103000006172806,
+        "translation_queue_ms": 0.17910002497956157,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0
+      }
+    },
+    {
+      "source": "[Party] P018: ty",
+      "target": "[Party] P018: TY",
+      "provider": "local",
+      "origin": "詞庫／完整規則",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 0,
+      "ocr_confidence": 0.98776,
+      "queue_ms": 2.4606000224594027,
+      "postprocess_ms": 0,
+      "backend_state": "none",
+      "index": 17,
+      "observed_ms": 298.15389998839237,
+      "shown_to_qt_ms": 330.88389999466017,
+      "stages": {
+        "capture_ms": 0.39969998761080205,
+        "change_detection_ms": 1.1569999915082008,
+        "image_queue_wait_ms": 0.01689998316578567,
+        "ocr_ms": 290.94760000589304,
+        "dispatch_wait_ms": 0.2009000163525343,
+        "translation_queue_ms": 2.4606000224594027,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0
+      }
+    },
+    {
+      "source": "[Party] P019: np",
+      "target": "[Party] P019: NP",
+      "provider": "local",
+      "origin": "詞庫／完整規則",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 0,
+      "ocr_confidence": 0.99148,
+      "queue_ms": 0.10720000136643648,
+      "postprocess_ms": 0,
+      "backend_state": "none",
+      "index": 18,
+      "observed_ms": 189.5117999811191,
+      "shown_to_qt_ms": 273.2239000033587,
+      "stages": {
+        "capture_ms": 0.35379998735152185,
+        "change_detection_ms": 0.9934999980032444,
+        "image_queue_wait_ms": 0.019500002963468432,
+        "ocr_ms": 185.19769998965785,
+        "dispatch_wait_ms": 0.1976999919861555,
+        "translation_queue_ms": 0.10720000136643648,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0
+      }
+    },
+    {
+      "source": "[Party] P020: brb 2 min",
+      "target": "[Party] P020: BRB 2 分鐘",
+      "provider": "local",
+      "origin": "詞庫／完整規則",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 0,
+      "ocr_confidence": 0.97636,
+      "queue_ms": 0.05500001134350896,
+      "postprocess_ms": 0,
+      "backend_state": "none",
+      "index": 19,
+      "observed_ms": 198.05819998146035,
+      "shown_to_qt_ms": 227.06400000606664,
+      "stages": {
+        "capture_ms": 0.8679000020492822,
+        "change_detection_ms": 1.1538999970071018,
+        "image_queue_wait_ms": 0.026900001103058457,
+        "ocr_ms": 193.58719998854212,
+        "dispatch_wait_ms": 0.12169999536126852,
+        "translation_queue_ms": 0.05500001134350896,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0
+      }
+    },
+    {
+      "source": "[Team] P021: Push left, two enemies there.",
+      "target": "[Team] P021: 推左，兩敵那裡。",
+      "provider": "local",
+      "origin": "本機模型",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 69.73429999197833,
+      "ocr_confidence": 0.99774,
+      "queue_ms": 0.3308999876026064,
+      "postprocess_ms": 0.18350000027567148,
+      "backend_state": "warm",
+      "index": 20,
+      "observed_ms": 291.79930000100285,
+      "shown_to_qt_ms": 296.05659999651834,
+      "stages": {
+        "capture_ms": 0.299000006634742,
+        "change_detection_ms": 0.832799996715039,
+        "image_queue_wait_ms": 0.0046000059228390455,
+        "ocr_ms": 215.93269999721088,
+        "dispatch_wait_ms": 0.13580001541413367,
+        "translation_queue_ms": 0.3308999876026064,
+        "translation_request_ms": 69.73429999197833,
+        "postprocess_ms": 0.18350000027567148
+      }
+    },
+    {
+      "source": "[Team] P022: Hold the point for 30 seconds.",
+      "target": "[Team] P022: 暫時保持點 30 秒。",
+      "provider": "local",
+      "origin": "本機模型",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 114.62279999977909,
+      "ocr_confidence": 0.99937,
+      "queue_ms": 0.13470000703819096,
+      "postprocess_ms": 0.21370002650655806,
+      "backend_state": "warm",
+      "index": 21,
+      "observed_ms": 337.1642999991309,
+      "shown_to_qt_ms": 432.4010999989696,
+      "stages": {
+        "capture_ms": 0.33889999031089246,
+        "change_detection_ms": 0.7681999995838851,
+        "image_queue_wait_ms": 0.014699995517730713,
+        "ocr_ms": 218.0680999881588,
+        "dispatch_wait_ms": 0.04939999780617654,
+        "translation_queue_ms": 0.13470000703819096,
+        "translation_request_ms": 114.62279999977909,
+        "postprocess_ms": 0.21370002650655806
+      }
+    },
+    {
+      "source": "[Team] P023: Do not push yet.",
+      "target": "[Team] P023: 不推暫時。",
+      "provider": "local",
+      "origin": "本機模型",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 93.19279997725971,
+      "ocr_confidence": 0.99879,
+      "queue_ms": 0.08499997784383595,
+      "postprocess_ms": 0.20730000687763095,
+      "backend_state": "warm",
+      "index": 22,
+      "observed_ms": 444.540299999062,
+      "shown_to_qt_ms": 516.6676999942865,
+      "stages": {
+        "capture_ms": 0.6716999923810363,
+        "change_detection_ms": 1.2273000029381365,
+        "image_queue_wait_ms": 0.013899989426136017,
+        "ocr_ms": 346.01730000576936,
+        "dispatch_wait_ms": 0.08789999992586672,
+        "translation_queue_ms": 0.08499997784383595,
+        "translation_request_ms": 93.19279997725971,
+        "postprocess_ms": 0.20730000687763095
+      }
+    },
+    {
+      "source": "[Team] P024: Enemy behind us!",
+      "target": "[Team] P024: 敵人在我後方!",
+      "provider": "local",
+      "origin": "本機模型",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 89.38770001986995,
+      "ocr_confidence": 0.99908,
+      "queue_ms": 0.48320001224055886,
+      "postprocess_ms": 0.11619998258538544,
+      "backend_state": "warm",
+      "index": 23,
+      "observed_ms": 381.2307000043802,
+      "shown_to_qt_ms": 455.9886000060942,
+      "stages": {
+        "capture_ms": 0.6556000153068453,
+        "change_detection_ms": 1.4041999820619822,
+        "image_queue_wait_ms": 0.010599993402138352,
+        "ocr_ms": 285.2261000080034,
+        "dispatch_wait_ms": 0.05289999535307288,
+        "translation_queue_ms": 0.48320001224055886,
+        "translation_request_ms": 89.38770001986995,
+        "postprocess_ms": 0.11619998258538544
+      }
+    },
+    {
+      "source": "[Team] P025: Cover me while I reload.",
+      "target": "[Team] P025: 掩護我而我 換彈。",
+      "provider": "local",
+      "origin": "本機模型",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 93.97879999596626,
+      "ocr_confidence": 0.99866,
+      "queue_ms": 0.09970000246539712,
+      "postprocess_ms": 0.13269999180920422,
+      "backend_state": "warm",
+      "index": 24,
+      "observed_ms": 346.1051000049338,
+      "shown_to_qt_ms": 358.2052999990992,
+      "stages": {
+        "capture_ms": 1.964900002349168,
+        "change_detection_ms": 1.698400010354817,
+        "image_queue_wait_ms": 0.0031999952625483274,
+        "ocr_ms": 246.2385999970138,
+        "dispatch_wait_ms": 0.1446000242140144,
+        "translation_queue_ms": 0.09970000246539712,
+        "translation_request_ms": 93.97879999596626,
+        "postprocess_ms": 0.13269999180920422
+      }
+    },
+    {
+      "source": "[Team] P026: Heal me please, HP 20%.",
+      "target": "[Team] P026: 請為我療傷，HP 20%",
+      "provider": "local",
+      "origin": "本機模型",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 115.90770000475459,
+      "ocr_confidence": 0.98357,
+      "queue_ms": 0.10529998689889908,
+      "postprocess_ms": 0.16540000797249377,
+      "backend_state": "warm",
+      "index": 25,
+      "observed_ms": 355.4188999987673,
+      "shown_to_qt_ms": 385.01410000026226,
+      "stages": {
+        "capture_ms": 0.4031999851576984,
+        "change_detection_ms": 1.3998000067658722,
+        "image_queue_wait_ms": 0.051000009989365935,
+        "ocr_ms": 235.05339998519048,
+        "dispatch_wait_ms": 0.05740000051446259,
+        "translation_queue_ms": 0.10529998689889908,
+        "translation_request_ms": 115.90770000475459,
+        "postprocess_ms": 0.16540000797249377
+      }
+    },
+    {
+      "source": "[Team] P027: Focus the healer first.",
+      "target": "[Team] P027: 優先集火補師。",
+      "provider": "local",
+      "origin": "詞庫／完整規則",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 0,
+      "ocr_confidence": 0.99765,
+      "queue_ms": 0.2927999885287136,
+      "postprocess_ms": 0,
+      "backend_state": "none",
+      "index": 26,
+      "observed_ms": 283.2831000268925,
+      "shown_to_qt_ms": 307.9078999871854,
+      "stages": {
+        "capture_ms": 0.4489000129979104,
+        "change_detection_ms": 1.5221000066958368,
+        "image_queue_wait_ms": 0.03160000778734684,
+        "ocr_ms": 275.98410000791773,
+        "dispatch_wait_ms": 0.052799994591623545,
+        "translation_queue_ms": 0.2927999885287136,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0
+      }
+    },
+    {
+      "source": "[Team] P028: My ult is ready.",
+      "target": "[Team] P028: 我的 大招 是準備好的。",
+      "provider": "local",
+      "origin": "本機模型",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 73.92499997513369,
+      "ocr_confidence": 0.99254,
+      "queue_ms": 0.09660000796429813,
+      "postprocess_ms": 0.1382000045850873,
+      "backend_state": "warm",
+      "index": 27,
+      "observed_ms": 290.5802999739535,
+      "shown_to_qt_ms": 350.85290001006797,
+      "stages": {
+        "capture_ms": 0.30610000248998404,
+        "change_detection_ms": 0.9439999994356185,
+        "image_queue_wait_ms": 0.014399993233382702,
+        "ocr_ms": 213.18700001575053,
+        "dispatch_wait_ms": 0.048999994760379195,
+        "translation_queue_ms": 0.09660000796429813,
+        "translation_request_ms": 73.92499997513369,
+        "postprocess_ms": 0.1382000045850873
+      }
+    },
+    {
+      "source": "[Team] P029: Ult in 10 sec.",
+      "target": "[Team] P029: 大招 10秒。",
+      "provider": "local",
+      "origin": "本機模型",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 73.97779999882914,
+      "ocr_confidence": 0.9955,
+      "queue_ms": 0.14139999984763563,
+      "postprocess_ms": 0.2086999884340912,
+      "backend_state": "warm",
+      "index": 28,
+      "observed_ms": 341.6651000152342,
+      "shown_to_qt_ms": 375.404599995818,
+      "stages": {
+        "capture_ms": 0.37990001146681607,
+        "change_detection_ms": 1.2833000218961388,
+        "image_queue_wait_ms": 0.017400016076862812,
+        "ocr_ms": 262.89450001786463,
+        "dispatch_wait_ms": 0.054500007536262274,
+        "translation_queue_ms": 0.14139999984763563,
+        "translation_request_ms": 73.97779999882914,
+        "postprocess_ms": 0.2086999884340912
+      }
+    },
+    {
+      "source": "[Team] P030: Need one more tank.",
+      "target": "[Team] P030: 需要再一個坦克。",
+      "provider": "local",
+      "origin": "本機模型",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 60.80100001418032,
+      "ocr_confidence": 0.99146,
+      "queue_ms": 0.12320000678300858,
+      "postprocess_ms": 0.12930002412758768,
+      "backend_state": "warm",
+      "index": 29,
+      "observed_ms": 254.7764999908395,
+      "shown_to_qt_ms": 317.2094999754336,
+      "stages": {
+        "capture_ms": 0.37200000951997936,
+        "change_detection_ms": 1.2301999959163368,
+        "image_queue_wait_ms": 0.013899989426136017,
+        "ocr_ms": 188.48010001238436,
+        "dispatch_wait_ms": 0.12860001879744232,
+        "translation_queue_ms": 0.12320000678300858,
+        "translation_request_ms": 60.80100001418032,
+        "postprocess_ms": 0.12930002412758768
+      }
+    },
+    {
+      "source": "[Team] P031: We need DPS, not another healer.",
+      "target": "[Team] P031: 我們需要 DPS，而不是另一個 補師。",
+      "provider": "local",
+      "origin": "本機模型",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 95.32719998969696,
+      "ocr_confidence": 0.99918,
+      "queue_ms": 0.10629999451339245,
+      "postprocess_ms": 0.16729999333620071,
+      "backend_state": "warm",
+      "index": 30,
+      "observed_ms": 290.8949999837205,
+      "shown_to_qt_ms": 304.02340000728145,
+      "stages": {
+        "capture_ms": 0.4883999936282635,
+        "change_detection_ms": 0.9151000122074038,
+        "image_queue_wait_ms": 0.020199979189783335,
+        "ocr_ms": 191.71729998197407,
+        "dispatch_wait_ms": 0.04499999340623617,
+        "translation_queue_ms": 0.10629999451339245,
+        "translation_request_ms": 95.32719998969696,
+        "postprocess_ms": 0.16729999333620071
+      }
+    },
+    {
+      "source": "[Team] P032: Low HP, fall back.",
+      "target": "[Team] P032: 低 HP，後退。",
+      "provider": "local",
+      "origin": "本機模型",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 83.55159999337047,
+      "ocr_confidence": 0.98679,
+      "queue_ms": 0.09469999349676073,
+      "postprocess_ms": 0.19489999976940453,
+      "backend_state": "warm",
+      "index": 31,
+      "observed_ms": 324.25960002001375,
+      "shown_to_qt_ms": 393.0034999793861,
+      "stages": {
+        "capture_ms": 0.4695000243373215,
+        "change_detection_ms": 1.1759999906644225,
+        "image_queue_wait_ms": 0.021500018192455173,
+        "ocr_ms": 236.80939999758266,
+        "dispatch_wait_ms": 0.1230000052601099,
+        "translation_queue_ms": 0.09469999349676073,
+        "translation_request_ms": 83.55159999337047,
+        "postprocess_ms": 0.19489999976940453
+      }
+    },
+    {
+      "source": "[Team] P033: Stay out of the red circle.",
+      "target": "[Team] P033: 留在紅圓圈外。",
+      "provider": "local",
+      "origin": "本機模型",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 59.71200001658872,
+      "ocr_confidence": 0.99575,
+      "queue_ms": 0.2640000020619482,
+      "postprocess_ms": 0.155999994603917,
+      "backend_state": "warm",
+      "index": 32,
+      "observed_ms": 303.3189999987371,
+      "shown_to_qt_ms": 364.3340000126045,
+      "stages": {
+        "capture_ms": 0.2795000036712736,
+        "change_detection_ms": 0.7869999972172081,
+        "image_queue_wait_ms": 0.011900003300979733,
+        "ocr_ms": 237.76349998661317,
+        "dispatch_wait_ms": 0.1283000165130943,
+        "translation_queue_ms": 0.2640000020619482,
+        "translation_request_ms": 59.71200001658872,
+        "postprocess_ms": 0.155999994603917
+      }
+    },
+    {
+      "source": "[Team] P034: Do not pull the boss.",
+      "target": "[Team] P034: 不拉 首領",
+      "provider": "local",
+      "origin": "本機模型",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 78.69429999846034,
+      "ocr_confidence": 0.99737,
+      "queue_ms": 0.056599994422867894,
+      "postprocess_ms": 0.1196000084746629,
+      "backend_state": "warm",
+      "index": 33,
+      "observed_ms": 278.4821000241209,
+      "shown_to_qt_ms": 330.9247999859508,
+      "stages": {
+        "capture_ms": 0.32190000638365746,
+        "change_detection_ms": 0.7650000043213367,
+        "image_queue_wait_ms": 0.013400014722719789,
+        "ocr_ms": 195.84659999236465,
+        "dispatch_wait_ms": 0.048299989430233836,
+        "translation_queue_ms": 0.056599994422867894,
+        "translation_request_ms": 78.69429999846034,
+        "postprocess_ms": 0.1196000084746629
+      }
+    },
+    {
+      "source": "[Team] P035: Pull in 3, 2, 1.",
+      "target": "[Team] P035: 拉 3，2，1。",
+      "provider": "local",
+      "origin": "本機模型",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 80.68710000952706,
+      "ocr_confidence": 0.99868,
+      "queue_ms": 0.11190000805072486,
+      "postprocess_ms": 0.13010000111535192,
+      "backend_state": "warm",
+      "index": 34,
+      "observed_ms": 307.0331999915652,
+      "shown_to_qt_ms": 318.0886000045575,
+      "stages": {
+        "capture_ms": 0.46030001249164343,
+        "change_detection_ms": 0.9009000204969198,
+        "image_queue_wait_ms": 0.018300022929906845,
+        "ocr_ms": 222.7366000006441,
+        "dispatch_wait_ms": 0.12829998740926385,
+        "translation_queue_ms": 0.11190000805072486,
+        "translation_request_ms": 80.68710000952706,
+        "postprocess_ms": 0.13010000111535192
+      }
+    },
+    {
+      "source": "[Team] P036: GL HF",
+      "target": "[Team] P036: GL HF",
+      "provider": "local",
+      "origin": "詞庫／完整規則",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 0,
+      "ocr_confidence": 0.99814,
+      "queue_ms": 0.11560000712051988,
+      "postprocess_ms": 0,
+      "backend_state": "none",
+      "index": 35,
+      "observed_ms": 207.11540000047535,
+      "shown_to_qt_ms": 304.13719997159205,
+      "stages": {
+        "capture_ms": 0.4847000236622989,
+        "change_detection_ms": 1.0779000003822148,
+        "image_queue_wait_ms": 0.016300007700920105,
+        "ocr_ms": 200.7467000221368,
+        "dispatch_wait_ms": 0.07569999434053898,
+        "translation_queue_ms": 0.11560000712051988,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0
+      }
+    },
+    {
+      "source": "[Team] P037: nt",
+      "target": "[Team] P037: NT",
+      "provider": "local",
+      "origin": "詞庫／完整規則",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 0,
+      "ocr_confidence": 0.9703,
+      "queue_ms": 0.053800002206116915,
+      "postprocess_ms": 0,
+      "backend_state": "none",
+      "index": 36,
+      "observed_ms": 183.9165999845136,
+      "shown_to_qt_ms": 242.19109999830835,
+      "stages": {
+        "capture_ms": 0.5737000028602779,
+        "change_detection_ms": 1.2234000023454428,
+        "image_queue_wait_ms": 0.01759998849593103,
+        "ocr_ms": 179.88499999046326,
+        "dispatch_wait_ms": 0.16850000247359276,
+        "translation_queue_ms": 0.053800002206116915,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0
+      }
+    },
+    {
+      "source": "[Team] P038: mb",
+      "target": "[Team] P038: MB",
+      "provider": "local",
+      "origin": "詞庫／完整規則",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 0,
+      "ocr_confidence": 0.99056,
+      "queue_ms": 0.22720001288689673,
+      "postprocess_ms": 0,
+      "backend_state": "none",
+      "index": 37,
+      "observed_ms": 229.8710999893956,
+      "shown_to_qt_ms": 235.92209999333136,
+      "stages": {
+        "capture_ms": 0.47160001122392714,
+        "change_detection_ms": 1.28900000709109,
+        "image_queue_wait_ms": 0.016399979358538985,
+        "ocr_ms": 225.6143999984488,
+        "dispatch_wait_ms": 0.1345000055152923,
+        "translation_queue_ms": 0.22720001288689673,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0
+      }
+    },
+    {
+      "source": "[Team] P039: afk 1 min",
+      "target": "[Team] P039: AFK 1 分鐘",
+      "provider": "local",
+      "origin": "詞庫／完整規則",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 0,
+      "ocr_confidence": 0.96873,
+      "queue_ms": 0.2148000057786703,
+      "postprocess_ms": 0,
+      "backend_state": "none",
+      "index": 38,
+      "observed_ms": 155.30099999159575,
+      "shown_to_qt_ms": 266.7500999814365,
+      "stages": {
+        "capture_ms": 0.374399998690933,
+        "change_detection_ms": 1.2071000237483531,
+        "image_queue_wait_ms": 0.018699996871873736,
+        "ocr_ms": 149.49800001340918,
+        "dispatch_wait_ms": 0.043400010326877236,
+        "translation_queue_ms": 0.2148000057786703,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0
+      }
+    },
+    {
+      "source": "[Team] P040: gg ez",
+      "target": "[Team] P040: GG EZ",
+      "provider": "local",
+      "origin": "詞庫／完整規則",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 0,
+      "ocr_confidence": 0.97666,
+      "queue_ms": 0.11969998013228178,
+      "postprocess_ms": 0,
+      "backend_state": "none",
+      "index": 39,
+      "observed_ms": 182.2256000014022,
+      "shown_to_qt_ms": 207.24430002155714,
+      "stages": {
+        "capture_ms": 0.34840000444091856,
+        "change_detection_ms": 0.7970999868120998,
+        "image_queue_wait_ms": 0.013199984095990658,
+        "ocr_ms": 178.71539999032393,
+        "dispatch_wait_ms": 0.051799986977130175,
+        "translation_queue_ms": 0.11969998013228178,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0
+      }
+    },
+    {
+      "source": "[Group] P041: LFG for a dungeon.",
+      "target": "[Group] P041: LFG 一個地牢",
+      "provider": "local",
+      "origin": "本機模型",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 91.24350000638515,
+      "ocr_confidence": 0.99443,
+      "queue_ms": 0.06280001252889633,
+      "postprocess_ms": 0.17220000154338777,
+      "backend_state": "warm",
+      "index": 40,
+      "observed_ms": 333.9415999944322,
+      "shown_to_qt_ms": 337.71120000164956,
+      "stages": {
+        "capture_ms": 0.5934999790042639,
+        "change_detection_ms": 1.584099984029308,
+        "image_queue_wait_ms": 0.006999995093792677,
+        "ocr_ms": 237.59430000791326,
+        "dispatch_wait_ms": 0.1480999926570803,
+        "translation_queue_ms": 0.06280001252889633,
+        "translation_request_ms": 91.24350000638515,
+        "postprocess_ms": 0.17220000154338777
+      }
+    },
+    {
+      "source": "[Group] P042: LFM 2 players, need a healer.",
+      "target": "[Group] P042: LFM 2位玩家，需要一個補師。",
+      "provider": "local",
+      "origin": "本機模型",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 159.63479998754337,
+      "ocr_confidence": 0.99146,
+      "queue_ms": 0.0923000043258071,
+      "postprocess_ms": 0.28860001475550234,
+      "backend_state": "warm",
+      "index": 41,
+      "observed_ms": 340.5843999935314,
+      "shown_to_qt_ms": 450.4797999979928,
+      "stages": {
+        "capture_ms": 0.3862000012304634,
+        "change_detection_ms": 1.5235000173561275,
+        "image_queue_wait_ms": 0.014600023860111833,
+        "ocr_ms": 176.53660001815297,
+        "dispatch_wait_ms": 0.0439999857917428,
+        "translation_queue_ms": 0.0923000043258071,
+        "translation_request_ms": 159.63479998754337,
+        "postprocess_ms": 0.28860001475550234
+      }
+    },
+    {
+      "source": "[Group] P043: Invite me pls.",
+      "target": "[Group] P043: 請邀我。",
+      "provider": "local",
+      "origin": "本機模型",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 68.81789999897592,
+      "ocr_confidence": 0.99593,
+      "queue_ms": 0.15249999705702066,
+      "postprocess_ms": 0.10439998004585505,
+      "backend_state": "warm",
+      "index": 42,
+      "observed_ms": 302.69380001118407,
+      "shown_to_qt_ms": 341.3189999992028,
+      "stages": {
+        "capture_ms": 0.3947000077459961,
+        "change_detection_ms": 1.044799981173128,
+        "image_queue_wait_ms": 0.01610000617802143,
+        "ocr_ms": 229.43609999492764,
+        "dispatch_wait_ms": 0.06859999848529696,
+        "translation_queue_ms": 0.15249999705702066,
+        "translation_request_ms": 68.81789999897592,
+        "postprocess_ms": 0.10439998004585505
+      }
+    },
+    {
+      "source": "[Group] P044: Party full?",
+      "target": "[Group] P044: 隊伍滿了嗎？",
+      "provider": "local",
+      "origin": "詞庫／完整規則",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 0,
+      "ocr_confidence": 0.98845,
+      "queue_ms": 0.11539997649379075,
+      "postprocess_ms": 0,
+      "backend_state": "none",
+      "index": 43,
+      "observed_ms": 237.46140001458116,
+      "shown_to_qt_ms": 269.41479998640716,
+      "stages": {
+        "capture_ms": 0.4084999964106828,
+        "change_detection_ms": 1.3151000021025538,
+        "image_queue_wait_ms": 0.014600023860111833,
+        "ocr_ms": 232.0426999940537,
+        "dispatch_wait_ms": 0.31740000122226775,
+        "translation_queue_ms": 0.11539997649379075,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0
+      }
+    },
+    {
+      "source": "[Group] P045: Where is the spawn point?",
+      "target": "[Group] P045: 哪裡有 重生點？",
+      "provider": "local",
+      "origin": "本機模型",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 78.24210001854226,
+      "ocr_confidence": 0.97602,
+      "queue_ms": 0.1170000177808106,
+      "postprocess_ms": 0.13210001634433866,
+      "backend_state": "warm",
+      "index": 44,
+      "observed_ms": 316.45299997762777,
+      "shown_to_qt_ms": 341.98089997516945,
+      "stages": {
+        "capture_ms": 0.3968999953940511,
+        "change_detection_ms": 1.2225000245962292,
+        "image_queue_wait_ms": 0.014699995517730713,
+        "ocr_ms": 233.81249999511056,
+        "dispatch_wait_ms": 0.14960000407882035,
+        "translation_queue_ms": 0.1170000177808106,
+        "translation_request_ms": 78.24210001854226,
+        "postprocess_ms": 0.13210001634433866
+      }
+    },
+    {
+      "source": "[Group] P046: Respawn in 15 sec.",
+      "target": "[Group] P046: 15 秒後重生。",
+      "provider": "local",
+      "origin": "本機模型",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 74.76300001144409,
+      "ocr_confidence": 0.99721,
+      "queue_ms": 1.65940000442788,
+      "postprocess_ms": 0.15770000754855573,
+      "backend_state": "warm",
+      "index": 45,
+      "observed_ms": 309.1568000090774,
+      "shown_to_qt_ms": 326.34040000266396,
+      "stages": {
+        "capture_ms": 0.3116000152658671,
+        "change_detection_ms": 0.898900005267933,
+        "image_queue_wait_ms": 0.012900010915473104,
+        "ocr_ms": 228.3801999874413,
+        "dispatch_wait_ms": 0.14340001507662237,
+        "translation_queue_ms": 1.65940000442788,
+        "translation_request_ms": 74.76300001144409,
+        "postprocess_ms": 0.15770000754855573
+      }
+    },
+    {
+      "source": "[Group] P047: Meet at X:-12 Y:34.",
+      "target": "[Group] P047: 會於 X:-12 Y:34.",
+      "provider": "local",
+      "origin": "本機模型",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 93.64209999330342,
+      "ocr_confidence": 0.99944,
+      "queue_ms": 0.46239999937824905,
+      "postprocess_ms": 0.16980001237243414,
+      "backend_state": "warm",
+      "index": 46,
+      "observed_ms": 331.5390999778174,
+      "shown_to_qt_ms": 342.10520001943223,
+      "stages": {
+        "capture_ms": 0.35620000562630594,
+        "change_detection_ms": 0.8940999978221953,
+        "image_queue_wait_ms": 0.015400000847876072,
+        "ocr_ms": 232.7991999918595,
+        "dispatch_wait_ms": 0.15429998165927827,
+        "translation_queue_ms": 0.46239999937824905,
+        "translation_request_ms": 93.64209999330342,
+        "postprocess_ms": 0.16980001237243414
+      }
+    },
+    {
+      "source": "[Group] P048: Mark the exit on the map.",
+      "target": "[Group] P048: 標記地圖上的出口。",
+      "provider": "local",
+      "origin": "本機模型",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 81.66440000059083,
+      "ocr_confidence": 0.99953,
+      "queue_ms": 0.14109999756328762,
+      "postprocess_ms": 0.15819998225197196,
+      "backend_state": "warm",
+      "index": 47,
+      "observed_ms": 339.8830999794882,
+      "shown_to_qt_ms": 453.8622999971267,
+      "stages": {
+        "capture_ms": 0.3468999930191785,
+        "change_detection_ms": 0.9260000078938901,
+        "image_queue_wait_ms": 0.016300007700920105,
+        "ocr_ms": 254.14679999812506,
+        "dispatch_wait_ms": 0.1314000110141933,
+        "translation_queue_ms": 0.14109999756328762,
+        "translation_request_ms": 81.66440000059083,
+        "postprocess_ms": 0.15819998225197196
+      }
+    },
+    {
+      "source": "[Group] P049: Follow Player_007.",
+      "target": "[Group] P049: 跟 Player_007。",
+      "provider": "local",
+      "origin": "本機模型",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 62.405699980445206,
+      "ocr_confidence": 0.99223,
+      "queue_ms": 0.12330000754445791,
+      "postprocess_ms": 0.11210000957362354,
+      "backend_state": "warm",
+      "index": 48,
+      "observed_ms": 339.7835999785457,
+      "shown_to_qt_ms": 360.4369999957271,
+      "stages": {
+        "capture_ms": 0.4534000181593001,
+        "change_detection_ms": 1.8946999916806817,
+        "image_queue_wait_ms": 0.0029999937396496534,
+        "ocr_ms": 272.3000999831129,
+        "dispatch_wait_ms": 0.13520001084543765,
+        "translation_queue_ms": 0.12330000754445791,
+        "translation_request_ms": 62.405699980445206,
+        "postprocess_ms": 0.11210000957362354
+      }
+    },
+    {
+      "source": "[Group] P050: Do not open the gate until everyone is ready.",
+      "target": "[Group] P050: 不開 大門 直到所有人準備就緒。",
+      "provider": "local",
+      "origin": "本機模型",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 101.86950000934303,
+      "ocr_confidence": 0.99232,
+      "queue_ms": 0.05509998300112784,
+      "postprocess_ms": 0.16230001347139478,
+      "backend_state": "warm",
+      "index": 49,
+      "observed_ms": 335.11829999042675,
+      "shown_to_qt_ms": 386.0403000144288,
+      "stages": {
+        "capture_ms": 0.39060000563040376,
+        "change_detection_ms": 1.5970999957062304,
+        "image_queue_wait_ms": 0.014299992471933365,
+        "ocr_ms": 228.0488999967929,
+        "dispatch_wait_ms": 0.14429999282583594,
+        "translation_queue_ms": 0.05509998300112784,
+        "translation_request_ms": 101.86950000934303,
+        "postprocess_ms": 0.16230001347139478
+      }
+    },
+    {
+      "source": "[Group] P051:I am OOM.",
+      "target": "[Group] P051: 我是一OOM。",
+      "provider": "local",
+      "origin": "本機模型",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 69.04309999663383,
+      "ocr_confidence": 0.98933,
+      "queue_ms": 0.1016999885905534,
+      "postprocess_ms": 0.1812000118661672,
+      "backend_state": "warm",
+      "index": 50,
+      "observed_ms": 351.37369998847134,
+      "shown_to_qt_ms": 397.9547999915667,
+      "stages": {
+        "capture_ms": 0.38919999497011304,
+        "change_detection_ms": 1.0858000023290515,
+        "image_queue_wait_ms": 0.026699999580159783,
+        "ocr_ms": 278.22359997662716,
+        "dispatch_wait_ms": 0.1506999833509326,
+        "translation_queue_ms": 0.1016999885905534,
+        "translation_request_ms": 69.04309999663383,
+        "postprocess_ms": 0.1812000118661672
+      }
+    },
+    {
+      "source": "[Group] P052: OMW, wait for me.",
+      "target": "[Group] P052: OMW 等待我。",
+      "provider": "local",
+      "origin": "本機模型",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 107.79379997984506,
+      "ocr_confidence": 0.99813,
+      "queue_ms": 0.10840001050382853,
+      "postprocess_ms": 0.21520000882446766,
+      "backend_state": "warm",
+      "index": 51,
+      "observed_ms": 408.7825000169687,
+      "shown_to_qt_ms": 500.94659999012947,
+      "stages": {
+        "capture_ms": 0.4073000163771212,
+        "change_detection_ms": 1.5439999988302588,
+        "image_queue_wait_ms": 0.01580000389367342,
+        "ocr_ms": 296.36460001347587,
+        "dispatch_wait_ms": 0.145500001963228,
+        "translation_queue_ms": 0.10840001050382853,
+        "translation_request_ms": 107.79379997984506,
+        "postprocess_ms": 0.21520000882446766
+      }
+    },
+    {
+      "source": "[Group] P053: My ping is 180 ms.",
+      "target": "[Group] P053: 我的 ping 是 180 ms。",
+      "provider": "local",
+      "origin": "本機模型",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 101.81459999876097,
+      "ocr_confidence": 0.98582,
+      "queue_ms": 1.2322999828029424,
+      "postprocess_ms": 0.20479998784139752,
+      "backend_state": "warm",
+      "index": 52,
+      "observed_ms": 417.2766999981832,
+      "shown_to_qt_ms": 459.96979999472387,
+      "stages": {
+        "capture_ms": 0.4233000217936933,
+        "change_detection_ms": 1.5887000190559775,
+        "image_queue_wait_ms": 0.0029999937396496534,
+        "ocr_ms": 309.79389999993145,
+        "dispatch_wait_ms": 0.04900002386420965,
+        "translation_queue_ms": 1.2322999828029424,
+        "translation_request_ms": 101.81459999876097,
+        "postprocess_ms": 0.20479998784139752
+      }
+    },
+    {
+      "source": "[Group] P054: Lag spike, sorry.",
+      "target": "[Group] P054: 延遲 爆發，抱歉。",
+      "provider": "local",
+      "origin": "本機模型",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 91.33619998465292,
+      "ocr_confidence": 0.98233,
+      "queue_ms": 0.10389997623860836,
+      "postprocess_ms": 0.1686000032350421,
+      "backend_state": "warm",
+      "index": 53,
+      "observed_ms": 322.3891999805346,
+      "shown_to_qt_ms": 327.31150000472553,
+      "stages": {
+        "capture_ms": 1.49350002175197,
+        "change_detection_ms": 1.7703000048641115,
+        "image_queue_wait_ms": 0.0042000028770416975,
+        "ocr_ms": 225.12529999949038,
+        "dispatch_wait_ms": 0.13749999925494194,
+        "translation_queue_ms": 0.10389997623860836,
+        "translation_request_ms": 91.33619998465292,
+        "postprocess_ms": 0.1686000032350421
+      }
+    },
+    {
+      "source": "[Group] P055: Can we pause for 2 minutes?",
+      "target": "[Group] P055: 我們可以暫停2分鐘嗎？",
+      "provider": "local",
+      "origin": "詞庫／完整規則",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 0,
+      "ocr_confidence": 0.99598,
+      "queue_ms": 0.05540001438930631,
+      "postprocess_ms": 0,
+      "backend_state": "none",
+      "index": 54,
+      "observed_ms": 191.26650001271628,
+      "shown_to_qt_ms": 286.89079999458045,
+      "stages": {
+        "capture_ms": 0.4474000015761703,
+        "change_detection_ms": 1.0446000087540597,
+        "image_queue_wait_ms": 0.018000020645558834,
+        "ocr_ms": 187.4643999908585,
+        "dispatch_wait_ms": 0.12299997615627944,
+        "translation_queue_ms": 0.05540001438930631,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0
+      }
+    },
+    {
+      "source": "[Group] P056: dc, back in a sec.",
+      "target": "[Group] P056: DC 秒後再回來。",
+      "provider": "local",
+      "origin": "本機模型",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 81.56449999660254,
+      "ocr_confidence": 0.9991,
+      "queue_ms": 0.360500009264797,
+      "postprocess_ms": 0.14089999604038894,
+      "backend_state": "warm",
+      "index": 55,
+      "observed_ms": 335.82430001115426,
+      "shown_to_qt_ms": 380.4206999775488,
+      "stages": {
+        "capture_ms": 0.3563000063877553,
+        "change_detection_ms": 0.90079999063164,
+        "image_queue_wait_ms": 0.01270000939257443,
+        "ocr_ms": 250.00520001049154,
+        "dispatch_wait_ms": 0.05649999366141856,
+        "translation_queue_ms": 0.360500009264797,
+        "translation_request_ms": 81.56449999660254,
+        "postprocess_ms": 0.14089999604038894
+      }
+    },
+    {
+      "source": "[Group] P057: Need mats for crafting.",
+      "target": "[Group] P057: 需要 材料 來製造。",
+      "provider": "local",
+      "origin": "本機模型",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 80.85989998653531,
+      "ocr_confidence": 0.99754,
+      "queue_ms": 0.10239999392069876,
+      "postprocess_ms": 0.13800000306218863,
+      "backend_state": "warm",
+      "index": 56,
+      "observed_ms": 346.8124000064563,
+      "shown_to_qt_ms": 396.98069999576546,
+      "stages": {
+        "capture_ms": 0.39530001231469214,
+        "change_detection_ms": 0.9310999885201454,
+        "image_queue_wait_ms": 0.013599987141788006,
+        "ocr_ms": 261.4875999861397,
+        "dispatch_wait_ms": 0.05740000051446259,
+        "translation_queue_ms": 0.10239999392069876,
+        "translation_request_ms": 80.85989998653531,
+        "postprocess_ms": 0.13800000306218863
+      }
+    },
+    {
+      "source": "[Group] P058: Repair your gear before we leave.",
+      "target": "[Group] P058: 修復你的 裝備 我們離開前。",
+      "provider": "local",
+      "origin": "本機模型",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 94.61810000357218,
+      "ocr_confidence": 0.99292,
+      "queue_ms": 0.3643000090960413,
+      "postprocess_ms": 0.15700000221841037,
+      "backend_state": "warm",
+      "index": 57,
+      "observed_ms": 299.27210000460036,
+      "shown_to_qt_ms": 372.8893999941647,
+      "stages": {
+        "capture_ms": 0.3313999914098531,
+        "change_detection_ms": 0.909399997908622,
+        "image_queue_wait_ms": 0.014899997040629387,
+        "ocr_ms": 199.92460001958534,
+        "dispatch_wait_ms": 0.12119999155402184,
+        "translation_queue_ms": 0.3643000090960413,
+        "translation_request_ms": 94.61810000357218,
+        "postprocess_ms": 0.15700000221841037
+      }
+    },
+    {
+      "source": "[Group] P059: Stack on me, then spread out.",
+      "target": "[Group] P059: 堆在我上面，然後擴散開來。",
+      "provider": "local",
+      "origin": "本機模型",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 84.73240002058446,
+      "ocr_confidence": 0.99477,
+      "queue_ms": 0.09620000491850078,
+      "postprocess_ms": 0.14969997573643923,
+      "backend_state": "warm",
+      "index": 58,
+      "observed_ms": 354.40989999915473,
+      "shown_to_qt_ms": 391.7139999975916,
+      "stages": {
+        "capture_ms": 0.39919998380355537,
+        "change_detection_ms": 0.9674000029917806,
+        "image_queue_wait_ms": 0.014399993233382702,
+        "ocr_ms": 264.85749997664243,
+        "dispatch_wait_ms": 0.08749999688006938,
+        "translation_queue_ms": 0.09620000491850078,
+        "translation_request_ms": 84.73240002058446,
+        "postprocess_ms": 0.14969997573643923
+      }
+    },
+    {
+      "source": "[Group] P060: Do not leave me behind.",
+      "target": "[Group] P060: 不要讓我落在後面。",
+      "provider": "local",
+      "origin": "本機模型",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 77.63800001703203,
+      "ocr_confidence": 0.99708,
+      "queue_ms": 0.0968000094871968,
+      "postprocess_ms": 0.13259999104775488,
+      "backend_state": "warm",
+      "index": 59,
+      "observed_ms": 343.436399998609,
+      "shown_to_qt_ms": 407.28139999555424,
+      "stages": {
+        "capture_ms": 0.3449999785516411,
+        "change_detection_ms": 0.9303999831900001,
+        "image_queue_wait_ms": 0.013999990187585354,
+        "ocr_ms": 262.24440001533367,
+        "dispatch_wait_ms": 0.11890000314451754,
+        "translation_queue_ms": 0.0968000094871968,
+        "translation_request_ms": 77.63800001703203,
+        "postprocess_ms": 0.13259999104775488
+      }
+    },
+    {
+      "source": "[Guild] P061:我需要道具X4",
+      "target": "[Guild] P061: 我需要道具X4",
+      "provider": "local",
+      "origin": "保留既有文字",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 0,
+      "ocr_confidence": 0.9898,
+      "queue_ms": 0.10289999772794545,
+      "postprocess_ms": 0,
+      "backend_state": "none",
+      "index": 60,
+      "observed_ms": 197.82089997897856,
+      "shown_to_qt_ms": 200.99310000659898,
+      "stages": {
+        "capture_ms": 0.32759999157860875,
+        "change_detection_ms": 1.1283999774605036,
+        "image_queue_wait_ms": 0.0045000051613897085,
+        "ocr_ms": 193.38010001229122,
+        "dispatch_wait_ms": 0.13830000534653664,
+        "translation_queue_ms": 0.10289999772794545,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0
+      }
+    },
+    {
+      "source": "[Guild] P062: 我需要 potion x4",
+      "target": "[Guild] P062: 我需要 藥水 x4",
+      "provider": "local",
+      "origin": "詞庫／完整規則",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 0,
+      "ocr_confidence": 0.99668,
+      "queue_ms": 0.1002000062726438,
+      "postprocess_ms": 0,
+      "backend_state": "none",
+      "index": 61,
+      "observed_ms": 203.14359999611042,
+      "shown_to_qt_ms": 264.96790000237525,
+      "stages": {
+        "capture_ms": 0.4028999828733504,
+        "change_detection_ms": 1.0671000054571778,
+        "image_queue_wait_ms": 0.016200006939470768,
+        "ocr_ms": 199.15169998421334,
+        "dispatch_wait_ms": 0.12430001515895128,
+        "translation_queue_ms": 0.1002000062726438,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0
+      }
+    },
+    {
+      "source": "[Guild] P063: 等等，我還有 2 個任務",
+      "target": "[Guild] P063: 等等，我還有 2 個任務",
+      "provider": "local",
+      "origin": "保留既有文字",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 0,
+      "ocr_confidence": 0.94236,
+      "queue_ms": 0.1714999962132424,
+      "postprocess_ms": 0,
+      "backend_state": "none",
+      "index": 62,
+      "observed_ms": 207.86080000107177,
+      "shown_to_qt_ms": 230.04180000862107,
+      "stages": {
+        "capture_ms": 0.5136000108905137,
+        "change_detection_ms": 1.0151999886147678,
+        "image_queue_wait_ms": 0.015500001609325409,
+        "ocr_ms": 202.96520000556484,
+        "dispatch_wait_ms": 0.076299998909235,
+        "translation_queue_ms": 0.1714999962132424,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0
+      }
+    },
+    {
+      "source": "[Guild] P064: 補師先不要拉怪",
+      "target": "[Guild] P064: 補師先不要拉怪",
+      "provider": "local",
+      "origin": "保留既有文字",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 0,
+      "ocr_confidence": 0.98382,
+      "queue_ms": 0.11179997818544507,
+      "postprocess_ms": 0,
+      "backend_state": "none",
+      "index": 63,
+      "observed_ms": 251.88349999370985,
+      "shown_to_qt_ms": 345.3434999973979,
+      "stages": {
+        "capture_ms": 0.4802999901585281,
+        "change_detection_ms": 1.0971000010613352,
+        "image_queue_wait_ms": 0.04230000195093453,
+        "ocr_ms": 247.27560000610538,
+        "dispatch_wait_ms": 0.10309999925084412,
+        "translation_queue_ms": 0.11179997818544507,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0
+      }
+    },
+    {
+      "source": "[Guild] P065: GG 大家辛苦了",
+      "target": "[Guild] P065: GG 大家辛苦了",
+      "provider": "local",
+      "origin": "詞庫／完整規則",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 0,
+      "ocr_confidence": 0.99664,
+      "queue_ms": 0.17260000458918512,
+      "postprocess_ms": 0,
+      "backend_state": "none",
+      "index": 64,
+      "observed_ms": 253.52440000278875,
+      "shown_to_qt_ms": 357.4181000003591,
+      "stages": {
+        "capture_ms": 0.3842000151053071,
+        "change_detection_ms": 1.0808000224642456,
+        "image_queue_wait_ms": 0.01780001912266016,
+        "ocr_ms": 248.20079997880384,
+        "dispatch_wait_ms": 0.06049999501556158,
+        "translation_queue_ms": 0.17260000458918512,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0
+      }
+    },
+    {
+      "source": "[Guild] P066: ty，救到我了",
+      "target": "[Guild] P066: TY，救到我了",
+      "provider": "local",
+      "origin": "詞庫／完整規則",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 0,
+      "ocr_confidence": 0.97842,
+      "queue_ms": 0.04980000085197389,
+      "postprocess_ms": 0,
+      "backend_state": "none",
+      "index": 65,
+      "observed_ms": 268.973600002937,
+      "shown_to_qt_ms": 273.6301000113599,
+      "stages": {
+        "capture_ms": 0.5150999932084233,
+        "change_detection_ms": 2.2831999813206494,
+        "image_queue_wait_ms": 0.0031999952625483274,
+        "ocr_ms": 264.0028000168968,
+        "dispatch_wait_ms": 0.12079998850822449,
+        "translation_queue_ms": 0.04980000085197389,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0
+      }
+    },
+    {
+      "source": "[Guild] P067:我 OOM了，等一下",
+      "target": "[Guild] P067: 我 OOM了，等一下",
+      "provider": "local",
+      "origin": "詞庫／完整規則",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 0,
+      "ocr_confidence": 0.9525,
+      "queue_ms": 1.976300001842901,
+      "postprocess_ms": 0,
+      "backend_state": "none",
+      "index": 66,
+      "observed_ms": 292.36910000327043,
+      "shown_to_qt_ms": 319.48420000844635,
+      "stages": {
+        "capture_ms": 0.3834999806713313,
+        "change_detection_ms": 1.1710000107996166,
+        "image_queue_wait_ms": 0.014499993994832039,
+        "ocr_ms": 285.57479998562485,
+        "dispatch_wait_ms": 0.16960001084953547,
+        "translation_queue_ms": 1.976300001842901,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0
+      }
+    },
+    {
+      "source": "[Guild] P068: 先別 push，隊友還沒到",
+      "target": "[Guild] P068: 先別 push，隊友還沒到",
+      "provider": "local",
+      "origin": "本機模型",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 125.95350001356564,
+      "ocr_confidence": 0.97949,
+      "queue_ms": 0.1838000025600195,
+      "postprocess_ms": 0.15090001397766173,
+      "backend_state": "warm",
+      "index": 67,
+      "observed_ms": 378.91970001510344,
+      "shown_to_qt_ms": 447.8444000124,
+      "stages": {
+        "capture_ms": 0.46850001672282815,
+        "change_detection_ms": 1.5376000083051622,
+        "image_queue_wait_ms": 0.012900010915473104,
+        "ocr_ms": 247.31459998292848,
+        "dispatch_wait_ms": 0.05570001667365432,
+        "translation_queue_ms": 0.1838000025600195,
+        "translation_request_ms": 125.95350001356564,
+        "postprocess_ms": 0.15090001397766173
+      }
+    },
+    {
+      "source": "[Guild] P069: 這把 lag 很嚴重",
+      "target": "[Guild] P069: 這把 延遲 很嚴重",
+      "provider": "local",
+      "origin": "詞庫／完整規則",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 0,
+      "ocr_confidence": 0.96499,
+      "queue_ms": 0.10119998478330672,
+      "postprocess_ms": 0,
+      "backend_state": "none",
+      "index": 68,
+      "observed_ms": 305.9349000104703,
+      "shown_to_qt_ms": 383.2500000135042,
+      "stages": {
+        "capture_ms": 0.4367999790702015,
+        "change_detection_ms": 1.1201000015717,
+        "image_queue_wait_ms": 0.016300007700920105,
+        "ocr_ms": 299.2911000037566,
+        "dispatch_wait_ms": 0.17790001584216952,
+        "translation_queue_ms": 0.10119998478330672,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0
+      }
+    },
+    {
+      "source": "[Guild] P070: 我需要 3 個人來幫忙",
+      "target": "[Guild] P070: 我需要 3 個人來幫忙",
+      "provider": "local",
+      "origin": "保留既有文字",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 0,
+      "ocr_confidence": 0.96988,
+      "queue_ms": 0.1145999995060265,
+      "postprocess_ms": 0,
+      "backend_state": "none",
+      "index": 69,
+      "observed_ms": 337.2339000052307,
+      "shown_to_qt_ms": 369.4481000129599,
+      "stages": {
+        "capture_ms": 0.49340000259689987,
+        "change_detection_ms": 1.3103999954182655,
+        "image_queue_wait_ms": 0.0039000005926936865,
+        "ocr_ms": 333.1084999954328,
+        "dispatch_wait_ms": 0.0523999915458262,
+        "translation_queue_ms": 0.1145999995060265,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0
+      }
+    },
+    {
+      "source": "[Guild] P071: DPS 集火右边",
+      "target": "[Guild] P071: DPS 集火右邊",
+      "provider": "local",
+      "origin": "詞庫／完整規則",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 0,
+      "ocr_confidence": 0.99225,
+      "queue_ms": 0.06970000686123967,
+      "postprocess_ms": 0,
+      "backend_state": "none",
+      "index": 70,
+      "observed_ms": 335.85510001285,
+      "shown_to_qt_ms": 354.2758999974467,
+      "stages": {
+        "capture_ms": 0.41680000140331686,
+        "change_detection_ms": 3.3887000172398984,
+        "image_queue_wait_ms": 0.0025999906938523054,
+        "ocr_ms": 325.9879999968689,
+        "dispatch_wait_ms": 0.13340002624318004,
+        "translation_queue_ms": 0.06970000686123967,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0
+      }
+    },
+    {
+      "source": "[Guild] P072: HP 10%，快救我",
+      "target": "[Guild] P072: HP 10%，快救我",
+      "provider": "local",
+      "origin": "詞庫／完整規則",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 0,
+      "ocr_confidence": 0.96917,
+      "queue_ms": 0.3920000162906945,
+      "postprocess_ms": 0,
+      "backend_state": "none",
+      "index": 71,
+      "observed_ms": 248.5580999928061,
+      "shown_to_qt_ms": 363.4687000012491,
+      "stages": {
+        "capture_ms": 0.3727999865077436,
+        "change_detection_ms": 0.9965000208467245,
+        "image_queue_wait_ms": 0.015500001609325409,
+        "ocr_ms": 243.46879997756332,
+        "dispatch_wait_ms": 0.14739998732693493,
+        "translation_queue_ms": 0.3920000162906945,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0
+      }
+    },
+    {
+      "source": "[Guild] P073: brb 2 min，我去拿水",
+      "target": "[Guild] P073: BRB 2分鐘，我會去拿水",
+      "provider": "local",
+      "origin": "本機模型",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 117.90650000330061,
+      "ocr_confidence": 0.99108,
+      "queue_ms": 0.0940999889280647,
+      "postprocess_ms": 0.16190001042559743,
+      "backend_state": "warm",
+      "index": 72,
+      "observed_ms": 426.91050001303665,
+      "shown_to_qt_ms": 441.09770000795834,
+      "stages": {
+        "capture_ms": 0.6111999973654747,
+        "change_detection_ms": 1.4099999971222132,
+        "image_queue_wait_ms": 0.0045000051613897085,
+        "ocr_ms": 304.1755999729503,
+        "dispatch_wait_ms": 0.1303000026382506,
+        "translation_queue_ms": 0.0940999889280647,
+        "translation_request_ms": 117.90650000330061,
+        "postprocess_ms": 0.16190001042559743
+      }
+    },
+    {
+      "source": "[Guild] P074: 請在 Gate_02 等我",
+      "target": "[Guild] P074: 請在 Gate_02 等我",
+      "provider": "local",
+      "origin": "詞庫／完整規則",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 0,
+      "ocr_confidence": 0.98837,
+      "queue_ms": 0.09119999594986439,
+      "postprocess_ms": 0,
+      "backend_state": "none",
+      "index": 73,
+      "observed_ms": 238.5645000031218,
+      "shown_to_qt_ms": 326.58570000785403,
+      "stages": {
+        "capture_ms": 0.3792000061366707,
+        "change_detection_ms": 1.1818999773822725,
+        "image_queue_wait_ms": 0.01650000922381878,
+        "ocr_ms": 233.54590000235476,
+        "dispatch_wait_ms": 0.06709998706355691,
+        "translation_queue_ms": 0.09119999594986439,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0
+      }
+    },
+    {
+      "source": "[Guild] P075: 不要賣掉 Item_X",
+      "target": "[Guild] P075: 不要賣掉 Item_X",
+      "provider": "local",
+      "origin": "詞庫／完整規則",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 0,
+      "ocr_confidence": 0.99354,
+      "queue_ms": 0.11569997877813876,
+      "postprocess_ms": 0,
+      "backend_state": "none",
+      "index": 74,
+      "observed_ms": 251.67560001136735,
+      "shown_to_qt_ms": 333.17719999467954,
+      "stages": {
+        "capture_ms": 0.35429999115876853,
+        "change_detection_ms": 0.9945000056177378,
+        "image_queue_wait_ms": 0.015900004655122757,
+        "ocr_ms": 244.1023999999743,
+        "dispatch_wait_ms": 0.12589999823831022,
+        "translation_queue_ms": 0.11569997877813876,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0
+      }
+    },
+    {
+      "source": "[Guild] P076: 可以 trade 4 potions 嗎?",
+      "target": "[Guild] P076: 可以 交易 4 藥水 嗎?",
+      "provider": "local",
+      "origin": "本機模型",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 114.85959999845363,
+      "ocr_confidence": 0.97836,
+      "queue_ms": 0.10800000745803118,
+      "postprocess_ms": 0.23269999655894935,
+      "backend_state": "warm",
+      "index": 75,
+      "observed_ms": 339.58390000043437,
+      "shown_to_qt_ms": 434.7169999964535,
+      "stages": {
+        "capture_ms": 0.40279998211190104,
+        "change_detection_ms": 1.067500008502975,
+        "image_queue_wait_ms": 0.016699981642886996,
+        "ocr_ms": 220.42680002050474,
+        "dispatch_wait_ms": 0.1252999936696142,
+        "translation_queue_ms": 0.10800000745803118,
+        "translation_request_ms": 114.85959999845363,
+        "postprocess_ms": 0.23269999655894935
+      }
+    },
+    {
+      "source": "[Guild] PO77: 剛剛 dc，現在回來了",
+      "target": "[Guild] PO77: 剛剛 DC，現在回來了",
+      "provider": "local",
+      "origin": "詞庫／完整規則",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 0,
+      "ocr_confidence": 0.95803,
+      "queue_ms": 0.09039998985826969,
+      "postprocess_ms": 0,
+      "backend_state": "none",
+      "index": 76,
+      "observed_ms": 258.60040000407025,
+      "shown_to_qt_ms": 327.0205000007991,
+      "stages": {
+        "capture_ms": 0.40920000174082816,
+        "change_detection_ms": 1.0153000184800476,
+        "image_queue_wait_ms": 0.01479999627918005,
+        "ocr_ms": 254.76630000048317,
+        "dispatch_wait_ms": 0.12989999959245324,
+        "translation_queue_ms": 0.09039998985826969,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0
+      }
+    },
+    {
+      "source": "[Guild] P078: boss 還有 5% HP",
+      "target": "[Guild] P078: 首領 還有 5% HP",
+      "provider": "local",
+      "origin": "詞庫／完整規則",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 0,
+      "ocr_confidence": 0.99532,
+      "queue_ms": 0.44850000995211303,
+      "postprocess_ms": 0,
+      "backend_state": "none",
+      "index": 77,
+      "observed_ms": 298.60769998049363,
+      "shown_to_qt_ms": 377.1887000184506,
+      "stages": {
+        "capture_ms": 0.4430999979376793,
+        "change_detection_ms": 1.2008000048808753,
+        "image_queue_wait_ms": 0.015700003132224083,
+        "ocr_ms": 292.88769999402575,
+        "dispatch_wait_ms": 0.04810001701116562,
+        "translation_queue_ms": 0.44850000995211303,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0
+      }
+    },
+    {
+      "source": "[Guild] P079: 這个 buff 只剩 10 sec",
+      "target": "[Guild] P079: 這個 增益效果 暫時剩 10 秒",
+      "provider": "local",
+      "origin": "本機模型",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 110.27440000907518,
+      "ocr_confidence": 0.96649,
+      "queue_ms": 0.10660002590157092,
+      "postprocess_ms": 0.1714999962132424,
+      "backend_state": "warm",
+      "index": 78,
+      "observed_ms": 421.7443999950774,
+      "shown_to_qt_ms": 448.0361999885645,
+      "stages": {
+        "capture_ms": 0.7753999962005764,
+        "change_detection_ms": 2.3268000222742558,
+        "image_queue_wait_ms": 0.0034999975468963385,
+        "ocr_ms": 301.892300019972,
+        "dispatch_wait_ms": 0.0577000027988106,
+        "translation_queue_ms": 0.10660002590157092,
+        "translation_request_ms": 110.27440000907518,
+        "postprocess_ms": 0.1714999962132424
+      }
+    },
+    {
+      "source": "[Guild] P080: 今天最後一場，GL HF",
+      "target": "[Guild] P080: 今天最後一場，GL HF",
+      "provider": "local",
+      "origin": "詞庫／完整規則",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 0,
+      "ocr_confidence": 0.96197,
+      "queue_ms": 0.09830002090893686,
+      "postprocess_ms": 0,
+      "backend_state": "none",
+      "index": 79,
+      "observed_ms": 310.2156999811996,
+      "shown_to_qt_ms": 403.29479999491014,
+      "stages": {
+        "capture_ms": 0.5359000060707331,
+        "change_detection_ms": 1.1790999851655215,
+        "image_queue_wait_ms": 0.015900004655122757,
+        "ocr_ms": 305.5946000094991,
+        "dispatch_wait_ms": 0.04539999645203352,
+        "translation_queue_ms": 0.09830002090893686,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0
+      }
+    },
+    {
+      "source": "P081: nice shot!",
+      "target": "P081: 好槍法!",
+      "provider": "local",
+      "origin": "詞庫／完整規則",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 0,
+      "ocr_confidence": 0.99901,
+      "queue_ms": 0.059900019550696015,
+      "postprocess_ms": 0,
+      "backend_state": "none",
+      "index": 80,
+      "observed_ms": 170.7250000035856,
+      "shown_to_qt_ms": 176.24719999730587,
+      "stages": {
+        "capture_ms": 0.2756000030785799,
+        "change_detection_ms": 0.7299999997485429,
+        "image_queue_wait_ms": 0.0039000005926936865,
+        "ocr_ms": 166.8352999840863,
+        "dispatch_wait_ms": 0.054500007536262274,
+        "translation_queue_ms": 0.059900019550696015,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0
+      }
+    },
+    {
+      "source": "P082: good game everyone",
+      "target": "P082: 好遊戲，所有人",
+      "provider": "local",
+      "origin": "本機模型",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 56.655799999134615,
+      "ocr_confidence": 0.99943,
+      "queue_ms": 0.11850000009872019,
+      "postprocess_ms": 0.15169999096542597,
+      "backend_state": "warm",
+      "index": 81,
+      "observed_ms": 201.25750001170672,
+      "shown_to_qt_ms": 245.35010001272894,
+      "stages": {
+        "capture_ms": 0.41500001680105925,
+        "change_detection_ms": 0.89490000391379,
+        "image_queue_wait_ms": 0.015700003132224083,
+        "ocr_ms": 141.2752000032924,
+        "dispatch_wait_ms": 0.11979998089373112,
+        "translation_queue_ms": 0.11850000009872019,
+        "translation_request_ms": 56.655799999134615,
+        "postprocess_ms": 0.15169999096542597
+      }
+    },
+    {
+      "source": "P083: well played",
+      "target": "P083: 打得漂亮",
+      "provider": "local",
+      "origin": "詞庫／完整規則",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 0,
+      "ocr_confidence": 0.98991,
+      "queue_ms": 2.25499999942258,
+      "postprocess_ms": 0,
+      "backend_state": "none",
+      "index": 82,
+      "observed_ms": 157.3463999957312,
+      "shown_to_qt_ms": 211.4206000114791,
+      "stages": {
+        "capture_ms": 0.4523000097833574,
+        "change_detection_ms": 1.3022000202909112,
+        "image_queue_wait_ms": 0.017099984688684344,
+        "ocr_ms": 151.35309999459423,
+        "dispatch_wait_ms": 0.1154000055976212,
+        "translation_queue_ms": 2.25499999942258,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0
+      }
+    },
+    {
+      "source": "P084: thanks for the carry",
+      "target": "P084: 感謝你的協助",
+      "provider": "local",
+      "origin": "本機模型",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 45.42749997926876,
+      "ocr_confidence": 0.99838,
+      "queue_ms": 0.09549999958835542,
+      "postprocess_ms": 0.11049999739043415,
+      "backend_state": "warm",
+      "index": 83,
+      "observed_ms": 182.78489998192526,
+      "shown_to_qt_ms": 261.1267000029329,
+      "stages": {
+        "capture_ms": 0.4000999906565994,
+        "change_detection_ms": 0.8648000075481832,
+        "image_queue_wait_ms": 0.0158999755512923,
+        "ocr_ms": 133.7842999782879,
+        "dispatch_wait_ms": 0.049700000090524554,
+        "translation_queue_ms": 0.09549999958835542,
+        "translation_request_ms": 45.42749997926876,
+        "postprocess_ms": 0.11049999739043415
+      }
+    },
+    {
+      "source": "P085: I can tank, but I cannot heal.",
+      "target": "P085: 我可坦克，但不可療癒。",
+      "provider": "local",
+      "origin": "本機模型",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 100.3080999944359,
+      "ocr_confidence": 0.99214,
+      "queue_ms": 0.13160001253709197,
+      "postprocess_ms": 0.18170001567341387,
+      "backend_state": "warm",
+      "index": 84,
+      "observed_ms": 255.41870002052747,
+      "shown_to_qt_ms": 346.1991000222042,
+      "stages": {
+        "capture_ms": 0.35119999665766954,
+        "change_detection_ms": 0.69629997597076,
+        "image_queue_wait_ms": 0.033400021493434906,
+        "ocr_ms": 151.12190000945702,
+        "dispatch_wait_ms": 0.14710001414641738,
+        "translation_queue_ms": 0.13160001253709197,
+        "translation_request_ms": 100.3080999944359,
+        "postprocess_ms": 0.18170001567341387
+      }
+    },
+    {
+      "source": "P086: The boss targets you, run away from the group.",
+      "target": "P086: 首領 目標你，跑離群體。",
+      "provider": "local",
+      "origin": "本機模型",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 101.524600002449,
+      "ocr_confidence": 0.99345,
+      "queue_ms": 0.09819999104365706,
+      "postprocess_ms": 0.15400000847876072,
+      "backend_state": "warm",
+      "index": 85,
+      "observed_ms": 275.7446000177879,
+      "shown_to_qt_ms": 284.23379999003373,
+      "stages": {
+        "capture_ms": 0.36040000850334764,
+        "change_detection_ms": 0.9685999830253422,
+        "image_queue_wait_ms": 0.015700003132224083,
+        "ocr_ms": 170.7254000066314,
+        "dispatch_wait_ms": 0.12320000678300858,
+        "translation_queue_ms": 0.09819999104365706,
+        "translation_request_ms": 101.524600002449,
+        "postprocess_ms": 0.15400000847876072
+      }
+    },
+    {
+      "source": "P087: Keep the buff on the tank.",
+      "target": "P087: 保持 增益效果 在坦克上。",
+      "provider": "local",
+      "origin": "本機模型",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 95.6575000018347,
+      "ocr_confidence": 0.99785,
+      "queue_ms": 0.12400001287460327,
+      "postprocess_ms": 0.19599997904151678,
+      "backend_state": "warm",
+      "index": 86,
+      "observed_ms": 334.48669998324476,
+      "shown_to_qt_ms": 383.7117000075523,
+      "stages": {
+        "capture_ms": 0.3358999965712428,
+        "change_detection_ms": 0.8032999758142978,
+        "image_queue_wait_ms": 0.019500002963468432,
+        "ocr_ms": 231.65820000576787,
+        "dispatch_wait_ms": 0.14849999570287764,
+        "translation_queue_ms": 0.12400001287460327,
+        "translation_request_ms": 95.6575000018347,
+        "postprocess_ms": 0.19599997904151678
+      }
+    },
+    {
+      "source": "P088: Need a rez near the bridge.",
+      "target": "P088: 需要 復活 暫時靠近橋。",
+      "provider": "local",
+      "origin": "本機模型",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 84.87620000960305,
+      "ocr_confidence": 0.99833,
+      "queue_ms": 0.09779998799785972,
+      "postprocess_ms": 0.16240001423284411,
+      "backend_state": "warm",
+      "index": 87,
+      "observed_ms": 333.0928000214044,
+      "shown_to_qt_ms": 375.0718999945093,
+      "stages": {
+        "capture_ms": 0.318799982778728,
+        "change_detection_ms": 0.7104999967850745,
+        "image_queue_wait_ms": 0.014299992471933365,
+        "ocr_ms": 244.76240001968108,
+        "dispatch_wait_ms": 0.14429999282583594,
+        "translation_queue_ms": 0.09779998799785972,
+        "translation_request_ms": 84.87620000960305,
+        "postprocess_ms": 0.16240001423284411
+      }
+    },
+    {
+      "source": "P089: Do not waste the revive on me.",
+      "target": "P089: 不要浪費對我的復活。",
+      "provider": "local",
+      "origin": "本機模型",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 72.45889998739585,
+      "ocr_confidence": 0.99744,
+      "queue_ms": 0.20629999926313758,
+      "postprocess_ms": 0.13719999697059393,
+      "backend_state": "warm",
+      "index": 88,
+      "observed_ms": 301.9477000052575,
+      "shown_to_qt_ms": 352.2242000035476,
+      "stages": {
+        "capture_ms": 0.3606000100262463,
+        "change_detection_ms": 1.2107999937143177,
+        "image_queue_wait_ms": 0.014899997040629387,
+        "ocr_ms": 225.10689997579902,
+        "dispatch_wait_ms": 0.18590001855045557,
+        "translation_queue_ms": 0.20629999926313758,
+        "translation_request_ms": 72.45889998739585,
+        "postprocess_ms": 0.13719999697059393
+      }
+    },
+    {
+      "source": "P090: WTS 4 gems, 200 gold each.",
+      "target": "P090: WTS 4顆寶石，每顆200黃金。",
+      "provider": "local",
+      "origin": "本機模型",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 113.41839999658987,
+      "ocr_confidence": 0.99715,
+      "queue_ms": 0.1016999885905534,
+      "postprocess_ms": 0.2175999979954213,
+      "backend_state": "warm",
+      "index": 89,
+      "observed_ms": 326.7648999753874,
+      "shown_to_qt_ms": 355.2608000172768,
+      "stages": {
+        "capture_ms": 0.3245000261813402,
+        "change_detection_ms": 0.7781999884173274,
+        "image_queue_wait_ms": 0.011800002539530396,
+        "ocr_ms": 209.99530001427047,
+        "dispatch_wait_ms": 0.043400010326877236,
+        "translation_queue_ms": 0.1016999885905534,
+        "translation_request_ms": 113.41839999658987,
+        "postprocess_ms": 0.2175999979954213
+      }
+    },
+    {
+      "source": "P091: WTB 2 potions.",
+      "target": "P091: WTB 2 藥水.",
+      "provider": "local",
+      "origin": "詞庫／完整規則",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 0,
+      "ocr_confidence": 0.99908,
+      "queue_ms": 0.1052000152412802,
+      "postprocess_ms": 0,
+      "backend_state": "none",
+      "index": 90,
+      "observed_ms": 217.8571000113152,
+      "shown_to_qt_ms": 223.46290000132285,
+      "stages": {
+        "capture_ms": 0.32920000376179814,
+        "change_detection_ms": 0.7035000016912818,
+        "image_queue_wait_ms": 0.00680002267472446,
+        "ocr_ms": 211.94999999715947,
+        "dispatch_wait_ms": 0.05020000389777124,
+        "translation_queue_ms": 0.1052000152412802,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0
+      }
+    },
+    {
+      "source": "P092: Need 3 more kills for the quest.",
+      "target": "P092: 需要3次殺戮才能完成這個任務。",
+      "provider": "local",
+      "origin": "本機模型",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 81.03999999002554,
+      "ocr_confidence": 0.99763,
+      "queue_ms": 0.10150001617148519,
+      "postprocess_ms": 0.2628000220283866,
+      "backend_state": "warm",
+      "index": 91,
+      "observed_ms": 291.40190000180155,
+      "shown_to_qt_ms": 386.46910001989454,
+      "stages": {
+        "capture_ms": 0.3414000093471259,
+        "change_detection_ms": 0.7005000079516321,
+        "image_queue_wait_ms": 0.016900012269616127,
+        "ocr_ms": 207.07270002458245,
+        "dispatch_wait_ms": 0.12350000906735659,
+        "translation_queue_ms": 0.10150001617148519,
+        "translation_request_ms": 81.03999999002554,
+        "postprocess_ms": 0.2628000220283866
+      }
+    },
+    {
+      "source": "P093: Take 2, leave 4 for the next player.",
+      "target": "P093: 取2，留4供下個玩家。",
+      "provider": "local",
+      "origin": "本機模型",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 83.91210000263527,
+      "ocr_confidence": 0.98844,
+      "queue_ms": 0.0678999931551516,
+      "postprocess_ms": 0.24190000840462744,
+      "backend_state": "warm",
+      "index": 92,
+      "observed_ms": 244.1292000003159,
+      "shown_to_qt_ms": 301.17569997673854,
+      "stages": {
+        "capture_ms": 0.2742999931797385,
+        "change_detection_ms": 1.1535999947227538,
+        "image_queue_wait_ms": 0.011399999493733048,
+        "ocr_ms": 155.617100012023,
+        "dispatch_wait_ms": 0.0771000050008297,
+        "translation_queue_ms": 0.0678999931551516,
+        "translation_request_ms": 83.91210000263527,
+        "postprocess_ms": 0.24190000840462744
+      }
+    },
+    {
+      "source": "P094: Not enough ammo for another fight.",
+      "target": "P094: 不足 彈藥 進行另一場戰鬥。",
+      "provider": "local",
+      "origin": "本機模型",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 88.83669998613186,
+      "ocr_confidence": 0.99761,
+      "queue_ms": 0.15949999215081334,
+      "postprocess_ms": 0.18689999706111848,
+      "backend_state": "warm",
+      "index": 93,
+      "observed_ms": 262.8559999866411,
+      "shown_to_qt_ms": 342.89240001817234,
+      "stages": {
+        "capture_ms": 0.34630001755431294,
+        "change_detection_ms": 0.903200008906424,
+        "image_queue_wait_ms": 0.01610000617802143,
+        "ocr_ms": 168.6630000185687,
+        "dispatch_wait_ms": 0.12860001879744232,
+        "translation_queue_ms": 0.15949999215081334,
+        "translation_request_ms": 88.83669998613186,
+        "postprocess_ms": 0.18689999706111848
+      }
+    },
+    {
+      "source": "P095: We are not ready yet.",
+      "target": "P095: 我們尚未準備好。",
+      "provider": "local",
+      "origin": "本機模型",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 68.29689998994581,
+      "ocr_confidence": 0.99899,
+      "queue_ms": 0.07040001219138503,
+      "postprocess_ms": 0.12579999747686088,
+      "backend_state": "warm",
+      "index": 94,
+      "observed_ms": 285.4712000116706,
+      "shown_to_qt_ms": 292.18540000147186,
+      "stages": {
+        "capture_ms": 0.3141000051982701,
+        "change_detection_ms": 0.7120000082068145,
+        "image_queue_wait_ms": 0.015600002370774746,
+        "ocr_ms": 211.69699999154545,
+        "dispatch_wait_ms": 0.166199984960258,
+        "translation_queue_ms": 0.07040001219138503,
+        "translation_request_ms": 68.29689998994581,
+        "postprocess_ms": 0.12579999747686088
+      }
+    },
+    {
+      "source": "P096: If the door is locked, wait here. Otherwise, follow me.",
+      "target": "P096: 若門鎖上，請待在此處。否則，隨我來。",
+      "provider": "local",
+      "origin": "本機模型",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 108.20970000349917,
+      "ocr_confidence": 0.99067,
+      "queue_ms": 0.10139998630620539,
+      "postprocess_ms": 0.18279999494552612,
+      "backend_state": "warm",
+      "index": 95,
+      "observed_ms": 291.30879999138415,
+      "shown_to_qt_ms": 392.96029999968596,
+      "stages": {
+        "capture_ms": 0.4194999928586185,
+        "change_detection_ms": 1.2396000092849135,
+        "image_queue_wait_ms": 0.016999983927235007,
+        "ocr_ms": 178.95589998806827,
+        "dispatch_wait_ms": 0.061700004152953625,
+        "translation_queue_ms": 0.10139998630620539,
+        "translation_request_ms": 108.20970000349917,
+        "postprocess_ms": 0.18279999494552612
+      }
+    },
+    {
+      "source": "P097: Please do not trade away the four potions I dropped. Keep them for the healer until the next fight starts.",
+      "target": "P097: 請勿將我掉落的四藥水交易掉。將其保留至補師，直到下一次戰鬥開始。",
+      "provider": "local",
+      "origin": "本機模型",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 184.2991999874357,
+      "ocr_confidence": 0.9923,
+      "queue_ms": 0.08200001320801675,
+      "postprocess_ms": 0.3479000006336719,
+      "backend_state": "warm",
+      "index": 96,
+      "observed_ms": 589.8870000091847,
+      "shown_to_qt_ms": 624.9339000205509,
+      "stages": {
+        "capture_ms": 0.3171999996993691,
+        "change_detection_ms": 0.7367999933194369,
+        "image_queue_wait_ms": 0.013999990187585354,
+        "ocr_ms": 401.4564999961294,
+        "dispatch_wait_ms": 0.05909998435527086,
+        "translation_queue_ms": 0.08200001320801675,
+        "translation_request_ms": 184.2991999874357,
+        "postprocess_ms": 0.3479000006336719
+      }
+    },
+    {
+      "source": "P098: When the boss turns toward the healer, the tank should move closer and the rest of us should stay behind the pillar.",
+      "target": "P098: 當 首領 轉向 補師 時，坦克應靠近並讓其他人留在柱後面。",
+      "provider": "local",
+      "origin": "本機模型",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 173.84000000311062,
+      "ocr_confidence": 0.99245,
+      "queue_ms": 0.16759999562054873,
+      "postprocess_ms": 0.739800016162917,
+      "backend_state": "warm",
+      "index": 97,
+      "observed_ms": 441.790899989428,
+      "shown_to_qt_ms": 527.2094999963883,
+      "stages": {
+        "capture_ms": 1.3118000060785562,
+        "change_detection_ms": 2.4936999834608287,
+        "image_queue_wait_ms": 0.0033999967854470015,
+        "ocr_ms": 260.3722999920137,
+        "dispatch_wait_ms": 0.13410000246949494,
+        "translation_queue_ms": 0.16759999562054873,
+        "translation_request_ms": 173.84000000311062,
+        "postprocess_ms": 0.739800016162917
+      }
+    },
+    {
+      "source": "P099: GG",
+      "target": "P099: GG",
+      "provider": "local",
+      "origin": "詞庫／完整規則",
+      "warning": "",
+      "cache_hit": true,
+      "model_ms": 0,
+      "ocr_confidence": 0.95627,
+      "queue_ms": 0,
+      "postprocess_ms": 0,
+      "backend_state": "cache",
+      "index": 98,
+      "observed_ms": 268.2461000222247,
+      "shown_to_qt_ms": 376.1421000235714,
+      "stages": {
+        "capture_ms": 0.41539999074302614,
+        "change_detection_ms": 0.8164000173565,
+        "image_queue_wait_ms": 0.01759998849593103,
+        "ocr_ms": 264.92930002859794,
+        "dispatch_wait_ms": 0.17169999773614109,
+        "translation_queue_ms": 0,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0
+      }
+    },
+    {
+      "source": "P100:GG",
+      "target": "P100: GG",
+      "provider": "local",
+      "origin": "詞庫／完整規則",
+      "warning": "",
+      "cache_hit": true,
+      "model_ms": 0,
+      "ocr_confidence": 0.99972,
+      "queue_ms": 0,
+      "postprocess_ms": 0,
+      "backend_state": "cache",
+      "index": 99,
+      "observed_ms": 363.5528000013437,
+      "shown_to_qt_ms": 391.5663000079803,
+      "stages": {
+        "capture_ms": 0.6661000079475343,
+        "change_detection_ms": 2.0352999854367226,
+        "image_queue_wait_ms": 0.0046000059228390455,
+        "ocr_ms": 358.4936000115704,
+        "dispatch_wait_ms": 0.09369998588226736,
+        "translation_queue_ms": 0,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0
+      }
+    }
+  ],
+  "ocr": [
+    {
+      "index": 0,
+      "ms": 206.5238000068348,
+      "reuse": {
+        "crops": 1,
+        "reused": 0,
+        "inferred": 1,
+        "context_crops": 0,
+        "fallback": 0,
+        "region_reused": 0
+      }
+    },
+    {
+      "index": 1,
+      "ms": 224.95980001986027,
+      "reuse": {
+        "crops": 2,
+        "reused": 1,
+        "inferred": 1,
+        "context_crops": 0,
+        "fallback": 0,
+        "region_reused": 1
+      }
+    },
+    {
+      "index": 2,
+      "ms": 263.3196999959182,
+      "reuse": {
+        "crops": 3,
+        "reused": 1,
+        "inferred": 2,
+        "context_crops": 0,
+        "fallback": 0,
+        "region_reused": 1
+      }
+    },
+    {
+      "index": 3,
+      "ms": 233.44109999015927,
+      "reuse": {
+        "crops": 4,
+        "reused": 3,
+        "inferred": 1,
+        "context_crops": 0,
+        "fallback": 0,
+        "region_reused": 3
+      }
+    },
+    {
+      "index": 4,
+      "ms": 319.8821000114549,
+      "reuse": {
+        "crops": 4,
+        "reused": 2,
+        "inferred": 3,
+        "context_crops": 1,
+        "fallback": 0,
+        "region_reused": 2
+      }
+    },
+    {
+      "index": 5,
+      "ms": 289.47940000216477,
+      "reuse": {
+        "crops": 4,
+        "reused": 3,
+        "inferred": 2,
+        "context_crops": 1,
+        "fallback": 0,
+        "region_reused": 3
+      }
+    },
+    {
+      "index": 6,
+      "ms": 226.8554999900516,
+      "reuse": {
+        "crops": 4,
+        "reused": 3,
+        "inferred": 1,
+        "context_crops": 0,
+        "fallback": 0,
+        "region_reused": 3
+      }
+    },
+    {
+      "index": 7,
+      "ms": 278.8949999958277,
+      "reuse": {
+        "crops": 4,
+        "reused": 2,
+        "inferred": 2,
+        "context_crops": 0,
+        "fallback": 0,
+        "region_reused": 2
+      }
+    },
+    {
+      "index": 8,
+      "ms": 299.78090000804514,
+      "reuse": {
+        "crops": 4,
+        "reused": 3,
+        "inferred": 2,
+        "context_crops": 1,
+        "fallback": 0,
+        "region_reused": 3
+      }
+    },
+    {
+      "index": 9,
+      "ms": 270.11390001280233,
+      "reuse": {
+        "crops": 4,
+        "reused": 2,
+        "inferred": 2,
+        "context_crops": 0,
+        "fallback": 0,
+        "region_reused": 2
+      }
+    },
+    {
+      "index": 10,
+      "ms": 253.5214000090491,
+      "reuse": {
+        "crops": 4,
+        "reused": 3,
+        "inferred": 2,
+        "context_crops": 1,
+        "fallback": 0,
+        "region_reused": 2
+      }
+    },
+    {
+      "index": 11,
+      "ms": 256.9886000128463,
+      "reuse": {
+        "crops": 4,
+        "reused": 3,
+        "inferred": 2,
+        "context_crops": 1,
+        "fallback": 0,
+        "region_reused": 3
+      }
+    },
+    {
+      "index": 12,
+      "ms": 221.0346999927424,
+      "reuse": {
+        "crops": 4,
+        "reused": 3,
+        "inferred": 1,
+        "context_crops": 0,
+        "fallback": 0,
+        "region_reused": 3
+      }
+    },
+    {
+      "index": 13,
+      "ms": 289.0320000005886,
+      "reuse": {
+        "crops": 4,
+        "reused": 3,
+        "inferred": 2,
+        "context_crops": 1,
+        "fallback": 0,
+        "region_reused": 2
+      }
+    },
+    {
+      "index": 14,
+      "ms": 288.29440000117756,
+      "reuse": {
+        "crops": 4,
+        "reused": 3,
+        "inferred": 2,
+        "context_crops": 1,
+        "fallback": 0,
+        "region_reused": 3
+      }
+    },
+    {
+      "index": 15,
+      "ms": 332.70769999944605,
+      "reuse": {
+        "crops": 4,
+        "reused": 1,
+        "inferred": 3,
+        "context_crops": 0,
+        "fallback": 0,
+        "region_reused": 1
+      }
+    },
+    {
+      "index": 16,
+      "ms": 266.7356000165455,
+      "reuse": {
+        "crops": 4,
+        "reused": 3,
+        "inferred": 2,
+        "context_crops": 1,
+        "fallback": 0,
+        "region_reused": 3
+      }
+    },
+    {
+      "index": 17,
+      "ms": 290.9382999932859,
+      "reuse": {
+        "crops": 4,
+        "reused": 2,
+        "inferred": 3,
+        "context_crops": 1,
+        "fallback": 0,
+        "region_reused": 2
+      }
+    },
+    {
+      "index": 18,
+      "ms": 185.1903999922797,
+      "reuse": {
+        "crops": 4,
+        "reused": 3,
+        "inferred": 1,
+        "context_crops": 0,
+        "fallback": 0,
+        "region_reused": 3
+      }
+    },
+    {
+      "index": 19,
+      "ms": 193.58079999801703,
+      "reuse": {
+        "crops": 4,
+        "reused": 3,
+        "inferred": 1,
+        "context_crops": 0,
+        "fallback": 0,
+        "region_reused": 3
+      }
+    },
+    {
+      "index": 20,
+      "ms": 215.9277999890037,
+      "reuse": {
+        "crops": 1,
+        "reused": 0,
+        "inferred": 1,
+        "context_crops": 0,
+        "fallback": 0,
+        "region_reused": 0
+      }
+    },
+    {
+      "index": 21,
+      "ms": 218.06139999534935,
+      "reuse": {
+        "crops": 2,
+        "reused": 1,
+        "inferred": 2,
+        "context_crops": 1,
+        "fallback": 0,
+        "region_reused": 1
+      }
+    },
+    {
+      "index": 22,
+      "ms": 346.0059000062756,
+      "reuse": {
+        "crops": 3,
+        "reused": 2,
+        "inferred": 2,
+        "context_crops": 1,
+        "fallback": 0,
+        "region_reused": 2
+      }
+    },
+    {
+      "index": 23,
+      "ms": 285.2180000045337,
+      "reuse": {
+        "crops": 4,
+        "reused": 3,
+        "inferred": 2,
+        "context_crops": 1,
+        "fallback": 0,
+        "region_reused": 2
+      }
+    },
+    {
+      "index": 24,
+      "ms": 246.23160000192001,
+      "reuse": {
+        "crops": 4,
+        "reused": 3,
+        "inferred": 2,
+        "context_crops": 1,
+        "fallback": 0,
+        "region_reused": 3
+      }
+    },
+    {
+      "index": 25,
+      "ms": 235.04739999771118,
+      "reuse": {
+        "crops": 4,
+        "reused": 3,
+        "inferred": 2,
+        "context_crops": 1,
+        "fallback": 0,
+        "region_reused": 3
+      }
+    },
+    {
+      "index": 26,
+      "ms": 275.9731999831274,
+      "reuse": {
+        "crops": 4,
+        "reused": 2,
+        "inferred": 3,
+        "context_crops": 1,
+        "fallback": 0,
+        "region_reused": 2
+      }
+    },
+    {
+      "index": 27,
+      "ms": 213.18060002522543,
+      "reuse": {
+        "crops": 4,
+        "reused": 3,
+        "inferred": 2,
+        "context_crops": 1,
+        "fallback": 0,
+        "region_reused": 3
+      }
+    },
+    {
+      "index": 28,
+      "ms": 262.8852000052575,
+      "reuse": {
+        "crops": 4,
+        "reused": 2,
+        "inferred": 3,
+        "context_crops": 1,
+        "fallback": 0,
+        "region_reused": 2
+      }
+    },
+    {
+      "index": 29,
+      "ms": 188.46760000451468,
+      "reuse": {
+        "crops": 4,
+        "reused": 3,
+        "inferred": 1,
+        "context_crops": 0,
+        "fallback": 0,
+        "region_reused": 3
+      }
+    },
+    {
+      "index": 30,
+      "ms": 191.70639998628758,
+      "reuse": {
+        "crops": 4,
+        "reused": 3,
+        "inferred": 1,
+        "context_crops": 0,
+        "fallback": 0,
+        "region_reused": 3
+      }
+    },
+    {
+      "index": 31,
+      "ms": 236.80169999715872,
+      "reuse": {
+        "crops": 4,
+        "reused": 3,
+        "inferred": 2,
+        "context_crops": 1,
+        "fallback": 0,
+        "region_reused": 3
+      }
+    },
+    {
+      "index": 32,
+      "ms": 237.75800000294112,
+      "reuse": {
+        "crops": 4,
+        "reused": 3,
+        "inferred": 2,
+        "context_crops": 1,
+        "fallback": 0,
+        "region_reused": 3
+      }
+    },
+    {
+      "index": 33,
+      "ms": 195.83939999574795,
+      "reuse": {
+        "crops": 4,
+        "reused": 3,
+        "inferred": 2,
+        "context_crops": 1,
+        "fallback": 0,
+        "region_reused": 3
+      }
+    },
+    {
+      "index": 34,
+      "ms": 222.73030001088046,
+      "reuse": {
+        "crops": 4,
+        "reused": 3,
+        "inferred": 2,
+        "context_crops": 1,
+        "fallback": 0,
+        "region_reused": 3
+      }
+    },
+    {
+      "index": 35,
+      "ms": 200.73839998804033,
+      "reuse": {
+        "crops": 4,
+        "reused": 3,
+        "inferred": 2,
+        "context_crops": 1,
+        "fallback": 0,
+        "region_reused": 3
+      }
+    },
+    {
+      "index": 36,
+      "ms": 179.87599998014048,
+      "reuse": {
+        "crops": 4,
+        "reused": 3,
+        "inferred": 2,
+        "context_crops": 1,
+        "fallback": 0,
+        "region_reused": 3
+      }
+    },
+    {
+      "index": 37,
+      "ms": 225.6057999911718,
+      "reuse": {
+        "crops": 4,
+        "reused": 2,
+        "inferred": 3,
+        "context_crops": 1,
+        "fallback": 0,
+        "region_reused": 2
+      }
+    },
+    {
+      "index": 38,
+      "ms": 149.491099989973,
+      "reuse": {
+        "crops": 4,
+        "reused": 3,
+        "inferred": 1,
+        "context_crops": 0,
+        "fallback": 0,
+        "region_reused": 3
+      }
+    },
+    {
+      "index": 39,
+      "ms": 178.70820002281107,
+      "reuse": {
+        "crops": 4,
+        "reused": 2,
+        "inferred": 2,
+        "context_crops": 0,
+        "fallback": 0,
+        "region_reused": 2
+      }
+    },
+    {
+      "index": 40,
+      "ms": 237.58729998371564,
+      "reuse": {
+        "crops": 1,
+        "reused": 0,
+        "inferred": 1,
+        "context_crops": 0,
+        "fallback": 0,
+        "region_reused": 0
+      }
+    },
+    {
+      "index": 41,
+      "ms": 176.53060000156984,
+      "reuse": {
+        "crops": 2,
+        "reused": 1,
+        "inferred": 1,
+        "context_crops": 0,
+        "fallback": 0,
+        "region_reused": 1
+      }
+    },
+    {
+      "index": 42,
+      "ms": 229.42419999162666,
+      "reuse": {
+        "crops": 3,
+        "reused": 1,
+        "inferred": 2,
+        "context_crops": 0,
+        "fallback": 0,
+        "region_reused": 1
+      }
+    },
+    {
+      "index": 43,
+      "ms": 232.0307999907527,
+      "reuse": {
+        "crops": 4,
+        "reused": 2,
+        "inferred": 2,
+        "context_crops": 0,
+        "fallback": 0,
+        "region_reused": 2
+      }
+    },
+    {
+      "index": 44,
+      "ms": 233.80519999773242,
+      "reuse": {
+        "crops": 4,
+        "reused": 3,
+        "inferred": 2,
+        "context_crops": 1,
+        "fallback": 0,
+        "region_reused": 3
+      }
+    },
+    {
+      "index": 45,
+      "ms": 228.37349999463186,
+      "reuse": {
+        "crops": 4,
+        "reused": 2,
+        "inferred": 2,
+        "context_crops": 0,
+        "fallback": 0,
+        "region_reused": 2
+      }
+    },
+    {
+      "index": 46,
+      "ms": 232.7925999998115,
+      "reuse": {
+        "crops": 4,
+        "reused": 3,
+        "inferred": 2,
+        "context_crops": 1,
+        "fallback": 0,
+        "region_reused": 3
+      }
+    },
+    {
+      "index": 47,
+      "ms": 254.13970000226982,
+      "reuse": {
+        "crops": 4,
+        "reused": 3,
+        "inferred": 2,
+        "context_crops": 1,
+        "fallback": 0,
+        "region_reused": 3
+      }
+    },
+    {
+      "index": 48,
+      "ms": 272.2934999910649,
+      "reuse": {
+        "crops": 4,
+        "reused": 3,
+        "inferred": 2,
+        "context_crops": 1,
+        "fallback": 0,
+        "region_reused": 3
+      }
+    },
+    {
+      "index": 49,
+      "ms": 228.0278999824077,
+      "reuse": {
+        "crops": 4,
+        "reused": 3,
+        "inferred": 1,
+        "context_crops": 0,
+        "fallback": 0,
+        "region_reused": 3
+      }
+    },
+    {
+      "index": 50,
+      "ms": 278.2147999969311,
+      "reuse": {
+        "crops": 4,
+        "reused": 3,
+        "inferred": 2,
+        "context_crops": 1,
+        "fallback": 0,
+        "region_reused": 3
+      }
+    },
+    {
+      "index": 51,
+      "ms": 296.35799999232404,
+      "reuse": {
+        "crops": 4,
+        "reused": 3,
+        "inferred": 2,
+        "context_crops": 1,
+        "fallback": 0,
+        "region_reused": 2
+      }
+    },
+    {
+      "index": 52,
+      "ms": 309.78959999629296,
+      "reuse": {
+        "crops": 4,
+        "reused": 3,
+        "inferred": 2,
+        "context_crops": 1,
+        "fallback": 0,
+        "region_reused": 3
+      }
+    },
+    {
+      "index": 53,
+      "ms": 225.1150999800302,
+      "reuse": {
+        "crops": 4,
+        "reused": 3,
+        "inferred": 2,
+        "context_crops": 1,
+        "fallback": 0,
+        "region_reused": 3
+      }
+    },
+    {
+      "index": 54,
+      "ms": 187.4584000033792,
+      "reuse": {
+        "crops": 4,
+        "reused": 3,
+        "inferred": 1,
+        "context_crops": 0,
+        "fallback": 0,
+        "region_reused": 3
+      }
+    },
+    {
+      "index": 55,
+      "ms": 249.998700019205,
+      "reuse": {
+        "crops": 4,
+        "reused": 3,
+        "inferred": 2,
+        "context_crops": 1,
+        "fallback": 0,
+        "region_reused": 3
+      }
+    },
+    {
+      "index": 56,
+      "ms": 261.47639998816885,
+      "reuse": {
+        "crops": 4,
+        "reused": 3,
+        "inferred": 2,
+        "context_crops": 1,
+        "fallback": 0,
+        "region_reused": 3
+      }
+    },
+    {
+      "index": 57,
+      "ms": 199.9140000261832,
+      "reuse": {
+        "crops": 4,
+        "reused": 3,
+        "inferred": 1,
+        "context_crops": 0,
+        "fallback": 0,
+        "region_reused": 3
+      }
+    },
+    {
+      "index": 58,
+      "ms": 264.85109998611733,
+      "reuse": {
+        "crops": 4,
+        "reused": 3,
+        "inferred": 2,
+        "context_crops": 1,
+        "fallback": 0,
+        "region_reused": 3
+      }
+    },
+    {
+      "index": 59,
+      "ms": 262.23880000179633,
+      "reuse": {
+        "crops": 4,
+        "reused": 3,
+        "inferred": 2,
+        "context_crops": 1,
+        "fallback": 0,
+        "region_reused": 3
+      }
+    },
+    {
+      "index": 60,
+      "ms": 193.3749999734573,
+      "reuse": {
+        "crops": 1,
+        "reused": 0,
+        "inferred": 1,
+        "context_crops": 0,
+        "fallback": 0,
+        "region_reused": 0
+      }
+    },
+    {
+      "index": 61,
+      "ms": 199.14589999825694,
+      "reuse": {
+        "crops": 2,
+        "reused": 1,
+        "inferred": 1,
+        "context_crops": 0,
+        "fallback": 0,
+        "region_reused": 1
+      }
+    },
+    {
+      "index": 62,
+      "ms": 202.95889998669736,
+      "reuse": {
+        "crops": 3,
+        "reused": 2,
+        "inferred": 1,
+        "context_crops": 0,
+        "fallback": 0,
+        "region_reused": 2
+      }
+    },
+    {
+      "index": 63,
+      "ms": 247.26569998892955,
+      "reuse": {
+        "crops": 4,
+        "reused": 2,
+        "inferred": 2,
+        "context_crops": 0,
+        "fallback": 0,
+        "region_reused": 2
+      }
+    },
+    {
+      "index": 64,
+      "ms": 248.19169999682344,
+      "reuse": {
+        "crops": 4,
+        "reused": 2,
+        "inferred": 2,
+        "context_crops": 0,
+        "fallback": 0,
+        "region_reused": 2
+      }
+    },
+    {
+      "index": 65,
+      "ms": 263.99740000488237,
+      "reuse": {
+        "crops": 4,
+        "reused": 2,
+        "inferred": 2,
+        "context_crops": 0,
+        "fallback": 0,
+        "region_reused": 2
+      }
+    },
+    {
+      "index": 66,
+      "ms": 285.5666999821551,
+      "reuse": {
+        "crops": 4,
+        "reused": 1,
+        "inferred": 3,
+        "context_crops": 0,
+        "fallback": 0,
+        "region_reused": 1
+      }
+    },
+    {
+      "index": 67,
+      "ms": 247.3055000009481,
+      "reuse": {
+        "crops": 4,
+        "reused": 2,
+        "inferred": 2,
+        "context_crops": 0,
+        "fallback": 0,
+        "region_reused": 2
+      }
+    },
+    {
+      "index": 68,
+      "ms": 299.2857999925036,
+      "reuse": {
+        "crops": 4,
+        "reused": 1,
+        "inferred": 3,
+        "context_crops": 0,
+        "fallback": 0,
+        "region_reused": 1
+      }
+    },
+    {
+      "index": 69,
+      "ms": 333.10369998798706,
+      "reuse": {
+        "crops": 4,
+        "reused": 0,
+        "inferred": 4,
+        "context_crops": 0,
+        "fallback": 0,
+        "region_reused": 0
+      }
+    },
+    {
+      "index": 70,
+      "ms": 325.98239998333156,
+      "reuse": {
+        "crops": 4,
+        "reused": 1,
+        "inferred": 3,
+        "context_crops": 0,
+        "fallback": 0,
+        "region_reused": 1
+      }
+    },
+    {
+      "index": 71,
+      "ms": 243.46179998246953,
+      "reuse": {
+        "crops": 4,
+        "reused": 3,
+        "inferred": 2,
+        "context_crops": 1,
+        "fallback": 0,
+        "region_reused": 3
+      }
+    },
+    {
+      "index": 72,
+      "ms": 304.16929998318665,
+      "reuse": {
+        "crops": 4,
+        "reused": 2,
+        "inferred": 3,
+        "context_crops": 1,
+        "fallback": 0,
+        "region_reused": 2
+      }
+    },
+    {
+      "index": 73,
+      "ms": 233.5392000095453,
+      "reuse": {
+        "crops": 4,
+        "reused": 3,
+        "inferred": 2,
+        "context_crops": 1,
+        "fallback": 0,
+        "region_reused": 3
+      }
+    },
+    {
+      "index": 74,
+      "ms": 244.0966000140179,
+      "reuse": {
+        "crops": 4,
+        "reused": 2,
+        "inferred": 2,
+        "context_crops": 0,
+        "fallback": 0,
+        "region_reused": 2
+      }
+    },
+    {
+      "index": 75,
+      "ms": 220.41880001779646,
+      "reuse": {
+        "crops": 4,
+        "reused": 3,
+        "inferred": 1,
+        "context_crops": 0,
+        "fallback": 0,
+        "region_reused": 3
+      }
+    },
+    {
+      "index": 76,
+      "ms": 254.75969997933134,
+      "reuse": {
+        "crops": 4,
+        "reused": 2,
+        "inferred": 2,
+        "context_crops": 0,
+        "fallback": 0,
+        "region_reused": 2
+      }
+    },
+    {
+      "index": 77,
+      "ms": 292.88009999436326,
+      "reuse": {
+        "crops": 4,
+        "reused": 2,
+        "inferred": 3,
+        "context_crops": 1,
+        "fallback": 0,
+        "region_reused": 2
+      }
+    },
+    {
+      "index": 78,
+      "ms": 301.88669997733086,
+      "reuse": {
+        "crops": 4,
+        "reused": 2,
+        "inferred": 3,
+        "context_crops": 1,
+        "fallback": 0,
+        "region_reused": 2
+      }
+    },
+    {
+      "index": 79,
+      "ms": 305.58700000983663,
+      "reuse": {
+        "crops": 4,
+        "reused": 1,
+        "inferred": 3,
+        "context_crops": 0,
+        "fallback": 0,
+        "region_reused": 1
+      }
+    },
+    {
+      "index": 80,
+      "ms": 166.8296999996528,
+      "reuse": {
+        "crops": 1,
+        "reused": 0,
+        "inferred": 1,
+        "context_crops": 0,
+        "fallback": 0,
+        "region_reused": 0
+      }
+    },
+    {
+      "index": 81,
+      "ms": 141.26889998442493,
+      "reuse": {
+        "crops": 2,
+        "reused": 1,
+        "inferred": 1,
+        "context_crops": 0,
+        "fallback": 0,
+        "region_reused": 1
+      }
+    },
+    {
+      "index": 82,
+      "ms": 151.3457999972161,
+      "reuse": {
+        "crops": 3,
+        "reused": 2,
+        "inferred": 2,
+        "context_crops": 1,
+        "fallback": 0,
+        "region_reused": 2
+      }
+    },
+    {
+      "index": 83,
+      "ms": 133.7747999932617,
+      "reuse": {
+        "crops": 4,
+        "reused": 3,
+        "inferred": 1,
+        "context_crops": 0,
+        "fallback": 0,
+        "region_reused": 3
+      }
+    },
+    {
+      "index": 84,
+      "ms": 151.11510001588613,
+      "reuse": {
+        "crops": 4,
+        "reused": 3,
+        "inferred": 1,
+        "context_crops": 0,
+        "fallback": 0,
+        "region_reused": 3
+      }
+    },
+    {
+      "index": 85,
+      "ms": 170.7196999923326,
+      "reuse": {
+        "crops": 4,
+        "reused": 3,
+        "inferred": 1,
+        "context_crops": 0,
+        "fallback": 0,
+        "region_reused": 3
+      }
+    },
+    {
+      "index": 86,
+      "ms": 231.65250002057292,
+      "reuse": {
+        "crops": 4,
+        "reused": 3,
+        "inferred": 2,
+        "context_crops": 1,
+        "fallback": 0,
+        "region_reused": 3
+      }
+    },
+    {
+      "index": 87,
+      "ms": 244.75539999548346,
+      "reuse": {
+        "crops": 4,
+        "reused": 3,
+        "inferred": 2,
+        "context_crops": 1,
+        "fallback": 0,
+        "region_reused": 3
+      }
+    },
+    {
+      "index": 88,
+      "ms": 225.09049999644049,
+      "reuse": {
+        "crops": 4,
+        "reused": 3,
+        "inferred": 2,
+        "context_crops": 1,
+        "fallback": 0,
+        "region_reused": 3
+      }
+    },
+    {
+      "index": 89,
+      "ms": 209.9891999969259,
+      "reuse": {
+        "crops": 4,
+        "reused": 3,
+        "inferred": 2,
+        "context_crops": 1,
+        "fallback": 0,
+        "region_reused": 3
+      }
+    },
+    {
+      "index": 90,
+      "ms": 211.9432999752462,
+      "reuse": {
+        "crops": 4,
+        "reused": 3,
+        "inferred": 2,
+        "context_crops": 1,
+        "fallback": 0,
+        "region_reused": 3
+      }
+    },
+    {
+      "index": 91,
+      "ms": 207.06510002491996,
+      "reuse": {
+        "crops": 4,
+        "reused": 3,
+        "inferred": 2,
+        "context_crops": 1,
+        "fallback": 0,
+        "region_reused": 3
+      }
+    },
+    {
+      "index": 92,
+      "ms": 155.60709999408573,
+      "reuse": {
+        "crops": 4,
+        "reused": 3,
+        "inferred": 1,
+        "context_crops": 0,
+        "fallback": 0,
+        "region_reused": 3
+      }
+    },
+    {
+      "index": 93,
+      "ms": 168.65569999208674,
+      "reuse": {
+        "crops": 4,
+        "reused": 3,
+        "inferred": 1,
+        "context_crops": 0,
+        "fallback": 0,
+        "region_reused": 3
+      }
+    },
+    {
+      "index": 94,
+      "ms": 211.69039999949746,
+      "reuse": {
+        "crops": 4,
+        "reused": 3,
+        "inferred": 2,
+        "context_crops": 1,
+        "fallback": 0,
+        "region_reused": 3
+      }
+    },
+    {
+      "index": 95,
+      "ms": 178.94509999314323,
+      "reuse": {
+        "crops": 4,
+        "reused": 3,
+        "inferred": 1,
+        "context_crops": 0,
+        "fallback": 0,
+        "region_reused": 3
+      }
+    },
+    {
+      "index": 96,
+      "ms": 401.4498999749776,
+      "reuse": {
+        "crops": 5,
+        "reused": 2,
+        "inferred": 4,
+        "context_crops": 1,
+        "fallback": 0,
+        "region_reused": 2
+      }
+    },
+    {
+      "index": 97,
+      "ms": 260.3658000007272,
+      "reuse": {
+        "crops": 6,
+        "reused": 4,
+        "inferred": 2,
+        "context_crops": 0,
+        "fallback": 0,
+        "region_reused": 4
+      }
+    },
+    {
+      "index": 98,
+      "ms": 264.9223000044003,
+      "reuse": {
+        "crops": 6,
+        "reused": 5,
+        "inferred": 2,
+        "context_crops": 1,
+        "fallback": 0,
+        "region_reused": 5
+      }
+    },
+    {
+      "index": 99,
+      "ms": 358.4839000250213,
+      "reuse": {
+        "crops": 6,
+        "reused": 4,
+        "inferred": 3,
+        "context_crops": 1,
+        "fallback": 0,
+        "region_reused": 4
+      }
+    }
+  ],
+  "errors": [],
+  "changes": [
+    {
+      "index": 0,
+      "producer_late_ms": 4.02849999954924
+    },
+    {
+      "index": 1,
+      "producer_late_ms": 2.420599979814142
+    },
+    {
+      "index": 2,
+      "producer_late_ms": 1.7787999822758138
+    },
+    {
+      "index": 3,
+      "producer_late_ms": 1.9672999915201217
+    },
+    {
+      "index": 4,
+      "producer_late_ms": 1.2633999867830426
+    },
+    {
+      "index": 5,
+      "producer_late_ms": 0.9270999871660024
+    },
+    {
+      "index": 6,
+      "producer_late_ms": 0.24319998919963837
+    },
+    {
+      "index": 7,
+      "producer_late_ms": 0.5551999784074724
+    },
+    {
+      "index": 8,
+      "producer_late_ms": 1.309099985519424
+    },
+    {
+      "index": 9,
+      "producer_late_ms": 2.0711999968625605
+    },
+    {
+      "index": 10,
+      "producer_late_ms": 0.4060999781358987
+    },
+    {
+      "index": 11,
+      "producer_late_ms": 4.169499996351078
+    },
+    {
+      "index": 12,
+      "producer_late_ms": 0.12059998698532581
+    },
+    {
+      "index": 13,
+      "producer_late_ms": 2.5418000004719943
+    },
+    {
+      "index": 14,
+      "producer_late_ms": 0.367300002835691
+    },
+    {
+      "index": 15,
+      "producer_late_ms": 0.4040999920107424
+    },
+    {
+      "index": 16,
+      "producer_late_ms": 2.8394999681040645
+    },
+    {
+      "index": 17,
+      "producer_late_ms": 0.9271999879274517
+    },
+    {
+      "index": 18,
+      "producer_late_ms": 0.8510999905411154
+    },
+    {
+      "index": 19,
+      "producer_late_ms": 1.1622000019997358
+    },
+    {
+      "index": 20,
+      "producer_late_ms": 0.012999982573091984
+    },
+    {
+      "index": 21,
+      "producer_late_ms": 2.1955999836791307
+    },
+    {
+      "index": 22,
+      "producer_late_ms": 1.0281999711878598
+    },
+    {
+      "index": 23,
+      "producer_late_ms": 0.3105000068899244
+    },
+    {
+      "index": 24,
+      "producer_late_ms": 2.1878999832551926
+    },
+    {
+      "index": 25,
+      "producer_late_ms": 1.4618999848607928
+    },
+    {
+      "index": 26,
+      "producer_late_ms": 0.9507999930065125
+    },
+    {
+      "index": 27,
+      "producer_late_ms": 0.4767999635078013
+    },
+    {
+      "index": 28,
+      "producer_late_ms": 5.756900005508214
+    },
+    {
+      "index": 29,
+      "producer_late_ms": 2.0915000059176236
+    },
+    {
+      "index": 30,
+      "producer_late_ms": 0.6053999823052436
+    },
+    {
+      "index": 31,
+      "producer_late_ms": 0.6565999938175082
+    },
+    {
+      "index": 32,
+      "producer_late_ms": 0.5969999765511602
+    },
+    {
+      "index": 33,
+      "producer_late_ms": 0.676499999826774
+    },
+    {
+      "index": 34,
+      "producer_late_ms": 1.5407000028062612
+    },
+    {
+      "index": 35,
+      "producer_late_ms": 0.6117000011727214
+    },
+    {
+      "index": 36,
+      "producer_late_ms": 1.0183999838773161
+    },
+    {
+      "index": 37,
+      "producer_late_ms": 1.6876999870873988
+    },
+    {
+      "index": 38,
+      "producer_late_ms": 0.35310001112520695
+    },
+    {
+      "index": 39,
+      "producer_late_ms": 1.94679998094216
+    },
+    {
+      "index": 40,
+      "producer_late_ms": 0.03689998993650079
+    },
+    {
+      "index": 41,
+      "producer_late_ms": 1.7183999880217016
+    },
+    {
+      "index": 42,
+      "producer_late_ms": 0.6938999867998064
+    },
+    {
+      "index": 43,
+      "producer_late_ms": 0.9967000223696232
+    },
+    {
+      "index": 44,
+      "producer_late_ms": 1.7342000210192055
+    },
+    {
+      "index": 45,
+      "producer_late_ms": 2.345499990042299
+    },
+    {
+      "index": 46,
+      "producer_late_ms": 1.836699986597523
+    },
+    {
+      "index": 47,
+      "producer_late_ms": 2.259600005345419
+    },
+    {
+      "index": 48,
+      "producer_late_ms": 1.3439000176731497
+    },
+    {
+      "index": 49,
+      "producer_late_ms": 1.5822999994270504
+    },
+    {
+      "index": 50,
+      "producer_late_ms": 1.031799998600036
+    },
+    {
+      "index": 51,
+      "producer_late_ms": 0.378400000045076
+    },
+    {
+      "index": 52,
+      "producer_late_ms": 0.06769999163225293
+    },
+    {
+      "index": 53,
+      "producer_late_ms": 0.6857000116724521
+    },
+    {
+      "index": 54,
+      "producer_late_ms": 1.667400007136166
+    },
+    {
+      "index": 55,
+      "producer_late_ms": 1.0646000155247748
+    },
+    {
+      "index": 56,
+      "producer_late_ms": 2.1800000104121864
+    },
+    {
+      "index": 57,
+      "producer_late_ms": 2.282600005855784
+    },
+    {
+      "index": 58,
+      "producer_late_ms": 0.7966000121086836
+    },
+    {
+      "index": 59,
+      "producer_late_ms": 1.9683999998960644
+    },
+    {
+      "index": 60,
+      "producer_late_ms": 0.012500007869675756
+    },
+    {
+      "index": 61,
+      "producer_late_ms": 1.8247000116389245
+    },
+    {
+      "index": 62,
+      "producer_late_ms": 2.1154999849386513
+    },
+    {
+      "index": 63,
+      "producer_late_ms": 1.6554000321775675
+    },
+    {
+      "index": 64,
+      "producer_late_ms": 3.195300028892234
+    },
+    {
+      "index": 65,
+      "producer_late_ms": 1.8884000019170344
+    },
+    {
+      "index": 66,
+      "producer_late_ms": 1.1341999925207347
+    },
+    {
+      "index": 67,
+      "producer_late_ms": 1.448399998480454
+    },
+    {
+      "index": 68,
+      "producer_late_ms": 2.13060001260601
+    },
+    {
+      "index": 69,
+      "producer_late_ms": 0.21510000806301832
+    },
+    {
+      "index": 70,
+      "producer_late_ms": 0.17179999849759042
+    },
+    {
+      "index": 71,
+      "producer_late_ms": 4.504500015173107
+    },
+    {
+      "index": 72,
+      "producer_late_ms": 0.2677000011317432
+    },
+    {
+      "index": 73,
+      "producer_late_ms": 1.1478000087663531
+    },
+    {
+      "index": 74,
+      "producer_late_ms": 1.7464000266045332
+    },
+    {
+      "index": 75,
+      "producer_late_ms": 0.8085000154096633
+    },
+    {
+      "index": 76,
+      "producer_late_ms": 1.3964000099804252
+    },
+    {
+      "index": 77,
+      "producer_late_ms": 1.2181999918539077
+    },
+    {
+      "index": 78,
+      "producer_late_ms": 1.9760000286623836
+    },
+    {
+      "index": 79,
+      "producer_late_ms": 2.0679000299423933
+    },
+    {
+      "index": 80,
+      "producer_late_ms": 0.010499992640689015
+    },
+    {
+      "index": 81,
+      "producer_late_ms": 0.7652999775018543
+    },
+    {
+      "index": 82,
+      "producer_late_ms": 2.029399969615042
+    },
+    {
+      "index": 83,
+      "producer_late_ms": 1.9417000003159046
+    },
+    {
+      "index": 84,
+      "producer_late_ms": 1.974499988136813
+    },
+    {
+      "index": 85,
+      "producer_late_ms": 1.5897999983280897
+    },
+    {
+      "index": 86,
+      "producer_late_ms": 2.440799988107756
+    },
+    {
+      "index": 87,
+      "producer_late_ms": 2.38389999140054
+    },
+    {
+      "index": 88,
+      "producer_late_ms": 0.4064000095240772
+    },
+    {
+      "index": 89,
+      "producer_late_ms": 2.6701999886427075
+    },
+    {
+      "index": 90,
+      "producer_late_ms": 1.2006000033579767
+    },
+    {
+      "index": 91,
+      "producer_late_ms": 0.32909997389651835
+    },
+    {
+      "index": 92,
+      "producer_late_ms": 0.11329998960718513
+    },
+    {
+      "index": 93,
+      "producer_late_ms": 0.8369999995920807
+    },
+    {
+      "index": 94,
+      "producer_late_ms": 2.0105000003241003
+    },
+    {
+      "index": 95,
+      "producer_late_ms": 0.8564000017940998
+    },
+    {
+      "index": 96,
+      "producer_late_ms": 0.9176999737974256
+    },
+    {
+      "index": 97,
+      "producer_late_ms": 2.336899982765317
+    },
+    {
+      "index": 98,
+      "producer_late_ms": 3.041299991309643
+    },
+    {
+      "index": 99,
+      "producer_late_ms": 1.581299991812557
+    }
+  ],
+  "frame_hashes": [
+    "b9136850f14148679475bcac9cbb36845241b46e9ed0bc68e905105c8f9a19c9",
+    "2adbd541ffd52f29cb7b317bec225e31848b0b5f84066f4b9485511a779e6a79",
+    "756860bfc747fb78106b7d5779c4a0c8ac75c0ada5fcfcb186ef961ffb5a3425",
+    "ae94c0fbabdf1b42525de9d5457507f627f0d65a0c26546c6681befa93edcd5b",
+    "240968d1306874b642272cd922a99c1bb4a1cf7fd3b50bea4f6b1e8d9907b068",
+    "572f886430979370833a91985feb08c0b1b741509f0271374b1deb0975ace822",
+    "6614f4d2fee2624227d7d56e0e47c8c2bb66df34c65a056185dd6746bc12caf3",
+    "68e58a37d4748d521836cbaeb41d4ebc2e011494d64ee93cc10015ad8738b46a",
+    "f828966b50fa7eb1f7a29a6698dde21ec58b65438d3ac35bb067ba5523669a2d",
+    "69724d469fac239efdd03c0b77300499a3b44a05e431f4eba213df5d2b3b6a92",
+    "5b13ace234e975fb1f3b208ab5c259938ec39e5a35c3f43ddbe0a103da2bb828",
+    "2e0f2c94658f1cc2c716f3c46681ab63425055c16313ddb2605e582ac1b6b38a",
+    "a37f3684428fbf49a0c26e73b96df10bd3354f7d6d8b3ccd350627f18a627912",
+    "3ba430b6ebe3b260b27ce64b8f0eb6fdc2cea46f356d857bc6fe29a24647fc25",
+    "549d5de83c9476391a0bac02529f5dc10c3462973f99ca387d7387be456374a8",
+    "4b31eda197fec03e9feb2f7d6bc09e5c3a9fc0c78fc54dd1e80f44e5b09fe1c0",
+    "0f80693ed1b10bcdf2e962f0113d6524c66a4fda4d51abdcd40685f9c188ae69",
+    "249179f241cac7bc9588fc12dd76d561b6443978ca1910a8888be4c662a9a1e0",
+    "99b043a03a17ed67360fa39b0ebe47f37a53f75ba57a376838d4dd05da73e596",
+    "a07482ea12688b0786728434e09768340c8bb2852e9f33cb4ceb993b56d8227f",
+    "41a7798523edce8548c283005a467f8c70abb9edfafd46cbd8c8a9331938f332",
+    "8e1e62d7658dbeb04633f6accc5089d983c1966c94371dc24eefd2d0f9ce3f3e",
+    "09d51b0057f9e5e3f60db48207726d839a67346c77b99fa577b1409434a9611f",
+    "75c0539bb8f004a543cf2332f50d76fbc210152264b5da8c83b2ac3dc35751d3",
+    "4084419883128bde7fe557c23f7a06cd9a07f4df1dc474cd137cef7a2a3fa4fb",
+    "de901c3bc2c02fda56518024f072ed3ecb48d289f355c3a0c765371a5e9dbd5d",
+    "e4672319d375f247a3ac5f97a48a321bbed8242346b29a68dd616e9dae29ba5a",
+    "0106599089e5a56f40972eec8ff5233ebe89b8509475ff78becdab2810b3466c",
+    "6196aa0f8e1d7b258017ba87750eed020274ed5d242376fc02fc6e7dec2be805",
+    "675192c9c2d2d51d48b002bfe254bc8322583199458c17ee7e33760991d7da60",
+    "19e7bd649d23f77f51e5ccd65b45414ba7965b131c1086f681cf7f763656a878",
+    "f4602e010c0c100c8f39fc8dbd3f5abc91b2b565148e10d3d3fdd064341cce50",
+    "2154181bdde67e02d6d21a88dc38cd415e3bfe053063095b239f548af15d1080",
+    "566fc06fc9c2e674d6760714f7d90cde9d68f3e651bb4b1646bf3f6ae60dc017",
+    "bf1d4d1c112c1efb6cd8d42871eb47ec74af471ed2346895cf08ccedaea51d49",
+    "69cd69dcde4522b3138812cda4d2eab8e37c505867df7c24d856384813ff7c76",
+    "0527721213bd09112dfaa929a006d92a0d3bc748a65652ccfe738804191f94a5",
+    "e55b725011cab9abc269a6557b183373927af27d0cdb1d2b611b14071ea85868",
+    "c5985f25b6212416e47f1473e6bcddc4a30435b7767a56842698246933c6ee4e",
+    "961df75026d3e6abee798208307a119950812bd3ce75172c74dde2e3c68604b6",
+    "c46f1beb1edd861b8f4c7c46bdd8311cf1432c3b2adf0acabc000b2f5018e42e",
+    "e719681df48df395404dbe16a76375e21bb253e7346e78adbebfd8709a2a2541",
+    "43a8fc4bf855efd9bb49838b83d24076cb854ae95e94088067a8a979fa55ba07",
+    "080d6c4c7e14c1642b3c9b5acd6e9db75b32d6d27d0f3efcba93a3f2dfd79fd7",
+    "b8e2e7d1e064d4be4ced3624bd8b89033690b616e04404691d5ae7ec6c67ff7e",
+    "d75955468679113d488d3f964a0bbb5855f7e489019fa706dac005e3ccce113a",
+    "17c02229cf1b83c2cc1b7d49d816ede1e6c6aaf3dd9d4d9e31f52e7d5827d343",
+    "bcc563d2ab86034f0169cf14accce2846812aac4b84af87c3b54fcd2e467f4f8",
+    "6d1daff7fb8a5308b107e1fa2780293af56ee94dc088687e99c2ddfef9e4b0cb",
+    "3a099e2c6f148b643ade4727725f4d0dfbd2398cd45c665ed46ece41fd6654d9",
+    "edd7d4fccaab240e6c4ef80f9ad1913f5c9da8ad4be0828f8ec6d16a1fea7c67",
+    "6b0df66fb32dd7b901d4d831bb5624901b243fbec449db170ba932587f884a27",
+    "11c24d8113bd0a0caf50ac6b3c685c54b7fd52b41c1216f423cc1ccee42e0f9a",
+    "e6c38526c37d82fe918bd89722b33b0366353ef205029eea4504642c456d3ab5",
+    "d689e9b32595cf40e28fef0fe107452f90dde444f03c87527a12a2b37567e920",
+    "4cabdb96b6a0b4c61952524a3e6c6211268e43da94adc6f28555f28f894090ee",
+    "d429f1a2f8a4570aebc03e5588d581271415c619306549d209f77037a6674411",
+    "def454b010d411034f7233904586bcdb5ee085c6a27d1cb9b955fabadcf76070",
+    "b68a7e5b95677a0b56cdac492e1067eac789376d7b7574a5b64d6612871574fe",
+    "205a888b984336868f384c6d014220644b11cfee64f72c11f15c4c6cc2f39285",
+    "a9445023c0ac94d0edde4cb7f21f59bf4fed1d87fbfa926135bbbcfc376af625",
+    "007a88dad09936170a6d54a3723d61fd47c76681017c2cc400a7d9d369fa3800",
+    "a6a362c439f4e43f3daf12aca20e5230d8b31e4e8a6aa21a1cf84f04fb54071f",
+    "91a5971ea8c5e38a42f70e7758b17d859a06b6f382a577fa36ed474bede71610",
+    "17b5e1c861720e24716256db3e7b587f671b7e744f9c739da68d340eab9db60b",
+    "02aab423c2da0c3d31e2b1540a032eaa917a026b27c438d84ec2a6def65d11fe",
+    "cd35a546b581948cbffa1dd330df4a75a0b8dc1ab007521d270cfd36f2d4b559",
+    "fc0a25f0ebab135b52f1964bee7ab1ceb5c8516bf761267a1469c1c2eec6b04d",
+    "b3cc5483570797f2252b1cb5022d00117691a6118c6a6350c12c0088e6a2f027",
+    "e8b5cb3b7429399b6243f03455c119d048744527361062b8cba917df114617d8",
+    "cf33c07244444a79d40ab93fec125584dd29ca86a4f2bb8bd21f49efcb2ae28d",
+    "47329e508556b69043dc840b4baedf12f2c507d3a39e57e543027c81a9359f29",
+    "c3af020c65f6abc8b2b38900549f3ceefa9e7b540beb1e5241b0409fcedd2e1c",
+    "2a5e787fc9bc3ea60a0312729b81705e33b765de7b3ad29613fc5ad76a1d6149",
+    "cf99790fa72eef8dc1889437b3bbc5ac6b11971514c8ee2ac5cdeaeee1ce1a01",
+    "ab86a704196a776599969baf95f4eb065f1ff4d653ac359a43401391f6374cca",
+    "5e83cb7d6316b288561b055c7290076410faa8020f8e0f9c46365cc17d947d8b",
+    "0c0f7b1effa855e4b510767890324f501f2089942a78fd675e3f822ec6d7386c",
+    "01b5d224651db0b9c7403ac2c797194514b50d89ac157c95652bca96ab7422ab",
+    "bd797354bca482456f59e405b54e71d91cdd5794966584e387a75611695c69a8",
+    "d62374bbbb0934304a237fe229edcc17cc8d5be4430f9bc3ef6780fb2bcd9c47",
+    "5c45f5b3381c958e2eb2e7ead46042d45a1b8c681d611114680ec4dcbc6546ac",
+    "a5257a44d4733aa8c17d8b8aaed5a9fe16c93f7891566faf7da14bc54e3a249a",
+    "5361a493a07e60a27d438fe93ed9babbec468b78c3dfe25853dc61a1a60544e4",
+    "0be9dff7f77eefdbfd11b58c8652551aa1682a00d4d8a4c44fffb750a3427655",
+    "965c0ed6951969aa3be97c563ca095b20a01f343b3b8655ffe8714183c0dec18",
+    "3e84393cf9abc603f272e823448434644257df737e1c3199756f95515d22f994",
+    "2802af19044bc48bfab68cae54093bf8f59dcecb3ed26b09910f583b2c52235e",
+    "e2e00838e4948d06581c3aebb780dd21671bd8483d002222b80107e477d1599d",
+    "f4e951349bfa39c7414f5ddd2dc8c54200d74c3fce6df0eebb8640d341542bd4",
+    "1d2ec5e7449b4ee343d73a1df829e7b9f9e4fa3bd7373038a65204594102784c",
+    "1a776103f666adedd426bd6f2577763777e275eb52895239d16259d380a73d74",
+    "5121a9fbf0ba7c8ea52e0e6145356b937bfa2a36945ed33110abb3a3a33d3708",
+    "e3c6f19bd738caca2b845a0495fa556df845c75bf041d7540c25791027191570",
+    "3d0be1b6b36aced4738efee6fb44446c4195edd9feb065457b0ef0ba43d55792",
+    "bbee23b3a040fbb6c546966ff0900eed7d6445393095f20e52bd75d7b8865f2a",
+    "bebc8056e8f897dedf20e0d33d174332ad42484ae7e507dc5f6e011a9cf8d4dd",
+    "a998b7614880900b74fd342a73bbddfd2ad509d062ad25a4a5a0e026d9595404",
+    "4c6ea81e154a896449f4fb1b49d2d6d97506cbd8dae069ed532a4217231184a3",
+    "ae7844a35064e202e1f8b5bd554103ad474246fb3aad1798f82b6f43c1148ae9"
+  ],
+  "real_desktop_capture": false,
+  "foreground_control_calls": 0,
+  "qt_platform": "offscreen",
+  "cpu_core_seconds": 54.203125,
+  "duration_seconds": 34.93136729998514,
+  "captures": 201,
+  "private_max_mib": 886.91,
+  "working_max_mib": 440.56,
+  "sqlite_rows": {
+    "cache": 0,
+    "history": 0,
+    "usage": 0
+  },
+  "model_stayed_warm": true,
+  "producer_late_max_ms": 5.756900005508214,
+  "owned_model_stopped": true,
+  "workers_stopped": true,
+  "sessions_cleared": true,
+  "shared_ocr_context_cleared": true,
+  "missing": [],
+  "duplicates": {},
+  "source_unchanged": true,
+  "passed": true
+}

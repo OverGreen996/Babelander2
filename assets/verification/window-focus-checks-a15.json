@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "tests_run": 42,
+  "failures": 0,
+  "errors": 0,
+  "qt_platform": "offscreen",
+  "foreground_api": "controlled fake",
+  "real_game": false,
+  "model": "controlled fake",
+  "visible_windows": false,
+  "hotkeys": false
+}

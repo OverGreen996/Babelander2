@@ -1,0 +1,73 @@
+{
+  "scope": "Read-only Windows GPU Process Memory counters of the owned test processes. Reported per-process usage, no adapter totals or game performance; unavailable is null, not zero.",
+  "samples": [
+    {
+      "utc": "2026-10-07T18:41:42.6005193Z",
+      "model_pid": 44484,
+      "app_pid": 27640,
+      "model": {
+        "process_alive": true,
+        "counters_available": true,
+        "dedicated_bytes": 1626898432.0,
+        "shared_bytes": 85983232.0
+      },
+      "app": {
+        "process_alive": true,
+        "counters_available": false,
+        "dedicated_bytes": null,
+        "shared_bytes": null
+      }
+    },
+    {
+      "utc": "2026-10-07T18:42:04.2727938Z",
+      "model_pid": 44484,
+      "app_pid": 27640,
+      "model": {
+        "process_alive": true,
+        "counters_available": true,
+        "dedicated_bytes": 1626898432.0,
+        "shared_bytes": 85983232.0
+      },
+      "app": {
+        "process_alive": true,
+        "counters_available": false,
+        "dedicated_bytes": null,
+        "shared_bytes": null
+      }
+    },
+    {
+      "utc": "2026-10-07T18:42:25.3198584Z",
+      "model_pid": 44484,
+      "app_pid": 27640,
+      "model": {
+        "process_alive": true,
+        "counters_available": true,
+        "dedicated_bytes": 1626898432.0,
+        "shared_bytes": 85983232.0
+      },
+      "app": {
+        "process_alive": true,
+        "counters_available": false,
+        "dedicated_bytes": null,
+        "shared_bytes": null
+      }
+    },
+    {
+      "utc": "2026-10-07T18:42:46.3461978Z",
+      "model_pid": 44484,
+      "app_pid": 27640,
+      "model": {
+        "process_alive": true,
+        "counters_available": true,
+        "dedicated_bytes": 1626898432.0,
+        "shared_bytes": 85983232.0
+      },
+      "app": {
+        "process_alive": true,
+        "counters_available": false,
+        "dedicated_bytes": null,
+        "shared_bytes": null
+      }
+    }
+  ]
+}

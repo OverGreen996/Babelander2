@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "checks": {
+    "worker_loading_controls": true,
+    "cancel_restores_controls": true,
+    "cancel_never_applies_paths": true,
+    "success_emits_paths_once": true,
+    "failure_preserves_paths_and_controls": true,
+    "close_cancels_and_joins_worker": true
+  },
+  "network": "Controlled installer; no network requests, model assets or user settings changed"
+}

@@ -1,0 +1,78 @@
+{
+  "decision": "rejected_for_default",
+  "production_version": "2.0.0a22",
+  "production_core_unchanged": true,
+  "released_exe_unchanged": true,
+  "released_source_zip_unchanged": true,
+  "candidate_sha256": "a39f8e6538c0ffff09e3260ad3709f2248987881e638ae5f9a702a5a42462a15",
+  "resource_scope": "Shared warmed real CPU OCR, 12s x two balanced phases per setting per scene. Translation stub; no GPU/FPS/VRAM conclusion. Same-process RAM has allocator/thread history and is not causal memory evidence.",
+  "resources": {
+    "jitter14": {
+      "False": {
+        "cpu_core_seconds": 49.234375,
+        "ocr_calls": 107
+      },
+      "True": {
+        "cpu_core_seconds": 31.28125,
+        "ocr_calls": 61
+      },
+      "cpu_reduction_percent": 36.464614408124405
+    },
+    "waves": {
+      "False": {
+        "cpu_core_seconds": 50.875,
+        "ocr_calls": 102
+      },
+      "True": {
+        "cpu_core_seconds": 50.046875,
+        "ocr_calls": 96
+      },
+      "cpu_reduction_percent": 1.6277641277641308
+    },
+    "translucent": {
+      "False": {
+        "cpu_core_seconds": 52.390625,
+        "ocr_calls": 123
+      },
+      "True": {
+        "cpu_core_seconds": 47.59375,
+        "ocr_calls": 98
+      },
+      "cpu_reduction_percent": 9.15597971965404
+    },
+    "particles": {
+      "False": {
+        "cpu_core_seconds": 51.0,
+        "ocr_calls": 66
+      },
+      "True": {
+        "cpu_core_seconds": 50.28125,
+        "ocr_calls": 63
+      },
+      "cpu_reduction_percent": 1.409313725490191
+    }
+  },
+  "recognizable_edge_changes": 30,
+  "missed_200ms_flash_cases": [
+    "quantity-34",
+    "new-dim-row-34",
+    "quantity-30",
+    "one-digit-30",
+    "new-dim-row-30"
+  ],
+  "real_flash_control_latencies_ms": [
+    173.43029999983628,
+    199.7187000001759
+  ],
+  "real_flash_candidate_events": 0,
+  "flash_orders": [
+    "control/candidate",
+    "candidate/control"
+  ],
+  "stress_discovery_only": true,
+  "stress_timings_valid_for_acceptance": false,
+  "stress_limitations": "Particle decorations are recognized as symbols; unknown source IDs contaminate result counts. Existing count-based block drain may cancel the final real message after spurious results exceed the count. Captured animation phase uses an absolute clock and is not anchored to each exposure. Do not use this run as a 100-message full latency or recall benchmark.",
+  "real_desktop_capture": false,
+  "foreground_control_calls": 0,
+  "paid_api_calls": 0
+}

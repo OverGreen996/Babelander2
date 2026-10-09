@@ -1,0 +1,752 @@
+{
+  "rows": [
+    {
+      "case": "quantity-230",
+      "old": [
+        "Rin: Need potions x4."
+      ],
+      "new": [
+        "Rin: Need potions x6."
+      ],
+      "immediate": true,
+      "reason": "structure",
+      "stats": {
+        "max_local_changes": 16,
+        "changed_samples": 86
+      },
+      "old_confidence": [
+        0.99555
+      ],
+      "new_confidence": [
+        0.99496
+      ],
+      "recognizable_change": true,
+      "flash_seen": true
+    },
+    {
+      "case": "negation-230",
+      "old": [
+        "Rin: Do enter the gate."
+      ],
+      "new": [
+        "Rin: Do not enter the gate."
+      ],
+      "immediate": true,
+      "reason": "structure",
+      "stats": {
+        "max_local_changes": 16,
+        "changed_samples": 1386
+      },
+      "old_confidence": [
+        0.99997
+      ],
+      "new_confidence": [
+        0.99997
+      ],
+      "recognizable_change": true,
+      "flash_seen": true
+    },
+    {
+      "case": "one-digit-230",
+      "old": [
+        "Rin: HP 10"
+      ],
+      "new": [
+        "Rin: HP 18"
+      ],
+      "immediate": true,
+      "reason": "structure",
+      "stats": {
+        "max_local_changes": 15,
+        "changed_samples": 45
+      },
+      "old_confidence": [
+        0.99953
+      ],
+      "new_confidence": [
+        0.99959
+      ],
+      "recognizable_change": true,
+      "flash_seen": true
+    },
+    {
+      "case": "new-dim-row-230",
+      "old": [
+        "Jo: GG"
+      ],
+      "new": [
+        "Jo: GG",
+        "Rin: Need keys x5."
+      ],
+      "immediate": true,
+      "reason": "structure",
+      "stats": {
+        "max_local_changes": 16,
+        "changed_samples": 2052
+      },
+      "old_confidence": [
+        0.99201
+      ],
+      "new_confidence": [
+        0.98354,
+        0.99912
+      ],
+      "recognizable_change": true,
+      "flash_seen": true
+    },
+    {
+      "case": "quantity-100",
+      "old": [
+        "Rin: Need potions x4."
+      ],
+      "new": [
+        "Rin: Need potions x6."
+      ],
+      "immediate": true,
+      "reason": "structure",
+      "stats": {
+        "max_local_changes": 15,
+        "changed_samples": 58
+      },
+      "old_confidence": [
+        0.99991
+      ],
+      "new_confidence": [
+        0.99962
+      ],
+      "recognizable_change": true,
+      "flash_seen": true
+    },
+    {
+      "case": "negation-100",
+      "old": [
+        "Rin: Do enter the gate."
+      ],
+      "new": [
+        "Rin: Do not enter the gate."
+      ],
+      "immediate": true,
+      "reason": "structure",
+      "stats": {
+        "max_local_changes": 16,
+        "changed_samples": 779
+      },
+      "old_confidence": [
+        0.99995
+      ],
+      "new_confidence": [
+        0.99961
+      ],
+      "recognizable_change": true,
+      "flash_seen": true
+    },
+    {
+      "case": "one-digit-100",
+      "old": [
+        "Rin: HP 10"
+      ],
+      "new": [
+        "Rin: HP 18"
+      ],
+      "immediate": true,
+      "reason": "structure",
+      "stats": {
+        "max_local_changes": 11,
+        "changed_samples": 25
+      },
+      "old_confidence": [
+        0.99831
+      ],
+      "new_confidence": [
+        0.99855
+      ],
+      "recognizable_change": true,
+      "flash_seen": true
+    },
+    {
+      "case": "new-dim-row-100",
+      "old": [
+        "Jo: GG"
+      ],
+      "new": [
+        "Jo: GG",
+        "Rin: Need keys x5."
+      ],
+      "immediate": true,
+      "reason": "structure",
+      "stats": {
+        "max_local_changes": 16,
+        "changed_samples": 958
+      },
+      "old_confidence": [
+        0.99201
+      ],
+      "new_confidence": [
+        0.98354,
+        0.99913
+      ],
+      "recognizable_change": true,
+      "flash_seen": true
+    },
+    {
+      "case": "quantity-60",
+      "old": [
+        "Rin: Need potions x4."
+      ],
+      "new": [
+        "Rin: Need potions x6."
+      ],
+      "immediate": true,
+      "reason": "structure",
+      "stats": {
+        "max_local_changes": 12,
+        "changed_samples": 37
+      },
+      "old_confidence": [
+        0.98325
+      ],
+      "new_confidence": [
+        0.99487
+      ],
+      "recognizable_change": true,
+      "flash_seen": true
+    },
+    {
+      "case": "negation-60",
+      "old": [
+        "Rin: Do enter the gate."
+      ],
+      "new": [
+        "Rin: Do not enter the gate."
+      ],
+      "immediate": true,
+      "reason": "structure",
+      "stats": {
+        "max_local_changes": 16,
+        "changed_samples": 442
+      },
+      "old_confidence": [
+        0.98719
+      ],
+      "new_confidence": [
+        0.99787
+      ],
+      "recognizable_change": true,
+      "flash_seen": true
+    },
+    {
+      "case": "one-digit-60",
+      "old": [
+        "Rin: HP 10"
+      ],
+      "new": [
+        "Rin: HP 18"
+      ],
+      "immediate": true,
+      "reason": "structure",
+      "stats": {
+        "max_local_changes": 11,
+        "changed_samples": 17
+      },
+      "old_confidence": [
+        0.96269
+      ],
+      "new_confidence": [
+        0.97133
+      ],
+      "recognizable_change": true,
+      "flash_seen": true
+    },
+    {
+      "case": "new-dim-row-60",
+      "old": [
+        "Jo: GG"
+      ],
+      "new": [
+        "Jo: GG",
+        "Rin: Need keys x5."
+      ],
+      "immediate": true,
+      "reason": "structure",
+      "stats": {
+        "max_local_changes": 16,
+        "changed_samples": 319
+      },
+      "old_confidence": [
+        0.99201
+      ],
+      "new_confidence": [
+        0.93292,
+        0.99894
+      ],
+      "recognizable_change": true,
+      "flash_seen": true
+    },
+    {
+      "case": "quantity-40",
+      "old": [
+        "Rin: Need potions x4."
+      ],
+      "new": [
+        "Rin: Need potions x6."
+      ],
+      "immediate": true,
+      "reason": "structure",
+      "stats": {
+        "max_local_changes": 7,
+        "changed_samples": 14
+      },
+      "old_confidence": [
+        0.99064
+      ],
+      "new_confidence": [
+        0.97453
+      ],
+      "recognizable_change": true,
+      "flash_seen": true
+    },
+    {
+      "case": "negation-40",
+      "old": [
+        "Rin: Do enter the gate."
+      ],
+      "new": [
+        "Rin: Do not enter the gate."
+      ],
+      "immediate": true,
+      "reason": "structure",
+      "stats": {
+        "max_local_changes": 13,
+        "changed_samples": 157
+      },
+      "old_confidence": [
+        0.98796
+      ],
+      "new_confidence": [
+        0.9959
+      ],
+      "recognizable_change": true,
+      "flash_seen": true
+    },
+    {
+      "case": "one-digit-40",
+      "old": [
+        "Rin: HP 10"
+      ],
+      "new": [
+        "Rin: HP 18"
+      ],
+      "immediate": true,
+      "reason": "structure",
+      "stats": {
+        "max_local_changes": 4,
+        "changed_samples": 4
+      },
+      "old_confidence": [
+        0.98848
+      ],
+      "new_confidence": [
+        0.99256
+      ],
+      "recognizable_change": true,
+      "flash_seen": true
+    },
+    {
+      "case": "new-dim-row-40",
+      "old": [
+        "Jo: GG"
+      ],
+      "new": [
+        "Jo: GG",
+        "Rin: Need keys x5."
+      ],
+      "immediate": true,
+      "reason": "structure",
+      "stats": {
+        "max_local_changes": 6,
+        "changed_samples": 41
+      },
+      "old_confidence": [
+        0.99201
+      ],
+      "new_confidence": [
+        0.93292,
+        0.9876
+      ],
+      "recognizable_change": true,
+      "flash_seen": true
+    },
+    {
+      "case": "quantity-34",
+      "old": [
+        "Rin: Need potions x4."
+      ],
+      "new": [
+        "Rin: Need potions x6."
+      ],
+      "immediate": false,
+      "reason": "noise",
+      "stats": {
+        "max_local_changes": 3,
+        "changed_samples": 3
+      },
+      "old_confidence": [
+        0.97804
+      ],
+      "new_confidence": [
+        0.98864
+      ],
+      "recognizable_change": true,
+      "flash_seen": false
+    },
+    {
+      "case": "negation-34",
+      "old": [
+        "Rin: Do enter the gate."
+      ],
+      "new": [
+        "Rin: Do not enter the gate."
+      ],
+      "immediate": true,
+      "reason": "structure",
+      "stats": {
+        "max_local_changes": 10,
+        "changed_samples": 46
+      },
+      "old_confidence": [
+        0.98888
+      ],
+      "new_confidence": [
+        0.9851
+      ],
+      "recognizable_change": true,
+      "flash_seen": true
+    },
+    {
+      "case": "one-digit-34",
+      "old": [
+        "Rin: HP 10"
+      ],
+      "new": [
+        "Rin: HP 18"
+      ],
+      "immediate": true,
+      "reason": "structure",
+      "stats": {
+        "max_local_changes": 4,
+        "changed_samples": 4
+      },
+      "old_confidence": [
+        0.99477
+      ],
+      "new_confidence": [
+        0.99333
+      ],
+      "recognizable_change": true,
+      "flash_seen": true
+    },
+    {
+      "case": "new-dim-row-34",
+      "old": [
+        "Jo: GG"
+      ],
+      "new": [
+        "Jo: GG",
+        "Rin: Need keys x5."
+      ],
+      "immediate": false,
+      "reason": "noise",
+      "stats": {
+        "max_local_changes": 2,
+        "changed_samples": 5
+      },
+      "old_confidence": [
+        0.99201
+      ],
+      "new_confidence": [
+        0.93292,
+        0.99832
+      ],
+      "recognizable_change": true,
+      "flash_seen": false
+    },
+    {
+      "case": "quantity-30",
+      "old": [
+        "Rin: Need potions x4."
+      ],
+      "new": [
+        "Rin: Need potions x6."
+      ],
+      "immediate": false,
+      "reason": "noise",
+      "stats": {
+        "max_local_changes": 1,
+        "changed_samples": 1
+      },
+      "old_confidence": [
+        0.95638
+      ],
+      "new_confidence": [
+        0.99117
+      ],
+      "recognizable_change": true,
+      "flash_seen": false
+    },
+    {
+      "case": "negation-30",
+      "old": [
+        "Rin: Do enter the gate."
+      ],
+      "new": [
+        "Rin: Do not enter the gate."
+      ],
+      "immediate": true,
+      "reason": "structure",
+      "stats": {
+        "max_local_changes": 6,
+        "changed_samples": 11
+      },
+      "old_confidence": [
+        0.98638
+      ],
+      "new_confidence": [
+        0.97558
+      ],
+      "recognizable_change": true,
+      "flash_seen": true
+    },
+    {
+      "case": "one-digit-30",
+      "old": [
+        "Rin: HP 10"
+      ],
+      "new": [
+        "Rin: HP 18"
+      ],
+      "immediate": false,
+      "reason": "noise",
+      "stats": {
+        "max_local_changes": 1,
+        "changed_samples": 1
+      },
+      "old_confidence": [
+        0.99452
+      ],
+      "new_confidence": [
+        0.99676
+      ],
+      "recognizable_change": true,
+      "flash_seen": false
+    },
+    {
+      "case": "new-dim-row-30",
+      "old": [
+        "Jo: GG"
+      ],
+      "new": [
+        "Jo: GG",
+        "Rin: Need keys x5."
+      ],
+      "immediate": false,
+      "reason": "noise",
+      "stats": {
+        "max_local_changes": 0,
+        "changed_samples": 0
+      },
+      "old_confidence": [
+        0.99201
+      ],
+      "new_confidence": [
+        0.92393,
+        0.99082
+      ],
+      "recognizable_change": true,
+      "flash_seen": false
+    },
+    {
+      "case": "clear",
+      "old": [
+        "Jo: GG"
+      ],
+      "new": [],
+      "immediate": true,
+      "reason": "structure",
+      "stats": {
+        "max_local_changes": 16,
+        "changed_samples": 888
+      },
+      "old_confidence": [
+        0.99201
+      ],
+      "new_confidence": [],
+      "recognizable_change": true,
+      "flash_seen": true
+    },
+    {
+      "case": "repeated-GG",
+      "old": [
+        "Jo: GG"
+      ],
+      "new": [
+        "Jo: GG",
+        "Jo: GG"
+      ],
+      "immediate": true,
+      "reason": "structure",
+      "stats": {
+        "max_local_changes": 16,
+        "changed_samples": 808
+      },
+      "old_confidence": [
+        0.99201
+      ],
+      "new_confidence": [
+        0.93292,
+        0.99813
+      ],
+      "recognizable_change": true,
+      "flash_seen": true
+    },
+    {
+      "case": "scroll",
+      "old": [
+        "Rin: TY",
+        "Jo: GG"
+      ],
+      "new": [
+        "Jo: GG",
+        "Kai: BRB"
+      ],
+      "immediate": true,
+      "reason": "structure",
+      "stats": {
+        "max_local_changes": 16,
+        "changed_samples": 1397
+      },
+      "old_confidence": [
+        0.9991,
+        0.99784
+      ],
+      "new_confidence": [
+        0.98658,
+        0.9977
+      ],
+      "recognizable_change": true,
+      "flash_seen": true
+    },
+    {
+      "case": "color-shift",
+      "old": [
+        "Jo: GG"
+      ],
+      "new": [
+        "Jo: GG"
+      ],
+      "immediate": true,
+      "reason": "structure",
+      "stats": {
+        "max_local_changes": 16,
+        "changed_samples": 753
+      },
+      "old_confidence": [
+        0.99444
+      ],
+      "new_confidence": [
+        0.9866
+      ],
+      "recognizable_change": false,
+      "flash_seen": true
+    },
+    {
+      "case": "new-color-row",
+      "old": [
+        "Jo: GG"
+      ],
+      "new": [
+        "Jo: GG",
+        "Kai: Need x6"
+      ],
+      "immediate": true,
+      "reason": "structure",
+      "stats": {
+        "max_local_changes": 16,
+        "changed_samples": 1264
+      },
+      "old_confidence": [
+        0.99201
+      ],
+      "new_confidence": [
+        0.93292,
+        0.99689
+      ],
+      "recognizable_change": true,
+      "flash_seen": true
+    },
+    {
+      "case": "light-quantity",
+      "old": [
+        "Rin: Need potions x4."
+      ],
+      "new": [
+        "Rin: Need potions x6."
+      ],
+      "immediate": true,
+      "reason": "structure",
+      "stats": {
+        "max_local_changes": 16,
+        "changed_samples": 84
+      },
+      "old_confidence": [
+        0.99643
+      ],
+      "new_confidence": [
+        0.99655
+      ],
+      "recognizable_change": true,
+      "flash_seen": true
+    },
+    {
+      "case": "tiny-quantity",
+      "old": [
+        "Rin: Need potions x4."
+      ],
+      "new": [
+        "Rin: Need potions x6."
+      ],
+      "immediate": true,
+      "reason": "structure",
+      "stats": {
+        "max_local_changes": 14,
+        "changed_samples": 34
+      },
+      "old_confidence": [
+        0.99954
+      ],
+      "new_confidence": [
+        0.9996
+      ],
+      "recognizable_change": true,
+      "flash_seen": true
+    }
+  ],
+  "recognizable_changes": 30,
+  "missed_immediate": [
+    "quantity-34",
+    "new-dim-row-34",
+    "quantity-30",
+    "one-digit-30",
+    "new-dim-row-30"
+  ],
+  "missed_200ms_flash": [
+    "quantity-34",
+    "new-dim-row-34",
+    "quantity-30",
+    "one-digit-30",
+    "new-dim-row-30"
+  ],
+  "candidate_sha256": "a39f8e6538c0ffff09e3260ad3709f2248987881e638ae5f9a702a5a42462a15",
+  "real_cpu_ocr": true,
+  "real_desktop_capture": false,
+  "foreground_control_calls": 0
+}

@@ -1,0 +1,4708 @@
+{
+  "version": "2.0.0a23",
+  "frozen": true,
+  "exe_sha256": "0f1eded6aeecc2059f75a7e2926bfb11a8378d0dd0674bffb24f4d3aed742723",
+  "qt_platform": "offscreen",
+  "passed": true,
+  "duration_seconds": 300.38,
+  "checks": {
+    "stop_releases_owned_model_before_close": true,
+    "image_ownership_released": true,
+    "preview_snapshot_bound": true,
+    "duration_completed": true,
+    "ongoing_results": true,
+    "no_controller_errors": true,
+    "no_translation_warnings": true,
+    "offscreen_platform_without_desktop_capture": true,
+    "bounded_handles": true,
+    "bounded_private_memory": true,
+    "workers_stopped": true,
+    "release_worker_stopped": true,
+    "owned_model_stopped": true
+  },
+  "changes": 98,
+  "samples": [
+    {
+      "elapsed": 0.0,
+      "results": 0,
+      "rss_mb": 109.45,
+      "private_mb": 558.82,
+      "gdi": 0,
+      "handles": 455,
+      "cpu_seconds": 0.828,
+      "model": null
+    },
+    {
+      "elapsed": 60.01,
+      "results": 20,
+      "rss_mb": 201.77,
+      "private_mb": 637.95,
+      "gdi": 0,
+      "handles": 566,
+      "cpu_seconds": 8.5,
+      "model": {
+        "pid": 23424,
+        "rss_mb": 1473.54,
+        "private_mb": 2003.23,
+        "gdi": 0,
+        "handles": 243,
+        "cpu_seconds": 1.797,
+        "vram_mb": null,
+        "vram_reason": "Per-process WDDM VRAM not measured."
+      }
+    },
+    {
+      "elapsed": 120.06,
+      "results": 40,
+      "rss_mb": 203.03,
+      "private_mb": 639.17,
+      "gdi": 0,
+      "handles": 571,
+      "cpu_seconds": 15.469,
+      "model": {
+        "pid": 23424,
+        "rss_mb": 1473.84,
+        "private_mb": 2003.49,
+        "gdi": 0,
+        "handles": 245,
+        "cpu_seconds": 2.234,
+        "vram_mb": null,
+        "vram_reason": "Per-process WDDM VRAM not measured."
+      }
+    },
+    {
+      "elapsed": 180.11,
+      "results": 59,
+      "rss_mb": 193.96,
+      "private_mb": 629.52,
+      "gdi": 0,
+      "handles": 563,
+      "cpu_seconds": 21.641,
+      "model": {
+        "pid": 23424,
+        "rss_mb": 1474.02,
+        "private_mb": 2003.68,
+        "gdi": 0,
+        "handles": 245,
+        "cpu_seconds": 2.609,
+        "vram_mb": null,
+        "vram_reason": "Per-process WDDM VRAM not measured."
+      }
+    },
+    {
+      "elapsed": 240.16,
+      "results": 79,
+      "rss_mb": 208.93,
+      "private_mb": 644.92,
+      "gdi": 0,
+      "handles": 564,
+      "cpu_seconds": 28.328,
+      "model": {
+        "pid": 23424,
+        "rss_mb": 1474.15,
+        "private_mb": 2003.8,
+        "gdi": 0,
+        "handles": 245,
+        "cpu_seconds": 2.938,
+        "vram_mb": null,
+        "vram_reason": "Per-process WDDM VRAM not measured."
+      }
+    }
+  ],
+  "results": [
+    {
+      "elapsed": 2.67,
+      "ms": 2655.25,
+      "warnings": 0,
+      "count": 1,
+      "event_id": 1,
+      "stages": {
+        "capture_ms": 0.15440000061062165,
+        "change_detection_ms": 0.8352000004379079,
+        "image_queue_wait_ms": 0.008099999831756577,
+        "ocr_queue_wait_ms": 0.20319999748608097,
+        "ocr_ms": 908.977800001594,
+        "capture_observed_at": 18909.6107879,
+        "ocr_started_at": 18909.6119807,
+        "ocr_completed_at": 18910.5209585,
+        "frame_seq": 1,
+        "capture_epoch": 1,
+        "stability_wait_ms": 2.1090999980515335,
+        "confirmation_captured_at": 18910.5221996,
+        "dispatch_wait_ms": 0.06420000136131421,
+        "translation_queue_ms": 0.16340000001946464,
+        "translation_request_ms": 1735.0340000011784,
+        "postprocess_ms": 5.282800000713905
+      },
+      "backend_states": [
+        "cold"
+      ],
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 3.3,
+      "ms": 218.71,
+      "warnings": 0,
+      "count": 1,
+      "event_id": 2,
+      "stages": {
+        "capture_ms": 0.12059999789926223,
+        "change_detection_ms": 0.5631999993056525,
+        "image_queue_wait_ms": 0.014299999747890979,
+        "ocr_queue_wait_ms": 0.1843999998527579,
+        "ocr_ms": 109.49199999959092,
+        "capture_observed_at": 18912.6857468,
+        "ocr_started_at": 18912.686615,
+        "ocr_completed_at": 18912.796107,
+        "frame_seq": 29,
+        "capture_epoch": 1,
+        "stability_wait_ms": 47.05470000044443,
+        "confirmation_captured_at": 18912.8425397,
+        "dispatch_wait_ms": 0.07139999797800556,
+        "translation_queue_ms": 0.06239999856916256,
+        "translation_request_ms": 59.36509999810369,
+        "postprocess_ms": 0.15839999832678586
+      },
+      "backend_states": [
+        "warm"
+      ],
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 6.38,
+      "ms": 219.11,
+      "warnings": 0,
+      "count": 1,
+      "event_id": 3,
+      "stages": {
+        "capture_ms": 0.10440000187372789,
+        "change_detection_ms": 0.4459999981918372,
+        "image_queue_wait_ms": 0.005800000508315861,
+        "ocr_queue_wait_ms": 0.12290000086068176,
+        "ocr_ms": 103.24179999952321,
+        "capture_observed_at": 18915.7672847,
+        "ocr_started_at": 18915.767958,
+        "ocr_completed_at": 18915.8711998,
+        "frame_seq": 58,
+        "capture_epoch": 1,
+        "stability_wait_ms": 113.52569999871776,
+        "confirmation_captured_at": 18915.9840853,
+        "dispatch_wait_ms": 0.060999998822808266,
+        "translation_queue_ms": 0.2623000000312459,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0
+      },
+      "backend_states": [
+        "none"
+      ],
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 9.47,
+      "ms": 266.43,
+      "warnings": 0,
+      "count": 1,
+      "event_id": 4,
+      "stages": {
+        "capture_ms": 0.13810000018565916,
+        "change_detection_ms": 0.5337000002327841,
+        "image_queue_wait_ms": 0.006500002200482413,
+        "ocr_queue_wait_ms": 0.1173999989987351,
+        "ocr_ms": 113.10900000171387,
+        "capture_observed_at": 18918.8069214,
+        "ocr_started_at": 18918.8077106,
+        "ocr_completed_at": 18918.9208196,
+        "frame_seq": 86,
+        "capture_epoch": 1,
+        "stability_wait_ms": 41.45060000155354,
+        "confirmation_captured_at": 18918.9616307,
+        "dispatch_wait_ms": 0.06159999975352548,
+        "translation_queue_ms": 0.0439000032201875,
+        "translation_request_ms": 109.5277000022179,
+        "postprocess_ms": 0.16849999883561395
+      },
+      "backend_states": [
+        "warm"
+      ],
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 12.44,
+      "ms": 158.02,
+      "warnings": 0,
+      "count": 1,
+      "event_id": 5,
+      "stages": {
+        "capture_ms": 0.26870000147027895,
+        "change_detection_ms": 1.1612000016612,
+        "image_queue_wait_ms": 0.011299998732283711,
+        "ocr_queue_wait_ms": 0.21249999554129317,
+        "ocr_ms": 118.83239999951911,
+        "capture_observed_at": 18921.8882567,
+        "ocr_started_at": 18921.8898991,
+        "ocr_completed_at": 18922.0087315,
+        "frame_seq": 115,
+        "capture_epoch": 1,
+        "stability_wait_ms": 36.160000003292225,
+        "confirmation_captured_at": 18922.0437042,
+        "dispatch_wait_ms": 0.08890000026440248,
+        "translation_queue_ms": 0,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0
+      },
+      "backend_states": [
+        "cache"
+      ],
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 15.51,
+      "ms": 157.01,
+      "warnings": 0,
+      "count": 1,
+      "event_id": 6,
+      "stages": {
+        "capture_ms": 0.13079999916953966,
+        "change_detection_ms": 0.5649000013363548,
+        "image_queue_wait_ms": 0.004800000169780105,
+        "ocr_queue_wait_ms": 0.11759999688365497,
+        "ocr_ms": 108.3427000012307,
+        "capture_observed_at": 18924.9629672,
+        "ocr_started_at": 18924.9637805,
+        "ocr_completed_at": 18925.0721232,
+        "frame_seq": 144,
+        "capture_epoch": 1,
+        "stability_wait_ms": 46.9401000009384,
+        "confirmation_captured_at": 18925.117696,
+        "dispatch_wait_ms": 0.06469999789260328,
+        "translation_queue_ms": 0,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0
+      },
+      "backend_states": [
+        "cache"
+      ],
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 18.59,
+      "ms": 159.08,
+      "warnings": 0,
+      "count": 1,
+      "event_id": 7,
+      "stages": {
+        "capture_ms": 0.11530000119819306,
+        "change_detection_ms": 0.5225999993854202,
+        "image_queue_wait_ms": 0.004800000169780105,
+        "ocr_queue_wait_ms": 0.10370000018156134,
+        "ocr_ms": 109.8491999982798,
+        "capture_observed_at": 18928.0449548,
+        "ocr_started_at": 18928.0456964,
+        "ocr_completed_at": 18928.1555456,
+        "frame_seq": 173,
+        "capture_epoch": 1,
+        "stability_wait_ms": 47.129900001891656,
+        "confirmation_captured_at": 18928.2015124,
+        "dispatch_wait_ms": 0.07919999916339293,
+        "translation_queue_ms": 0,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0
+      },
+      "backend_states": [
+        "cache"
+      ],
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 21.58,
+      "ms": 158.49,
+      "warnings": 0,
+      "count": 1,
+      "event_id": 8,
+      "stages": {
+        "capture_ms": 0.12159999823779799,
+        "change_detection_ms": 0.5430000019259751,
+        "image_queue_wait_ms": 0.007000002369750291,
+        "ocr_queue_wait_ms": 0.13029999900027178,
+        "ocr_ms": 121.83310000182246,
+        "capture_observed_at": 18931.0212785,
+        "ocr_started_at": 18931.0220734,
+        "ocr_completed_at": 18931.1439065,
+        "frame_seq": 201,
+        "capture_epoch": 1,
+        "stability_wait_ms": 34.648099997866666,
+        "confirmation_captured_at": 18931.1775152,
+        "dispatch_wait_ms": 0.07259999983943999,
+        "translation_queue_ms": 0,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0
+      },
+      "backend_states": [
+        "cache"
+      ],
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 24.66,
+      "ms": 159.56,
+      "warnings": 0,
+      "count": 1,
+      "event_id": 9,
+      "stages": {
+        "capture_ms": 0.5482000015035737,
+        "change_detection_ms": 0.873700002557598,
+        "image_queue_wait_ms": 0.01759999940986745,
+        "ocr_queue_wait_ms": 0.47699999777250923,
+        "ocr_ms": 130.00430000101915,
+        "capture_observed_at": 18934.1009837,
+        "ocr_started_at": 18934.1028826,
+        "ocr_completed_at": 18934.2328869,
+        "frame_seq": 230,
+        "capture_epoch": 1,
+        "stability_wait_ms": 25.57659999729367,
+        "confirmation_captured_at": 18934.2576751,
+        "dispatch_wait_ms": 0.08140000136336312,
+        "translation_queue_ms": 0,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0
+      },
+      "backend_states": [
+        "cache"
+      ],
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 27.8,
+      "ms": 215.75,
+      "warnings": 0,
+      "count": 1,
+      "event_id": 10,
+      "stages": {
+        "capture_ms": 0.1556999995955266,
+        "change_detection_ms": 0.5777000005764421,
+        "image_queue_wait_ms": 0.008600000001024455,
+        "ocr_queue_wait_ms": 0.13140000010025688,
+        "ocr_ms": 96.99580000233254,
+        "capture_observed_at": 18937.1789444,
+        "ocr_started_at": 18937.1798092,
+        "ocr_completed_at": 18937.276805,
+        "frame_seq": 259,
+        "capture_epoch": 1,
+        "stability_wait_ms": 116.67039999883855,
+        "confirmation_captured_at": 18937.3927579,
+        "dispatch_wait_ms": 0.07159999950090423,
+        "translation_queue_ms": 0,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0
+      },
+      "backend_states": [
+        "cache"
+      ],
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 30.83,
+      "ms": 216.63,
+      "warnings": 0,
+      "count": 1,
+      "event_id": 11,
+      "stages": {
+        "capture_ms": 0.16220000179600902,
+        "change_detection_ms": 0.5595000002358574,
+        "image_queue_wait_ms": 0.007300001016119495,
+        "ocr_queue_wait_ms": 0.1247000000148546,
+        "ocr_ms": 103.00609999831067,
+        "capture_observed_at": 18940.2143645,
+        "ocr_started_at": 18940.2152109,
+        "ocr_completed_at": 18940.318217,
+        "frame_seq": 287,
+        "capture_epoch": 1,
+        "stability_wait_ms": 111.7180000001099,
+        "confirmation_captured_at": 18940.429231,
+        "dispatch_wait_ms": 0.06230000144569203,
+        "translation_queue_ms": 0,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0
+      },
+      "backend_states": [
+        "cache"
+      ],
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 33.91,
+      "ms": 156.02,
+      "warnings": 0,
+      "count": 1,
+      "event_id": 12,
+      "stages": {
+        "capture_ms": 0.12200000128359534,
+        "change_detection_ms": 0.5042000011599157,
+        "image_queue_wait_ms": 0.006400001439033076,
+        "ocr_queue_wait_ms": 0.10829999882844277,
+        "ocr_ms": 111.151000000973,
+        "capture_observed_at": 18943.3551089,
+        "ocr_started_at": 18943.3558434,
+        "ocr_completed_at": 18943.4669944,
+        "frame_seq": 316,
+        "capture_epoch": 1,
+        "stability_wait_ms": 43.181599998206366,
+        "confirmation_captured_at": 18943.5093689,
+        "dispatch_wait_ms": 0.07339999865507707,
+        "translation_queue_ms": 0,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0
+      },
+      "backend_states": [
+        "cache"
+      ],
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 36.97,
+      "ms": 156.09,
+      "warnings": 0,
+      "count": 1,
+      "event_id": 13,
+      "stages": {
+        "capture_ms": 0.14240000018617138,
+        "change_detection_ms": 0.7588999978906941,
+        "image_queue_wait_ms": 0.009800001862458885,
+        "ocr_queue_wait_ms": 0.17630000002100132,
+        "ocr_ms": 151.5382000034151,
+        "capture_observed_at": 18946.4194298,
+        "ocr_started_at": 18946.4205074,
+        "ocr_completed_at": 18946.5720456,
+        "frame_seq": 345,
+        "capture_epoch": 1,
+        "stability_wait_ms": 1.9837999971059617,
+        "confirmation_captured_at": 18946.5731598,
+        "dispatch_wait_ms": 0.05119999696034938,
+        "translation_queue_ms": 0,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0
+      },
+      "backend_states": [
+        "cache"
+      ],
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 40.11,
+      "ms": 222.38,
+      "warnings": 0,
+      "count": 1,
+      "event_id": 14,
+      "stages": {
+        "capture_ms": 0.13899999976274557,
+        "change_detection_ms": 0.8134000017889775,
+        "image_queue_wait_ms": 0.00540000110049732,
+        "ocr_queue_wait_ms": 0.10960000145132653,
+        "ocr_ms": 84.97999999963213,
+        "capture_observed_at": 18949.4914936,
+        "ocr_started_at": 18949.4925556,
+        "ocr_completed_at": 18949.5775356,
+        "frame_seq": 374,
+        "capture_epoch": 1,
+        "stability_wait_ms": 133.18299999809824,
+        "confirmation_captured_at": 18949.71005,
+        "dispatch_wait_ms": 0.08910000178730115,
+        "translation_queue_ms": 0,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0
+      },
+      "backend_states": [
+        "cache"
+      ],
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 43.16,
+      "ms": 218.75,
+      "warnings": 0,
+      "count": 1,
+      "event_id": 15,
+      "stages": {
+        "capture_ms": 0.18310000086785294,
+        "change_detection_ms": 0.7780999985698145,
+        "image_queue_wait_ms": 0.005899997631786391,
+        "ocr_queue_wait_ms": 0.11870000162161887,
+        "ocr_ms": 94.84549999979208,
+        "capture_observed_at": 18952.5356448,
+        "ocr_started_at": 18952.5367247,
+        "ocr_completed_at": 18952.6315702,
+        "frame_seq": 402,
+        "capture_epoch": 1,
+        "stability_wait_ms": 121.76910000198404,
+        "confirmation_captured_at": 18952.7525808,
+        "dispatch_wait_ms": 0.06480000229203142,
+        "translation_queue_ms": 0,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0
+      },
+      "backend_states": [
+        "cache"
+      ],
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 46.12,
+      "ms": 155.87,
+      "warnings": 0,
+      "count": 1,
+      "event_id": 16,
+      "stages": {
+        "capture_ms": 0.25099999766098335,
+        "change_detection_ms": 0.8468999985780101,
+        "image_queue_wait_ms": 0.006899997970322147,
+        "ocr_queue_wait_ms": 0.1509000030637253,
+        "ocr_ms": 114.10160000014002,
+        "capture_observed_at": 18955.5687494,
+        "ocr_started_at": 18955.5699982,
+        "ocr_completed_at": 18955.6840998,
+        "frame_seq": 430,
+        "capture_epoch": 1,
+        "stability_wait_ms": 38.72290000072098,
+        "confirmation_captured_at": 18955.7219553,
+        "dispatch_wait_ms": 0.06589999975403771,
+        "translation_queue_ms": 0,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0
+      },
+      "backend_states": [
+        "cache"
+      ],
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 49.28,
+      "ms": 219.45,
+      "warnings": 0,
+      "count": 1,
+      "event_id": 17,
+      "stages": {
+        "capture_ms": 0.09240000144927762,
+        "change_detection_ms": 0.5022999976063147,
+        "image_queue_wait_ms": 0.006500002200482413,
+        "ocr_queue_wait_ms": 0.12180000339867547,
+        "ocr_ms": 100.5129000004672,
+        "capture_observed_at": 18958.6637551,
+        "ocr_started_at": 18958.6644716,
+        "ocr_completed_at": 18958.7649845,
+        "frame_seq": 459,
+        "capture_epoch": 1,
+        "stability_wait_ms": 116.99829999997746,
+        "confirmation_captured_at": 18958.8810246,
+        "dispatch_wait_ms": 0.23969999892869964,
+        "translation_queue_ms": 0,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0
+      },
+      "backend_states": [
+        "cache"
+      ],
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 52.3,
+      "ms": 203.64,
+      "warnings": 0,
+      "count": 1,
+      "event_id": 18,
+      "stages": {
+        "capture_ms": 0.13320000289240852,
+        "change_detection_ms": 0.48999999853549525,
+        "image_queue_wait_ms": 0.00660000296193175,
+        "ocr_queue_wait_ms": 0.11359999916749075,
+        "ocr_ms": 99.94770000048447,
+        "capture_observed_at": 18961.6973476,
+        "ocr_started_at": 18961.6980844,
+        "ocr_completed_at": 18961.7980321,
+        "frame_seq": 487,
+        "capture_epoch": 1,
+        "stability_wait_ms": 102.11630000048899,
+        "confirmation_captured_at": 18961.8994225,
+        "dispatch_wait_ms": 0.061899998399894685,
+        "translation_queue_ms": 0,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0
+      },
+      "backend_states": [
+        "cache"
+      ],
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 55.33,
+      "ms": 218.74,
+      "warnings": 0,
+      "count": 1,
+      "event_id": 19,
+      "stages": {
+        "capture_ms": 0.10280000060447492,
+        "change_detection_ms": 0.454699998954311,
+        "image_queue_wait_ms": 0.008200000593205914,
+        "ocr_queue_wait_ms": 0.1388000018778257,
+        "ocr_ms": 100.64380000039819,
+        "capture_observed_at": 18964.7167963,
+        "ocr_started_at": 18964.7174926,
+        "ocr_completed_at": 18964.8181364,
+        "frame_seq": 515,
+        "capture_epoch": 1,
+        "stability_wait_ms": 115.95549999765353,
+        "confirmation_captured_at": 18964.9333688,
+        "dispatch_wait_ms": 0.06510000093840063,
+        "translation_queue_ms": 0,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0
+      },
+      "backend_states": [
+        "cache"
+      ],
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 58.31,
+      "ms": 157.08,
+      "warnings": 0,
+      "count": 1,
+      "event_id": 20,
+      "stages": {
+        "capture_ms": 0.1145999995060265,
+        "change_detection_ms": 0.563599998713471,
+        "image_queue_wait_ms": 0.004999998054699972,
+        "ocr_queue_wait_ms": 0.11580000136746094,
+        "ocr_ms": 112.8357000015967,
+        "capture_observed_at": 18967.7586151,
+        "ocr_started_at": 18967.7594091,
+        "ocr_completed_at": 18967.8722448,
+        "frame_seq": 543,
+        "capture_epoch": 1,
+        "stability_wait_ms": 42.305700000724755,
+        "confirmation_captured_at": 18967.9134718,
+        "dispatch_wait_ms": 0.07270000060088933,
+        "translation_queue_ms": 0,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0
+      },
+      "backend_states": [
+        "cache"
+      ],
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 61.55,
+      "ms": 310.5,
+      "warnings": 0,
+      "count": 1,
+      "event_id": 21,
+      "stages": {
+        "capture_ms": 0.1292000015382655,
+        "change_detection_ms": 0.8228000006056391,
+        "image_queue_wait_ms": 0.01080000220099464,
+        "ocr_queue_wait_ms": 0.19529999917722307,
+        "ocr_ms": 136.2187000013364,
+        "capture_observed_at": 18970.8372235,
+        "ocr_started_at": 18970.8383708,
+        "ocr_completed_at": 18970.9745895,
+        "frame_seq": 572,
+        "capture_epoch": 1,
+        "stability_wait_ms": 18.79749999716296,
+        "confirmation_captured_at": 18970.9926021,
+        "dispatch_wait_ms": 0.07530000220867805,
+        "translation_queue_ms": 0.3828999979305081,
+        "translation_request_ms": 152.70460000101593,
+        "postprocess_ms": 0.1626999983272981
+      },
+      "backend_states": [
+        "warm"
+      ],
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 64.61,
+      "ms": 293.75,
+      "warnings": 0,
+      "count": 1,
+      "event_id": 22,
+      "stages": {
+        "capture_ms": 0.11580000136746094,
+        "change_detection_ms": 0.7164000016928185,
+        "image_queue_wait_ms": 0.005999998393235728,
+        "ocr_queue_wait_ms": 0.12769999739248306,
+        "ocr_ms": 103.59880000032717,
+        "capture_observed_at": 18973.9193135,
+        "ocr_started_at": 18973.9202734,
+        "ocr_completed_at": 18974.0238722,
+        "frame_seq": 601,
+        "capture_epoch": 1,
+        "stability_wait_ms": 113.0875000017113,
+        "confirmation_captured_at": 18974.1362804,
+        "dispatch_wait_ms": 0.07129999721655622,
+        "translation_queue_ms": 0.051700000767596066,
+        "translation_request_ms": 74.50940000126138,
+        "postprocess_ms": 0.15210000128718093
+      },
+      "backend_states": [
+        "warm"
+      ],
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 67.56,
+      "ms": 219.0,
+      "warnings": 0,
+      "count": 1,
+      "event_id": 23,
+      "stages": {
+        "capture_ms": 0.1497999983257614,
+        "change_detection_ms": 0.9314999988419004,
+        "image_queue_wait_ms": 0.006500002200482413,
+        "ocr_queue_wait_ms": 0.1534000039100647,
+        "ocr_ms": 95.64229999887175,
+        "capture_observed_at": 18976.9542244,
+        "ocr_started_at": 18976.9554591,
+        "ocr_completed_at": 18977.0511014,
+        "frame_seq": 629,
+        "capture_epoch": 1,
+        "stability_wait_ms": 120.40909999996074,
+        "confirmation_captured_at": 18977.1704893,
+        "dispatch_wait_ms": 0.07139999797800556,
+        "translation_queue_ms": 0.07990000085555948,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0
+      },
+      "backend_states": [
+        "none"
+      ],
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 70.86,
+      "ms": 365.47,
+      "warnings": 0,
+      "count": 1,
+      "event_id": 24,
+      "stages": {
+        "capture_ms": 0.11649999942164868,
+        "change_detection_ms": 0.5158000021765474,
+        "image_queue_wait_ms": 0.006300000677583739,
+        "ocr_queue_wait_ms": 0.15179999900283292,
+        "ocr_ms": 105.48019999987446,
+        "capture_observed_at": 18980.097299,
+        "ocr_started_at": 18980.0980831,
+        "ocr_completed_at": 18980.2035633,
+        "frame_seq": 658,
+        "capture_epoch": 1,
+        "stability_wait_ms": 111.72979999901145,
+        "confirmation_captured_at": 18980.3146513,
+        "dispatch_wait_ms": 0.06470000153058209,
+        "translation_queue_ms": 0.045600001612911,
+        "translation_request_ms": 145.862199999101,
+        "postprocess_ms": 0.1536999989184551
+      },
+      "backend_states": [
+        "warm"
+      ],
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 73.75,
+      "ms": 218.47,
+      "warnings": 0,
+      "count": 1,
+      "event_id": 25,
+      "stages": {
+        "capture_ms": 0.12260000221431255,
+        "change_detection_ms": 0.44830000115325674,
+        "image_queue_wait_ms": 0.006099999154685065,
+        "ocr_queue_wait_ms": 0.10569999722065404,
+        "ocr_ms": 105.25520000010147,
+        "capture_observed_at": 18983.1375509,
+        "ocr_started_at": 18983.1382275,
+        "ocr_completed_at": 18983.2434827,
+        "frame_seq": 686,
+        "capture_epoch": 1,
+        "stability_wait_ms": 111.2901000014972,
+        "confirmation_captured_at": 18983.3538458,
+        "dispatch_wait_ms": 0.06589999975403771,
+        "translation_queue_ms": 0,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0
+      },
+      "backend_states": [
+        "cache"
+      ],
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 76.73,
+      "ms": 156.13,
+      "warnings": 0,
+      "count": 1,
+      "event_id": 26,
+      "stages": {
+        "capture_ms": 0.14570000348612666,
+        "change_detection_ms": 0.7683000003453344,
+        "image_queue_wait_ms": 0.007399998139590025,
+        "ocr_queue_wait_ms": 0.14769999688724056,
+        "ocr_ms": 118.97250000038184,
+        "capture_observed_at": 18986.184948,
+        "ocr_started_at": 18986.1860097,
+        "ocr_completed_at": 18986.3049822,
+        "frame_seq": 714,
+        "capture_epoch": 1,
+        "stability_wait_ms": 35.07349999927101,
+        "confirmation_captured_at": 18986.3391702,
+        "dispatch_wait_ms": 0.07040000127744861,
+        "translation_queue_ms": 0,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0
+      },
+      "backend_states": [
+        "cache"
+      ],
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 79.89,
+      "ms": 219.61,
+      "warnings": 0,
+      "count": 1,
+      "event_id": 27,
+      "stages": {
+        "capture_ms": 0.2720000011322554,
+        "change_detection_ms": 0.4934999997203704,
+        "image_queue_wait_ms": 0.007599999662488699,
+        "ocr_queue_wait_ms": 0.121900000522146,
+        "ocr_ms": 105.73369999838178,
+        "capture_observed_at": 18989.2715503,
+        "ocr_started_at": 18989.2724377,
+        "ocr_completed_at": 18989.3781714,
+        "frame_seq": 743,
+        "capture_epoch": 1,
+        "stability_wait_ms": 111.68570000154432,
+        "confirmation_captured_at": 18989.4890081,
+        "dispatch_wait_ms": 0.0932000002649147,
+        "translation_queue_ms": 0,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0
+      },
+      "backend_states": [
+        "cache"
+      ],
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 82.89,
+      "ms": 176.2,
+      "warnings": 0,
+      "count": 1,
+      "event_id": 28,
+      "stages": {
+        "capture_ms": 0.19800000154646114,
+        "change_detection_ms": 0.8641999993415084,
+        "image_queue_wait_ms": 0.008800001523923129,
+        "ocr_queue_wait_ms": 0.16370000230381265,
+        "ocr_ms": 171.57409999708761,
+        "capture_observed_at": 18992.3110923,
+        "ocr_started_at": 18992.3123182,
+        "ocr_completed_at": 18992.4838923,
+        "frame_seq": 771,
+        "capture_epoch": 1,
+        "stability_wait_ms": 2.5311999997938983,
+        "confirmation_captured_at": 18992.485294,
+        "dispatch_wait_ms": 0.05189999865251593,
+        "translation_queue_ms": 0,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0
+      },
+      "backend_states": [
+        "cache"
+      ],
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 85.95,
+      "ms": 155.82,
+      "warnings": 0,
+      "count": 1,
+      "event_id": 29,
+      "stages": {
+        "capture_ms": 0.1281000004382804,
+        "change_detection_ms": 0.6944000015209895,
+        "image_queue_wait_ms": 0.007499998901039362,
+        "ocr_queue_wait_ms": 0.1353999978164211,
+        "ocr_ms": 113.13040000095498,
+        "capture_observed_at": 18995.3951243,
+        "ocr_started_at": 18995.3960822,
+        "ocr_completed_at": 18995.5092126,
+        "frame_seq": 800,
+        "capture_epoch": 1,
+        "stability_wait_ms": 40.50449999704142,
+        "confirmation_captured_at": 18995.5489041,
+        "dispatch_wait_ms": 0.06500000017695129,
+        "translation_queue_ms": 0,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0
+      },
+      "backend_states": [
+        "cache"
+      ],
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 89.08,
+      "ms": 218.65,
+      "warnings": 0,
+      "count": 1,
+      "event_id": 30,
+      "stages": {
+        "capture_ms": 0.130899999930989,
+        "change_detection_ms": 0.5769999988842756,
+        "image_queue_wait_ms": 0.008299997716676444,
+        "ocr_queue_wait_ms": 0.13689999832422473,
+        "ocr_ms": 104.42440000042552,
+        "capture_observed_at": 18998.4726153,
+        "ocr_started_at": 18998.4734601,
+        "ocr_completed_at": 18998.5778845,
+        "frame_seq": 829,
+        "capture_epoch": 1,
+        "stability_wait_ms": 111.83670000173151,
+        "confirmation_captured_at": 18998.6889519,
+        "dispatch_wait_ms": 0.07059999916236848,
+        "translation_queue_ms": 0,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0
+      },
+      "backend_states": [
+        "cache"
+      ],
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 92.06,
+      "ms": 156.77,
+      "warnings": 0,
+      "count": 1,
+      "event_id": 31,
+      "stages": {
+        "capture_ms": 0.16230000255745836,
+        "change_detection_ms": 0.9484000001975801,
+        "image_queue_wait_ms": 0.009400002454640344,
+        "ocr_queue_wait_ms": 0.17609999849810265,
+        "ocr_ms": 107.43379999985336,
+        "capture_observed_at": 19001.5096714,
+        "ocr_started_at": 19001.5109582,
+        "ocr_completed_at": 19001.618392,
+        "frame_seq": 857,
+        "capture_epoch": 1,
+        "stability_wait_ms": 46.88159999932395,
+        "confirmation_captured_at": 19001.664364,
+        "dispatch_wait_ms": 0.06339999890769832,
+        "translation_queue_ms": 0,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0
+      },
+      "backend_states": [
+        "cache"
+      ],
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 95.14,
+      "ms": 160.55,
+      "warnings": 0,
+      "count": 1,
+      "event_id": 32,
+      "stages": {
+        "capture_ms": 0.15530000018770806,
+        "change_detection_ms": 0.6783999997423962,
+        "image_queue_wait_ms": 0.006300000677583739,
+        "ocr_queue_wait_ms": 0.15209999764920212,
+        "ocr_ms": 156.06930000285502,
+        "capture_observed_at": 19004.5909557,
+        "ocr_started_at": 19004.5919415,
+        "ocr_completed_at": 19004.7480108,
+        "frame_seq": 886,
+        "capture_epoch": 1,
+        "stability_wait_ms": 1.978899999812711,
+        "confirmation_captured_at": 19004.7490305,
+        "dispatch_wait_ms": 0.057699999160831794,
+        "translation_queue_ms": 0,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0
+      },
+      "backend_states": [
+        "cache"
+      ],
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 98.25,
+      "ms": 161.58,
+      "warnings": 0,
+      "count": 1,
+      "event_id": 33,
+      "stages": {
+        "capture_ms": 0.27350000164005905,
+        "change_detection_ms": 1.0155999989365228,
+        "image_queue_wait_ms": 0.006499998562503606,
+        "ocr_queue_wait_ms": 0.12860000060754828,
+        "ocr_ms": 113.26650000046357,
+        "capture_observed_at": 19007.6771327,
+        "ocr_started_at": 19007.6785504,
+        "ocr_completed_at": 19007.7918169,
+        "frame_seq": 915,
+        "capture_epoch": 1,
+        "stability_wait_ms": 39.14699999950244,
+        "confirmation_captured_at": 19007.8303056,
+        "dispatch_wait_ms": 0.06209999992279336,
+        "translation_queue_ms": 0,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0
+      },
+      "backend_states": [
+        "cache"
+      ],
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 101.28,
+      "ms": 223.21,
+      "warnings": 0,
+      "count": 1,
+      "event_id": 34,
+      "stages": {
+        "capture_ms": 0.13670000043930486,
+        "change_detection_ms": 0.8581000001868233,
+        "image_queue_wait_ms": 0.006800000846851617,
+        "ocr_queue_wait_ms": 0.13639999815495685,
+        "ocr_ms": 93.57340000133263,
+        "capture_observed_at": 19010.6646406,
+        "ocr_started_at": 19010.6657718,
+        "ocr_completed_at": 19010.7593452,
+        "frame_seq": 943,
+        "capture_epoch": 1,
+        "stability_wait_ms": 127.2571000008611,
+        "confirmation_captured_at": 19010.8858099,
+        "dispatch_wait_ms": 0.07399999958579428,
+        "translation_queue_ms": 0,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0
+      },
+      "backend_states": [
+        "cache"
+      ],
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 104.33,
+      "ms": 220.65,
+      "warnings": 0,
+      "count": 1,
+      "event_id": 35,
+      "stages": {
+        "capture_ms": 0.12560000322991982,
+        "change_detection_ms": 0.7005000006756745,
+        "image_queue_wait_ms": 0.006400001439033076,
+        "ocr_queue_wait_ms": 0.12969999806955457,
+        "ocr_ms": 96.94110000054934,
+        "capture_observed_at": 19013.716478,
+        "ocr_started_at": 19013.7174338,
+        "ocr_completed_at": 19013.8143749,
+        "frame_seq": 971,
+        "capture_epoch": 1,
+        "stability_wait_ms": 121.60640000001877,
+        "confirmation_captured_at": 19013.9353068,
+        "dispatch_wait_ms": 0.06589999975403771,
+        "translation_queue_ms": 0,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0
+      },
+      "backend_states": [
+        "cache"
+      ],
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 107.31,
+      "ms": 156.38,
+      "warnings": 0,
+      "count": 1,
+      "event_id": 36,
+      "stages": {
+        "capture_ms": 0.2537000000302214,
+        "change_detection_ms": 0.7208999995782506,
+        "image_queue_wait_ms": 0.008999999408842996,
+        "ocr_queue_wait_ms": 0.1460999992559664,
+        "ocr_ms": 115.97470000197063,
+        "capture_observed_at": 19016.760199,
+        "ocr_started_at": 19016.7613197,
+        "ocr_completed_at": 19016.8772944,
+        "frame_seq": 999,
+        "capture_epoch": 1,
+        "stability_wait_ms": 38.15119999853778,
+        "confirmation_captured_at": 19016.9146744,
+        "dispatch_wait_ms": 0.07589999950141646,
+        "translation_queue_ms": 0,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0
+      },
+      "backend_states": [
+        "cache"
+      ],
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 110.42,
+      "ms": 185.2,
+      "warnings": 0,
+      "count": 1,
+      "event_id": 37,
+      "stages": {
+        "capture_ms": 0.2096999996865634,
+        "change_detection_ms": 0.7949999999254942,
+        "image_queue_wait_ms": 0.008899998647393659,
+        "ocr_queue_wait_ms": 0.14830000145593658,
+        "ocr_ms": 179.5429999983753,
+        "capture_observed_at": 19019.8386029,
+        "ocr_started_at": 19019.8397559,
+        "ocr_completed_at": 19020.0192989,
+        "frame_seq": 1028,
+        "capture_epoch": 1,
+        "stability_wait_ms": 2.4551999995310325,
+        "confirmation_captured_at": 19020.0204477,
+        "dispatch_wait_ms": 0.13330000001587905,
+        "translation_queue_ms": 0,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0
+      },
+      "backend_states": [
+        "cache"
+      ],
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 113.56,
+      "ms": 214.86,
+      "warnings": 0,
+      "count": 1,
+      "event_id": 38,
+      "stages": {
+        "capture_ms": 0.1412999990861863,
+        "change_detection_ms": 0.5410999983723741,
+        "image_queue_wait_ms": 0.005699999746866524,
+        "ocr_queue_wait_ms": 0.10720000136643648,
+        "ocr_ms": 96.86340000189375,
+        "capture_observed_at": 19022.9499379,
+        "ocr_started_at": 19022.9507275,
+        "ocr_completed_at": 19023.0475909,
+        "frame_seq": 1057,
+        "capture_epoch": 1,
+        "stability_wait_ms": 116.2399999993795,
+        "confirmation_captured_at": 19023.1630718,
+        "dispatch_wait_ms": 0.06690000009257346,
+        "translation_queue_ms": 0,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0
+      },
+      "backend_states": [
+        "cache"
+      ],
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 116.59,
+      "ms": 218.38,
+      "warnings": 0,
+      "count": 1,
+      "event_id": 39,
+      "stages": {
+        "capture_ms": 0.22759999774280004,
+        "change_detection_ms": 0.7932999978947919,
+        "image_queue_wait_ms": 0.005899997631786391,
+        "ocr_queue_wait_ms": 0.15810000331839547,
+        "ocr_ms": 99.48739999890677,
+        "capture_observed_at": 19025.984959,
+        "ocr_started_at": 19025.986138,
+        "ocr_completed_at": 19026.0856254,
+        "frame_seq": 1085,
+        "capture_epoch": 1,
+        "stability_wait_ms": 116.68629999985569,
+        "confirmation_captured_at": 19026.201554,
+        "dispatch_wait_ms": 0.06239999856916256,
+        "translation_queue_ms": 0,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0
+      },
+      "backend_states": [
+        "cache"
+      ],
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 119.64,
+      "ms": 218.51,
+      "warnings": 0,
+      "count": 1,
+      "event_id": 40,
+      "stages": {
+        "capture_ms": 0.16789999790489674,
+        "change_detection_ms": 0.769000002037501,
+        "image_queue_wait_ms": 0.005899997631786391,
+        "ocr_queue_wait_ms": 0.1277999981539324,
+        "ocr_ms": 99.82940000190865,
+        "capture_observed_at": 19029.030458,
+        "ocr_started_at": 19029.0315227,
+        "ocr_completed_at": 19029.1313521,
+        "frame_seq": 1113,
+        "capture_epoch": 1,
+        "stability_wait_ms": 116.66479999985313,
+        "confirmation_captured_at": 19029.2473292,
+        "dispatch_wait_ms": 0.07870000263210386,
+        "translation_queue_ms": 0,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0
+      },
+      "backend_states": [
+        "cache"
+      ],
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 122.81,
+      "ms": 345.26,
+      "warnings": 0,
+      "count": 1,
+      "event_id": 41,
+      "stages": {
+        "capture_ms": 0.10289999772794545,
+        "change_detection_ms": 0.5066000012448058,
+        "image_queue_wait_ms": 0.004800000169780105,
+        "ocr_queue_wait_ms": 0.10570000085863285,
+        "ocr_ms": 103.11369999908493,
+        "capture_observed_at": 19032.069769,
+        "ocr_started_at": 19032.0704842,
+        "ocr_completed_at": 19032.1735979,
+        "frame_seq": 1141,
+        "capture_epoch": 1,
+        "stability_wait_ms": 115.68139999872074,
+        "confirmation_captured_at": 19032.2882372,
+        "dispatch_wait_ms": 0.05249999958323315,
+        "translation_queue_ms": 0.0486999997519888,
+        "translation_request_ms": 124.45310000111931,
+        "postprocess_ms": 0.2184999975725077
+      },
+      "backend_states": [
+        "warm"
+      ],
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 125.91,
+      "ms": 284.92,
+      "warnings": 0,
+      "count": 1,
+      "event_id": 42,
+      "stages": {
+        "capture_ms": 0.1159999992523808,
+        "change_detection_ms": 0.45200000022305176,
+        "image_queue_wait_ms": 0.00549999822396785,
+        "ocr_queue_wait_ms": 0.10820000170497224,
+        "ocr_ms": 94.6470999988378,
+        "capture_observed_at": 19035.2226869,
+        "ocr_started_at": 19035.2233631,
+        "ocr_completed_at": 19035.3180102,
+        "frame_seq": 1170,
+        "capture_epoch": 1,
+        "stability_wait_ms": 126.2432000003173,
+        "confirmation_captured_at": 19035.4433667,
+        "dispatch_wait_ms": 0.06479999865405262,
+        "translation_queue_ms": 0.07420000110869296,
+        "translation_request_ms": 62.01560000044992,
+        "postprocess_ms": 0.14849999934085645
+      },
+      "backend_states": [
+        "warm"
+      ],
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 128.89,
+      "ms": 221.63,
+      "warnings": 0,
+      "count": 1,
+      "event_id": 43,
+      "stages": {
+        "capture_ms": 0.13639999815495685,
+        "change_detection_ms": 0.564899997698376,
+        "image_queue_wait_ms": 0.005500001861946657,
+        "ocr_queue_wait_ms": 0.10420000398880802,
+        "ocr_ms": 102.83150000032037,
+        "capture_observed_at": 19038.2746092,
+        "ocr_started_at": 19038.2754147,
+        "ocr_completed_at": 19038.3782462,
+        "frame_seq": 1198,
+        "capture_epoch": 1,
+        "stability_wait_ms": 116.32529999769758,
+        "confirmation_captured_at": 19038.4935942,
+        "dispatch_wait_ms": 0.06769999890821055,
+        "translation_queue_ms": 0.061400001868605614,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0
+      },
+      "backend_states": [
+        "none"
+      ],
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 132.01,
+      "ms": 306.06,
+      "warnings": 0,
+      "count": 1,
+      "event_id": 44,
+      "stages": {
+        "capture_ms": 0.15899999925750308,
+        "change_detection_ms": 0.42580000081215985,
+        "image_queue_wait_ms": 0.00540000110049732,
+        "ocr_queue_wait_ms": 0.09159999899566174,
+        "ocr_ms": 102.47410000010859,
+        "capture_observed_at": 19041.3199032,
+        "ocr_started_at": 19041.3205796,
+        "ocr_completed_at": 19041.4230537,
+        "frame_seq": 1226,
+        "capture_epoch": 1,
+        "stability_wait_ms": 115.03019999872777,
+        "confirmation_captured_at": 19041.5373182,
+        "dispatch_wait_ms": 0.040099999750964344,
+        "translation_queue_ms": 0.049299997044727206,
+        "translation_request_ms": 82.44240000203717,
+        "postprocess_ms": 0.18540000019129366
+      },
+      "backend_states": [
+        "warm"
+      ],
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 134.91,
+      "ms": 155.84,
+      "warnings": 0,
+      "count": 1,
+      "event_id": 45,
+      "stages": {
+        "capture_ms": 0.13130000297678635,
+        "change_detection_ms": 0.4941000006510876,
+        "image_queue_wait_ms": 0.006099999154685065,
+        "ocr_queue_wait_ms": 0.11539999832166359,
+        "ocr_ms": 109.02649999843561,
+        "capture_observed_at": 19044.3531872,
+        "ocr_started_at": 19044.353928,
+        "ocr_completed_at": 19044.4629545,
+        "frame_seq": 1254,
+        "capture_epoch": 1,
+        "stability_wait_ms": 44.50590000124066,
+        "confirmation_captured_at": 19044.5064922,
+        "dispatch_wait_ms": 0.0684000006003771,
+        "translation_queue_ms": 0,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0
+      },
+      "backend_states": [
+        "cache"
+      ],
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 138.0,
+      "ms": 155.74,
+      "warnings": 0,
+      "count": 1,
+      "event_id": 46,
+      "stages": {
+        "capture_ms": 0.13719999697059393,
+        "change_detection_ms": 0.6902000022819266,
+        "image_queue_wait_ms": 0.008099999831756577,
+        "ocr_queue_wait_ms": 0.12489999789977446,
+        "ocr_ms": 112.32350000136648,
+        "capture_observed_at": 19047.4425445,
+        "ocr_started_at": 19047.4434968,
+        "ocr_completed_at": 19047.5558203,
+        "frame_seq": 1283,
+        "capture_epoch": 1,
+        "stability_wait_ms": 41.420500001549954,
+        "confirmation_captured_at": 19047.5962125,
+        "dispatch_wait_ms": 0.11440000162110664,
+        "translation_queue_ms": 0,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0
+      },
+      "backend_states": [
+        "cache"
+      ],
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 141.14,
+      "ms": 216.38,
+      "warnings": 0,
+      "count": 1,
+      "event_id": 47,
+      "stages": {
+        "capture_ms": 0.23049999799695797,
+        "change_detection_ms": 0.8243999982369132,
+        "image_queue_wait_ms": 0.008099999831756577,
+        "ocr_queue_wait_ms": 0.16360000154236332,
+        "ocr_ms": 101.10500000155298,
+        "capture_observed_at": 19050.5293729,
+        "ocr_started_at": 19050.5305914,
+        "ocr_completed_at": 19050.6316964,
+        "frame_seq": 1312,
+        "capture_epoch": 1,
+        "stability_wait_ms": 112.97769999873708,
+        "confirmation_captured_at": 19050.7439426,
+        "dispatch_wait_ms": 0.06860000212327577,
+        "translation_queue_ms": 0,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0
+      },
+      "backend_states": [
+        "cache"
+      ],
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 144.17,
+      "ms": 220.26,
+      "warnings": 0,
+      "count": 1,
+      "event_id": 48,
+      "stages": {
+        "capture_ms": 0.13440000111586414,
+        "change_detection_ms": 0.45089999912306666,
+        "image_queue_wait_ms": 0.006999998731771484,
+        "ocr_queue_wait_ms": 0.10610000026645139,
+        "ocr_ms": 103.13640000094892,
+        "capture_observed_at": 19053.5559617,
+        "ocr_started_at": 19053.5566531,
+        "ocr_completed_at": 19053.6597895,
+        "frame_seq": 1340,
+        "capture_epoch": 1,
+        "stability_wait_ms": 115.18609999984619,
+        "confirmation_captured_at": 19053.7742636,
+        "dispatch_wait_ms": 0.10159999874304049,
+        "translation_queue_ms": 0,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0
+      },
+      "backend_states": [
+        "cache"
+      ],
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 147.14,
+      "ms": 155.29,
+      "warnings": 0,
+      "count": 1,
+      "event_id": 49,
+      "stages": {
+        "capture_ms": 0.11559999984456226,
+        "change_detection_ms": 0.44239999988349155,
+        "image_queue_wait_ms": 0.006199999916134402,
+        "ocr_queue_wait_ms": 0.10520000068936497,
+        "ocr_ms": 122.3202000001038,
+        "capture_observed_at": 19056.586767,
+        "ocr_started_at": 19056.5874302,
+        "ocr_completed_at": 19056.7097504,
+        "frame_seq": 1368,
+        "capture_epoch": 1,
+        "stability_wait_ms": 31.370199998491444,
+        "confirmation_captured_at": 19056.740429,
+        "dispatch_wait_ms": 0.06369999755406752,
+        "translation_queue_ms": 0,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0
+      },
+      "backend_states": [
+        "cache"
+      ],
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 150.28,
+      "ms": 218.87,
+      "warnings": 0,
+      "count": 1,
+      "event_id": 50,
+      "stages": {
+        "capture_ms": 0.1140000022132881,
+        "change_detection_ms": 0.7149999983084854,
+        "image_queue_wait_ms": 0.005800000508315861,
+        "ocr_queue_wait_ms": 0.12040000001434237,
+        "ocr_ms": 90.07040000142297,
+        "capture_observed_at": 19059.6722595,
+        "ocr_started_at": 19059.6732089,
+        "ocr_completed_at": 19059.7632793,
+        "frame_seq": 1397,
+        "capture_epoch": 1,
+        "stability_wait_ms": 126.30419999914011,
+        "confirmation_captured_at": 19059.8886569,
+        "dispatch_wait_ms": 0.10149999798159115,
+        "translation_queue_ms": 0,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0
+      },
+      "backend_states": [
+        "cache"
+      ],
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 153.31,
+      "ms": 219.12,
+      "warnings": 0,
+      "count": 1,
+      "event_id": 51,
+      "stages": {
+        "capture_ms": 0.12520000018412247,
+        "change_detection_ms": 0.7203999994089827,
+        "image_queue_wait_ms": 0.005300000339047983,
+        "ocr_queue_wait_ms": 0.14730000111740083,
+        "ocr_ms": 97.23549999762326,
+        "capture_observed_at": 19062.7032226,
+        "ocr_started_at": 19062.7042155,
+        "ocr_completed_at": 19062.801451,
+        "frame_seq": 1425,
+        "capture_epoch": 1,
+        "stability_wait_ms": 119.64400000215392,
+        "confirmation_captured_at": 19062.9201027,
+        "dispatch_wait_ms": 0.07709999772487208,
+        "translation_queue_ms": 0,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0
+      },
+      "backend_states": [
+        "cache"
+      ],
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 156.47,
+      "ms": 217.67,
+      "warnings": 0,
+      "count": 1,
+      "event_id": 52,
+      "stages": {
+        "capture_ms": 0.13730000137002207,
+        "change_detection_ms": 0.6298000007518567,
+        "image_queue_wait_ms": 0.005799996870337054,
+        "ocr_queue_wait_ms": 0.10619999738992192,
+        "ocr_ms": 100.06690000227536,
+        "capture_observed_at": 19065.8578394,
+        "ocr_started_at": 19065.8587127,
+        "ocr_completed_at": 19065.9587796,
+        "frame_seq": 1454,
+        "capture_epoch": 1,
+        "stability_wait_ms": 115.41880000004312,
+        "confirmation_captured_at": 19066.0734824,
+        "dispatch_wait_ms": 0.06450000000768341,
+        "translation_queue_ms": 0,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0
+      },
+      "backend_states": [
+        "cache"
+      ],
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 159.45,
+      "ms": 155.22,
+      "warnings": 0,
+      "count": 1,
+      "event_id": 53,
+      "stages": {
+        "capture_ms": 0.12079999942216091,
+        "change_detection_ms": 0.481999999465188,
+        "image_queue_wait_ms": 0.008400002116104588,
+        "ocr_queue_wait_ms": 0.15070000154082663,
+        "ocr_ms": 110.68669999804115,
+        "capture_observed_at": 19068.8959131,
+        "ocr_started_at": 19068.8966666,
+        "ocr_completed_at": 19069.0073533,
+        "frame_seq": 1482,
+        "capture_epoch": 1,
+        "stability_wait_ms": 42.70670000187238,
+        "confirmation_captured_at": 19069.0489798,
+        "dispatch_wait_ms": 0.08629999865661375,
+        "translation_queue_ms": 0,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0
+      },
+      "backend_states": [
+        "cache"
+      ],
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 162.58,
+      "ms": 204.49,
+      "warnings": 0,
+      "count": 1,
+      "event_id": 54,
+      "stages": {
+        "capture_ms": 0.2950999987660907,
+        "change_detection_ms": 0.6321000000752974,
+        "image_queue_wait_ms": 0.007599999662488699,
+        "ocr_queue_wait_ms": 0.15010000061010942,
+        "ocr_ms": 99.30130000066129,
+        "capture_observed_at": 19071.9727347,
+        "ocr_started_at": 19071.973812,
+        "ocr_completed_at": 19072.0731133,
+        "frame_seq": 1511,
+        "capture_epoch": 1,
+        "stability_wait_ms": 102.61009999885573,
+        "confirmation_captured_at": 19072.1747002,
+        "dispatch_wait_ms": 0.10029999975813553,
+        "translation_queue_ms": 0,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0
+      },
+      "backend_states": [
+        "cache"
+      ],
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 165.58,
+      "ms": 168.49,
+      "warnings": 0,
+      "count": 1,
+      "event_id": 55,
+      "stages": {
+        "capture_ms": 0.14060000103199854,
+        "change_detection_ms": 0.7779999978083652,
+        "image_queue_wait_ms": 0.00799999907030724,
+        "ocr_queue_wait_ms": 0.2117000003636349,
+        "ocr_ms": 121.24930000209133,
+        "capture_observed_at": 19075.0036644,
+        "ocr_started_at": 19075.0047947,
+        "ocr_completed_at": 19075.126044,
+        "frame_seq": 1539,
+        "capture_epoch": 1,
+        "stability_wait_ms": 31.764200000907294,
+        "confirmation_captured_at": 19075.1570131,
+        "dispatch_wait_ms": 0.07170000026235357,
+        "translation_queue_ms": 0,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0
+      },
+      "backend_states": [
+        "cache"
+      ],
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 168.7,
+      "ms": 219.21,
+      "warnings": 0,
+      "count": 1,
+      "event_id": 56,
+      "stages": {
+        "capture_ms": 0.1899999988381751,
+        "change_detection_ms": 0.5328999977791682,
+        "image_queue_wait_ms": 0.005599998985417187,
+        "ocr_queue_wait_ms": 0.145500001963228,
+        "ocr_ms": 103.80660000009811,
+        "capture_observed_at": 19078.0879964,
+        "ocr_started_at": 19078.0888648,
+        "ocr_completed_at": 19078.1926714,
+        "frame_seq": 1568,
+        "capture_epoch": 1,
+        "stability_wait_ms": 113.270999998349,
+        "confirmation_captured_at": 19078.3050681,
+        "dispatch_wait_ms": 0.13559999933931977,
+        "translation_queue_ms": 0,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0
+      },
+      "backend_states": [
+        "cache"
+      ],
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 171.67,
+      "ms": 158.78,
+      "warnings": 0,
+      "count": 1,
+      "event_id": 57,
+      "stages": {
+        "capture_ms": 0.14200000077835284,
+        "change_detection_ms": 0.4664999978558626,
+        "image_queue_wait_ms": 0.005099998816149309,
+        "ocr_queue_wait_ms": 0.10730000212788582,
+        "ocr_ms": 130.9408999986772,
+        "capture_observed_at": 19081.116964,
+        "ocr_started_at": 19081.1176798,
+        "ocr_completed_at": 19081.2486207,
+        "frame_seq": 1596,
+        "capture_epoch": 1,
+        "stability_wait_ms": 26.22239999982412,
+        "confirmation_captured_at": 19081.2740933,
+        "dispatch_wait_ms": 0.06870000288472511,
+        "translation_queue_ms": 0,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0
+      },
+      "backend_states": [
+        "cache"
+      ],
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 174.81,
+      "ms": 218.0,
+      "warnings": 0,
+      "count": 1,
+      "event_id": 58,
+      "stages": {
+        "capture_ms": 0.12119999882997945,
+        "change_detection_ms": 0.4707000007329043,
+        "image_queue_wait_ms": 0.006599999323952943,
+        "ocr_queue_wait_ms": 0.11309999899822287,
+        "ocr_ms": 87.27550000185147,
+        "capture_observed_at": 19084.2021905,
+        "ocr_started_at": 19084.2028955,
+        "ocr_completed_at": 19084.290171,
+        "frame_seq": 1625,
+        "capture_epoch": 1,
+        "stability_wait_ms": 129.05830000090646,
+        "confirmation_captured_at": 19084.4184841,
+        "dispatch_wait_ms": 0.0641999977233354,
+        "translation_queue_ms": 0,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0
+      },
+      "backend_states": [
+        "cache"
+      ],
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 177.84,
+      "ms": 216.22,
+      "warnings": 0,
+      "count": 1,
+      "event_id": 59,
+      "stages": {
+        "capture_ms": 0.11950000043725595,
+        "change_detection_ms": 0.7191000004240777,
+        "image_queue_wait_ms": 0.005599998985417187,
+        "ocr_queue_wait_ms": 0.13749999925494194,
+        "ocr_ms": 102.29510000135633,
+        "capture_observed_at": 19087.2317639,
+        "ocr_started_at": 19087.23274,
+        "ocr_completed_at": 19087.3350351,
+        "frame_seq": 1653,
+        "capture_epoch": 1,
+        "stability_wait_ms": 111.8155999974988,
+        "confirmation_captured_at": 19087.4459239,
+        "dispatch_wait_ms": 0.0822000001790002,
+        "translation_queue_ms": 0,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0
+      },
+      "backend_states": [
+        "cache"
+      ],
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 180.98,
+      "ms": 318.22,
+      "warnings": 0,
+      "count": 1,
+      "event_id": 60,
+      "stages": {
+        "capture_ms": 0.10009999823523685,
+        "change_detection_ms": 0.4415000003064051,
+        "image_queue_wait_ms": 0.005699999746866524,
+        "ocr_queue_wait_ms": 0.10300000212737359,
+        "ocr_ms": 104.71179999876767,
+        "capture_observed_at": 19090.2646662,
+        "ocr_started_at": 19090.2653108,
+        "ocr_completed_at": 19090.3700226,
+        "frame_seq": 1681,
+        "capture_epoch": 1,
+        "stability_wait_ms": 111.60029999882681,
+        "confirmation_captured_at": 19090.480254,
+        "dispatch_wait_ms": 0.0700999989931006,
+        "translation_queue_ms": 0.0656000011076685,
+        "translation_request_ms": 99.49830000186921,
+        "postprocess_ms": 0.2300000014656689
+      },
+      "backend_states": [
+        "warm"
+      ],
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 184.08,
+      "ms": 276.9,
+      "warnings": 0,
+      "count": 1,
+      "event_id": 61,
+      "stages": {
+        "capture_ms": 0.15560000247205608,
+        "change_detection_ms": 0.7196999977168161,
+        "image_queue_wait_ms": 0.007099999493220821,
+        "ocr_queue_wait_ms": 0.19149999934597872,
+        "ocr_ms": 118.03130000043893,
+        "capture_observed_at": 19093.4065241,
+        "ocr_started_at": 19093.4075909,
+        "ocr_completed_at": 19093.5256222,
+        "frame_seq": 1710,
+        "capture_epoch": 1,
+        "stability_wait_ms": 35.582100001192885,
+        "confirmation_captured_at": 19093.5601095,
+        "dispatch_wait_ms": 0.06450000000768341,
+        "translation_queue_ms": 0.04479999915929511,
+        "translation_request_ms": 120.62350000269362,
+        "postprocess_ms": 0.15859999984968454
+      },
+      "backend_states": [
+        "warm"
+      ],
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 187.17,
+      "ms": 282.79,
+      "warnings": 0,
+      "count": 1,
+      "event_id": 62,
+      "stages": {
+        "capture_ms": 0.1550999986648094,
+        "change_detection_ms": 0.5474000026879366,
+        "image_queue_wait_ms": 0.006599999323952943,
+        "ocr_queue_wait_ms": 0.12489999789977446,
+        "ocr_ms": 89.24020000267774,
+        "capture_observed_at": 19096.4793985,
+        "ocr_started_at": 19096.4802259,
+        "ocr_completed_at": 19096.5694661,
+        "frame_seq": 1739,
+        "capture_epoch": 1,
+        "stability_wait_ms": 130.23379999867757,
+        "confirmation_captured_at": 19096.6989265,
+        "dispatch_wait_ms": 0.06989999747020192,
+        "translation_queue_ms": 0.04489999992074445,
+        "translation_request_ms": 52.41869999736082,
+        "postprocess_ms": 0.10580000162008218
+      },
+      "backend_states": [
+        "warm"
+      ],
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 190.14,
+      "ms": 220.04,
+      "warnings": 0,
+      "count": 1,
+      "event_id": 63,
+      "stages": {
+        "capture_ms": 0.1317000023846049,
+        "change_detection_ms": 0.6020000000717118,
+        "image_queue_wait_ms": 0.009100000170292333,
+        "ocr_queue_wait_ms": 0.14969999756431207,
+        "ocr_ms": 101.65320000305655,
+        "capture_observed_at": 19099.5289637,
+        "ocr_started_at": 19099.5298471,
+        "ocr_completed_at": 19099.6315003,
+        "frame_seq": 1767,
+        "capture_epoch": 1,
+        "stability_wait_ms": 116.01379999774508,
+        "confirmation_captured_at": 19099.7468056,
+        "dispatch_wait_ms": 0.06410000059986487,
+        "translation_queue_ms": 0.06039999789209105,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0
+      },
+      "backend_states": [
+        "none"
+      ],
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 193.12,
+      "ms": 158.38,
+      "warnings": 0,
+      "count": 1,
+      "event_id": 64,
+      "stages": {
+        "capture_ms": 0.15189999976428226,
+        "change_detection_ms": 0.7937000009405892,
+        "image_queue_wait_ms": 0.007500002539018169,
+        "ocr_queue_wait_ms": 0.17759999900590628,
+        "ocr_ms": 113.1137000011222,
+        "capture_observed_at": 19102.5767238,
+        "ocr_started_at": 19102.577847,
+        "ocr_completed_at": 19102.6909607,
+        "frame_seq": 1795,
+        "capture_epoch": 1,
+        "stability_wait_ms": 42.68279999814695,
+        "confirmation_captured_at": 19102.7326413,
+        "dispatch_wait_ms": 0.12570000035339035,
+        "translation_queue_ms": 0,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0
+      },
+      "backend_states": [
+        "cache"
+      ],
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 196.2,
+      "ms": 155.92,
+      "warnings": 0,
+      "count": 1,
+      "event_id": 65,
+      "stages": {
+        "capture_ms": 0.15689999781898223,
+        "change_detection_ms": 0.7626000005984679,
+        "image_queue_wait_ms": 0.007299997378140688,
+        "ocr_queue_wait_ms": 0.15050000001792796,
+        "ocr_ms": 133.2031999991159,
+        "capture_observed_at": 19105.6543329,
+        "ocr_started_at": 19105.6554029,
+        "ocr_completed_at": 19105.7886061,
+        "frame_seq": 1824,
+        "capture_epoch": 1,
+        "stability_wait_ms": 20.2318000010564,
+        "confirmation_captured_at": 19105.8078393,
+        "dispatch_wait_ms": 0.06990000110818073,
+        "translation_queue_ms": 0,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0
+      },
+      "backend_states": [
+        "cache"
+      ],
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 199.34,
+      "ms": 218.36,
+      "warnings": 0,
+      "count": 1,
+      "event_id": 66,
+      "stages": {
+        "capture_ms": 0.10309999925084412,
+        "change_detection_ms": 0.4262000002199784,
+        "image_queue_wait_ms": 0.005800000508315861,
+        "ocr_queue_wait_ms": 0.10450000263517722,
+        "ocr_ms": 93.69889999652514,
+        "capture_observed_at": 19108.7382535,
+        "ocr_started_at": 19108.7388873,
+        "ocr_completed_at": 19108.8325862,
+        "frame_seq": 1853,
+        "capture_epoch": 1,
+        "stability_wait_ms": 122.82840000261785,
+        "confirmation_captured_at": 19108.9546773,
+        "dispatch_wait_ms": 0.06959999882383272,
+        "translation_queue_ms": 0,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0
+      },
+      "backend_states": [
+        "cache"
+      ],
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 202.34,
+      "ms": 158.61,
+      "warnings": 0,
+      "count": 1,
+      "event_id": 67,
+      "stages": {
+        "capture_ms": 0.1537000025564339,
+        "change_detection_ms": 0.5498999998962972,
+        "image_queue_wait_ms": 0.006800000846851617,
+        "ocr_queue_wait_ms": 0.13559999933931977,
+        "ocr_ms": 135.3823999997985,
+        "capture_observed_at": 19111.7876352,
+        "ocr_started_at": 19111.7884744,
+        "ocr_completed_at": 19111.9238568,
+        "frame_seq": 1881,
+        "capture_epoch": 1,
+        "stability_wait_ms": 20.1664999985951,
+        "confirmation_captured_at": 19111.9430093,
+        "dispatch_wait_ms": 0.09090000094147399,
+        "translation_queue_ms": 0,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0
+      },
+      "backend_states": [
+        "cache"
+      ],
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 205.33,
+      "ms": 160.04,
+      "warnings": 0,
+      "count": 1,
+      "event_id": 68,
+      "stages": {
+        "capture_ms": 0.17669999942881986,
+        "change_detection_ms": 0.44159999742987566,
+        "image_queue_wait_ms": 0.005699999746866524,
+        "ocr_queue_wait_ms": 0.10890000339713879,
+        "ocr_ms": 120.5203999998048,
+        "capture_observed_at": 19114.7792313,
+        "ocr_started_at": 19114.7799585,
+        "ocr_completed_at": 19114.9004789,
+        "frame_seq": 1909,
+        "capture_epoch": 1,
+        "stability_wait_ms": 37.72460000254796,
+        "confirmation_captured_at": 19114.9372388,
+        "dispatch_wait_ms": 0.0641999977233354,
+        "translation_queue_ms": 0,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0
+      },
+      "backend_states": [
+        "cache"
+      ],
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 208.42,
+      "ms": 155.58,
+      "warnings": 0,
+      "count": 1,
+      "event_id": 69,
+      "stages": {
+        "capture_ms": 0.12169999899924733,
+        "change_detection_ms": 0.5243999985395931,
+        "image_queue_wait_ms": 0.005900001269765198,
+        "ocr_queue_wait_ms": 0.1083999995898921,
+        "ocr_ms": 117.97170000136248,
+        "capture_observed_at": 19117.8772557,
+        "ocr_started_at": 19117.8780102,
+        "ocr_completed_at": 19117.9959819,
+        "frame_seq": 1938,
+        "capture_epoch": 1,
+        "stability_wait_ms": 35.83470000012312,
+        "confirmation_captured_at": 19118.0310817,
+        "dispatch_wait_ms": 0.06510000093840063,
+        "translation_queue_ms": 0,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0
+      },
+      "backend_states": [
+        "cache"
+      ],
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 211.53,
+      "ms": 158.76,
+      "warnings": 0,
+      "count": 1,
+      "event_id": 70,
+      "stages": {
+        "capture_ms": 0.20990000120946206,
+        "change_detection_ms": 0.614800002949778,
+        "image_queue_wait_ms": 0.007200000254670158,
+        "ocr_queue_wait_ms": 0.15339999663410708,
+        "ocr_ms": 120.76610000076471,
+        "capture_observed_at": 19120.974079,
+        "ocr_started_at": 19120.9750571,
+        "ocr_completed_at": 19121.0958232,
+        "frame_seq": 1967,
+        "capture_epoch": 1,
+        "stability_wait_ms": 35.407600000326056,
+        "confirmation_captured_at": 19121.1300506,
+        "dispatch_wait_ms": 0.10280000060447492,
+        "translation_queue_ms": 0,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0
+      },
+      "backend_states": [
+        "cache"
+      ],
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 214.5,
+      "ms": 159.17,
+      "warnings": 0,
+      "count": 1,
+      "event_id": 71,
+      "stages": {
+        "capture_ms": 0.12029999925289303,
+        "change_detection_ms": 0.44350000098347664,
+        "image_queue_wait_ms": 0.005900001269765198,
+        "ocr_queue_wait_ms": 0.1052999978128355,
+        "ocr_ms": 113.28060000232654,
+        "capture_observed_at": 19123.9540486,
+        "ocr_started_at": 19123.9547177,
+        "ocr_completed_at": 19124.0679983,
+        "frame_seq": 1995,
+        "capture_epoch": 1,
+        "stability_wait_ms": 43.66149999987101,
+        "confirmation_captured_at": 19124.1107332,
+        "dispatch_wait_ms": 0.09529999806545675,
+        "translation_queue_ms": 0,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0
+      },
+      "backend_states": [
+        "cache"
+      ],
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 217.61,
+      "ms": 155.24,
+      "warnings": 0,
+      "count": 1,
+      "event_id": 72,
+      "stages": {
+        "capture_ms": 0.1331999992544297,
+        "change_detection_ms": 0.7713999984844122,
+        "image_queue_wait_ms": 0.006100002792663872,
+        "ocr_queue_wait_ms": 0.14100000043981709,
+        "ocr_ms": 115.09230000228854,
+        "capture_observed_at": 19127.0529567,
+        "ocr_started_at": 19127.0540023,
+        "ocr_completed_at": 19127.1690946,
+        "frame_seq": 2024,
+        "capture_epoch": 1,
+        "stability_wait_ms": 38.076499997259816,
+        "confirmation_captured_at": 19127.2062738,
+        "dispatch_wait_ms": 0.10649999967426993,
+        "translation_queue_ms": 0,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0
+      },
+      "backend_states": [
+        "cache"
+      ],
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 220.7,
+      "ms": 157.84,
+      "warnings": 0,
+      "count": 1,
+      "event_id": 73,
+      "stages": {
+        "capture_ms": 0.1416000013705343,
+        "change_detection_ms": 0.4474000015761703,
+        "image_queue_wait_ms": 0.006099999154685065,
+        "ocr_queue_wait_ms": 0.10519999705138616,
+        "ocr_ms": 117.42170000070473,
+        "capture_observed_at": 19130.146041,
+        "ocr_started_at": 19130.1467352,
+        "ocr_completed_at": 19130.2641569,
+        "frame_seq": 2053,
+        "capture_epoch": 1,
+        "stability_wait_ms": 35.2004999986093,
+        "confirmation_captured_at": 19130.2986946,
+        "dispatch_wait_ms": 0.06819999907747842,
+        "translation_queue_ms": 0,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0
+      },
+      "backend_states": [
+        "cache"
+      ],
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 223.83,
+      "ms": 203.91,
+      "warnings": 0,
+      "count": 1,
+      "event_id": 74,
+      "stages": {
+        "capture_ms": 0.10589999874355271,
+        "change_detection_ms": 0.7994999978109263,
+        "image_queue_wait_ms": 0.010399999155197293,
+        "ocr_queue_wait_ms": 0.17910000315168872,
+        "ocr_ms": 98.08559999873978,
+        "capture_observed_at": 19133.2266265,
+        "ocr_started_at": 19133.227711,
+        "ocr_completed_at": 19133.3257966,
+        "frame_seq": 2082,
+        "capture_epoch": 1,
+        "stability_wait_ms": 103.50550000293879,
+        "confirmation_captured_at": 19133.4284547,
+        "dispatch_wait_ms": 0.07779999941703863,
+        "translation_queue_ms": 0,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0
+      },
+      "backend_states": [
+        "cache"
+      ],
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 226.8,
+      "ms": 156.42,
+      "warnings": 0,
+      "count": 1,
+      "event_id": 75,
+      "stages": {
+        "capture_ms": 0.12960000094608404,
+        "change_detection_ms": 0.46130000191624276,
+        "image_queue_wait_ms": 0.005999998393235728,
+        "ocr_queue_wait_ms": 0.10709999696700834,
+        "ocr_ms": 122.59619999895222,
+        "capture_observed_at": 19136.247195,
+        "ocr_started_at": 19136.247893,
+        "ocr_completed_at": 19136.3704892,
+        "frame_seq": 2110,
+        "capture_epoch": 1,
+        "stability_wait_ms": 31.570400002237875,
+        "confirmation_captured_at": 19136.4008938,
+        "dispatch_wait_ms": 0.09800000043469481,
+        "translation_queue_ms": 0,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0
+      },
+      "backend_states": [
+        "cache"
+      ],
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 229.88,
+      "ms": 152.39,
+      "warnings": 0,
+      "count": 1,
+      "event_id": 76,
+      "stages": {
+        "capture_ms": 0.1334000007773284,
+        "change_detection_ms": 0.7337999995797873,
+        "image_queue_wait_ms": 0.007399998139590025,
+        "ocr_queue_wait_ms": 0.13519999993150122,
+        "ocr_ms": 121.26490000082413,
+        "capture_observed_at": 19139.3269526,
+        "ocr_started_at": 19139.327955,
+        "ocr_completed_at": 19139.4492199,
+        "frame_seq": 2139,
+        "capture_epoch": 1,
+        "stability_wait_ms": 29.033099999651313,
+        "confirmation_captured_at": 19139.4770876,
+        "dispatch_wait_ms": 0.07249999907799065,
+        "translation_queue_ms": 0,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0
+      },
+      "backend_states": [
+        "cache"
+      ],
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 233.03,
+      "ms": 219.42,
+      "warnings": 0,
+      "count": 1,
+      "event_id": 77,
+      "stages": {
+        "capture_ms": 0.10250000195810571,
+        "change_detection_ms": 0.4521000009845011,
+        "image_queue_wait_ms": 0.006099999154685065,
+        "ocr_queue_wait_ms": 0.1373999984934926,
+        "ocr_ms": 103.1555000008666,
+        "capture_observed_at": 19142.4120461,
+        "ocr_started_at": 19142.4127381,
+        "ocr_completed_at": 19142.5158936,
+        "frame_seq": 2168,
+        "capture_epoch": 1,
+        "stability_wait_ms": 114.03229999996256,
+        "confirmation_captured_at": 19142.6291012,
+        "dispatch_wait_ms": 0.08919999891077168,
+        "translation_queue_ms": 0,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0
+      },
+      "backend_states": [
+        "cache"
+      ],
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 236.08,
+      "ms": 220.35,
+      "warnings": 0,
+      "count": 1,
+      "event_id": 78,
+      "stages": {
+        "capture_ms": 0.20950000180164352,
+        "change_detection_ms": 0.54689999888069,
+        "image_queue_wait_ms": 0.006399997801054269,
+        "ocr_queue_wait_ms": 0.11230000018258579,
+        "ocr_ms": 96.29040000072564,
+        "capture_observed_at": 19145.4608733,
+        "ocr_started_at": 19145.461742,
+        "ocr_completed_at": 19145.5580324,
+        "frame_seq": 2196,
+        "capture_epoch": 1,
+        "stability_wait_ms": 121.88930000047549,
+        "confirmation_captured_at": 19145.6787845,
+        "dispatch_wait_ms": 0.07499999992433004,
+        "translation_queue_ms": 0,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0
+      },
+      "backend_states": [
+        "cache"
+      ],
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 239.09,
+      "ms": 205.45,
+      "warnings": 0,
+      "count": 1,
+      "event_id": 79,
+      "stages": {
+        "capture_ms": 0.13969999781693332,
+        "change_detection_ms": 0.7393000014417339,
+        "image_queue_wait_ms": 0.005600002623395994,
+        "ocr_queue_wait_ms": 0.1329000006080605,
+        "ocr_ms": 98.24559999833582,
+        "capture_observed_at": 19148.5002849,
+        "ocr_started_at": 19148.5012968,
+        "ocr_completed_at": 19148.5995424,
+        "frame_seq": 2224,
+        "capture_epoch": 1,
+        "stability_wait_ms": 104.13569999946048,
+        "confirmation_captured_at": 19148.7030046,
+        "dispatch_wait_ms": 0.06040000153006986,
+        "translation_queue_ms": 0,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0
+      },
+      "backend_states": [
+        "cache"
+      ],
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 242.25,
+      "ms": 316.6,
+      "warnings": 0,
+      "count": 1,
+      "event_id": 80,
+      "stages": {
+        "capture_ms": 0.10349999865866266,
+        "change_detection_ms": 0.4332999997131992,
+        "image_queue_wait_ms": 0.005800000508315861,
+        "ocr_queue_wait_ms": 0.10820000170497224,
+        "ocr_ms": 104.66479999740841,
+        "capture_observed_at": 19151.5367202,
+        "ocr_started_at": 19151.5373652,
+        "ocr_completed_at": 19151.64203,
+        "frame_seq": 2252,
+        "capture_epoch": 1,
+        "stability_wait_ms": 113.86050000146497,
+        "confirmation_captured_at": 19151.7549651,
+        "dispatch_wait_ms": 0.09529999806545675,
+        "translation_queue_ms": 0.05869999949936755,
+        "translation_request_ms": 95.59400000216556,
+        "postprocess_ms": 0.17630000002100132
+      },
+      "backend_states": [
+        "warm"
+      ],
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 245.3,
+      "ms": 321.13,
+      "warnings": 0,
+      "count": 1,
+      "event_id": 81,
+      "stages": {
+        "capture_ms": 0.112599998828955,
+        "change_detection_ms": 0.42670000038924627,
+        "image_queue_wait_ms": 0.005199999577598646,
+        "ocr_queue_wait_ms": 0.09960000170394778,
+        "ocr_ms": 104.69999999986612,
+        "capture_observed_at": 19154.5776029,
+        "ocr_started_at": 19154.5782418,
+        "ocr_completed_at": 19154.6829418,
+        "frame_seq": 2280,
+        "capture_epoch": 1,
+        "stability_wait_ms": 111.79599999741185,
+        "confirmation_captured_at": 19154.7940896,
+        "dispatch_wait_ms": 0.06649999704677612,
+        "translation_queue_ms": 0.05119999696034938,
+        "translation_request_ms": 102.31710000152816,
+        "postprocess_ms": 0.2032999982475303
+      },
+      "backend_states": [
+        "warm"
+      ],
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 248.41,
+      "ms": 281.0,
+      "warnings": 0,
+      "count": 1,
+      "event_id": 82,
+      "stages": {
+        "capture_ms": 0.12249999781488441,
+        "change_detection_ms": 0.7153999977163039,
+        "image_queue_wait_ms": 0.006199999916134402,
+        "ocr_queue_wait_ms": 0.13270000272314064,
+        "ocr_ms": 102.11610000260407,
+        "capture_observed_at": 19157.7292099,
+        "ocr_started_at": 19157.7301805,
+        "ocr_completed_at": 19157.8322966,
+        "frame_seq": 2309,
+        "capture_epoch": 1,
+        "stability_wait_ms": 115.1769999996759,
+        "confirmation_captured_at": 19157.9466742,
+        "dispatch_wait_ms": 0.07209999967017211,
+        "translation_queue_ms": 0.050000002374872565,
+        "translation_request_ms": 60.78440000055707,
+        "postprocess_ms": 0.112599998828955
+      },
+      "backend_states": [
+        "warm"
+      ],
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 251.39,
+      "ms": 206.02,
+      "warnings": 0,
+      "count": 1,
+      "event_id": 83,
+      "stages": {
+        "capture_ms": 0.10089999705087394,
+        "change_detection_ms": 0.4639999970095232,
+        "image_queue_wait_ms": 0.005500001861946657,
+        "ocr_queue_wait_ms": 0.09720000525703654,
+        "ocr_ms": 100.5827999979374,
+        "capture_observed_at": 19160.7839582,
+        "ocr_started_at": 19160.7846203,
+        "ocr_completed_at": 19160.8852031,
+        "frame_seq": 2337,
+        "capture_epoch": 1,
+        "stability_wait_ms": 103.5163000015018,
+        "confirmation_captured_at": 19160.9878662,
+        "dispatch_wait_ms": 0.07100000220816582,
+        "translation_queue_ms": 0.04610000178217888,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0
+      },
+      "backend_states": [
+        "none"
+      ],
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 254.44,
+      "ms": 218.55,
+      "warnings": 0,
+      "count": 1,
+      "event_id": 84,
+      "stages": {
+        "capture_ms": 0.18909999926108867,
+        "change_detection_ms": 0.7098999994923361,
+        "image_queue_wait_ms": 0.008700000762473792,
+        "ocr_queue_wait_ms": 0.14850000297883525,
+        "ocr_ms": 95.77999999964959,
+        "capture_observed_at": 19163.8168964,
+        "ocr_started_at": 19163.8179439,
+        "ocr_completed_at": 19163.9137239,
+        "frame_seq": 2365,
+        "capture_epoch": 1,
+        "stability_wait_ms": 120.49449999904027,
+        "confirmation_captured_at": 19164.033285,
+        "dispatch_wait_ms": 0.07420000110869296,
+        "translation_queue_ms": 0,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0
+      },
+      "backend_states": [
+        "cache"
+      ],
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 257.47,
+      "ms": 218.82,
+      "warnings": 0,
+      "count": 1,
+      "event_id": 85,
+      "stages": {
+        "capture_ms": 0.316400000883732,
+        "change_detection_ms": 0.7040000018605497,
+        "image_queue_wait_ms": 0.007800001185387373,
+        "ocr_queue_wait_ms": 0.125299997307593,
+        "ocr_ms": 103.06380000110948,
+        "capture_observed_at": 19166.8587146,
+        "ocr_started_at": 19166.8598603,
+        "ocr_completed_at": 19166.9629241,
+        "frame_seq": 2393,
+        "capture_epoch": 1,
+        "stability_wait_ms": 113.67890000110492,
+        "confirmation_captured_at": 19167.075961,
+        "dispatch_wait_ms": 0.05909999890718609,
+        "translation_queue_ms": 0,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0
+      },
+      "backend_states": [
+        "cache"
+      ],
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 260.51,
+      "ms": 217.11,
+      "warnings": 0,
+      "count": 1,
+      "event_id": 86,
+      "stages": {
+        "capture_ms": 0.11899999663000926,
+        "change_detection_ms": 0.4942999985360075,
+        "image_queue_wait_ms": 0.005900001269765198,
+        "ocr_queue_wait_ms": 0.10440000187372789,
+        "ocr_ms": 86.68170000237296,
+        "capture_observed_at": 19169.9069043,
+        "ocr_started_at": 19169.907622,
+        "ocr_completed_at": 19169.9943037,
+        "frame_seq": 2421,
+        "capture_epoch": 1,
+        "stability_wait_ms": 128.63629999992554,
+        "confirmation_captured_at": 19170.1222735,
+        "dispatch_wait_ms": 0.06679999933112413,
+        "translation_queue_ms": 0,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0
+      },
+      "backend_states": [
+        "cache"
+      ],
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 263.58,
+      "ms": 222.86,
+      "warnings": 0,
+      "count": 1,
+      "event_id": 87,
+      "stages": {
+        "capture_ms": 0.11789999916800298,
+        "change_detection_ms": 0.7293000016943552,
+        "image_queue_wait_ms": 0.007599999662488699,
+        "ocr_queue_wait_ms": 0.1373999984934926,
+        "ocr_ms": 95.36329999900772,
+        "capture_observed_at": 19172.9563362,
+        "ocr_started_at": 19172.9573208,
+        "ocr_completed_at": 19173.0526841,
+        "frame_seq": 2449,
+        "capture_epoch": 1,
+        "stability_wait_ms": 121.32860000201617,
+        "confirmation_captured_at": 19173.1733499,
+        "dispatch_wait_ms": 0.059300000430084765,
+        "translation_queue_ms": 0,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0
+      },
+      "backend_states": [
+        "cache"
+      ],
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 266.72,
+      "ms": 214.93,
+      "warnings": 0,
+      "count": 1,
+      "event_id": 88,
+      "stages": {
+        "capture_ms": 0.1250000022992026,
+        "change_detection_ms": 0.4517999987001531,
+        "image_queue_wait_ms": 0.006199999916134402,
+        "ocr_queue_wait_ms": 0.10680000195861794,
+        "ocr_ms": 103.50039999684668,
+        "capture_observed_at": 19176.1110824,
+        "ocr_started_at": 19176.111766,
+        "ocr_completed_at": 19176.2152664,
+        "frame_seq": 2478,
+        "capture_epoch": 1,
+        "stability_wait_ms": 109.8402999996324,
+        "confirmation_captured_at": 19176.3244597,
+        "dispatch_wait_ms": 0.06159999975352548,
+        "translation_queue_ms": 0,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0
+      },
+      "backend_states": [
+        "cache"
+      ],
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 269.7,
+      "ms": 155.46,
+      "warnings": 0,
+      "count": 1,
+      "event_id": 89,
+      "stages": {
+        "capture_ms": 0.16369999866583385,
+        "change_detection_ms": 0.8735000010346994,
+        "image_queue_wait_ms": 0.011100000847363845,
+        "ocr_queue_wait_ms": 0.1711999975668732,
+        "ocr_ms": 134.0537000032782,
+        "capture_observed_at": 19179.1562057,
+        "ocr_started_at": 19179.1574141,
+        "ocr_completed_at": 19179.2914678,
+        "frame_seq": 2506,
+        "capture_epoch": 1,
+        "stability_wait_ms": 19.086299998889444,
+        "confirmation_captured_at": 19179.3095357,
+        "dispatch_wait_ms": 0.08779999916441739,
+        "translation_queue_ms": 0,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0
+      },
+      "backend_states": [
+        "cache"
+      ],
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 272.76,
+      "ms": 220.93,
+      "warnings": 0,
+      "count": 1,
+      "event_id": 90,
+      "stages": {
+        "capture_ms": 0.12700000297627412,
+        "change_detection_ms": 0.7102999989001546,
+        "image_queue_wait_ms": 0.005800000508315861,
+        "ocr_queue_wait_ms": 0.13140000010025688,
+        "ocr_ms": 105.8405000003404,
+        "capture_observed_at": 19182.1450437,
+        "ocr_started_at": 19182.1460124,
+        "ocr_completed_at": 19182.2518529,
+        "frame_seq": 2534,
+        "capture_epoch": 1,
+        "stability_wait_ms": 112.32380000001285,
+        "confirmation_captured_at": 19182.3632194,
+        "dispatch_wait_ms": 0.07830000322428532,
+        "translation_queue_ms": 0,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0
+      },
+      "backend_states": [
+        "cache"
+      ],
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 275.75,
+      "ms": 157.3,
+      "warnings": 0,
+      "count": 1,
+      "event_id": 91,
+      "stages": {
+        "capture_ms": 0.12119999882997945,
+        "change_detection_ms": 0.5144999995536637,
+        "image_queue_wait_ms": 0.005800000508315861,
+        "ocr_queue_wait_ms": 0.1159999992523808,
+        "ocr_ms": 112.267200001952,
+        "capture_observed_at": 19185.2011252,
+        "ocr_started_at": 19185.2018769,
+        "ocr_completed_at": 19185.3141441,
+        "frame_seq": 2562,
+        "capture_epoch": 1,
+        "stability_wait_ms": 42.89770000104909,
+        "confirmation_captured_at": 19185.3563502,
+        "dispatch_wait_ms": 0.07890000051702373,
+        "translation_queue_ms": 0,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0
+      },
+      "backend_states": [
+        "cache"
+      ],
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 278.88,
+      "ms": 180.37,
+      "warnings": 0,
+      "count": 1,
+      "event_id": 92,
+      "stages": {
+        "capture_ms": 0.13409999883151613,
+        "change_detection_ms": 0.729499999579275,
+        "image_queue_wait_ms": 0.005699999746866524,
+        "ocr_queue_wait_ms": 0.14490000103251077,
+        "ocr_ms": 132.42259999969974,
+        "capture_observed_at": 19188.2937089,
+        "ocr_started_at": 19188.2947174,
+        "ocr_completed_at": 19188.42714,
+        "frame_seq": 2591,
+        "capture_epoch": 1,
+        "stability_wait_ms": 23.320600001170533,
+        "confirmation_captured_at": 19188.4492537,
+        "dispatch_wait_ms": 0.09030000001075678,
+        "translation_queue_ms": 0,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0
+      },
+      "backend_states": [
+        "cache"
+      ],
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 281.92,
+      "ms": 159.46,
+      "warnings": 0,
+      "count": 1,
+      "event_id": 93,
+      "stages": {
+        "capture_ms": 0.1436000020476058,
+        "change_detection_ms": 0.7444000002578832,
+        "image_queue_wait_ms": 0.006499998562503606,
+        "ocr_queue_wait_ms": 0.13209999815444462,
+        "ocr_ms": 132.43119999970077,
+        "capture_observed_at": 19191.3738117,
+        "ocr_started_at": 19191.3748318,
+        "ocr_completed_at": 19191.507263,
+        "frame_seq": 2620,
+        "capture_epoch": 1,
+        "stability_wait_ms": 24.723099999391707,
+        "confirmation_captured_at": 19191.5312975,
+        "dispatch_wait_ms": 0.07109999933163635,
+        "translation_queue_ms": 0,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0
+      },
+      "backend_states": [
+        "cache"
+      ],
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 285.08,
+      "ms": 222.25,
+      "warnings": 0,
+      "count": 1,
+      "event_id": 94,
+      "stages": {
+        "capture_ms": 0.1283999990846496,
+        "change_detection_ms": 0.5412999998952728,
+        "image_queue_wait_ms": 0.006300000677583739,
+        "ocr_queue_wait_ms": 0.12350000179139897,
+        "ocr_ms": 103.8845000002766,
+        "capture_observed_at": 19194.4658815,
+        "ocr_started_at": 19194.4666747,
+        "ocr_completed_at": 19194.5705592,
+        "frame_seq": 2649,
+        "capture_epoch": 1,
+        "stability_wait_ms": 116.23749999853317,
+        "confirmation_captured_at": 19194.685757,
+        "dispatch_wait_ms": 0.07850000110920519,
+        "translation_queue_ms": 0,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0
+      },
+      "backend_states": [
+        "cache"
+      ],
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    },
+    {
+      "elapsed": 288.09,
+      "ms": 159.05,
+      "warnings": 0,
+      "count": 1,
+      "event_id": 95,
+      "stages": {
+        "capture_ms": 0.14349999764817767,
+        "change_detection_ms": 0.8296999985759612,
+        "image_queue_wait_ms": 0.007700000423938036,
+        "ocr_queue_wait_ms": 0.14710000323248096,
+        "ocr_ms": 115.138900000602,
+        "capture_observed_at": 19197.5337986,
+        "ocr_started_at": 19197.5349189,
+        "ocr_completed_at": 19197.6500578,
+        "frame_seq": 2677,
+        "capture_epoch": 1,
+        "stability_wait_ms": 41.24509999746806,
+        "confirmation_captured_at": 19197.6901927,
+        "dispatch_wait_ms": 0.08720000187167898,
+        "translation_queue_ms": 0,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0
+      },
+      "backend_states": [
+        "cache"
+      ],
+      "translations": [
+        {
+          "source": "Do not enter the dungeon yet.",
+          "target": "暫時不要進入地牢。",
+          "warning": "",
+          "confidence": 0.99154
+        }
+      ]
+    },
+    {
+      "elapsed": 291.08,
+      "ms": 160.22,
+      "warnings": 0,
+      "count": 1,
+      "event_id": 96,
+      "stages": {
+        "capture_ms": 0.1260999997612089,
+        "change_detection_ms": 0.6190000021888409,
+        "image_queue_wait_ms": 0.005900001269765198,
+        "ocr_queue_wait_ms": 0.12009999772999436,
+        "ocr_ms": 122.35750000036205,
+        "capture_observed_at": 19200.5260611,
+        "ocr_started_at": 19200.5269263,
+        "ocr_completed_at": 19200.6492838,
+        "frame_seq": 2705,
+        "capture_epoch": 1,
+        "stability_wait_ms": 35.8323999971617,
+        "confirmation_captured_at": 19200.6840526,
+        "dispatch_wait_ms": 0.0760000002628658,
+        "translation_queue_ms": 0,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0
+      },
+      "backend_states": [
+        "cache"
+      ],
+      "translations": [
+        {
+          "source": "We will meet near the ancient gate.",
+          "target": "我們將在古門附近會合。",
+          "warning": "",
+          "confidence": 0.99287
+        }
+      ]
+    },
+    {
+      "elapsed": 294.19,
+      "ms": 155.45,
+      "warnings": 0,
+      "count": 1,
+      "event_id": 97,
+      "stages": {
+        "capture_ms": 0.1263999984075781,
+        "change_detection_ms": 0.6464999969466589,
+        "image_queue_wait_ms": 0.005199999577598646,
+        "ocr_queue_wait_ms": 0.11420000373618677,
+        "ocr_ms": 119.42640000052052,
+        "capture_observed_at": 19203.6325584,
+        "ocr_started_at": 19203.6334455,
+        "ocr_completed_at": 19203.7528719,
+        "frame_seq": 2734,
+        "capture_epoch": 1,
+        "stability_wait_ms": 34.050499998556916,
+        "confirmation_captured_at": 19203.786211,
+        "dispatch_wait_ms": 0.0562999994144775,
+        "translation_queue_ms": 0,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0
+      },
+      "backend_states": [
+        "cache"
+      ],
+      "translations": [
+        {
+          "source": "Alice, we must leave before sunset.",
+          "target": "艾莉絲，我們必須在日落前離開。",
+          "warning": "",
+          "confidence": 0.99986
+        }
+      ]
+    },
+    {
+      "elapsed": 297.36,
+      "ms": 219.34,
+      "warnings": 0,
+      "count": 1,
+      "event_id": 98,
+      "stages": {
+        "capture_ms": 0.1570999993418809,
+        "change_detection_ms": 0.7671999992453493,
+        "image_queue_wait_ms": 0.006199999916134402,
+        "ocr_queue_wait_ms": 0.14110000120126642,
+        "ocr_ms": 103.77439999865601,
+        "capture_observed_at": 19206.7388565,
+        "ocr_started_at": 19206.7399219,
+        "ocr_completed_at": 19206.8436963,
+        "frame_seq": 2763,
+        "capture_epoch": 1,
+        "stability_wait_ms": 113.25760000181617,
+        "confirmation_captured_at": 19206.9563299,
+        "dispatch_wait_ms": 0.06829999983892776,
+        "translation_queue_ms": 0,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0
+      },
+      "backend_states": [
+        "cache"
+      ],
+      "translations": [
+        {
+          "source": "Wait for me.",
+          "target": "等我。",
+          "warning": "",
+          "confidence": 0.99998
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "pipeline": {
+    "counts": {
+      "capture": 2790,
+      "ocr_candidate_created": 98,
+      "ocr": 98,
+      "frame_unchanged": 2640,
+      "events_created": 98,
+      "pipeline_completed": 98,
+      "success": 98,
+      "ui_applied": 98,
+      "cache_hit": 78
+    },
+    "recent": [
+      {
+        "reason": "frame_unchanged",
+        "mode": "dialog"
+      },
+      {
+        "reason": "capture",
+        "mode": "dialog",
+        "capture_ms": 0.219,
+        "change_detection_ms": 0.793,
+        "capture_deadline_miss_ms": 8.57,
+        "frame_seq": 2733,
+        "capture_epoch": 1,
+        "producer_transient_roi_bytes": 429000
+      },
+      {
+        "reason": "frame_unchanged",
+        "mode": "dialog"
+      },
+      {
+        "reason": "capture",
+        "mode": "dialog",
+        "capture_ms": 0.126,
+        "change_detection_ms": 0.646,
+        "capture_deadline_miss_ms": 9.999,
+        "frame_seq": 2734,
+        "capture_epoch": 1,
+        "producer_transient_roi_bytes": 429000
+      },
+      {
+        "reason": "ocr_candidate_created",
+        "mode": "dialog",
+        "pending": 1,
+        "in_flight": 0,
+        "pending_limit": 1,
+        "epoch": 1,
+        "owned_roi_bytes": 429000,
+        "owned_roi_peak_bytes": 858000
+      },
+      {
+        "reason": "capture",
+        "mode": "dialog",
+        "capture_ms": 0.233,
+        "change_detection_ms": 0.585,
+        "capture_deadline_miss_ms": 7.631,
+        "frame_seq": 2735,
+        "capture_epoch": 1,
+        "producer_transient_roi_bytes": 429000
+      },
+      {
+        "reason": "ocr",
+        "mode": "dialog",
+        "ocr_ms": 119.426,
+        "ocr_queue_wait_ms": 0.114,
+        "frame_seq": 2734,
+        "capture_epoch": 1
+      },
+      {
+        "reason": "capture",
+        "mode": "dialog",
+        "capture_ms": 0.107,
+        "change_detection_ms": 0.522,
+        "capture_deadline_miss_ms": 0,
+        "frame_seq": 2736,
+        "capture_epoch": 1,
+        "producer_transient_roi_bytes": 429000
+      },
+      {
+        "reason": "frame_unchanged",
+        "mode": "dialog"
+      },
+      {
+        "reason": "events_created",
+        "mode": "dialog"
+      },
+      {
+        "reason": "pipeline_completed",
+        "mode": "dialog",
+        "capture_ms": 0.126,
+        "change_detection_ms": 0.646,
+        "image_queue_wait_ms": 0.005,
+        "ocr_queue_wait_ms": 0.114,
+        "ocr_ms": 119.426,
+        "capture_observed_at": 19203.633,
+        "ocr_started_at": 19203.633,
+        "ocr_completed_at": 19203.753,
+        "frame_seq": 2734,
+        "capture_epoch": 1,
+        "stability_wait_ms": 34.05,
+        "confirmation_captured_at": 19203.786,
+        "dispatch_wait_ms": 0.056,
+        "translation_queue_ms": 0,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0,
+        "observed_worker_ms": 155.446
+      },
+      {
+        "reason": "success",
+        "mode": "dialog"
+      },
+      {
+        "reason": "cache_hit",
+        "mode": "dialog"
+      },
+      {
+        "reason": "ui_applied",
+        "mode": "dialog",
+        "overlay_update_ms": 0.317,
+        "observed_pipeline_ms": 155.785
+      },
+      {
+        "reason": "capture",
+        "mode": "dialog",
+        "capture_ms": 0.121,
+        "change_detection_ms": 0.628,
+        "capture_deadline_miss_ms": 9.026,
+        "frame_seq": 2737,
+        "capture_epoch": 1,
+        "producer_transient_roi_bytes": 429000
+      },
+      {
+        "reason": "frame_unchanged",
+        "mode": "dialog"
+      },
+      {
+        "reason": "capture",
+        "mode": "dialog",
+        "capture_ms": 0.142,
+        "change_detection_ms": 0.55,
+        "capture_deadline_miss_ms": 9.5,
+        "frame_seq": 2738,
+        "capture_epoch": 1,
+        "producer_transient_roi_bytes": 429000
+      },
+      {
+        "reason": "frame_unchanged",
+        "mode": "dialog"
+      },
+      {
+        "reason": "capture",
+        "mode": "dialog",
+        "capture_ms": 0.125,
+        "change_detection_ms": 0.702,
+        "capture_deadline_miss_ms": 10.491,
+        "frame_seq": 2739,
+        "capture_epoch": 1,
+        "producer_transient_roi_bytes": 429000
+      },
+      {
+        "reason": "frame_unchanged",
+        "mode": "dialog"
+      },
+      {
+        "reason": "capture",
+        "mode": "dialog",
+        "capture_ms": 0.116,
+        "change_detection_ms": 0.761,
+        "capture_deadline_miss_ms": 10.048,
+        "frame_seq": 2740,
+        "capture_epoch": 1,
+        "producer_transient_roi_bytes": 429000
+      },
+      {
+        "reason": "frame_unchanged",
+        "mode": "dialog"
+      },
+      {
+        "reason": "capture",
+        "mode": "dialog",
+        "capture_ms": 0.115,
+        "change_detection_ms": 0.545,
+        "capture_deadline_miss_ms": 9.221,
+        "frame_seq": 2741,
+        "capture_epoch": 1,
+        "producer_transient_roi_bytes": 429000
+      },
+      {
+        "reason": "frame_unchanged",
+        "mode": "dialog"
+      },
+      {
+        "reason": "capture",
+        "mode": "dialog",
+        "capture_ms": 0.123,
+        "change_detection_ms": 0.441,
+        "capture_deadline_miss_ms": 7.398,
+        "frame_seq": 2742,
+        "capture_epoch": 1,
+        "producer_transient_roi_bytes": 429000
+      },
+      {
+        "reason": "frame_unchanged",
+        "mode": "dialog"
+      },
+      {
+        "reason": "capture",
+        "mode": "dialog",
+        "capture_ms": 0.188,
+        "change_detection_ms": 0.616,
+        "capture_deadline_miss_ms": 9.735,
+        "frame_seq": 2743,
+        "capture_epoch": 1,
+        "producer_transient_roi_bytes": 429000
+      },
+      {
+        "reason": "frame_unchanged",
+        "mode": "dialog"
+      },
+      {
+        "reason": "capture",
+        "mode": "dialog",
+        "capture_ms": 0.113,
+        "change_detection_ms": 0.531,
+        "capture_deadline_miss_ms": 9.843,
+        "frame_seq": 2744,
+        "capture_epoch": 1,
+        "producer_transient_roi_bytes": 429000
+      },
+      {
+        "reason": "frame_unchanged",
+        "mode": "dialog"
+      },
+      {
+        "reason": "capture",
+        "mode": "dialog",
+        "capture_ms": 0.109,
+        "change_detection_ms": 0.533,
+        "capture_deadline_miss_ms": 10.046,
+        "frame_seq": 2745,
+        "capture_epoch": 1,
+        "producer_transient_roi_bytes": 429000
+      },
+      {
+        "reason": "frame_unchanged",
+        "mode": "dialog"
+      },
+      {
+        "reason": "capture",
+        "mode": "dialog",
+        "capture_ms": 0.14,
+        "change_detection_ms": 0.494,
+        "capture_deadline_miss_ms": 10.414,
+        "frame_seq": 2746,
+        "capture_epoch": 1,
+        "producer_transient_roi_bytes": 429000
+      },
+      {
+        "reason": "frame_unchanged",
+        "mode": "dialog"
+      },
+      {
+        "reason": "capture",
+        "mode": "dialog",
+        "capture_ms": 0.106,
+        "change_detection_ms": 0.573,
+        "capture_deadline_miss_ms": 9.124,
+        "frame_seq": 2747,
+        "capture_epoch": 1,
+        "producer_transient_roi_bytes": 429000
+      },
+      {
+        "reason": "frame_unchanged",
+        "mode": "dialog"
+      },
+      {
+        "reason": "capture",
+        "mode": "dialog",
+        "capture_ms": 0.117,
+        "change_detection_ms": 0.579,
+        "capture_deadline_miss_ms": 7.561,
+        "frame_seq": 2748,
+        "capture_epoch": 1,
+        "producer_transient_roi_bytes": 429000
+      },
+      {
+        "reason": "frame_unchanged",
+        "mode": "dialog"
+      },
+      {
+        "reason": "capture",
+        "mode": "dialog",
+        "capture_ms": 0.142,
+        "change_detection_ms": 0.732,
+        "capture_deadline_miss_ms": 8.675,
+        "frame_seq": 2749,
+        "capture_epoch": 1,
+        "producer_transient_roi_bytes": 429000
+      },
+      {
+        "reason": "frame_unchanged",
+        "mode": "dialog"
+      },
+      {
+        "reason": "capture",
+        "mode": "dialog",
+        "capture_ms": 0.121,
+        "change_detection_ms": 0.426,
+        "capture_deadline_miss_ms": 9.672,
+        "frame_seq": 2750,
+        "capture_epoch": 1,
+        "producer_transient_roi_bytes": 429000
+      },
+      {
+        "reason": "frame_unchanged",
+        "mode": "dialog"
+      },
+      {
+        "reason": "capture",
+        "mode": "dialog",
+        "capture_ms": 0.156,
+        "change_detection_ms": 0.617,
+        "capture_deadline_miss_ms": 9.877,
+        "frame_seq": 2751,
+        "capture_epoch": 1,
+        "producer_transient_roi_bytes": 429000
+      },
+      {
+        "reason": "frame_unchanged",
+        "mode": "dialog"
+      },
+      {
+        "reason": "capture",
+        "mode": "dialog",
+        "capture_ms": 0.099,
+        "change_detection_ms": 0.516,
+        "capture_deadline_miss_ms": 7.736,
+        "frame_seq": 2752,
+        "capture_epoch": 1,
+        "producer_transient_roi_bytes": 429000
+      },
+      {
+        "reason": "frame_unchanged",
+        "mode": "dialog"
+      },
+      {
+        "reason": "capture",
+        "mode": "dialog",
+        "capture_ms": 0.127,
+        "change_detection_ms": 0.524,
+        "capture_deadline_miss_ms": 9.166,
+        "frame_seq": 2753,
+        "capture_epoch": 1,
+        "producer_transient_roi_bytes": 429000
+      },
+      {
+        "reason": "frame_unchanged",
+        "mode": "dialog"
+      },
+      {
+        "reason": "capture",
+        "mode": "dialog",
+        "capture_ms": 0.152,
+        "change_detection_ms": 0.787,
+        "capture_deadline_miss_ms": 9.136,
+        "frame_seq": 2754,
+        "capture_epoch": 1,
+        "producer_transient_roi_bytes": 429000
+      },
+      {
+        "reason": "frame_unchanged",
+        "mode": "dialog"
+      },
+      {
+        "reason": "capture",
+        "mode": "dialog",
+        "capture_ms": 0.152,
+        "change_detection_ms": 0.547,
+        "capture_deadline_miss_ms": 10.98,
+        "frame_seq": 2755,
+        "capture_epoch": 1,
+        "producer_transient_roi_bytes": 429000
+      },
+      {
+        "reason": "frame_unchanged",
+        "mode": "dialog"
+      },
+      {
+        "reason": "capture",
+        "mode": "dialog",
+        "capture_ms": 0.116,
+        "change_detection_ms": 0.54,
+        "capture_deadline_miss_ms": 9.303,
+        "frame_seq": 2756,
+        "capture_epoch": 1,
+        "producer_transient_roi_bytes": 429000
+      },
+      {
+        "reason": "frame_unchanged",
+        "mode": "dialog"
+      },
+      {
+        "reason": "capture",
+        "mode": "dialog",
+        "capture_ms": 0.1,
+        "change_detection_ms": 0.587,
+        "capture_deadline_miss_ms": 8.727,
+        "frame_seq": 2757,
+        "capture_epoch": 1,
+        "producer_transient_roi_bytes": 429000
+      },
+      {
+        "reason": "frame_unchanged",
+        "mode": "dialog"
+      },
+      {
+        "reason": "capture",
+        "mode": "dialog",
+        "capture_ms": 0.17,
+        "change_detection_ms": 0.497,
+        "capture_deadline_miss_ms": 9.586,
+        "frame_seq": 2758,
+        "capture_epoch": 1,
+        "producer_transient_roi_bytes": 429000
+      },
+      {
+        "reason": "frame_unchanged",
+        "mode": "dialog"
+      },
+      {
+        "reason": "capture",
+        "mode": "dialog",
+        "capture_ms": 0.122,
+        "change_detection_ms": 0.721,
+        "capture_deadline_miss_ms": 9.447,
+        "frame_seq": 2759,
+        "capture_epoch": 1,
+        "producer_transient_roi_bytes": 429000
+      },
+      {
+        "reason": "frame_unchanged",
+        "mode": "dialog"
+      },
+      {
+        "reason": "capture",
+        "mode": "dialog",
+        "capture_ms": 0.132,
+        "change_detection_ms": 0.626,
+        "capture_deadline_miss_ms": 8.026,
+        "frame_seq": 2760,
+        "capture_epoch": 1,
+        "producer_transient_roi_bytes": 429000
+      },
+      {
+        "reason": "frame_unchanged",
+        "mode": "dialog"
+      },
+      {
+        "reason": "capture",
+        "mode": "dialog",
+        "capture_ms": 0.151,
+        "change_detection_ms": 0.744,
+        "capture_deadline_miss_ms": 10.008,
+        "frame_seq": 2761,
+        "capture_epoch": 1,
+        "producer_transient_roi_bytes": 429000
+      },
+      {
+        "reason": "frame_unchanged",
+        "mode": "dialog"
+      },
+      {
+        "reason": "capture",
+        "mode": "dialog",
+        "capture_ms": 0.264,
+        "change_detection_ms": 1.444,
+        "capture_deadline_miss_ms": 11.502,
+        "frame_seq": 2762,
+        "capture_epoch": 1,
+        "producer_transient_roi_bytes": 429000
+      },
+      {
+        "reason": "frame_unchanged",
+        "mode": "dialog"
+      },
+      {
+        "reason": "capture",
+        "mode": "dialog",
+        "capture_ms": 0.157,
+        "change_detection_ms": 0.767,
+        "capture_deadline_miss_ms": 8.4,
+        "frame_seq": 2763,
+        "capture_epoch": 1,
+        "producer_transient_roi_bytes": 429000
+      },
+      {
+        "reason": "ocr_candidate_created",
+        "mode": "dialog",
+        "pending": 1,
+        "in_flight": 0,
+        "pending_limit": 1,
+        "epoch": 1,
+        "owned_roi_bytes": 429000,
+        "owned_roi_peak_bytes": 858000
+      },
+      {
+        "reason": "ocr",
+        "mode": "dialog",
+        "ocr_ms": 103.774,
+        "ocr_queue_wait_ms": 0.141,
+        "frame_seq": 2763,
+        "capture_epoch": 1
+      },
+      {
+        "reason": "capture",
+        "mode": "dialog",
+        "capture_ms": 0.134,
+        "change_detection_ms": 0.597,
+        "capture_deadline_miss_ms": 5.756,
+        "frame_seq": 2764,
+        "capture_epoch": 1,
+        "producer_transient_roi_bytes": 429000
+      },
+      {
+        "reason": "frame_unchanged",
+        "mode": "dialog"
+      },
+      {
+        "reason": "capture",
+        "mode": "dialog",
+        "capture_ms": 0.101,
+        "change_detection_ms": 0.432,
+        "capture_deadline_miss_ms": 11.717,
+        "frame_seq": 2765,
+        "capture_epoch": 1,
+        "producer_transient_roi_bytes": 429000
+      },
+      {
+        "reason": "frame_unchanged",
+        "mode": "dialog"
+      },
+      {
+        "reason": "events_created",
+        "mode": "dialog"
+      },
+      {
+        "reason": "pipeline_completed",
+        "mode": "dialog",
+        "capture_ms": 0.157,
+        "change_detection_ms": 0.767,
+        "image_queue_wait_ms": 0.006,
+        "ocr_queue_wait_ms": 0.141,
+        "ocr_ms": 103.774,
+        "capture_observed_at": 19206.739,
+        "ocr_started_at": 19206.74,
+        "ocr_completed_at": 19206.844,
+        "frame_seq": 2763,
+        "capture_epoch": 1,
+        "stability_wait_ms": 113.258,
+        "confirmation_captured_at": 19206.956,
+        "dispatch_wait_ms": 0.068,
+        "translation_queue_ms": 0,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0,
+        "observed_worker_ms": 219.339
+      },
+      {
+        "reason": "success",
+        "mode": "dialog"
+      },
+      {
+        "reason": "cache_hit",
+        "mode": "dialog"
+      },
+      {
+        "reason": "ui_applied",
+        "mode": "dialog",
+        "overlay_update_ms": 0.263,
+        "observed_pipeline_ms": 219.644
+      },
+      {
+        "reason": "capture",
+        "mode": "dialog",
+        "capture_ms": 0.238,
+        "change_detection_ms": 0.596,
+        "capture_deadline_miss_ms": 9.688,
+        "frame_seq": 2766,
+        "capture_epoch": 1,
+        "producer_transient_roi_bytes": 429000
+      },
+      {
+        "reason": "frame_unchanged",
+        "mode": "dialog"
+      },
+      {
+        "reason": "capture",
+        "mode": "dialog",
+        "capture_ms": 0.131,
+        "change_detection_ms": 0.716,
+        "capture_deadline_miss_ms": 10.018,
+        "frame_seq": 2767,
+        "capture_epoch": 1,
+        "producer_transient_roi_bytes": 429000
+      },
+      {
+        "reason": "frame_unchanged",
+        "mode": "dialog"
+      },
+      {
+        "reason": "capture",
+        "mode": "dialog",
+        "capture_ms": 0.255,
+        "change_detection_ms": 0.478,
+        "capture_deadline_miss_ms": 9.503,
+        "frame_seq": 2768,
+        "capture_epoch": 1,
+        "producer_transient_roi_bytes": 429000
+      },
+      {
+        "reason": "frame_unchanged",
+        "mode": "dialog"
+      },
+      {
+        "reason": "capture",
+        "mode": "dialog",
+        "capture_ms": 0.107,
+        "change_detection_ms": 0.733,
+        "capture_deadline_miss_ms": 9.815,
+        "frame_seq": 2769,
+        "capture_epoch": 1,
+        "producer_transient_roi_bytes": 429000
+      },
+      {
+        "reason": "frame_unchanged",
+        "mode": "dialog"
+      },
+      {
+        "reason": "capture",
+        "mode": "dialog",
+        "capture_ms": 0.098,
+        "change_detection_ms": 0.43,
+        "capture_deadline_miss_ms": 9.03,
+        "frame_seq": 2770,
+        "capture_epoch": 1,
+        "producer_transient_roi_bytes": 429000
+      },
+      {
+        "reason": "frame_unchanged",
+        "mode": "dialog"
+      },
+      {
+        "reason": "capture",
+        "mode": "dialog",
+        "capture_ms": 0.173,
+        "change_detection_ms": 0.588,
+        "capture_deadline_miss_ms": 9.796,
+        "frame_seq": 2771,
+        "capture_epoch": 1,
+        "producer_transient_roi_bytes": 429000
+      },
+      {
+        "reason": "frame_unchanged",
+        "mode": "dialog"
+      },
+      {
+        "reason": "capture",
+        "mode": "dialog",
+        "capture_ms": 0.129,
+        "change_detection_ms": 0.625,
+        "capture_deadline_miss_ms": 8.668,
+        "frame_seq": 2772,
+        "capture_epoch": 1,
+        "producer_transient_roi_bytes": 429000
+      },
+      {
+        "reason": "frame_unchanged",
+        "mode": "dialog"
+      },
+      {
+        "reason": "capture",
+        "mode": "dialog",
+        "capture_ms": 0.101,
+        "change_detection_ms": 0.478,
+        "capture_deadline_miss_ms": 9.018,
+        "frame_seq": 2773,
+        "capture_epoch": 1,
+        "producer_transient_roi_bytes": 429000
+      },
+      {
+        "reason": "frame_unchanged",
+        "mode": "dialog"
+      },
+      {
+        "reason": "capture",
+        "mode": "dialog",
+        "capture_ms": 0.113,
+        "change_detection_ms": 0.546,
+        "capture_deadline_miss_ms": 10.549,
+        "frame_seq": 2774,
+        "capture_epoch": 1,
+        "producer_transient_roi_bytes": 429000
+      },
+      {
+        "reason": "frame_unchanged",
+        "mode": "dialog"
+      },
+      {
+        "reason": "capture",
+        "mode": "dialog",
+        "capture_ms": 0.112,
+        "change_detection_ms": 0.577,
+        "capture_deadline_miss_ms": 9.674,
+        "frame_seq": 2775,
+        "capture_epoch": 1,
+        "producer_transient_roi_bytes": 429000
+      },
+      {
+        "reason": "frame_unchanged",
+        "mode": "dialog"
+      },
+      {
+        "reason": "capture",
+        "mode": "dialog",
+        "capture_ms": 0.111,
+        "change_detection_ms": 0.519,
+        "capture_deadline_miss_ms": 8.423,
+        "frame_seq": 2776,
+        "capture_epoch": 1,
+        "producer_transient_roi_bytes": 429000
+      },
+      {
+        "reason": "frame_unchanged",
+        "mode": "dialog"
+      },
+      {
+        "reason": "capture",
+        "mode": "dialog",
+        "capture_ms": 0.224,
+        "change_detection_ms": 0.585,
+        "capture_deadline_miss_ms": 9.853,
+        "frame_seq": 2777,
+        "capture_epoch": 1,
+        "producer_transient_roi_bytes": 429000
+      },
+      {
+        "reason": "frame_unchanged",
+        "mode": "dialog"
+      },
+      {
+        "reason": "capture",
+        "mode": "dialog",
+        "capture_ms": 0.795,
+        "change_detection_ms": 1.334,
+        "capture_deadline_miss_ms": 10.456,
+        "frame_seq": 2778,
+        "capture_epoch": 1,
+        "producer_transient_roi_bytes": 429000
+      },
+      {
+        "reason": "frame_unchanged",
+        "mode": "dialog"
+      },
+      {
+        "reason": "capture",
+        "mode": "dialog",
+        "capture_ms": 0.151,
+        "change_detection_ms": 0.79,
+        "capture_deadline_miss_ms": 9.154,
+        "frame_seq": 2779,
+        "capture_epoch": 1,
+        "producer_transient_roi_bytes": 429000
+      },
+      {
+        "reason": "frame_unchanged",
+        "mode": "dialog"
+      },
+      {
+        "reason": "capture",
+        "mode": "dialog",
+        "capture_ms": 0.113,
+        "change_detection_ms": 0.648,
+        "capture_deadline_miss_ms": 8.911,
+        "frame_seq": 2780,
+        "capture_epoch": 1,
+        "producer_transient_roi_bytes": 429000
+      },
+      {
+        "reason": "frame_unchanged",
+        "mode": "dialog"
+      },
+      {
+        "reason": "capture",
+        "mode": "dialog",
+        "capture_ms": 0.112,
+        "change_detection_ms": 0.475,
+        "capture_deadline_miss_ms": 7.203,
+        "frame_seq": 2781,
+        "capture_epoch": 1,
+        "producer_transient_roi_bytes": 429000
+      },
+      {
+        "reason": "frame_unchanged",
+        "mode": "dialog"
+      },
+      {
+        "reason": "capture",
+        "mode": "dialog",
+        "capture_ms": 0.129,
+        "change_detection_ms": 0.58,
+        "capture_deadline_miss_ms": 10.387,
+        "frame_seq": 2782,
+        "capture_epoch": 1,
+        "producer_transient_roi_bytes": 429000
+      },
+      {
+        "reason": "frame_unchanged",
+        "mode": "dialog"
+      },
+      {
+        "reason": "capture",
+        "mode": "dialog",
+        "capture_ms": 0.202,
+        "change_detection_ms": 0.661,
+        "capture_deadline_miss_ms": 9.001,
+        "frame_seq": 2783,
+        "capture_epoch": 1,
+        "producer_transient_roi_bytes": 429000
+      },
+      {
+        "reason": "frame_unchanged",
+        "mode": "dialog"
+      },
+      {
+        "reason": "capture",
+        "mode": "dialog",
+        "capture_ms": 0.173,
+        "change_detection_ms": 0.673,
+        "capture_deadline_miss_ms": 8.487,
+        "frame_seq": 2784,
+        "capture_epoch": 1,
+        "producer_transient_roi_bytes": 429000
+      },
+      {
+        "reason": "frame_unchanged",
+        "mode": "dialog"
+      },
+      {
+        "reason": "capture",
+        "mode": "dialog",
+        "capture_ms": 0.122,
+        "change_detection_ms": 0.708,
+        "capture_deadline_miss_ms": 9.094,
+        "frame_seq": 2785,
+        "capture_epoch": 1,
+        "producer_transient_roi_bytes": 429000
+      },
+      {
+        "reason": "frame_unchanged",
+        "mode": "dialog"
+      },
+      {
+        "reason": "capture",
+        "mode": "dialog",
+        "capture_ms": 0.134,
+        "change_detection_ms": 0.93,
+        "capture_deadline_miss_ms": 9.257,
+        "frame_seq": 2786,
+        "capture_epoch": 1,
+        "producer_transient_roi_bytes": 429000
+      },
+      {
+        "reason": "frame_unchanged",
+        "mode": "dialog"
+      },
+      {
+        "reason": "capture",
+        "mode": "dialog",
+        "capture_ms": 0.123,
+        "change_detection_ms": 0.538,
+        "capture_deadline_miss_ms": 9.103,
+        "frame_seq": 2787,
+        "capture_epoch": 1,
+        "producer_transient_roi_bytes": 429000
+      },
+      {
+        "reason": "frame_unchanged",
+        "mode": "dialog"
+      },
+      {
+        "reason": "capture",
+        "mode": "dialog",
+        "capture_ms": 0.113,
+        "change_detection_ms": 0.65,
+        "capture_deadline_miss_ms": 9.221,
+        "frame_seq": 2788,
+        "capture_epoch": 1,
+        "producer_transient_roi_bytes": 429000
+      },
+      {
+        "reason": "frame_unchanged",
+        "mode": "dialog"
+      },
+      {
+        "reason": "capture",
+        "mode": "dialog",
+        "capture_ms": 0.143,
+        "change_detection_ms": 0.596,
+        "capture_deadline_miss_ms": 9.128,
+        "frame_seq": 2789,
+        "capture_epoch": 1,
+        "producer_transient_roi_bytes": 429000
+      },
+      {
+        "reason": "frame_unchanged",
+        "mode": "dialog"
+      },
+      {
+        "reason": "capture",
+        "mode": "dialog",
+        "capture_ms": 0.151,
+        "change_detection_ms": 0.642,
+        "capture_deadline_miss_ms": 9.279,
+        "frame_seq": 2790,
+        "capture_epoch": 1,
+        "producer_transient_roi_bytes": 429000
+      },
+      {
+        "reason": "frame_unchanged",
+        "mode": "dialog"
+      }
+    ],
+    "record_limit": 128,
+    "timings": {
+      "capture_ms": {
+        "samples": 60,
+        "p50": 0.127,
+        "p95": 0.238,
+        "max": 0.795
+      },
+      "change_detection_ms": {
+        "samples": 60,
+        "p50": 0.596,
+        "p95": 0.793,
+        "max": 1.444
+      },
+      "capture_deadline_miss_ms": {
+        "samples": 58,
+        "p50": 9.221,
+        "p95": 10.549,
+        "max": 11.717
+      },
+      "ocr_ms": {
+        "samples": 4,
+        "p50": 103.774,
+        "p95": 119.426,
+        "max": 119.426
+      },
+      "ocr_queue_wait_ms": {
+        "samples": 4,
+        "p50": 0.114,
+        "p95": 0.141,
+        "max": 0.141
+      },
+      "image_queue_wait_ms": {
+        "samples": 2,
+        "p50": 0.005,
+        "p95": 0.005,
+        "max": 0.006
+      },
+      "stability_wait_ms": {
+        "samples": 2,
+        "p50": 34.05,
+        "p95": 34.05,
+        "max": 113.258
+      },
+      "dispatch_wait_ms": {
+        "samples": 2,
+        "p50": 0.056,
+        "p95": 0.056,
+        "max": 0.068
+      },
+      "translation_queue_ms": {
+        "samples": 2,
+        "p50": 0,
+        "p95": 0,
+        "max": 0
+      },
+      "translation_request_ms": {
+        "samples": 2,
+        "p50": 0,
+        "p95": 0,
+        "max": 0
+      },
+      "postprocess_ms": {
+        "samples": 2,
+        "p50": 0,
+        "p95": 0,
+        "max": 0
+      },
+      "observed_worker_ms": {
+        "samples": 2,
+        "p50": 155.446,
+        "p95": 155.446,
+        "max": 219.339
+      },
+      "overlay_update_ms": {
+        "samples": 2,
+        "p50": 0.263,
+        "p95": 0.263,
+        "max": 0.317
+      },
+      "observed_pipeline_ms": {
+        "samples": 2,
+        "p50": 155.785,
+        "p95": 155.785,
+        "max": 219.644
+      }
+    },
+    "ttft_ms": null,
+    "prefill_ms": null,
+    "decode_ms": null,
+    "text_or_images_retained": false
+  },
+  "phases": {
+    "cold_ui": {
+      "rss_mb": 107.98,
+      "private_mb": 557.58,
+      "gdi": 0,
+      "handles": 443,
+      "cpu_seconds": 0.812
+    },
+    "running": {
+      "app": {
+        "rss_mb": 205.91,
+        "private_mb": 641.11,
+        "gdi": 0,
+        "handles": 566,
+        "cpu_seconds": 35.016
+      },
+      "model": {
+        "pid": 23424,
+        "rss_mb": 1474.32,
+        "private_mb": 2003.95,
+        "gdi": 0,
+        "handles": 245,
+        "cpu_seconds": 3.219,
+        "vram_mb": null,
+        "vram_reason": "Per-process WDDM VRAM not measured."
+      }
+    },
+    "stopped": {
+      "app": {
+        "rss_mb": 205.9,
+        "private_mb": 641.01,
+        "gdi": 0,
+        "handles": 558,
+        "cpu_seconds": 35.016
+      },
+      "model": null,
+      "release_wait_ms": 125.0
+    }
+  },
+  "real_desktop_capture": false,
+  "scope": "Offscreen owned raster fixture: Qt/OCR/local CUDA/monitor, no Win32 desktop capture or GDI lifetime validation. No games or paid cloud soak; app and model process RAM measured separately; per-process VRAM and game frametime are N/A."
+}

@@ -1,0 +1,772 @@
+{
+  "version": "2.0.0a10",
+  "qt_platform": "offscreen",
+  "real_ocr": true,
+  "real_model": true,
+  "real_desktop_capture": false,
+  "semantic_accuracy_scored": false,
+  "single_shot": true,
+  "ocr_threads": 2,
+  "cards": [
+    {
+      "id": "base",
+      "expected_ocr": "Copper Longbow Gain +12% movement speed for 5 seconds.",
+      "capture_calls": 1,
+      "ocr_calls": 1,
+      "results": [
+        {
+          "source": "Copper Longbow Gain +12% movement speed for 5 seconds.",
+          "matches_current_card": true,
+          "displayable": true,
+          "translations": [
+            {
+              "source": "Copper Longbow",
+              "target": "銅 長弓",
+              "provider": "local",
+              "origin": "本機模型",
+              "warning": "",
+              "cache_hit": false,
+              "model_ms": 82.00049999868497,
+              "ocr_confidence": 0.99993,
+              "queue_ms": 0.060699996538460255,
+              "postprocess_ms": 0.12969999806955457,
+              "backend_state": "warm"
+            },
+            {
+              "source": "Gain +12% movement speed for 5 seconds.",
+              "target": "獲得 +12% 移動速度，持續 5 秒。",
+              "provider": "local",
+              "origin": "詞庫／完整規則",
+              "warning": "",
+              "cache_hit": false,
+              "model_ms": 0,
+              "ocr_confidence": 0.9972,
+              "queue_ms": 0.05400000372901559,
+              "postprocess_ms": 0,
+              "backend_state": "none"
+            }
+          ],
+          "overlay": "銅 長弓\n\n獲得 +12% 移動速度，持續 5 秒。",
+          "matches_content": true,
+          "renderable": true,
+          "render_warning": "",
+          "geometry": [
+            20,
+            80,
+            740,
+            560
+          ],
+          "full_qt_latency_ms": 352.73
+        }
+      ],
+      "complete_translation_ms": 352.73,
+      "ocr_exact_observed": true,
+      "geometry_exact": true,
+      "single_capture_ocr": true
+    },
+    {
+      "id": "dim_digit_change",
+      "expected_ocr": "Copper Longbow Gain +18% movement speed for 5 seconds.",
+      "capture_calls": 1,
+      "ocr_calls": 1,
+      "results": [
+        {
+          "source": "Copper Longbow Gain +18% movement speed for 5 seconds.",
+          "matches_current_card": true,
+          "displayable": true,
+          "translations": [
+            {
+              "source": "Copper Longbow",
+              "target": "銅 長弓",
+              "provider": "local",
+              "origin": "本機模型",
+              "warning": "",
+              "cache_hit": true,
+              "model_ms": 0,
+              "ocr_confidence": 0.99993,
+              "queue_ms": 0,
+              "postprocess_ms": 0,
+              "backend_state": "cache"
+            },
+            {
+              "source": "Gain +18% movement speed for 5 seconds.",
+              "target": "獲得 +18% 移動速度，持續 5 秒。",
+              "provider": "local",
+              "origin": "詞庫／完整規則",
+              "warning": "",
+              "cache_hit": false,
+              "model_ms": 0,
+              "ocr_confidence": 0.99749,
+              "queue_ms": 0.06890000076964498,
+              "postprocess_ms": 0,
+              "backend_state": "none"
+            }
+          ],
+          "overlay": "銅 長弓\n\n獲得 +18% 移動速度，持續 5 秒。",
+          "matches_content": true,
+          "renderable": true,
+          "render_warning": "",
+          "geometry": [
+            20,
+            80,
+            740,
+            560
+          ],
+          "full_qt_latency_ms": 216.33
+        }
+      ],
+      "complete_translation_ms": 216.33,
+      "ocr_exact_observed": true,
+      "geometry_exact": true,
+      "single_capture_ocr": true
+    },
+    {
+      "id": "conditional",
+      "expected_ocr": "Lunar Shield If health is below 30%, gain +12% movement speed for 5 seconds. Otherwise, gain +3% fire resistance.",
+      "capture_calls": 1,
+      "ocr_calls": 1,
+      "results": [
+        {
+          "source": "Lunar Shield If health is below 30%, gain +12% movement speed for 5 seconds. Otherwise, gain +3% fire resistance.",
+          "matches_current_card": true,
+          "displayable": true,
+          "translations": [
+            {
+              "source": "Lunar Shield",
+              "target": "月亮 盾牌",
+              "provider": "local",
+              "origin": "本機模型",
+              "warning": "",
+              "cache_hit": false,
+              "model_ms": 56.095899984939024,
+              "ocr_confidence": 0.9997,
+              "queue_ms": 0.05679999594576657,
+              "postprocess_ms": 0.1343000039923936,
+              "backend_state": "warm"
+            },
+            {
+              "source": "If health is below 30%,\ngain +12% movement speed for 5 seconds.\nOtherwise, gain +3% fire resistance.",
+              "target": "若生命值低於 30%，獲得 +12% 移動速度，持續 5 秒；否則獲得 +3% 火焰抗性。",
+              "provider": "local",
+              "origin": "詞庫／完整規則",
+              "warning": "",
+              "cache_hit": false,
+              "model_ms": 0,
+              "ocr_confidence": 0.99937,
+              "queue_ms": 0.08930001058615744,
+              "postprocess_ms": 0,
+              "backend_state": "none"
+            }
+          ],
+          "overlay": "月亮 盾牌\n\n若生命值低於 30%，獲得 +12% 移動速度，持續 5 秒；否則獲得 +3% 火焰抗性。",
+          "matches_content": true,
+          "renderable": true,
+          "render_warning": "",
+          "geometry": [
+            20,
+            80,
+            740,
+            560
+          ],
+          "full_qt_latency_ms": 417.26
+        }
+      ],
+      "complete_translation_ms": 417.26,
+      "ocr_exact_observed": true,
+      "geometry_exact": true,
+      "single_capture_ocr": true
+    },
+    {
+      "id": "prohibition",
+      "expected_ocr": "Storm Boots Gain +15% movement speed for 8 seconds. Do not equip this item before level 20.",
+      "capture_calls": 1,
+      "ocr_calls": 1,
+      "results": [
+        {
+          "source": "Storm Boots Gain +15% movement speed for 8 seconds. Do not equip this item before level 20.",
+          "matches_current_card": true,
+          "displayable": true,
+          "translations": [
+            {
+              "source": "Storm Boots",
+              "target": "暴風 靴子",
+              "provider": "local",
+              "origin": "本機模型",
+              "warning": "",
+              "cache_hit": false,
+              "model_ms": 60.42029999662191,
+              "ocr_confidence": 0.99959,
+              "queue_ms": 0.06269998266361654,
+              "postprocess_ms": 0.12769998284056783,
+              "backend_state": "warm"
+            },
+            {
+              "source": "Gain +15% movement speed for 8 seconds.",
+              "target": "獲得 +15% 移動速度，持續 8 秒。",
+              "provider": "local",
+              "origin": "詞庫／完整規則",
+              "warning": "",
+              "cache_hit": false,
+              "model_ms": 0,
+              "ocr_confidence": 0.99042,
+              "queue_ms": 0.051000009989365935,
+              "postprocess_ms": 0,
+              "backend_state": "none"
+            },
+            {
+              "source": "Do not equip this item before level 20.",
+              "target": "不裝備此物品至達級別20前。",
+              "provider": "local",
+              "origin": "本機模型",
+              "warning": "",
+              "cache_hit": false,
+              "model_ms": 90.18249998916872,
+              "ocr_confidence": 0.99834,
+              "queue_ms": 0.04499999340623617,
+              "postprocess_ms": 0.41489998693577945,
+              "backend_state": "warm"
+            }
+          ],
+          "overlay": "暴風 靴子\n\n獲得 +15% 移動速度，持續 8 秒。\n\n不裝備此物品至達級別20前。",
+          "matches_content": true,
+          "renderable": true,
+          "render_warning": "",
+          "geometry": [
+            20,
+            80,
+            740,
+            560
+          ],
+          "full_qt_latency_ms": 438.46
+        }
+      ],
+      "complete_translation_ms": 438.46,
+      "ocr_exact_observed": true,
+      "geometry_exact": true,
+      "single_capture_ocr": true
+    },
+    {
+      "id": "stats",
+      "expected_ocr": "Glass Dagger Damage: 125 Critical Chance: 18% Durability: 130 / 130",
+      "capture_calls": 1,
+      "ocr_calls": 1,
+      "results": [
+        {
+          "source": "Glass Dagger Damage: 125 Critical Chance: 18% Durability: 130/ 130",
+          "matches_current_card": false,
+          "displayable": true,
+          "translations": [
+            {
+              "source": "Glass Dagger",
+              "target": "玻璃 匕首",
+              "provider": "local",
+              "origin": "本機模型",
+              "warning": "",
+              "cache_hit": false,
+              "model_ms": 52.4132999998983,
+              "ocr_confidence": 0.98506,
+              "queue_ms": 0.05599998985417187,
+              "postprocess_ms": 0.2151999797206372,
+              "backend_state": "warm"
+            },
+            {
+              "source": "Damage: 125",
+              "target": "傷害：125",
+              "provider": "local",
+              "origin": "詞庫／完整規則",
+              "warning": "",
+              "cache_hit": false,
+              "model_ms": 0,
+              "ocr_confidence": 0.99765,
+              "queue_ms": 0.04839999019168317,
+              "postprocess_ms": 0,
+              "backend_state": "none"
+            },
+            {
+              "source": "Critical Chance: 18%",
+              "target": "暴擊率：18%",
+              "provider": "local",
+              "origin": "詞庫／完整規則",
+              "warning": "",
+              "cache_hit": false,
+              "model_ms": 0,
+              "ocr_confidence": 0.9912,
+              "queue_ms": 0.03749999450519681,
+              "postprocess_ms": 0,
+              "backend_state": "none"
+            },
+            {
+              "source": "Durability: 130/ 130",
+              "target": "耐久度：130/ 130",
+              "provider": "local",
+              "origin": "詞庫／完整規則",
+              "warning": "",
+              "cache_hit": false,
+              "model_ms": 0,
+              "ocr_confidence": 0.95997,
+              "queue_ms": 0.0501000031363219,
+              "postprocess_ms": 0,
+              "backend_state": "none"
+            }
+          ],
+          "overlay": "玻璃 匕首\n\n傷害：125\n\n暴擊率：18%\n\n耐久度：130/ 130",
+          "matches_content": true,
+          "renderable": true,
+          "render_warning": "",
+          "geometry": [
+            20,
+            80,
+            740,
+            560
+          ],
+          "full_qt_latency_ms": 294.8
+        }
+      ],
+      "complete_translation_ms": 294.8,
+      "ocr_exact_observed": false,
+      "geometry_exact": true,
+      "single_capture_ocr": true
+    },
+    {
+      "id": "unless",
+      "expected_ocr": "Sealed Ring Do not activate the shield unless the outer circle turns violet.",
+      "capture_calls": 1,
+      "ocr_calls": 1,
+      "results": [
+        {
+          "source": "Sealed Ring Do not activate the shield unless the outer circle turns violet.",
+          "matches_current_card": true,
+          "displayable": true,
+          "translations": [
+            {
+              "source": "Sealed Ring",
+              "target": "封印 戒指",
+              "provider": "local",
+              "origin": "本機模型",
+              "warning": "",
+              "cache_hit": false,
+              "model_ms": 55.92640000395477,
+              "ocr_confidence": 0.99756,
+              "queue_ms": 0.06429999484680593,
+              "postprocess_ms": 0.18679999629966915,
+              "backend_state": "warm"
+            },
+            {
+              "source": "Do not activate the shield unless the outer circle turns violet.",
+              "target": "不啟動 盾牌，除非外圈變為紫色。",
+              "provider": "local",
+              "origin": "本機模型",
+              "warning": "",
+              "cache_hit": false,
+              "model_ms": 110.6597000034526,
+              "ocr_confidence": 0.99339,
+              "queue_ms": 0.04529999569058418,
+              "postprocess_ms": 0.1568000006955117,
+              "backend_state": "warm"
+            }
+          ],
+          "overlay": "封印 戒指\n\n不啟動 盾牌，除非外圈變為紫色。",
+          "matches_content": true,
+          "renderable": true,
+          "render_warning": "",
+          "geometry": [
+            20,
+            80,
+            740,
+            560
+          ],
+          "full_qt_latency_ms": 427.95
+        }
+      ],
+      "complete_translation_ms": 427.95,
+      "ocr_exact_observed": true,
+      "geometry_exact": true,
+      "single_capture_ocr": true
+    },
+    {
+      "id": "long_effect",
+      "expected_ocr": "Guardian Pendant When you block an attack while health is below 25%, restore 10% health and gain +15% armor for 8 seconds. Otherwise, gain +5% movement speed for 3 seconds. This effect cannot trigger more than once every 30 seconds.",
+      "capture_calls": 1,
+      "ocr_calls": 1,
+      "results": [
+        {
+          "source": "Guardian Pendant When you block an attack while health is below 25%, restore 10% health and gain +15% armor for 8 seconds. Otherwise, gain +5% movement speed for 3 seconds. This effect cannot trigger more than once every 30 seconds.",
+          "matches_current_card": true,
+          "displayable": true,
+          "translations": [
+            {
+              "source": "Guardian Pendant",
+              "target": "守護者 墜飾",
+              "provider": "local",
+              "origin": "本機模型",
+              "warning": "",
+              "cache_hit": false,
+              "model_ms": 89.45160001167096,
+              "ocr_confidence": 0.98222,
+              "queue_ms": 0.08189998334273696,
+              "postprocess_ms": 0.11969998013228178,
+              "backend_state": "warm"
+            },
+            {
+              "source": "When you block an attack while health is below 25%,\nrestore 10% health and gain +15% armor for 8 seconds.\nOtherwise, gain +5% movement speed for 3 seconds.",
+              "target": "當你而在生命值低於25%時擋住攻擊，恢復10%的生命值並獲得+15%的防禦值持續8秒。否則，獲得+5%的移動速度持續3秒。",
+              "provider": "local",
+              "origin": "本機模型",
+              "warning": "",
+              "cache_hit": false,
+              "model_ms": 259.753999998793,
+              "ocr_confidence": 0.99344,
+              "queue_ms": 0.06790002225898206,
+              "postprocess_ms": 0.5056999798398465,
+              "backend_state": "warm"
+            },
+            {
+              "source": "This effect cannot trigger more than once every 30 seconds.",
+              "target": "此效果無法在30秒內觸發多次。",
+              "provider": "local",
+              "origin": "本機模型",
+              "warning": "",
+              "cache_hit": false,
+              "model_ms": 79.12629999918863,
+              "ocr_confidence": 0.99047,
+              "queue_ms": 0.04530002479441464,
+              "postprocess_ms": 0.21150000975467265,
+              "backend_state": "warm"
+            }
+          ],
+          "overlay": "守護者 墜飾\n\n當你而在生命值低於25%時擋住攻擊，恢復10%的生命值並獲得+15%的防禦值持續8秒。否則，獲得+5%的移動速度持續3秒。\n\n此效果無法在30秒內觸發多次。",
+          "matches_content": true,
+          "renderable": true,
+          "render_warning": "",
+          "geometry": [
+            20,
+            80,
+            740,
+            560
+          ],
+          "full_qt_latency_ms": 980.08
+        }
+      ],
+      "complete_translation_ms": 980.08,
+      "ocr_exact_observed": true,
+      "geometry_exact": true,
+      "single_capture_ocr": true
+    },
+    {
+      "id": "description",
+      "expected_ocr": "Old Lantern A dented lantern carried by the missing guard.",
+      "capture_calls": 1,
+      "ocr_calls": 1,
+      "results": [
+        {
+          "source": "Old Lantern A dented lantern carried by the missing guard.",
+          "matches_current_card": true,
+          "displayable": true,
+          "translations": [
+            {
+              "source": "Old Lantern",
+              "target": "舊 提燈",
+              "provider": "local",
+              "origin": "本機模型",
+              "warning": "",
+              "cache_hit": false,
+              "model_ms": 73.5768000013195,
+              "ocr_confidence": 0.99904,
+              "queue_ms": 0.06290001329034567,
+              "postprocess_ms": 0.152900000102818,
+              "backend_state": "warm"
+            },
+            {
+              "source": "A dented lantern carried by the missing guard.",
+              "target": "一具凹陷的提燈被遺失的守衛所攜帶。",
+              "provider": "local",
+              "origin": "本機模型",
+              "warning": "",
+              "cache_hit": false,
+              "model_ms": 104.1966000047978,
+              "ocr_confidence": 0.9886,
+              "queue_ms": 0.042899977415800095,
+              "postprocess_ms": 0.19519997294992208,
+              "backend_state": "warm"
+            }
+          ],
+          "overlay": "舊 提燈\n\n一具凹陷的提燈被遺失的守衛所攜帶。",
+          "matches_content": true,
+          "renderable": true,
+          "render_warning": "",
+          "geometry": [
+            20,
+            80,
+            740,
+            560
+          ],
+          "full_qt_latency_ms": 405.97
+        }
+      ],
+      "complete_translation_ms": 405.97,
+      "ocr_exact_observed": true,
+      "geometry_exact": true,
+      "single_capture_ocr": true
+    }
+  ],
+  "application_sha256": {
+    "app.py": "891997819b10bb12d431986b25246913339e70cd69014fe1a8136e13d1bb0f47",
+    "assets.py": "bc9da3530b88152bb8d172741e5616510032ea7a6e2649f39a1a752dee88f42e",
+    "asset_ui.py": "c98c314c298318e801ffc016ff337c8521bac13367d0ebbe230f4f664e69719a",
+    "backends.py": "67c51637c086849e3bd384c9bd76db1cbd7a73e211727be59e3579c3ecc0c320",
+    "capture.py": "aa2ba05263d1bdc42938f0ccd9baedd7ac678c49023b0bbf13f5078fd55d5bec",
+    "controller.py": "ee2b7c665ded4e9c2b5e5ae59852a82da475b13cda2bb3f8641e4d066395b694",
+    "engine.py": "8e9f85ae525470ef578def13413be8daa59daffd9d287c0e0eeb6240630c68dd",
+    "equipment_fast_rules.py": "03d0eb252824651341d11470a8b6420437d0cf768e865ae4f17ab294cc56b901",
+    "equipment_layout.py": "f256ac0425d5c68f0416d732c09e192b804bba1c3dbbd84758da131e92d0e90e",
+    "equipment_lexicon.py": "aa12f6901f01f7fda1be6fc766f05e3e6b7457cf78d00a5ca5f7312a001b55a5",
+    "equipment_overlay.py": "0264fc54fa94236b7f04786e7a440de0c3be1d0aa6ae6a30b04ba146fb4fa1b8",
+    "evidence.py": "ac45a4f9ded83656246120a1982cf430542bac6c3b12370bd80bc4bc5df9dd1e",
+    "glossary.py": "1887b6df3eb833a5d510fcd61aad99f631b8f511d18d46f68391faf03b0c7a4c",
+    "language.py": "1fb8b6be99bc58c483b5cec8095088cc28e98081c25b54c990ef7896bcb0f2a3",
+    "layout.py": "ee6282a614b7af1842df150b17ef975e8ace26441b772de75ee9e16f44b21b9c",
+    "monitor.py": "3491720c53554940a587a481e598bb46e18abf0b0f460039c770693e245cf005",
+    "ocr.py": "a8b5b861135ee53fddc34ac8ac99de549fcf2f32c62876b02445d088abac68c3",
+    "pipeline.py": "36469e988e873af9cd54c2c9af107e15f28ad35d75460b717bf91c2b6624b1c6",
+    "review_ui.py": "e13d0894d110c43f8f7b084fd4077cc55d5f20f0ec08e434cbb953625c56b50a",
+    "scheduler.py": "4cce01334a31035aaadd0273bee225e6698945293f044fcc02528a9c60aa0376",
+    "security.py": "191e1df1e890fac6977421935f3876c6220ef68886927bc9e43915cb2416e459",
+    "selftest.py": "8880d59df7a568ba8e231b7385b3a09278b59a145fb541ee476386bb65ac5b24",
+    "semantic_rules.py": "198eacb9bd04c242ca6c3937225b34b3b4ae55e6b49080be1bde7eb5bc013d39",
+    "settings.py": "9aaa4342b5f92d91f73e33756b97190b5ceaf80bba4194107232eca0228cf97f",
+    "soaktest.py": "db0cb127b52f3742f11e958cdb8b01d5b362f02cb990261eb4c1c3c718ff2289",
+    "storage.py": "76f4f9c4ffb39a387f2b32756ddfbfe7a2421cf1068ebd94e25cbb8d4db513de",
+    "subtitle_layout.py": "691b94f9020f082eb0cec92fae0132de6b0becfe0c95cb45989490614651ae4b",
+    "types.py": "3f329b5926447ba2b659c9f8e1dbea1344873d57f4cdc5bbdae267ddcc756f75",
+    "validation.py": "a166f5e7304978d9403357f046088b4b1951a8ee15fa7fe12b65de0132d9776e",
+    "widgets.py": "3ad97215a30cf248f051527ceea93e48a0cd0037489a9caf040d47bda26ddfbd",
+    "window.py": "a176bd46671a3e6e85f13af8a4ae33edcfea279811ff30c6e6d28010fba6b49c",
+    "windows.py": "c5ea7629218b9252dd87add386e5455c511f9bdca29bd506a31677b7476255e9",
+    "__init__.py": "149d68026c6f3499ece5d1c9a8166390fdd1582de0c6d214aa62e56fac2f634d"
+  },
+  "warmup_warning": "",
+  "no_equipment_monitors": true,
+  "metrics": {
+    "counts": {
+      "pipeline_completed": 8,
+      "ui_applied": 8
+    },
+    "recent": [
+      {
+        "reason": "pipeline_completed",
+        "mode": "equipment",
+        "image_queue_wait_ms": 0.006,
+        "capture_ms": 0.299,
+        "ocr_ms": 172.335,
+        "translation_queue_ms": 0.115,
+        "translation_request_ms": 82.0,
+        "postprocess_ms": 0.13,
+        "observed_worker_ms": 318.571
+      },
+      {
+        "reason": "ui_applied",
+        "mode": "equipment",
+        "overlay_update_ms": 3.143,
+        "observed_pipeline_ms": 323.016
+      },
+      {
+        "reason": "pipeline_completed",
+        "mode": "equipment",
+        "image_queue_wait_ms": 0.006,
+        "capture_ms": 0.305,
+        "ocr_ms": 191.41,
+        "translation_queue_ms": 0.069,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0,
+        "observed_worker_ms": 208.099
+      },
+      {
+        "reason": "ui_applied",
+        "mode": "equipment",
+        "overlay_update_ms": 1.031,
+        "observed_pipeline_ms": 208.749
+      },
+      {
+        "reason": "pipeline_completed",
+        "mode": "equipment",
+        "image_queue_wait_ms": 0.005,
+        "capture_ms": 0.402,
+        "ocr_ms": 345.715,
+        "translation_queue_ms": 0.146,
+        "translation_request_ms": 56.096,
+        "postprocess_ms": 0.134,
+        "observed_worker_ms": 410.568
+      },
+      {
+        "reason": "ui_applied",
+        "mode": "equipment",
+        "overlay_update_ms": 2.312,
+        "observed_pipeline_ms": 414.294
+      },
+      {
+        "reason": "pipeline_completed",
+        "mode": "equipment",
+        "image_queue_wait_ms": 0.006,
+        "capture_ms": 0.287,
+        "ocr_ms": 272.038,
+        "translation_queue_ms": 0.159,
+        "translation_request_ms": 150.603,
+        "postprocess_ms": 0.543,
+        "observed_worker_ms": 432.263
+      },
+      {
+        "reason": "ui_applied",
+        "mode": "equipment",
+        "overlay_update_ms": 3.154,
+        "observed_pipeline_ms": 434.147
+      },
+      {
+        "reason": "pipeline_completed",
+        "mode": "equipment",
+        "image_queue_wait_ms": 0.005,
+        "capture_ms": 0.336,
+        "ocr_ms": 221.96,
+        "translation_queue_ms": 0.192,
+        "translation_request_ms": 52.413,
+        "postprocess_ms": 0.215,
+        "observed_worker_ms": 285.114
+      },
+      {
+        "reason": "ui_applied",
+        "mode": "equipment",
+        "overlay_update_ms": 2.405,
+        "observed_pipeline_ms": 290.771
+      },
+      {
+        "reason": "pipeline_completed",
+        "mode": "equipment",
+        "image_queue_wait_ms": 0.009,
+        "capture_ms": 0.364,
+        "ocr_ms": 246.907,
+        "translation_queue_ms": 0.11,
+        "translation_request_ms": 166.586,
+        "postprocess_ms": 0.344,
+        "observed_worker_ms": 423.152
+      },
+      {
+        "reason": "ui_applied",
+        "mode": "equipment",
+        "overlay_update_ms": 1.778,
+        "observed_pipeline_ms": 425.302
+      },
+      {
+        "reason": "pipeline_completed",
+        "mode": "equipment",
+        "image_queue_wait_ms": 0.006,
+        "capture_ms": 0.297,
+        "ocr_ms": 526.174,
+        "translation_queue_ms": 0.195,
+        "translation_request_ms": 428.332,
+        "postprocess_ms": 0.837,
+        "observed_worker_ms": 970.809
+      },
+      {
+        "reason": "ui_applied",
+        "mode": "equipment",
+        "overlay_update_ms": 2.986,
+        "observed_pipeline_ms": 975.412
+      },
+      {
+        "reason": "pipeline_completed",
+        "mode": "equipment",
+        "image_queue_wait_ms": 0.006,
+        "capture_ms": 0.329,
+        "ocr_ms": 213.748,
+        "translation_queue_ms": 0.106,
+        "translation_request_ms": 177.773,
+        "postprocess_ms": 0.348,
+        "observed_worker_ms": 401.331
+      },
+      {
+        "reason": "ui_applied",
+        "mode": "equipment",
+        "overlay_update_ms": 2.154,
+        "observed_pipeline_ms": 402.568
+      }
+    ],
+    "record_limit": 128,
+    "timings": {
+      "image_queue_wait_ms": {
+        "samples": 8,
+        "p50": 0.006,
+        "p95": 0.006,
+        "max": 0.009
+      },
+      "capture_ms": {
+        "samples": 8,
+        "p50": 0.305,
+        "p95": 0.364,
+        "max": 0.402
+      },
+      "ocr_ms": {
+        "samples": 8,
+        "p50": 221.96,
+        "p95": 345.715,
+        "max": 526.174
+      },
+      "translation_queue_ms": {
+        "samples": 8,
+        "p50": 0.115,
+        "p95": 0.192,
+        "max": 0.195
+      },
+      "translation_request_ms": {
+        "samples": 8,
+        "p50": 82.0,
+        "p95": 177.773,
+        "max": 428.332
+      },
+      "postprocess_ms": {
+        "samples": 8,
+        "p50": 0.215,
+        "p95": 0.543,
+        "max": 0.837
+      },
+      "observed_worker_ms": {
+        "samples": 8,
+        "p50": 401.331,
+        "p95": 432.263,
+        "max": 970.809
+      },
+      "overlay_update_ms": {
+        "samples": 8,
+        "p50": 2.312,
+        "p95": 3.143,
+        "max": 3.154
+      },
+      "observed_pipeline_ms": {
+        "samples": 8,
+        "p50": 402.568,
+        "p95": 434.147,
+        "max": 975.412
+      }
+    },
+    "ttft_ms": null,
+    "prefill_ms": null,
+    "decode_ms": null,
+    "text_or_images_retained": false
+  },
+  "stop_hid_overlay": true,
+  "stop_released_backdrop": true,
+  "completed": true,
+  "guards_hide_incomplete_cards": true,
+  "own_model_stopped": true,
+  "workers_stopped": true,
+  "summary": {
+    "cards": 8,
+    "ocr_exact_observed": 7,
+    "content_match_observed": 8,
+    "complete_usable_cards": 8,
+    "single_capture_ocr": 8,
+    "geometry_exact": 8,
+    "mean_complete_ms": 441.7,
+    "maximum_complete_ms": 980.08,
+    "within_700ms": 7
+  },
+  "application_source_unchanged": true
+}

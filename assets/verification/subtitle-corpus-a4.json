@@ -1,0 +1,5618 @@
+[
+  {
+    "cue_id": 1,
+    "timecode": "00:02:19,451 --> 00:02:22,715",
+    "original": "They ought to make the day the time changes the first day of summer.",
+    "text": "They ought to make the day the time changes the first day of summer."
+  },
+  {
+    "cue_id": 2,
+    "timecode": "00:02:22,800 --> 00:02:24,055",
+    "original": "What?",
+    "text": "What?"
+  },
+  {
+    "cue_id": 3,
+    "timecode": "00:02:24,223 --> 00:02:26,316",
+    "original": "Well, it's eight o'clock and it's still light.",
+    "text": "Well, it's eight o'clock and it's still light."
+  },
+  {
+    "cue_id": 4,
+    "timecode": "00:02:26,441 --> 00:02:29,162",
+    "original": "A lot of good\nthe extra daylight does us.",
+    "text": "A lot of good the extra daylight does us."
+  },
+  {
+    "cue_id": 5,
+    "timecode": "00:02:29,204 --> 00:02:30,920",
+    "original": "Now we've still got a three-hour drive back.",
+    "text": "Now we've still got a three-hour drive back."
+  },
+  {
+    "cue_id": 6,
+    "timecode": "00:02:31,129 --> 00:02:32,930",
+    "original": "We're not going to be home until after midnight.",
+    "text": "We're not going to be home until after midnight."
+  },
+  {
+    "cue_id": 7,
+    "timecode": "00:02:32,971 --> 00:02:35,692",
+    "original": "Well, if it really bugged you, Johnny, you wouldn't do it.",
+    "text": "Well, if it really bugged you, Johnny, you wouldn't do it."
+  },
+  {
+    "cue_id": 8,
+    "timecode": "00:02:35,818 --> 00:02:38,581",
+    "original": "You think I wanna blow Sunday on a scene like this?",
+    "text": "You think I wanna blow Sunday on a scene like this?"
+  },
+  {
+    "cue_id": 9,
+    "timecode": "00:02:38,665 --> 00:02:40,758",
+    "original": "You know, I figure we're either gonna have to move mother out here,",
+    "text": "You know, I figure we're either gonna have to move mother out here,"
+  },
+  {
+    "cue_id": 10,
+    "timecode": "00:02:40,883 --> 00:02:43,395",
+    "original": "or move the grave into Pittsburgh.",
+    "text": "or move the grave into Pittsburgh."
+  },
+  {
+    "cue_id": 11,
+    "timecode": "00:02:43,479 --> 00:02:45,488",
+    "original": "She can't make a trip like this.",
+    "text": "She can't make a trip like this."
+  },
+  {
+    "cue_id": 12,
+    "timecode": "00:02:45,572 --> 00:02:47,748",
+    "original": "I don't know that she can't.",
+    "text": "I don't know that she can't."
+  },
+  {
+    "cue_id": 13,
+    "timecode": "00:02:48,041 --> 00:02:51,809",
+    "original": "- Is there any candy left? - No.",
+    "text": "- Is there any candy left? - No."
+  },
+  {
+    "cue_id": 14,
+    "timecode": "00:02:52,185 --> 00:02:54,571",
+    "original": "Look at this thing. \"We still remember. \"",
+    "text": "Look at this thing. \"We still remember. \""
+  },
+  {
+    "cue_id": 15,
+    "timecode": "00:02:54,697 --> 00:02:57,167",
+    "original": "I don't. You know, I don't even remember what the man looks like.",
+    "text": "I don't. You know, I don't even remember what the man looks like."
+  },
+  {
+    "cue_id": 16,
+    "timecode": "00:02:57,292 --> 00:02:58,967",
+    "original": "Johnny, it takes you five minutes.",
+    "text": "Johnny, it takes you five minutes."
+  },
+  {
+    "cue_id": 17,
+    "timecode": "00:02:59,092 --> 00:03:04,073",
+    "original": "5 minutes to put the wreath on the grave and 6 hours to drive back and forth.",
+    "text": "5 minutes to put the wreath on the grave and 6 hours to drive back and forth."
+  },
+  {
+    "cue_id": 18,
+    "timecode": "00:03:04,115 --> 00:03:06,376",
+    "original": "Mother wants to remember, so we trot 200 miles into the country",
+    "text": "Mother wants to remember, so we trot 200 miles into the country"
+  },
+  {
+    "cue_id": 19,
+    "timecode": "00:03:06,459 --> 00:03:08,469",
+    "original": "and she stays at home.",
+    "text": "and she stays at home."
+  },
+  {
+    "cue_id": 20,
+    "timecode": "00:03:08,636 --> 00:03:10,436",
+    "original": "Well, we're here, John, all right?",
+    "text": "Well, we're here, John, all right?"
+  },
+  {
+    "cue_id": 21,
+    "timecode": "00:03:17,845 --> 00:03:20,650",
+    "original": "Radio: Testing... back on... Ah, ladies and... We're coming back",
+    "text": "Radio: Testing... back on... Ah, ladies and... We're coming back"
+  },
+  {
+    "cue_id": 22,
+    "timecode": "00:03:20,776 --> 00:03:23,162",
+    "original": "on the air after an interruption due to technical problem...",
+    "text": "on the air after an interruption due to technical problem..."
+  },
+  {
+    "cue_id": 23,
+    "timecode": "00:03:35,594 --> 00:03:38,692",
+    "original": "There's nothing wrong with the radio. Must've been the station.",
+    "text": "There's nothing wrong with the radio. Must've been the station."
+  },
+  {
+    "cue_id": 24,
+    "timecode": "00:03:38,817 --> 00:03:41,036",
+    "original": "Which row is it in?",
+    "text": "Which row is it in?"
+  },
+  {
+    "cue_id": 25,
+    "timecode": "00:04:01,338 --> 00:04:03,347",
+    "original": "There's no one around.",
+    "text": "There's no one around."
+  },
+  {
+    "cue_id": 26,
+    "timecode": "00:04:03,598 --> 00:04:06,235",
+    "original": "Well, it's late. If you'd gotten up earlier...",
+    "text": "Well, it's late. If you'd gotten up earlier..."
+  },
+  {
+    "cue_id": 27,
+    "timecode": "00:04:06,277 --> 00:04:09,165",
+    "original": "Oh, look, I already lost an hour's sleep in the time change.",
+    "text": "Oh, look, I already lost an hour's sleep in the time change."
+  },
+  {
+    "cue_id": 28,
+    "timecode": "00:04:09,249 --> 00:04:12,305",
+    "original": "I think you complain just to hear yourself talk.",
+    "text": "I think you complain just to hear yourself talk."
+  },
+  {
+    "cue_id": 29,
+    "timecode": "00:04:12,340 --> 00:04:14,022",
+    "original": "There it is.",
+    "text": "There it is."
+  },
+  {
+    "cue_id": 30,
+    "timecode": "00:04:29,719 --> 00:04:32,607",
+    "original": "I wonder what happened to the one from last year.",
+    "text": "I wonder what happened to the one from last year."
+  },
+  {
+    "cue_id": 31,
+    "timecode": "00:04:33,025 --> 00:04:35,997",
+    "original": "Each year we spend good money on these things.",
+    "text": "Each year we spend good money on these things."
+  },
+  {
+    "cue_id": 32,
+    "timecode": "00:04:36,081 --> 00:04:38,677",
+    "original": "We come out here, and the one from last year is gone.",
+    "text": "We come out here, and the one from last year is gone."
+  },
+  {
+    "cue_id": 33,
+    "timecode": "00:04:38,761 --> 00:04:40,644",
+    "original": "Well, the flowers die,",
+    "text": "Well, the flowers die,"
+  },
+  {
+    "cue_id": 34,
+    "timecode": "00:04:40,770 --> 00:04:43,449",
+    "original": "And the caretaker or somebody takes them away.",
+    "text": "And the caretaker or somebody takes them away."
+  },
+  {
+    "cue_id": 35,
+    "timecode": "00:04:43,951 --> 00:04:47,006",
+    "original": "Yeah, a little spit and polish,",
+    "text": "Yeah, a little spit and polish,"
+  },
+  {
+    "cue_id": 36,
+    "timecode": "00:04:47,090 --> 00:04:48,304",
+    "original": "he can clean this up sell it next year.",
+    "text": "he can clean this up sell it next year."
+  },
+  {
+    "cue_id": 37,
+    "timecode": "00:04:49,016 --> 00:04:51,611",
+    "original": "Wonder how many times we bought the same one?",
+    "text": "Wonder how many times we bought the same one?"
+  },
+  {
+    "cue_id": 38,
+    "timecode": "00:05:08,899 --> 00:05:11,704",
+    "original": "Hey, come on, Barb, church was this morning, huh?",
+    "text": "Hey, come on, Barb, church was this morning, huh?"
+  },
+  {
+    "cue_id": 39,
+    "timecode": "00:05:30,625 --> 00:05:34,978",
+    "original": "Hey, I mean, praying's for church, huh? Come on.",
+    "text": "Hey, I mean, praying's for church, huh? Come on."
+  },
+  {
+    "cue_id": 40,
+    "timecode": "00:05:35,229 --> 00:05:38,034",
+    "original": "I haven't seen you in church lately.",
+    "text": "I haven't seen you in church lately."
+  },
+  {
+    "cue_id": 41,
+    "timecode": "00:05:39,959 --> 00:05:42,178",
+    "original": "Well, there's not much sense in my going to church.",
+    "text": "Well, there's not much sense in my going to church."
+  },
+  {
+    "cue_id": 42,
+    "timecode": "00:05:42,889 --> 00:05:46,448",
+    "original": "Do you remember one time when we were small, we were out here?",
+    "text": "Do you remember one time when we were small, we were out here?"
+  },
+  {
+    "cue_id": 43,
+    "timecode": "00:05:46,573 --> 00:05:48,457",
+    "original": "It was from right over there.",
+    "text": "It was from right over there."
+  },
+  {
+    "cue_id": 44,
+    "timecode": "00:05:48,582 --> 00:05:50,466",
+    "original": "I jumped out at you from behind the tree",
+    "text": "I jumped out at you from behind the tree"
+  },
+  {
+    "cue_id": 45,
+    "timecode": "00:05:50,550 --> 00:05:53,229",
+    "original": "And Grandpa got all excited,\nand he shook his fist at me, and he said,",
+    "text": "And Grandpa got all excited, and he shook his fist at me, and he said,"
+  },
+  {
+    "cue_id": 46,
+    "timecode": "00:05:53,313 --> 00:05:55,615",
+    "original": "\"Boy, you'll be damned to hell!\"",
+    "text": "\"Boy, you'll be damned to hell!\""
+  },
+  {
+    "cue_id": 47,
+    "timecode": "00:05:56,159 --> 00:05:58,461",
+    "original": "[chuckles]\nRemember that? Right over there.",
+    "text": "[chuckles] Remember that? Right over there."
+  },
+  {
+    "cue_id": 48,
+    "timecode": "00:05:59,090 --> 00:06:00,303",
+    "original": "Boy, you used to really be scared here.",
+    "text": "Boy, you used to really be scared here."
+  },
+  {
+    "cue_id": 49,
+    "timecode": "00:06:01,936 --> 00:06:03,276",
+    "original": "Johnny.",
+    "text": "Johnny."
+  },
+  {
+    "cue_id": 50,
+    "timecode": "00:06:03,694 --> 00:06:07,168",
+    "original": "- Hey, you're still afraid.\n- Stop it now. I mean it.",
+    "text": "- Hey, you're still afraid. - Stop it now. I mean it."
+  },
+  {
+    "cue_id": 51,
+    "timecode": "00:06:10,852 --> 00:06:14,117",
+    "original": "[imitating Boris Karloff]\nThey're coming to get you, Barbra.",
+    "text": "[imitating Boris Karloff] They're coming to get you, Barbra."
+  },
+  {
+    "cue_id": 52,
+    "timecode": "00:06:14,410 --> 00:06:17,054",
+    "original": "Stop it. You're ignorant.",
+    "text": "Stop it. You're ignorant."
+  },
+  {
+    "cue_id": 53,
+    "timecode": "00:06:17,089 --> 00:06:19,350",
+    "original": "They're coming for you, Barbra.",
+    "text": "They're coming for you, Barbra."
+  },
+  {
+    "cue_id": 54,
+    "timecode": "00:06:20,103 --> 00:06:22,405",
+    "original": "Stop it. You're acting like a child.",
+    "text": "Stop it. You're acting like a child."
+  },
+  {
+    "cue_id": 55,
+    "timecode": "00:06:22,740 --> 00:06:24,289",
+    "original": "They're coming for you.",
+    "text": "They're coming for you."
+  },
+  {
+    "cue_id": 56,
+    "timecode": "00:06:24,875 --> 00:06:27,596",
+    "original": "Look! There comes one of them now.",
+    "text": "Look! There comes one of them now."
+  },
+  {
+    "cue_id": 57,
+    "timecode": "00:06:28,433 --> 00:06:31,279",
+    "original": "- He'll hear you.\n- Here he comes now. I'm getting out of here!",
+    "text": "- He'll hear you. - Here he comes now. I'm getting out of here!"
+  },
+  {
+    "cue_id": 58,
+    "timecode": "00:06:31,447 --> 00:06:32,536",
+    "original": "Johnny!",
+    "text": "Johnny!"
+  },
+  {
+    "cue_id": 59,
+    "timecode": "00:06:43,336 --> 00:06:44,507",
+    "original": "Johnny!",
+    "text": "Johnny!"
+  },
+  {
+    "cue_id": 60,
+    "timecode": "00:06:44,591 --> 00:06:46,349",
+    "original": "Help me!",
+    "text": "Help me!"
+  },
+  {
+    "cue_id": 61,
+    "timecode": "00:13:54,659 --> 00:13:56,500",
+    "original": "It's all right.",
+    "text": "It's all right."
+  },
+  {
+    "cue_id": 62,
+    "timecode": "00:13:59,598 --> 00:14:01,733",
+    "original": "Don't worry about him. I can handle him.",
+    "text": "Don't worry about him. I can handle him."
+  },
+  {
+    "cue_id": 63,
+    "timecode": "00:14:01,817 --> 00:14:04,831",
+    "original": "Probably be a lot more of them as soon as they find out about us.",
+    "text": "Probably be a lot more of them as soon as they find out about us."
+  },
+  {
+    "cue_id": 64,
+    "timecode": "00:14:08,222 --> 00:14:09,602",
+    "original": "Truck is outta gas.",
+    "text": "Truck is outta gas."
+  },
+  {
+    "cue_id": 65,
+    "timecode": "00:14:09,686 --> 00:14:11,696",
+    "original": "This pump out here is locked. Is there a key?",
+    "text": "This pump out here is locked. Is there a key?"
+  },
+  {
+    "cue_id": 66,
+    "timecode": "00:14:13,621 --> 00:14:16,635",
+    "original": "We can try to get out of here if we can get some gas. Is there a key?",
+    "text": "We can try to get out of here if we can get some gas. Is there a key?"
+  },
+  {
+    "cue_id": 67,
+    "timecode": "00:14:26,723 --> 00:14:28,691",
+    "original": "I suppose you've tried this.",
+    "text": "I suppose you've tried this."
+  },
+  {
+    "cue_id": 68,
+    "timecode": "00:14:38,193 --> 00:14:39,784",
+    "original": "Do you live here?",
+    "text": "Do you live here?"
+  },
+  {
+    "cue_id": 69,
+    "timecode": "00:15:02,932 --> 00:15:04,858",
+    "original": "We've gotta get out of here.",
+    "text": "We've gotta get out of here."
+  },
+  {
+    "cue_id": 70,
+    "timecode": "00:15:04,983 --> 00:15:07,160",
+    "original": "We have to get where there are some other people.",
+    "text": "We have to get where there are some other people."
+  },
+  {
+    "cue_id": 71,
+    "timecode": "00:15:10,802 --> 00:15:13,021",
+    "original": "Maybe we better take some food.",
+    "text": "Maybe we better take some food."
+  },
+  {
+    "cue_id": 72,
+    "timecode": "00:15:13,397 --> 00:15:17,249",
+    "original": "I'll see if I can find some food.",
+    "text": "I'll see if I can find some food."
+  },
+  {
+    "cue_id": 73,
+    "timecode": "00:15:59,778 --> 00:16:03,797",
+    "original": "- What's happening? - I'll be just a second.",
+    "text": "- What's happening? - I'll be just a second."
+  },
+  {
+    "cue_id": 74,
+    "timecode": "00:16:04,048 --> 00:16:05,261",
+    "original": "What's happening?",
+    "text": "What's happening?"
+  },
+  {
+    "cue_id": 75,
+    "timecode": "00:16:18,865 --> 00:16:20,289",
+    "original": "Two of them.",
+    "text": "Two of them."
+  },
+  {
+    "cue_id": 76,
+    "timecode": "00:16:25,521 --> 00:16:28,578",
+    "original": "There are two of them out there. Have you seen any more around here?",
+    "text": "There are two of them out there. Have you seen any more around here?"
+  },
+  {
+    "cue_id": 77,
+    "timecode": "00:16:28,613 --> 00:16:30,754",
+    "original": "I can take care of those two.",
+    "text": "I can take care of those two."
+  },
+  {
+    "cue_id": 78,
+    "timecode": "00:16:30,796 --> 00:16:33,349",
+    "original": "- I know you're afraid, but we have to... - I don't know! I don't know!",
+    "text": "- I know you're afraid, but we have to... - I don't know! I don't know!"
+  },
+  {
+    "cue_id": 79,
+    "timecode": "00:16:33,384 --> 00:16:35,443",
+    "original": "What's happening?",
+    "text": "What's happening?"
+  },
+  {
+    "cue_id": 80,
+    "timecode": "00:18:56,342 --> 00:18:57,766",
+    "original": "They know we're in here now.",
+    "text": "They know we're in here now."
+  },
+  {
+    "cue_id": 81,
+    "timecode": "00:19:13,129 --> 00:19:14,426",
+    "original": "Don't look at it.",
+    "text": "Don't look at it."
+  },
+  {
+    "cue_id": 82,
+    "timecode": "00:20:27,597 --> 00:20:29,941",
+    "original": "Get some more lights on in this house.",
+    "text": "Get some more lights on in this house."
+  },
+  {
+    "cue_id": 83,
+    "timecode": "00:21:07,698 --> 00:21:11,006",
+    "original": "Why don't you see if you can find some wood, some boards,",
+    "text": "Why don't you see if you can find some wood, some boards,"
+  },
+  {
+    "cue_id": 84,
+    "timecode": "00:21:11,048 --> 00:21:13,099",
+    "original": "something there by the fireplace, Something we can nail this place up?",
+    "text": "something there by the fireplace, Something we can nail this place up?"
+  },
+  {
+    "cue_id": 85,
+    "timecode": "00:21:17,871 --> 00:21:19,126",
+    "original": "Well, goddamn...",
+    "text": "Well, goddamn..."
+  },
+  {
+    "cue_id": 86,
+    "timecode": "00:21:21,848 --> 00:21:26,369",
+    "original": "Look. I know you're afraid. I'm afraid too.",
+    "text": "Look. I know you're afraid. I'm afraid too."
+  },
+  {
+    "cue_id": 87,
+    "timecode": "00:21:26,452 --> 00:21:29,891",
+    "original": "But we have to try to board the house up together.",
+    "text": "But we have to try to board the house up together."
+  },
+  {
+    "cue_id": 88,
+    "timecode": "00:21:29,926 --> 00:21:32,521",
+    "original": "Now, I'm going to board up the windows and the doors. Do you understand?",
+    "text": "Now, I'm going to board up the windows and the doors. Do you understand?"
+  },
+  {
+    "cue_id": 89,
+    "timecode": "00:21:32,556 --> 00:21:35,208",
+    "original": "We'll be all right here.",
+    "text": "We'll be all right here."
+  },
+  {
+    "cue_id": 90,
+    "timecode": "00:21:35,243 --> 00:21:38,800",
+    "original": "We'll be all right till someone comes to rescue us. But we have to work together.",
+    "text": "We'll be all right till someone comes to rescue us. But we have to work together."
+  },
+  {
+    "cue_id": 91,
+    "timecode": "00:21:38,835 --> 00:21:39,931",
+    "original": "You'll have to help me.",
+    "text": "You'll have to help me."
+  },
+  {
+    "cue_id": 92,
+    "timecode": "00:21:39,973 --> 00:21:43,237",
+    "original": "Now I want you to go in and get some wood so I can board the place up.",
+    "text": "Now I want you to go in and get some wood so I can board the place up."
+  },
+  {
+    "cue_id": 93,
+    "timecode": "00:21:44,117 --> 00:21:45,121",
+    "original": "Ok?",
+    "text": "Ok?"
+  },
+  {
+    "cue_id": 94,
+    "timecode": "00:21:46,294 --> 00:21:47,424",
+    "original": "Ok?",
+    "text": "Ok?"
+  },
+  {
+    "cue_id": 95,
+    "timecode": "00:24:27,035 --> 00:24:28,249",
+    "original": "They're not that strong.",
+    "text": "They're not that strong."
+  },
+  {
+    "cue_id": 96,
+    "timecode": "00:24:28,543 --> 00:24:31,765",
+    "original": "Here, I want you to pick out some nails. Pick out the biggest ones you can find.",
+    "text": "Here, I want you to pick out some nails. Pick out the biggest ones you can find."
+  },
+  {
+    "cue_id": 97,
+    "timecode": "00:24:37,417 --> 00:24:39,928",
+    "original": "There, this room looks pretty secure.",
+    "text": "There, this room looks pretty secure."
+  },
+  {
+    "cue_id": 98,
+    "timecode": "00:24:41,770 --> 00:24:44,909",
+    "original": "If we have to, we can run in here and board up the doors.",
+    "text": "If we have to, we can run in here and board up the doors."
+  },
+  {
+    "cue_id": 99,
+    "timecode": "00:24:47,839 --> 00:24:51,230",
+    "original": "Won't be long before those things'll be back, pounding their way in here.",
+    "text": "Won't be long before those things'll be back, pounding their way in here."
+  },
+  {
+    "cue_id": 100,
+    "timecode": "00:24:51,272 --> 00:24:54,788",
+    "original": "They're afraid now.",
+    "text": "They're afraid now."
+  },
+  {
+    "cue_id": 101,
+    "timecode": "00:24:56,295 --> 00:24:59,351",
+    "original": "They're afraid of fire. I found that out.",
+    "text": "They're afraid of fire. I found that out."
+  },
+  {
+    "cue_id": 102,
+    "timecode": "00:25:11,532 --> 00:25:15,551",
+    "original": "You know a place back down the road called Beekman's? Beekman's diner?",
+    "text": "You know a place back down the road called Beekman's? Beekman's diner?"
+  },
+  {
+    "cue_id": 103,
+    "timecode": "00:25:22,332 --> 00:25:25,346",
+    "original": "Anyhow, that's where I found that truck I have out there.",
+    "text": "Anyhow, that's where I found that truck I have out there."
+  },
+  {
+    "cue_id": 104,
+    "timecode": "00:25:27,481 --> 00:25:29,406",
+    "original": "There's a radio in the truck.",
+    "text": "There's a radio in the truck."
+  },
+  {
+    "cue_id": 105,
+    "timecode": "00:25:30,788 --> 00:25:32,797",
+    "original": "I had jumped in to listen to it,",
+    "text": "I had jumped in to listen to it,"
+  },
+  {
+    "cue_id": 106,
+    "timecode": "00:25:33,300 --> 00:25:37,402",
+    "original": "When a big gasoline truck came screaming right across the road.",
+    "text": "When a big gasoline truck came screaming right across the road."
+  },
+  {
+    "cue_id": 107,
+    "timecode": "00:25:37,444 --> 00:25:41,462",
+    "original": "Well, there must have been 10-15 of those things chasing after it.",
+    "text": "Well, there must have been 10-15 of those things chasing after it."
+  },
+  {
+    "cue_id": 108,
+    "timecode": "00:25:42,718 --> 00:25:44,644",
+    "original": "Grabbing and holding on.",
+    "text": "Grabbing and holding on."
+  },
+  {
+    "cue_id": 109,
+    "timecode": "00:25:48,159 --> 00:25:50,001",
+    "original": "Now, I didn't see them at first.",
+    "text": "Now, I didn't see them at first."
+  },
+  {
+    "cue_id": 110,
+    "timecode": "00:25:51,676 --> 00:25:54,773",
+    "original": "I could just see that the truck was moving in a funny way.",
+    "text": "I could just see that the truck was moving in a funny way."
+  },
+  {
+    "cue_id": 111,
+    "timecode": "00:25:55,611 --> 00:25:58,122",
+    "original": "And those things were catching up to it.",
+    "text": "And those things were catching up to it."
+  },
+  {
+    "cue_id": 112,
+    "timecode": "00:26:00,592 --> 00:26:03,647",
+    "original": "Truck went right across the road.",
+    "text": "Truck went right across the road."
+  },
+  {
+    "cue_id": 113,
+    "timecode": "00:26:04,485 --> 00:26:07,624",
+    "original": "Slammed on my brakes to keep from hitting it myself.",
+    "text": "Slammed on my brakes to keep from hitting it myself."
+  },
+  {
+    "cue_id": 114,
+    "timecode": "00:26:07,917 --> 00:26:10,052",
+    "original": "It went right through the guard rail.",
+    "text": "It went right through the guard rail."
+  },
+  {
+    "cue_id": 115,
+    "timecode": "00:26:16,289 --> 00:26:20,224",
+    "original": "I guess... I guess the driver must have cut off the road,",
+    "text": "I guess... I guess the driver must have cut off the road,"
+  },
+  {
+    "cue_id": 116,
+    "timecode": "00:26:20,434 --> 00:26:23,573",
+    "original": "into that gas station by Beekman's diner.",
+    "text": "into that gas station by Beekman's diner."
+  },
+  {
+    "cue_id": 117,
+    "timecode": "00:26:23,992 --> 00:26:27,675",
+    "original": "It went right through the billboard. Ripped over a gas pump,",
+    "text": "It went right through the billboard. Ripped over a gas pump,"
+  },
+  {
+    "cue_id": 118,
+    "timecode": "00:26:27,717 --> 00:26:28,645",
+    "original": "and never stopped moving.",
+    "text": "and never stopped moving."
+  },
+  {
+    "cue_id": 119,
+    "timecode": "00:26:28,680 --> 00:26:31,485",
+    "original": "By now it's like a moving bonfire.",
+    "text": "By now it's like a moving bonfire."
+  },
+  {
+    "cue_id": 120,
+    "timecode": "00:26:34,707 --> 00:26:38,350",
+    "original": "Didn't know if the truck was going to explode or what.",
+    "text": "Didn't know if the truck was going to explode or what."
+  },
+  {
+    "cue_id": 121,
+    "timecode": "00:26:41,196 --> 00:26:45,089",
+    "original": "I can still hear the man, screaming.",
+    "text": "I can still hear the man, screaming."
+  },
+  {
+    "cue_id": 122,
+    "timecode": "00:26:49,066 --> 00:26:52,833",
+    "original": "This thing is just backing away from it.",
+    "text": "This thing is just backing away from it."
+  },
+  {
+    "cue_id": 123,
+    "timecode": "00:26:54,465 --> 00:26:57,731",
+    "original": "I look back at the diner to see",
+    "text": "I look back at the diner to see"
+  },
+  {
+    "cue_id": 124,
+    "timecode": "00:26:57,773 --> 00:27:00,075",
+    "original": "If there was anyone there who could help me.",
+    "text": "If there was anyone there who could help me."
+  },
+  {
+    "cue_id": 125,
+    "timecode": "00:27:02,586 --> 00:27:04,728",
+    "original": "That was when I noticed that",
+    "text": "That was when I noticed that"
+  },
+  {
+    "cue_id": 126,
+    "timecode": "00:27:04,763 --> 00:27:07,191",
+    "original": "The entire place had been encircled.",
+    "text": "The entire place had been encircled."
+  },
+  {
+    "cue_id": 127,
+    "timecode": "00:27:09,368 --> 00:27:12,130",
+    "original": "Wasn't a sign of life left, except...",
+    "text": "Wasn't a sign of life left, except..."
+  },
+  {
+    "cue_id": 128,
+    "timecode": "00:27:16,023 --> 00:27:18,200",
+    "original": "by now, there were no more screams.",
+    "text": "by now, there were no more screams."
+  },
+  {
+    "cue_id": 129,
+    "timecode": "00:27:20,126 --> 00:27:22,261",
+    "original": "I realized that...",
+    "text": "I realized that..."
+  },
+  {
+    "cue_id": 130,
+    "timecode": "00:27:23,558 --> 00:27:25,281",
+    "original": "I was alone.",
+    "text": "I was alone."
+  },
+  {
+    "cue_id": 131,
+    "timecode": "00:27:25,316 --> 00:27:26,531",
+    "original": "With 50 or 60 of those things.",
+    "text": "With 50 or 60 of those things."
+  },
+  {
+    "cue_id": 132,
+    "timecode": "00:27:28,414 --> 00:27:30,926",
+    "original": "Just standing there,",
+    "text": "Just standing there,"
+  },
+  {
+    "cue_id": 133,
+    "timecode": "00:27:31,804 --> 00:27:33,688",
+    "original": "staring at me.",
+    "text": "staring at me."
+  },
+  {
+    "cue_id": 134,
+    "timecode": "00:27:35,196 --> 00:27:37,288",
+    "original": "I started to drive. I...",
+    "text": "I started to drive. I..."
+  },
+  {
+    "cue_id": 135,
+    "timecode": "00:27:38,753 --> 00:27:40,888",
+    "original": "Just plowed right through them.",
+    "text": "Just plowed right through them."
+  },
+  {
+    "cue_id": 136,
+    "timecode": "00:27:40,972 --> 00:27:42,730",
+    "original": "They didn't move.",
+    "text": "They didn't move."
+  },
+  {
+    "cue_id": 137,
+    "timecode": "00:27:42,814 --> 00:27:48,507",
+    "original": "They didn't run, or... just stood there, staring at me.",
+    "text": "They didn't run, or... just stood there, staring at me."
+  },
+  {
+    "cue_id": 138,
+    "timecode": "00:27:50,684 --> 00:27:52,944",
+    "original": "Just wanted to crush them.",
+    "text": "Just wanted to crush them."
+  },
+  {
+    "cue_id": 139,
+    "timecode": "00:27:57,004 --> 00:28:01,357",
+    "original": "They... scattered through the air, like bugs.",
+    "text": "They... scattered through the air, like bugs."
+  },
+  {
+    "cue_id": 140,
+    "timecode": "00:28:03,952 --> 00:28:06,758",
+    "original": "We were riding in the cemetery.",
+    "text": "We were riding in the cemetery."
+  },
+  {
+    "cue_id": 141,
+    "timecode": "00:28:07,636 --> 00:28:09,185",
+    "original": "Johnny and me.",
+    "text": "Johnny and me."
+  },
+  {
+    "cue_id": 142,
+    "timecode": "00:28:10,232 --> 00:28:11,613",
+    "original": "Johnny.",
+    "text": "Johnny."
+  },
+  {
+    "cue_id": 143,
+    "timecode": "00:28:17,851 --> 00:28:22,037",
+    "original": "We... we came to put a wreath on my father's grave.",
+    "text": "We... we came to put a wreath on my father's grave."
+  },
+  {
+    "cue_id": 144,
+    "timecode": "00:28:24,088 --> 00:28:27,855",
+    "original": "Johnny and... and he said,",
+    "text": "Johnny and... and he said,"
+  },
+  {
+    "cue_id": 145,
+    "timecode": "00:28:29,027 --> 00:28:31,999",
+    "original": "\"Can I have some candy, Barbra?\"",
+    "text": "\"Can I have some candy, Barbra?\""
+  },
+  {
+    "cue_id": 146,
+    "timecode": "00:28:35,012 --> 00:28:37,357",
+    "original": "And we didn't have any.",
+    "text": "And we didn't have any."
+  },
+  {
+    "cue_id": 147,
+    "timecode": "00:28:39,743 --> 00:28:41,417",
+    "original": "And...",
+    "text": "And..."
+  },
+  {
+    "cue_id": 148,
+    "timecode": "00:28:46,147 --> 00:28:47,445",
+    "original": "Oh, it's hot in here.",
+    "text": "Oh, it's hot in here."
+  },
+  {
+    "cue_id": 149,
+    "timecode": "00:28:48,115 --> 00:28:49,203",
+    "original": "Hot...",
+    "text": "Hot..."
+  },
+  {
+    "cue_id": 150,
+    "timecode": "00:28:56,152 --> 00:28:58,726",
+    "original": "And he said, \"Oh, it's late. \"",
+    "text": "And he said, \"Oh, it's late. \""
+  },
+  {
+    "cue_id": 151,
+    "timecode": "00:28:58,761 --> 00:29:01,301",
+    "original": "\"Why did we start so late?\"",
+    "text": "\"Why did we start so late?\""
+  },
+  {
+    "cue_id": 152,
+    "timecode": "00:29:01,845 --> 00:29:04,113",
+    "original": "And I said, \"Johnny,",
+    "text": "And I said, \"Johnny,"
+  },
+  {
+    "cue_id": 153,
+    "timecode": "00:29:04,148 --> 00:29:06,868",
+    "original": "\"if you'd gotten up earlier,",
+    "text": "\"if you'd gotten up earlier,"
+  },
+  {
+    "cue_id": 154,
+    "timecode": "00:29:06,903 --> 00:29:08,710",
+    "original": "\"we wouldn't be late. \"",
+    "text": "\"we wouldn't be late. \""
+  },
+  {
+    "cue_id": 155,
+    "timecode": "00:29:09,715 --> 00:29:12,854",
+    "original": "Johnny asked me if I were afraid.",
+    "text": "Johnny asked me if I were afraid."
+  },
+  {
+    "cue_id": 156,
+    "timecode": "00:29:13,064 --> 00:29:16,287",
+    "original": "And I said, \"I'm not afraid, Johnny. \"",
+    "text": "And I said, \"I'm not afraid, Johnny. \""
+  },
+  {
+    "cue_id": 157,
+    "timecode": "00:29:18,463 --> 00:29:21,980",
+    "original": "And then this man started walking up the road.",
+    "text": "And then this man started walking up the road."
+  },
+  {
+    "cue_id": 158,
+    "timecode": "00:29:23,612 --> 00:29:27,631",
+    "original": "He came slowly, and Johnny kept teasing me and saying,",
+    "text": "He came slowly, and Johnny kept teasing me and saying,"
+  },
+  {
+    "cue_id": 159,
+    "timecode": "00:29:27,798 --> 00:29:30,896",
+    "original": "\"He's coming to get you, Barbra. \"",
+    "text": "\"He's coming to get you, Barbra. \""
+  },
+  {
+    "cue_id": 160,
+    "timecode": "00:29:30,938 --> 00:29:33,993",
+    "original": "And I laughed at him, and said, \"Johnny, stop it. \"",
+    "text": "And I laughed at him, and said, \"Johnny, stop it. \""
+  },
+  {
+    "cue_id": 161,
+    "timecode": "00:29:36,003 --> 00:29:38,556",
+    "original": "And then Johnny ran away.",
+    "text": "And then Johnny ran away."
+  },
+  {
+    "cue_id": 162,
+    "timecode": "00:29:38,640 --> 00:29:40,942",
+    "original": "And I went up to this man,",
+    "text": "And I went up to this man,"
+  },
+  {
+    "cue_id": 163,
+    "timecode": "00:29:40,977 --> 00:29:43,244",
+    "original": "and I was going to apologize,",
+    "text": "and I was going to apologize,"
+  },
+  {
+    "cue_id": 164,
+    "timecode": "00:29:44,584 --> 00:29:46,594",
+    "original": "Why don't you just keep calm?",
+    "text": "Why don't you just keep calm?"
+  },
+  {
+    "cue_id": 165,
+    "timecode": "00:29:46,635 --> 00:29:50,486",
+    "original": "And I looked up, and I said, \"Good eve... \"",
+    "text": "And I looked up, and I said, \"Good eve... \""
+  },
+  {
+    "cue_id": 166,
+    "timecode": "00:29:51,993 --> 00:29:53,458",
+    "original": "And he grabbed me!",
+    "text": "And he grabbed me!"
+  },
+  {
+    "cue_id": 167,
+    "timecode": "00:29:54,714 --> 00:29:58,481",
+    "original": "He grabbed me! And he ripped at me!",
+    "text": "He grabbed me! And he ripped at me!"
+  },
+  {
+    "cue_id": 168,
+    "timecode": "00:29:58,774 --> 00:30:02,082",
+    "original": "He held me and he ripped at my clothes!",
+    "text": "He held me and he ripped at my clothes!"
+  },
+  {
+    "cue_id": 169,
+    "timecode": "00:30:02,207 --> 00:30:04,468",
+    "original": "I think you should just calm down.",
+    "text": "I think you should just calm down."
+  },
+  {
+    "cue_id": 170,
+    "timecode": "00:30:05,053 --> 00:30:09,114",
+    "original": "Oh, I screamed, \"Johnny! Johnny, help me! Oh, help me!\"",
+    "text": "Oh, I screamed, \"Johnny! Johnny, help me! Oh, help me!\""
+  },
+  {
+    "cue_id": 171,
+    "timecode": "00:30:09,149 --> 00:30:12,504",
+    "original": "And he wouldn't let me go.\nHe ripped...",
+    "text": "And he wouldn't let me go. He ripped..."
+  },
+  {
+    "cue_id": 172,
+    "timecode": "00:30:16,397 --> 00:30:18,281",
+    "original": "And then Johnny came and he ran",
+    "text": "And then Johnny came and he ran"
+  },
+  {
+    "cue_id": 173,
+    "timecode": "00:30:19,411 --> 00:30:21,671",
+    "original": "And he... he fought this man,",
+    "text": "And he... he fought this man,"
+  },
+  {
+    "cue_id": 174,
+    "timecode": "00:30:22,509 --> 00:30:25,397",
+    "original": "And I got so afraid I ran.",
+    "text": "And I got so afraid I ran."
+  },
+  {
+    "cue_id": 175,
+    "timecode": "00:30:25,481 --> 00:30:27,197",
+    "original": "I ran... I ran...",
+    "text": "I ran... I ran..."
+  },
+  {
+    "cue_id": 176,
+    "timecode": "00:30:31,467 --> 00:30:33,937",
+    "original": "And Johnny didn't come.",
+    "text": "And Johnny didn't come."
+  },
+  {
+    "cue_id": 177,
+    "timecode": "00:30:35,066 --> 00:30:38,458",
+    "original": "We've got... we have to wait for Johnny.",
+    "text": "We've got... we have to wait for Johnny."
+  },
+  {
+    "cue_id": 178,
+    "timecode": "00:30:44,276 --> 00:30:46,746",
+    "original": "Maybe... we'd better go out and get him.",
+    "text": "Maybe... we'd better go out and get him."
+  },
+  {
+    "cue_id": 179,
+    "timecode": "00:30:47,876 --> 00:30:50,345",
+    "original": "We have to go out and get Johnny.",
+    "text": "We have to go out and get Johnny."
+  },
+  {
+    "cue_id": 180,
+    "timecode": "00:30:50,387 --> 00:30:51,894",
+    "original": "He's out there.",
+    "text": "He's out there."
+  },
+  {
+    "cue_id": 181,
+    "timecode": "00:30:53,025 --> 00:30:56,959",
+    "original": "Please, don't you hear me? We've got to go out and get him.",
+    "text": "Please, don't you hear me? We've got to go out and get him."
+  },
+  {
+    "cue_id": 182,
+    "timecode": "00:30:58,718 --> 00:31:02,109",
+    "original": "Please! We have got to go get Johnny!",
+    "text": "Please! We have got to go get Johnny!"
+  },
+  {
+    "cue_id": 183,
+    "timecode": "00:31:02,569 --> 00:31:04,536",
+    "original": "Please help me!",
+    "text": "Please help me!"
+  },
+  {
+    "cue_id": 184,
+    "timecode": "00:31:06,839 --> 00:31:09,894",
+    "original": "Look, don't you know what's going on out there? This is no Sunday school picnic.",
+    "text": "Look, don't you know what's going on out there? This is no Sunday school picnic."
+  },
+  {
+    "cue_id": 185,
+    "timecode": "00:31:09,929 --> 00:31:12,287",
+    "original": "Don't you understand? My brother is alone.",
+    "text": "Don't you understand? My brother is alone."
+  },
+  {
+    "cue_id": 186,
+    "timecode": "00:31:12,322 --> 00:31:16,466",
+    "original": "- Your brother is dead. - No! My brother is not dead!",
+    "text": "- Your brother is dead. - No! My brother is not dead!"
+  },
+  {
+    "cue_id": 187,
+    "timecode": "00:32:10,549 --> 00:32:12,977",
+    "original": "Radio: Because of the obvious threat to untold numbers of citizens,",
+    "text": "Radio: Because of the obvious threat to untold numbers of citizens,"
+  },
+  {
+    "cue_id": 188,
+    "timecode": "00:32:13,103 --> 00:32:16,200",
+    "original": "and because of the crisis which is even now developing,",
+    "text": "and because of the crisis which is even now developing,"
+  },
+  {
+    "cue_id": 189,
+    "timecode": "00:32:16,242 --> 00:32:19,214",
+    "original": "this radio station will remain on the air, day and night.",
+    "text": "this radio station will remain on the air, day and night."
+  },
+  {
+    "cue_id": 190,
+    "timecode": "00:32:19,507 --> 00:32:21,767",
+    "original": "This station and hundreds of other radio and TV stations",
+    "text": "This station and hundreds of other radio and TV stations"
+  },
+  {
+    "cue_id": 191,
+    "timecode": "00:32:21,809 --> 00:32:23,860",
+    "original": "throughout this part of the country are pooling their resources",
+    "text": "throughout this part of the country are pooling their resources"
+  },
+  {
+    "cue_id": 192,
+    "timecode": "00:32:23,986 --> 00:32:29,051",
+    "original": "Through an emergency network hookup to keep you informed of all developments.",
+    "text": "Through an emergency network hookup to keep you informed of all developments."
+  },
+  {
+    "cue_id": 193,
+    "timecode": "00:32:29,428 --> 00:32:32,776",
+    "original": "At this hour, we repeat, these are the facts as we know them.",
+    "text": "At this hour, we repeat, these are the facts as we know them."
+  },
+  {
+    "cue_id": 194,
+    "timecode": "00:32:32,818 --> 00:32:34,576",
+    "original": "There is an epidemic of mass murder",
+    "text": "There is an epidemic of mass murder"
+  },
+  {
+    "cue_id": 195,
+    "timecode": "00:32:34,618 --> 00:32:37,675",
+    "original": "being committed by a virtual army of unidentified assassins.",
+    "text": "being committed by a virtual army of unidentified assassins."
+  },
+  {
+    "cue_id": 196,
+    "timecode": "00:32:37,842 --> 00:32:40,270",
+    "original": "The murders are taking place in villages, cities,",
+    "text": "The murders are taking place in villages, cities,"
+  },
+  {
+    "cue_id": 197,
+    "timecode": "00:32:40,437 --> 00:32:45,376",
+    "original": "Rural homes and suburbs with no apparent pattern or reason for the slayings.",
+    "text": "Rural homes and suburbs with no apparent pattern or reason for the slayings."
+  },
+  {
+    "cue_id": 198,
+    "timecode": "00:32:45,411 --> 00:32:48,557",
+    "original": "It seems to be a sudden, general explosion of mass homicide.",
+    "text": "It seems to be a sudden, general explosion of mass homicide."
+  },
+  {
+    "cue_id": 199,
+    "timecode": "00:32:48,726 --> 00:32:51,411",
+    "original": "We have some descriptions of the assassins.",
+    "text": "We have some descriptions of the assassins."
+  },
+  {
+    "cue_id": 200,
+    "timecode": "00:32:51,446 --> 00:32:54,271",
+    "original": "Eyewitnesses say they are ordinary looking people.",
+    "text": "Eyewitnesses say they are ordinary looking people."
+  },
+  {
+    "cue_id": 201,
+    "timecode": "00:32:54,306 --> 00:32:57,097",
+    "original": "Some say they appear to be in a kind of trance.",
+    "text": "Some say they appear to be in a kind of trance."
+  },
+  {
+    "cue_id": 202,
+    "timecode": "00:32:57,139 --> 00:32:58,604",
+    "original": "Others describe them as being...",
+    "text": "Others describe them as being..."
+  },
+  {
+    "cue_id": 203,
+    "timecode": "00:33:08,693 --> 00:33:14,594",
+    "original": "So, at this point there is no really authentic way for us",
+    "text": "So, at this point there is no really authentic way for us"
+  },
+  {
+    "cue_id": 204,
+    "timecode": "00:33:15,600 --> 00:33:16,604",
+    "original": "to say who or what to look for and guard yourself against.",
+    "text": "to say who or what to look for and guard yourself against."
+  },
+  {
+    "cue_id": 205,
+    "timecode": "00:33:16,646 --> 00:33:20,539",
+    "original": "...reaction of law enforcement officials",
+    "text": "...reaction of law enforcement officials"
+  },
+  {
+    "cue_id": 206,
+    "timecode": "00:33:20,581 --> 00:33:24,641",
+    "original": "is one of complete bewilderment at this hour.",
+    "text": "is one of complete bewilderment at this hour."
+  },
+  {
+    "cue_id": 207,
+    "timecode": "00:33:26,651 --> 00:33:30,752",
+    "original": "Police, sheriffs' deputies, and emergency ambulances",
+    "text": "Police, sheriffs' deputies, and emergency ambulances"
+  },
+  {
+    "cue_id": 208,
+    "timecode": "00:33:30,787 --> 00:33:32,803",
+    "original": "are literally deluged with calls for help",
+    "text": "are literally deluged with calls for help"
+  },
+  {
+    "cue_id": 209,
+    "timecode": "00:33:32,845 --> 00:33:35,273",
+    "original": "The scene can best be described as mayhem.",
+    "text": "The scene can best be described as mayhem."
+  },
+  {
+    "cue_id": 210,
+    "timecode": "00:33:35,308 --> 00:33:37,702",
+    "original": "Mayors of Pittsburgh, Philadelphia, and Miami,",
+    "text": "Mayors of Pittsburgh, Philadelphia, and Miami,"
+  },
+  {
+    "cue_id": 211,
+    "timecode": "00:33:37,744 --> 00:33:40,506",
+    "original": "Along with the governors of several eastern and midwestern states",
+    "text": "Along with the governors of several eastern and midwestern states"
+  },
+  {
+    "cue_id": 212,
+    "timecode": "00:33:40,841 --> 00:33:44,022",
+    "original": "have indicated the national guard may be mobilized at any moment,",
+    "text": "have indicated the national guard may be mobilized at any moment,"
+  },
+  {
+    "cue_id": 213,
+    "timecode": "00:33:44,105 --> 00:33:45,278",
+    "original": "but that has not happened as yet.",
+    "text": "but that has not happened as yet."
+  },
+  {
+    "cue_id": 214,
+    "timecode": "00:33:45,445 --> 00:33:49,799",
+    "original": "The only advice our reporters have been able to get from official sources",
+    "text": "The only advice our reporters have been able to get from official sources"
+  },
+  {
+    "cue_id": 215,
+    "timecode": "00:33:49,834 --> 00:33:53,817",
+    "original": "is for private citizens to stay in their homes behind locked doors.",
+    "text": "is for private citizens to stay in their homes behind locked doors."
+  },
+  {
+    "cue_id": 216,
+    "timecode": "00:33:53,985 --> 00:33:56,461",
+    "original": "Do not venture outside, for any reason,",
+    "text": "Do not venture outside, for any reason,"
+  },
+  {
+    "cue_id": 217,
+    "timecode": "00:33:56,496 --> 00:33:58,296",
+    "original": "until the nature of this crisis has been determined",
+    "text": "until the nature of this crisis has been determined"
+  },
+  {
+    "cue_id": 218,
+    "timecode": "00:33:58,464 --> 00:34:01,519",
+    "original": "and until we can advise what course of action to take.",
+    "text": "and until we can advise what course of action to take."
+  },
+  {
+    "cue_id": 219,
+    "timecode": "00:34:01,554 --> 00:34:04,283",
+    "original": "Keep listening to radio and TV",
+    "text": "Keep listening to radio and TV"
+  },
+  {
+    "cue_id": 220,
+    "timecode": "00:34:04,366 --> 00:34:07,589",
+    "original": "for any special instructions as this crisis develops further.",
+    "text": "for any special instructions as this crisis develops further."
+  },
+  {
+    "cue_id": 221,
+    "timecode": "00:34:07,624 --> 00:34:10,812",
+    "original": "Thousands of office and factory workers are being urged",
+    "text": "Thousands of office and factory workers are being urged"
+  },
+  {
+    "cue_id": 222,
+    "timecode": "00:34:10,896 --> 00:34:12,696",
+    "original": "to stay at their places of employment,",
+    "text": "to stay at their places of employment,"
+  },
+  {
+    "cue_id": 223,
+    "timecode": "00:34:12,738 --> 00:34:15,291",
+    "original": "not to make any attempt to get to their homes.",
+    "text": "not to make any attempt to get to their homes."
+  },
+  {
+    "cue_id": 224,
+    "timecode": "00:34:15,459 --> 00:34:18,354",
+    "original": "However, in spite of this urging and warning,",
+    "text": "However, in spite of this urging and warning,"
+  },
+  {
+    "cue_id": 225,
+    "timecode": "00:34:18,389 --> 00:34:20,691",
+    "original": "streets and highways are packed with frantic people",
+    "text": "streets and highways are packed with frantic people"
+  },
+  {
+    "cue_id": 226,
+    "timecode": "00:34:20,733 --> 00:34:24,375",
+    "original": "trying to reach their families, or apparently to flee just anywhere.",
+    "text": "trying to reach their families, or apparently to flee just anywhere."
+  },
+  {
+    "cue_id": 227,
+    "timecode": "00:34:24,919 --> 00:34:30,068",
+    "original": "Repeat: The safest course of action at this time is simply to stay where you...",
+    "text": "Repeat: The safest course of action at this time is simply to stay where you..."
+  },
+  {
+    "cue_id": 228,
+    "timecode": "00:34:48,653 --> 00:34:50,586",
+    "original": "Ladies and gentlemen, we've just received word",
+    "text": "Ladies and gentlemen, we've just received word"
+  },
+  {
+    "cue_id": 229,
+    "timecode": "00:34:50,621 --> 00:34:52,839",
+    "original": "that the president has called a meeting of his cabinet",
+    "text": "that the president has called a meeting of his cabinet"
+  },
+  {
+    "cue_id": 230,
+    "timecode": "00:34:53,007 --> 00:34:55,442",
+    "original": "to deal with the sudden epidemic of murder",
+    "text": "to deal with the sudden epidemic of murder"
+  },
+  {
+    "cue_id": 231,
+    "timecode": "00:34:55,477 --> 00:34:57,988",
+    "original": "which has seized the eastern third of this nation.",
+    "text": "which has seized the eastern third of this nation."
+  },
+  {
+    "cue_id": 232,
+    "timecode": "00:34:58,023 --> 00:35:00,500",
+    "original": "The meeting is scheduled to convene within the hour.",
+    "text": "The meeting is scheduled to convene within the hour."
+  },
+  {
+    "cue_id": 233,
+    "timecode": "00:35:00,542 --> 00:35:02,970",
+    "original": "Members of the presidential cabinet will be joined",
+    "text": "Members of the presidential cabinet will be joined"
+  },
+  {
+    "cue_id": 234,
+    "timecode": "00:35:03,054 --> 00:35:06,863",
+    "original": "by officials of the FBI and the joint chiefs behind closed doors.",
+    "text": "by officials of the FBI and the joint chiefs behind closed doors."
+  },
+  {
+    "cue_id": 235,
+    "timecode": "00:35:07,532 --> 00:35:09,667",
+    "original": "A White House spokesman, in announcing this conference,",
+    "text": "A White House spokesman, in announcing this conference,"
+  },
+  {
+    "cue_id": 236,
+    "timecode": "00:35:09,709 --> 00:35:11,719",
+    "original": "says there will be an official announcement",
+    "text": "says there will be an official announcement"
+  },
+  {
+    "cue_id": 237,
+    "timecode": "00:35:11,760 --> 00:35:13,770",
+    "original": "as soon as possible following that meeting.",
+    "text": "as soon as possible following that meeting."
+  },
+  {
+    "cue_id": 238,
+    "timecode": "00:35:13,812 --> 00:35:16,239",
+    "original": "This is the latest dispatch just received in our newsroom.",
+    "text": "This is the latest dispatch just received in our newsroom."
+  },
+  {
+    "cue_id": 239,
+    "timecode": "00:35:16,867 --> 00:35:21,388",
+    "original": "Latest word also from national press services in Washington, D.C.,",
+    "text": "Latest word also from national press services in Washington, D.C.,"
+  },
+  {
+    "cue_id": 240,
+    "timecode": "00:35:21,472 --> 00:35:25,909",
+    "original": "that the emergency presidential conference which we've just mentioned",
+    "text": "that the emergency presidential conference which we've just mentioned"
+  },
+  {
+    "cue_id": 241,
+    "timecode": "00:35:25,951 --> 00:35:29,593",
+    "original": "Will include high-ranking scientists from NASA.",
+    "text": "Will include high-ranking scientists from NASA."
+  },
+  {
+    "cue_id": 242,
+    "timecode": "00:35:40,518 --> 00:35:43,490",
+    "original": "Radio and TV stations across the eastern part of the country",
+    "text": "Radio and TV stations across the eastern part of the country"
+  },
+  {
+    "cue_id": 243,
+    "timecode": "00:35:43,574 --> 00:35:45,499",
+    "original": "including the one to which you are listening",
+    "text": "including the one to which you are listening"
+  },
+  {
+    "cue_id": 244,
+    "timecode": "00:35:45,625 --> 00:35:48,638",
+    "original": "have joined their facilities in an emergency network",
+    "text": "have joined their facilities in an emergency network"
+  },
+  {
+    "cue_id": 245,
+    "timecode": "00:35:48,680 --> 00:35:50,690",
+    "original": "to bring you this news as it develops.",
+    "text": "to bring you this news as it develops."
+  },
+  {
+    "cue_id": 246,
+    "timecode": "00:35:50,857 --> 00:35:53,369",
+    "original": "We urge you to stay tuned to radio and TV",
+    "text": "We urge you to stay tuned to radio and TV"
+  },
+  {
+    "cue_id": 247,
+    "timecode": "00:35:53,453 --> 00:35:55,336",
+    "original": "and to stay indoors at all costs.",
+    "text": "and to stay indoors at all costs."
+  },
+  {
+    "cue_id": 248,
+    "timecode": "00:35:56,927 --> 00:35:59,104",
+    "original": "Late reports reaching this newsroom",
+    "text": "Late reports reaching this newsroom"
+  },
+  {
+    "cue_id": 249,
+    "timecode": "00:35:59,145 --> 00:36:01,155",
+    "original": "tell of frightened people seeking refuge",
+    "text": "tell of frightened people seeking refuge"
+  },
+  {
+    "cue_id": 250,
+    "timecode": "00:36:01,197 --> 00:36:03,206",
+    "original": "in churches, schools and government buildings.",
+    "text": "in churches, schools and government buildings."
+  },
+  {
+    "cue_id": 251,
+    "timecode": "00:36:03,248 --> 00:36:04,971",
+    "original": "Demanding shelter and protection",
+    "text": "Demanding shelter and protection"
+  },
+  {
+    "cue_id": 252,
+    "timecode": "00:36:05,006 --> 00:36:06,597",
+    "original": "from the wholesale murder which apparently",
+    "text": "from the wholesale murder which apparently"
+  },
+  {
+    "cue_id": 253,
+    "timecode": "00:36:06,632 --> 00:36:08,438",
+    "original": "is engulfing much of the nation.",
+    "text": "is engulfing much of the nation."
+  },
+  {
+    "cue_id": 254,
+    "timecode": "00:36:08,941 --> 00:36:11,787",
+    "original": "Law enforcement officials are at a loss to explain or,",
+    "text": "Law enforcement officials are at a loss to explain or,"
+  },
+  {
+    "cue_id": 255,
+    "timecode": "00:36:11,871 --> 00:36:13,755",
+    "original": "even at this hour, even to theorize",
+    "text": "even at this hour, even to theorize"
+  },
+  {
+    "cue_id": 256,
+    "timecode": "00:36:13,797 --> 00:36:15,974",
+    "original": "about the reasons for this wave of murder...",
+    "text": "about the reasons for this wave of murder..."
+  },
+  {
+    "cue_id": 257,
+    "timecode": "00:36:17,732 --> 00:36:23,090",
+    "original": "Chief T.K. Dunmore of Camden, North Carolina, is quoted as saying, quote,",
+    "text": "Chief T.K. Dunmore of Camden, North Carolina, is quoted as saying, quote,"
+  },
+  {
+    "cue_id": 258,
+    "timecode": "00:36:23,125 --> 00:36:27,736",
+    "original": "\"Tell the people, for God's sake, to get off the streets. \"",
+    "text": "\"Tell the people, for God's sake, to get off the streets. \""
+  },
+  {
+    "cue_id": 259,
+    "timecode": "00:36:27,820 --> 00:36:31,134",
+    "original": "\"Tell 'em to go home and lock their doors and windows up tight. \"",
+    "text": "\"Tell 'em to go home and lock their doors and windows up tight. \""
+  },
+  {
+    "cue_id": 260,
+    "timecode": "00:36:31,169 --> 00:36:34,684",
+    "original": "\"We don't know what kind of murder-happy characters we have here. \" End quote.",
+    "text": "\"We don't know what kind of murder-happy characters we have here. \" End quote."
+  },
+  {
+    "cue_id": 261,
+    "timecode": "00:36:36,108 --> 00:36:38,787",
+    "original": "That's Chief Dunmore of Camden, North Carolina.",
+    "text": "That's Chief Dunmore of Camden, North Carolina."
+  },
+  {
+    "cue_id": 262,
+    "timecode": "00:36:39,498 --> 00:36:42,262",
+    "original": "So far the only descriptions, the only clues,",
+    "text": "So far the only descriptions, the only clues,"
+  },
+  {
+    "cue_id": 263,
+    "timecode": "00:36:42,345 --> 00:36:46,447",
+    "original": "anyone has of the killers come from frightened witnesses.",
+    "text": "anyone has of the killers come from frightened witnesses."
+  },
+  {
+    "cue_id": 264,
+    "timecode": "00:36:46,530 --> 00:36:48,665",
+    "original": "These eyewitness accounts variously describe",
+    "text": "These eyewitness accounts variously describe"
+  },
+  {
+    "cue_id": 265,
+    "timecode": "00:36:48,749 --> 00:36:50,800",
+    "original": "the murderers as \"ordinary looking people,\"",
+    "text": "the murderers as \"ordinary looking people,\""
+  },
+  {
+    "cue_id": 266,
+    "timecode": "00:36:50,842 --> 00:36:52,475",
+    "original": "\"Misshapen monsters. \"",
+    "text": "\"Misshapen monsters. \""
+  },
+  {
+    "cue_id": 267,
+    "timecode": "00:36:52,559 --> 00:36:54,575",
+    "original": "\"People who look like they're in a trance. \"",
+    "text": "\"People who look like they're in a trance. \""
+  },
+  {
+    "cue_id": 268,
+    "timecode": "00:36:54,610 --> 00:36:58,294",
+    "original": "And \"things that look like people but act like animals. \"",
+    "text": "And \"things that look like people but act like animals. \""
+  },
+  {
+    "cue_id": 269,
+    "timecode": "00:36:58,336 --> 00:37:00,931",
+    "original": "Some eyewitnesses tell of seeing victims",
+    "text": "Some eyewitnesses tell of seeing victims"
+  },
+  {
+    "cue_id": 270,
+    "timecode": "00:37:00,966 --> 00:37:03,526",
+    "original": "who look as though they had been torn apart.",
+    "text": "who look as though they had been torn apart."
+  },
+  {
+    "cue_id": 271,
+    "timecode": "00:37:03,861 --> 00:37:08,047",
+    "original": "This whole ghastly story began developing two days ago",
+    "text": "This whole ghastly story began developing two days ago"
+  },
+  {
+    "cue_id": 272,
+    "timecode": "00:37:08,089 --> 00:37:12,149",
+    "original": "with the report of the slaying of a family of seven...",
+    "text": "with the report of the slaying of a family of seven..."
+  },
+  {
+    "cue_id": 273,
+    "timecode": "00:37:12,191 --> 00:37:14,326",
+    "original": "Since then, reports of some senseless killings",
+    "text": "Since then, reports of some senseless killings"
+  },
+  {
+    "cue_id": 274,
+    "timecode": "00:37:14,368 --> 00:37:16,377",
+    "original": "began snowballing in a reign of terror",
+    "text": "began snowballing in a reign of terror"
+  },
+  {
+    "cue_id": 275,
+    "timecode": "00:37:16,412 --> 00:37:17,256",
+    "original": "which has hopscotched...",
+    "text": "which has hopscotched..."
+  },
+  {
+    "cue_id": 276,
+    "timecode": "00:37:21,651 --> 00:37:23,660",
+    "original": "...keep track of the murder reports",
+    "text": "...keep track of the murder reports"
+  },
+  {
+    "cue_id": 277,
+    "timecode": "00:37:23,695 --> 00:37:25,670",
+    "original": "by the placing of markers on a map",
+    "text": "by the placing of markers on a map"
+  },
+  {
+    "cue_id": 278,
+    "timecode": "00:37:25,795 --> 00:37:27,554",
+    "original": "seem to indicate a general spreading",
+    "text": "seem to indicate a general spreading"
+  },
+  {
+    "cue_id": 279,
+    "timecode": "00:37:27,637 --> 00:37:31,154",
+    "original": "from the extreme southeastern and states north and west.",
+    "text": "from the extreme southeastern and states north and west."
+  },
+  {
+    "cue_id": 280,
+    "timecode": "00:37:31,656 --> 00:37:33,414",
+    "original": "Our newsmen, who have been on the telephone",
+    "text": "Our newsmen, who have been on the telephone"
+  },
+  {
+    "cue_id": 281,
+    "timecode": "00:37:33,449 --> 00:37:35,388",
+    "original": "talking with officials of other cities",
+    "text": "talking with officials of other cities"
+  },
+  {
+    "cue_id": 282,
+    "timecode": "00:37:35,423 --> 00:37:38,395",
+    "original": "have determined that none of this kind of mass murder",
+    "text": "have determined that none of this kind of mass murder"
+  },
+  {
+    "cue_id": 283,
+    "timecode": "00:37:38,688 --> 00:37:41,744",
+    "original": "has yet been reported west of the Mississippi river,",
+    "text": "has yet been reported west of the Mississippi river,"
+  },
+  {
+    "cue_id": 284,
+    "timecode": "00:37:41,786 --> 00:37:44,926",
+    "original": "except in the extreme southeastern portion of Texas.",
+    "text": "except in the extreme southeastern portion of Texas."
+  },
+  {
+    "cue_id": 285,
+    "timecode": "00:37:45,302 --> 00:37:46,935",
+    "original": "Similar killings have been reported",
+    "text": "Similar killings have been reported"
+  },
+  {
+    "cue_id": 286,
+    "timecode": "00:37:46,977 --> 00:37:48,734",
+    "original": "around the Houston and Galveston areas",
+    "text": "around the Houston and Galveston areas"
+  },
+  {
+    "cue_id": 287,
+    "timecode": "00:37:48,769 --> 00:37:49,830",
+    "original": "but nothing like the...",
+    "text": "but nothing like the..."
+  },
+  {
+    "cue_id": 288,
+    "timecode": "00:37:49,865 --> 00:37:51,372",
+    "original": "I found a gun and some bullets out there.",
+    "text": "I found a gun and some bullets out there."
+  },
+  {
+    "cue_id": 289,
+    "timecode": "00:37:54,344 --> 00:37:55,432",
+    "original": "Oh, and these.",
+    "text": "Oh, and these."
+  },
+  {
+    "cue_id": 290,
+    "timecode": "00:38:03,553 --> 00:38:05,520",
+    "original": "This place is boarded up pretty solid now.",
+    "text": "This place is boarded up pretty solid now."
+  },
+  {
+    "cue_id": 291,
+    "timecode": "00:38:06,819 --> 00:38:08,534",
+    "original": "We ought to be all right here for a while.",
+    "text": "We ought to be all right here for a while."
+  },
+  {
+    "cue_id": 292,
+    "timecode": "00:38:10,209 --> 00:38:12,176",
+    "original": "We have a gun and bullets,",
+    "text": "We have a gun and bullets,"
+  },
+  {
+    "cue_id": 293,
+    "timecode": "00:38:12,720 --> 00:38:14,227",
+    "original": "Food and the radio,",
+    "text": "Food and the radio,"
+  },
+  {
+    "cue_id": 294,
+    "timecode": "00:38:16,739 --> 00:38:20,046",
+    "original": "Sooner or later, someone's bound to come and get us out.",
+    "text": "Sooner or later, someone's bound to come and get us out."
+  },
+  {
+    "cue_id": 295,
+    "timecode": "00:38:21,594 --> 00:38:24,609",
+    "original": "So again, we join with law enforcement agencies",
+    "text": "So again, we join with law enforcement agencies"
+  },
+  {
+    "cue_id": 296,
+    "timecode": "00:38:24,902 --> 00:38:26,828",
+    "original": "in urging you to seek shelter in a building.",
+    "text": "in urging you to seek shelter in a building."
+  },
+  {
+    "cue_id": 297,
+    "timecode": "00:38:26,911 --> 00:38:28,689",
+    "original": "Lock the doors and windows securely.",
+    "text": "Lock the doors and windows securely."
+  },
+  {
+    "cue_id": 298,
+    "timecode": "00:38:28,724 --> 00:38:30,469",
+    "original": "Hey, that's us. We're doing all right.",
+    "text": "Hey, that's us. We're doing all right."
+  },
+  {
+    "cue_id": 299,
+    "timecode": "00:38:30,511 --> 00:38:32,478",
+    "original": "Be cautious of any suspicious strangers,",
+    "text": "Be cautious of any suspicious strangers,"
+  },
+  {
+    "cue_id": 300,
+    "timecode": "00:38:32,520 --> 00:38:34,529",
+    "original": "and keep tuned to your radio and television",
+    "text": "and keep tuned to your radio and television"
+  },
+  {
+    "cue_id": 301,
+    "timecode": "00:38:34,571 --> 00:38:35,750",
+    "original": "for survival instructions",
+    "text": "for survival instructions"
+  },
+  {
+    "cue_id": 302,
+    "timecode": "00:38:35,785 --> 00:38:38,046",
+    "original": "and further details of this continuing story.",
+    "text": "and further details of this continuing story."
+  },
+  {
+    "cue_id": 303,
+    "timecode": "00:38:38,130 --> 00:38:39,929",
+    "original": "Look, I don't know if you're hearing me.",
+    "text": "Look, I don't know if you're hearing me."
+  },
+  {
+    "cue_id": 304,
+    "timecode": "00:38:40,767 --> 00:38:42,609",
+    "original": "But I'm going upstairs now.",
+    "text": "But I'm going upstairs now."
+  },
+  {
+    "cue_id": 305,
+    "timecode": "00:38:44,953 --> 00:38:47,422",
+    "original": "If anything should try to break in, I can hear it from up there.",
+    "text": "If anything should try to break in, I can hear it from up there."
+  },
+  {
+    "cue_id": 306,
+    "timecode": "00:38:47,457 --> 00:38:49,222",
+    "original": "I'll be down to take care of it.",
+    "text": "I'll be down to take care of it."
+  },
+  {
+    "cue_id": 307,
+    "timecode": "00:38:51,399 --> 00:38:52,829",
+    "original": "Everything is all right for now.",
+    "text": "Everything is all right for now."
+  },
+  {
+    "cue_id": 308,
+    "timecode": "00:38:52,864 --> 00:38:56,129",
+    "original": "I'll be back to reinforce the windows and doors later.",
+    "text": "I'll be back to reinforce the windows and doors later."
+  },
+  {
+    "cue_id": 309,
+    "timecode": "00:38:56,631 --> 00:38:58,683",
+    "original": "But you'll be alright for now, ok?",
+    "text": "But you'll be alright for now, ok?"
+  },
+  {
+    "cue_id": 310,
+    "timecode": "00:39:01,194 --> 00:39:02,283",
+    "original": "Ok?",
+    "text": "Ok?"
+  },
+  {
+    "cue_id": 311,
+    "timecode": "00:39:05,338 --> 00:39:07,599",
+    "original": "Radio: Civil defense officials in Cumberland",
+    "text": "Radio: Civil defense officials in Cumberland"
+  },
+  {
+    "cue_id": 312,
+    "timecode": "00:39:07,634 --> 00:39:08,854",
+    "original": "have told newsmen that murder victims",
+    "text": "have told newsmen that murder victims"
+  },
+  {
+    "cue_id": 313,
+    "timecode": "00:39:08,896 --> 00:39:13,878",
+    "original": "show evidence of having been partially devoured by their murderers.",
+    "text": "show evidence of having been partially devoured by their murderers."
+  },
+  {
+    "cue_id": 314,
+    "timecode": "00:39:53,184 --> 00:39:55,653",
+    "original": "Consistent reports from witnesses to the effect that people",
+    "text": "Consistent reports from witnesses to the effect that people"
+  },
+  {
+    "cue_id": 315,
+    "timecode": "00:39:55,689 --> 00:39:58,542",
+    "original": "who acted as though they were in a kind of trance",
+    "text": "who acted as though they were in a kind of trance"
+  },
+  {
+    "cue_id": 316,
+    "timecode": "00:39:58,584 --> 00:40:00,307",
+    "original": "were killing and eating their victims",
+    "text": "were killing and eating their victims"
+  },
+  {
+    "cue_id": 317,
+    "timecode": "00:40:00,342 --> 00:40:03,983",
+    "original": "prompted authorities to examine the bodies of some of the victims.",
+    "text": "prompted authorities to examine the bodies of some of the victims."
+  },
+  {
+    "cue_id": 318,
+    "timecode": "00:40:04,018 --> 00:40:07,626",
+    "original": "Medical authorities in Cumberland, Maryland have concluded that in all cases",
+    "text": "Medical authorities in Cumberland, Maryland have concluded that in all cases"
+  },
+  {
+    "cue_id": 319,
+    "timecode": "00:40:07,661 --> 00:40:11,937",
+    "original": "the killers are eating the flesh of the people they murdered.",
+    "text": "the killers are eating the flesh of the people they murdered."
+  },
+  {
+    "cue_id": 320,
+    "timecode": "00:40:12,272 --> 00:40:15,998",
+    "original": "Repeating this latest bulletin just received moments ago from Cumberland.",
+    "text": "Repeating this latest bulletin just received moments ago from Cumberland."
+  },
+  {
+    "cue_id": 321,
+    "timecode": "00:40:16,033 --> 00:40:18,384",
+    "original": "Civil defense authorities have told newsmen",
+    "text": "Civil defense authorities have told newsmen"
+  },
+  {
+    "cue_id": 322,
+    "timecode": "00:40:18,467 --> 00:40:20,435",
+    "original": "that murder victims show evidence",
+    "text": "that murder victims show evidence"
+  },
+  {
+    "cue_id": 323,
+    "timecode": "00:40:20,519 --> 00:40:23,365",
+    "original": "of having been partially devoured by their murderers.",
+    "text": "of having been partially devoured by their murderers."
+  },
+  {
+    "cue_id": 324,
+    "timecode": "00:40:23,407 --> 00:40:27,174",
+    "original": "Medical examination of victims' bodies shows conclusively that",
+    "text": "Medical examination of victims' bodies shows conclusively that"
+  },
+  {
+    "cue_id": 325,
+    "timecode": "00:40:27,209 --> 00:40:30,230",
+    "original": "the killers are eating the flesh of the people they kill.",
+    "text": "the killers are eating the flesh of the people they kill."
+  },
+  {
+    "cue_id": 326,
+    "timecode": "00:40:31,150 --> 00:40:35,714",
+    "original": "And so this incredible story becomes more ghastly with each report.",
+    "text": "And so this incredible story becomes more ghastly with each report."
+  },
+  {
+    "cue_id": 327,
+    "timecode": "00:40:35,749 --> 00:40:37,939",
+    "original": "It's difficult to imagine such a thing actually happening",
+    "text": "It's difficult to imagine such a thing actually happening"
+  },
+  {
+    "cue_id": 328,
+    "timecode": "00:40:37,974 --> 00:40:41,657",
+    "original": "but these are the reports we have been receiving and passing on to you,",
+    "text": "but these are the reports we have been receiving and passing on to you,"
+  },
+  {
+    "cue_id": 329,
+    "timecode": "00:40:41,692 --> 00:40:44,965",
+    "original": "Reports which have been verified as completely as is possible",
+    "text": "Reports which have been verified as completely as is possible"
+  },
+  {
+    "cue_id": 330,
+    "timecode": "00:40:45,000 --> 00:40:46,597",
+    "original": "in this confused situation.",
+    "text": "in this confused situation."
+  },
+  {
+    "cue_id": 331,
+    "timecode": "00:41:00,075 --> 00:41:02,588",
+    "original": "- Hold it! - Don't shoot. We're from town.",
+    "text": "- Hold it! - Don't shoot. We're from town."
+  },
+  {
+    "cue_id": 332,
+    "timecode": "00:41:02,630 --> 00:41:03,676",
+    "original": "A radio!",
+    "text": "A radio!"
+  },
+  {
+    "cue_id": 333,
+    "timecode": "00:41:04,681 --> 00:41:07,701",
+    "original": "Radio: The Butler county sheriff has verified that reports",
+    "text": "Radio: The Butler county sheriff has verified that reports"
+  },
+  {
+    "cue_id": 334,
+    "timecode": "00:41:07,736 --> 00:41:11,881",
+    "original": "of murder victims being partially eaten by their slayers is true.",
+    "text": "of murder victims being partially eaten by their slayers is true."
+  },
+  {
+    "cue_id": 335,
+    "timecode": "00:41:14,057 --> 00:41:17,071",
+    "original": "How long you guys been down there? I could've used some help up here.",
+    "text": "How long you guys been down there? I could've used some help up here."
+  },
+  {
+    "cue_id": 336,
+    "timecode": "00:41:17,113 --> 00:41:18,501",
+    "original": "That's the cellar. It's the safest place.",
+    "text": "That's the cellar. It's the safest place."
+  },
+  {
+    "cue_id": 337,
+    "timecode": "00:41:18,536 --> 00:41:20,880",
+    "original": "You mean you didn't hear the racket we were making up here?",
+    "text": "You mean you didn't hear the racket we were making up here?"
+  },
+  {
+    "cue_id": 338,
+    "timecode": "00:41:20,915 --> 00:41:22,932",
+    "original": "How were we supposed to know\nwhat was going on?",
+    "text": "How were we supposed to know what was going on?"
+  },
+  {
+    "cue_id": 339,
+    "timecode": "00:41:22,973 --> 00:41:24,941",
+    "original": "Could've been those things for all we knew.",
+    "text": "Could've been those things for all we knew."
+  },
+  {
+    "cue_id": 340,
+    "timecode": "00:41:24,983 --> 00:41:26,078",
+    "original": "That girl was screaming.",
+    "text": "That girl was screaming."
+  },
+  {
+    "cue_id": 341,
+    "timecode": "00:41:26,113 --> 00:41:28,373",
+    "original": "Surely you must know what a girl screaming sounds like.",
+    "text": "Surely you must know what a girl screaming sounds like."
+  },
+  {
+    "cue_id": 342,
+    "timecode": "00:41:28,408 --> 00:41:29,462",
+    "original": "Those things don't make any noise.",
+    "text": "Those things don't make any noise."
+  },
+  {
+    "cue_id": 343,
+    "timecode": "00:41:29,797 --> 00:41:32,022",
+    "original": "Anybody would know somebody needed help.",
+    "text": "Anybody would know somebody needed help."
+  },
+  {
+    "cue_id": 344,
+    "timecode": "00:41:32,057 --> 00:41:34,610",
+    "original": "Look, it's kind of hard to hear what's going on from down there.",
+    "text": "Look, it's kind of hard to hear what's going on from down there."
+  },
+  {
+    "cue_id": 345,
+    "timecode": "00:41:34,736 --> 00:41:36,954",
+    "original": "We thought we could hear screams, but for all we knew,",
+    "text": "We thought we could hear screams, but for all we knew,"
+  },
+  {
+    "cue_id": 346,
+    "timecode": "00:41:36,996 --> 00:41:39,801",
+    "original": "that could have meant those things were in the house after her.",
+    "text": "that could have meant those things were in the house after her."
+  },
+  {
+    "cue_id": 347,
+    "timecode": "00:41:40,052 --> 00:41:43,024",
+    "original": "- And you wouldn't come up and help? - Well, if there were more...",
+    "text": "- And you wouldn't come up and help? - Well, if there were more..."
+  },
+  {
+    "cue_id": 348,
+    "timecode": "00:41:43,059 --> 00:41:45,285",
+    "original": "The racket sounded like the place was being ripped apart.",
+    "text": "The racket sounded like the place was being ripped apart."
+  },
+  {
+    "cue_id": 349,
+    "timecode": "00:41:45,368 --> 00:41:47,001",
+    "original": "How were we supposed to know what was going on?",
+    "text": "How were we supposed to know what was going on?"
+  },
+  {
+    "cue_id": 350,
+    "timecode": "00:41:47,461 --> 00:41:48,549",
+    "original": "Now wait a minute.",
+    "text": "Now wait a minute."
+  },
+  {
+    "cue_id": 351,
+    "timecode": "00:41:48,591 --> 00:41:51,186",
+    "original": "You just got finished saying you couldn't hear it from down there.",
+    "text": "You just got finished saying you couldn't hear it from down there."
+  },
+  {
+    "cue_id": 352,
+    "timecode": "00:41:51,221 --> 00:41:53,573",
+    "original": "Now you say it sounded like the place was being ripped apart.",
+    "text": "Now you say it sounded like the place was being ripped apart."
+  },
+  {
+    "cue_id": 353,
+    "timecode": "00:41:53,615 --> 00:41:55,917",
+    "original": "It would be nice if you'd get your story straight, man.",
+    "text": "It would be nice if you'd get your story straight, man."
+  },
+  {
+    "cue_id": 354,
+    "timecode": "00:41:56,001 --> 00:41:58,220",
+    "original": "All right, now you tell me.",
+    "text": "All right, now you tell me."
+  },
+  {
+    "cue_id": 355,
+    "timecode": "00:41:59,015 --> 00:42:02,154",
+    "original": "I'm not going to take that kind of a chance when we've got a safe place.",
+    "text": "I'm not going to take that kind of a chance when we've got a safe place."
+  },
+  {
+    "cue_id": 356,
+    "timecode": "00:42:02,448 --> 00:42:04,833",
+    "original": "We luck into a safe place, and you're telling us",
+    "text": "We luck into a safe place, and you're telling us"
+  },
+  {
+    "cue_id": 357,
+    "timecode": "00:42:04,875 --> 00:42:08,098",
+    "original": "we've gotta risk our lives just because somebody might need help, huh?",
+    "text": "we've gotta risk our lives just because somebody might need help, huh?"
+  },
+  {
+    "cue_id": 358,
+    "timecode": "00:42:08,133 --> 00:42:11,322",
+    "original": "- Yeah. Something like that. - All right, why don't we settle this...",
+    "text": "- Yeah. Something like that. - All right, why don't we settle this..."
+  },
+  {
+    "cue_id": 359,
+    "timecode": "00:42:11,364 --> 00:42:12,368",
+    "original": "Look, mister!",
+    "text": "Look, mister!"
+  },
+  {
+    "cue_id": 360,
+    "timecode": "00:42:12,410 --> 00:42:14,084",
+    "original": "We came up, ok? We're here.",
+    "text": "We came up, ok? We're here."
+  },
+  {
+    "cue_id": 361,
+    "timecode": "00:42:14,879 --> 00:42:16,896",
+    "original": "Now I suggest we all go back downstairs",
+    "text": "Now I suggest we all go back downstairs"
+  },
+  {
+    "cue_id": 362,
+    "timecode": "00:42:16,931 --> 00:42:18,940",
+    "original": "before any of those things find out we're in here.",
+    "text": "before any of those things find out we're in here."
+  },
+  {
+    "cue_id": 363,
+    "timecode": "00:42:18,975 --> 00:42:20,280",
+    "original": "They can't get in here.",
+    "text": "They can't get in here."
+  },
+  {
+    "cue_id": 364,
+    "timecode": "00:42:20,531 --> 00:42:22,163",
+    "original": "You got the whole place boarded up?",
+    "text": "You got the whole place boarded up?"
+  },
+  {
+    "cue_id": 365,
+    "timecode": "00:42:22,246 --> 00:42:23,000",
+    "original": "Yeah, most of it.",
+    "text": "Yeah, most of it."
+  },
+  {
+    "cue_id": 366,
+    "timecode": "00:42:23,168 --> 00:42:26,223",
+    "original": "All but a few spots upstairs. They won't be hard to fix.",
+    "text": "All but a few spots upstairs. They won't be hard to fix."
+  },
+  {
+    "cue_id": 367,
+    "timecode": "00:42:26,307 --> 00:42:29,238",
+    "original": "You are insane. The cellar's the safest place.",
+    "text": "You are insane. The cellar's the safest place."
+  },
+  {
+    "cue_id": 368,
+    "timecode": "00:42:29,273 --> 00:42:31,044",
+    "original": "I'm telling you, they can't get in here.",
+    "text": "I'm telling you, they can't get in here."
+  },
+  {
+    "cue_id": 369,
+    "timecode": "00:42:31,079 --> 00:42:34,093",
+    "original": "And I'm telling you, those things turned over our car.",
+    "text": "And I'm telling you, those things turned over our car."
+  },
+  {
+    "cue_id": 370,
+    "timecode": "00:42:34,128 --> 00:42:35,893",
+    "original": "We were damned lucky to get away at all.",
+    "text": "We were damned lucky to get away at all."
+  },
+  {
+    "cue_id": 371,
+    "timecode": "00:42:36,103 --> 00:42:39,869",
+    "original": "Now you tell me those... things can't get through this lousy pile of wood?",
+    "text": "Now you tell me those... things can't get through this lousy pile of wood?"
+  },
+  {
+    "cue_id": 372,
+    "timecode": "00:42:40,498 --> 00:42:44,014",
+    "original": "His wife and kids downstairs. The kid's hurt.",
+    "text": "His wife and kids downstairs. The kid's hurt."
+  },
+  {
+    "cue_id": 373,
+    "timecode": "00:42:46,065 --> 00:42:47,907",
+    "original": "Well, I still think we're better off up here.",
+    "text": "Well, I still think we're better off up here."
+  },
+  {
+    "cue_id": 374,
+    "timecode": "00:42:49,330 --> 00:42:51,297",
+    "original": "We could strengthen everything up, Mr. Cooper.",
+    "text": "We could strengthen everything up, Mr. Cooper."
+  },
+  {
+    "cue_id": 375,
+    "timecode": "00:42:51,507 --> 00:42:54,019",
+    "original": "With all of us working, we could fix this place up in no time.",
+    "text": "With all of us working, we could fix this place up in no time."
+  },
+  {
+    "cue_id": 376,
+    "timecode": "00:42:54,060 --> 00:42:55,734",
+    "original": "We have everything we need up here.",
+    "text": "We have everything we need up here."
+  },
+  {
+    "cue_id": 377,
+    "timecode": "00:42:55,776 --> 00:42:58,539",
+    "original": "We can take all that stuff downstairs with us.",
+    "text": "We can take all that stuff downstairs with us."
+  },
+  {
+    "cue_id": 378,
+    "timecode": "00:42:58,581 --> 00:43:00,171",
+    "original": "Man, you're really crazy, you know that?",
+    "text": "Man, you're really crazy, you know that?"
+  },
+  {
+    "cue_id": 379,
+    "timecode": "00:43:00,340 --> 00:43:01,678",
+    "original": "You got a million windows up here.",
+    "text": "You got a million windows up here."
+  },
+  {
+    "cue_id": 380,
+    "timecode": "00:43:01,713 --> 00:43:03,018",
+    "original": "All these windows. You're gonna...",
+    "text": "All these windows. You're gonna..."
+  },
+  {
+    "cue_id": 381,
+    "timecode": "00:43:03,102 --> 00:43:05,739",
+    "original": "You're gonna make 'em strong enough to keep these things out, huh?",
+    "text": "You're gonna make 'em strong enough to keep these things out, huh?"
+  },
+  {
+    "cue_id": 382,
+    "timecode": "00:43:05,781 --> 00:43:07,414",
+    "original": "I told you, those things don't have any strength.",
+    "text": "I told you, those things don't have any strength."
+  },
+  {
+    "cue_id": 383,
+    "timecode": "00:43:07,497 --> 00:43:10,134",
+    "original": "I smashed three of them and pushed another one out the door.",
+    "text": "I smashed three of them and pushed another one out the door."
+  },
+  {
+    "cue_id": 384,
+    "timecode": "00:43:10,218 --> 00:43:13,818",
+    "original": "Did you hear me, what I told you? They turned over our car.",
+    "text": "Did you hear me, what I told you? They turned over our car."
+  },
+  {
+    "cue_id": 385,
+    "timecode": "00:43:13,902 --> 00:43:15,701",
+    "original": "Oh hell, any good five men can do that.",
+    "text": "Oh hell, any good five men can do that."
+  },
+  {
+    "cue_id": 386,
+    "timecode": "00:43:15,743 --> 00:43:16,916",
+    "original": "That's my point...",
+    "text": "That's my point..."
+  },
+  {
+    "cue_id": 387,
+    "timecode": "00:43:16,958 --> 00:43:19,009",
+    "original": "Only there's not going to be five, or even ten.",
+    "text": "Only there's not going to be five, or even ten."
+  },
+  {
+    "cue_id": 388,
+    "timecode": "00:43:19,051 --> 00:43:21,939",
+    "original": "There's gonna be twenty, thirty, maybe a hundred of those things.",
+    "text": "There's gonna be twenty, thirty, maybe a hundred of those things."
+  },
+  {
+    "cue_id": 389,
+    "timecode": "00:43:21,974 --> 00:43:23,118",
+    "original": "And as soon as they know we're here,",
+    "text": "And as soon as they know we're here,"
+  },
+  {
+    "cue_id": 390,
+    "timecode": "00:43:23,153 --> 00:43:24,576",
+    "original": "this place\nis gonna be crawling with them.",
+    "text": "this place is gonna be crawling with them."
+  },
+  {
+    "cue_id": 391,
+    "timecode": "00:43:24,617 --> 00:43:27,883",
+    "original": "Well, if there're that many, they'll probably get us wherever we are.",
+    "text": "Well, if there're that many, they'll probably get us wherever we are."
+  },
+  {
+    "cue_id": 392,
+    "timecode": "00:43:28,552 --> 00:43:30,729",
+    "original": "Look, the cellar.",
+    "text": "Look, the cellar."
+  },
+  {
+    "cue_id": 393,
+    "timecode": "00:43:31,064 --> 00:43:32,697",
+    "original": "The cellar. There's only one door, right?",
+    "text": "The cellar. There's only one door, right?"
+  },
+  {
+    "cue_id": 394,
+    "timecode": "00:43:32,739 --> 00:43:35,585",
+    "original": "Just one door. That's all we have to protect.",
+    "text": "Just one door. That's all we have to protect."
+  },
+  {
+    "cue_id": 395,
+    "timecode": "00:43:35,627 --> 00:43:38,809",
+    "original": "Tom and I fixed it so it locks and boards from the inside.",
+    "text": "Tom and I fixed it so it locks and boards from the inside."
+  },
+  {
+    "cue_id": 396,
+    "timecode": "00:43:39,060 --> 00:43:40,273",
+    "original": "But up here, all these windows,",
+    "text": "But up here, all these windows,"
+  },
+  {
+    "cue_id": 397,
+    "timecode": "00:43:40,651 --> 00:43:42,869",
+    "original": "Why, we'd never know where they were gonna hit us next.",
+    "text": "Why, we'd never know where they were gonna hit us next."
+  },
+  {
+    "cue_id": 398,
+    "timecode": "00:43:42,904 --> 00:43:44,292",
+    "original": "You got a point, Mr. Cooper.",
+    "text": "You got a point, Mr. Cooper."
+  },
+  {
+    "cue_id": 399,
+    "timecode": "00:43:44,417 --> 00:43:47,223",
+    "original": "But down in the cellar, there's no place to run to.",
+    "text": "But down in the cellar, there's no place to run to."
+  },
+  {
+    "cue_id": 400,
+    "timecode": "00:43:47,515 --> 00:43:50,906",
+    "original": "I mean, if they did get in, there'd be no back exit. We'd be done for.",
+    "text": "I mean, if they did get in, there'd be no back exit. We'd be done for."
+  },
+  {
+    "cue_id": 401,
+    "timecode": "00:43:52,162 --> 00:43:53,711",
+    "original": "We can get out of here if we have to.",
+    "text": "We can get out of here if we have to."
+  },
+  {
+    "cue_id": 402,
+    "timecode": "00:43:53,753 --> 00:43:57,059",
+    "original": "And we got windows to see what's going on outside.",
+    "text": "And we got windows to see what's going on outside."
+  },
+  {
+    "cue_id": 403,
+    "timecode": "00:43:57,436 --> 00:43:59,201",
+    "original": "But down there, with no windows,",
+    "text": "But down there, with no windows,"
+  },
+  {
+    "cue_id": 404,
+    "timecode": "00:43:59,236 --> 00:44:01,538",
+    "original": "if a rescue party did come, we wouldn't even know it.",
+    "text": "if a rescue party did come, we wouldn't even know it."
+  },
+  {
+    "cue_id": 405,
+    "timecode": "00:44:01,622 --> 00:44:03,966",
+    "original": "But the cellar is the strongest place.",
+    "text": "But the cellar is the strongest place."
+  },
+  {
+    "cue_id": 406,
+    "timecode": "00:44:04,001 --> 00:44:05,557",
+    "original": "The cellar is a death trap.",
+    "text": "The cellar is a death trap."
+  },
+  {
+    "cue_id": 407,
+    "timecode": "00:44:05,724 --> 00:44:09,325",
+    "original": "I don't know, Mr. Cooper. I think he's right.",
+    "text": "I don't know, Mr. Cooper. I think he's right."
+  },
+  {
+    "cue_id": 408,
+    "timecode": "00:44:09,827 --> 00:44:11,752",
+    "original": "You know how many's out there?",
+    "text": "You know how many's out there?"
+  },
+  {
+    "cue_id": 409,
+    "timecode": "00:44:11,794 --> 00:44:13,468",
+    "original": "I don't know, I figure maybe six or seven.",
+    "text": "I don't know, I figure maybe six or seven."
+  },
+  {
+    "cue_id": 410,
+    "timecode": "00:44:13,678 --> 00:44:17,194",
+    "original": "Look. You two can do whatever you like.",
+    "text": "Look. You two can do whatever you like."
+  },
+  {
+    "cue_id": 411,
+    "timecode": "00:44:17,319 --> 00:44:21,003",
+    "original": "I'm going back down to the cellar and you better decide,",
+    "text": "I'm going back down to the cellar and you better decide,"
+  },
+  {
+    "cue_id": 412,
+    "timecode": "00:44:21,087 --> 00:44:23,222",
+    "original": "'cause I'm gonna board up that door,",
+    "text": "'cause I'm gonna board up that door,"
+  },
+  {
+    "cue_id": 413,
+    "timecode": "00:44:23,306 --> 00:44:25,440",
+    "original": "and I'm not gonna unlock it again no matter what happens.",
+    "text": "and I'm not gonna unlock it again no matter what happens."
+  },
+  {
+    "cue_id": 414,
+    "timecode": "00:44:25,482 --> 00:44:26,863",
+    "original": "Now wait a minute, Mr. Cooper.",
+    "text": "Now wait a minute, Mr. Cooper."
+  },
+  {
+    "cue_id": 415,
+    "timecode": "00:44:26,905 --> 00:44:29,961",
+    "original": "No, I'm not gonna wait! I've made my decision, now you make yours.",
+    "text": "No, I'm not gonna wait! I've made my decision, now you make yours."
+  },
+  {
+    "cue_id": 416,
+    "timecode": "00:44:30,045 --> 00:44:32,556",
+    "original": "Now wait a minute! Let's think about this.",
+    "text": "Now wait a minute! Let's think about this."
+  },
+  {
+    "cue_id": 417,
+    "timecode": "00:44:32,891 --> 00:44:34,859",
+    "original": "We can make it to the cellar\nif we have to.",
+    "text": "We can make it to the cellar if we have to."
+  },
+  {
+    "cue_id": 418,
+    "timecode": "00:44:35,361 --> 00:44:38,919",
+    "original": "And if we do decide to stay down there, We'll need some things from up here.",
+    "text": "And if we do decide to stay down there, We'll need some things from up here."
+  },
+  {
+    "cue_id": 419,
+    "timecode": "00:44:38,961 --> 00:44:41,473",
+    "original": "So let's at least consider this a while.",
+    "text": "So let's at least consider this a while."
+  },
+  {
+    "cue_id": 420,
+    "timecode": "00:44:45,617 --> 00:44:46,788",
+    "original": "If you box yourself in the cellar",
+    "text": "If you box yourself in the cellar"
+  },
+  {
+    "cue_id": 421,
+    "timecode": "00:44:46,830 --> 00:44:49,216",
+    "original": "and those things get in the house, you've had it.",
+    "text": "and those things get in the house, you've had it."
+  },
+  {
+    "cue_id": 422,
+    "timecode": "00:44:49,259 --> 00:44:51,519",
+    "original": "At least up here, you have a fighting chance.",
+    "text": "At least up here, you have a fighting chance."
+  },
+  {
+    "cue_id": 423,
+    "timecode": "00:44:55,412 --> 00:44:57,714",
+    "original": "Yeah, looks like about eight or ten of them now.",
+    "text": "Yeah, looks like about eight or ten of them now."
+  },
+  {
+    "cue_id": 424,
+    "timecode": "00:44:57,839 --> 00:45:01,733",
+    "original": "That's more than there were. There're a lot out back, too.",
+    "text": "That's more than there were. There're a lot out back, too."
+  },
+  {
+    "cue_id": 425,
+    "timecode": "00:45:44,304 --> 00:45:47,318",
+    "original": "Harry? Harry, what's happening?",
+    "text": "Harry? Harry, what's happening?"
+  },
+  {
+    "cue_id": 426,
+    "timecode": "00:45:47,353 --> 00:45:48,615",
+    "original": "It's all right!",
+    "text": "It's all right!"
+  },
+  {
+    "cue_id": 427,
+    "timecode": "00:46:03,392 --> 00:46:04,564",
+    "original": "Now take it.",
+    "text": "Now take it."
+  },
+  {
+    "cue_id": 428,
+    "timecode": "00:46:44,331 --> 00:46:45,754",
+    "original": "We've gotta fix these boards.",
+    "text": "We've gotta fix these boards."
+  },
+  {
+    "cue_id": 429,
+    "timecode": "00:46:46,591 --> 00:46:47,722",
+    "original": "You're crazy!",
+    "text": "You're crazy!"
+  },
+  {
+    "cue_id": 430,
+    "timecode": "00:46:48,182 --> 00:46:50,736",
+    "original": "Those things are gonna be at every window and door in this place!",
+    "text": "Those things are gonna be at every window and door in this place!"
+  },
+  {
+    "cue_id": 431,
+    "timecode": "00:46:50,903 --> 00:46:52,326",
+    "original": "We've got to get down into the cellar.",
+    "text": "We've got to get down into the cellar."
+  },
+  {
+    "cue_id": 432,
+    "timecode": "00:46:52,452 --> 00:46:54,503",
+    "original": "Go down into your damn cellar and get out of here!",
+    "text": "Go down into your damn cellar and get out of here!"
+  },
+  {
+    "cue_id": 433,
+    "timecode": "00:46:57,391 --> 00:46:59,700",
+    "original": "- I'm... I'm taking the girl with me. - You leave her here.",
+    "text": "- I'm... I'm taking the girl with me. - You leave her here."
+  },
+  {
+    "cue_id": 434,
+    "timecode": "00:46:59,735 --> 00:47:02,498",
+    "original": "Keep your hands off her, and everything else that's up here too.",
+    "text": "Keep your hands off her, and everything else that's up here too."
+  },
+  {
+    "cue_id": 435,
+    "timecode": "00:47:02,540 --> 00:47:05,136",
+    "original": "Because if I stay up here, I'm fighting for everything up here,",
+    "text": "Because if I stay up here, I'm fighting for everything up here,"
+  },
+  {
+    "cue_id": 436,
+    "timecode": "00:47:05,178 --> 00:47:07,605",
+    "original": "and the radio and the food is part of what I'm fighting for.",
+    "text": "and the radio and the food is part of what I'm fighting for."
+  },
+  {
+    "cue_id": 437,
+    "timecode": "00:47:08,108 --> 00:47:09,908",
+    "original": "Now if you're going down in the cellar, get.",
+    "text": "Now if you're going down in the cellar, get."
+  },
+  {
+    "cue_id": 438,
+    "timecode": "00:47:09,950 --> 00:47:11,205",
+    "original": "The man's insane. He's insane.",
+    "text": "The man's insane. He's insane."
+  },
+  {
+    "cue_id": 439,
+    "timecode": "00:47:12,879 --> 00:47:15,809",
+    "original": "We've... we've got to have food down there. We've got a right.",
+    "text": "We've... we've got to have food down there. We've got a right."
+  },
+  {
+    "cue_id": 440,
+    "timecode": "00:47:15,844 --> 00:47:17,651",
+    "original": "- This your house? - We've got a right.",
+    "text": "- This your house? - We've got a right."
+  },
+  {
+    "cue_id": 441,
+    "timecode": "00:47:17,986 --> 00:47:19,661",
+    "original": "You going down there with him?",
+    "text": "You going down there with him?"
+  },
+  {
+    "cue_id": 442,
+    "timecode": "00:47:20,457 --> 00:47:23,679",
+    "original": "Yes or no? This is your last chance. No beating around the bush.",
+    "text": "Yes or no? This is your last chance. No beating around the bush."
+  },
+  {
+    "cue_id": 443,
+    "timecode": "00:47:24,558 --> 00:47:26,316",
+    "original": "Listen, I got a kid down there.",
+    "text": "Listen, I got a kid down there."
+  },
+  {
+    "cue_id": 444,
+    "timecode": "00:47:26,818 --> 00:47:28,619",
+    "original": "She can't possib... I couldn't bring her up here.",
+    "text": "She can't possib... I couldn't bring her up here."
+  },
+  {
+    "cue_id": 445,
+    "timecode": "00:47:28,702 --> 00:47:31,046",
+    "original": "She can't possibly take all the racket from those things",
+    "text": "She can't possibly take all the racket from those things"
+  },
+  {
+    "cue_id": 446,
+    "timecode": "00:47:31,081 --> 00:47:32,637",
+    "original": "smashing through the windows.",
+    "text": "smashing through the windows."
+  },
+  {
+    "cue_id": 447,
+    "timecode": "00:47:32,672 --> 00:47:33,984",
+    "original": "Well, you're her father.",
+    "text": "Well, you're her father."
+  },
+  {
+    "cue_id": 448,
+    "timecode": "00:47:34,019 --> 00:47:37,075",
+    "original": "If you're stupid enough to go die in that trap, that's your business.",
+    "text": "If you're stupid enough to go die in that trap, that's your business."
+  },
+  {
+    "cue_id": 449,
+    "timecode": "00:47:37,116 --> 00:47:39,502",
+    "original": "However, I am not stupid enough to follow you.",
+    "text": "However, I am not stupid enough to follow you."
+  },
+  {
+    "cue_id": 450,
+    "timecode": "00:47:40,507 --> 00:47:43,019",
+    "original": "It is tough for the kid that her old man is so stupid.",
+    "text": "It is tough for the kid that her old man is so stupid."
+  },
+  {
+    "cue_id": 451,
+    "timecode": "00:47:43,312 --> 00:47:46,074",
+    "original": "Now, get the hell down in the cellar.",
+    "text": "Now, get the hell down in the cellar."
+  },
+  {
+    "cue_id": 452,
+    "timecode": "00:47:46,200 --> 00:47:48,962",
+    "original": "You can be the boss down there. I'm boss up here.",
+    "text": "You can be the boss down there. I'm boss up here."
+  },
+  {
+    "cue_id": 453,
+    "timecode": "00:47:51,014 --> 00:47:52,730",
+    "original": "You bastards!",
+    "text": "You bastards!"
+  },
+  {
+    "cue_id": 454,
+    "timecode": "00:47:54,698 --> 00:47:57,586",
+    "original": "You know, I won't open this door again. I mean it.",
+    "text": "You know, I won't open this door again. I mean it."
+  },
+  {
+    "cue_id": 455,
+    "timecode": "00:47:57,837 --> 00:48:00,893",
+    "original": "- Mr. Cooper, with your help... - With my help.",
+    "text": "- Mr. Cooper, with your help... - With my help."
+  },
+  {
+    "cue_id": 456,
+    "timecode": "00:48:00,935 --> 00:48:04,158",
+    "original": "Let him go, man. His mind is made up.",
+    "text": "Let him go, man. His mind is made up."
+  },
+  {
+    "cue_id": 457,
+    "timecode": "00:48:06,125 --> 00:48:07,129",
+    "original": "Wait a minute.",
+    "text": "Wait a minute."
+  },
+  {
+    "cue_id": 458,
+    "timecode": "00:48:09,516 --> 00:48:11,357",
+    "original": "Judy? Come on up here, honey.",
+    "text": "Judy? Come on up here, honey."
+  },
+  {
+    "cue_id": 459,
+    "timecode": "00:48:18,851 --> 00:48:20,483",
+    "original": "You're gonna let them get her too, huh?",
+    "text": "You're gonna let them get her too, huh?"
+  },
+  {
+    "cue_id": 460,
+    "timecode": "00:48:20,944 --> 00:48:22,492",
+    "original": "It's all right, honey. Go ahead.",
+    "text": "It's all right, honey. Go ahead."
+  },
+  {
+    "cue_id": 461,
+    "timecode": "00:48:32,999 --> 00:48:35,720",
+    "original": "If we stick together, man, we can fix it up real good.",
+    "text": "If we stick together, man, we can fix it up real good."
+  },
+  {
+    "cue_id": 462,
+    "timecode": "00:48:36,348 --> 00:48:38,902",
+    "original": "There's lots of places we can run to up here.",
+    "text": "There's lots of places we can run to up here."
+  },
+  {
+    "cue_id": 463,
+    "timecode": "00:48:39,739 --> 00:48:42,480",
+    "original": "Mr. Cooper? We'd all be a lot better off",
+    "text": "Mr. Cooper? We'd all be a lot better off"
+  },
+  {
+    "cue_id": 464,
+    "timecode": "00:48:42,515 --> 00:48:45,223",
+    "original": "if all three of us were working together.",
+    "text": "if all three of us were working together."
+  },
+  {
+    "cue_id": 465,
+    "timecode": "00:48:48,153 --> 00:48:49,660",
+    "original": "Hey. Hey, kid.",
+    "text": "Hey. Hey, kid."
+  },
+  {
+    "cue_id": 466,
+    "timecode": "00:48:58,240 --> 00:48:59,580",
+    "original": "He's wrong, you know.",
+    "text": "He's wrong, you know."
+  },
+  {
+    "cue_id": 467,
+    "timecode": "00:49:00,501 --> 00:49:02,426",
+    "original": "I'm not boxing myself in down there.",
+    "text": "I'm not boxing myself in down there."
+  },
+  {
+    "cue_id": 468,
+    "timecode": "00:49:09,627 --> 00:49:11,762",
+    "original": "Well, we're safe now. It's boarded up tight.",
+    "text": "Well, we're safe now. It's boarded up tight."
+  },
+  {
+    "cue_id": 469,
+    "timecode": "00:49:14,064 --> 00:49:15,319",
+    "original": "What about Tom and Judy?",
+    "text": "What about Tom and Judy?"
+  },
+  {
+    "cue_id": 470,
+    "timecode": "00:49:15,529 --> 00:49:17,120",
+    "original": "They wanna stay up there. Let 'em.",
+    "text": "They wanna stay up there. Let 'em."
+  },
+  {
+    "cue_id": 471,
+    "timecode": "00:49:21,599 --> 00:49:26,621",
+    "original": "There are... two other people upstairs. A man and a girl.",
+    "text": "There are... two other people upstairs. A man and a girl."
+  },
+  {
+    "cue_id": 472,
+    "timecode": "00:49:26,656 --> 00:49:28,296",
+    "original": "We heard the screaming.",
+    "text": "We heard the screaming."
+  },
+  {
+    "cue_id": 473,
+    "timecode": "00:49:28,924 --> 00:49:31,184",
+    "original": "Yeah, but I didn't know who they were,",
+    "text": "Yeah, but I didn't know who they were,"
+  },
+  {
+    "cue_id": 474,
+    "timecode": "00:49:31,435 --> 00:49:33,445",
+    "original": "and I wasn't about to take any unnecessary chances.",
+    "text": "and I wasn't about to take any unnecessary chances."
+  },
+  {
+    "cue_id": 475,
+    "timecode": "00:49:33,486 --> 00:49:34,994",
+    "original": "Of course not, Harry.",
+    "text": "Of course not, Harry."
+  },
+  {
+    "cue_id": 476,
+    "timecode": "00:49:48,389 --> 00:49:52,575",
+    "original": "- Is she all right? - I don't know what it is.",
+    "text": "- Is she all right? - I don't know what it is."
+  },
+  {
+    "cue_id": 477,
+    "timecode": "00:49:52,659 --> 00:49:53,998",
+    "original": "She feels warm. Maybe it's shock.",
+    "text": "She feels warm. Maybe it's shock."
+  },
+  {
+    "cue_id": 478,
+    "timecode": "00:49:54,793 --> 00:49:56,301",
+    "original": "Where'd you get the bandage?",
+    "text": "Where'd you get the bandage?"
+  },
+  {
+    "cue_id": 479,
+    "timecode": "00:49:56,845 --> 00:50:00,318",
+    "original": "Some laundry in the basket. I tore a sheet.",
+    "text": "Some laundry in the basket. I tore a sheet."
+  },
+  {
+    "cue_id": 480,
+    "timecode": "00:50:07,896 --> 00:50:09,947",
+    "original": "Let them stay upstairs.",
+    "text": "Let them stay upstairs."
+  },
+  {
+    "cue_id": 481,
+    "timecode": "00:50:10,909 --> 00:50:11,998",
+    "original": "Let them.",
+    "text": "Let them."
+  },
+  {
+    "cue_id": 482,
+    "timecode": "00:50:13,253 --> 00:50:15,974",
+    "original": "Too many ways those monsters can get in up there.",
+    "text": "Too many ways those monsters can get in up there."
+  },
+  {
+    "cue_id": 483,
+    "timecode": "00:50:17,314 --> 00:50:19,198",
+    "original": "We'll see who's right.",
+    "text": "We'll see who's right."
+  },
+  {
+    "cue_id": 484,
+    "timecode": "00:50:19,407 --> 00:50:22,797",
+    "original": "We'll see, when they come begging me to let them in down here.",
+    "text": "We'll see, when they come begging me to let them in down here."
+  },
+  {
+    "cue_id": 485,
+    "timecode": "00:50:23,216 --> 00:50:25,435",
+    "original": "- That's important, isn't it? - What?",
+    "text": "- That's important, isn't it? - What?"
+  },
+  {
+    "cue_id": 486,
+    "timecode": "00:50:25,853 --> 00:50:27,528",
+    "original": "To be right. Everybody else to be wrong.",
+    "text": "To be right. Everybody else to be wrong."
+  },
+  {
+    "cue_id": 487,
+    "timecode": "00:50:27,563 --> 00:50:29,327",
+    "original": "What do you mean by that?",
+    "text": "What do you mean by that?"
+  },
+  {
+    "cue_id": 488,
+    "timecode": "00:50:33,011 --> 00:50:35,983",
+    "original": "Does anyone up there know why we're being attacked?",
+    "text": "Does anyone up there know why we're being attacked?"
+  },
+  {
+    "cue_id": 489,
+    "timecode": "00:50:36,988 --> 00:50:39,500",
+    "original": "Whatever it is, it isn't just happening here.",
+    "text": "Whatever it is, it isn't just happening here."
+  },
+  {
+    "cue_id": 490,
+    "timecode": "00:50:39,960 --> 00:50:42,429",
+    "original": "It's some kind of mass murder. It's going on everywhere.",
+    "text": "It's some kind of mass murder. It's going on everywhere."
+  },
+  {
+    "cue_id": 491,
+    "timecode": "00:50:43,142 --> 00:50:44,941",
+    "original": "- The radio said to stay inside... - Radio?",
+    "text": "- The radio said to stay inside... - Radio?"
+  },
+  {
+    "cue_id": 492,
+    "timecode": "00:50:46,072 --> 00:50:47,788",
+    "original": "Radio, upstairs. I heard the news bulletin.",
+    "text": "Radio, upstairs. I heard the news bulletin."
+  },
+  {
+    "cue_id": 493,
+    "timecode": "00:50:47,872 --> 00:50:50,802",
+    "original": "There's a radio upstairs and you boarded us in down here?",
+    "text": "There's a radio upstairs and you boarded us in down here?"
+  },
+  {
+    "cue_id": 494,
+    "timecode": "00:50:50,885 --> 00:50:53,104",
+    "original": "- I know what I'm doing. - What did it say?",
+    "text": "- I know what I'm doing. - What did it say?"
+  },
+  {
+    "cue_id": 495,
+    "timecode": "00:50:53,146 --> 00:50:55,281",
+    "original": "Nothing! Nothing. They don't know anything yet.",
+    "text": "Nothing! Nothing. They don't know anything yet."
+  },
+  {
+    "cue_id": 496,
+    "timecode": "00:50:55,783 --> 00:50:57,416",
+    "original": "The... there's mass murder everywhere, and",
+    "text": "The... there's mass murder everywhere, and"
+  },
+  {
+    "cue_id": 497,
+    "timecode": "00:50:57,499 --> 00:51:00,681",
+    "original": "people are supposed to look for a safe place to hide.",
+    "text": "people are supposed to look for a safe place to hide."
+  },
+  {
+    "cue_id": 498,
+    "timecode": "00:51:00,723 --> 00:51:02,522",
+    "original": "Take the boards off that door.",
+    "text": "Take the boards off that door."
+  },
+  {
+    "cue_id": 499,
+    "timecode": "00:51:03,402 --> 00:51:05,411",
+    "original": "We are staying down here, Helen.",
+    "text": "We are staying down here, Helen."
+  },
+  {
+    "cue_id": 500,
+    "timecode": "00:51:05,453 --> 00:51:08,257",
+    "original": "Harry, that radio is at least some kind of communication.",
+    "text": "Harry, that radio is at least some kind of communication."
+  },
+  {
+    "cue_id": 501,
+    "timecode": "00:51:08,425 --> 00:51:10,309",
+    "original": "If the authorities know what's happening,",
+    "text": "If the authorities know what's happening,"
+  },
+  {
+    "cue_id": 502,
+    "timecode": "00:51:10,392 --> 00:51:13,406",
+    "original": "Well, they'll send people for us, or they'll tell us what to do.",
+    "text": "Well, they'll send people for us, or they'll tell us what to do."
+  },
+  {
+    "cue_id": 503,
+    "timecode": "00:51:13,741 --> 00:51:15,332",
+    "original": "How are we going to know what's going on,",
+    "text": "How are we going to know what's going on,"
+  },
+  {
+    "cue_id": 504,
+    "timecode": "00:51:15,373 --> 00:51:17,132",
+    "original": "if we lock ourselves in this dungeon?",
+    "text": "if we lock ourselves in this dungeon?"
+  },
+  {
+    "cue_id": 505,
+    "timecode": "00:51:27,639 --> 00:51:29,732",
+    "original": "We may not enjoy living together...",
+    "text": "We may not enjoy living together..."
+  },
+  {
+    "cue_id": 506,
+    "timecode": "00:51:31,489 --> 00:51:33,791",
+    "original": "But dying together isn't going to solve anything.",
+    "text": "But dying together isn't going to solve anything."
+  },
+  {
+    "cue_id": 507,
+    "timecode": "00:51:34,546 --> 00:51:36,680",
+    "original": "Those people aren't our enemies.",
+    "text": "Those people aren't our enemies."
+  },
+  {
+    "cue_id": 508,
+    "timecode": "00:51:36,890 --> 00:51:38,187",
+    "original": "Mr. Cooper!",
+    "text": "Mr. Cooper!"
+  },
+  {
+    "cue_id": 509,
+    "timecode": "00:51:40,112 --> 00:51:43,294",
+    "original": "Mr. Cooper? They found a television set upstairs.",
+    "text": "Mr. Cooper? They found a television set upstairs."
+  },
+  {
+    "cue_id": 510,
+    "timecode": "00:51:45,848 --> 00:51:46,852",
+    "original": "Let's go up.",
+    "text": "Let's go up."
+  },
+  {
+    "cue_id": 511,
+    "timecode": "00:51:47,103 --> 00:51:48,192",
+    "original": "Tom?",
+    "text": "Tom?"
+  },
+  {
+    "cue_id": 512,
+    "timecode": "00:51:48,652 --> 00:51:49,447",
+    "original": "Yes?",
+    "text": "Yes?"
+  },
+  {
+    "cue_id": 513,
+    "timecode": "00:51:50,452 --> 00:51:53,089",
+    "original": "If Judy would come downstairs for a few minutes,",
+    "text": "If Judy would come downstairs for a few minutes,"
+  },
+  {
+    "cue_id": 514,
+    "timecode": "00:51:53,173 --> 00:51:55,308",
+    "original": "Harry and I could come upstairs.",
+    "text": "Harry and I could come upstairs."
+  },
+  {
+    "cue_id": 515,
+    "timecode": "00:51:56,103 --> 00:51:57,735",
+    "original": "Ok. Yeah. Right away.",
+    "text": "Ok. Yeah. Right away."
+  },
+  {
+    "cue_id": 516,
+    "timecode": "00:52:00,876 --> 00:52:01,838",
+    "original": "Will you do it?",
+    "text": "Will you do it?"
+  },
+  {
+    "cue_id": 517,
+    "timecode": "00:52:02,424 --> 00:52:03,812",
+    "original": "Do I have to?",
+    "text": "Do I have to?"
+  },
+  {
+    "cue_id": 518,
+    "timecode": "00:52:03,847 --> 00:52:07,615",
+    "original": "Look, honey. Nothing's gonna get done with them down there and us up here.",
+    "text": "Look, honey. Nothing's gonna get done with them down there and us up here."
+  },
+  {
+    "cue_id": 519,
+    "timecode": "00:52:08,075 --> 00:52:11,843",
+    "original": "- Do this. For me. - Ok.",
+    "text": "- Do this. For me. - Ok."
+  },
+  {
+    "cue_id": 520,
+    "timecode": "00:52:13,349 --> 00:52:14,605",
+    "original": "Ok, open up.",
+    "text": "Ok, open up."
+  },
+  {
+    "cue_id": 521,
+    "timecode": "00:52:36,749 --> 00:52:38,465",
+    "original": "I'll take good care of her, Helen.",
+    "text": "I'll take good care of her, Helen."
+  },
+  {
+    "cue_id": 522,
+    "timecode": "00:52:41,940 --> 00:52:43,279",
+    "original": "She's all I have.",
+    "text": "She's all I have."
+  },
+  {
+    "cue_id": 523,
+    "timecode": "00:52:45,331 --> 00:52:46,795",
+    "original": "Why don't you go upstairs now?",
+    "text": "Why don't you go upstairs now?"
+  },
+  {
+    "cue_id": 524,
+    "timecode": "00:53:14,967 --> 00:53:16,349",
+    "original": "Her brother was killed.",
+    "text": "Her brother was killed."
+  },
+  {
+    "cue_id": 525,
+    "timecode": "00:53:17,228 --> 00:53:19,028",
+    "original": "Hey... give me a hand with this thing.",
+    "text": "Hey... give me a hand with this thing."
+  },
+  {
+    "cue_id": 526,
+    "timecode": "00:53:20,367 --> 00:53:22,334",
+    "original": "I gotta go help Ben with the television.",
+    "text": "I gotta go help Ben with the television."
+  },
+  {
+    "cue_id": 527,
+    "timecode": "00:54:05,785 --> 00:54:07,208",
+    "original": "Don't be afraid of me.",
+    "text": "Don't be afraid of me."
+  },
+  {
+    "cue_id": 528,
+    "timecode": "00:54:07,878 --> 00:54:11,143",
+    "original": "I'm Helen Cooper. Harry's wife.",
+    "text": "I'm Helen Cooper. Harry's wife."
+  },
+  {
+    "cue_id": 529,
+    "timecode": "00:54:19,180 --> 00:54:22,528",
+    "original": "This place is ridiculous. Look at this.",
+    "text": "This place is ridiculous. Look at this."
+  },
+  {
+    "cue_id": 530,
+    "timecode": "00:54:22,738 --> 00:54:24,663",
+    "original": "There's a million weak spots up here.",
+    "text": "There's a million weak spots up here."
+  },
+  {
+    "cue_id": 531,
+    "timecode": "00:54:26,798 --> 00:54:28,138",
+    "original": "Give me one of those.",
+    "text": "Give me one of those."
+  },
+  {
+    "cue_id": 532,
+    "timecode": "00:54:32,575 --> 00:54:34,334",
+    "original": "Her brother was killed.",
+    "text": "Her brother was killed."
+  },
+  {
+    "cue_id": 533,
+    "timecode": "00:54:42,161 --> 00:54:44,338",
+    "original": "And they talk about these windows.",
+    "text": "And they talk about these windows."
+  },
+  {
+    "cue_id": 534,
+    "timecode": "00:54:45,049 --> 00:54:46,556",
+    "original": "I can't see a damned thing.",
+    "text": "I can't see a damned thing."
+  },
+  {
+    "cue_id": 535,
+    "timecode": "00:54:47,058 --> 00:54:49,319",
+    "original": "There could be 15 million of those things out there.",
+    "text": "There could be 15 million of those things out there."
+  },
+  {
+    "cue_id": 536,
+    "timecode": "00:54:49,528 --> 00:54:51,203",
+    "original": "That's how much good these windows are.",
+    "text": "That's how much good these windows are."
+  },
+  {
+    "cue_id": 537,
+    "timecode": "00:54:55,807 --> 00:54:58,486",
+    "original": "Why don't you do something\nto help somebody?",
+    "text": "Why don't you do something to help somebody?"
+  },
+  {
+    "cue_id": 538,
+    "timecode": "00:55:03,594 --> 00:55:06,063",
+    "original": "Here, I have it. Drag a couple of those chairs together.",
+    "text": "Here, I have it. Drag a couple of those chairs together."
+  },
+  {
+    "cue_id": 539,
+    "timecode": "00:55:06,482 --> 00:55:07,989",
+    "original": "There's a socket over here.",
+    "text": "There's a socket over here."
+  },
+  {
+    "cue_id": 540,
+    "timecode": "00:55:13,095 --> 00:55:16,193",
+    "original": "Now, you'd better watch this and try to understand what's going on.",
+    "text": "Now, you'd better watch this and try to understand what's going on."
+  },
+  {
+    "cue_id": 541,
+    "timecode": "00:55:18,077 --> 00:55:19,709",
+    "original": "I don't want anyone's life on my hands.",
+    "text": "I don't want anyone's life on my hands."
+  },
+  {
+    "cue_id": 542,
+    "timecode": "00:55:19,751 --> 00:55:21,265",
+    "original": "Is there anything I can do to help?",
+    "text": "Is there anything I can do to help?"
+  },
+  {
+    "cue_id": 543,
+    "timecode": "00:55:21,300 --> 00:55:22,974",
+    "original": "I don't want to hear any more from you, mister.",
+    "text": "I don't want to hear any more from you, mister."
+  },
+  {
+    "cue_id": 544,
+    "timecode": "00:55:23,142 --> 00:55:25,192",
+    "original": "If you stay up here, you take orders from me!",
+    "text": "If you stay up here, you take orders from me!"
+  },
+  {
+    "cue_id": 545,
+    "timecode": "00:55:25,445 --> 00:55:27,453",
+    "original": "And that includes leaving the girl alone.",
+    "text": "And that includes leaving the girl alone."
+  },
+  {
+    "cue_id": 546,
+    "timecode": "00:55:27,747 --> 00:55:28,918",
+    "original": "It's on! It's on!",
+    "text": "It's on! It's on!"
+  },
+  {
+    "cue_id": 547,
+    "timecode": "00:55:29,002 --> 00:55:30,049",
+    "original": "There's no sound.",
+    "text": "There's no sound."
+  },
+  {
+    "cue_id": 548,
+    "timecode": "00:55:31,262 --> 00:55:32,644",
+    "original": "Play with the rabbit ears.",
+    "text": "Play with the rabbit ears."
+  },
+  {
+    "cue_id": 549,
+    "timecode": "00:55:33,397 --> 00:55:36,160",
+    "original": "<i>Reports, incredible as they seem,</i>",
+    "text": "Reports, incredible as they seem,"
+  },
+  {
+    "cue_id": 550,
+    "timecode": "00:55:36,202 --> 00:55:38,714",
+    "original": "<i>are not the results of mass hysteria.</i>",
+    "text": "are not the results of mass hysteria."
+  },
+  {
+    "cue_id": 551,
+    "timecode": "00:55:38,756 --> 00:55:41,895",
+    "original": "\"Mass hysteria. \" What do they think, we're imagining all this?",
+    "text": "\"Mass hysteria. \" What do they think, we're imagining all this?"
+  },
+  {
+    "cue_id": 552,
+    "timecode": "00:55:41,937 --> 00:55:42,774",
+    "original": "Shut up.",
+    "text": "Shut up."
+  },
+  {
+    "cue_id": 553,
+    "timecode": "00:55:42,816 --> 00:55:44,407",
+    "original": "In all parts of the country.",
+    "text": "In all parts of the country."
+  },
+  {
+    "cue_id": 554,
+    "timecode": "00:55:44,490 --> 00:55:47,965",
+    "original": "The wave of murder which is sweeping the eastern third of the nation",
+    "text": "The wave of murder which is sweeping the eastern third of the nation"
+  },
+  {
+    "cue_id": 555,
+    "timecode": "00:55:48,007 --> 00:55:50,274",
+    "original": "is being committed by creatures",
+    "text": "is being committed by creatures"
+  },
+  {
+    "cue_id": 556,
+    "timecode": "00:55:50,309 --> 00:55:52,737",
+    "original": "who feast upon the flesh of their victims.",
+    "text": "who feast upon the flesh of their victims."
+  },
+  {
+    "cue_id": 557,
+    "timecode": "00:55:53,323 --> 00:55:56,176",
+    "original": "First eyewitness accounts of this grisly development",
+    "text": "First eyewitness accounts of this grisly development"
+  },
+  {
+    "cue_id": 558,
+    "timecode": "00:55:56,211 --> 00:56:00,439",
+    "original": "came from people who were understandably frightened and almost incoherent.",
+    "text": "came from people who were understandably frightened and almost incoherent."
+  },
+  {
+    "cue_id": 559,
+    "timecode": "00:56:00,900 --> 00:56:04,081",
+    "original": "Officials and newsmen at first discounted",
+    "text": "Officials and newsmen at first discounted"
+  },
+  {
+    "cue_id": 560,
+    "timecode": "00:56:04,123 --> 00:56:06,927",
+    "original": "those eyewitness descriptions as being beyond belief.",
+    "text": "those eyewitness descriptions as being beyond belief."
+  },
+  {
+    "cue_id": 561,
+    "timecode": "00:56:07,136 --> 00:56:09,606",
+    "original": "However, the reports persisted.",
+    "text": "However, the reports persisted."
+  },
+  {
+    "cue_id": 562,
+    "timecode": "00:56:09,774 --> 00:56:12,251",
+    "original": "Medical examinations of some of the victims",
+    "text": "Medical examinations of some of the victims"
+  },
+  {
+    "cue_id": 563,
+    "timecode": "00:56:12,286 --> 00:56:16,136",
+    "original": "bore out the fact that they had been partially devoured.",
+    "text": "bore out the fact that they had been partially devoured."
+  },
+  {
+    "cue_id": 564,
+    "timecode": "00:56:18,187 --> 00:56:20,322",
+    "original": "I think we have some late word just arriving",
+    "text": "I think we have some late word just arriving"
+  },
+  {
+    "cue_id": 565,
+    "timecode": "00:56:20,699 --> 00:56:22,708",
+    "original": "and we interrupt to bring this to you.",
+    "text": "and we interrupt to bring this to you."
+  },
+  {
+    "cue_id": 566,
+    "timecode": "00:56:24,592 --> 00:56:26,601",
+    "original": "This is the latest disclosure in a report",
+    "text": "This is the latest disclosure in a report"
+  },
+  {
+    "cue_id": 567,
+    "timecode": "00:56:26,643 --> 00:56:29,322",
+    "original": "from National civil defense headquarters in Washington.",
+    "text": "from National civil defense headquarters in Washington."
+  },
+  {
+    "cue_id": 568,
+    "timecode": "00:56:29,531 --> 00:56:33,508",
+    "original": "It has been established that persons who have recently died",
+    "text": "It has been established that persons who have recently died"
+  },
+  {
+    "cue_id": 569,
+    "timecode": "00:56:33,550 --> 00:56:37,652",
+    "original": "have been returning to life and committing acts of murder.",
+    "text": "have been returning to life and committing acts of murder."
+  },
+  {
+    "cue_id": 570,
+    "timecode": "00:56:38,238 --> 00:56:43,178",
+    "original": "A widespread investigation of reports from funeral homes, morgues & hospitals",
+    "text": "A widespread investigation of reports from funeral homes, morgues & hospitals"
+  },
+  {
+    "cue_id": 571,
+    "timecode": "00:56:43,220 --> 00:56:47,280",
+    "original": "has concluded that the unburied dead are coming back to life",
+    "text": "has concluded that the unburied dead are coming back to life"
+  },
+  {
+    "cue_id": 572,
+    "timecode": "00:56:47,322 --> 00:56:49,456",
+    "original": "and seeking human victims.",
+    "text": "and seeking human victims."
+  },
+  {
+    "cue_id": 573,
+    "timecode": "00:56:50,294 --> 00:56:53,350",
+    "original": "It's hard for us here to believe what we're reporting to you,",
+    "text": "It's hard for us here to believe what we're reporting to you,"
+  },
+  {
+    "cue_id": 574,
+    "timecode": "00:56:53,385 --> 00:56:54,982",
+    "original": "but it does seem to be a fact.",
+    "text": "but it does seem to be a fact."
+  },
+  {
+    "cue_id": 575,
+    "timecode": "00:56:56,154 --> 00:56:57,829",
+    "original": "When this emergency first began,",
+    "text": "When this emergency first began,"
+  },
+  {
+    "cue_id": 576,
+    "timecode": "00:56:58,205 --> 00:57:01,638",
+    "original": "radio and television was advising people to stay inside,",
+    "text": "radio and television was advising people to stay inside,"
+  },
+  {
+    "cue_id": 577,
+    "timecode": "00:57:01,680 --> 00:57:04,031",
+    "original": "behind locked doors, for safety.",
+    "text": "behind locked doors, for safety."
+  },
+  {
+    "cue_id": 578,
+    "timecode": "00:57:04,066 --> 00:57:06,166",
+    "original": "Well, that situation has now changed.",
+    "text": "Well, that situation has now changed."
+  },
+  {
+    "cue_id": 579,
+    "timecode": "00:57:06,201 --> 00:57:09,340",
+    "original": "We're able to report a definite course of action for you.",
+    "text": "We're able to report a definite course of action for you."
+  },
+  {
+    "cue_id": 580,
+    "timecode": "00:57:09,465 --> 00:57:11,977",
+    "original": "Civil defense machinery has been organized to provide",
+    "text": "Civil defense machinery has been organized to provide"
+  },
+  {
+    "cue_id": 581,
+    "timecode": "00:57:12,145 --> 00:57:15,207",
+    "original": "rescue stations with food, shelter,",
+    "text": "rescue stations with food, shelter,"
+  },
+  {
+    "cue_id": 582,
+    "timecode": "00:57:15,242 --> 00:57:18,717",
+    "original": "medical treatment and protection by armed National Guardsmen.",
+    "text": "medical treatment and protection by armed National Guardsmen."
+  },
+  {
+    "cue_id": 583,
+    "timecode": "00:57:19,052 --> 00:57:22,442",
+    "original": "Stay tuned to the broadcasting stations in your local area",
+    "text": "Stay tuned to the broadcasting stations in your local area"
+  },
+  {
+    "cue_id": 584,
+    "timecode": "00:57:22,484 --> 00:57:24,291",
+    "original": "for this list of rescue stations.",
+    "text": "for this list of rescue stations."
+  },
+  {
+    "cue_id": 585,
+    "timecode": "00:57:24,326 --> 00:57:27,423",
+    "original": "This list will be repeated throughout our news coverage.",
+    "text": "This list will be repeated throughout our news coverage."
+  },
+  {
+    "cue_id": 586,
+    "timecode": "00:57:27,507 --> 00:57:30,898",
+    "original": "Look for the name of the rescue station nearest you,",
+    "text": "Look for the name of the rescue station nearest you,"
+  },
+  {
+    "cue_id": 587,
+    "timecode": "00:57:30,982 --> 00:57:34,415",
+    "original": "and make your way to that location as soon as possible.",
+    "text": "and make your way to that location as soon as possible."
+  },
+  {
+    "cue_id": 588,
+    "timecode": "00:57:34,624 --> 00:57:37,470",
+    "original": "So we have that truck. If we can get some gas, we can get outta here.",
+    "text": "So we have that truck. If we can get some gas, we can get outta here."
+  },
+  {
+    "cue_id": 589,
+    "timecode": "00:57:37,554 --> 00:57:40,316",
+    "original": "- There's a pump out by the shed. - I know. That's why I pulled in here.",
+    "text": "- There's a pump out by the shed. - I know. That's why I pulled in here."
+  },
+  {
+    "cue_id": 590,
+    "timecode": "00:57:40,358 --> 00:57:41,286",
+    "original": "But it's locked.",
+    "text": "But it's locked."
+  },
+  {
+    "cue_id": 591,
+    "timecode": "00:57:41,321 --> 00:57:43,833",
+    "original": "...called this afternoon by the president.",
+    "text": "...called this afternoon by the president."
+  },
+  {
+    "cue_id": 592,
+    "timecode": "00:57:43,875 --> 00:57:47,181",
+    "original": "Since convening, this conference of the presidential cabinet,",
+    "text": "Since convening, this conference of the presidential cabinet,"
+  },
+  {
+    "cue_id": 593,
+    "timecode": "00:57:47,223 --> 00:57:50,154",
+    "original": "The FBI, the joint chiefs of staff, the CIA",
+    "text": "The FBI, the joint chiefs of staff, the CIA"
+  },
+  {
+    "cue_id": 594,
+    "timecode": "00:57:50,196 --> 00:57:53,126",
+    "original": "has not produced any public information.",
+    "text": "has not produced any public information."
+  },
+  {
+    "cue_id": 595,
+    "timecode": "00:57:53,251 --> 00:57:56,265",
+    "original": "Why are space experts being consulted",
+    "text": "Why are space experts being consulted"
+  },
+  {
+    "cue_id": 596,
+    "timecode": "00:57:56,300 --> 00:57:58,065",
+    "original": "about an earthbound emergency?",
+    "text": "about an earthbound emergency?"
+  },
+  {
+    "cue_id": 597,
+    "timecode": "00:57:59,070 --> 00:58:02,084",
+    "original": "So far, all the betting on the answer to that question",
+    "text": "So far, all the betting on the answer to that question"
+  },
+  {
+    "cue_id": 598,
+    "timecode": "00:58:02,125 --> 00:58:05,223",
+    "original": "centers on the recent explorer satellite shot to Venus.",
+    "text": "centers on the recent explorer satellite shot to Venus."
+  },
+  {
+    "cue_id": 599,
+    "timecode": "00:58:05,809 --> 00:58:09,032",
+    "original": "That satellite, you recall, started back to Earth,",
+    "text": "That satellite, you recall, started back to Earth,"
+  },
+  {
+    "cue_id": 600,
+    "timecode": "00:58:09,067 --> 00:58:10,414",
+    "original": "but never got here.",
+    "text": "but never got here."
+  },
+  {
+    "cue_id": 601,
+    "timecode": "00:58:10,790 --> 00:58:13,218",
+    "original": "That's the space vehicle which orbited Venus",
+    "text": "That's the space vehicle which orbited Venus"
+  },
+  {
+    "cue_id": 602,
+    "timecode": "00:58:13,260 --> 00:58:15,583",
+    "original": "and then was purposely destroyed by NASA,",
+    "text": "and then was purposely destroyed by NASA,"
+  },
+  {
+    "cue_id": 603,
+    "timecode": "00:58:15,618 --> 00:58:17,906",
+    "original": "when scientists discovered it was carrying",
+    "text": "when scientists discovered it was carrying"
+  },
+  {
+    "cue_id": 604,
+    "timecode": "00:58:17,948 --> 00:58:20,209",
+    "original": "a mysterious, high-level radiation with it.",
+    "text": "a mysterious, high-level radiation with it."
+  },
+  {
+    "cue_id": 605,
+    "timecode": "00:58:20,543 --> 00:58:23,097",
+    "original": "Could that radiation be somehow responsible",
+    "text": "Could that radiation be somehow responsible"
+  },
+  {
+    "cue_id": 606,
+    "timecode": "00:58:23,180 --> 00:58:25,818",
+    "original": "for the wholesale murders we're now suffering?",
+    "text": "for the wholesale murders we're now suffering?"
+  },
+  {
+    "cue_id": 607,
+    "timecode": "00:58:26,446 --> 00:58:28,916",
+    "original": "Newsman Don Quinn in Washington",
+    "text": "Newsman Don Quinn in Washington"
+  },
+  {
+    "cue_id": 608,
+    "timecode": "00:58:28,957 --> 00:58:30,005",
+    "original": "has posed those questions.",
+    "text": "has posed those questions."
+  },
+  {
+    "cue_id": 609,
+    "timecode": "00:58:30,046 --> 00:58:32,349",
+    "original": "It's obvious. Our best move is to try to get out of here.",
+    "text": "It's obvious. Our best move is to try to get out of here."
+  },
+  {
+    "cue_id": 610,
+    "timecode": "00:58:32,474 --> 00:58:34,064",
+    "original": "How're you gonna get over to that pump?",
+    "text": "How're you gonna get over to that pump?"
+  },
+  {
+    "cue_id": 611,
+    "timecode": "00:58:34,484 --> 00:58:35,362",
+    "original": "Look!",
+    "text": "Look!"
+  },
+  {
+    "cue_id": 612,
+    "timecode": "00:58:36,241 --> 00:58:39,214",
+    "original": "You're coming from a meeting regarding the explosion of the Venus probe,",
+    "text": "You're coming from a meeting regarding the explosion of the Venus probe,"
+  },
+  {
+    "cue_id": 613,
+    "timecode": "00:58:39,255 --> 00:58:40,050",
+    "original": "is that right?",
+    "text": "is that right?"
+  },
+  {
+    "cue_id": 614,
+    "timecode": "00:58:40,176 --> 00:58:42,694",
+    "original": "Yes, yes, that was the subject of the meeting.",
+    "text": "Yes, yes, that was the subject of the meeting."
+  },
+  {
+    "cue_id": 615,
+    "timecode": "00:58:42,729 --> 00:58:44,990",
+    "original": "Do you feel there is a connection between this and the phenomenon...",
+    "text": "Do you feel there is a connection between this and the phenomenon..."
+  },
+  {
+    "cue_id": 616,
+    "timecode": "00:58:45,031 --> 00:58:47,879",
+    "original": "There's a definite connection. A definite connection.",
+    "text": "There's a definite connection. A definite connection."
+  },
+  {
+    "cue_id": 617,
+    "timecode": "00:58:47,920 --> 00:58:50,390",
+    "original": "In other words, you feel that the radiation on the Venus probe is enough",
+    "text": "In other words, you feel that the radiation on the Venus probe is enough"
+  },
+  {
+    "cue_id": 618,
+    "timecode": "00:58:50,516 --> 00:58:51,736",
+    "original": "to cause these mutations?",
+    "text": "to cause these mutations?"
+  },
+  {
+    "cue_id": 619,
+    "timecode": "00:58:51,771 --> 00:58:53,445",
+    "original": "It was a very high degree of radiation.",
+    "text": "It was a very high degree of radiation."
+  },
+  {
+    "cue_id": 620,
+    "timecode": "00:58:53,529 --> 00:58:56,417",
+    "original": "Well, just a minute. I'm not sure that that's certain at all.",
+    "text": "Well, just a minute. I'm not sure that that's certain at all."
+  },
+  {
+    "cue_id": 621,
+    "timecode": "00:58:56,459 --> 00:58:59,390",
+    "original": "I don't think that has been... It's the only logical explanation",
+    "text": "I don't think that has been... It's the only logical explanation"
+  },
+  {
+    "cue_id": 622,
+    "timecode": "00:58:59,432 --> 00:59:00,143",
+    "original": "that we have at this time.",
+    "text": "that we have at this time."
+  },
+  {
+    "cue_id": 623,
+    "timecode": "00:59:00,478 --> 00:59:02,069",
+    "original": "In other words, it is the military's viewpoint that this...",
+    "text": "In other words, it is the military's viewpoint that this..."
+  },
+  {
+    "cue_id": 624,
+    "timecode": "00:59:02,104 --> 00:59:04,831",
+    "original": "the radiation is not the cause of the mutation.",
+    "text": "the radiation is not the cause of the mutation."
+  },
+  {
+    "cue_id": 625,
+    "timecode": "00:59:04,873 --> 00:59:07,804",
+    "original": "I can't speak for the entire military at this time, gentlemen.",
+    "text": "I can't speak for the entire military at this time, gentlemen."
+  },
+  {
+    "cue_id": 626,
+    "timecode": "00:59:08,432 --> 00:59:10,943",
+    "original": "I must disagree with these gentlemen presently,",
+    "text": "I must disagree with these gentlemen presently,"
+  },
+  {
+    "cue_id": 627,
+    "timecode": "00:59:10,985 --> 00:59:13,580",
+    "original": "until we, until this is irrefutably proved.",
+    "text": "until we, until this is irrefutably proved."
+  },
+  {
+    "cue_id": 628,
+    "timecode": "00:59:13,915 --> 00:59:15,924",
+    "original": "Everything is being done that can be done.",
+    "text": "Everything is being done that can be done."
+  },
+  {
+    "cue_id": 629,
+    "timecode": "00:59:15,966 --> 00:59:17,933",
+    "original": "We'll have to hurry for our next meeting.",
+    "text": "We'll have to hurry for our next meeting."
+  },
+  {
+    "cue_id": 630,
+    "timecode": "00:59:19,357 --> 00:59:22,036",
+    "original": "Professor, you feel that there is a definite connection between...",
+    "text": "Professor, you feel that there is a definite connection between..."
+  },
+  {
+    "cue_id": 631,
+    "timecode": "00:59:22,120 --> 00:59:25,300",
+    "original": "A definite connection as far as Dr. Keller and myself...",
+    "text": "A definite connection as far as Dr. Keller and myself..."
+  },
+  {
+    "cue_id": 632,
+    "timecode": "00:59:25,342 --> 00:59:28,441",
+    "original": "Doctor, please. I thought we decided that is not proved yet.",
+    "text": "Doctor, please. I thought we decided that is not proved yet."
+  },
+  {
+    "cue_id": 633,
+    "timecode": "00:59:28,943 --> 00:59:30,283",
+    "original": "Was it... was the satellite...",
+    "text": "Was it... was the satellite..."
+  },
+  {
+    "cue_id": 634,
+    "timecode": "00:59:30,366 --> 00:59:33,212",
+    "original": "- When the satellite was exploded... - It was an unusual amount of radiation,",
+    "text": "- When the satellite was exploded... - It was an unusual amount of radiation,"
+  },
+  {
+    "cue_id": 635,
+    "timecode": "00:59:33,247 --> 00:59:35,891",
+    "original": "enough to cause mutation under certain circumstances.",
+    "text": "enough to cause mutation under certain circumstances."
+  },
+  {
+    "cue_id": 636,
+    "timecode": "00:59:36,226 --> 00:59:38,277",
+    "original": "Could have happened to have a bearing on it.",
+    "text": "Could have happened to have a bearing on it."
+  },
+  {
+    "cue_id": 637,
+    "timecode": "00:59:38,737 --> 00:59:40,328",
+    "original": "It does seem to have a bearing on it.",
+    "text": "It does seem to have a bearing on it."
+  },
+  {
+    "cue_id": 638,
+    "timecode": "00:59:40,538 --> 00:59:43,427",
+    "original": "Will there be a reply for the...",
+    "text": "Will there be a reply for the..."
+  },
+  {
+    "cue_id": 639,
+    "timecode": "00:59:44,012 --> 00:59:45,435",
+    "original": "- There will be a reply? - Yes.",
+    "text": "- There will be a reply? - Yes."
+  },
+  {
+    "cue_id": 640,
+    "timecode": "00:59:45,470 --> 00:59:46,440",
+    "original": "Later this afternoon?",
+    "text": "Later this afternoon?"
+  },
+  {
+    "cue_id": 641,
+    "timecode": "00:59:48,910 --> 00:59:51,338",
+    "original": "There will be a report this afternoon.",
+    "text": "There will be a report this afternoon."
+  },
+  {
+    "cue_id": 642,
+    "timecode": "00:59:51,379 --> 00:59:53,807",
+    "original": "Perhaps there will be a report later...",
+    "text": "Perhaps there will be a report later..."
+  },
+  {
+    "cue_id": 643,
+    "timecode": "00:59:53,849 --> 00:59:54,812",
+    "original": "Will you close the window?",
+    "text": "Will you close the window?"
+  },
+  {
+    "cue_id": 644,
+    "timecode": "00:59:54,854 --> 00:59:57,449",
+    "original": "We are doing everything possible to solve the problem.",
+    "text": "We are doing everything possible to solve the problem."
+  },
+  {
+    "cue_id": 645,
+    "timecode": "01:00:03,603 --> 01:00:06,031",
+    "original": "We've heard all we need to know. We have to try to get out of here.",
+    "text": "We've heard all we need to know. We have to try to get out of here."
+  },
+  {
+    "cue_id": 646,
+    "timecode": "01:00:06,198 --> 01:00:09,546",
+    "original": "He said the rescue stations have doctors and medical supplies.",
+    "text": "He said the rescue stations have doctors and medical supplies."
+  },
+  {
+    "cue_id": 647,
+    "timecode": "01:00:09,581 --> 01:00:12,016",
+    "original": "If we can get Karen there, we can get help for her.",
+    "text": "If we can get Karen there, we can get help for her."
+  },
+  {
+    "cue_id": 648,
+    "timecode": "01:00:16,077 --> 01:00:18,128",
+    "original": "Willard. I saw a sign. That said Willard.",
+    "text": "Willard. I saw a sign. That said Willard."
+  },
+  {
+    "cue_id": 649,
+    "timecode": "01:00:18,463 --> 01:00:20,395",
+    "original": "It's only about 17 miles from here.",
+    "text": "It's only about 17 miles from here."
+  },
+  {
+    "cue_id": 650,
+    "timecode": "01:00:20,430 --> 01:00:22,565",
+    "original": "You know this area. Are you from around here?",
+    "text": "You know this area. Are you from around here?"
+  },
+  {
+    "cue_id": 651,
+    "timecode": "01:00:22,691 --> 01:00:24,323",
+    "original": "Judy and I are both from around here.",
+    "text": "Judy and I are both from around here."
+  },
+  {
+    "cue_id": 652,
+    "timecode": "01:00:24,365 --> 01:00:26,877",
+    "original": "We were on our way to the lake to go swimming.",
+    "text": "We were on our way to the lake to go swimming."
+  },
+  {
+    "cue_id": 653,
+    "timecode": "01:00:27,086 --> 01:00:30,017",
+    "original": "Judy had a radio, and we heard the first reports about this.",
+    "text": "Judy had a radio, and we heard the first reports about this."
+  },
+  {
+    "cue_id": 654,
+    "timecode": "01:00:30,142 --> 01:00:32,151",
+    "original": "So we knew the old house was here and we came in,",
+    "text": "So we knew the old house was here and we came in,"
+  },
+  {
+    "cue_id": 655,
+    "timecode": "01:00:32,193 --> 01:00:34,118",
+    "original": "And found the lady upstairs, dead.",
+    "text": "And found the lady upstairs, dead."
+  },
+  {
+    "cue_id": 656,
+    "timecode": "01:00:34,830 --> 01:00:37,593",
+    "original": "Then these other people came. We went down into the basement",
+    "text": "Then these other people came. We went down into the basement"
+  },
+  {
+    "cue_id": 657,
+    "timecode": "01:00:37,635 --> 01:00:40,314",
+    "original": "and put a bar across the door, and it is pretty strong.",
+    "text": "and put a bar across the door, and it is pretty strong."
+  },
+  {
+    "cue_id": 658,
+    "timecode": "01:00:40,397 --> 01:00:42,700",
+    "original": "How could we possibly get away from here?",
+    "text": "How could we possibly get away from here?"
+  },
+  {
+    "cue_id": 659,
+    "timecode": "01:00:42,909 --> 01:00:46,216",
+    "original": "We've got a sick child, two women, one woman out of her head,",
+    "text": "We've got a sick child, two women, one woman out of her head,"
+  },
+  {
+    "cue_id": 660,
+    "timecode": "01:00:46,258 --> 01:00:49,523",
+    "original": "three men, and the place is surrounded with these things.",
+    "text": "three men, and the place is surrounded with these things."
+  },
+  {
+    "cue_id": 661,
+    "timecode": "01:00:49,899 --> 01:00:53,709",
+    "original": "For NASA. Dr. Grimes, your entire staff, I know,",
+    "text": "For NASA. Dr. Grimes, your entire staff, I know,"
+  },
+  {
+    "cue_id": 662,
+    "timecode": "01:00:53,751 --> 01:00:57,476",
+    "original": "has been working very hard to find some solution",
+    "text": "has been working very hard to find some solution"
+  },
+  {
+    "cue_id": 663,
+    "timecode": "01:00:57,560 --> 01:00:59,528",
+    "original": "to these things that are happening.",
+    "text": "to these things that are happening."
+  },
+  {
+    "cue_id": 664,
+    "timecode": "01:00:59,611 --> 01:01:01,502",
+    "original": "Do you have any answers at this time?",
+    "text": "Do you have any answers at this time?"
+  },
+  {
+    "cue_id": 665,
+    "timecode": "01:01:01,537 --> 01:01:05,849",
+    "original": "Yes, we have some answers. But first let me stress the importance",
+    "text": "Yes, we have some answers. But first let me stress the importance"
+  },
+  {
+    "cue_id": 666,
+    "timecode": "01:01:05,890 --> 01:01:09,489",
+    "original": "of seeking medical attention for anyone who's been injured in any way.",
+    "text": "of seeking medical attention for anyone who's been injured in any way."
+  },
+  {
+    "cue_id": 667,
+    "timecode": "01:01:09,524 --> 01:01:13,090",
+    "original": "We don't know yet what complications might result from such injuries.",
+    "text": "We don't know yet what complications might result from such injuries."
+  },
+  {
+    "cue_id": 668,
+    "timecode": "01:01:13,801 --> 01:01:15,392",
+    "original": "How bad has your kid been hurt?",
+    "text": "How bad has your kid been hurt?"
+  },
+  {
+    "cue_id": 669,
+    "timecode": "01:01:20,248 --> 01:01:23,303",
+    "original": "Look. You go down there and tell... Judy?",
+    "text": "Look. You go down there and tell... Judy?"
+  },
+  {
+    "cue_id": 670,
+    "timecode": "01:01:23,555 --> 01:01:26,569",
+    "original": "Yeah, you tell Judy to come up here and you stay with the kid, all right?",
+    "text": "Yeah, you tell Judy to come up here and you stay with the kid, all right?"
+  },
+  {
+    "cue_id": 671,
+    "timecode": "01:01:26,820 --> 01:01:29,833",
+    "original": "Destructive action taken with regard to the Venus probe.",
+    "text": "Destructive action taken with regard to the Venus probe."
+  },
+  {
+    "cue_id": 672,
+    "timecode": "01:01:30,713 --> 01:01:34,354",
+    "original": "In the cold room at the university, we had a cadaver.",
+    "text": "In the cold room at the university, we had a cadaver."
+  },
+  {
+    "cue_id": 673,
+    "timecode": "01:01:34,690 --> 01:01:38,582",
+    "original": "A cadaver from which all four limbs had been amputated.",
+    "text": "A cadaver from which all four limbs had been amputated."
+  },
+  {
+    "cue_id": 674,
+    "timecode": "01:01:39,043 --> 01:01:40,592",
+    "original": "Sometime early this morning,",
+    "text": "Sometime early this morning,"
+  },
+  {
+    "cue_id": 675,
+    "timecode": "01:01:40,885 --> 01:01:44,031",
+    "original": "it opened its eyes and began to move its trunk.",
+    "text": "it opened its eyes and began to move its trunk."
+  },
+  {
+    "cue_id": 676,
+    "timecode": "01:01:44,066 --> 01:01:47,540",
+    "original": "It was dead, but it opened its eyes and tried to move.",
+    "text": "It was dead, but it opened its eyes and tried to move."
+  },
+  {
+    "cue_id": 677,
+    "timecode": "01:01:50,304 --> 01:01:51,726",
+    "original": "They want you upstairs.",
+    "text": "They want you upstairs."
+  },
+  {
+    "cue_id": 678,
+    "timecode": "01:01:51,936 --> 01:01:54,866",
+    "original": "- Did she ask for me? - She hasn't said anything.",
+    "text": "- Did she ask for me? - She hasn't said anything."
+  },
+  {
+    "cue_id": 679,
+    "timecode": "01:01:55,996 --> 01:01:57,378",
+    "original": "I don't understand.",
+    "text": "I don't understand."
+  },
+  {
+    "cue_id": 680,
+    "timecode": "01:01:58,800 --> 01:02:02,066",
+    "original": "Baby? It's mommy.",
+    "text": "Baby? It's mommy."
+  },
+  {
+    "cue_id": 681,
+    "timecode": "01:02:03,154 --> 01:02:04,285",
+    "original": "I hurt.",
+    "text": "I hurt."
+  },
+  {
+    "cue_id": 682,
+    "timecode": "01:02:05,666 --> 01:02:08,345",
+    "original": "I'll come back down as soon as I find out what they want.",
+    "text": "I'll come back down as soon as I find out what they want."
+  },
+  {
+    "cue_id": 683,
+    "timecode": "01:02:08,931 --> 01:02:10,438",
+    "original": "Thank you, Judy.",
+    "text": "Thank you, Judy."
+  },
+  {
+    "cue_id": 684,
+    "timecode": "01:02:11,610 --> 01:02:15,336",
+    "original": "The bodies should be disposed of at once, preferably by cremation.",
+    "text": "The bodies should be disposed of at once, preferably by cremation."
+  },
+  {
+    "cue_id": 685,
+    "timecode": "01:02:15,545 --> 01:02:19,396",
+    "original": "Well, how long after death, then, does the body become reactivated?",
+    "text": "Well, how long after death, then, does the body become reactivated?"
+  },
+  {
+    "cue_id": 686,
+    "timecode": "01:02:19,431 --> 01:02:21,496",
+    "original": "- It's only a matter of minutes. - Minutes?",
+    "text": "- It's only a matter of minutes. - Minutes?"
+  },
+  {
+    "cue_id": 687,
+    "timecode": "01:02:21,531 --> 01:02:23,464",
+    "original": "That doesn't give people time to make arrangements...",
+    "text": "That doesn't give people time to make arrangements..."
+  },
+  {
+    "cue_id": 688,
+    "timecode": "01:02:23,499 --> 01:02:27,098",
+    "original": "No, you're right. It doesn't give them time to make funeral arrangements.",
+    "text": "No, you're right. It doesn't give them time to make funeral arrangements."
+  },
+  {
+    "cue_id": 689,
+    "timecode": "01:02:27,391 --> 01:02:31,577",
+    "original": "The bodies must be carried to the street and burned.",
+    "text": "The bodies must be carried to the street and burned."
+  },
+  {
+    "cue_id": 690,
+    "timecode": "01:02:31,912 --> 01:02:35,596",
+    "original": "They must be burned immediately. Soak them with gasoline and burn them.",
+    "text": "They must be burned immediately. Soak them with gasoline and burn them."
+  },
+  {
+    "cue_id": 691,
+    "timecode": "01:02:36,140 --> 01:02:39,865",
+    "original": "The bereaved will have to forgo the dubious comforts",
+    "text": "The bereaved will have to forgo the dubious comforts"
+  },
+  {
+    "cue_id": 692,
+    "timecode": "01:02:39,907 --> 01:02:41,707",
+    "original": "that a funeral service will give.",
+    "text": "that a funeral service will give."
+  },
+  {
+    "cue_id": 693,
+    "timecode": "01:02:42,335 --> 01:02:45,014",
+    "original": "They're just dead flesh. And dangerous.",
+    "text": "They're just dead flesh. And dangerous."
+  },
+  {
+    "cue_id": 694,
+    "timecode": "01:02:45,684 --> 01:02:48,154",
+    "original": "Judy, I need you to find some bedspreads or sheets",
+    "text": "Judy, I need you to find some bedspreads or sheets"
+  },
+  {
+    "cue_id": 695,
+    "timecode": "01:02:48,196 --> 01:02:49,953",
+    "original": "to tear up into small strips, ok?",
+    "text": "to tear up into small strips, ok?"
+  },
+  {
+    "cue_id": 696,
+    "timecode": "01:02:50,373 --> 01:02:52,549",
+    "original": "- Is there a fruit cellar here? - Yes.",
+    "text": "- Is there a fruit cellar here? - Yes."
+  },
+  {
+    "cue_id": 697,
+    "timecode": "01:02:52,717 --> 01:02:54,021",
+    "original": "We need some bottles or jars",
+    "text": "We need some bottles or jars"
+  },
+  {
+    "cue_id": 698,
+    "timecode": "01:02:54,056 --> 01:02:56,986",
+    "original": "to make Molotov cocktails to hold them off while we try to escape.",
+    "text": "to make Molotov cocktails to hold them off while we try to escape."
+  },
+  {
+    "cue_id": 699,
+    "timecode": "01:02:57,021 --> 01:02:58,953",
+    "original": "Hey! There's a big can of kerosene down there.",
+    "text": "Hey! There's a big can of kerosene down there."
+  },
+  {
+    "cue_id": 700,
+    "timecode": "01:02:59,079 --> 01:03:01,591",
+    "original": "- I'll see what I can find. - I'll look for the bottles.",
+    "text": "- I'll see what I can find. - I'll look for the bottles."
+  },
+  {
+    "cue_id": 701,
+    "timecode": "01:03:01,675 --> 01:03:03,475",
+    "original": "There's a big key ring down there.",
+    "text": "There's a big key ring down there."
+  },
+  {
+    "cue_id": 702,
+    "timecode": "01:03:03,600 --> 01:03:05,861",
+    "original": "There may be a key to the gas pump on it.",
+    "text": "There may be a key to the gas pump on it."
+  },
+  {
+    "cue_id": 703,
+    "timecode": "01:03:06,112 --> 01:03:07,534",
+    "original": "I'll check.",
+    "text": "I'll check."
+  },
+  {
+    "cue_id": 704,
+    "timecode": "01:03:07,827 --> 01:03:10,046",
+    "original": "We can toss the cocktails from a window upstairs.",
+    "text": "We can toss the cocktails from a window upstairs."
+  },
+  {
+    "cue_id": 705,
+    "timecode": "01:03:10,298 --> 01:03:12,977",
+    "original": "Meantime, some of us can go out and try to get the gas,",
+    "text": "Meantime, some of us can go out and try to get the gas,"
+  },
+  {
+    "cue_id": 706,
+    "timecode": "01:03:13,019 --> 01:03:14,735",
+    "original": "then we can come back for the rest of the people.",
+    "text": "then we can come back for the rest of the people."
+  },
+  {
+    "cue_id": 707,
+    "timecode": "01:03:14,819 --> 01:03:16,534",
+    "original": "But that'll leave a door open someplace.",
+    "text": "But that'll leave a door open someplace."
+  },
+  {
+    "cue_id": 708,
+    "timecode": "01:03:16,576 --> 01:03:19,088",
+    "original": "Yeah, that's right. It better be this door.",
+    "text": "Yeah, that's right. It better be this door."
+  },
+  {
+    "cue_id": 709,
+    "timecode": "01:03:19,423 --> 01:03:21,013",
+    "original": "It's closer to the truck.",
+    "text": "It's closer to the truck."
+  },
+  {
+    "cue_id": 710,
+    "timecode": "01:03:21,600 --> 01:03:24,823",
+    "original": "Before we go out, we'll put some supplies behind the cellar door.",
+    "text": "Before we go out, we'll put some supplies behind the cellar door."
+  },
+  {
+    "cue_id": 711,
+    "timecode": "01:03:24,865 --> 01:03:26,665",
+    "original": "While we're gone, the rest of you can hole up in there.",
+    "text": "While we're gone, the rest of you can hole up in there."
+  },
+  {
+    "cue_id": 712,
+    "timecode": "01:03:26,707 --> 01:03:28,549",
+    "original": "I found some fruit jars in the cellar.",
+    "text": "I found some fruit jars in the cellar."
+  },
+  {
+    "cue_id": 713,
+    "timecode": "01:03:28,841 --> 01:03:31,646",
+    "original": "And there's a key on here that's labeled for the gas pump out back.",
+    "text": "And there's a key on here that's labeled for the gas pump out back."
+  },
+  {
+    "cue_id": 714,
+    "timecode": "01:03:33,237 --> 01:03:36,334",
+    "original": "I'm not really that used to the truck. I found it abandoned.",
+    "text": "I'm not really that used to the truck. I found it abandoned."
+  },
+  {
+    "cue_id": 715,
+    "timecode": "01:03:37,004 --> 01:03:38,929",
+    "original": "I can handle the truck, no sweat.",
+    "text": "I can handle the truck, no sweat."
+  },
+  {
+    "cue_id": 716,
+    "timecode": "01:03:42,404 --> 01:03:44,581",
+    "original": "You're it, then. You and I'll go.",
+    "text": "You're it, then. You and I'll go."
+  },
+  {
+    "cue_id": 717,
+    "timecode": "01:03:50,064 --> 01:03:52,744",
+    "original": "We'll put whatever lumber we find behind the cellar door.",
+    "text": "We'll put whatever lumber we find behind the cellar door."
+  },
+  {
+    "cue_id": 718,
+    "timecode": "01:03:53,580 --> 01:03:56,510",
+    "original": "You can go upstairs and toss the cocktails from a window.",
+    "text": "You can go upstairs and toss the cocktails from a window."
+  },
+  {
+    "cue_id": 719,
+    "timecode": "01:03:57,264 --> 01:03:59,190",
+    "original": "Tom, you and I will have to unboard this door.",
+    "text": "Tom, you and I will have to unboard this door."
+  },
+  {
+    "cue_id": 720,
+    "timecode": "01:03:59,483 --> 01:04:00,906",
+    "original": "After you toss the cocktails,",
+    "text": "After you toss the cocktails,"
+  },
+  {
+    "cue_id": 721,
+    "timecode": "01:04:00,989 --> 01:04:02,873",
+    "original": "you hustle back down here and lock this door.",
+    "text": "you hustle back down here and lock this door."
+  },
+  {
+    "cue_id": 722,
+    "timecode": "01:04:03,124 --> 01:04:05,720",
+    "original": "It's no good to board it up because we'll have to get back in quickly.",
+    "text": "It's no good to board it up because we'll have to get back in quickly."
+  },
+  {
+    "cue_id": 723,
+    "timecode": "01:04:07,017 --> 01:04:10,115",
+    "original": "After we get the gas and get back into the house,",
+    "text": "After we get the gas and get back into the house,"
+  },
+  {
+    "cue_id": 724,
+    "timecode": "01:04:10,241 --> 01:04:12,753",
+    "original": "then we'll worry about getting\neverybody into the truck.",
+    "text": "then we'll worry about getting everybody into the truck."
+  },
+  {
+    "cue_id": 725,
+    "timecode": "01:04:13,882 --> 01:04:15,145",
+    "original": "Now, let's move it.",
+    "text": "Now, let's move it."
+  },
+  {
+    "cue_id": 726,
+    "timecode": "01:04:15,180 --> 01:04:18,780",
+    "original": "No place to flee for safety, except for the rescue stations",
+    "text": "No place to flee for safety, except for the rescue stations"
+  },
+  {
+    "cue_id": 727,
+    "timecode": "01:04:18,822 --> 01:04:19,701",
+    "original": "which have been set up.",
+    "text": "which have been set up."
+  },
+  {
+    "cue_id": 728,
+    "timecode": "01:04:20,036 --> 01:04:23,636",
+    "original": "Indications are that before this emergency is over,",
+    "text": "Indications are that before this emergency is over,"
+  },
+  {
+    "cue_id": 729,
+    "timecode": "01:04:23,678 --> 01:04:27,194",
+    "original": "we will need many, many more such rescue stations.",
+    "text": "we will need many, many more such rescue stations."
+  },
+  {
+    "cue_id": 730,
+    "timecode": "01:04:36,382 --> 01:04:37,931",
+    "original": "You always have a smile for me.",
+    "text": "You always have a smile for me."
+  },
+  {
+    "cue_id": 731,
+    "timecode": "01:04:38,984 --> 01:04:41,580",
+    "original": "How can you smile like that all the time?",
+    "text": "How can you smile like that all the time?"
+  },
+  {
+    "cue_id": 732,
+    "timecode": "01:04:43,308 --> 01:04:44,773",
+    "original": "How many do you have done?",
+    "text": "How many do you have done?"
+  },
+  {
+    "cue_id": 733,
+    "timecode": "01:04:48,525 --> 01:04:50,200",
+    "original": "Come on, honey, we gotta move.",
+    "text": "Come on, honey, we gotta move."
+  },
+  {
+    "cue_id": 734,
+    "timecode": "01:04:51,078 --> 01:04:52,324",
+    "original": "Tom, are you sure about the phone?",
+    "text": "Tom, are you sure about the phone?"
+  },
+  {
+    "cue_id": 735,
+    "timecode": "01:04:52,530 --> 01:04:56,548",
+    "original": "The phone is dead out. All you get is a recorded message.",
+    "text": "The phone is dead out. All you get is a recorded message."
+  },
+  {
+    "cue_id": 736,
+    "timecode": "01:04:57,057 --> 01:05:00,813",
+    "original": "If I could only call the folks. They're going to be so worried about us.",
+    "text": "If I could only call the folks. They're going to be so worried about us."
+  },
+  {
+    "cue_id": 737,
+    "timecode": "01:05:01,773 --> 01:05:03,317",
+    "original": "Everything'll be alright.",
+    "text": "Everything'll be alright."
+  },
+  {
+    "cue_id": 738,
+    "timecode": "01:05:03,358 --> 01:05:06,948",
+    "original": "As soon as we get to Willard, we'll call them. They might even be there.",
+    "text": "As soon as we get to Willard, we'll call them. They might even be there."
+  },
+  {
+    "cue_id": 739,
+    "timecode": "01:05:07,908 --> 01:05:08,827",
+    "original": "I know.",
+    "text": "I know."
+  },
+  {
+    "cue_id": 740,
+    "timecode": "01:05:13,293 --> 01:05:18,468",
+    "original": "Tom... Are you sure we're doing the right thing, Tom?",
+    "text": "Tom... Are you sure we're doing the right thing, Tom?"
+  },
+  {
+    "cue_id": 741,
+    "timecode": "01:05:18,718 --> 01:05:20,638",
+    "original": "- What, about getting outta here? - Yeah.",
+    "text": "- What, about getting outta here? - Yeah."
+  },
+  {
+    "cue_id": 742,
+    "timecode": "01:05:21,515 --> 01:05:23,644",
+    "original": "Well, the television said that's the right thing to do.",
+    "text": "Well, the television said that's the right thing to do."
+  },
+  {
+    "cue_id": 743,
+    "timecode": "01:05:23,727 --> 01:05:25,939",
+    "original": "We've got to get to a rescue station.",
+    "text": "We've got to get to a rescue station."
+  },
+  {
+    "cue_id": 744,
+    "timecode": "01:05:26,315 --> 01:05:27,525",
+    "original": "I don't know.",
+    "text": "I don't know."
+  },
+  {
+    "cue_id": 745,
+    "timecode": "01:05:27,817 --> 01:05:30,071",
+    "original": "Come on. You're starting to sound like Mr. Cooper now.",
+    "text": "Come on. You're starting to sound like Mr. Cooper now."
+  },
+  {
+    "cue_id": 746,
+    "timecode": "01:05:30,112 --> 01:05:32,206",
+    "original": "But why do you have to go out there?",
+    "text": "But why do you have to go out there?"
+  },
+  {
+    "cue_id": 747,
+    "timecode": "01:05:32,241 --> 01:05:35,956",
+    "original": "Look, I know how to handle that truck. And I can handle the pump.",
+    "text": "Look, I know how to handle that truck. And I can handle the pump."
+  },
+  {
+    "cue_id": 748,
+    "timecode": "01:05:35,998 --> 01:05:38,085",
+    "original": "Ben doesn't know anything about that stuff.",
+    "text": "Ben doesn't know anything about that stuff."
+  },
+  {
+    "cue_id": 749,
+    "timecode": "01:05:39,845 --> 01:05:41,229",
+    "original": "But we're safe in here.",
+    "text": "But we're safe in here."
+  },
+  {
+    "cue_id": 750,
+    "timecode": "01:05:41,264 --> 01:05:43,810",
+    "original": "For how long, honey? We're safe now.",
+    "text": "For how long, honey? We're safe now."
+  },
+  {
+    "cue_id": 751,
+    "timecode": "01:05:43,936 --> 01:05:46,481",
+    "original": "But there's gonna be more and more of those things.",
+    "text": "But there's gonna be more and more of those things."
+  },
+  {
+    "cue_id": 752,
+    "timecode": "01:05:46,523 --> 01:05:48,318",
+    "original": "I know.\nI know all that.",
+    "text": "I know. I know all that."
+  },
+  {
+    "cue_id": 753,
+    "timecode": "01:05:52,742 --> 01:05:56,790",
+    "original": "Listen. Remember when we had the big flood?",
+    "text": "Listen. Remember when we had the big flood?"
+  },
+  {
+    "cue_id": 754,
+    "timecode": "01:05:57,417 --> 01:06:01,507",
+    "original": "Remember how difficult it was for us to convince you that it was right to leave?",
+    "text": "Remember how difficult it was for us to convince you that it was right to leave?"
+  },
+  {
+    "cue_id": 755,
+    "timecode": "01:06:01,883 --> 01:06:04,512",
+    "original": "Remember? Remember we had to go to Willard then?",
+    "text": "Remember? Remember we had to go to Willard then?"
+  },
+  {
+    "cue_id": 756,
+    "timecode": "01:06:04,804 --> 01:06:06,933",
+    "original": "This isn't a passing thing, honey.",
+    "text": "This isn't a passing thing, honey."
+  },
+  {
+    "cue_id": 757,
+    "timecode": "01:06:07,976 --> 01:06:10,689",
+    "original": "It... it's not like just a wind passing through.",
+    "text": "It... it's not like just a wind passing through."
+  },
+  {
+    "cue_id": 758,
+    "timecode": "01:06:10,814 --> 01:06:13,569",
+    "original": "We've got to do something, and fast.",
+    "text": "We've got to do something, and fast."
+  },
+  {
+    "cue_id": 759,
+    "timecode": "01:06:19,621 --> 01:06:22,292",
+    "original": "I just don't want you to go out there, that's all.",
+    "text": "I just don't want you to go out there, that's all."
+  },
+  {
+    "cue_id": 760,
+    "timecode": "01:06:23,962 --> 01:06:25,297",
+    "original": "Hey... smile, honey.",
+    "text": "Hey... smile, honey."
+  },
+  {
+    "cue_id": 761,
+    "timecode": "01:06:26,299 --> 01:06:28,052",
+    "original": "Where's that big smile for me?",
+    "text": "Where's that big smile for me?"
+  },
+  {
+    "cue_id": 762,
+    "timecode": "01:06:32,727 --> 01:06:35,022",
+    "original": "You sure are no use at all, are you?",
+    "text": "You sure are no use at all, are you?"
+  },
+  {
+    "cue_id": 763,
+    "timecode": "01:06:35,481 --> 01:06:40,281",
+    "original": "We've got work to do, honey. And you... you...",
+    "text": "We've got work to do, honey. And you... you..."
+  },
+  {
+    "cue_id": 764,
+    "timecode": "01:06:56,683 --> 01:06:58,353",
+    "original": "We better get her downstairs.",
+    "text": "We better get her downstairs."
+  },
+  {
+    "cue_id": 765,
+    "timecode": "01:06:58,603 --> 01:07:00,857",
+    "original": "We have to go downstairs now, Barbra.",
+    "text": "We have to go downstairs now, Barbra."
+  },
+  {
+    "cue_id": 766,
+    "timecode": "01:07:02,694 --> 01:07:04,948",
+    "original": "She's right. You have to go downstairs now.",
+    "text": "She's right. You have to go downstairs now."
+  },
+  {
+    "cue_id": 767,
+    "timecode": "01:07:05,073 --> 01:07:07,494",
+    "original": "Just for a little while, until we get back.",
+    "text": "Just for a little while, until we get back."
+  },
+  {
+    "cue_id": 768,
+    "timecode": "01:07:08,329 --> 01:07:12,920",
+    "original": "- Then we can all leave. - Oh, I'd like to leave. Yes.",
+    "text": "- Then we can all leave. - Oh, I'd like to leave. Yes."
+  },
+  {
+    "cue_id": 769,
+    "timecode": "01:07:32,077 --> 01:07:33,997",
+    "original": "- Good luck. - Yeah.",
+    "text": "- Good luck. - Yeah."
+  },
+  {
+    "cue_id": 770,
+    "timecode": "01:08:23,874 --> 01:08:25,751",
+    "original": "- You ready upstairs? - Yeah.",
+    "text": "- You ready upstairs? - Yeah."
+  },
+  {
+    "cue_id": 771,
+    "timecode": "01:08:25,786 --> 01:08:27,046",
+    "original": "Ok, toss 'em!",
+    "text": "Ok, toss 'em!"
+  },
+  {
+    "cue_id": 772,
+    "timecode": "01:09:07,781 --> 01:09:09,284",
+    "original": "Go ahead! Go on!",
+    "text": "Go ahead! Go on!"
+  },
+  {
+    "cue_id": 773,
+    "timecode": "01:09:25,353 --> 01:09:26,230",
+    "original": "I'm going with him!",
+    "text": "I'm going with him!"
+  },
+  {
+    "cue_id": 774,
+    "timecode": "01:09:26,689 --> 01:09:29,902",
+    "original": "Get back in the cellar! It's too late. Too late!",
+    "text": "Get back in the cellar! It's too late. Too late!"
+  },
+  {
+    "cue_id": 775,
+    "timecode": "01:09:38,167 --> 01:09:39,669",
+    "original": "Well, is she coming? Come on.",
+    "text": "Well, is she coming? Come on."
+  },
+  {
+    "cue_id": 776,
+    "timecode": "01:09:41,840 --> 01:09:42,674",
+    "original": "Get in!",
+    "text": "Get in!"
+  },
+  {
+    "cue_id": 777,
+    "timecode": "01:10:55,879 --> 01:10:57,132",
+    "original": "- Come on! - This key won't work.",
+    "text": "- Come on! - This key won't work."
+  },
+  {
+    "cue_id": 778,
+    "timecode": "01:10:57,167 --> 01:10:58,717",
+    "original": "Watch it.",
+    "text": "Watch it."
+  },
+  {
+    "cue_id": 779,
+    "timecode": "01:11:04,060 --> 01:11:06,815",
+    "original": "Watch the torch!",
+    "text": "Watch the torch!"
+  },
+  {
+    "cue_id": 780,
+    "timecode": "01:11:13,451 --> 01:11:14,996",
+    "original": "We've gotta get away from the pump!",
+    "text": "We've gotta get away from the pump!"
+  },
+  {
+    "cue_id": 781,
+    "timecode": "01:11:26,932 --> 01:11:27,641",
+    "original": "Hang on!",
+    "text": "Hang on!"
+  },
+  {
+    "cue_id": 782,
+    "timecode": "01:11:29,147 --> 01:11:31,484",
+    "original": "Stop! I'm telling you guys to get outta the truck!",
+    "text": "Stop! I'm telling you guys to get outta the truck!"
+  },
+  {
+    "cue_id": 783,
+    "timecode": "01:11:49,762 --> 01:11:51,724",
+    "original": "Let's get outta here!",
+    "text": "Let's get outta here!"
+  },
+  {
+    "cue_id": 784,
+    "timecode": "01:11:53,644 --> 01:11:54,812",
+    "original": "Come on, come on!",
+    "text": "Come on, come on!"
+  },
+  {
+    "cue_id": 785,
+    "timecode": "01:11:54,847 --> 01:11:55,982",
+    "original": "My jacket's caught.",
+    "text": "My jacket's caught."
+  },
+  {
+    "cue_id": 786,
+    "timecode": "01:13:04,719 --> 01:13:05,720",
+    "original": "Let me in!",
+    "text": "Let me in!"
+  },
+  {
+    "cue_id": 787,
+    "timecode": "01:13:06,847 --> 01:13:07,682",
+    "original": "Cooper!",
+    "text": "Cooper!"
+  },
+  {
+    "cue_id": 788,
+    "timecode": "01:14:12,709 --> 01:14:15,047",
+    "original": "I ought to drag you out there and feed you to those things.",
+    "text": "I ought to drag you out there and feed you to those things."
+  },
+  {
+    "cue_id": 789,
+    "timecode": "01:15:45,950 --> 01:15:47,829",
+    "original": "Isn't it three o'clock yet?",
+    "text": "Isn't it three o'clock yet?"
+  },
+  {
+    "cue_id": 790,
+    "timecode": "01:15:52,503 --> 01:15:55,676",
+    "original": "There's supposed to be another broadcast at three o'clock.",
+    "text": "There's supposed to be another broadcast at three o'clock."
+  },
+  {
+    "cue_id": 791,
+    "timecode": "01:15:55,759 --> 01:15:57,094",
+    "original": "Ten minutes.",
+    "text": "Ten minutes."
+  },
+  {
+    "cue_id": 792,
+    "timecode": "01:15:59,766 --> 01:16:01,518",
+    "original": "Oh. Only ten more minutes?",
+    "text": "Oh. Only ten more minutes?"
+  },
+  {
+    "cue_id": 793,
+    "timecode": "01:16:01,937 --> 01:16:04,191",
+    "original": "We don't have very long to wait.",
+    "text": "We don't have very long to wait."
+  },
+  {
+    "cue_id": 794,
+    "timecode": "01:16:05,067 --> 01:16:06,319",
+    "original": "We can leave.",
+    "text": "We can leave."
+  },
+  {
+    "cue_id": 795,
+    "timecode": "01:16:08,322 --> 01:16:09,908",
+    "original": "Or we better leave soon.",
+    "text": "Or we better leave soon."
+  },
+  {
+    "cue_id": 796,
+    "timecode": "01:16:10,743 --> 01:16:12,204",
+    "original": "It's ten minutes to three.",
+    "text": "It's ten minutes to three."
+  },
+  {
+    "cue_id": 797,
+    "timecode": "01:16:18,089 --> 01:16:19,967",
+    "original": "You know anything about this area at all?",
+    "text": "You know anything about this area at all?"
+  },
+  {
+    "cue_id": 798,
+    "timecode": "01:16:20,593 --> 01:16:22,138",
+    "original": "I mean, is Willard the nearest town?",
+    "text": "I mean, is Willard the nearest town?"
+  },
+  {
+    "cue_id": 799,
+    "timecode": "01:16:24,266 --> 01:16:25,685",
+    "original": "I don't know.",
+    "text": "I don't know."
+  },
+  {
+    "cue_id": 800,
+    "timecode": "01:16:28,565 --> 01:16:30,484",
+    "original": "We were...",
+    "text": "We were..."
+  },
+  {
+    "cue_id": 801,
+    "timecode": "01:16:32,279 --> 01:16:35,744",
+    "original": "Just trying to get to a motel before dark.",
+    "text": "Just trying to get to a motel before dark."
+  },
+  {
+    "cue_id": 802,
+    "timecode": "01:16:36,912 --> 01:16:38,624",
+    "original": "You said those things turned your car over.",
+    "text": "You said those things turned your car over."
+  },
+  {
+    "cue_id": 803,
+    "timecode": "01:16:38,832 --> 01:16:41,253",
+    "original": "You think we can get it back on its wheels and drive it? Where is it?",
+    "text": "You think we can get it back on its wheels and drive it? Where is it?"
+  },
+  {
+    "cue_id": 804,
+    "timecode": "01:16:41,295 --> 01:16:43,674",
+    "original": "Seems like it was pretty far away.",
+    "text": "Seems like it was pretty far away."
+  },
+  {
+    "cue_id": 805,
+    "timecode": "01:16:44,884 --> 01:16:46,471",
+    "original": "Seems like we ran.",
+    "text": "Seems like we ran."
+  },
+  {
+    "cue_id": 806,
+    "timecode": "01:16:46,946 --> 01:16:49,074",
+    "original": "Forget it. It's at least a mile.",
+    "text": "Forget it. It's at least a mile."
+  },
+  {
+    "cue_id": 807,
+    "timecode": "01:16:49,449 --> 01:16:51,119",
+    "original": "Johnny has the keys.",
+    "text": "Johnny has the keys."
+  },
+  {
+    "cue_id": 808,
+    "timecode": "01:16:51,703 --> 01:16:53,664",
+    "original": "You're going to carry that child a mile?",
+    "text": "You're going to carry that child a mile?"
+  },
+  {
+    "cue_id": 809,
+    "timecode": "01:16:53,705 --> 01:16:55,666",
+    "original": "Through that army of things out there?",
+    "text": "Through that army of things out there?"
+  },
+  {
+    "cue_id": 810,
+    "timecode": "01:16:55,701 --> 01:16:56,709",
+    "original": "I can carry the kid.",
+    "text": "I can carry the kid."
+  },
+  {
+    "cue_id": 811,
+    "timecode": "01:16:57,669 --> 01:16:59,171",
+    "original": "What's wrong with her? How'd she get hurt?",
+    "text": "What's wrong with her? How'd she get hurt?"
+  },
+  {
+    "cue_id": 812,
+    "timecode": "01:17:00,673 --> 01:17:03,719",
+    "original": "- One of those things grabbed her. - Bit her on the arm.",
+    "text": "- One of those things grabbed her. - Bit her on the arm."
+  },
+  {
+    "cue_id": 813,
+    "timecode": "01:17:05,972 --> 01:17:06,807",
+    "original": "What's wrong?",
+    "text": "What's wrong?"
+  },
+  {
+    "cue_id": 814,
+    "timecode": "01:17:07,391 --> 01:17:09,977",
+    "original": "Who knows what kind of disease those things carry?",
+    "text": "Who knows what kind of disease those things carry?"
+  },
+  {
+    "cue_id": 815,
+    "timecode": "01:17:10,812 --> 01:17:13,357",
+    "original": "- Is she conscious? - Barely.",
+    "text": "- Is she conscious? - Barely."
+  },
+  {
+    "cue_id": 816,
+    "timecode": "01:17:13,649 --> 01:17:15,944",
+    "original": "She can't walk. She's too weak.",
+    "text": "She can't walk. She's too weak."
+  },
+  {
+    "cue_id": 817,
+    "timecode": "01:17:18,990 --> 01:17:21,368",
+    "original": "Well, one of us could try to get to the car.",
+    "text": "Well, one of us could try to get to the car."
+  },
+  {
+    "cue_id": 818,
+    "timecode": "01:17:21,409 --> 01:17:23,204",
+    "original": "You gonna turn it over by yourself?",
+    "text": "You gonna turn it over by yourself?"
+  },
+  {
+    "cue_id": 819,
+    "timecode": "01:17:23,245 --> 01:17:26,959",
+    "original": "You can't start the car. Johnny has the keys.",
+    "text": "You can't start the car. Johnny has the keys."
+  },
+  {
+    "cue_id": 820,
+    "timecode": "01:17:30,380 --> 01:17:32,967",
+    "original": "You have a car? Where? Where is it?",
+    "text": "You have a car? Where? Where is it?"
+  },
+  {
+    "cue_id": 821,
+    "timecode": "01:17:33,218 --> 01:17:37,014",
+    "original": "- You won't be able to start it. - Yeah. I know. But where is it?",
+    "text": "- You won't be able to start it. - Yeah. I know. But where is it?"
+  },
+  {
+    "cue_id": 822,
+    "timecode": "01:17:50,282 --> 01:17:51,368",
+    "original": "Good lord.",
+    "text": "Good lord."
+  },
+  {
+    "cue_id": 823,
+    "timecode": "01:18:06,639 --> 01:18:10,560",
+    "original": "At this hour, they report the level of the mysterious radiation",
+    "text": "At this hour, they report the level of the mysterious radiation"
+  },
+  {
+    "cue_id": 824,
+    "timecode": "01:18:10,685 --> 01:18:12,730",
+    "original": "continues to increase steadily.",
+    "text": "continues to increase steadily."
+  },
+  {
+    "cue_id": 825,
+    "timecode": "01:18:13,273 --> 01:18:15,318",
+    "original": "So long as this situation remains,",
+    "text": "So long as this situation remains,"
+  },
+  {
+    "cue_id": 826,
+    "timecode": "01:18:15,443 --> 01:18:18,071",
+    "original": "government spokesmen warn that dead bodies",
+    "text": "government spokesmen warn that dead bodies"
+  },
+  {
+    "cue_id": 827,
+    "timecode": "01:18:18,113 --> 01:18:21,534",
+    "original": "will continue to be transformed into the flesh-eating ghouls.",
+    "text": "will continue to be transformed into the flesh-eating ghouls."
+  },
+  {
+    "cue_id": 828,
+    "timecode": "01:18:21,575 --> 01:18:25,790",
+    "original": "All persons who die during this crisis, from whatever cause,",
+    "text": "All persons who die during this crisis, from whatever cause,"
+  },
+  {
+    "cue_id": 829,
+    "timecode": "01:18:25,831 --> 01:18:28,501",
+    "original": "will come back to life to seek human victims.",
+    "text": "will come back to life to seek human victims."
+  },
+  {
+    "cue_id": 830,
+    "timecode": "01:18:28,586 --> 01:18:32,007",
+    "original": "Unless their bodies are first disposed of by cremation.",
+    "text": "Unless their bodies are first disposed of by cremation."
+  },
+  {
+    "cue_id": 831,
+    "timecode": "01:18:32,674 --> 01:18:34,718",
+    "original": "Our News cameras have just returned",
+    "text": "Our News cameras have just returned"
+  },
+  {
+    "cue_id": 832,
+    "timecode": "01:18:35,177 --> 01:18:38,265",
+    "original": "from covering such a search and destroy operation against the ghouls.",
+    "text": "from covering such a search and destroy operation against the ghouls."
+  },
+  {
+    "cue_id": 833,
+    "timecode": "01:18:38,300 --> 01:18:40,769",
+    "original": "This one conducted by sheriff Conan McClellan",
+    "text": "This one conducted by sheriff Conan McClellan"
+  },
+  {
+    "cue_id": 834,
+    "timecode": "01:18:40,935 --> 01:18:42,771",
+    "original": "in Butler County, Pennsylvania.",
+    "text": "in Butler County, Pennsylvania."
+  },
+  {
+    "cue_id": 835,
+    "timecode": "01:18:42,938 --> 01:18:44,566",
+    "original": "So now let's go to that film report.",
+    "text": "So now let's go to that film report."
+  },
+  {
+    "cue_id": 836,
+    "timecode": "01:18:45,483 --> 01:18:48,487",
+    "original": "All law enforcement agencies and the military",
+    "text": "All law enforcement agencies and the military"
+  },
+  {
+    "cue_id": 837,
+    "timecode": "01:18:48,570 --> 01:18:52,284",
+    "original": "have been organized to search out and destroy the marauding ghouls.",
+    "text": "have been organized to search out and destroy the marauding ghouls."
+  },
+  {
+    "cue_id": 838,
+    "timecode": "01:18:52,451 --> 01:18:54,662",
+    "original": "The survival command center at the Pentagon",
+    "text": "The survival command center at the Pentagon"
+  },
+  {
+    "cue_id": 839,
+    "timecode": "01:18:54,787 --> 01:18:58,001",
+    "original": "has disclosed that a ghoul can be killed",
+    "text": "has disclosed that a ghoul can be killed"
+  },
+  {
+    "cue_id": 840,
+    "timecode": "01:18:58,168 --> 01:19:02,131",
+    "original": "by a shot in the head or a heavy blow to the skull.",
+    "text": "by a shot in the head or a heavy blow to the skull."
+  },
+  {
+    "cue_id": 841,
+    "timecode": "01:19:02,799 --> 01:19:04,510",
+    "original": "Officials are quoted as explaining",
+    "text": "Officials are quoted as explaining"
+  },
+  {
+    "cue_id": 842,
+    "timecode": "01:19:04,593 --> 01:19:08,222",
+    "original": "that since the brain of a ghoul has been activated by the radiation,",
+    "text": "that since the brain of a ghoul has been activated by the radiation,"
+  },
+  {
+    "cue_id": 843,
+    "timecode": "01:19:08,640 --> 01:19:12,729",
+    "original": "the plan is, kill the brain and you kill the ghoul.",
+    "text": "the plan is, kill the brain and you kill the ghoul."
+  },
+  {
+    "cue_id": 844,
+    "timecode": "01:19:13,897 --> 01:19:17,401",
+    "original": "- Want anything from the supply wagon? - No, we're all right.",
+    "text": "- Want anything from the supply wagon? - No, we're all right."
+  },
+  {
+    "cue_id": 845,
+    "timecode": "01:19:18,737 --> 01:19:21,038",
+    "original": "Hey, Cass, put that thing all the way in the fire.",
+    "text": "Hey, Cass, put that thing all the way in the fire."
+  },
+  {
+    "cue_id": 846,
+    "timecode": "01:19:21,073 --> 01:19:23,702",
+    "original": "- We don't want it getting up again. - All right, I gotcha.",
+    "text": "- We don't want it getting up again. - All right, I gotcha."
+  },
+  {
+    "cue_id": 847,
+    "timecode": "01:19:23,737 --> 01:19:25,705",
+    "original": "Chief McClellan, how's everything going?",
+    "text": "Chief McClellan, how's everything going?"
+  },
+  {
+    "cue_id": 848,
+    "timecode": "01:19:25,746 --> 01:19:28,793",
+    "original": "Oh, things aren't going too bad. Men are taking it pretty good.",
+    "text": "Oh, things aren't going too bad. Men are taking it pretty good."
+  },
+  {
+    "cue_id": 849,
+    "timecode": "01:19:29,210 --> 01:19:31,546",
+    "original": "You want to get on the other side of the road over there.",
+    "text": "You want to get on the other side of the road over there."
+  },
+  {
+    "cue_id": 850,
+    "timecode": "01:19:32,172 --> 01:19:33,966",
+    "original": "Chief, do you think we'll be able to defeat these things?",
+    "text": "Chief, do you think we'll be able to defeat these things?"
+  },
+  {
+    "cue_id": 851,
+    "timecode": "01:19:34,508 --> 01:19:37,137",
+    "original": "Well, we killed 19 of them today, right in this area.",
+    "text": "Well, we killed 19 of them today, right in this area."
+  },
+  {
+    "cue_id": 852,
+    "timecode": "01:19:37,345 --> 01:19:40,600",
+    "original": "Those last three we caught trying to claw their way into an abandoned shed.",
+    "text": "Those last three we caught trying to claw their way into an abandoned shed."
+  },
+  {
+    "cue_id": 853,
+    "timecode": "01:19:40,642 --> 01:19:43,396",
+    "original": "They must have thought somebody was in there. There wasn't, though.",
+    "text": "They must have thought somebody was in there. There wasn't, though."
+  },
+  {
+    "cue_id": 854,
+    "timecode": "01:19:43,437 --> 01:19:45,030",
+    "original": "We heard 'em making all kind of noise.",
+    "text": "We heard 'em making all kind of noise."
+  },
+  {
+    "cue_id": 855,
+    "timecode": "01:19:45,065 --> 01:19:47,610",
+    "original": "We came over and beat 'em off, blasted 'em down.",
+    "text": "We came over and beat 'em off, blasted 'em down."
+  },
+  {
+    "cue_id": 856,
+    "timecode": "01:19:47,652 --> 01:19:49,863",
+    "original": "Chief, as soon as you're finished, can I see you here?",
+    "text": "Chief, as soon as you're finished, can I see you here?"
+  },
+  {
+    "cue_id": 857,
+    "timecode": "01:19:49,946 --> 01:19:50,739",
+    "original": "Yeah, ok.",
+    "text": "Yeah, ok."
+  },
+  {
+    "cue_id": 858,
+    "timecode": "01:19:50,906 --> 01:19:53,869",
+    "original": "Chief, if I were surrounded by six or eight of these things,",
+    "text": "Chief, if I were surrounded by six or eight of these things,"
+  },
+  {
+    "cue_id": 859,
+    "timecode": "01:19:53,910 --> 01:19:55,203",
+    "original": "would I stand a chance with them?",
+    "text": "would I stand a chance with them?"
+  },
+  {
+    "cue_id": 860,
+    "timecode": "01:19:55,245 --> 01:19:57,833",
+    "original": "Well, there's no problem. If you had a gun, shoot 'em in the head.",
+    "text": "Well, there's no problem. If you had a gun, shoot 'em in the head."
+  },
+  {
+    "cue_id": 861,
+    "timecode": "01:19:57,868 --> 01:19:59,007",
+    "original": "That's a sure way to kill 'em.",
+    "text": "That's a sure way to kill 'em."
+  },
+  {
+    "cue_id": 862,
+    "timecode": "01:19:59,042 --> 01:20:01,212",
+    "original": "If you don't, get yourself a club or a torch.",
+    "text": "If you don't, get yourself a club or a torch."
+  },
+  {
+    "cue_id": 863,
+    "timecode": "01:20:01,253 --> 01:20:03,256",
+    "original": "Beat 'em or burn 'em. They go up pretty easy.",
+    "text": "Beat 'em or burn 'em. They go up pretty easy."
+  },
+  {
+    "cue_id": 864,
+    "timecode": "01:20:03,798 --> 01:20:06,176",
+    "original": "Well, Chief McClellan, how long do you think it'll take",
+    "text": "Well, Chief McClellan, how long do you think it'll take"
+  },
+  {
+    "cue_id": 865,
+    "timecode": "01:20:06,211 --> 01:20:07,929",
+    "original": "until you get the situation\nunder control?",
+    "text": "until you get the situation under control?"
+  },
+  {
+    "cue_id": 866,
+    "timecode": "01:20:08,054 --> 01:20:11,226",
+    "original": "Well, that's pretty hard to say. We don't know how many of 'em there are.",
+    "text": "Well, that's pretty hard to say. We don't know how many of 'em there are."
+  },
+  {
+    "cue_id": 867,
+    "timecode": "01:20:11,267 --> 01:20:13,019",
+    "original": "We know when we find 'em, we can kill 'em.",
+    "text": "We know when we find 'em, we can kill 'em."
+  },
+  {
+    "cue_id": 868,
+    "timecode": "01:20:14,563 --> 01:20:15,774",
+    "original": "Are they slow-moving, chief?",
+    "text": "Are they slow-moving, chief?"
+  },
+  {
+    "cue_id": 869,
+    "timecode": "01:20:15,982 --> 01:20:18,909",
+    "original": "Yeah, they're dead. They're all messed up.",
+    "text": "Yeah, they're dead. They're all messed up."
+  },
+  {
+    "cue_id": 870,
+    "timecode": "01:20:18,944 --> 01:20:23,158",
+    "original": "Well, in time, would you say you'd be able to wrap this up in 24 hours?",
+    "text": "Well, in time, would you say you'd be able to wrap this up in 24 hours?"
+  },
+  {
+    "cue_id": 871,
+    "timecode": "01:20:23,534 --> 01:20:26,120",
+    "original": "Well, we don't really know.",
+    "text": "Well, we don't really know."
+  },
+  {
+    "cue_id": 872,
+    "timecode": "01:20:26,162 --> 01:20:29,792",
+    "original": "We know we'll be into it most of the night, probably into the early morning.",
+    "text": "We know we'll be into it most of the night, probably into the early morning."
+  },
+  {
+    "cue_id": 873,
+    "timecode": "01:20:29,834 --> 01:20:31,587",
+    "original": "We're working our way toward Willard",
+    "text": "We're working our way toward Willard"
+  },
+  {
+    "cue_id": 874,
+    "timecode": "01:20:31,628 --> 01:20:33,631",
+    "original": "and we'll team up with the National Guard over there,",
+    "text": "and we'll team up with the National Guard over there,"
+  },
+  {
+    "cue_id": 875,
+    "timecode": "01:20:33,673 --> 01:20:35,634",
+    "original": "and then we'll be able to give a more definite view.",
+    "text": "and then we'll be able to give a more definite view."
+  },
+  {
+    "cue_id": 876,
+    "timecode": "01:20:35,801 --> 01:20:37,553",
+    "original": "Thank you very much, chief McClellan.",
+    "text": "Thank you very much, chief McClellan."
+  },
+  {
+    "cue_id": 877,
+    "timecode": "01:20:37,929 --> 01:20:41,183",
+    "original": "This is Bill Cardille, WIC-TV 11 news.",
+    "text": "This is Bill Cardille, WIC-TV 11 news."
+  },
+  {
+    "cue_id": 878,
+    "timecode": "01:20:41,725 --> 01:20:43,019",
+    "original": "Thank you, Bill, for that report.",
+    "text": "Thank you, Bill, for that report."
+  },
+  {
+    "cue_id": 879,
+    "timecode": "01:20:43,561 --> 01:20:45,988",
+    "original": "Official spokesmen declined to speculate",
+    "text": "Official spokesmen declined to speculate"
+  },
+  {
+    "cue_id": 880,
+    "timecode": "01:20:46,023 --> 01:20:49,027",
+    "original": "just how long it may take to kill off all the flesh-eaters",
+    "text": "just how long it may take to kill off all the flesh-eaters"
+  },
+  {
+    "cue_id": 881,
+    "timecode": "01:20:49,236 --> 01:20:50,989",
+    "original": "so long as the heavy ra...",
+    "text": "so long as the heavy ra..."
+  },
+  {
+    "cue_id": 882,
+    "timecode": "01:20:57,330 --> 01:20:58,999",
+    "original": "Is the fuse box in the cellar?",
+    "text": "Is the fuse box in the cellar?"
+  },
+  {
+    "cue_id": 883,
+    "timecode": "01:20:59,791 --> 01:21:00,877",
+    "original": "I don't know. I...",
+    "text": "I don't know. I..."
+  },
+  {
+    "cue_id": 884,
+    "timecode": "01:21:05,091 --> 01:21:06,425",
+    "original": "Is... isn't the fuse...",
+    "text": "Is... isn't the fuse..."
+  },
+  {
+    "cue_id": 885,
+    "timecode": "01:21:07,552 --> 01:21:08,637",
+    "original": "The power lines are down.",
+    "text": "The power lines are down."
+  },
+  {
+    "cue_id": 886,
+    "timecode": "01:21:11,475 --> 01:21:14,562",
+    "original": "Helen?\nI have to get that gun.",
+    "text": "Helen? I have to get that gun."
+  },
+  {
+    "cue_id": 887,
+    "timecode": "01:21:16,398 --> 01:21:18,067",
+    "original": "Haven't you had enough?",
+    "text": "Haven't you had enough?"
+  },
+  {
+    "cue_id": 888,
+    "timecode": "01:21:18,943 --> 01:21:21,988",
+    "original": "Two people are dead already, on account of that guy.",
+    "text": "Two people are dead already, on account of that guy."
+  },
+  {
+    "cue_id": 889,
+    "timecode": "01:21:22,073 --> 01:21:23,657",
+    "original": "Take a look out that window. Look at...",
+    "text": "Take a look out that window. Look at..."
+  },
+  {
+    "cue_id": 890,
+    "timecode": "01:22:22,572 --> 01:22:23,656",
+    "original": "Get over here, man!",
+    "text": "Get over here, man!"
+  },
+  {
+    "cue_id": 891,
+    "timecode": "01:22:25,701 --> 01:22:26,326",
+    "original": "Come on!",
+    "text": "Come on!"
+  },
+  {
+    "cue_id": 892,
+    "timecode": "01:22:44,810 --> 01:22:48,648",
+    "original": "Go ahead. Go ahead. You wanna stay up here now?",
+    "text": "Go ahead. Go ahead. You wanna stay up here now?"
+  },
+  {
+    "cue_id": 893,
+    "timecode": "01:22:49,233 --> 01:22:50,735",
+    "original": "Helen, get in the cellar.",
+    "text": "Helen, get in the cellar."
+  },
+  {
+    "cue_id": 894,
+    "timecode": "01:22:53,113 --> 01:22:55,074",
+    "original": "Get in the cellar now!\nMove!",
+    "text": "Get in the cellar now! Move!"
+  },
+  {
+    "cue_id": 895,
+    "timecode": "01:24:39,675 --> 01:24:40,510",
+    "original": "Karen?",
+    "text": "Karen?"
+  },
+  {
+    "cue_id": 896,
+    "timecode": "01:24:50,190 --> 01:24:51,192",
+    "original": "Oh, baby.",
+    "text": "Oh, baby."
+  },
+  {
+    "cue_id": 897,
+    "timecode": "01:24:53,612 --> 01:24:54,654",
+    "original": "Baby.",
+    "text": "Baby."
+  },
+  {
+    "cue_id": 898,
+    "timecode": "01:24:59,000 --> 01:25:03,000",
+    "original": "[Helen gasping]",
+    "text": "[Helen gasping]"
+  },
+  {
+    "cue_id": 899,
+    "timecode": "01:25:07,000 --> 01:25:32,000",
+    "original": "[shrieking distorts, reverberates]",
+    "text": "[shrieking distorts, reverberates]"
+  },
+  {
+    "cue_id": 900,
+    "timecode": "01:25:51,300 --> 01:25:53,500",
+    "original": "BARBRA: Get out! Get out!",
+    "text": "BARBRA: Get out! Get out!"
+  },
+  {
+    "cue_id": 901,
+    "timecode": "01:25:54,989 --> 01:26:00,286",
+    "original": "No... no... No! Johnny!",
+    "text": "No... no... No! Johnny!"
+  },
+  {
+    "cue_id": 902,
+    "timecode": "01:26:02,000 --> 01:26:07,170",
+    "original": "No! Oh, help me, help me!",
+    "text": "No! Oh, help me, help me!"
+  },
+  {
+    "cue_id": 903,
+    "timecode": "01:30:39,951 --> 01:30:41,037",
+    "original": "Hey, Vince, Bill,",
+    "text": "Hey, Vince, Bill,"
+  },
+  {
+    "cue_id": 904,
+    "timecode": "01:30:41,579 --> 01:30:44,291",
+    "original": "you wanna get about four or five men and a couple dogs?",
+    "text": "you wanna get about four or five men and a couple dogs?"
+  },
+  {
+    "cue_id": 905,
+    "timecode": "01:30:44,374 --> 01:30:47,254",
+    "original": "There's a house over here behind those trees. We wanna go check it out.",
+    "text": "There's a house over here behind those trees. We wanna go check it out."
+  },
+  {
+    "cue_id": 906,
+    "timecode": "01:30:47,546 --> 01:30:48,922",
+    "original": "You still here, Bill?",
+    "text": "You still here, Bill?"
+  },
+  {
+    "cue_id": 907,
+    "timecode": "01:30:48,963 --> 01:30:50,508",
+    "original": "Yeah, chief, we're going to stay with it",
+    "text": "Yeah, chief, we're going to stay with it"
+  },
+  {
+    "cue_id": 908,
+    "timecode": "01:30:50,549 --> 01:30:51,975",
+    "original": "till we meet up with the National Guard.",
+    "text": "till we meet up with the National Guard."
+  },
+  {
+    "cue_id": 909,
+    "timecode": "01:30:52,010 --> 01:30:54,221",
+    "original": "- Where'd you get the coffee? - One of the volunteers.",
+    "text": "- Where'd you get the coffee? - One of the volunteers."
+  },
+  {
+    "cue_id": 910,
+    "timecode": "01:30:54,256 --> 01:30:55,981",
+    "original": "- You're doing all the work, take it. \n- Thank you.",
+    "text": "- You're doing all the work, take it. - Thank you."
+  },
+  {
+    "cue_id": 911,
+    "timecode": "01:30:56,016 --> 01:30:58,727",
+    "original": "We should be wrapped up here. About three or four more hours,",
+    "text": "We should be wrapped up here. About three or four more hours,"
+  },
+  {
+    "cue_id": 912,
+    "timecode": "01:30:58,853 --> 01:31:00,194",
+    "original": "we'll probably get into Willard's end.",
+    "text": "we'll probably get into Willard's end."
+  },
+  {
+    "cue_id": 913,
+    "timecode": "01:31:00,229 --> 01:31:02,449",
+    "original": "I guess you can go over there and meet the national guard.",
+    "text": "I guess you can go over there and meet the national guard."
+  },
+  {
+    "cue_id": 914,
+    "timecode": "01:31:02,484 --> 01:31:04,669",
+    "original": "Nick, you and the rest of these men wanna come with me?",
+    "text": "Nick, you and the rest of these men wanna come with me?"
+  },
+  {
+    "cue_id": 915,
+    "timecode": "01:31:05,504 --> 01:31:07,340",
+    "original": "Bill, I'm checking the office to see what's happening.",
+    "text": "Bill, I'm checking the office to see what's happening."
+  },
+  {
+    "cue_id": 916,
+    "timecode": "01:31:07,632 --> 01:31:10,093",
+    "original": "All right, Steve, tell 'em we're going to stay with it",
+    "text": "All right, Steve, tell 'em we're going to stay with it"
+  },
+  {
+    "cue_id": 917,
+    "timecode": "01:31:10,128 --> 01:31:13,055",
+    "original": "and everything appears to be under control.",
+    "text": "and everything appears to be under control."
+  },
+  {
+    "cue_id": 918,
+    "timecode": "01:32:02,957 --> 01:32:05,169",
+    "original": "They need you down there by the barn.",
+    "text": "They need you down there by the barn."
+  },
+  {
+    "cue_id": 919,
+    "timecode": "01:32:09,048 --> 01:32:11,176",
+    "original": "You guys can follow the wagon down.",
+    "text": "You guys can follow the wagon down."
+  },
+  {
+    "cue_id": 920,
+    "timecode": "01:32:11,218 --> 01:32:13,722",
+    "original": "I only need a few men to check out the house.",
+    "text": "I only need a few men to check out the house."
+  },
+  {
+    "cue_id": 921,
+    "timecode": "01:32:16,643 --> 01:32:19,938",
+    "original": "- Somebody had a cookout here, Vince. - Yeah, sure looks like it, Con.",
+    "text": "- Somebody had a cookout here, Vince. - Yeah, sure looks like it, Con."
+  },
+  {
+    "cue_id": 922,
+    "timecode": "01:32:59,159 --> 01:33:00,953",
+    "original": "He's a dead one. Get up here!",
+    "text": "He's a dead one. Get up here!"
+  },
+  {
+    "cue_id": 923,
+    "timecode": "01:33:02,454 --> 01:33:04,499",
+    "original": "Nick! Tony! Steve!",
+    "text": "Nick! Tony! Steve!"
+  },
+  {
+    "cue_id": 924,
+    "timecode": "01:33:04,582 --> 01:33:06,877",
+    "original": "You wanna get out in that field and build me a bonfire?",
+    "text": "You wanna get out in that field and build me a bonfire?"
+  },
+  {
+    "cue_id": 925,
+    "timecode": "01:33:19,812 --> 01:33:22,565",
+    "original": "You. Drag that out of here and throw it on the fire.",
+    "text": "You. Drag that out of here and throw it on the fire."
+  },
+  {
+    "cue_id": 926,
+    "timecode": "01:33:22,608 --> 01:33:23,525",
+    "original": "Nothing down here.",
+    "text": "Nothing down here."
+  },
+  {
+    "cue_id": 927,
+    "timecode": "01:33:23,609 --> 01:33:25,487",
+    "original": "All right. Go ahead down and give 'em a hand.",
+    "text": "All right. Go ahead down and give 'em a hand."
+  },
+  {
+    "cue_id": 928,
+    "timecode": "01:33:25,737 --> 01:33:27,030",
+    "original": "Let's go check out the house.",
+    "text": "Let's go check out the house."
+  },
+  {
+    "cue_id": 929,
+    "timecode": "01:33:27,072 --> 01:33:28,699",
+    "original": "There's something there. I heard a noise.",
+    "text": "There's something there. I heard a noise."
+  },
+  {
+    "cue_id": 930,
+    "timecode": "01:33:34,040 --> 01:33:36,251",
+    "original": "All right, Vince. Hit him in the head. Right between the eyes.",
+    "text": "All right, Vince. Hit him in the head. Right between the eyes."
+  },
+  {
+    "cue_id": 931,
+    "timecode": "01:33:40,173 --> 01:33:43,511",
+    "original": "Good shot. Okay, he's dead. Let's go get him.",
+    "text": "Good shot. Okay, he's dead. Let's go get him."
+  },
+  {
+    "cue_id": 932,
+    "timecode": "01:33:43,546 --> 01:33:45,097",
+    "original": "That's another one for the fire.",
+    "text": "That's another one for the fire."
+  },
+  {
+    "cue_id": 933,
+    "timecode": "01:34:06,501 --> 01:34:08,295",
+    "original": "Alright, send a wagon through...",
+    "text": "Alright, send a wagon through..."
+  },
+  {
+    "cue_id": 934,
+    "timecode": "01:34:17,079 --> 01:34:19,457",
+    "original": "Keep those dogs back off of those things.",
+    "text": "Keep those dogs back off of those things."
+  },
+  {
+    "cue_id": 935,
+    "timecode": "01:35:20,458 --> 01:35:24,464",
+    "original": "Come ahead with the motorcycle, please. Let's go!",
+    "text": "Come ahead with the motorcycle, please. Let's go!"
+  },
+  {
+    "cue_id": 936,
+    "timecode": "01:35:28,258 --> 01:35:30,553",
+    "original": "Hey Randy, light these torches over here.",
+    "text": "Hey Randy, light these torches over here."
+  }
+]

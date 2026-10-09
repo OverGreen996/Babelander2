@@ -1,0 +1,114 @@
+"""Render code-native README art and the real Qt workbench offscreen.
+
+Run with the project's Python from the repository root. No model, credentials,
+desktop capture, hotkey registration, or foreground window is required.
+"""
+import os
+os.environ['QT_QPA_PLATFORM'] = 'offscreen'
+import sys
+import tempfile
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT))
+from PySide6.QtCore import QRectF
+from PySide6.QtGui import QFont, QFontDatabase, QImage, QPainter
+from PySide6.QtSvg import QSvgRenderer
+from PySide6.QtWidgets import QApplication
+from babelander.controller import Controller
+from babelander.engine import Engine
+from babelander.security import KeyVault
+from babelander.settings import Settings
+from babelander.storage import Store
+from babelander.types import Mode
+from babelander.window import MainWindow
+
+OUT = ROOT / 'docs/assets'
+OUT.mkdir(parents=True, exist_ok=True)
+app = QApplication.instance() or QApplication(['README art'])
+for name in ('segoeui.ttf','segoeuib.ttf','msjh.ttc','msjhbd.ttc'):
+    font = Path(os.environ.get('WINDIR','C:/Windows'))/'Fonts'/name
+    if font.exists():
+        assert QFontDatabase.addApplicationFont(str(font)) >= 0
+app.setFont(QFont('Microsoft JhengHei',10))
+app.setStyle('Fusion')
+app.setStyleSheet((ROOT/'babelander/theme.qss').read_text(encoding='utf-8'))
+
+svg = '''<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="680" viewBox="0 0 1600 680">
+<defs>
+ <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0c1119"/><stop offset="1" stop-color="#172533"/></linearGradient>
+ <linearGradient id="gold"><stop stop-color="#f2d399"/><stop offset="1" stop-color="#bb8b46"/></linearGradient>
+ <radialGradient id="halo"><stop stop-color="#314a62" stop-opacity=".5"/><stop offset="1" stop-color="#172533" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="1600" height="680" rx="28" fill="url(#bg)"/>
+<ellipse cx="1210" cy="290" rx="500" ry="390" fill="url(#halo)"/>
+<path d="M40 1H1560M40 679H1560" stroke="#cdaa68" stroke-opacity=".45"/>
+<g stroke="#90bbd5" stroke-opacity=".075"><path d="M900 0V680M1020 0V680M1140 0V680M1260 0V680M1380 0V680M1500 0V680M860 100H1600M860 220H1600M860 340H1600M860 460H1600M860 580H1600"/></g>
+<g font-family="Microsoft JhengHei UI, Microsoft JhengHei, sans-serif">
+ <path d="M74 66l16-24 16 24-16 24z" fill="none" stroke="url(#gold)" stroke-width="2"/>
+ <path d="M90 52v28M82 66h16" stroke="#e7c991" stroke-width="2"/>
+ <text x="124" y="72" fill="#ddbd84" font-size="23" letter-spacing="5">BABELANDER / 譯鄉人</text>
+ <text x="72" y="224" fill="#f0ede6" font-family="Segoe UI, sans-serif" font-size="88" font-weight="700" letter-spacing="-3">BABELANDER <tspan fill="#d9b675">2</tspan></text>
+ <text x="76" y="314" fill="#f0ede6" font-size="49" font-weight="700">讀懂世界，繼續冒險。</text>
+ <text x="78" y="376" fill="#aebdcb" font-size="25">字幕 · 裝備 · 任務 · 聊天</text>
+ <rect x="76" y="426" width="212" height="52" rx="26" fill="#d4b074"/>
+ <text x="182" y="460" text-anchor="middle" fill="#111923" font-size="22" font-weight="700">WINDOWS OCR</text>
+ <rect x="304" y="426" width="172" height="52" rx="26" fill="none" stroke="#53697e"/>
+ <text x="390" y="460" text-anchor="middle" fill="#b4d7ed" font-size="22">LOCAL FIRST</text>
+ <text x="78" y="581" fill="#e1c28d" font-size="22" letter-spacing="2">速度 → 精準 → 資源</text>
+ <text x="78" y="621" fill="#8296aa" font-size="19">A TRANSLATION WORKSPACE FOR YOUR NEXT ADVENTURE</text>
+ <g transform="translate(1000,104) rotate(4,220,200)">
+  <rect x="16" y="18" width="468" height="388" rx="20" fill="#080e16" opacity=".7"/>
+  <rect width="468" height="388" rx="20" fill="#101c29" stroke="#637587"/>
+  <text x="32" y="48" fill="#91abc0" font-size="17" letter-spacing="3">SOURCE / ENGLISH</text>
+  <path d="M32 70H434" stroke="#344656"/>
+  <path d="M46 114l28-35 28 35-28 35z" fill="#314257" stroke="#cdaa68"/>
+  <text x="126" y="111" fill="#e0bf83" font-size="25">DAWNKEEPER</text>
+  <text x="126" y="144" fill="#99b0c5" font-size="19">Legendary shield</text>
+  <text x="34" y="211" fill="#8ac3e5" font-size="23">+24% Fire Resistance</text>
+  <text x="34" y="252" fill="#b5d5b5" font-size="23">Required Level: 30</text>
+ </g>
+ <g transform="translate(922,350)">
+  <rect x="12" y="15" width="554" height="256" rx="18" fill="#080c12" opacity=".7"/>
+  <rect width="554" height="256" rx="18" fill="#141c27" stroke="#d3ae6f" stroke-width="2"/>
+  <path d="M22 16H130M16 22V82M532 16H470M538 22V82M16 234V188M22 240H92M538 234V188M532 240H462" fill="none" stroke="#e6c78e" stroke-width="2"/>
+  <text x="34" y="55" fill="#e0bd80" font-size="18" letter-spacing="3">TRANSLATION / 繁體中文</text>
+  <text x="34" y="109" fill="#f0d293" font-size="36" font-weight="700">黎明守護者</text>
+  <text x="34" y="153" fill="#acbccc" font-size="22">傳奇盾牌</text>
+  <text x="34" y="198" fill="#8ac3e5" font-size="25">+24% 火焰抗性</text>
+  <text x="325" y="198" fill="#b5d5b5" font-size="23">需求等級：30</text>
+ </g>
+</g></svg>'''
+svg = svg.replace('Microsoft JhengHei UI, Microsoft JhengHei, sans-serif','Microsoft JhengHei').replace('Segoe UI, sans-serif','Segoe UI')
+(OUT/'hero.svg').write_text(svg, encoding='utf-8')
+renderer = QSvgRenderer(svg.encode('utf-8'))
+assert renderer.isValid()
+image = QImage(1600,680,QImage.Format.Format_ARGB32)
+image.fill(0)
+painter = QPainter(image)
+renderer.render(painter,QRectF(0,0,1600,680))
+painter.end()
+assert image.save(str(OUT/'hero.png'))
+
+with tempfile.TemporaryDirectory(prefix='babelander-readme-') as temporary:
+    data = Path(temporary)
+    settings = Settings(hotkeys={})
+    store = Store(data)
+    vault = KeyVault(data)
+    engine = Engine(settings,store,vault,data)
+    controller = Controller(engine,store,settings)
+    window = MainWindow(controller,store,settings,vault,data)
+    page = window.pages[Mode.DIALOG]
+    page.source.setPlainText("The road ahead is dangerous. Stay close, and don't lose sight of the lantern.")
+    page.target.setPlainText('前方路途險惡。跟緊我，別讓提燈離開你的視線。')
+    page.status.setText('介面展示 · 預填示例文字')
+    page.region_label.setText('框選你的字幕區域，讓翻譯跟上冒險。')
+    page.metrics.setText('展示資料 · 延遲實測請見 README 下方數據')
+    window.show()
+    app.processEvents()
+    assert window.grab().save(str(OUT/'workspace.png'))
+    window.close()
+    controller.close()
+    controller.join()
+    store.close()
+print('Rendered hero.svg, hero.png and current-version Qt workspace.png offscreen.')

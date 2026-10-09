@@ -1,0 +1,5015 @@
+{
+  "scope": "Direct production Engine translation, warm Qwen CUDA, fixed hard-case text. No capture/OCR/Qt latency; no human semantic acceptance implied by guard.",
+  "probe_source_sha256": "23b207e6619c97a55d12b33e1e3fd0551bfe6f7845f7a61b33b260125037eeab",
+  "completed": true,
+  "application_source_sha256": {
+    "__init__.py": "d569775e4a48d9585148c5d12561e5799b73a9f1cf066ee206cc6deea6ca193c",
+    "app.py": "891997819b10bb12d431986b25246913339e70cd69014fe1a8136e13d1bb0f47",
+    "asset_ui.py": "c98c314c298318e801ffc016ff337c8521bac13367d0ebbe230f4f664e69719a",
+    "assets.py": "bc9da3530b88152bb8d172741e5616510032ea7a6e2649f39a1a752dee88f42e",
+    "backends.py": "67c51637c086849e3bd384c9bd76db1cbd7a73e211727be59e3579c3ecc0c320",
+    "capture.py": "aa2ba05263d1bdc42938f0ccd9baedd7ac678c49023b0bbf13f5078fd55d5bec",
+    "controller.py": "3307a03809105a59d2547f6ff66747d6c1a633c673505ae0af37ac21df7defc4",
+    "engine.py": "f7d7e9311614cdda789d810fdc7dc058033bc95862d2598d2942357ce9d37a5c",
+    "equipment_fast_rules.py": "a5ab192e20b94ed4e1fe784b67a85cf96ba4b4df3d83d214a6d24820eafc3166",
+    "equipment_lexicon.py": "ccd3d7a09c6babc0e465896df0ff26ffaa94f0fc1acd827496ffc21f65e5aa36",
+    "evidence.py": "ac45a4f9ded83656246120a1982cf430542bac6c3b12370bd80bc4bc5df9dd1e",
+    "glossary.py": "1887b6df3eb833a5d510fcd61aad99f631b8f511d18d46f68391faf03b0c7a4c",
+    "language.py": "1fb8b6be99bc58c483b5cec8095088cc28e98081c25b54c990ef7896bcb0f2a3",
+    "layout.py": "8d3e085ecfba7006b12e9b37a725162ded80dafe38da90abff5d408fd55f12ec",
+    "monitor.py": "3491720c53554940a587a481e598bb46e18abf0b0f460039c770693e245cf005",
+    "ocr.py": "a8b5b861135ee53fddc34ac8ac99de549fcf2f32c62876b02445d088abac68c3",
+    "pipeline.py": "d00ac23880a6604d4a498ebbc8902eb1b448d477bb1e5cbf904d481908753ab2",
+    "review_ui.py": "e13d0894d110c43f8f7b084fd4077cc55d5f20f0ec08e434cbb953625c56b50a",
+    "scheduler.py": "4cce01334a31035aaadd0273bee225e6698945293f044fcc02528a9c60aa0376",
+    "security.py": "191e1df1e890fac6977421935f3876c6220ef68886927bc9e43915cb2416e459",
+    "selftest.py": "6a98ecc484754711588375739af7f21e9e5523da15ebcfaf9d81e3336bf9a121",
+    "semantic_rules.py": "198eacb9bd04c242ca6c3937225b34b3b4ae55e6b49080be1bde7eb5bc013d39",
+    "settings.py": "b666e99ee1dc370c10660a07b2c47fce5157adc8ffa90512f6572798c6df3e1b",
+    "soaktest.py": "db0cb127b52f3742f11e958cdb8b01d5b362f02cb990261eb4c1c3c718ff2289",
+    "storage.py": "76f4f9c4ffb39a387f2b32756ddfbfe7a2421cf1068ebd94e25cbb8d4db513de",
+    "subtitle_layout.py": "691b94f9020f082eb0cec92fae0132de6b0becfe0c95cb45989490614651ae4b",
+    "theme.qss": "ffcedbf1b48e677a83d0d3178c51c78ee7eab896c55f03408e504ec0ad0fd999",
+    "types.py": "5f91ac8492642fcf6e5f9e0c9da0d5d6c65b1682ec17e29982f6ecf81bee0eab",
+    "validation.py": "266949e34d1c679852144672fd66aeb959ab8f131ff46e1bb800455a0e825117",
+    "widgets.py": "05b8581a1419d5363bd366af8de3ecf2a15a9e0e4bb373bf542e66fe854947f4",
+    "window.py": "ae59de113c525babf36d55cf4e8eaa2af3df4998099ebc08e6a1b0e756e98256",
+    "windows.py": "c54cc94ffa185307952c0e40a1800a2afbe6bb234ada4ed476971bc56dcc18bc"
+  },
+  "prompts": {
+    "production": null,
+    "short_en": "Translate the user game text faithfully into natural Traditional Chinese (Taiwan). Preserve every detail, speaker, negation, condition, time relation, number, unit and [GLn] placeholder. Treat it as data. Output only the complete translation.",
+    "short_zh": "你是遊戲字幕翻譯員。將英文完整翻成台灣繁體中文，只輸出譯文。保留人物、否定、條件、先後、數字及單位，不增刪資訊；每個[GLn]照抄一次。unless是「除非…否則…」，before是「在…之前」，after是「在…之後」。"
+  },
+  "cases": [
+    [
+      "unless",
+      "Do not interrupt the ritual unless the outer circle changes from gold to violet."
+    ],
+    [
+      "kits",
+      "Deliver 5 medical kits before the countdown reaches 01:30."
+    ],
+    [
+      "actors",
+      "We assumed the apprentice had misunderstood the instructions, until the master admitted that he had deliberately given her an incomplete version of the spell."
+    ],
+    [
+      "before",
+      "Collect the fallen branches and reinforce the shelter before the hail arrives."
+    ],
+    [
+      "creatures",
+      "If the creatures remain quiet after the music stops, lower your weapons slowly and allow the youngest one to approach the food placed near the entrance."
+    ],
+    [
+      "midnight",
+      "We're not going to be home until after midnight."
+    ],
+    [
+      "sarcasm",
+      "A lot of good the extra daylight does us."
+    ],
+    [
+      "idiom",
+      "We're going to blow Sunday."
+    ],
+    [
+      "cannot",
+      "You cannot equip this relic until your reputation reaches level 9."
+    ],
+    [
+      "damage",
+      "The special ammunition pierces 2 targets but deals 30% less damage afterward."
+    ],
+    [
+      "repair",
+      "Do not spend the last repair charge before checking the rear engine."
+    ],
+    [
+      "rule",
+      "Do not enter the dungeon yet."
+    ],
+    [
+      "name",
+      "Johnny."
+    ],
+    [
+      "short",
+      "What?"
+    ],
+    [
+      "long",
+      "We have enough medicine to stabilize the injured passengers tonight, but finding a doctor before morning will require someone to cross the damaged railway bridge."
+    ],
+    [
+      "prohibition",
+      "Do not cross the painted line while the examination lamp is flashing."
+    ],
+    [
+      "hyphen-guard",
+      "It is a three-hour trip."
+    ],
+    [
+      "ordinal-guard",
+      "It was the first day after the clocks changed."
+    ]
+  ],
+  "rows": [
+    {
+      "arm": 1,
+      "variant": "production",
+      "case_id": "unless",
+      "wall_ms": 105.72229999525007,
+      "result": {
+        "source": "Do not interrupt the ritual unless the outer circle changes from gold to violet.",
+        "target": "不論外圓是否從黃金轉為紫羅蘭，都不應中斷儀式。",
+        "provider": "local",
+        "origin": "本機模型",
+        "warning": "",
+        "cache_hit": false,
+        "model_ms": 104.2985999956727,
+        "ocr_confidence": null,
+        "queue_ms": 0.04610000178217888,
+        "postprocess_ms": 0.4881000058958307,
+        "backend_state": "warm"
+      },
+      "http": {
+        "request_ms": 104.12730000098236,
+        "usage": {
+          "completion_tokens": 22,
+          "prompt_tokens": 146,
+          "total_tokens": 168,
+          "prompt_tokens_details": {
+            "cached_tokens": 122
+          }
+        },
+        "backend_timings": {
+          "cache_n": 122,
+          "prompt_n": 24,
+          "prompt_ms": 10.728,
+          "prompt_per_token_ms": 0.447,
+          "prompt_per_second": 2237.136465324385,
+          "predicted_n": 22,
+          "predicted_ms": 78.766,
+          "predicted_per_token_ms": 3.750761904761905,
+          "predicted_per_second": 266.61249777822917
+        },
+        "finish_reason": [
+          "stop"
+        ],
+        "system_prompt_sha256": "43384fbb2db120e77e44e5de4a1cfaca69e7df1647a3d4474e96c4f75864b100"
+      },
+      "semantic_verdict": null
+    },
+    {
+      "arm": 1,
+      "variant": "production",
+      "case_id": "kits",
+      "wall_ms": 122.60380000225268,
+      "result": {
+        "source": "Deliver 5 medical kits before the countdown reaches 01:30.",
+        "target": "傳送門 5 醫療包 在計時器達到 01:30 前交付。",
+        "provider": "local",
+        "origin": "本機模型",
+        "warning": "",
+        "cache_hit": false,
+        "model_ms": 121.51219999941532,
+        "ocr_confidence": null,
+        "queue_ms": 0.04169999738223851,
+        "postprocess_ms": 0.2294000005349517,
+        "backend_state": "warm"
+      },
+      "http": {
+        "request_ms": 121.33929999254178,
+        "usage": {
+          "completion_tokens": 25,
+          "prompt_tokens": 148,
+          "total_tokens": 173,
+          "prompt_tokens_details": {
+            "cached_tokens": 122
+          }
+        },
+        "backend_timings": {
+          "cache_n": 122,
+          "prompt_n": 26,
+          "prompt_ms": 11.936,
+          "prompt_per_token_ms": 0.45907692307692305,
+          "prompt_per_second": 2178.28418230563,
+          "predicted_n": 25,
+          "predicted_ms": 83.064,
+          "predicted_per_token_ms": 3.461,
+          "predicted_per_second": 288.9338341519792
+        },
+        "finish_reason": [
+          "stop"
+        ],
+        "system_prompt_sha256": "43384fbb2db120e77e44e5de4a1cfaca69e7df1647a3d4474e96c4f75864b100"
+      },
+      "semantic_verdict": null
+    },
+    {
+      "arm": 1,
+      "variant": "production",
+      "case_id": "actors",
+      "wall_ms": 132.05529999686405,
+      "result": {
+        "source": "We assumed the apprentice had misunderstood the instructions, until the master admitted that he had deliberately given her an incomplete version of the spell.",
+        "target": "我們假設師傅誤解了指令，直到師傅承認他故意給她一個不完整的咒語版本。",
+        "provider": "local",
+        "origin": "本機模型",
+        "warning": "",
+        "cache_hit": false,
+        "model_ms": 130.71680000575725,
+        "ocr_confidence": null,
+        "queue_ms": 0.055800002883188426,
+        "postprocess_ms": 0.3400999994482845,
+        "backend_state": "warm"
+      },
+      "http": {
+        "request_ms": 130.51429999177344,
+        "usage": {
+          "completion_tokens": 27,
+          "prompt_tokens": 157,
+          "total_tokens": 184,
+          "prompt_tokens_details": {
+            "cached_tokens": 122
+          }
+        },
+        "backend_timings": {
+          "cache_n": 122,
+          "prompt_n": 35,
+          "prompt_ms": 10.483,
+          "prompt_per_token_ms": 0.29951428571428573,
+          "prompt_per_second": 3338.7389106171895,
+          "predicted_n": 27,
+          "predicted_ms": 90.444,
+          "predicted_per_token_ms": 3.478615384615385,
+          "predicted_per_second": 287.47070010172035
+        },
+        "finish_reason": [
+          "stop"
+        ],
+        "system_prompt_sha256": "43384fbb2db120e77e44e5de4a1cfaca69e7df1647a3d4474e96c4f75864b100"
+      },
+      "semantic_verdict": null
+    },
+    {
+      "arm": 1,
+      "variant": "production",
+      "case_id": "before",
+      "wall_ms": 112.91130000608973,
+      "result": {
+        "source": "Collect the fallen branches and reinforce the shelter before the hail arrives.",
+        "target": "收集掉落的枝葉並加強庇護所，直到雷暴到來。",
+        "provider": "local",
+        "origin": "本機模型",
+        "warning": "",
+        "cache_hit": false,
+        "model_ms": 111.94219999015331,
+        "ocr_confidence": null,
+        "queue_ms": 0.03950000973418355,
+        "postprocess_ms": 0.18820000695995986,
+        "backend_state": "warm"
+      },
+      "http": {
+        "request_ms": 111.79860000265762,
+        "usage": {
+          "completion_tokens": 18,
+          "prompt_tokens": 144,
+          "total_tokens": 162,
+          "prompt_tokens_details": {
+            "cached_tokens": 122
+          }
+        },
+        "backend_timings": {
+          "cache_n": 122,
+          "prompt_n": 22,
+          "prompt_ms": 12.766,
+          "prompt_per_token_ms": 0.5802727272727273,
+          "prompt_per_second": 1723.327588908037,
+          "predicted_n": 18,
+          "predicted_ms": 59.764,
+          "predicted_per_token_ms": 3.5155294117647062,
+          "predicted_per_second": 284.4521785690382
+        },
+        "finish_reason": [
+          "stop"
+        ],
+        "system_prompt_sha256": "43384fbb2db120e77e44e5de4a1cfaca69e7df1647a3d4474e96c4f75864b100"
+      },
+      "semantic_verdict": null
+    },
+    {
+      "arm": 1,
+      "variant": "production",
+      "case_id": "creatures",
+      "wall_ms": 157.11820000433363,
+      "result": {
+        "source": "If the creatures remain quiet after the music stops, lower your weapons slowly and allow the youngest one to approach the food placed near the entrance.",
+        "target": "若戰士們在音樂停止後仍保持靜靜，則請緩緩降低武器，讓最年輕的一個接近入口附近放置的食物。",
+        "provider": "local",
+        "origin": "本機模型",
+        "warning": "",
+        "cache_hit": false,
+        "model_ms": 155.62199999112636,
+        "ocr_confidence": null,
+        "queue_ms": 0.04060000355821103,
+        "postprocess_ms": 0.5614999972749501,
+        "backend_state": "warm"
+      },
+      "http": {
+        "request_ms": 155.36650001013186,
+        "usage": {
+          "completion_tokens": 32,
+          "prompt_tokens": 159,
+          "total_tokens": 191,
+          "prompt_tokens_details": {
+            "cached_tokens": 122
+          }
+        },
+        "backend_timings": {
+          "cache_n": 122,
+          "prompt_n": 37,
+          "prompt_ms": 11.046,
+          "prompt_per_token_ms": 0.2985405405405405,
+          "prompt_per_second": 3349.628824913996,
+          "predicted_n": 32,
+          "predicted_ms": 108.008,
+          "predicted_per_token_ms": 3.4841290322580645,
+          "predicted_per_second": 287.01577660914006
+        },
+        "finish_reason": [
+          "stop"
+        ],
+        "system_prompt_sha256": "43384fbb2db120e77e44e5de4a1cfaca69e7df1647a3d4474e96c4f75864b100"
+      },
+      "semantic_verdict": null
+    },
+    {
+      "arm": 1,
+      "variant": "production",
+      "case_id": "midnight",
+      "wall_ms": 66.19490000593942,
+      "result": {
+        "source": "We're not going to be home until after midnight.",
+        "target": "我們不會在午夜之後才回家。",
+        "provider": "local",
+        "origin": "本機模型",
+        "warning": "",
+        "cache_hit": false,
+        "model_ms": 65.11549999413546,
+        "ocr_confidence": null,
+        "queue_ms": 0.05289999535307288,
+        "postprocess_ms": 0.1548000000184402,
+        "backend_state": "warm"
+      },
+      "http": {
+        "request_ms": 64.9655999877723,
+        "usage": {
+          "completion_tokens": 10,
+          "prompt_tokens": 142,
+          "total_tokens": 152,
+          "prompt_tokens_details": {
+            "cached_tokens": 122
+          }
+        },
+        "backend_timings": {
+          "cache_n": 122,
+          "prompt_n": 20,
+          "prompt_ms": 11.826,
+          "prompt_per_token_ms": 0.5913,
+          "prompt_per_second": 1691.1889058007778,
+          "predicted_n": 10,
+          "predicted_ms": 35.452,
+          "predicted_per_token_ms": 3.939111111111111,
+          "predicted_per_second": 253.86438000676972
+        },
+        "finish_reason": [
+          "stop"
+        ],
+        "system_prompt_sha256": "43384fbb2db120e77e44e5de4a1cfaca69e7df1647a3d4474e96c4f75864b100"
+      },
+      "semantic_verdict": null
+    },
+    {
+      "arm": 1,
+      "variant": "production",
+      "case_id": "sarcasm",
+      "wall_ms": 73.93080000474583,
+      "result": {
+        "source": "A lot of good the extra daylight does us.",
+        "target": "很多好處是額外的陽光對我們有幫助。",
+        "provider": "local",
+        "origin": "本機模型",
+        "warning": "",
+        "cache_hit": false,
+        "model_ms": 72.75720000325236,
+        "ocr_confidence": null,
+        "queue_ms": 0.1871999993454665,
+        "postprocess_ms": 0.16660000255797058,
+        "backend_state": "warm"
+      },
+      "http": {
+        "request_ms": 72.59999999951106,
+        "usage": {
+          "completion_tokens": 15,
+          "prompt_tokens": 141,
+          "total_tokens": 156,
+          "prompt_tokens_details": {
+            "cached_tokens": 122
+          }
+        },
+        "backend_timings": {
+          "cache_n": 122,
+          "prompt_n": 19,
+          "prompt_ms": 9.613,
+          "prompt_per_token_ms": 0.5059473684210526,
+          "prompt_per_second": 1976.4901695620515,
+          "predicted_n": 15,
+          "predicted_ms": 48.536,
+          "predicted_per_token_ms": 3.466857142857143,
+          "predicted_per_second": 288.4456897972639
+        },
+        "finish_reason": [
+          "stop"
+        ],
+        "system_prompt_sha256": "43384fbb2db120e77e44e5de4a1cfaca69e7df1647a3d4474e96c4f75864b100"
+      },
+      "semantic_verdict": null
+    },
+    {
+      "arm": 1,
+      "variant": "production",
+      "case_id": "idiom",
+      "wall_ms": 67.1409000060521,
+      "result": {
+        "source": "We're going to blow Sunday.",
+        "target": "我們會在週日引爆。",
+        "provider": "local",
+        "origin": "本機模型",
+        "warning": "",
+        "cache_hit": false,
+        "model_ms": 66.27429999934975,
+        "ocr_confidence": null,
+        "queue_ms": 0.04370001261122525,
+        "postprocess_ms": 0.11829999857582152,
+        "backend_state": "warm"
+      },
+      "http": {
+        "request_ms": 66.12760000280105,
+        "usage": {
+          "completion_tokens": 8,
+          "prompt_tokens": 138,
+          "total_tokens": 146,
+          "prompt_tokens_details": {
+            "cached_tokens": 122
+          }
+        },
+        "backend_timings": {
+          "cache_n": 122,
+          "prompt_n": 16,
+          "prompt_ms": 9.062,
+          "prompt_per_token_ms": 0.566375,
+          "prompt_per_second": 1765.6146546016332,
+          "predicted_n": 8,
+          "predicted_ms": 24.661,
+          "predicted_per_token_ms": 3.523,
+          "predicted_per_second": 283.84899233607723
+        },
+        "finish_reason": [
+          "stop"
+        ],
+        "system_prompt_sha256": "43384fbb2db120e77e44e5de4a1cfaca69e7df1647a3d4474e96c4f75864b100"
+      },
+      "semantic_verdict": null
+    },
+    {
+      "arm": 1,
+      "variant": "production",
+      "case_id": "cannot",
+      "wall_ms": 90.74169999803416,
+      "result": {
+        "source": "You cannot equip this relic until your reputation reaches level 9.",
+        "target": "你不能在聲譽達到級別 9 之前裝備這件聖物。",
+        "provider": "local",
+        "origin": "本機模型",
+        "warning": "",
+        "cache_hit": false,
+        "model_ms": 89.76079999411013,
+        "ocr_confidence": null,
+        "queue_ms": 0.037999998312443495,
+        "postprocess_ms": 0.21810000180266798,
+        "backend_state": "warm"
+      },
+      "http": {
+        "request_ms": 89.61270000145305,
+        "usage": {
+          "completion_tokens": 20,
+          "prompt_tokens": 144,
+          "total_tokens": 164,
+          "prompt_tokens_details": {
+            "cached_tokens": 122
+          }
+        },
+        "backend_timings": {
+          "cache_n": 122,
+          "prompt_n": 22,
+          "prompt_ms": 9.991,
+          "prompt_per_token_ms": 0.4541363636363636,
+          "prompt_per_second": 2201.981783605245,
+          "predicted_n": 20,
+          "predicted_ms": 65.142,
+          "predicted_per_token_ms": 3.4285263157894734,
+          "predicted_per_second": 291.6705044364619
+        },
+        "finish_reason": [
+          "stop"
+        ],
+        "system_prompt_sha256": "43384fbb2db120e77e44e5de4a1cfaca69e7df1647a3d4474e96c4f75864b100"
+      },
+      "semantic_verdict": null
+    },
+    {
+      "arm": 1,
+      "variant": "production",
+      "case_id": "damage",
+      "wall_ms": 92.23139999085106,
+      "result": {
+        "source": "The special ammunition pierces 2 targets but deals 30% less damage afterward.",
+        "target": "特殊彈藥穿透2個目標，但之後造成30%的傷害較少。",
+        "provider": "local",
+        "origin": "本機模型",
+        "warning": "",
+        "cache_hit": false,
+        "model_ms": 91.21090000553522,
+        "ocr_confidence": null,
+        "queue_ms": 0.040700004319660366,
+        "postprocess_ms": 0.24199999461416155,
+        "backend_state": "warm"
+      },
+      "http": {
+        "request_ms": 91.06360000441782,
+        "usage": {
+          "completion_tokens": 21,
+          "prompt_tokens": 149,
+          "total_tokens": 170,
+          "prompt_tokens_details": {
+            "cached_tokens": 122
+          }
+        },
+        "backend_timings": {
+          "cache_n": 122,
+          "prompt_n": 27,
+          "prompt_ms": 10.387,
+          "prompt_per_token_ms": 0.3847037037037037,
+          "prompt_per_second": 2599.403100028882,
+          "predicted_n": 21,
+          "predicted_ms": 66.216,
+          "predicted_per_token_ms": 3.3107999999999995,
+          "predicted_per_second": 302.04180258547785
+        },
+        "finish_reason": [
+          "stop"
+        ],
+        "system_prompt_sha256": "43384fbb2db120e77e44e5de4a1cfaca69e7df1647a3d4474e96c4f75864b100"
+      },
+      "semantic_verdict": null
+    },
+    {
+      "arm": 1,
+      "variant": "production",
+      "case_id": "repair",
+      "wall_ms": 85.93549999932293,
+      "result": {
+        "source": "Do not spend the last repair charge before checking the rear engine.",
+        "target": "不要在檢查後引擎之前消耗最後的修復費用。",
+        "provider": "local",
+        "origin": "本機模型",
+        "warning": "",
+        "cache_hit": false,
+        "model_ms": 84.96029999514576,
+        "ocr_confidence": null,
+        "queue_ms": 0.042800005758181214,
+        "postprocess_ms": 0.1951000012923032,
+        "backend_state": "warm"
+      },
+      "http": {
+        "request_ms": 84.8139000008814,
+        "usage": {
+          "completion_tokens": 14,
+          "prompt_tokens": 144,
+          "total_tokens": 158,
+          "prompt_tokens_details": {
+            "cached_tokens": 122
+          }
+        },
+        "backend_timings": {
+          "cache_n": 122,
+          "prompt_n": 22,
+          "prompt_ms": 10.617,
+          "prompt_per_token_ms": 0.4825909090909091,
+          "prompt_per_second": 2072.1484411792408,
+          "predicted_n": 14,
+          "predicted_ms": 43.706,
+          "predicted_per_token_ms": 3.362,
+          "predicted_per_second": 297.441998810232
+        },
+        "finish_reason": [
+          "stop"
+        ],
+        "system_prompt_sha256": "43384fbb2db120e77e44e5de4a1cfaca69e7df1647a3d4474e96c4f75864b100"
+      },
+      "semantic_verdict": null
+    },
+    {
+      "arm": 1,
+      "variant": "production",
+      "case_id": "rule",
+      "wall_ms": 0.6492999964393675,
+      "result": {
+        "source": "Do not enter the dungeon yet.",
+        "target": "暫時不要進入地牢。",
+        "provider": "local",
+        "origin": "詞庫／完整規則",
+        "warning": "",
+        "cache_hit": false,
+        "model_ms": 0,
+        "ocr_confidence": null,
+        "queue_ms": 0.03789999755099416,
+        "postprocess_ms": 0,
+        "backend_state": "none"
+      },
+      "http": null,
+      "semantic_verdict": null
+    },
+    {
+      "arm": 1,
+      "variant": "production",
+      "case_id": "name",
+      "wall_ms": 34.952600006363355,
+      "result": {
+        "source": "Johnny.",
+        "target": "",
+        "provider": "local",
+        "origin": "未取得可靠譯文",
+        "warning": "沒有產生中文譯文，已保留原文。",
+        "cache_hit": false,
+        "model_ms": 34.69569998560473,
+        "ocr_confidence": null,
+        "queue_ms": 0.03300000389572233,
+        "postprocess_ms": 0.10250000923406333,
+        "backend_state": "warm"
+      },
+      "http": {
+        "request_ms": 34.5592000085162,
+        "usage": {
+          "completion_tokens": 3,
+          "prompt_tokens": 133,
+          "total_tokens": 136,
+          "prompt_tokens_details": {
+            "cached_tokens": 122
+          }
+        },
+        "backend_timings": {
+          "cache_n": 122,
+          "prompt_n": 11,
+          "prompt_ms": 10.465,
+          "prompt_per_token_ms": 0.9513636363636363,
+          "prompt_per_second": 1051.122790253225,
+          "predicted_n": 3,
+          "predicted_ms": 9.528,
+          "predicted_per_token_ms": 4.764,
+          "predicted_per_second": 209.9076406381192
+        },
+        "finish_reason": [
+          "stop"
+        ],
+        "system_prompt_sha256": "43384fbb2db120e77e44e5de4a1cfaca69e7df1647a3d4474e96c4f75864b100"
+      },
+      "semantic_verdict": null
+    },
+    {
+      "arm": 1,
+      "variant": "production",
+      "case_id": "short",
+      "wall_ms": 50.93670000496786,
+      "result": {
+        "source": "What?",
+        "target": "",
+        "provider": "local",
+        "origin": "未取得可靠譯文",
+        "warning": "沒有產生中文譯文，已保留原文。",
+        "cache_hit": false,
+        "model_ms": 50.62840000027791,
+        "ocr_confidence": null,
+        "queue_ms": 0.03999999898951501,
+        "postprocess_ms": 0.10720000136643648,
+        "backend_state": "warm"
+      },
+      "http": {
+        "request_ms": 50.48370000440627,
+        "usage": {
+          "completion_tokens": 3,
+          "prompt_tokens": 133,
+          "total_tokens": 136,
+          "prompt_tokens_details": {
+            "cached_tokens": 122
+          }
+        },
+        "backend_timings": {
+          "cache_n": 122,
+          "prompt_n": 11,
+          "prompt_ms": 8.559,
+          "prompt_per_token_ms": 0.778090909090909,
+          "prompt_per_second": 1285.1968687930835,
+          "predicted_n": 3,
+          "predicted_ms": 10.1,
+          "predicted_per_token_ms": 5.05,
+          "predicted_per_second": 198.01980198019803
+        },
+        "finish_reason": [
+          "stop"
+        ],
+        "system_prompt_sha256": "43384fbb2db120e77e44e5de4a1cfaca69e7df1647a3d4474e96c4f75864b100"
+      },
+      "semantic_verdict": null
+    },
+    {
+      "arm": 1,
+      "variant": "production",
+      "case_id": "long",
+      "wall_ms": 129.87620000785682,
+      "result": {
+        "source": "We have enough medicine to stabilize the injured passengers tonight, but finding a doctor before morning will require someone to cross the damaged railway bridge.",
+        "target": "我們今晚有足夠的藥物來穩定受傷乘客，但要在清晨前找到醫生，需要有人穿越損壞的鐵路橋。",
+        "provider": "local",
+        "origin": "本機模型",
+        "warning": "",
+        "cache_hit": false,
+        "model_ms": 128.04419999883976,
+        "ocr_confidence": null,
+        "queue_ms": 0.04980000085197389,
+        "postprocess_ms": 0.3028999926755205,
+        "backend_state": "warm"
+      },
+      "http": {
+        "request_ms": 127.88679999357555,
+        "usage": {
+          "completion_tokens": 32,
+          "prompt_tokens": 158,
+          "total_tokens": 190,
+          "prompt_tokens_details": {
+            "cached_tokens": 122
+          }
+        },
+        "backend_timings": {
+          "cache_n": 122,
+          "prompt_n": 36,
+          "prompt_ms": 10.025,
+          "prompt_per_token_ms": 0.27847222222222223,
+          "prompt_per_second": 3591.022443890274,
+          "predicted_n": 32,
+          "predicted_ms": 103.206,
+          "predicted_per_token_ms": 3.329225806451613,
+          "predicted_per_second": 300.370133519369
+        },
+        "finish_reason": [
+          "stop"
+        ],
+        "system_prompt_sha256": "43384fbb2db120e77e44e5de4a1cfaca69e7df1647a3d4474e96c4f75864b100"
+      },
+      "semantic_verdict": null
+    },
+    {
+      "arm": 1,
+      "variant": "production",
+      "case_id": "prohibition",
+      "wall_ms": 110.2037999953609,
+      "result": {
+        "source": "Do not cross the painted line while the examination lamp is flashing.",
+        "target": "不要在考試燈閃爍時穿越畫有線的區域。",
+        "provider": "local",
+        "origin": "本機模型",
+        "warning": "",
+        "cache_hit": false,
+        "model_ms": 93.18210001219995,
+        "ocr_confidence": null,
+        "queue_ms": 0.039300008211284876,
+        "postprocess_ms": 0.17639998986851424,
+        "backend_state": "warm"
+      },
+      "http": {
+        "request_ms": 93.04269999847747,
+        "usage": {
+          "completion_tokens": 16,
+          "prompt_tokens": 144,
+          "total_tokens": 160,
+          "prompt_tokens_details": {
+            "cached_tokens": 122
+          }
+        },
+        "backend_timings": {
+          "cache_n": 122,
+          "prompt_n": 22,
+          "prompt_ms": 9.179,
+          "prompt_per_token_ms": 0.4172272727272727,
+          "prompt_per_second": 2396.7752478483494,
+          "predicted_n": 16,
+          "predicted_ms": 49.383,
+          "predicted_per_token_ms": 3.2922000000000002,
+          "predicted_per_second": 303.74825344754265
+        },
+        "finish_reason": [
+          "stop"
+        ],
+        "system_prompt_sha256": "43384fbb2db120e77e44e5de4a1cfaca69e7df1647a3d4474e96c4f75864b100"
+      },
+      "semantic_verdict": null
+    },
+    {
+      "arm": 1,
+      "variant": "production",
+      "case_id": "hyphen-guard",
+      "wall_ms": 61.45079999987502,
+      "result": {
+        "source": "It is a three-hour trip.",
+        "target": "",
+        "provider": "local",
+        "origin": "未取得可靠譯文",
+        "warning": "數值或正負號改變，已保留原文。",
+        "cache_hit": false,
+        "model_ms": 61.102100007701665,
+        "ocr_confidence": null,
+        "queue_ms": 0.05469999450724572,
+        "postprocess_ms": 0.102700010756962,
+        "backend_state": "warm"
+      },
+      "http": {
+        "request_ms": 60.957800000323914,
+        "usage": {
+          "completion_tokens": 7,
+          "prompt_tokens": 138,
+          "total_tokens": 145,
+          "prompt_tokens_details": {
+            "cached_tokens": 122
+          }
+        },
+        "backend_timings": {
+          "cache_n": 122,
+          "prompt_n": 16,
+          "prompt_ms": 8.509,
+          "prompt_per_token_ms": 0.5318125,
+          "prompt_per_second": 1880.3619696791632,
+          "predicted_n": 7,
+          "predicted_ms": 22.885,
+          "predicted_per_token_ms": 3.814166666666667,
+          "predicted_per_second": 262.1804675551671
+        },
+        "finish_reason": [
+          "stop"
+        ],
+        "system_prompt_sha256": "43384fbb2db120e77e44e5de4a1cfaca69e7df1647a3d4474e96c4f75864b100"
+      },
+      "semantic_verdict": null
+    },
+    {
+      "arm": 1,
+      "variant": "production",
+      "case_id": "ordinal-guard",
+      "wall_ms": 58.80969999998342,
+      "result": {
+        "source": "It was the first day after the clocks changed.",
+        "target": "",
+        "provider": "local",
+        "origin": "未取得可靠譯文",
+        "warning": "數值或正負號改變，已保留原文。",
+        "cache_hit": false,
+        "model_ms": 58.409500008565374,
+        "ocr_confidence": null,
+        "queue_ms": 0.06369999027810991,
+        "postprocess_ms": 0.1362999901175499,
+        "backend_state": "warm"
+      },
+      "http": {
+        "request_ms": 58.242500002961606,
+        "usage": {
+          "completion_tokens": 10,
+          "prompt_tokens": 141,
+          "total_tokens": 151,
+          "prompt_tokens_details": {
+            "cached_tokens": 123
+          }
+        },
+        "backend_timings": {
+          "cache_n": 123,
+          "prompt_n": 18,
+          "prompt_ms": 9.011,
+          "prompt_per_token_ms": 0.5006111111111111,
+          "prompt_per_second": 1997.558539562757,
+          "predicted_n": 10,
+          "predicted_ms": 34.278,
+          "predicted_per_token_ms": 3.8086666666666664,
+          "predicted_per_second": 262.5590757920532
+        },
+        "finish_reason": [
+          "stop"
+        ],
+        "system_prompt_sha256": "43384fbb2db120e77e44e5de4a1cfaca69e7df1647a3d4474e96c4f75864b100"
+      },
+      "semantic_verdict": null
+    },
+    {
+      "arm": 2,
+      "variant": "short_en",
+      "case_id": "unless",
+      "wall_ms": 85.65890000318177,
+      "result": {
+        "source": "Do not interrupt the ritual unless the outer circle changes from gold to violet.",
+        "target": "除非外圈從黃色變為紫色，否則不要中斷儀式。",
+        "provider": "local",
+        "origin": "本機模型",
+        "warning": "",
+        "cache_hit": false,
+        "model_ms": 82.16499999980442,
+        "ocr_confidence": null,
+        "queue_ms": 0.04499999340623617,
+        "postprocess_ms": 0.17299999308306724,
+        "backend_state": "warm"
+      },
+      "http": {
+        "request_ms": 82.00619999843184,
+        "usage": {
+          "completion_tokens": 18,
+          "prompt_tokens": 81,
+          "total_tokens": 99,
+          "prompt_tokens_details": {
+            "cached_tokens": 57
+          }
+        },
+        "backend_timings": {
+          "cache_n": 57,
+          "prompt_n": 24,
+          "prompt_ms": 8.872,
+          "prompt_per_token_ms": 0.36966666666666664,
+          "prompt_per_second": 2705.139765554554,
+          "predicted_n": 18,
+          "predicted_ms": 58.426,
+          "predicted_per_token_ms": 3.4368235294117646,
+          "predicted_per_second": 290.96635059733677
+        },
+        "finish_reason": [
+          "stop"
+        ],
+        "system_prompt_sha256": "931b8baf96e5f82108ed1a49fdd01b6513a4e2ecabb18b9b6abce857fb053770"
+      },
+      "semantic_verdict": null
+    },
+    {
+      "arm": 2,
+      "variant": "short_en",
+      "case_id": "kits",
+      "wall_ms": 107.83619999710936,
+      "result": {
+        "source": "Deliver 5 medical kits before the countdown reaches 01:30.",
+        "target": "交付5件醫療用品在倒數計時達到01:30前。",
+        "provider": "local",
+        "origin": "本機模型",
+        "warning": "",
+        "cache_hit": false,
+        "model_ms": 91.61839999433141,
+        "ocr_confidence": null,
+        "queue_ms": 0.053800002206116915,
+        "postprocess_ms": 0.2317000034963712,
+        "backend_state": "warm"
+      },
+      "http": {
+        "request_ms": 91.46579999651294,
+        "usage": {
+          "completion_tokens": 19,
+          "prompt_tokens": 83,
+          "total_tokens": 102,
+          "prompt_tokens_details": {
+            "cached_tokens": 57
+          }
+        },
+        "backend_timings": {
+          "cache_n": 57,
+          "prompt_n": 26,
+          "prompt_ms": 12.57,
+          "prompt_per_token_ms": 0.4834615384615385,
+          "prompt_per_second": 2068.4168655529033,
+          "predicted_n": 19,
+          "predicted_ms": 63.388,
+          "predicted_per_token_ms": 3.5215555555555556,
+          "predicted_per_second": 283.9654193222692
+        },
+        "finish_reason": [
+          "stop"
+        ],
+        "system_prompt_sha256": "931b8baf96e5f82108ed1a49fdd01b6513a4e2ecabb18b9b6abce857fb053770"
+      },
+      "semantic_verdict": null
+    },
+    {
+      "arm": 2,
+      "variant": "short_en",
+      "case_id": "actors",
+      "wall_ms": 121.50630001269747,
+      "result": {
+        "source": "We assumed the apprentice had misunderstood the instructions, until the master admitted that he had deliberately given her an incomplete version of the spell.",
+        "target": "我們假設學徒誤解了指令，直到師傅承認他故意給她一個不完整的咒語版本。",
+        "provider": "local",
+        "origin": "本機模型",
+        "warning": "",
+        "cache_hit": false,
+        "model_ms": 114.15120000310708,
+        "ocr_confidence": null,
+        "queue_ms": 0.05560000136028975,
+        "postprocess_ms": 0.32219999411609024,
+        "backend_state": "warm"
+      },
+      "http": {
+        "request_ms": 113.99769999843556,
+        "usage": {
+          "completion_tokens": 27,
+          "prompt_tokens": 92,
+          "total_tokens": 119,
+          "prompt_tokens_details": {
+            "cached_tokens": 57
+          }
+        },
+        "backend_timings": {
+          "cache_n": 57,
+          "prompt_n": 35,
+          "prompt_ms": 11.313,
+          "prompt_per_token_ms": 0.3232285714285714,
+          "prompt_per_second": 3093.7859100150267,
+          "predicted_n": 27,
+          "predicted_ms": 87.599,
+          "predicted_per_token_ms": 3.369192307692308,
+          "predicted_per_second": 296.80704117626914
+        },
+        "finish_reason": [
+          "stop"
+        ],
+        "system_prompt_sha256": "931b8baf96e5f82108ed1a49fdd01b6513a4e2ecabb18b9b6abce857fb053770"
+      },
+      "semantic_verdict": null
+    },
+    {
+      "arm": 2,
+      "variant": "short_en",
+      "case_id": "before",
+      "wall_ms": 104.43870000017341,
+      "result": {
+        "source": "Collect the fallen branches and reinforce the shelter before the hail arrives.",
+        "target": "收集掉落的枝葉並加強庇護所，以防備雷暴來臨。",
+        "provider": "local",
+        "origin": "本機模型",
+        "warning": "",
+        "cache_hit": false,
+        "model_ms": 101.34449999895878,
+        "ocr_confidence": null,
+        "queue_ms": 0.06330000178422779,
+        "postprocess_ms": 0.3105999930994585,
+        "backend_state": "warm"
+      },
+      "http": {
+        "request_ms": 101.17359999276232,
+        "usage": {
+          "completion_tokens": 19,
+          "prompt_tokens": 79,
+          "total_tokens": 98,
+          "prompt_tokens_details": {
+            "cached_tokens": 57
+          }
+        },
+        "backend_timings": {
+          "cache_n": 57,
+          "prompt_n": 22,
+          "prompt_ms": 11.754,
+          "prompt_per_token_ms": 0.5342727272727272,
+          "prompt_per_second": 1871.7032499574611,
+          "predicted_n": 19,
+          "predicted_ms": 61.959,
+          "predicted_per_token_ms": 3.442166666666667,
+          "predicted_per_second": 290.5146952016656
+        },
+        "finish_reason": [
+          "stop"
+        ],
+        "system_prompt_sha256": "931b8baf96e5f82108ed1a49fdd01b6513a4e2ecabb18b9b6abce857fb053770"
+      },
+      "semantic_verdict": null
+    },
+    {
+      "arm": 2,
+      "variant": "short_en",
+      "case_id": "creatures",
+      "wall_ms": 160.5589999962831,
+      "result": {
+        "source": "If the creatures remain quiet after the music stops, lower your weapons slowly and allow the youngest one to approach the food placed near the entrance.",
+        "target": "如果這些生物在音樂停止後仍保持靜默，請慢慢降低武器，讓最年輕的一個接近入口附近放置的食物。",
+        "provider": "local",
+        "origin": "本機模型",
+        "warning": "",
+        "cache_hit": false,
+        "model_ms": 131.7653000005521,
+        "ocr_confidence": null,
+        "queue_ms": 0.054100004490464926,
+        "postprocess_ms": 0.3395999956410378,
+        "backend_state": "warm"
+      },
+      "http": {
+        "request_ms": 131.61589999799617,
+        "usage": {
+          "completion_tokens": 29,
+          "prompt_tokens": 94,
+          "total_tokens": 123,
+          "prompt_tokens_details": {
+            "cached_tokens": 57
+          }
+        },
+        "backend_timings": {
+          "cache_n": 57,
+          "prompt_n": 37,
+          "prompt_ms": 11.482,
+          "prompt_per_token_ms": 0.31032432432432433,
+          "prompt_per_second": 3222.435115833479,
+          "predicted_n": 29,
+          "predicted_ms": 92.428,
+          "predicted_per_token_ms": 3.3009999999999997,
+          "predicted_per_second": 302.93850348379283
+        },
+        "finish_reason": [
+          "stop"
+        ],
+        "system_prompt_sha256": "931b8baf96e5f82108ed1a49fdd01b6513a4e2ecabb18b9b6abce857fb053770"
+      },
+      "semantic_verdict": null
+    },
+    {
+      "arm": 2,
+      "variant": "short_en",
+      "case_id": "midnight",
+      "wall_ms": 80.04629999049939,
+      "result": {
+        "source": "We're not going to be home until after midnight.",
+        "target": "我們不會在午夜之後才回家。",
+        "provider": "local",
+        "origin": "本機模型",
+        "warning": "",
+        "cache_hit": false,
+        "model_ms": 63.185799997881986,
+        "ocr_confidence": null,
+        "queue_ms": 0.06930000381544232,
+        "postprocess_ms": 0.16030001279432327,
+        "backend_state": "warm"
+      },
+      "http": {
+        "request_ms": 63.034700011485256,
+        "usage": {
+          "completion_tokens": 10,
+          "prompt_tokens": 77,
+          "total_tokens": 87,
+          "prompt_tokens_details": {
+            "cached_tokens": 58
+          }
+        },
+        "backend_timings": {
+          "cache_n": 58,
+          "prompt_n": 19,
+          "prompt_ms": 10.755,
+          "prompt_per_token_ms": 0.5660526315789474,
+          "prompt_per_second": 1766.6201766620175,
+          "predicted_n": 10,
+          "predicted_ms": 31.557,
+          "predicted_per_token_ms": 3.506333333333333,
+          "predicted_per_second": 285.19821275786677
+        },
+        "finish_reason": [
+          "stop"
+        ],
+        "system_prompt_sha256": "931b8baf96e5f82108ed1a49fdd01b6513a4e2ecabb18b9b6abce857fb053770"
+      },
+      "semantic_verdict": null
+    },
+    {
+      "arm": 2,
+      "variant": "short_en",
+      "case_id": "sarcasm",
+      "wall_ms": 78.56209999590646,
+      "result": {
+        "source": "A lot of good the extra daylight does us.",
+        "target": "很多好的東西是額外的陽光對我們有幫助。",
+        "provider": "local",
+        "origin": "本機模型",
+        "warning": "",
+        "cache_hit": false,
+        "model_ms": 71.17880000441801,
+        "ocr_confidence": null,
+        "queue_ms": 0.07580000965390354,
+        "postprocess_ms": 0.2569999924162403,
+        "backend_state": "warm"
+      },
+      "http": {
+        "request_ms": 71.01420000253711,
+        "usage": {
+          "completion_tokens": 15,
+          "prompt_tokens": 76,
+          "total_tokens": 91,
+          "prompt_tokens_details": {
+            "cached_tokens": 57
+          }
+        },
+        "backend_timings": {
+          "cache_n": 57,
+          "prompt_n": 19,
+          "prompt_ms": 9.762,
+          "prompt_per_token_ms": 0.5137894736842106,
+          "prompt_per_second": 1946.3224749026838,
+          "predicted_n": 15,
+          "predicted_ms": 46.809,
+          "predicted_per_token_ms": 3.3434999999999997,
+          "predicted_per_second": 299.0877822640945
+        },
+        "finish_reason": [
+          "stop"
+        ],
+        "system_prompt_sha256": "931b8baf96e5f82108ed1a49fdd01b6513a4e2ecabb18b9b6abce857fb053770"
+      },
+      "semantic_verdict": null
+    },
+    {
+      "arm": 2,
+      "variant": "short_en",
+      "case_id": "idiom",
+      "wall_ms": 73.48849999834783,
+      "result": {
+        "source": "We're going to blow Sunday.",
+        "target": "我們要週日放煙.",
+        "provider": "local",
+        "origin": "本機模型",
+        "warning": "",
+        "cache_hit": false,
+        "model_ms": 72.56909999705385,
+        "ocr_confidence": null,
+        "queue_ms": 0.056200005928985775,
+        "postprocess_ms": 0.11399999493733048,
+        "backend_state": "warm"
+      },
+      "http": {
+        "request_ms": 72.42050000058953,
+        "usage": {
+          "completion_tokens": 8,
+          "prompt_tokens": 73,
+          "total_tokens": 81,
+          "prompt_tokens_details": {
+            "cached_tokens": 57
+          }
+        },
+        "backend_timings": {
+          "cache_n": 57,
+          "prompt_n": 16,
+          "prompt_ms": 10.736,
+          "prompt_per_token_ms": 0.671,
+          "prompt_per_second": 1490.3129657228017,
+          "predicted_n": 8,
+          "predicted_ms": 25.505,
+          "predicted_per_token_ms": 3.6435714285714282,
+          "predicted_per_second": 274.4559890217605
+        },
+        "finish_reason": [
+          "stop"
+        ],
+        "system_prompt_sha256": "931b8baf96e5f82108ed1a49fdd01b6513a4e2ecabb18b9b6abce857fb053770"
+      },
+      "semantic_verdict": null
+    },
+    {
+      "arm": 2,
+      "variant": "short_en",
+      "case_id": "cannot",
+      "wall_ms": 99.64620000391733,
+      "result": {
+        "source": "You cannot equip this relic until your reputation reaches level 9.",
+        "target": "你不能在聲譽級別達到9級之前裝備這件聖物。",
+        "provider": "local",
+        "origin": "本機模型",
+        "warning": "",
+        "cache_hit": false,
+        "model_ms": 98.43060000275727,
+        "ocr_confidence": null,
+        "queue_ms": 0.04389999958220869,
+        "postprocess_ms": 0.21399999968707561,
+        "backend_state": "warm"
+      },
+      "http": {
+        "request_ms": 98.2847999985097,
+        "usage": {
+          "completion_tokens": 19,
+          "prompt_tokens": 79,
+          "total_tokens": 98,
+          "prompt_tokens_details": {
+            "cached_tokens": 57
+          }
+        },
+        "backend_timings": {
+          "cache_n": 57,
+          "prompt_n": 22,
+          "prompt_ms": 12.689,
+          "prompt_per_token_ms": 0.5767727272727273,
+          "prompt_per_second": 1733.7851682559697,
+          "predicted_n": 19,
+          "predicted_ms": 61.806,
+          "predicted_per_token_ms": 3.4336666666666664,
+          "predicted_per_second": 291.2338607902145
+        },
+        "finish_reason": [
+          "stop"
+        ],
+        "system_prompt_sha256": "931b8baf96e5f82108ed1a49fdd01b6513a4e2ecabb18b9b6abce857fb053770"
+      },
+      "semantic_verdict": null
+    },
+    {
+      "arm": 2,
+      "variant": "short_en",
+      "case_id": "damage",
+      "wall_ms": 96.74210000957828,
+      "result": {
+        "source": "The special ammunition pierces 2 targets but deals 30% less damage afterward.",
+        "target": "特殊彈藥穿透2個目標，但之後造成30%的傷害較少。",
+        "provider": "local",
+        "origin": "本機模型",
+        "warning": "",
+        "cache_hit": false,
+        "model_ms": 95.41470000112895,
+        "ocr_confidence": null,
+        "queue_ms": 0.04299999272916466,
+        "postprocess_ms": 0.24810001195874065,
+        "backend_state": "warm"
+      },
+      "http": {
+        "request_ms": 95.25120000762399,
+        "usage": {
+          "completion_tokens": 21,
+          "prompt_tokens": 84,
+          "total_tokens": 105,
+          "prompt_tokens_details": {
+            "cached_tokens": 57
+          }
+        },
+        "backend_timings": {
+          "cache_n": 57,
+          "prompt_n": 27,
+          "prompt_ms": 9.901,
+          "prompt_per_token_ms": 0.3667037037037037,
+          "prompt_per_second": 2726.997273002727,
+          "predicted_n": 21,
+          "predicted_ms": 70.227,
+          "predicted_per_token_ms": 3.51135,
+          "predicted_per_second": 284.79074999644007
+        },
+        "finish_reason": [
+          "stop"
+        ],
+        "system_prompt_sha256": "931b8baf96e5f82108ed1a49fdd01b6513a4e2ecabb18b9b6abce857fb053770"
+      },
+      "semantic_verdict": null
+    },
+    {
+      "arm": 2,
+      "variant": "short_en",
+      "case_id": "repair",
+      "wall_ms": 70.97489999432582,
+      "result": {
+        "source": "Do not spend the last repair charge before checking the rear engine.",
+        "target": "不要在檢查後引擎之前消耗最後的修復費用。",
+        "provider": "local",
+        "origin": "本機模型",
+        "warning": "",
+        "cache_hit": false,
+        "model_ms": 69.72830000449903,
+        "ocr_confidence": null,
+        "queue_ms": 0.047299996367655694,
+        "postprocess_ms": 0.2032999909715727,
+        "backend_state": "warm"
+      },
+      "http": {
+        "request_ms": 69.5895999961067,
+        "usage": {
+          "completion_tokens": 14,
+          "prompt_tokens": 79,
+          "total_tokens": 93,
+          "prompt_tokens_details": {
+            "cached_tokens": 57
+          }
+        },
+        "backend_timings": {
+          "cache_n": 57,
+          "prompt_n": 22,
+          "prompt_ms": 10.968,
+          "prompt_per_token_ms": 0.49854545454545457,
+          "prompt_per_second": 2005.8351568198395,
+          "predicted_n": 14,
+          "predicted_ms": 44.57,
+          "predicted_per_token_ms": 3.4284615384615384,
+          "predicted_per_second": 291.67601525689923
+        },
+        "finish_reason": [
+          "stop"
+        ],
+        "system_prompt_sha256": "931b8baf96e5f82108ed1a49fdd01b6513a4e2ecabb18b9b6abce857fb053770"
+      },
+      "semantic_verdict": null
+    },
+    {
+      "arm": 2,
+      "variant": "short_en",
+      "case_id": "rule",
+      "wall_ms": 0.7292000082088634,
+      "result": {
+        "source": "Do not enter the dungeon yet.",
+        "target": "暫時不要進入地牢。",
+        "provider": "local",
+        "origin": "詞庫／完整規則",
+        "warning": "",
+        "cache_hit": false,
+        "model_ms": 0,
+        "ocr_confidence": null,
+        "queue_ms": 0.03980001201853156,
+        "postprocess_ms": 0,
+        "backend_state": "none"
+      },
+      "http": null,
+      "semantic_verdict": null
+    },
+    {
+      "arm": 2,
+      "variant": "short_en",
+      "case_id": "name",
+      "wall_ms": 37.09749999688938,
+      "result": {
+        "source": "Johnny.",
+        "target": "",
+        "provider": "local",
+        "origin": "未取得可靠譯文",
+        "warning": "沒有產生中文譯文，已保留原文。",
+        "cache_hit": false,
+        "model_ms": 36.819499990087934,
+        "ocr_confidence": null,
+        "queue_ms": 0.034500000765547156,
+        "postprocess_ms": 0.1145999995060265,
+        "backend_state": "warm"
+      },
+      "http": {
+        "request_ms": 36.67010000208393,
+        "usage": {
+          "completion_tokens": 3,
+          "prompt_tokens": 68,
+          "total_tokens": 71,
+          "prompt_tokens_details": {
+            "cached_tokens": 57
+          }
+        },
+        "backend_timings": {
+          "cache_n": 57,
+          "prompt_n": 11,
+          "prompt_ms": 9.776,
+          "prompt_per_token_ms": 0.8887272727272727,
+          "prompt_per_second": 1125.2045826513913,
+          "predicted_n": 3,
+          "predicted_ms": 12.408,
+          "predicted_per_token_ms": 6.204,
+          "predicted_per_second": 161.18633139909736
+        },
+        "finish_reason": [
+          "stop"
+        ],
+        "system_prompt_sha256": "931b8baf96e5f82108ed1a49fdd01b6513a4e2ecabb18b9b6abce857fb053770"
+      },
+      "semantic_verdict": null
+    },
+    {
+      "arm": 2,
+      "variant": "short_en",
+      "case_id": "short",
+      "wall_ms": 50.72159999690484,
+      "result": {
+        "source": "What?",
+        "target": "什麼？",
+        "provider": "local",
+        "origin": "本機模型",
+        "warning": "",
+        "cache_hit": false,
+        "model_ms": 49.690100000589155,
+        "ocr_confidence": null,
+        "queue_ms": 0.04440000338945538,
+        "postprocess_ms": 0.1058999914675951,
+        "backend_state": "warm"
+      },
+      "http": {
+        "request_ms": 49.530699994647875,
+        "usage": {
+          "completion_tokens": 3,
+          "prompt_tokens": 68,
+          "total_tokens": 71,
+          "prompt_tokens_details": {
+            "cached_tokens": 57
+          }
+        },
+        "backend_timings": {
+          "cache_n": 57,
+          "prompt_n": 11,
+          "prompt_ms": 10.526,
+          "prompt_per_token_ms": 0.9569090909090909,
+          "prompt_per_second": 1045.0313509405282,
+          "predicted_n": 3,
+          "predicted_ms": 11.311,
+          "predicted_per_token_ms": 5.6555,
+          "predicted_per_second": 176.81902572716825
+        },
+        "finish_reason": [
+          "stop"
+        ],
+        "system_prompt_sha256": "931b8baf96e5f82108ed1a49fdd01b6513a4e2ecabb18b9b6abce857fb053770"
+      },
+      "semantic_verdict": null
+    },
+    {
+      "arm": 2,
+      "variant": "short_en",
+      "case_id": "long",
+      "wall_ms": 109.87480000767391,
+      "result": {
+        "source": "We have enough medicine to stabilize the injured passengers tonight, but finding a doctor before morning will require someone to cross the damaged railway bridge.",
+        "target": "我們今晚有足夠的藥物來穩定受傷乘客，但要在清晨找到醫生將需要有人過橋。",
+        "provider": "local",
+        "origin": "本機模型",
+        "warning": "",
+        "cache_hit": false,
+        "model_ms": 107.99760000372771,
+        "ocr_confidence": null,
+        "queue_ms": 0.04919999628327787,
+        "postprocess_ms": 0.36630000977311283,
+        "backend_state": "warm"
+      },
+      "http": {
+        "request_ms": 107.85430000396445,
+        "usage": {
+          "completion_tokens": 26,
+          "prompt_tokens": 93,
+          "total_tokens": 119,
+          "prompt_tokens_details": {
+            "cached_tokens": 57
+          }
+        },
+        "backend_timings": {
+          "cache_n": 57,
+          "prompt_n": 36,
+          "prompt_ms": 10.841,
+          "prompt_per_token_ms": 0.30113888888888884,
+          "prompt_per_second": 3320.726870214925,
+          "predicted_n": 26,
+          "predicted_ms": 82.54,
+          "predicted_per_token_ms": 3.3016,
+          "predicted_per_second": 302.8834504482675
+        },
+        "finish_reason": [
+          "stop"
+        ],
+        "system_prompt_sha256": "931b8baf96e5f82108ed1a49fdd01b6513a4e2ecabb18b9b6abce857fb053770"
+      },
+      "semantic_verdict": null
+    },
+    {
+      "arm": 2,
+      "variant": "short_en",
+      "case_id": "prohibition",
+      "wall_ms": 94.44020000228193,
+      "result": {
+        "source": "Do not cross the painted line while the examination lamp is flashing.",
+        "target": "不要在考試燈閃爍時穿越畫線。",
+        "provider": "local",
+        "origin": "本機模型",
+        "warning": "",
+        "cache_hit": false,
+        "model_ms": 93.17079999891575,
+        "ocr_confidence": null,
+        "queue_ms": 0.03809999907389283,
+        "postprocess_ms": 0.1807999942684546,
+        "backend_state": "warm"
+      },
+      "http": {
+        "request_ms": 93.01150000828784,
+        "usage": {
+          "completion_tokens": 13,
+          "prompt_tokens": 79,
+          "total_tokens": 92,
+          "prompt_tokens_details": {
+            "cached_tokens": 57
+          }
+        },
+        "backend_timings": {
+          "cache_n": 57,
+          "prompt_n": 22,
+          "prompt_ms": 9.857,
+          "prompt_per_token_ms": 0.4480454545454545,
+          "prompt_per_second": 2231.916404585574,
+          "predicted_n": 13,
+          "predicted_ms": 41.607,
+          "predicted_per_token_ms": 3.46725,
+          "predicted_per_second": 288.413007426635
+        },
+        "finish_reason": [
+          "stop"
+        ],
+        "system_prompt_sha256": "931b8baf96e5f82108ed1a49fdd01b6513a4e2ecabb18b9b6abce857fb053770"
+      },
+      "semantic_verdict": null
+    },
+    {
+      "arm": 2,
+      "variant": "short_en",
+      "case_id": "hyphen-guard",
+      "wall_ms": 54.0268000040669,
+      "result": {
+        "source": "It is a three-hour trip.",
+        "target": "",
+        "provider": "local",
+        "origin": "未取得可靠譯文",
+        "warning": "數值或正負號改變，已保留原文。",
+        "cache_hit": false,
+        "model_ms": 53.7006999948062,
+        "ocr_confidence": null,
+        "queue_ms": 0.04090000584255904,
+        "postprocess_ms": 0.11799999629147351,
+        "backend_state": "warm"
+      },
+      "http": {
+        "request_ms": 53.53929998818785,
+        "usage": {
+          "completion_tokens": 9,
+          "prompt_tokens": 73,
+          "total_tokens": 82,
+          "prompt_tokens_details": {
+            "cached_tokens": 57
+          }
+        },
+        "backend_timings": {
+          "cache_n": 57,
+          "prompt_n": 16,
+          "prompt_ms": 8.44,
+          "prompt_per_token_ms": 0.5275,
+          "prompt_per_second": 1895.7345971563982,
+          "predicted_n": 9,
+          "predicted_ms": 30.476,
+          "predicted_per_token_ms": 3.8095,
+          "predicted_per_second": 262.501640635254
+        },
+        "finish_reason": [
+          "stop"
+        ],
+        "system_prompt_sha256": "931b8baf96e5f82108ed1a49fdd01b6513a4e2ecabb18b9b6abce857fb053770"
+      },
+      "semantic_verdict": null
+    },
+    {
+      "arm": 2,
+      "variant": "short_en",
+      "case_id": "ordinal-guard",
+      "wall_ms": 70.92510000802577,
+      "result": {
+        "source": "It was the first day after the clocks changed.",
+        "target": "",
+        "provider": "local",
+        "origin": "未取得可靠譯文",
+        "warning": "數值或正負號改變，已保留原文。",
+        "cache_hit": false,
+        "model_ms": 70.32639998942614,
+        "ocr_confidence": null,
+        "queue_ms": 0.049700000090524554,
+        "postprocess_ms": 0.35709999792743474,
+        "backend_state": "warm"
+      },
+      "http": {
+        "request_ms": 70.18629999947734,
+        "usage": {
+          "completion_tokens": 10,
+          "prompt_tokens": 76,
+          "total_tokens": 86,
+          "prompt_tokens_details": {
+            "cached_tokens": 58
+          }
+        },
+        "backend_timings": {
+          "cache_n": 58,
+          "prompt_n": 18,
+          "prompt_ms": 10.475,
+          "prompt_per_token_ms": 0.5819444444444444,
+          "prompt_per_second": 1718.3770883054892,
+          "predicted_n": 10,
+          "predicted_ms": 31.276,
+          "predicted_per_token_ms": 3.475111111111111,
+          "predicted_per_second": 287.76058319478193
+        },
+        "finish_reason": [
+          "stop"
+        ],
+        "system_prompt_sha256": "931b8baf96e5f82108ed1a49fdd01b6513a4e2ecabb18b9b6abce857fb053770"
+      },
+      "semantic_verdict": null
+    },
+    {
+      "arm": 3,
+      "variant": "short_zh",
+      "case_id": "unless",
+      "wall_ms": 85.52599999529775,
+      "result": {
+        "source": "Do not interrupt the ritual unless the outer circle changes from gold to violet.",
+        "target": "不要在儀式進行時，除非外圈從黃色變為紫色。",
+        "provider": "local",
+        "origin": "本機模型",
+        "warning": "",
+        "cache_hit": false,
+        "model_ms": 84.57530000305269,
+        "ocr_confidence": null,
+        "queue_ms": 0.04060000355821103,
+        "postprocess_ms": 0.18259999342262745,
+        "backend_state": "warm"
+      },
+      "http": {
+        "request_ms": 84.41510000557173,
+        "usage": {
+          "completion_tokens": 18,
+          "prompt_tokens": 112,
+          "total_tokens": 130,
+          "prompt_tokens_details": {
+            "cached_tokens": 88
+          }
+        },
+        "backend_timings": {
+          "cache_n": 88,
+          "prompt_n": 24,
+          "prompt_ms": 9.485,
+          "prompt_per_token_ms": 0.39520833333333333,
+          "prompt_per_second": 2530.3110173958885,
+          "predicted_n": 18,
+          "predicted_ms": 60.304,
+          "predicted_per_token_ms": 3.547294117647059,
+          "predicted_per_second": 281.9050145927302
+        },
+        "finish_reason": [
+          "stop"
+        ],
+        "system_prompt_sha256": "4fc4a512a7cf4e4b55c94f9ab5be2281354ecc26bcae30f0daa86a492a775a96"
+      },
+      "semantic_verdict": null
+    },
+    {
+      "arm": 3,
+      "variant": "short_zh",
+      "case_id": "kits",
+      "wall_ms": 113.5498999938136,
+      "result": {
+        "source": "Deliver 5 medical kits before the countdown reaches 01:30.",
+        "target": "",
+        "provider": "local",
+        "origin": "未取得可靠譯文",
+        "warning": "譯文含未還原的詞庫標記。",
+        "cache_hit": false,
+        "model_ms": 113.07400000805501,
+        "ocr_confidence": null,
+        "queue_ms": 0.043799998820759356,
+        "postprocess_ms": 0.2747000107774511,
+        "backend_state": "warm"
+      },
+      "http": {
+        "request_ms": 112.9093999916222,
+        "usage": {
+          "completion_tokens": 22,
+          "prompt_tokens": 114,
+          "total_tokens": 136,
+          "prompt_tokens_details": {
+            "cached_tokens": 88
+          }
+        },
+        "backend_timings": {
+          "cache_n": 88,
+          "prompt_n": 26,
+          "prompt_ms": 10.34,
+          "prompt_per_token_ms": 0.3976923076923077,
+          "prompt_per_second": 2514.5067698259186,
+          "predicted_n": 22,
+          "predicted_ms": 71.903,
+          "predicted_per_token_ms": 3.423952380952381,
+          "predicted_per_second": 292.06013657288287
+        },
+        "finish_reason": [
+          "stop"
+        ],
+        "system_prompt_sha256": "4fc4a512a7cf4e4b55c94f9ab5be2281354ecc26bcae30f0daa86a492a775a96"
+      },
+      "semantic_verdict": null
+    },
+    {
+      "arm": 3,
+      "variant": "short_zh",
+      "case_id": "actors",
+      "wall_ms": 112.8205999993952,
+      "result": {
+        "source": "We assumed the apprentice had misunderstood the instructions, until the master admitted that he had deliberately given her an incomplete version of the spell.",
+        "target": "我們假設學徒誤解了指令，直到師傅承認他故意給她一個不完整的咒語。",
+        "provider": "local",
+        "origin": "本機模型",
+        "warning": "",
+        "cache_hit": false,
+        "model_ms": 111.20970000047237,
+        "ocr_confidence": null,
+        "queue_ms": 0.0425000034738332,
+        "postprocess_ms": 0.25919999461621046,
+        "backend_state": "warm"
+      },
+      "http": {
+        "request_ms": 111.06239999935497,
+        "usage": {
+          "completion_tokens": 26,
+          "prompt_tokens": 123,
+          "total_tokens": 149,
+          "prompt_tokens_details": {
+            "cached_tokens": 88
+          }
+        },
+        "backend_timings": {
+          "cache_n": 88,
+          "prompt_n": 35,
+          "prompt_ms": 11.756,
+          "prompt_per_token_ms": 0.3358857142857143,
+          "prompt_per_second": 2977.203130316434,
+          "predicted_n": 26,
+          "predicted_ms": 84.765,
+          "predicted_per_token_ms": 3.3906,
+          "predicted_per_second": 294.93305019760516
+        },
+        "finish_reason": [
+          "stop"
+        ],
+        "system_prompt_sha256": "4fc4a512a7cf4e4b55c94f9ab5be2281354ecc26bcae30f0daa86a492a775a96"
+      },
+      "semantic_verdict": null
+    },
+    {
+      "arm": 3,
+      "variant": "short_zh",
+      "case_id": "before",
+      "wall_ms": 99.65839999495074,
+      "result": {
+        "source": "Collect the fallen branches and reinforce the shelter before the hail arrives.",
+        "target": "收集掉落的枝葉並加強庇護所，除非雨暴來臨否則不應停止。",
+        "provider": "local",
+        "origin": "本機模型",
+        "warning": "",
+        "cache_hit": false,
+        "model_ms": 98.4253000060562,
+        "ocr_confidence": null,
+        "queue_ms": 0.03950000973418355,
+        "postprocess_ms": 0.2553999947849661,
+        "backend_state": "warm"
+      },
+      "http": {
+        "request_ms": 98.25480000290554,
+        "usage": {
+          "completion_tokens": 22,
+          "prompt_tokens": 110,
+          "total_tokens": 132,
+          "prompt_tokens_details": {
+            "cached_tokens": 88
+          }
+        },
+        "backend_timings": {
+          "cache_n": 88,
+          "prompt_n": 22,
+          "prompt_ms": 9.416,
+          "prompt_per_token_ms": 0.428,
+          "prompt_per_second": 2336.448598130841,
+          "predicted_n": 22,
+          "predicted_ms": 74.31,
+          "predicted_per_token_ms": 3.5385714285714287,
+          "predicted_per_second": 282.59991925716594
+        },
+        "finish_reason": [
+          "stop"
+        ],
+        "system_prompt_sha256": "4fc4a512a7cf4e4b55c94f9ab5be2281354ecc26bcae30f0daa86a492a775a96"
+      },
+      "semantic_verdict": null
+    },
+    {
+      "arm": 3,
+      "variant": "short_zh",
+      "case_id": "creatures",
+      "wall_ms": 127.6205000031041,
+      "result": {
+        "source": "If the creatures remain quiet after the music stops, lower your weapons slowly and allow the youngest one to approach the food placed near the entrance.",
+        "target": "若這些生物在音樂停止後仍保持靜默，請慢慢降低武器，讓最年輕的一個接近入口附近放置的食物。",
+        "provider": "local",
+        "origin": "本機模型",
+        "warning": "",
+        "cache_hit": false,
+        "model_ms": 126.41050000092946,
+        "ocr_confidence": null,
+        "queue_ms": 0.0864000030560419,
+        "postprocess_ms": 0.2927000023191795,
+        "backend_state": "warm"
+      },
+      "http": {
+        "request_ms": 126.24920000962447,
+        "usage": {
+          "completion_tokens": 29,
+          "prompt_tokens": 125,
+          "total_tokens": 154,
+          "prompt_tokens_details": {
+            "cached_tokens": 88
+          }
+        },
+        "backend_timings": {
+          "cache_n": 88,
+          "prompt_n": 37,
+          "prompt_ms": 12.91,
+          "prompt_per_token_ms": 0.3489189189189189,
+          "prompt_per_second": 2865.995352439969,
+          "predicted_n": 29,
+          "predicted_ms": 98.194,
+          "predicted_per_token_ms": 3.5069285714285714,
+          "predicted_per_second": 285.14980548709696
+        },
+        "finish_reason": [
+          "stop"
+        ],
+        "system_prompt_sha256": "4fc4a512a7cf4e4b55c94f9ab5be2281354ecc26bcae30f0daa86a492a775a96"
+      },
+      "semantic_verdict": null
+    },
+    {
+      "arm": 3,
+      "variant": "short_zh",
+      "case_id": "midnight",
+      "wall_ms": 60.214699988137,
+      "result": {
+        "source": "We're not going to be home until after midnight.",
+        "target": "我們不會在午夜之後才回家。",
+        "provider": "local",
+        "origin": "本機模型",
+        "warning": "",
+        "cache_hit": false,
+        "model_ms": 58.98380000144243,
+        "ocr_confidence": null,
+        "queue_ms": 0.043199994252063334,
+        "postprocess_ms": 0.15780000831000507,
+        "backend_state": "warm"
+      },
+      "http": {
+        "request_ms": 58.83979999634903,
+        "usage": {
+          "completion_tokens": 10,
+          "prompt_tokens": 108,
+          "total_tokens": 118,
+          "prompt_tokens_details": {
+            "cached_tokens": 88
+          }
+        },
+        "backend_timings": {
+          "cache_n": 88,
+          "prompt_n": 20,
+          "prompt_ms": 10.469,
+          "prompt_per_token_ms": 0.52345,
+          "prompt_per_second": 1910.4021396503963,
+          "predicted_n": 10,
+          "predicted_ms": 33.595,
+          "predicted_per_token_ms": 3.7327777777777778,
+          "predicted_per_second": 267.8970084834053
+        },
+        "finish_reason": [
+          "stop"
+        ],
+        "system_prompt_sha256": "4fc4a512a7cf4e4b55c94f9ab5be2281354ecc26bcae30f0daa86a492a775a96"
+      },
+      "semantic_verdict": null
+    },
+    {
+      "arm": 3,
+      "variant": "short_zh",
+      "case_id": "sarcasm",
+      "wall_ms": 75.12929999211337,
+      "result": {
+        "source": "A lot of good the extra daylight does us.",
+        "target": "",
+        "provider": "local",
+        "origin": "未取得可靠譯文",
+        "warning": "譯文含未還原的詞庫標記。",
+        "cache_hit": false,
+        "model_ms": 74.69419999688398,
+        "ocr_confidence": null,
+        "queue_ms": 0.04460000491235405,
+        "postprocess_ms": 0.21189999824855477,
+        "backend_state": "warm"
+      },
+      "http": {
+        "request_ms": 74.55400000617374,
+        "usage": {
+          "completion_tokens": 15,
+          "prompt_tokens": 107,
+          "total_tokens": 122,
+          "prompt_tokens_details": {
+            "cached_tokens": 88
+          }
+        },
+        "backend_timings": {
+          "cache_n": 88,
+          "prompt_n": 19,
+          "prompt_ms": 9.917,
+          "prompt_per_token_ms": 0.5219473684210526,
+          "prompt_per_second": 1915.9019864878492,
+          "predicted_n": 15,
+          "predicted_ms": 49.763,
+          "predicted_per_token_ms": 3.5545,
+          "predicted_per_second": 281.3335208890139
+        },
+        "finish_reason": [
+          "stop"
+        ],
+        "system_prompt_sha256": "4fc4a512a7cf4e4b55c94f9ab5be2281354ecc26bcae30f0daa86a492a775a96"
+      },
+      "semantic_verdict": null
+    },
+    {
+      "arm": 3,
+      "variant": "short_zh",
+      "case_id": "idiom",
+      "wall_ms": 72.69860000815243,
+      "result": {
+        "source": "We're going to blow Sunday.",
+        "target": "我們要週日炸了。",
+        "provider": "local",
+        "origin": "本機模型",
+        "warning": "",
+        "cache_hit": false,
+        "model_ms": 71.61570001335349,
+        "ocr_confidence": null,
+        "queue_ms": 0.04460000491235405,
+        "postprocess_ms": 0.12510000669863075,
+        "backend_state": "warm"
+      },
+      "http": {
+        "request_ms": 71.4702999975998,
+        "usage": {
+          "completion_tokens": 8,
+          "prompt_tokens": 104,
+          "total_tokens": 112,
+          "prompt_tokens_details": {
+            "cached_tokens": 88
+          }
+        },
+        "backend_timings": {
+          "cache_n": 88,
+          "prompt_n": 16,
+          "prompt_ms": 10.716,
+          "prompt_per_token_ms": 0.66975,
+          "prompt_per_second": 1493.0944382232178,
+          "predicted_n": 8,
+          "predicted_ms": 28.796,
+          "predicted_per_token_ms": 4.113714285714286,
+          "predicted_per_second": 243.0893179608279
+        },
+        "finish_reason": [
+          "stop"
+        ],
+        "system_prompt_sha256": "4fc4a512a7cf4e4b55c94f9ab5be2281354ecc26bcae30f0daa86a492a775a96"
+      },
+      "semantic_verdict": null
+    },
+    {
+      "arm": 3,
+      "variant": "short_zh",
+      "case_id": "cannot",
+      "wall_ms": 117.82500000845175,
+      "result": {
+        "source": "You cannot equip this relic until your reputation reaches level 9.",
+        "target": "你不能在你的聲望達到級數 9 之前裝備這件聖物。",
+        "provider": "local",
+        "origin": "本機模型",
+        "warning": "",
+        "cache_hit": false,
+        "model_ms": 116.36390000057872,
+        "ocr_confidence": null,
+        "queue_ms": 0.04300000728107989,
+        "postprocess_ms": 0.18960000306833535,
+        "backend_state": "warm"
+      },
+      "http": {
+        "request_ms": 116.22409999836236,
+        "usage": {
+          "completion_tokens": 21,
+          "prompt_tokens": 110,
+          "total_tokens": 131,
+          "prompt_tokens_details": {
+            "cached_tokens": 88
+          }
+        },
+        "backend_timings": {
+          "cache_n": 88,
+          "prompt_n": 22,
+          "prompt_ms": 10.095,
+          "prompt_per_token_ms": 0.4588636363636364,
+          "prompt_per_second": 2179.2966815255077,
+          "predicted_n": 21,
+          "predicted_ms": 70.848,
+          "predicted_per_token_ms": 3.5423999999999998,
+          "predicted_per_second": 282.29448961156277
+        },
+        "finish_reason": [
+          "stop"
+        ],
+        "system_prompt_sha256": "4fc4a512a7cf4e4b55c94f9ab5be2281354ecc26bcae30f0daa86a492a775a96"
+      },
+      "semantic_verdict": null
+    },
+    {
+      "arm": 3,
+      "variant": "short_zh",
+      "case_id": "damage",
+      "wall_ms": 105.49859999446198,
+      "result": {
+        "source": "The special ammunition pierces 2 targets but deals 30% less damage afterward.",
+        "target": "",
+        "provider": "local",
+        "origin": "未取得可靠譯文",
+        "warning": "譯文含未還原的詞庫標記。",
+        "cache_hit": false,
+        "model_ms": 104.79530000884552,
+        "ocr_confidence": null,
+        "queue_ms": 0.05110001075081527,
+        "postprocess_ms": 0.4881000058958307,
+        "backend_state": "warm"
+      },
+      "http": {
+        "request_ms": 104.62399999960326,
+        "usage": {
+          "completion_tokens": 23,
+          "prompt_tokens": 115,
+          "total_tokens": 138,
+          "prompt_tokens_details": {
+            "cached_tokens": 88
+          }
+        },
+        "backend_timings": {
+          "cache_n": 88,
+          "prompt_n": 27,
+          "prompt_ms": 10.676,
+          "prompt_per_token_ms": 0.39540740740740743,
+          "prompt_per_second": 2529.037092544024,
+          "predicted_n": 23,
+          "predicted_ms": 79.144,
+          "predicted_per_token_ms": 3.597454545454546,
+          "predicted_per_second": 277.9743252805013
+        },
+        "finish_reason": [
+          "stop"
+        ],
+        "system_prompt_sha256": "4fc4a512a7cf4e4b55c94f9ab5be2281354ecc26bcae30f0daa86a492a775a96"
+      },
+      "semantic_verdict": null
+    },
+    {
+      "arm": 3,
+      "variant": "short_zh",
+      "case_id": "repair",
+      "wall_ms": 85.32570001261774,
+      "result": {
+        "source": "Do not spend the last repair charge before checking the rear engine.",
+        "target": "不要在檢查後引擎之前使用最後的維修費用。",
+        "provider": "local",
+        "origin": "本機模型",
+        "warning": "",
+        "cache_hit": false,
+        "model_ms": 84.356100007426,
+        "ocr_confidence": null,
+        "queue_ms": 0.050700007705017924,
+        "postprocess_ms": 0.18899999849963933,
+        "backend_state": "warm"
+      },
+      "http": {
+        "request_ms": 84.21380000072531,
+        "usage": {
+          "completion_tokens": 14,
+          "prompt_tokens": 110,
+          "total_tokens": 124,
+          "prompt_tokens_details": {
+            "cached_tokens": 88
+          }
+        },
+        "backend_timings": {
+          "cache_n": 88,
+          "prompt_n": 22,
+          "prompt_ms": 11.025,
+          "prompt_per_token_ms": 0.5011363636363636,
+          "prompt_per_second": 1995.4648526077096,
+          "predicted_n": 14,
+          "predicted_ms": 45.069,
+          "predicted_per_token_ms": 3.466846153846154,
+          "predicted_per_second": 288.4466040959418
+        },
+        "finish_reason": [
+          "stop"
+        ],
+        "system_prompt_sha256": "4fc4a512a7cf4e4b55c94f9ab5be2281354ecc26bcae30f0daa86a492a775a96"
+      },
+      "semantic_verdict": null
+    },
+    {
+      "arm": 3,
+      "variant": "short_zh",
+      "case_id": "rule",
+      "wall_ms": 0.7264000014401972,
+      "result": {
+        "source": "Do not enter the dungeon yet.",
+        "target": "暫時不要進入地牢。",
+        "provider": "local",
+        "origin": "詞庫／完整規則",
+        "warning": "",
+        "cache_hit": false,
+        "model_ms": 0,
+        "ocr_confidence": null,
+        "queue_ms": 0.03850000211969018,
+        "postprocess_ms": 0,
+        "backend_state": "none"
+      },
+      "http": null,
+      "semantic_verdict": null
+    },
+    {
+      "arm": 3,
+      "variant": "short_zh",
+      "case_id": "name",
+      "wall_ms": 35.77659999427851,
+      "result": {
+        "source": "Johnny.",
+        "target": "",
+        "provider": "local",
+        "origin": "未取得可靠譯文",
+        "warning": "沒有產生中文譯文，已保留原文。",
+        "cache_hit": false,
+        "model_ms": 35.50019999966025,
+        "ocr_confidence": null,
+        "queue_ms": 0.03330000618007034,
+        "postprocess_ms": 0.10799999290611595,
+        "backend_state": "warm"
+      },
+      "http": {
+        "request_ms": 35.35639999608975,
+        "usage": {
+          "completion_tokens": 3,
+          "prompt_tokens": 99,
+          "total_tokens": 102,
+          "prompt_tokens_details": {
+            "cached_tokens": 88
+          }
+        },
+        "backend_timings": {
+          "cache_n": 88,
+          "prompt_n": 11,
+          "prompt_ms": 8.876,
+          "prompt_per_token_ms": 0.8069090909090909,
+          "prompt_per_second": 1239.2969806219019,
+          "predicted_n": 3,
+          "predicted_ms": 10.621,
+          "predicted_per_token_ms": 5.3105,
+          "predicted_per_second": 188.30618585820542
+        },
+        "finish_reason": [
+          "stop"
+        ],
+        "system_prompt_sha256": "4fc4a512a7cf4e4b55c94f9ab5be2281354ecc26bcae30f0daa86a492a775a96"
+      },
+      "semantic_verdict": null
+    },
+    {
+      "arm": 3,
+      "variant": "short_zh",
+      "case_id": "short",
+      "wall_ms": 36.21459999703802,
+      "result": {
+        "source": "What?",
+        "target": "",
+        "provider": "local",
+        "origin": "未取得可靠譯文",
+        "warning": "沒有產生中文譯文，已保留原文。",
+        "cache_hit": false,
+        "model_ms": 35.79310000350233,
+        "ocr_confidence": null,
+        "queue_ms": 0.04539999645203352,
+        "postprocess_ms": 0.18109999655280262,
+        "backend_state": "warm"
+      },
+      "http": {
+        "request_ms": 35.6480000045849,
+        "usage": {
+          "completion_tokens": 3,
+          "prompt_tokens": 99,
+          "total_tokens": 102,
+          "prompt_tokens_details": {
+            "cached_tokens": 88
+          }
+        },
+        "backend_timings": {
+          "cache_n": 88,
+          "prompt_n": 11,
+          "prompt_ms": 10.328,
+          "prompt_per_token_ms": 0.9389090909090908,
+          "prompt_per_second": 1065.0658404337723,
+          "predicted_n": 3,
+          "predicted_ms": 10.595,
+          "predicted_per_token_ms": 5.2975,
+          "predicted_per_second": 188.7682869277961
+        },
+        "finish_reason": [
+          "stop"
+        ],
+        "system_prompt_sha256": "4fc4a512a7cf4e4b55c94f9ab5be2281354ecc26bcae30f0daa86a492a775a96"
+      },
+      "semantic_verdict": null
+    },
+    {
+      "arm": 3,
+      "variant": "short_zh",
+      "case_id": "long",
+      "wall_ms": 134.5075999997789,
+      "result": {
+        "source": "We have enough medicine to stabilize the injured passengers tonight, but finding a doctor before morning will require someone to cross the damaged railway bridge.",
+        "target": "我們今晚有足夠的藥物來穩定受傷乘客，但要在天亮前找到醫生，需要有人過橋損壞的鐵路橋。",
+        "provider": "local",
+        "origin": "本機模型",
+        "warning": "",
+        "cache_hit": false,
+        "model_ms": 133.4410000126809,
+        "ocr_confidence": null,
+        "queue_ms": 0.04440000338945538,
+        "postprocess_ms": 0.3462000022409484,
+        "backend_state": "warm"
+      },
+      "http": {
+        "request_ms": 133.29110000631772,
+        "usage": {
+          "completion_tokens": 34,
+          "prompt_tokens": 124,
+          "total_tokens": 158,
+          "prompt_tokens_details": {
+            "cached_tokens": 88
+          }
+        },
+        "backend_timings": {
+          "cache_n": 88,
+          "prompt_n": 36,
+          "prompt_ms": 11.839,
+          "prompt_per_token_ms": 0.3288611111111111,
+          "prompt_per_second": 3040.797364642284,
+          "predicted_n": 34,
+          "predicted_ms": 107.156,
+          "predicted_per_token_ms": 3.2471515151515153,
+          "predicted_per_second": 307.96222330060846
+        },
+        "finish_reason": [
+          "stop"
+        ],
+        "system_prompt_sha256": "4fc4a512a7cf4e4b55c94f9ab5be2281354ecc26bcae30f0daa86a492a775a96"
+      },
+      "semantic_verdict": null
+    },
+    {
+      "arm": 3,
+      "variant": "short_zh",
+      "case_id": "prohibition",
+      "wall_ms": 68.76480000209995,
+      "result": {
+        "source": "Do not cross the painted line while the examination lamp is flashing.",
+        "target": "不要在考試燈閃爍時穿越畫線。",
+        "provider": "local",
+        "origin": "本機模型",
+        "warning": "",
+        "cache_hit": false,
+        "model_ms": 67.70870000764262,
+        "ocr_confidence": null,
+        "queue_ms": 0.040700004319660366,
+        "postprocess_ms": 0.1689000055193901,
+        "backend_state": "warm"
+      },
+      "http": {
+        "request_ms": 67.50799999281298,
+        "usage": {
+          "completion_tokens": 13,
+          "prompt_tokens": 110,
+          "total_tokens": 123,
+          "prompt_tokens_details": {
+            "cached_tokens": 88
+          }
+        },
+        "backend_timings": {
+          "cache_n": 88,
+          "prompt_n": 22,
+          "prompt_ms": 9.834,
+          "prompt_per_token_ms": 0.447,
+          "prompt_per_second": 2237.136465324385,
+          "predicted_n": 13,
+          "predicted_ms": 41.861,
+          "predicted_per_token_ms": 3.4884166666666663,
+          "predicted_per_second": 286.66300375050764
+        },
+        "finish_reason": [
+          "stop"
+        ],
+        "system_prompt_sha256": "4fc4a512a7cf4e4b55c94f9ab5be2281354ecc26bcae30f0daa86a492a775a96"
+      },
+      "semantic_verdict": null
+    },
+    {
+      "arm": 3,
+      "variant": "short_zh",
+      "case_id": "hyphen-guard",
+      "wall_ms": 67.93689999904018,
+      "result": {
+        "source": "It is a three-hour trip.",
+        "target": "",
+        "provider": "local",
+        "origin": "未取得可靠譯文",
+        "warning": "譯文含未還原的詞庫標記。",
+        "cache_hit": false,
+        "model_ms": 67.57820000348147,
+        "ocr_confidence": null,
+        "queue_ms": 0.04680000711232424,
+        "postprocess_ms": 0.16240001423284411,
+        "backend_state": "warm"
+      },
+      "http": {
+        "request_ms": 67.43569999525789,
+        "usage": {
+          "completion_tokens": 12,
+          "prompt_tokens": 104,
+          "total_tokens": 116,
+          "prompt_tokens_details": {
+            "cached_tokens": 88
+          }
+        },
+        "backend_timings": {
+          "cache_n": 88,
+          "prompt_n": 16,
+          "prompt_ms": 12.271,
+          "prompt_per_token_ms": 0.7669375,
+          "prompt_per_second": 1303.88721375601,
+          "predicted_n": 12,
+          "predicted_ms": 38.353,
+          "predicted_per_token_ms": 3.486636363636364,
+          "predicted_per_second": 286.8093760592391
+        },
+        "finish_reason": [
+          "stop"
+        ],
+        "system_prompt_sha256": "4fc4a512a7cf4e4b55c94f9ab5be2281354ecc26bcae30f0daa86a492a775a96"
+      },
+      "semantic_verdict": null
+    },
+    {
+      "arm": 3,
+      "variant": "short_zh",
+      "case_id": "ordinal-guard",
+      "wall_ms": 70.11970000166912,
+      "result": {
+        "source": "It was the first day after the clocks changed.",
+        "target": "",
+        "provider": "local",
+        "origin": "未取得可靠譯文",
+        "warning": "數值或正負號改變，已保留原文。",
+        "cache_hit": false,
+        "model_ms": 69.81420000374783,
+        "ocr_confidence": null,
+        "queue_ms": 0.04260000423528254,
+        "postprocess_ms": 0.11670000094454736,
+        "backend_state": "warm"
+      },
+      "http": {
+        "request_ms": 69.66960000863764,
+        "usage": {
+          "completion_tokens": 9,
+          "prompt_tokens": 107,
+          "total_tokens": 116,
+          "prompt_tokens_details": {
+            "cached_tokens": 89
+          }
+        },
+        "backend_timings": {
+          "cache_n": 89,
+          "prompt_n": 18,
+          "prompt_ms": 9.719,
+          "prompt_per_token_ms": 0.5399444444444444,
+          "prompt_per_second": 1852.0423911925097,
+          "predicted_n": 9,
+          "predicted_ms": 30.085,
+          "predicted_per_token_ms": 3.760625,
+          "predicted_per_second": 265.9132458035566
+        },
+        "finish_reason": [
+          "stop"
+        ],
+        "system_prompt_sha256": "4fc4a512a7cf4e4b55c94f9ab5be2281354ecc26bcae30f0daa86a492a775a96"
+      },
+      "semantic_verdict": null
+    },
+    {
+      "arm": 4,
+      "variant": "short_zh",
+      "case_id": "unless",
+      "wall_ms": 81.49500000581611,
+      "result": {
+        "source": "Do not interrupt the ritual unless the outer circle changes from gold to violet.",
+        "target": "不要在儀式進行時，除非外圈從黃色變為紫色。",
+        "provider": "local",
+        "origin": "本機模型",
+        "warning": "",
+        "cache_hit": false,
+        "model_ms": 80.57030000782106,
+        "ocr_confidence": null,
+        "queue_ms": 0.0405999890062958,
+        "postprocess_ms": 0.17440000374335796,
+        "backend_state": "warm"
+      },
+      "http": {
+        "request_ms": 80.4123999987496,
+        "usage": {
+          "completion_tokens": 18,
+          "prompt_tokens": 112,
+          "total_tokens": 130,
+          "prompt_tokens_details": {
+            "cached_tokens": 88
+          }
+        },
+        "backend_timings": {
+          "cache_n": 88,
+          "prompt_n": 24,
+          "prompt_ms": 9.876,
+          "prompt_per_token_ms": 0.4115,
+          "prompt_per_second": 2430.1336573511544,
+          "predicted_n": 18,
+          "predicted_ms": 56.327,
+          "predicted_per_token_ms": 3.3133529411764706,
+          "predicted_per_second": 301.80907912723916
+        },
+        "finish_reason": [
+          "stop"
+        ],
+        "system_prompt_sha256": "4fc4a512a7cf4e4b55c94f9ab5be2281354ecc26bcae30f0daa86a492a775a96"
+      },
+      "semantic_verdict": null
+    },
+    {
+      "arm": 4,
+      "variant": "short_zh",
+      "case_id": "kits",
+      "wall_ms": 94.74519999639597,
+      "result": {
+        "source": "Deliver 5 medical kits before the countdown reaches 01:30.",
+        "target": "",
+        "provider": "local",
+        "origin": "未取得可靠譯文",
+        "warning": "譯文含未還原的詞庫標記。",
+        "cache_hit": false,
+        "model_ms": 94.21969999675639,
+        "ocr_confidence": null,
+        "queue_ms": 0.040099999750964344,
+        "postprocess_ms": 0.27489999774843454,
+        "backend_state": "warm"
+      },
+      "http": {
+        "request_ms": 94.07169999030884,
+        "usage": {
+          "completion_tokens": 22,
+          "prompt_tokens": 114,
+          "total_tokens": 136,
+          "prompt_tokens_details": {
+            "cached_tokens": 88
+          }
+        },
+        "backend_timings": {
+          "cache_n": 88,
+          "prompt_n": 26,
+          "prompt_ms": 10.407,
+          "prompt_per_token_ms": 0.40026923076923077,
+          "prompt_per_second": 2498.318439511867,
+          "predicted_n": 22,
+          "predicted_ms": 68.876,
+          "predicted_per_token_ms": 3.279809523809524,
+          "predicted_per_second": 304.8957546895871
+        },
+        "finish_reason": [
+          "stop"
+        ],
+        "system_prompt_sha256": "4fc4a512a7cf4e4b55c94f9ab5be2281354ecc26bcae30f0daa86a492a775a96"
+      },
+      "semantic_verdict": null
+    },
+    {
+      "arm": 4,
+      "variant": "short_zh",
+      "case_id": "actors",
+      "wall_ms": 116.62090000754688,
+      "result": {
+        "source": "We assumed the apprentice had misunderstood the instructions, until the master admitted that he had deliberately given her an incomplete version of the spell.",
+        "target": "我們假設學徒誤解了指令，直到師傅承認他故意給她一個不完整的咒語。",
+        "provider": "local",
+        "origin": "本機模型",
+        "warning": "",
+        "cache_hit": false,
+        "model_ms": 115.40350000723265,
+        "ocr_confidence": null,
+        "queue_ms": 0.04490000719670206,
+        "postprocess_ms": 0.2542000001994893,
+        "backend_state": "warm"
+      },
+      "http": {
+        "request_ms": 115.2563000068767,
+        "usage": {
+          "completion_tokens": 26,
+          "prompt_tokens": 123,
+          "total_tokens": 149,
+          "prompt_tokens_details": {
+            "cached_tokens": 88
+          }
+        },
+        "backend_timings": {
+          "cache_n": 88,
+          "prompt_n": 35,
+          "prompt_ms": 10.887,
+          "prompt_per_token_ms": 0.31105714285714287,
+          "prompt_per_second": 3214.843391200514,
+          "predicted_n": 26,
+          "predicted_ms": 80.874,
+          "predicted_per_token_ms": 3.2349599999999996,
+          "predicted_per_second": 309.1228330489403
+        },
+        "finish_reason": [
+          "stop"
+        ],
+        "system_prompt_sha256": "4fc4a512a7cf4e4b55c94f9ab5be2281354ecc26bcae30f0daa86a492a775a96"
+      },
+      "semantic_verdict": null
+    },
+    {
+      "arm": 4,
+      "variant": "short_zh",
+      "case_id": "before",
+      "wall_ms": 94.59979999519419,
+      "result": {
+        "source": "Collect the fallen branches and reinforce the shelter before the hail arrives.",
+        "target": "收集掉落的枝葉並加強庇護所，除非雨暴來臨否則不應停止。",
+        "provider": "local",
+        "origin": "本機模型",
+        "warning": "",
+        "cache_hit": false,
+        "model_ms": 93.54499999608379,
+        "ocr_confidence": null,
+        "queue_ms": 0.03890000516548753,
+        "postprocess_ms": 0.25680000544525683,
+        "backend_state": "warm"
+      },
+      "http": {
+        "request_ms": 93.39880000334233,
+        "usage": {
+          "completion_tokens": 22,
+          "prompt_tokens": 110,
+          "total_tokens": 132,
+          "prompt_tokens_details": {
+            "cached_tokens": 88
+          }
+        },
+        "backend_timings": {
+          "cache_n": 88,
+          "prompt_n": 22,
+          "prompt_ms": 9.301,
+          "prompt_per_token_ms": 0.4227727272727273,
+          "prompt_per_second": 2365.3370605311256,
+          "predicted_n": 22,
+          "predicted_ms": 70.103,
+          "predicted_per_token_ms": 3.338238095238095,
+          "predicted_per_second": 299.55922000485003
+        },
+        "finish_reason": [
+          "stop"
+        ],
+        "system_prompt_sha256": "4fc4a512a7cf4e4b55c94f9ab5be2281354ecc26bcae30f0daa86a492a775a96"
+      },
+      "semantic_verdict": null
+    },
+    {
+      "arm": 4,
+      "variant": "short_zh",
+      "case_id": "creatures",
+      "wall_ms": 117.58649999683257,
+      "result": {
+        "source": "If the creatures remain quiet after the music stops, lower your weapons slowly and allow the youngest one to approach the food placed near the entrance.",
+        "target": "若這些生物在音樂停止後仍保持靜默，請慢慢降低武器，讓最年輕的一個接近入口附近放置的食物。",
+        "provider": "local",
+        "origin": "本機模型",
+        "warning": "",
+        "cache_hit": false,
+        "model_ms": 116.25570000614971,
+        "ocr_confidence": null,
+        "queue_ms": 0.04189999890513718,
+        "postprocess_ms": 0.331300005200319,
+        "backend_state": "warm"
+      },
+      "http": {
+        "request_ms": 116.09820000012405,
+        "usage": {
+          "completion_tokens": 29,
+          "prompt_tokens": 125,
+          "total_tokens": 154,
+          "prompt_tokens_details": {
+            "cached_tokens": 88
+          }
+        },
+        "backend_timings": {
+          "cache_n": 88,
+          "prompt_n": 37,
+          "prompt_ms": 11.754,
+          "prompt_per_token_ms": 0.3176756756756757,
+          "prompt_per_second": 3147.864556746639,
+          "predicted_n": 29,
+          "predicted_ms": 90.024,
+          "predicted_per_token_ms": 3.2151428571428573,
+          "predicted_per_second": 311.02817026570693
+        },
+        "finish_reason": [
+          "stop"
+        ],
+        "system_prompt_sha256": "4fc4a512a7cf4e4b55c94f9ab5be2281354ecc26bcae30f0daa86a492a775a96"
+      },
+      "semantic_verdict": null
+    },
+    {
+      "arm": 4,
+      "variant": "short_zh",
+      "case_id": "midnight",
+      "wall_ms": 80.48520000011194,
+      "result": {
+        "source": "We're not going to be home until after midnight.",
+        "target": "我們不會在午夜之後才回家。",
+        "provider": "local",
+        "origin": "本機模型",
+        "warning": "",
+        "cache_hit": false,
+        "model_ms": 79.46940000692848,
+        "ocr_confidence": null,
+        "queue_ms": 0.050699993153102696,
+        "postprocess_ms": 0.15889998758211732,
+        "backend_state": "warm"
+      },
+      "http": {
+        "request_ms": 79.31649999227375,
+        "usage": {
+          "completion_tokens": 10,
+          "prompt_tokens": 108,
+          "total_tokens": 118,
+          "prompt_tokens_details": {
+            "cached_tokens": 88
+          }
+        },
+        "backend_timings": {
+          "cache_n": 88,
+          "prompt_n": 20,
+          "prompt_ms": 10.4,
+          "prompt_per_token_ms": 0.52,
+          "prompt_per_second": 1923.0769230769229,
+          "predicted_n": 10,
+          "predicted_ms": 31.732,
+          "predicted_per_token_ms": 3.525777777777778,
+          "predicted_per_second": 283.62536241018535
+        },
+        "finish_reason": [
+          "stop"
+        ],
+        "system_prompt_sha256": "4fc4a512a7cf4e4b55c94f9ab5be2281354ecc26bcae30f0daa86a492a775a96"
+      },
+      "semantic_verdict": null
+    },
+    {
+      "arm": 4,
+      "variant": "short_zh",
+      "case_id": "sarcasm",
+      "wall_ms": 93.2773999957135,
+      "result": {
+        "source": "A lot of good the extra daylight does us.",
+        "target": "",
+        "provider": "local",
+        "origin": "未取得可靠譯文",
+        "warning": "譯文含未還原的詞庫標記。",
+        "cache_hit": false,
+        "model_ms": 92.84690000640694,
+        "ocr_confidence": null,
+        "queue_ms": 0.07619999814778566,
+        "postprocess_ms": 0.2111999929184094,
+        "backend_state": "warm"
+      },
+      "http": {
+        "request_ms": 92.70619999733754,
+        "usage": {
+          "completion_tokens": 15,
+          "prompt_tokens": 107,
+          "total_tokens": 122,
+          "prompt_tokens_details": {
+            "cached_tokens": 88
+          }
+        },
+        "backend_timings": {
+          "cache_n": 88,
+          "prompt_n": 19,
+          "prompt_ms": 10.032,
+          "prompt_per_token_ms": 0.528,
+          "prompt_per_second": 1893.939393939394,
+          "predicted_n": 15,
+          "predicted_ms": 49.507,
+          "predicted_per_token_ms": 3.5362142857142858,
+          "predicted_per_second": 282.7882925646878
+        },
+        "finish_reason": [
+          "stop"
+        ],
+        "system_prompt_sha256": "4fc4a512a7cf4e4b55c94f9ab5be2281354ecc26bcae30f0daa86a492a775a96"
+      },
+      "semantic_verdict": null
+    },
+    {
+      "arm": 4,
+      "variant": "short_zh",
+      "case_id": "idiom",
+      "wall_ms": 73.05799999448936,
+      "result": {
+        "source": "We're going to blow Sunday.",
+        "target": "我們要週日炸了。",
+        "provider": "local",
+        "origin": "本機模型",
+        "warning": "",
+        "cache_hit": false,
+        "model_ms": 72.04230000206735,
+        "ocr_confidence": null,
+        "queue_ms": 0.04119999357499182,
+        "postprocess_ms": 0.1799000019673258,
+        "backend_state": "warm"
+      },
+      "http": {
+        "request_ms": 71.85639999806881,
+        "usage": {
+          "completion_tokens": 8,
+          "prompt_tokens": 104,
+          "total_tokens": 112,
+          "prompt_tokens_details": {
+            "cached_tokens": 88
+          }
+        },
+        "backend_timings": {
+          "cache_n": 88,
+          "prompt_n": 16,
+          "prompt_ms": 12.543,
+          "prompt_per_token_ms": 0.7839375,
+          "prompt_per_second": 1275.6118950809216,
+          "predicted_n": 8,
+          "predicted_ms": 26.886,
+          "predicted_per_token_ms": 3.8408571428571427,
+          "predicted_per_second": 260.35855091869377
+        },
+        "finish_reason": [
+          "stop"
+        ],
+        "system_prompt_sha256": "4fc4a512a7cf4e4b55c94f9ab5be2281354ecc26bcae30f0daa86a492a775a96"
+      },
+      "semantic_verdict": null
+    },
+    {
+      "arm": 4,
+      "variant": "short_zh",
+      "case_id": "cannot",
+      "wall_ms": 95.54930000740569,
+      "result": {
+        "source": "You cannot equip this relic until your reputation reaches level 9.",
+        "target": "你不能在你的聲望達到級數 9 之前裝備這件聖物。",
+        "provider": "local",
+        "origin": "本機模型",
+        "warning": "",
+        "cache_hit": false,
+        "model_ms": 94.45629999390803,
+        "ocr_confidence": null,
+        "queue_ms": 0.04220000118948519,
+        "postprocess_ms": 0.20799999765586108,
+        "backend_state": "warm"
+      },
+      "http": {
+        "request_ms": 94.31190000032075,
+        "usage": {
+          "completion_tokens": 21,
+          "prompt_tokens": 110,
+          "total_tokens": 131,
+          "prompt_tokens_details": {
+            "cached_tokens": 88
+          }
+        },
+        "backend_timings": {
+          "cache_n": 88,
+          "prompt_n": 22,
+          "prompt_ms": 9.221,
+          "prompt_per_token_ms": 0.41913636363636364,
+          "prompt_per_second": 2385.8583667714997,
+          "predicted_n": 21,
+          "predicted_ms": 70.591,
+          "predicted_per_token_ms": 3.5295499999999995,
+          "predicted_per_second": 283.32223654573534
+        },
+        "finish_reason": [
+          "stop"
+        ],
+        "system_prompt_sha256": "4fc4a512a7cf4e4b55c94f9ab5be2281354ecc26bcae30f0daa86a492a775a96"
+      },
+      "semantic_verdict": null
+    },
+    {
+      "arm": 4,
+      "variant": "short_zh",
+      "case_id": "damage",
+      "wall_ms": 99.91350000200327,
+      "result": {
+        "source": "The special ammunition pierces 2 targets but deals 30% less damage afterward.",
+        "target": "",
+        "provider": "local",
+        "origin": "未取得可靠譯文",
+        "warning": "譯文含未還原的詞庫標記。",
+        "cache_hit": false,
+        "model_ms": 99.2120999871986,
+        "ocr_confidence": null,
+        "queue_ms": 0.05220000457484275,
+        "postprocess_ms": 0.4552000027615577,
+        "backend_state": "warm"
+      },
+      "http": {
+        "request_ms": 99.03939999639988,
+        "usage": {
+          "completion_tokens": 23,
+          "prompt_tokens": 115,
+          "total_tokens": 138,
+          "prompt_tokens_details": {
+            "cached_tokens": 88
+          }
+        },
+        "backend_timings": {
+          "cache_n": 88,
+          "prompt_n": 27,
+          "prompt_ms": 10.323,
+          "prompt_per_token_ms": 0.38233333333333336,
+          "prompt_per_second": 2615.5187445510023,
+          "predicted_n": 23,
+          "predicted_ms": 73.276,
+          "predicted_per_token_ms": 3.3307272727272728,
+          "predicted_per_second": 300.23472896992195
+        },
+        "finish_reason": [
+          "stop"
+        ],
+        "system_prompt_sha256": "4fc4a512a7cf4e4b55c94f9ab5be2281354ecc26bcae30f0daa86a492a775a96"
+      },
+      "semantic_verdict": null
+    },
+    {
+      "arm": 4,
+      "variant": "short_zh",
+      "case_id": "repair",
+      "wall_ms": 73.09849999728613,
+      "result": {
+        "source": "Do not spend the last repair charge before checking the rear engine.",
+        "target": "不要在檢查後引擎之前使用最後的維修費用。",
+        "provider": "local",
+        "origin": "本機模型",
+        "warning": "",
+        "cache_hit": false,
+        "model_ms": 71.96950000070501,
+        "ocr_confidence": null,
+        "queue_ms": 0.1326000055996701,
+        "postprocess_ms": 0.20389999554026872,
+        "backend_state": "warm"
+      },
+      "http": {
+        "request_ms": 71.82230000034906,
+        "usage": {
+          "completion_tokens": 14,
+          "prompt_tokens": 110,
+          "total_tokens": 124,
+          "prompt_tokens_details": {
+            "cached_tokens": 88
+          }
+        },
+        "backend_timings": {
+          "cache_n": 88,
+          "prompt_n": 22,
+          "prompt_ms": 11.434,
+          "prompt_per_token_ms": 0.5197272727272727,
+          "prompt_per_second": 1924.0860591219173,
+          "predicted_n": 14,
+          "predicted_ms": 46.282,
+          "predicted_per_token_ms": 3.560153846153846,
+          "predicted_per_second": 280.8867378246403
+        },
+        "finish_reason": [
+          "stop"
+        ],
+        "system_prompt_sha256": "4fc4a512a7cf4e4b55c94f9ab5be2281354ecc26bcae30f0daa86a492a775a96"
+      },
+      "semantic_verdict": null
+    },
+    {
+      "arm": 4,
+      "variant": "short_zh",
+      "case_id": "rule",
+      "wall_ms": 0.6531999970320612,
+      "result": {
+        "source": "Do not enter the dungeon yet.",
+        "target": "暫時不要進入地牢。",
+        "provider": "local",
+        "origin": "詞庫／完整規則",
+        "warning": "",
+        "cache_hit": false,
+        "model_ms": 0,
+        "ocr_confidence": null,
+        "queue_ms": 0.041799998143687844,
+        "postprocess_ms": 0,
+        "backend_state": "none"
+      },
+      "http": null,
+      "semantic_verdict": null
+    },
+    {
+      "arm": 4,
+      "variant": "short_zh",
+      "case_id": "name",
+      "wall_ms": 35.400499997194856,
+      "result": {
+        "source": "Johnny.",
+        "target": "",
+        "provider": "local",
+        "origin": "未取得可靠譯文",
+        "warning": "沒有產生中文譯文，已保留原文。",
+        "cache_hit": false,
+        "model_ms": 34.89879998960532,
+        "ocr_confidence": null,
+        "queue_ms": 0.2525000018067658,
+        "postprocess_ms": 0.10089999705087394,
+        "backend_state": "warm"
+      },
+      "http": {
+        "request_ms": 34.73789998679422,
+        "usage": {
+          "completion_tokens": 3,
+          "prompt_tokens": 99,
+          "total_tokens": 102,
+          "prompt_tokens_details": {
+            "cached_tokens": 88
+          }
+        },
+        "backend_timings": {
+          "cache_n": 88,
+          "prompt_n": 11,
+          "prompt_ms": 10.185,
+          "prompt_per_token_ms": 0.9259090909090909,
+          "prompt_per_second": 1080.0196367206677,
+          "predicted_n": 3,
+          "predicted_ms": 10.024,
+          "predicted_per_token_ms": 5.012,
+          "predicted_per_second": 199.52114924181964
+        },
+        "finish_reason": [
+          "stop"
+        ],
+        "system_prompt_sha256": "4fc4a512a7cf4e4b55c94f9ab5be2281354ecc26bcae30f0daa86a492a775a96"
+      },
+      "semantic_verdict": null
+    },
+    {
+      "arm": 4,
+      "variant": "short_zh",
+      "case_id": "short",
+      "wall_ms": 33.93320000031963,
+      "result": {
+        "source": "What?",
+        "target": "",
+        "provider": "local",
+        "origin": "未取得可靠譯文",
+        "warning": "沒有產生中文譯文，已保留原文。",
+        "cache_hit": false,
+        "model_ms": 33.64320000400767,
+        "ocr_confidence": null,
+        "queue_ms": 0.0433000095654279,
+        "postprocess_ms": 0.1016000023810193,
+        "backend_state": "warm"
+      },
+      "http": {
+        "request_ms": 33.498999997391365,
+        "usage": {
+          "completion_tokens": 3,
+          "prompt_tokens": 99,
+          "total_tokens": 102,
+          "prompt_tokens_details": {
+            "cached_tokens": 88
+          }
+        },
+        "backend_timings": {
+          "cache_n": 88,
+          "prompt_n": 11,
+          "prompt_ms": 9.364,
+          "prompt_per_token_ms": 0.8512727272727273,
+          "prompt_per_second": 1174.7116616830413,
+          "predicted_n": 3,
+          "predicted_ms": 9.655,
+          "predicted_per_token_ms": 4.8275,
+          "predicted_per_second": 207.14655618850338
+        },
+        "finish_reason": [
+          "stop"
+        ],
+        "system_prompt_sha256": "4fc4a512a7cf4e4b55c94f9ab5be2281354ecc26bcae30f0daa86a492a775a96"
+      },
+      "semantic_verdict": null
+    },
+    {
+      "arm": 4,
+      "variant": "short_zh",
+      "case_id": "long",
+      "wall_ms": 156.96369999204762,
+      "result": {
+        "source": "We have enough medicine to stabilize the injured passengers tonight, but finding a doctor before morning will require someone to cross the damaged railway bridge.",
+        "target": "我們今晚有足夠的藥物來穩定受傷乘客，但要在天亮前找到醫生，需要有人過橋損壞的鐵路橋。",
+        "provider": "local",
+        "origin": "本機模型",
+        "warning": "",
+        "cache_hit": false,
+        "model_ms": 155.74330001254566,
+        "ocr_confidence": null,
+        "queue_ms": 0.0653000024612993,
+        "postprocess_ms": 0.3612000000430271,
+        "backend_state": "warm"
+      },
+      "http": {
+        "request_ms": 155.52839999145363,
+        "usage": {
+          "completion_tokens": 34,
+          "prompt_tokens": 124,
+          "total_tokens": 158,
+          "prompt_tokens_details": {
+            "cached_tokens": 88
+          }
+        },
+        "backend_timings": {
+          "cache_n": 88,
+          "prompt_n": 36,
+          "prompt_ms": 11.555,
+          "prompt_per_token_ms": 0.3209722222222222,
+          "prompt_per_second": 3115.534400692341,
+          "predicted_n": 34,
+          "predicted_ms": 110.41,
+          "predicted_per_token_ms": 3.3457575757575757,
+          "predicted_per_second": 298.885970473689
+        },
+        "finish_reason": [
+          "stop"
+        ],
+        "system_prompt_sha256": "4fc4a512a7cf4e4b55c94f9ab5be2281354ecc26bcae30f0daa86a492a775a96"
+      },
+      "semantic_verdict": null
+    },
+    {
+      "arm": 4,
+      "variant": "short_zh",
+      "case_id": "prohibition",
+      "wall_ms": 65.32780000998173,
+      "result": {
+        "source": "Do not cross the painted line while the examination lamp is flashing.",
+        "target": "不要在考試燈閃爍時穿越畫線。",
+        "provider": "local",
+        "origin": "本機模型",
+        "warning": "",
+        "cache_hit": false,
+        "model_ms": 64.38060000073165,
+        "ocr_confidence": null,
+        "queue_ms": 0.04029998672194779,
+        "postprocess_ms": 0.18999999156221747,
+        "backend_state": "warm"
+      },
+      "http": {
+        "request_ms": 64.22059999022167,
+        "usage": {
+          "completion_tokens": 13,
+          "prompt_tokens": 110,
+          "total_tokens": 123,
+          "prompt_tokens_details": {
+            "cached_tokens": 88
+          }
+        },
+        "backend_timings": {
+          "cache_n": 88,
+          "prompt_n": 22,
+          "prompt_ms": 8.971,
+          "prompt_per_token_ms": 0.4077727272727273,
+          "prompt_per_second": 2452.3464496711626,
+          "predicted_n": 13,
+          "predicted_ms": 40.814,
+          "predicted_per_token_ms": 3.4011666666666667,
+          "predicted_per_second": 294.01675895526046
+        },
+        "finish_reason": [
+          "stop"
+        ],
+        "system_prompt_sha256": "4fc4a512a7cf4e4b55c94f9ab5be2281354ecc26bcae30f0daa86a492a775a96"
+      },
+      "semantic_verdict": null
+    },
+    {
+      "arm": 4,
+      "variant": "short_zh",
+      "case_id": "hyphen-guard",
+      "wall_ms": 63.287500001024455,
+      "result": {
+        "source": "It is a three-hour trip.",
+        "target": "",
+        "provider": "local",
+        "origin": "未取得可靠譯文",
+        "warning": "譯文含未還原的詞庫標記。",
+        "cache_hit": false,
+        "model_ms": 62.94029999116901,
+        "ocr_confidence": null,
+        "queue_ms": 0.03749999450519681,
+        "postprocess_ms": 0.17220000154338777,
+        "backend_state": "warm"
+      },
+      "http": {
+        "request_ms": 62.76700001035351,
+        "usage": {
+          "completion_tokens": 12,
+          "prompt_tokens": 104,
+          "total_tokens": 116,
+          "prompt_tokens_details": {
+            "cached_tokens": 88
+          }
+        },
+        "backend_timings": {
+          "cache_n": 88,
+          "prompt_n": 16,
+          "prompt_ms": 9.525,
+          "prompt_per_token_ms": 0.5953125,
+          "prompt_per_second": 1679.7900262467192,
+          "predicted_n": 12,
+          "predicted_ms": 38.772,
+          "predicted_per_token_ms": 3.5247272727272727,
+          "predicted_per_second": 283.70989373774887
+        },
+        "finish_reason": [
+          "stop"
+        ],
+        "system_prompt_sha256": "4fc4a512a7cf4e4b55c94f9ab5be2281354ecc26bcae30f0daa86a492a775a96"
+      },
+      "semantic_verdict": null
+    },
+    {
+      "arm": 4,
+      "variant": "short_zh",
+      "case_id": "ordinal-guard",
+      "wall_ms": 56.01569999998901,
+      "result": {
+        "source": "It was the first day after the clocks changed.",
+        "target": "",
+        "provider": "local",
+        "origin": "未取得可靠譯文",
+        "warning": "數值或正負號改變，已保留原文。",
+        "cache_hit": false,
+        "model_ms": 55.683300000964664,
+        "ocr_confidence": null,
+        "queue_ms": 0.04119999357499182,
+        "postprocess_ms": 0.11860000086016953,
+        "backend_state": "warm"
+      },
+      "http": {
+        "request_ms": 55.539500011946075,
+        "usage": {
+          "completion_tokens": 9,
+          "prompt_tokens": 107,
+          "total_tokens": 116,
+          "prompt_tokens_details": {
+            "cached_tokens": 89
+          }
+        },
+        "backend_timings": {
+          "cache_n": 89,
+          "prompt_n": 18,
+          "prompt_ms": 9.974,
+          "prompt_per_token_ms": 0.5541111111111111,
+          "prompt_per_second": 1804.69219971927,
+          "predicted_n": 9,
+          "predicted_ms": 30.984,
+          "predicted_per_token_ms": 3.873,
+          "predicted_per_second": 258.19777949909627
+        },
+        "finish_reason": [
+          "stop"
+        ],
+        "system_prompt_sha256": "4fc4a512a7cf4e4b55c94f9ab5be2281354ecc26bcae30f0daa86a492a775a96"
+      },
+      "semantic_verdict": null
+    },
+    {
+      "arm": 5,
+      "variant": "short_en",
+      "case_id": "unless",
+      "wall_ms": 103.01210000761785,
+      "result": {
+        "source": "Do not interrupt the ritual unless the outer circle changes from gold to violet.",
+        "target": "除非外圈從黃色變為紫色，否則不要中斷儀式。",
+        "provider": "local",
+        "origin": "本機模型",
+        "warning": "",
+        "cache_hit": false,
+        "model_ms": 101.96640000503976,
+        "ocr_confidence": null,
+        "queue_ms": 0.044200001866556704,
+        "postprocess_ms": 0.20000000949949026,
+        "backend_state": "warm"
+      },
+      "http": {
+        "request_ms": 101.80140000011306,
+        "usage": {
+          "completion_tokens": 18,
+          "prompt_tokens": 81,
+          "total_tokens": 99,
+          "prompt_tokens_details": {
+            "cached_tokens": 57
+          }
+        },
+        "backend_timings": {
+          "cache_n": 57,
+          "prompt_n": 24,
+          "prompt_ms": 9.817,
+          "prompt_per_token_ms": 0.4090416666666667,
+          "prompt_per_second": 2444.738718549455,
+          "predicted_n": 18,
+          "predicted_ms": 58.442,
+          "predicted_per_token_ms": 3.437764705882353,
+          "predicted_per_second": 290.8866910783341
+        },
+        "finish_reason": [
+          "stop"
+        ],
+        "system_prompt_sha256": "931b8baf96e5f82108ed1a49fdd01b6513a4e2ecabb18b9b6abce857fb053770"
+      },
+      "semantic_verdict": null
+    },
+    {
+      "arm": 5,
+      "variant": "short_en",
+      "case_id": "kits",
+      "wall_ms": 108.6899999936577,
+      "result": {
+        "source": "Deliver 5 medical kits before the countdown reaches 01:30.",
+        "target": "交付5件醫療用品在倒數計時達到01:30前。",
+        "provider": "local",
+        "origin": "本機模型",
+        "warning": "",
+        "cache_hit": false,
+        "model_ms": 107.50800000096206,
+        "ocr_confidence": null,
+        "queue_ms": 0.04359999729786068,
+        "postprocess_ms": 0.2525000018067658,
+        "backend_state": "warm"
+      },
+      "http": {
+        "request_ms": 107.34089999459684,
+        "usage": {
+          "completion_tokens": 19,
+          "prompt_tokens": 83,
+          "total_tokens": 102,
+          "prompt_tokens_details": {
+            "cached_tokens": 57
+          }
+        },
+        "backend_timings": {
+          "cache_n": 57,
+          "prompt_n": 26,
+          "prompt_ms": 9.131,
+          "prompt_per_token_ms": 0.3511923076923077,
+          "prompt_per_second": 2847.4427773518782,
+          "predicted_n": 19,
+          "predicted_ms": 60.637,
+          "predicted_per_token_ms": 3.3687222222222224,
+          "predicted_per_second": 296.84845886175106
+        },
+        "finish_reason": [
+          "stop"
+        ],
+        "system_prompt_sha256": "931b8baf96e5f82108ed1a49fdd01b6513a4e2ecabb18b9b6abce857fb053770"
+      },
+      "semantic_verdict": null
+    },
+    {
+      "arm": 5,
+      "variant": "short_en",
+      "case_id": "actors",
+      "wall_ms": 132.1029999962775,
+      "result": {
+        "source": "We assumed the apprentice had misunderstood the instructions, until the master admitted that he had deliberately given her an incomplete version of the spell.",
+        "target": "我們假設學徒誤解了指令，直到師傅承認他故意給她一個不完整的咒語版本。",
+        "provider": "local",
+        "origin": "本機模型",
+        "warning": "",
+        "cache_hit": false,
+        "model_ms": 130.7673999981489,
+        "ocr_confidence": null,
+        "queue_ms": 0.046200002543628216,
+        "postprocess_ms": 0.36970000655855983,
+        "backend_state": "warm"
+      },
+      "http": {
+        "request_ms": 130.59800000337418,
+        "usage": {
+          "completion_tokens": 27,
+          "prompt_tokens": 92,
+          "total_tokens": 119,
+          "prompt_tokens_details": {
+            "cached_tokens": 57
+          }
+        },
+        "backend_timings": {
+          "cache_n": 57,
+          "prompt_n": 35,
+          "prompt_ms": 9.779,
+          "prompt_per_token_ms": 0.2794,
+          "prompt_per_second": 3579.0980672870437,
+          "predicted_n": 27,
+          "predicted_ms": 83.119,
+          "predicted_per_token_ms": 3.1968846153846155,
+          "predicted_per_second": 312.8045332595435
+        },
+        "finish_reason": [
+          "stop"
+        ],
+        "system_prompt_sha256": "931b8baf96e5f82108ed1a49fdd01b6513a4e2ecabb18b9b6abce857fb053770"
+      },
+      "semantic_verdict": null
+    },
+    {
+      "arm": 5,
+      "variant": "short_en",
+      "case_id": "before",
+      "wall_ms": 88.58530000725295,
+      "result": {
+        "source": "Collect the fallen branches and reinforce the shelter before the hail arrives.",
+        "target": "收集掉落的枝葉並加強庇護所，以防備雷暴來臨。",
+        "provider": "local",
+        "origin": "本機模型",
+        "warning": "",
+        "cache_hit": false,
+        "model_ms": 87.48560000094585,
+        "ocr_confidence": null,
+        "queue_ms": 0.042400002712383866,
+        "postprocess_ms": 0.21120000747032464,
+        "backend_state": "warm"
+      },
+      "http": {
+        "request_ms": 87.32620000955649,
+        "usage": {
+          "completion_tokens": 19,
+          "prompt_tokens": 79,
+          "total_tokens": 98,
+          "prompt_tokens_details": {
+            "cached_tokens": 57
+          }
+        },
+        "backend_timings": {
+          "cache_n": 57,
+          "prompt_n": 22,
+          "prompt_ms": 10.23,
+          "prompt_per_token_ms": 0.465,
+          "prompt_per_second": 2150.537634408602,
+          "predicted_n": 19,
+          "predicted_ms": 59.189,
+          "predicted_per_token_ms": 3.2882777777777776,
+          "predicted_per_second": 304.1105610839852
+        },
+        "finish_reason": [
+          "stop"
+        ],
+        "system_prompt_sha256": "931b8baf96e5f82108ed1a49fdd01b6513a4e2ecabb18b9b6abce857fb053770"
+      },
+      "semantic_verdict": null
+    },
+    {
+      "arm": 5,
+      "variant": "short_en",
+      "case_id": "creatures",
+      "wall_ms": 125.50270000065211,
+      "result": {
+        "source": "If the creatures remain quiet after the music stops, lower your weapons slowly and allow the youngest one to approach the food placed near the entrance.",
+        "target": "如果這些生物在音樂停止後仍保持靜默，請慢慢降低武器，讓最年輕的一個接近入口附近放置的食物。",
+        "provider": "local",
+        "origin": "本機模型",
+        "warning": "",
+        "cache_hit": false,
+        "model_ms": 124.22549999610055,
+        "ocr_confidence": null,
+        "queue_ms": 0.04530001024249941,
+        "postprocess_ms": 0.2927000023191795,
+        "backend_state": "warm"
+      },
+      "http": {
+        "request_ms": 124.079500004882,
+        "usage": {
+          "completion_tokens": 29,
+          "prompt_tokens": 94,
+          "total_tokens": 123,
+          "prompt_tokens_details": {
+            "cached_tokens": 57
+          }
+        },
+        "backend_timings": {
+          "cache_n": 57,
+          "prompt_n": 37,
+          "prompt_ms": 11.401,
+          "prompt_per_token_ms": 0.30813513513513513,
+          "prompt_per_second": 3245.329357073941,
+          "predicted_n": 29,
+          "predicted_ms": 96.652,
+          "predicted_per_token_ms": 3.451857142857143,
+          "predicted_per_second": 289.69912676406074
+        },
+        "finish_reason": [
+          "stop"
+        ],
+        "system_prompt_sha256": "931b8baf96e5f82108ed1a49fdd01b6513a4e2ecabb18b9b6abce857fb053770"
+      },
+      "semantic_verdict": null
+    },
+    {
+      "arm": 5,
+      "variant": "short_en",
+      "case_id": "midnight",
+      "wall_ms": 65.90549999964423,
+      "result": {
+        "source": "We're not going to be home until after midnight.",
+        "target": "我們不會在午夜之後才回家。",
+        "provider": "local",
+        "origin": "本機模型",
+        "warning": "",
+        "cache_hit": false,
+        "model_ms": 64.88859999808483,
+        "ocr_confidence": null,
+        "queue_ms": 0.04909999552182853,
+        "postprocess_ms": 0.19550000433810055,
+        "backend_state": "warm"
+      },
+      "http": {
+        "request_ms": 64.72850000136532,
+        "usage": {
+          "completion_tokens": 10,
+          "prompt_tokens": 77,
+          "total_tokens": 87,
+          "prompt_tokens_details": {
+            "cached_tokens": 58
+          }
+        },
+        "backend_timings": {
+          "cache_n": 58,
+          "prompt_n": 19,
+          "prompt_ms": 9.833,
+          "prompt_per_token_ms": 0.5175263157894737,
+          "prompt_per_second": 1932.2688904708632,
+          "predicted_n": 10,
+          "predicted_ms": 33.272,
+          "predicted_per_token_ms": 3.6968888888888887,
+          "predicted_per_second": 270.49771579706663
+        },
+        "finish_reason": [
+          "stop"
+        ],
+        "system_prompt_sha256": "931b8baf96e5f82108ed1a49fdd01b6513a4e2ecabb18b9b6abce857fb053770"
+      },
+      "semantic_verdict": null
+    },
+    {
+      "arm": 5,
+      "variant": "short_en",
+      "case_id": "sarcasm",
+      "wall_ms": 88.6871999973664,
+      "result": {
+        "source": "A lot of good the extra daylight does us.",
+        "target": "很多好的東西是額外的陽光對我們有幫助。",
+        "provider": "local",
+        "origin": "本機模型",
+        "warning": "",
+        "cache_hit": false,
+        "model_ms": 87.58519998809788,
+        "ocr_confidence": null,
+        "queue_ms": 0.048300003982149065,
+        "postprocess_ms": 0.20580001000780612,
+        "backend_state": "warm"
+      },
+      "http": {
+        "request_ms": 87.42460000212304,
+        "usage": {
+          "completion_tokens": 15,
+          "prompt_tokens": 76,
+          "total_tokens": 91,
+          "prompt_tokens_details": {
+            "cached_tokens": 57
+          }
+        },
+        "backend_timings": {
+          "cache_n": 57,
+          "prompt_n": 19,
+          "prompt_ms": 10.082,
+          "prompt_per_token_ms": 0.5306315789473685,
+          "prompt_per_second": 1884.5467169212457,
+          "predicted_n": 15,
+          "predicted_ms": 48.307,
+          "predicted_per_token_ms": 3.4505000000000003,
+          "predicted_per_second": 289.8130705694827
+        },
+        "finish_reason": [
+          "stop"
+        ],
+        "system_prompt_sha256": "931b8baf96e5f82108ed1a49fdd01b6513a4e2ecabb18b9b6abce857fb053770"
+      },
+      "semantic_verdict": null
+    },
+    {
+      "arm": 5,
+      "variant": "short_en",
+      "case_id": "idiom",
+      "wall_ms": 53.16210001183208,
+      "result": {
+        "source": "We're going to blow Sunday.",
+        "target": "我們要週日放煙.",
+        "provider": "local",
+        "origin": "本機模型",
+        "warning": "",
+        "cache_hit": false,
+        "model_ms": 52.28780000470579,
+        "ocr_confidence": null,
+        "queue_ms": 0.03809999907389283,
+        "postprocess_ms": 0.1188000023830682,
+        "backend_state": "warm"
+      },
+      "http": {
+        "request_ms": 52.13430000003427,
+        "usage": {
+          "completion_tokens": 8,
+          "prompt_tokens": 73,
+          "total_tokens": 81,
+          "prompt_tokens_details": {
+            "cached_tokens": 57
+          }
+        },
+        "backend_timings": {
+          "cache_n": 57,
+          "prompt_n": 16,
+          "prompt_ms": 10.23,
+          "prompt_per_token_ms": 0.639375,
+          "prompt_per_second": 1564.0273704789834,
+          "predicted_n": 8,
+          "predicted_ms": 27.143,
+          "predicted_per_token_ms": 3.8775714285714287,
+          "predicted_per_second": 257.89337950852894
+        },
+        "finish_reason": [
+          "stop"
+        ],
+        "system_prompt_sha256": "931b8baf96e5f82108ed1a49fdd01b6513a4e2ecabb18b9b6abce857fb053770"
+      },
+      "semantic_verdict": null
+    },
+    {
+      "arm": 5,
+      "variant": "short_en",
+      "case_id": "cannot",
+      "wall_ms": 89.98360000259709,
+      "result": {
+        "source": "You cannot equip this relic until your reputation reaches level 9.",
+        "target": "你不能在聲譽級別達到9級之前裝備這件聖物。",
+        "provider": "local",
+        "origin": "本機模型",
+        "warning": "",
+        "cache_hit": false,
+        "model_ms": 88.92379999451805,
+        "ocr_confidence": null,
+        "queue_ms": 0.04129999433644116,
+        "postprocess_ms": 0.20319999021012336,
+        "backend_state": "warm"
+      },
+      "http": {
+        "request_ms": 88.77890001167543,
+        "usage": {
+          "completion_tokens": 19,
+          "prompt_tokens": 79,
+          "total_tokens": 98,
+          "prompt_tokens_details": {
+            "cached_tokens": 57
+          }
+        },
+        "backend_timings": {
+          "cache_n": 57,
+          "prompt_n": 22,
+          "prompt_ms": 10.946,
+          "prompt_per_token_ms": 0.4975454545454545,
+          "prompt_per_second": 2009.8666179426275,
+          "predicted_n": 19,
+          "predicted_ms": 63.311,
+          "predicted_per_token_ms": 3.5172777777777777,
+          "predicted_per_second": 284.3107832762079
+        },
+        "finish_reason": [
+          "stop"
+        ],
+        "system_prompt_sha256": "931b8baf96e5f82108ed1a49fdd01b6513a4e2ecabb18b9b6abce857fb053770"
+      },
+      "semantic_verdict": null
+    },
+    {
+      "arm": 5,
+      "variant": "short_en",
+      "case_id": "damage",
+      "wall_ms": 97.38220000872388,
+      "result": {
+        "source": "The special ammunition pierces 2 targets but deals 30% less damage afterward.",
+        "target": "特殊彈藥穿透2個目標，但之後造成30%的傷害較少。",
+        "provider": "local",
+        "origin": "本機模型",
+        "warning": "",
+        "cache_hit": false,
+        "model_ms": 96.34670001105405,
+        "ocr_confidence": null,
+        "queue_ms": 0.03929999365936965,
+        "postprocess_ms": 0.21520000882446766,
+        "backend_state": "warm"
+      },
+      "http": {
+        "request_ms": 96.20410000206903,
+        "usage": {
+          "completion_tokens": 21,
+          "prompt_tokens": 84,
+          "total_tokens": 105,
+          "prompt_tokens_details": {
+            "cached_tokens": 57
+          }
+        },
+        "backend_timings": {
+          "cache_n": 57,
+          "prompt_n": 27,
+          "prompt_ms": 11.616,
+          "prompt_per_token_ms": 0.43022222222222223,
+          "prompt_per_second": 2324.380165289256,
+          "predicted_n": 21,
+          "predicted_ms": 68.838,
+          "predicted_per_token_ms": 3.4418999999999995,
+          "predicted_per_second": 290.53720328888113
+        },
+        "finish_reason": [
+          "stop"
+        ],
+        "system_prompt_sha256": "931b8baf96e5f82108ed1a49fdd01b6513a4e2ecabb18b9b6abce857fb053770"
+      },
+      "semantic_verdict": null
+    },
+    {
+      "arm": 5,
+      "variant": "short_en",
+      "case_id": "repair",
+      "wall_ms": 73.17370000237133,
+      "result": {
+        "source": "Do not spend the last repair charge before checking the rear engine.",
+        "target": "不要在檢查後引擎之前消耗最後的修復費用。",
+        "provider": "local",
+        "origin": "本機模型",
+        "warning": "",
+        "cache_hit": false,
+        "model_ms": 72.15670000005048,
+        "ocr_confidence": null,
+        "queue_ms": 0.04910001007374376,
+        "postprocess_ms": 0.19949999114032835,
+        "backend_state": "warm"
+      },
+      "http": {
+        "request_ms": 71.99660000333097,
+        "usage": {
+          "completion_tokens": 14,
+          "prompt_tokens": 79,
+          "total_tokens": 93,
+          "prompt_tokens_details": {
+            "cached_tokens": 57
+          }
+        },
+        "backend_timings": {
+          "cache_n": 57,
+          "prompt_n": 22,
+          "prompt_ms": 10.773,
+          "prompt_per_token_ms": 0.48968181818181816,
+          "prompt_per_second": 2042.142393019586,
+          "predicted_n": 14,
+          "predicted_ms": 46.415,
+          "predicted_per_token_ms": 3.5703846153846155,
+          "predicted_per_second": 280.0818700851018
+        },
+        "finish_reason": [
+          "stop"
+        ],
+        "system_prompt_sha256": "931b8baf96e5f82108ed1a49fdd01b6513a4e2ecabb18b9b6abce857fb053770"
+      },
+      "semantic_verdict": null
+    },
+    {
+      "arm": 5,
+      "variant": "short_en",
+      "case_id": "rule",
+      "wall_ms": 0.6551999977091327,
+      "result": {
+        "source": "Do not enter the dungeon yet.",
+        "target": "暫時不要進入地牢。",
+        "provider": "local",
+        "origin": "詞庫／完整規則",
+        "warning": "",
+        "cache_hit": false,
+        "model_ms": 0,
+        "ocr_confidence": null,
+        "queue_ms": 0.039300008211284876,
+        "postprocess_ms": 0,
+        "backend_state": "none"
+      },
+      "http": null,
+      "semantic_verdict": null
+    },
+    {
+      "arm": 5,
+      "variant": "short_en",
+      "case_id": "name",
+      "wall_ms": 36.62030000123195,
+      "result": {
+        "source": "Johnny.",
+        "target": "",
+        "provider": "local",
+        "origin": "未取得可靠譯文",
+        "warning": "沒有產生中文譯文，已保留原文。",
+        "cache_hit": false,
+        "model_ms": 36.303000000771135,
+        "ocr_confidence": null,
+        "queue_ms": 0.03160000778734684,
+        "postprocess_ms": 0.1100999943446368,
+        "backend_state": "warm"
+      },
+      "http": {
+        "request_ms": 36.162999997031875,
+        "usage": {
+          "completion_tokens": 3,
+          "prompt_tokens": 68,
+          "total_tokens": 71,
+          "prompt_tokens_details": {
+            "cached_tokens": 57
+          }
+        },
+        "backend_timings": {
+          "cache_n": 57,
+          "prompt_n": 11,
+          "prompt_ms": 10.983,
+          "prompt_per_token_ms": 0.9984545454545455,
+          "prompt_per_second": 1001.5478466721296,
+          "predicted_n": 3,
+          "predicted_ms": 10.785,
+          "predicted_per_token_ms": 5.3925,
+          "predicted_per_second": 185.4427445526194
+        },
+        "finish_reason": [
+          "stop"
+        ],
+        "system_prompt_sha256": "931b8baf96e5f82108ed1a49fdd01b6513a4e2ecabb18b9b6abce857fb053770"
+      },
+      "semantic_verdict": null
+    },
+    {
+      "arm": 5,
+      "variant": "short_en",
+      "case_id": "short",
+      "wall_ms": 60.889300002600066,
+      "result": {
+        "source": "What?",
+        "target": "什麼？",
+        "provider": "local",
+        "origin": "本機模型",
+        "warning": "",
+        "cache_hit": false,
+        "model_ms": 59.957500008749776,
+        "ocr_confidence": null,
+        "queue_ms": 0.047299996367655694,
+        "postprocess_ms": 0.10720000136643648,
+        "backend_state": "warm"
+      },
+      "http": {
+        "request_ms": 59.7832999919774,
+        "usage": {
+          "completion_tokens": 3,
+          "prompt_tokens": 68,
+          "total_tokens": 71,
+          "prompt_tokens_details": {
+            "cached_tokens": 57
+          }
+        },
+        "backend_timings": {
+          "cache_n": 57,
+          "prompt_n": 11,
+          "prompt_ms": 10.985,
+          "prompt_per_token_ms": 0.9986363636363635,
+          "prompt_per_second": 1001.3654984069185,
+          "predicted_n": 3,
+          "predicted_ms": 11.178,
+          "predicted_per_token_ms": 5.589,
+          "predicted_per_second": 178.92288423689388
+        },
+        "finish_reason": [
+          "stop"
+        ],
+        "system_prompt_sha256": "931b8baf96e5f82108ed1a49fdd01b6513a4e2ecabb18b9b6abce857fb053770"
+      },
+      "semantic_verdict": null
+    },
+    {
+      "arm": 5,
+      "variant": "short_en",
+      "case_id": "long",
+      "wall_ms": 137.20939999620896,
+      "result": {
+        "source": "We have enough medicine to stabilize the injured passengers tonight, but finding a doctor before morning will require someone to cross the damaged railway bridge.",
+        "target": "我們今晚有足夠的藥物來穩定受傷乘客，但要在清晨找到醫生將需要有人過橋。",
+        "provider": "local",
+        "origin": "本機模型",
+        "warning": "",
+        "cache_hit": false,
+        "model_ms": 136.26279999152757,
+        "ocr_confidence": null,
+        "queue_ms": 0.042100000428035855,
+        "postprocess_ms": 0.31600000511389226,
+        "backend_state": "warm"
+      },
+      "http": {
+        "request_ms": 136.1064999946393,
+        "usage": {
+          "completion_tokens": 26,
+          "prompt_tokens": 93,
+          "total_tokens": 119,
+          "prompt_tokens_details": {
+            "cached_tokens": 57
+          }
+        },
+        "backend_timings": {
+          "cache_n": 57,
+          "prompt_n": 36,
+          "prompt_ms": 12.112,
+          "prompt_per_token_ms": 0.33644444444444443,
+          "prompt_per_second": 2972.25891677675,
+          "predicted_n": 26,
+          "predicted_ms": 86.593,
+          "predicted_per_token_ms": 3.4637200000000004,
+          "predicted_per_second": 288.70693935999446
+        },
+        "finish_reason": [
+          "stop"
+        ],
+        "system_prompt_sha256": "931b8baf96e5f82108ed1a49fdd01b6513a4e2ecabb18b9b6abce857fb053770"
+      },
+      "semantic_verdict": null
+    },
+    {
+      "arm": 5,
+      "variant": "short_en",
+      "case_id": "prohibition",
+      "wall_ms": 75.21679998899344,
+      "result": {
+        "source": "Do not cross the painted line while the examination lamp is flashing.",
+        "target": "不要在考試燈閃爍時穿越畫線。",
+        "provider": "local",
+        "origin": "本機模型",
+        "warning": "",
+        "cache_hit": false,
+        "model_ms": 74.16139999986626,
+        "ocr_confidence": null,
+        "queue_ms": 0.041700011934153736,
+        "postprocess_ms": 0.15970000822562724,
+        "backend_state": "warm"
+      },
+      "http": {
+        "request_ms": 74.00999999663327,
+        "usage": {
+          "completion_tokens": 13,
+          "prompt_tokens": 79,
+          "total_tokens": 92,
+          "prompt_tokens_details": {
+            "cached_tokens": 57
+          }
+        },
+        "backend_timings": {
+          "cache_n": 57,
+          "prompt_n": 22,
+          "prompt_ms": 9.317,
+          "prompt_per_token_ms": 0.4235,
+          "prompt_per_second": 2361.275088547816,
+          "predicted_n": 13,
+          "predicted_ms": 44.164,
+          "predicted_per_token_ms": 3.6803333333333335,
+          "predicted_per_second": 271.7145186124445
+        },
+        "finish_reason": [
+          "stop"
+        ],
+        "system_prompt_sha256": "931b8baf96e5f82108ed1a49fdd01b6513a4e2ecabb18b9b6abce857fb053770"
+      },
+      "semantic_verdict": null
+    },
+    {
+      "arm": 5,
+      "variant": "short_en",
+      "case_id": "hyphen-guard",
+      "wall_ms": 68.64690000656992,
+      "result": {
+        "source": "It is a three-hour trip.",
+        "target": "",
+        "provider": "local",
+        "origin": "未取得可靠譯文",
+        "warning": "數值或正負號改變，已保留原文。",
+        "cache_hit": false,
+        "model_ms": 68.31919999967795,
+        "ocr_confidence": null,
+        "queue_ms": 0.044599990360438824,
+        "postprocess_ms": 0.11209999502170831,
+        "backend_state": "warm"
+      },
+      "http": {
+        "request_ms": 68.17290000617504,
+        "usage": {
+          "completion_tokens": 9,
+          "prompt_tokens": 73,
+          "total_tokens": 82,
+          "prompt_tokens_details": {
+            "cached_tokens": 57
+          }
+        },
+        "backend_timings": {
+          "cache_n": 57,
+          "prompt_n": 16,
+          "prompt_ms": 9.114,
+          "prompt_per_token_ms": 0.569625,
+          "prompt_per_second": 1755.5409260478384,
+          "predicted_n": 9,
+          "predicted_ms": 31.932,
+          "predicted_per_token_ms": 3.9915,
+          "predicted_per_second": 250.53238131028436
+        },
+        "finish_reason": [
+          "stop"
+        ],
+        "system_prompt_sha256": "931b8baf96e5f82108ed1a49fdd01b6513a4e2ecabb18b9b6abce857fb053770"
+      },
+      "semantic_verdict": null
+    },
+    {
+      "arm": 5,
+      "variant": "short_en",
+      "case_id": "ordinal-guard",
+      "wall_ms": 59.72259999543894,
+      "result": {
+        "source": "It was the first day after the clocks changed.",
+        "target": "",
+        "provider": "local",
+        "origin": "未取得可靠譯文",
+        "warning": "數值或正負號改變，已保留原文。",
+        "cache_hit": false,
+        "model_ms": 59.397699995315634,
+        "ocr_confidence": null,
+        "queue_ms": 0.04439998883754015,
+        "postprocess_ms": 0.12040000001434237,
+        "backend_state": "warm"
+      },
+      "http": {
+        "request_ms": 59.24299999605864,
+        "usage": {
+          "completion_tokens": 10,
+          "prompt_tokens": 76,
+          "total_tokens": 86,
+          "prompt_tokens_details": {
+            "cached_tokens": 58
+          }
+        },
+        "backend_timings": {
+          "cache_n": 58,
+          "prompt_n": 18,
+          "prompt_ms": 10.61,
+          "prompt_per_token_ms": 0.5894444444444444,
+          "prompt_per_second": 1696.5127238454288,
+          "predicted_n": 10,
+          "predicted_ms": 33.632,
+          "predicted_per_token_ms": 3.7368888888888887,
+          "predicted_per_second": 267.6022835394862
+        },
+        "finish_reason": [
+          "stop"
+        ],
+        "system_prompt_sha256": "931b8baf96e5f82108ed1a49fdd01b6513a4e2ecabb18b9b6abce857fb053770"
+      },
+      "semantic_verdict": null
+    },
+    {
+      "arm": 6,
+      "variant": "production",
+      "case_id": "unless",
+      "wall_ms": 112.77359999075998,
+      "result": {
+        "source": "Do not interrupt the ritual unless the outer circle changes from gold to violet.",
+        "target": "不論外圓是否從黃金轉為紫羅蘭，都不應中斷儀式。",
+        "provider": "local",
+        "origin": "本機模型",
+        "warning": "",
+        "cache_hit": false,
+        "model_ms": 111.58190001151524,
+        "ocr_confidence": null,
+        "queue_ms": 0.044200001866556704,
+        "postprocess_ms": 0.2818000066326931,
+        "backend_state": "warm"
+      },
+      "http": {
+        "request_ms": 111.3855000003241,
+        "usage": {
+          "completion_tokens": 22,
+          "prompt_tokens": 146,
+          "total_tokens": 168,
+          "prompt_tokens_details": {
+            "cached_tokens": 122
+          }
+        },
+        "backend_timings": {
+          "cache_n": 122,
+          "prompt_n": 24,
+          "prompt_ms": 12.694,
+          "prompt_per_token_ms": 0.5289166666666667,
+          "prompt_per_second": 1890.6570033086496,
+          "predicted_n": 22,
+          "predicted_ms": 68.507,
+          "predicted_per_token_ms": 3.2622380952380956,
+          "predicted_per_second": 306.5380180127578
+        },
+        "finish_reason": [
+          "stop"
+        ],
+        "system_prompt_sha256": "43384fbb2db120e77e44e5de4a1cfaca69e7df1647a3d4474e96c4f75864b100"
+      },
+      "semantic_verdict": null
+    },
+    {
+      "arm": 6,
+      "variant": "production",
+      "case_id": "kits",
+      "wall_ms": 109.58999999274965,
+      "result": {
+        "source": "Deliver 5 medical kits before the countdown reaches 01:30.",
+        "target": "傳送門 5 醫療包 在計時器達到 01:30 前交付。",
+        "provider": "local",
+        "origin": "本機模型",
+        "warning": "",
+        "cache_hit": false,
+        "model_ms": 108.46099999616854,
+        "ocr_confidence": null,
+        "queue_ms": 0.03739999374374747,
+        "postprocess_ms": 0.27209999097976834,
+        "backend_state": "warm"
+      },
+      "http": {
+        "request_ms": 108.2689000031678,
+        "usage": {
+          "completion_tokens": 25,
+          "prompt_tokens": 148,
+          "total_tokens": 173,
+          "prompt_tokens_details": {
+            "cached_tokens": 122
+          }
+        },
+        "backend_timings": {
+          "cache_n": 122,
+          "prompt_n": 26,
+          "prompt_ms": 12.168,
+          "prompt_per_token_ms": 0.46799999999999997,
+          "prompt_per_second": 2136.7521367521367,
+          "predicted_n": 25,
+          "predicted_ms": 81.085,
+          "predicted_per_token_ms": 3.3785416666666666,
+          "predicted_per_second": 295.9856940247888
+        },
+        "finish_reason": [
+          "stop"
+        ],
+        "system_prompt_sha256": "43384fbb2db120e77e44e5de4a1cfaca69e7df1647a3d4474e96c4f75864b100"
+      },
+      "semantic_verdict": null
+    },
+    {
+      "arm": 6,
+      "variant": "production",
+      "case_id": "actors",
+      "wall_ms": 112.51350000384264,
+      "result": {
+        "source": "We assumed the apprentice had misunderstood the instructions, until the master admitted that he had deliberately given her an incomplete version of the spell.",
+        "target": "我們假設師傅誤解了指令，直到師傅承認他故意給她一個不完整的咒語版本。",
+        "provider": "local",
+        "origin": "本機模型",
+        "warning": "",
+        "cache_hit": false,
+        "model_ms": 111.43049999373034,
+        "ocr_confidence": null,
+        "queue_ms": 0.03919999289792031,
+        "postprocess_ms": 0.28670000028796494,
+        "backend_state": "warm"
+      },
+      "http": {
+        "request_ms": 111.28610000014305,
+        "usage": {
+          "completion_tokens": 27,
+          "prompt_tokens": 157,
+          "total_tokens": 184,
+          "prompt_tokens_details": {
+            "cached_tokens": 122
+          }
+        },
+        "backend_timings": {
+          "cache_n": 122,
+          "prompt_n": 35,
+          "prompt_ms": 10.856,
+          "prompt_per_token_ms": 0.31017142857142854,
+          "prompt_per_second": 3224.0235814296243,
+          "predicted_n": 27,
+          "predicted_ms": 85.46,
+          "predicted_per_token_ms": 3.2869230769230766,
+          "predicted_per_second": 304.2358998361807
+        },
+        "finish_reason": [
+          "stop"
+        ],
+        "system_prompt_sha256": "43384fbb2db120e77e44e5de4a1cfaca69e7df1647a3d4474e96c4f75864b100"
+      },
+      "semantic_verdict": null
+    },
+    {
+      "arm": 6,
+      "variant": "production",
+      "case_id": "before",
+      "wall_ms": 84.08150001196191,
+      "result": {
+        "source": "Collect the fallen branches and reinforce the shelter before the hail arrives.",
+        "target": "收集掉落的枝葉並加強庇護所，直到雷暴到來。",
+        "provider": "local",
+        "origin": "本機模型",
+        "warning": "",
+        "cache_hit": false,
+        "model_ms": 83.0398999969475,
+        "ocr_confidence": null,
+        "queue_ms": 0.04169999738223851,
+        "postprocess_ms": 0.20219999714754522,
+        "backend_state": "warm"
+      },
+      "http": {
+        "request_ms": 82.88079999329057,
+        "usage": {
+          "completion_tokens": 18,
+          "prompt_tokens": 144,
+          "total_tokens": 162,
+          "prompt_tokens_details": {
+            "cached_tokens": 122
+          }
+        },
+        "backend_timings": {
+          "cache_n": 122,
+          "prompt_n": 22,
+          "prompt_ms": 8.969,
+          "prompt_per_token_ms": 0.40768181818181815,
+          "prompt_per_second": 2452.8932991414877,
+          "predicted_n": 18,
+          "predicted_ms": 58.435,
+          "predicted_per_token_ms": 3.4373529411764707,
+          "predicted_per_second": 290.9215367502353
+        },
+        "finish_reason": [
+          "stop"
+        ],
+        "system_prompt_sha256": "43384fbb2db120e77e44e5de4a1cfaca69e7df1647a3d4474e96c4f75864b100"
+      },
+      "semantic_verdict": null
+    },
+    {
+      "arm": 6,
+      "variant": "production",
+      "case_id": "creatures",
+      "wall_ms": 128.37489999947138,
+      "result": {
+        "source": "If the creatures remain quiet after the music stops, lower your weapons slowly and allow the youngest one to approach the food placed near the entrance.",
+        "target": "若戰士們在音樂停止後仍保持靜靜，則請緩緩降低武器，讓最年輕的一個接近入口附近放置的食物。",
+        "provider": "local",
+        "origin": "本機模型",
+        "warning": "",
+        "cache_hit": false,
+        "model_ms": 126.92229999811389,
+        "ocr_confidence": null,
+        "queue_ms": 0.039000005926936865,
+        "postprocess_ms": 0.4015000013168901,
+        "backend_state": "warm"
+      },
+      "http": {
+        "request_ms": 126.78150000283495,
+        "usage": {
+          "completion_tokens": 32,
+          "prompt_tokens": 159,
+          "total_tokens": 191,
+          "prompt_tokens_details": {
+            "cached_tokens": 122
+          }
+        },
+        "backend_timings": {
+          "cache_n": 122,
+          "prompt_n": 37,
+          "prompt_ms": 9.757,
+          "prompt_per_token_ms": 0.2637027027027027,
+          "prompt_per_second": 3792.149226196577,
+          "predicted_n": 32,
+          "predicted_ms": 101.658,
+          "predicted_per_token_ms": 3.2792903225806453,
+          "predicted_per_second": 304.94402801550297
+        },
+        "finish_reason": [
+          "stop"
+        ],
+        "system_prompt_sha256": "43384fbb2db120e77e44e5de4a1cfaca69e7df1647a3d4474e96c4f75864b100"
+      },
+      "semantic_verdict": null
+    },
+    {
+      "arm": 6,
+      "variant": "production",
+      "case_id": "midnight",
+      "wall_ms": 57.27820000902284,
+      "result": {
+        "source": "We're not going to be home until after midnight.",
+        "target": "我們不會在午夜之後才回家。",
+        "provider": "local",
+        "origin": "本機模型",
+        "warning": "",
+        "cache_hit": false,
+        "model_ms": 56.34779999672901,
+        "ocr_confidence": null,
+        "queue_ms": 0.047900000936351717,
+        "postprocess_ms": 0.16280000272672623,
+        "backend_state": "warm"
+      },
+      "http": {
+        "request_ms": 56.200799997895956,
+        "usage": {
+          "completion_tokens": 10,
+          "prompt_tokens": 142,
+          "total_tokens": 152,
+          "prompt_tokens_details": {
+            "cached_tokens": 122
+          }
+        },
+        "backend_timings": {
+          "cache_n": 122,
+          "prompt_n": 20,
+          "prompt_ms": 10.365,
+          "prompt_per_token_ms": 0.51825,
+          "prompt_per_second": 1929.5706705258078,
+          "predicted_n": 10,
+          "predicted_ms": 31.524,
+          "predicted_per_token_ms": 3.502666666666667,
+          "predicted_per_second": 285.4967643700038
+        },
+        "finish_reason": [
+          "stop"
+        ],
+        "system_prompt_sha256": "43384fbb2db120e77e44e5de4a1cfaca69e7df1647a3d4474e96c4f75864b100"
+      },
+      "semantic_verdict": null
+    },
+    {
+      "arm": 6,
+      "variant": "production",
+      "case_id": "sarcasm",
+      "wall_ms": 73.51839999319054,
+      "result": {
+        "source": "A lot of good the extra daylight does us.",
+        "target": "很多好處是額外的陽光對我們有幫助。",
+        "provider": "local",
+        "origin": "本機模型",
+        "warning": "",
+        "cache_hit": false,
+        "model_ms": 72.46530000702478,
+        "ocr_confidence": null,
+        "queue_ms": 0.042100000428035855,
+        "postprocess_ms": 0.2730000123847276,
+        "backend_state": "warm"
+      },
+      "http": {
+        "request_ms": 72.24189999396913,
+        "usage": {
+          "completion_tokens": 15,
+          "prompt_tokens": 141,
+          "total_tokens": 156,
+          "prompt_tokens_details": {
+            "cached_tokens": 122
+          }
+        },
+        "backend_timings": {
+          "cache_n": 122,
+          "prompt_n": 19,
+          "prompt_ms": 9.077,
+          "prompt_per_token_ms": 0.4777368421052632,
+          "prompt_per_second": 2093.202599977966,
+          "predicted_n": 15,
+          "predicted_ms": 48.301,
+          "predicted_per_token_ms": 3.450071428571429,
+          "predicted_per_second": 289.84907144779606
+        },
+        "finish_reason": [
+          "stop"
+        ],
+        "system_prompt_sha256": "43384fbb2db120e77e44e5de4a1cfaca69e7df1647a3d4474e96c4f75864b100"
+      },
+      "semantic_verdict": null
+    },
+    {
+      "arm": 6,
+      "variant": "production",
+      "case_id": "idiom",
+      "wall_ms": 50.2756999921985,
+      "result": {
+        "source": "We're going to blow Sunday.",
+        "target": "我們會在週日引爆。",
+        "provider": "local",
+        "origin": "本機模型",
+        "warning": "",
+        "cache_hit": false,
+        "model_ms": 49.39129999547731,
+        "ocr_confidence": null,
+        "queue_ms": 0.0391000066883862,
+        "postprocess_ms": 0.13760000001639128,
+        "backend_state": "warm"
+      },
+      "http": {
+        "request_ms": 49.23790000611916,
+        "usage": {
+          "completion_tokens": 8,
+          "prompt_tokens": 138,
+          "total_tokens": 146,
+          "prompt_tokens_details": {
+            "cached_tokens": 122
+          }
+        },
+        "backend_timings": {
+          "cache_n": 122,
+          "prompt_n": 16,
+          "prompt_ms": 10.44,
+          "prompt_per_token_ms": 0.6525,
+          "prompt_per_second": 1532.5670498084291,
+          "predicted_n": 8,
+          "predicted_ms": 24.871,
+          "predicted_per_token_ms": 3.553,
+          "predicted_per_second": 281.4522938361948
+        },
+        "finish_reason": [
+          "stop"
+        ],
+        "system_prompt_sha256": "43384fbb2db120e77e44e5de4a1cfaca69e7df1647a3d4474e96c4f75864b100"
+      },
+      "semantic_verdict": null
+    },
+    {
+      "arm": 6,
+      "variant": "production",
+      "case_id": "cannot",
+      "wall_ms": 86.38130000326782,
+      "result": {
+        "source": "You cannot equip this relic until your reputation reaches level 9.",
+        "target": "你不能在聲譽達到級別 9 之前裝備這件聖物。",
+        "provider": "local",
+        "origin": "本機模型",
+        "warning": "",
+        "cache_hit": false,
+        "model_ms": 85.42830000806134,
+        "ocr_confidence": null,
+        "queue_ms": 0.037900012102909386,
+        "postprocess_ms": 0.20059999951627105,
+        "backend_state": "warm"
+      },
+      "http": {
+        "request_ms": 85.2759999979753,
+        "usage": {
+          "completion_tokens": 20,
+          "prompt_tokens": 144,
+          "total_tokens": 164,
+          "prompt_tokens_details": {
+            "cached_tokens": 122
+          }
+        },
+        "backend_timings": {
+          "cache_n": 122,
+          "prompt_n": 22,
+          "prompt_ms": 8.812,
+          "prompt_per_token_ms": 0.40054545454545454,
+          "prompt_per_second": 2496.5955515206538,
+          "predicted_n": 20,
+          "predicted_ms": 62.602,
+          "predicted_per_token_ms": 3.294842105263158,
+          "predicted_per_second": 303.50468036164983
+        },
+        "finish_reason": [
+          "stop"
+        ],
+        "system_prompt_sha256": "43384fbb2db120e77e44e5de4a1cfaca69e7df1647a3d4474e96c4f75864b100"
+      },
+      "semantic_verdict": null
+    },
+    {
+      "arm": 6,
+      "variant": "production",
+      "case_id": "damage",
+      "wall_ms": 94.81289998802822,
+      "result": {
+        "source": "The special ammunition pierces 2 targets but deals 30% less damage afterward.",
+        "target": "特殊彈藥穿透2個目標，但之後造成30%的傷害較少。",
+        "provider": "local",
+        "origin": "本機模型",
+        "warning": "",
+        "cache_hit": false,
+        "model_ms": 93.72299999813549,
+        "ocr_confidence": null,
+        "queue_ms": 0.053499999921768904,
+        "postprocess_ms": 0.24090000079013407,
+        "backend_state": "warm"
+      },
+      "http": {
+        "request_ms": 93.55870001309086,
+        "usage": {
+          "completion_tokens": 21,
+          "prompt_tokens": 149,
+          "total_tokens": 170,
+          "prompt_tokens_details": {
+            "cached_tokens": 122
+          }
+        },
+        "backend_timings": {
+          "cache_n": 122,
+          "prompt_n": 27,
+          "prompt_ms": 10.591,
+          "prompt_per_token_ms": 0.39225925925925925,
+          "prompt_per_second": 2549.3343404777643,
+          "predicted_n": 21,
+          "predicted_ms": 68.515,
+          "predicted_per_token_ms": 3.42575,
+          "predicted_per_second": 291.9068817047362
+        },
+        "finish_reason": [
+          "stop"
+        ],
+        "system_prompt_sha256": "43384fbb2db120e77e44e5de4a1cfaca69e7df1647a3d4474e96c4f75864b100"
+      },
+      "semantic_verdict": null
+    },
+    {
+      "arm": 6,
+      "variant": "production",
+      "case_id": "repair",
+      "wall_ms": 70.05739999294747,
+      "result": {
+        "source": "Do not spend the last repair charge before checking the rear engine.",
+        "target": "不要在檢查後引擎之前消耗最後的修復費用。",
+        "provider": "local",
+        "origin": "本機模型",
+        "warning": "",
+        "cache_hit": false,
+        "model_ms": 69.04800000484101,
+        "ocr_confidence": null,
+        "queue_ms": 0.04030000127386302,
+        "postprocess_ms": 0.24420001136604697,
+        "backend_state": "warm"
+      },
+      "http": {
+        "request_ms": 68.86870000744238,
+        "usage": {
+          "completion_tokens": 14,
+          "prompt_tokens": 144,
+          "total_tokens": 158,
+          "prompt_tokens_details": {
+            "cached_tokens": 122
+          }
+        },
+        "backend_timings": {
+          "cache_n": 122,
+          "prompt_n": 22,
+          "prompt_ms": 10.256,
+          "prompt_per_token_ms": 0.4661818181818182,
+          "prompt_per_second": 2145.0858034321373,
+          "predicted_n": 14,
+          "predicted_ms": 43.745,
+          "predicted_per_token_ms": 3.3649999999999998,
+          "predicted_per_second": 297.1768202080238
+        },
+        "finish_reason": [
+          "stop"
+        ],
+        "system_prompt_sha256": "43384fbb2db120e77e44e5de4a1cfaca69e7df1647a3d4474e96c4f75864b100"
+      },
+      "semantic_verdict": null
+    },
+    {
+      "arm": 6,
+      "variant": "production",
+      "case_id": "rule",
+      "wall_ms": 0.6457999988924712,
+      "result": {
+        "source": "Do not enter the dungeon yet.",
+        "target": "暫時不要進入地牢。",
+        "provider": "local",
+        "origin": "詞庫／完整規則",
+        "warning": "",
+        "cache_hit": false,
+        "model_ms": 0,
+        "ocr_confidence": null,
+        "queue_ms": 0.044800006435252726,
+        "postprocess_ms": 0,
+        "backend_state": "none"
+      },
+      "http": null,
+      "semantic_verdict": null
+    },
+    {
+      "arm": 6,
+      "variant": "production",
+      "case_id": "name",
+      "wall_ms": 45.340099997702055,
+      "result": {
+        "source": "Johnny.",
+        "target": "",
+        "provider": "local",
+        "origin": "未取得可靠譯文",
+        "warning": "沒有產生中文譯文，已保留原文。",
+        "cache_hit": false,
+        "model_ms": 44.87420000077691,
+        "ocr_confidence": null,
+        "queue_ms": 0.039000005926936865,
+        "postprocess_ms": 0.23720000172033906,
+        "backend_state": "warm"
+      },
+      "http": {
+        "request_ms": 44.7310000017751,
+        "usage": {
+          "completion_tokens": 3,
+          "prompt_tokens": 133,
+          "total_tokens": 136,
+          "prompt_tokens_details": {
+            "cached_tokens": 122
+          }
+        },
+        "backend_timings": {
+          "cache_n": 122,
+          "prompt_n": 11,
+          "prompt_ms": 9.434,
+          "prompt_per_token_ms": 0.8576363636363635,
+          "prompt_per_second": 1165.995336018656,
+          "predicted_n": 3,
+          "predicted_ms": 9.277,
+          "predicted_per_token_ms": 4.6385,
+          "predicted_per_second": 215.58693543171285
+        },
+        "finish_reason": [
+          "stop"
+        ],
+        "system_prompt_sha256": "43384fbb2db120e77e44e5de4a1cfaca69e7df1647a3d4474e96c4f75864b100"
+      },
+      "semantic_verdict": null
+    },
+    {
+      "arm": 6,
+      "variant": "production",
+      "case_id": "short",
+      "wall_ms": 35.03889999410603,
+      "result": {
+        "source": "What?",
+        "target": "",
+        "provider": "local",
+        "origin": "未取得可靠譯文",
+        "warning": "沒有產生中文譯文，已保留原文。",
+        "cache_hit": false,
+        "model_ms": 34.72239999973681,
+        "ocr_confidence": null,
+        "queue_ms": 0.04230000195093453,
+        "postprocess_ms": 0.11380000796634704,
+        "backend_state": "warm"
+      },
+      "http": {
+        "request_ms": 34.55939999548718,
+        "usage": {
+          "completion_tokens": 3,
+          "prompt_tokens": 133,
+          "total_tokens": 136,
+          "prompt_tokens_details": {
+            "cached_tokens": 122
+          }
+        },
+        "backend_timings": {
+          "cache_n": 122,
+          "prompt_n": 11,
+          "prompt_ms": 9.428,
+          "prompt_per_token_ms": 0.8570909090909091,
+          "prompt_per_second": 1166.7373780229104,
+          "predicted_n": 3,
+          "predicted_ms": 10.437,
+          "predicted_per_token_ms": 5.2185,
+          "predicted_per_second": 191.62594615310914
+        },
+        "finish_reason": [
+          "stop"
+        ],
+        "system_prompt_sha256": "43384fbb2db120e77e44e5de4a1cfaca69e7df1647a3d4474e96c4f75864b100"
+      },
+      "semantic_verdict": null
+    },
+    {
+      "arm": 6,
+      "variant": "production",
+      "case_id": "long",
+      "wall_ms": 154.09310000541154,
+      "result": {
+        "source": "We have enough medicine to stabilize the injured passengers tonight, but finding a doctor before morning will require someone to cross the damaged railway bridge.",
+        "target": "我們今晚有足夠的藥物來穩定受傷乘客，但要在清晨前找到醫生，需要有人穿越損壞的鐵路橋。",
+        "provider": "local",
+        "origin": "本機模型",
+        "warning": "",
+        "cache_hit": false,
+        "model_ms": 152.9298999957973,
+        "ocr_confidence": null,
+        "queue_ms": 0.04440000338945538,
+        "postprocess_ms": 0.3375999949639663,
+        "backend_state": "warm"
+      },
+      "http": {
+        "request_ms": 152.7839999907883,
+        "usage": {
+          "completion_tokens": 32,
+          "prompt_tokens": 158,
+          "total_tokens": 190,
+          "prompt_tokens_details": {
+            "cached_tokens": 122
+          }
+        },
+        "backend_timings": {
+          "cache_n": 122,
+          "prompt_n": 36,
+          "prompt_ms": 10.737,
+          "prompt_per_token_ms": 0.29825,
+          "prompt_per_second": 3352.891869237217,
+          "predicted_n": 32,
+          "predicted_ms": 103.008,
+          "predicted_per_token_ms": 3.322838709677419,
+          "predicted_per_second": 300.94749922336126
+        },
+        "finish_reason": [
+          "stop"
+        ],
+        "system_prompt_sha256": "43384fbb2db120e77e44e5de4a1cfaca69e7df1647a3d4474e96c4f75864b100"
+      },
+      "semantic_verdict": null
+    },
+    {
+      "arm": 6,
+      "variant": "production",
+      "case_id": "prohibition",
+      "wall_ms": 77.85849999345373,
+      "result": {
+        "source": "Do not cross the painted line while the examination lamp is flashing.",
+        "target": "不要在考試燈閃爍時穿越畫有線的區域。",
+        "provider": "local",
+        "origin": "本機模型",
+        "warning": "",
+        "cache_hit": false,
+        "model_ms": 76.52349999989383,
+        "ocr_confidence": null,
+        "queue_ms": 0.04949999856762588,
+        "postprocess_ms": 0.2902999985963106,
+        "backend_state": "warm"
+      },
+      "http": {
+        "request_ms": 76.31029999174643,
+        "usage": {
+          "completion_tokens": 16,
+          "prompt_tokens": 144,
+          "total_tokens": 160,
+          "prompt_tokens_details": {
+            "cached_tokens": 122
+          }
+        },
+        "backend_timings": {
+          "cache_n": 122,
+          "prompt_n": 22,
+          "prompt_ms": 11.092,
+          "prompt_per_token_ms": 0.5041818181818182,
+          "prompt_per_second": 1983.411467724486,
+          "predicted_n": 16,
+          "predicted_ms": 50.149,
+          "predicted_per_token_ms": 3.3432666666666666,
+          "predicted_per_second": 299.1086562045105
+        },
+        "finish_reason": [
+          "stop"
+        ],
+        "system_prompt_sha256": "43384fbb2db120e77e44e5de4a1cfaca69e7df1647a3d4474e96c4f75864b100"
+      },
+      "semantic_verdict": null
+    },
+    {
+      "arm": 6,
+      "variant": "production",
+      "case_id": "hyphen-guard",
+      "wall_ms": 58.647300000302494,
+      "result": {
+        "source": "It is a three-hour trip.",
+        "target": "",
+        "provider": "local",
+        "origin": "未取得可靠譯文",
+        "warning": "數值或正負號改變，已保留原文。",
+        "cache_hit": false,
+        "model_ms": 58.29849999281578,
+        "ocr_confidence": null,
+        "queue_ms": 0.04150001041125506,
+        "postprocess_ms": 0.13669999316334724,
+        "backend_state": "warm"
+      },
+      "http": {
+        "request_ms": 58.12450000667013,
+        "usage": {
+          "completion_tokens": 7,
+          "prompt_tokens": 138,
+          "total_tokens": 145,
+          "prompt_tokens_details": {
+            "cached_tokens": 122
+          }
+        },
+        "backend_timings": {
+          "cache_n": 122,
+          "prompt_n": 16,
+          "prompt_ms": 9.732,
+          "prompt_per_token_ms": 0.60825,
+          "prompt_per_second": 1644.0608302507194,
+          "predicted_n": 7,
+          "predicted_ms": 23.281,
+          "predicted_per_token_ms": 3.8801666666666663,
+          "predicted_per_second": 257.72088827799496
+        },
+        "finish_reason": [
+          "stop"
+        ],
+        "system_prompt_sha256": "43384fbb2db120e77e44e5de4a1cfaca69e7df1647a3d4474e96c4f75864b100"
+      },
+      "semantic_verdict": null
+    },
+    {
+      "arm": 6,
+      "variant": "production",
+      "case_id": "ordinal-guard",
+      "wall_ms": 57.231300001149066,
+      "result": {
+        "source": "It was the first day after the clocks changed.",
+        "target": "",
+        "provider": "local",
+        "origin": "未取得可靠譯文",
+        "warning": "數值或正負號改變，已保留原文。",
+        "cache_hit": false,
+        "model_ms": 56.90320000576321,
+        "ocr_confidence": null,
+        "queue_ms": 0.04470000567380339,
+        "postprocess_ms": 0.12730000889860094,
+        "backend_state": "warm"
+      },
+      "http": {
+        "request_ms": 56.682999987970106,
+        "usage": {
+          "completion_tokens": 10,
+          "prompt_tokens": 141,
+          "total_tokens": 151,
+          "prompt_tokens_details": {
+            "cached_tokens": 123
+          }
+        },
+        "backend_timings": {
+          "cache_n": 123,
+          "prompt_n": 18,
+          "prompt_ms": 9.09,
+          "prompt_per_token_ms": 0.505,
+          "prompt_per_second": 1980.19801980198,
+          "predicted_n": 10,
+          "predicted_ms": 32.243,
+          "predicted_per_token_ms": 3.582555555555556,
+          "predicted_per_second": 279.13035387525974
+        },
+        "finish_reason": [
+          "stop"
+        ],
+        "system_prompt_sha256": "43384fbb2db120e77e44e5de4a1cfaca69e7df1647a3d4474e96c4f75864b100"
+      },
+      "semantic_verdict": null
+    }
+  ],
+  "prompt_order": [
+    "production",
+    "short_en",
+    "short_zh",
+    "short_zh",
+    "short_en",
+    "production"
+  ],
+  "cache_policy": "Clear SQLite per request; same three warmups per prompt arm. Persistent one model slot; actual cached token counts retained.",
+  "settings": {
+    "temperature": 0,
+    "max_tokens": 320,
+    "thinking": false,
+    "context": 2048
+  },
+  "summary": {
+    "production": {
+      "cases": 36,
+      "wall_latency": {
+        "n": 36,
+        "mean_ms": 82.28,
+        "p50_ms": 77.86,
+        "p95_ms": 154.09,
+        "max_ms": 157.12
+      },
+      "model_latency": {
+        "n": 34,
+        "mean_ms": 85.66,
+        "p50_ms": 83.04,
+        "p95_ms": 152.93,
+        "max_ms": 155.62
+      },
+      "guard_rejections": 8,
+      "semantic_acceptance": null
+    },
+    "short_en": {
+      "cases": 36,
+      "wall_latency": {
+        "n": 36,
+        "mean_ms": 82.29,
+        "p50_ms": 80.05,
+        "p95_ms": 137.21,
+        "max_ms": 160.56
+      },
+      "model_latency": {
+        "n": 34,
+        "mean_ms": 83.88,
+        "p50_ms": 82.16,
+        "p95_ms": 131.77,
+        "max_ms": 136.26
+      },
+      "guard_rejections": 6,
+      "semantic_acceptance": null
+    },
+    "short_zh": {
+      "cases": 36,
+      "wall_latency": {
+        "n": 36,
+        "mean_ms": 80.61,
+        "p50_ms": 80.49,
+        "p95_ms": 134.51,
+        "max_ms": 156.96
+      },
+      "model_latency": {
+        "n": 34,
+        "mean_ms": 84.46,
+        "p50_ms": 80.57,
+        "p95_ms": 133.44,
+        "max_ms": 155.74
+      },
+      "guard_rejections": 14,
+      "semantic_acceptance": null
+    }
+  },
+  "owned_model_stopped": true,
+  "workers_stopped": true,
+  "source_unchanged": true
+}

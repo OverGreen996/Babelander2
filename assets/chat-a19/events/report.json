@@ -1,0 +1,353 @@
+{
+  "real_cpu_ocr": true,
+  "real_desktop_capture": false,
+  "qt_platform": "offscreen",
+  "foreground_control_calls": 0,
+  "results": [
+    {
+      "source": "[Party] P016: GG",
+      "target": "[Party] P016: GG",
+      "warning": "",
+      "event_id": 1
+    },
+    {
+      "source": "[Party] P016: GG",
+      "target": "[Party] P016: GG",
+      "warning": "",
+      "event_id": 2
+    },
+    {
+      "source": "[Party] P017: gg wp",
+      "target": "[Party] P017: GG WP",
+      "warning": "",
+      "event_id": 6
+    },
+    {
+      "source": "[Party] P018: ty",
+      "target": "[Party] P018: TY",
+      "warning": "",
+      "event_id": 6
+    },
+    {
+      "source": "[Party] P019: np",
+      "target": "[Party] P019: NP",
+      "warning": "",
+      "event_id": 6
+    },
+    {
+      "source": "[Party] P020: brb 2 min",
+      "target": "[Party] P020: BRB 2 分鐘",
+      "warning": "",
+      "event_id": 6
+    }
+  ],
+  "checks": {
+    "same_speaker_identical_GG_twice": true,
+    "four_new_messages_fifo": true,
+    "unchanged_frame_no_repeats": true,
+    "no_warnings": true,
+    "latest_message_visible": true,
+    "no_persistent_chat": true,
+    "no_model_loaded_for_shorthand": true,
+    "workers_stopped": true
+  },
+  "sqlite_rows": {
+    "cache": 0,
+    "history": 0,
+    "usage": 0
+  },
+  "metrics": {
+    "counts": {
+      "capture": 6,
+      "ocr": 3,
+      "events_created": 6,
+      "pipeline_completed": 6,
+      "frame_unchanged": 3,
+      "success": 6,
+      "ui_applied": 3,
+      "cache_hit": 1
+    },
+    "recent": [
+      {
+        "reason": "capture",
+        "mode": "chat",
+        "capture_ms": 0.464
+      },
+      {
+        "reason": "ocr",
+        "mode": "chat",
+        "ocr_ms": 1228.932
+      },
+      {
+        "reason": "events_created",
+        "mode": "chat"
+      },
+      {
+        "reason": "capture",
+        "mode": "chat",
+        "capture_ms": 0.461
+      },
+      {
+        "reason": "pipeline_completed",
+        "mode": "chat",
+        "capture_ms": 0.464,
+        "change_detection_ms": 1.327,
+        "image_queue_wait_ms": 0.005,
+        "ocr_ms": 1228.932,
+        "dispatch_wait_ms": 0.54,
+        "translation_queue_ms": 0.079,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0,
+        "observed_worker_ms": 1255.668
+      },
+      {
+        "reason": "frame_unchanged",
+        "mode": "chat"
+      },
+      {
+        "reason": "success",
+        "mode": "chat"
+      },
+      {
+        "reason": "ui_applied",
+        "mode": "chat",
+        "overlay_update_ms": 9.083,
+        "observed_pipeline_ms": 1261.454
+      },
+      {
+        "reason": "capture",
+        "mode": "chat",
+        "capture_ms": 0.373
+      },
+      {
+        "reason": "ocr",
+        "mode": "chat",
+        "ocr_ms": 256.026
+      },
+      {
+        "reason": "events_created",
+        "mode": "chat"
+      },
+      {
+        "reason": "pipeline_completed",
+        "mode": "chat",
+        "capture_ms": 0.373,
+        "change_detection_ms": 1.092,
+        "image_queue_wait_ms": 0.012,
+        "ocr_ms": 256.026,
+        "dispatch_wait_ms": 0.068,
+        "translation_queue_ms": 0,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0,
+        "observed_worker_ms": 259.755
+      },
+      {
+        "reason": "success",
+        "mode": "chat"
+      },
+      {
+        "reason": "cache_hit",
+        "mode": "chat"
+      },
+      {
+        "reason": "ui_applied",
+        "mode": "chat",
+        "overlay_update_ms": 0.6,
+        "observed_pipeline_ms": 262.028
+      },
+      {
+        "reason": "capture",
+        "mode": "chat",
+        "capture_ms": 0.644
+      },
+      {
+        "reason": "ocr",
+        "mode": "chat",
+        "ocr_ms": 373.572
+      },
+      {
+        "reason": "events_created",
+        "mode": "chat"
+      },
+      {
+        "reason": "events_created",
+        "mode": "chat"
+      },
+      {
+        "reason": "events_created",
+        "mode": "chat"
+      },
+      {
+        "reason": "events_created",
+        "mode": "chat"
+      },
+      {
+        "reason": "pipeline_completed",
+        "mode": "chat",
+        "capture_ms": 0.644,
+        "change_detection_ms": 1.608,
+        "image_queue_wait_ms": 0.026,
+        "ocr_ms": 373.572,
+        "dispatch_wait_ms": 0.125,
+        "translation_queue_ms": 0.075,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0,
+        "observed_worker_ms": 378.948
+      },
+      {
+        "reason": "success",
+        "mode": "chat"
+      },
+      {
+        "reason": "pipeline_completed",
+        "mode": "chat",
+        "capture_ms": 0.644,
+        "change_detection_ms": 1.608,
+        "image_queue_wait_ms": 0.026,
+        "ocr_ms": 373.572,
+        "dispatch_wait_ms": 1.162,
+        "translation_queue_ms": 0.044,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0,
+        "observed_worker_ms": 379.92
+      },
+      {
+        "reason": "success",
+        "mode": "chat"
+      },
+      {
+        "reason": "pipeline_completed",
+        "mode": "chat",
+        "capture_ms": 0.644,
+        "change_detection_ms": 1.608,
+        "image_queue_wait_ms": 0.026,
+        "ocr_ms": 373.572,
+        "dispatch_wait_ms": 2.104,
+        "translation_queue_ms": 0.041,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0,
+        "observed_worker_ms": 380.645
+      },
+      {
+        "reason": "success",
+        "mode": "chat"
+      },
+      {
+        "reason": "pipeline_completed",
+        "mode": "chat",
+        "capture_ms": 0.644,
+        "change_detection_ms": 1.608,
+        "image_queue_wait_ms": 0.026,
+        "ocr_ms": 373.572,
+        "dispatch_wait_ms": 2.82,
+        "translation_queue_ms": 0.043,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0,
+        "observed_worker_ms": 382.019
+      },
+      {
+        "reason": "success",
+        "mode": "chat"
+      },
+      {
+        "reason": "ui_applied",
+        "mode": "chat",
+        "overlay_update_ms": 1.054,
+        "observed_pipeline_ms": 382.875
+      },
+      {
+        "reason": "capture",
+        "mode": "chat",
+        "capture_ms": 0.5
+      },
+      {
+        "reason": "frame_unchanged",
+        "mode": "chat"
+      },
+      {
+        "reason": "capture",
+        "mode": "chat",
+        "capture_ms": 0.419
+      },
+      {
+        "reason": "frame_unchanged",
+        "mode": "chat"
+      }
+    ],
+    "record_limit": 128,
+    "timings": {
+      "capture_ms": {
+        "samples": 12,
+        "p50": 0.464,
+        "p95": 0.644,
+        "max": 0.644
+      },
+      "ocr_ms": {
+        "samples": 9,
+        "p50": 373.572,
+        "p95": 1228.932,
+        "max": 1228.932
+      },
+      "change_detection_ms": {
+        "samples": 6,
+        "p50": 1.608,
+        "p95": 1.608,
+        "max": 1.608
+      },
+      "image_queue_wait_ms": {
+        "samples": 6,
+        "p50": 0.026,
+        "p95": 0.026,
+        "max": 0.026
+      },
+      "dispatch_wait_ms": {
+        "samples": 6,
+        "p50": 0.54,
+        "p95": 2.104,
+        "max": 2.82
+      },
+      "translation_queue_ms": {
+        "samples": 6,
+        "p50": 0.043,
+        "p95": 0.075,
+        "max": 0.079
+      },
+      "translation_request_ms": {
+        "samples": 6,
+        "p50": 0,
+        "p95": 0,
+        "max": 0
+      },
+      "postprocess_ms": {
+        "samples": 6,
+        "p50": 0,
+        "p95": 0,
+        "max": 0
+      },
+      "observed_worker_ms": {
+        "samples": 6,
+        "p50": 379.92,
+        "p95": 382.019,
+        "max": 1255.668
+      },
+      "overlay_update_ms": {
+        "samples": 3,
+        "p50": 1.054,
+        "p95": 1.054,
+        "max": 9.083
+      },
+      "observed_pipeline_ms": {
+        "samples": 3,
+        "p50": 382.875,
+        "p95": 382.875,
+        "max": 1261.454
+      }
+    },
+    "ttft_ms": null,
+    "prefill_ms": null,
+    "decode_ms": null,
+    "text_or_images_retained": false
+  },
+  "errors": [],
+  "passed": true
+}

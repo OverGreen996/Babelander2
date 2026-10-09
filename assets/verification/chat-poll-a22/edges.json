@@ -1,0 +1,1457 @@
+{
+  "checks": {
+    "numbers-0-new-events-equal": true,
+    "numbers-0-quantity": true,
+    "numbers-1-new-events-equal": true,
+    "numbers-1-quantity": true,
+    "numbers-session-cleared": true,
+    "negation-0-new-events-equal": true,
+    "negation-0-negation": true,
+    "negation-1-new-events-equal": true,
+    "negation-1-negation": true,
+    "negation-session-cleared": true,
+    "repeated-speaker-0-new-events-equal": true,
+    "repeated-speaker-1-new-events-equal": true,
+    "repeated-speaker-session-cleared": true,
+    "wrapped-0-new-events-equal": true,
+    "wrapped-1-new-events-equal": true,
+    "wrapped-session-cleared": true,
+    "dim-new-line-0-new-events-equal": true,
+    "dim-new-line-1-new-events-equal": true,
+    "dim-new-line-session-cleared": true,
+    "animated-noise-0-new-events-equal": true,
+    "animated-noise-0-noise-not-reused": true,
+    "animated-noise-1-new-events-equal": true,
+    "animated-noise-1-noise-not-reused": true,
+    "animated-noise-2-new-events-equal": true,
+    "animated-noise-2-noise-not-reused": true,
+    "animated-noise-3-new-events-equal": true,
+    "animated-noise-3-noise-not-reused": true,
+    "animated-noise-session-cleared": true,
+    "cancel-propagated": true,
+    "cancel-frame-released": true,
+    "engine-context-released": true,
+    "full-ocr-after-cancel": true
+  },
+  "passed": true,
+  "rows": [
+    {
+      "case": "numbers",
+      "index": 0,
+      "authored_source": [
+        "Alice: I need item X5."
+      ],
+      "full": [
+        {
+          "text": "Alice: I need item X5.",
+          "box": [
+            [
+              16.0,
+              20.0
+            ],
+            [
+              266.0,
+              22.0
+            ],
+            [
+              266.0,
+              56.0
+            ],
+            [
+              16.0,
+              54.0
+            ]
+          ],
+          "confidence": 0.99923
+        }
+      ],
+      "reuse": [
+        {
+          "text": "Alice: I need item X5.",
+          "box": [
+            [
+              16.0,
+              20.0
+            ],
+            [
+              266.0,
+              22.0
+            ],
+            [
+              266.0,
+              56.0
+            ],
+            [
+              16.0,
+              54.0
+            ]
+          ],
+          "confidence": 0.99923
+        }
+      ],
+      "new_events": [
+        "Alice: I need item X5."
+      ],
+      "reuse_stats": {
+        "crops": 1,
+        "reused": 0,
+        "inferred": 1,
+        "context_crops": 0,
+        "fallback": 0,
+        "region_reused": 0
+      }
+    },
+    {
+      "case": "numbers",
+      "index": 1,
+      "authored_source": [
+        "Alice: I need item X6."
+      ],
+      "full": [
+        {
+          "text": "Alice: I need item X6.",
+          "box": [
+            [
+              17.0,
+              21.0
+            ],
+            [
+              266.0,
+              21.0
+            ],
+            [
+              266.0,
+              55.0
+            ],
+            [
+              17.0,
+              55.0
+            ]
+          ],
+          "confidence": 0.97567
+        }
+      ],
+      "reuse": [
+        {
+          "text": "Alice: I need item X6.",
+          "box": [
+            [
+              17.0,
+              21.0
+            ],
+            [
+              266.0,
+              21.0
+            ],
+            [
+              266.0,
+              55.0
+            ],
+            [
+              17.0,
+              55.0
+            ]
+          ],
+          "confidence": 0.97567
+        }
+      ],
+      "new_events": [
+        "Alice: I need item X6."
+      ],
+      "reuse_stats": {
+        "crops": 1,
+        "reused": 0,
+        "inferred": 1,
+        "context_crops": 0,
+        "fallback": 0,
+        "region_reused": 0
+      }
+    },
+    {
+      "case": "negation",
+      "index": 0,
+      "authored_source": [
+        "Alice: Do not enter the gate yet."
+      ],
+      "full": [
+        {
+          "text": "Alice: Do not enter the gate yet.",
+          "box": [
+            [
+              16.0,
+              20.0
+            ],
+            [
+              380.0,
+              23.0
+            ],
+            [
+              380.0,
+              57.0
+            ],
+            [
+              16.0,
+              54.0
+            ]
+          ],
+          "confidence": 0.99352
+        }
+      ],
+      "reuse": [
+        {
+          "text": "Alice: Do not enter the gate yet.",
+          "box": [
+            [
+              16.0,
+              20.0
+            ],
+            [
+              380.0,
+              23.0
+            ],
+            [
+              380.0,
+              57.0
+            ],
+            [
+              16.0,
+              54.0
+            ]
+          ],
+          "confidence": 0.99352
+        }
+      ],
+      "new_events": [
+        "Alice: Do not enter the gate yet."
+      ],
+      "reuse_stats": {
+        "crops": 1,
+        "reused": 0,
+        "inferred": 1,
+        "context_crops": 0,
+        "fallback": 0,
+        "region_reused": 0
+      }
+    },
+    {
+      "case": "negation",
+      "index": 1,
+      "authored_source": [
+        "Alice: Enter the gate now."
+      ],
+      "full": [
+        {
+          "text": "Alice: Enter the gate now.",
+          "box": [
+            [
+              16.0,
+              20.0
+            ],
+            [
+              315.0,
+              24.0
+            ],
+            [
+              314.0,
+              58.0
+            ],
+            [
+              16.0,
+              54.0
+            ]
+          ],
+          "confidence": 0.99985
+        }
+      ],
+      "reuse": [
+        {
+          "text": "Alice: Enter the gate now.",
+          "box": [
+            [
+              16.0,
+              20.0
+            ],
+            [
+              315.0,
+              24.0
+            ],
+            [
+              314.0,
+              58.0
+            ],
+            [
+              16.0,
+              54.0
+            ]
+          ],
+          "confidence": 0.99985
+        }
+      ],
+      "new_events": [
+        "Alice: Enter the gate now."
+      ],
+      "reuse_stats": {
+        "crops": 1,
+        "reused": 0,
+        "inferred": 1,
+        "context_crops": 0,
+        "fallback": 0,
+        "region_reused": 0
+      }
+    },
+    {
+      "case": "repeated-speaker",
+      "index": 0,
+      "authored_source": [
+        "Alice: GG",
+        "Bob: ty"
+      ],
+      "full": [
+        {
+          "text": "Alice: GG",
+          "box": [
+            [
+              16.0,
+              20.0
+            ],
+            [
+              136.0,
+              20.0
+            ],
+            [
+              136.0,
+              56.0
+            ],
+            [
+              16.0,
+              56.0
+            ]
+          ],
+          "confidence": 0.99961
+        },
+        {
+          "text": "Bob: ty",
+          "box": [
+            [
+              16.0,
+              59.0
+            ],
+            [
+              109.0,
+              64.0
+            ],
+            [
+              106.0,
+              105.0
+            ],
+            [
+              13.0,
+              99.0
+            ]
+          ],
+          "confidence": 0.99928
+        }
+      ],
+      "reuse": [
+        {
+          "text": "Alice: GG",
+          "box": [
+            [
+              16.0,
+              20.0
+            ],
+            [
+              136.0,
+              20.0
+            ],
+            [
+              136.0,
+              56.0
+            ],
+            [
+              16.0,
+              56.0
+            ]
+          ],
+          "confidence": 0.99961
+        },
+        {
+          "text": "Bob: ty",
+          "box": [
+            [
+              16.0,
+              59.0
+            ],
+            [
+              109.0,
+              64.0
+            ],
+            [
+              106.0,
+              105.0
+            ],
+            [
+              13.0,
+              99.0
+            ]
+          ],
+          "confidence": 0.99928
+        }
+      ],
+      "new_events": [
+        "Alice: GG",
+        "Bob: ty"
+      ],
+      "reuse_stats": {
+        "crops": 2,
+        "reused": 0,
+        "inferred": 2,
+        "context_crops": 0,
+        "fallback": 0,
+        "region_reused": 0
+      }
+    },
+    {
+      "case": "repeated-speaker",
+      "index": 1,
+      "authored_source": [
+        "Bob: ty",
+        "Alice: GG"
+      ],
+      "full": [
+        {
+          "text": "Bob: ty",
+          "box": [
+            [
+              17.0,
+              17.0
+            ],
+            [
+              107.0,
+              23.0
+            ],
+            [
+              105.0,
+              60.0
+            ],
+            [
+              15.0,
+              55.0
+            ]
+          ],
+          "confidence": 0.96447
+        },
+        {
+          "text": "Alice: GG",
+          "box": [
+            [
+              16.0,
+              61.0
+            ],
+            [
+              137.0,
+              64.0
+            ],
+            [
+              137.0,
+              100.0
+            ],
+            [
+              15.0,
+              98.0
+            ]
+          ],
+          "confidence": 0.99975
+        }
+      ],
+      "reuse": [
+        {
+          "text": "Bob: ty",
+          "box": [
+            [
+              17.0,
+              17.0
+            ],
+            [
+              107.0,
+              23.0
+            ],
+            [
+              105.0,
+              60.0
+            ],
+            [
+              15.0,
+              55.0
+            ]
+          ],
+          "confidence": 0.99928
+        },
+        {
+          "text": "Alice: GG",
+          "box": [
+            [
+              16.0,
+              61.0
+            ],
+            [
+              137.0,
+              64.0
+            ],
+            [
+              137.0,
+              100.0
+            ],
+            [
+              15.0,
+              98.0
+            ]
+          ],
+          "confidence": 0.99961
+        }
+      ],
+      "new_events": [
+        "Alice: GG"
+      ],
+      "reuse_stats": {
+        "crops": 2,
+        "reused": 2,
+        "inferred": 0,
+        "context_crops": 0,
+        "fallback": 0,
+        "region_reused": 2
+      }
+    },
+    {
+      "case": "wrapped",
+      "index": 0,
+      "authored_source": [
+        "Alice: Keep the four potions for the healer",
+        "until the next fight starts."
+      ],
+      "full": [
+        {
+          "text": "Alice: Keep the four potions for the healer",
+          "box": [
+            [
+              18.0,
+              22.0
+            ],
+            [
+              493.0,
+              23.0
+            ],
+            [
+              493.0,
+              55.0
+            ],
+            [
+              18.0,
+              54.0
+            ]
+          ],
+          "confidence": 0.99998
+        },
+        {
+          "text": "until the next fight starts.",
+          "box": [
+            [
+              18.0,
+              66.0
+            ],
+            [
+              300.0,
+              68.0
+            ],
+            [
+              300.0,
+              99.0
+            ],
+            [
+              18.0,
+              97.0
+            ]
+          ],
+          "confidence": 0.99946
+        }
+      ],
+      "reuse": [
+        {
+          "text": "Alice: Keep the four potions for the healer",
+          "box": [
+            [
+              18.0,
+              22.0
+            ],
+            [
+              493.0,
+              23.0
+            ],
+            [
+              493.0,
+              55.0
+            ],
+            [
+              18.0,
+              54.0
+            ]
+          ],
+          "confidence": 0.99998
+        },
+        {
+          "text": "until the next fight starts.",
+          "box": [
+            [
+              18.0,
+              66.0
+            ],
+            [
+              300.0,
+              68.0
+            ],
+            [
+              300.0,
+              99.0
+            ],
+            [
+              18.0,
+              97.0
+            ]
+          ],
+          "confidence": 0.99946
+        }
+      ],
+      "new_events": [
+        "Alice: Keep the four potions for the healer",
+        "until the next fight starts."
+      ],
+      "reuse_stats": {
+        "crops": 2,
+        "reused": 0,
+        "inferred": 2,
+        "context_crops": 0,
+        "fallback": 0,
+        "region_reused": 0
+      }
+    },
+    {
+      "case": "wrapped",
+      "index": 1,
+      "authored_source": [
+        "Alice: Keep the six potions for the healer",
+        "until the next fight starts.",
+        "Bob: GG"
+      ],
+      "full": [
+        {
+          "text": "Alice: Keep the six potions for the healer",
+          "box": [
+            [
+              19.0,
+              23.0
+            ],
+            [
+              481.0,
+              23.0
+            ],
+            [
+              481.0,
+              54.0
+            ],
+            [
+              19.0,
+              54.0
+            ]
+          ],
+          "confidence": 0.98934
+        },
+        {
+          "text": "until the next fight starts.",
+          "box": [
+            [
+              17.0,
+              66.0
+            ],
+            [
+              300.0,
+              68.0
+            ],
+            [
+              300.0,
+              99.0
+            ],
+            [
+              17.0,
+              97.0
+            ]
+          ],
+          "confidence": 0.98587
+        },
+        {
+          "text": "Bob: GG",
+          "box": [
+            [
+              15.0,
+              106.0
+            ],
+            [
+              126.0,
+              106.0
+            ],
+            [
+              126.0,
+              143.0
+            ],
+            [
+              15.0,
+              143.0
+            ]
+          ],
+          "confidence": 0.97741
+        }
+      ],
+      "reuse": [
+        {
+          "text": "Alice: Keep the six potions for the healer",
+          "box": [
+            [
+              19.0,
+              23.0
+            ],
+            [
+              481.0,
+              23.0
+            ],
+            [
+              481.0,
+              54.0
+            ],
+            [
+              19.0,
+              54.0
+            ]
+          ],
+          "confidence": 0.98934
+        },
+        {
+          "text": "until the next fight starts.",
+          "box": [
+            [
+              17.0,
+              66.0
+            ],
+            [
+              300.0,
+              68.0
+            ],
+            [
+              300.0,
+              99.0
+            ],
+            [
+              17.0,
+              97.0
+            ]
+          ],
+          "confidence": 0.99946
+        },
+        {
+          "text": "Bob: GG",
+          "box": [
+            [
+              15.0,
+              106.0
+            ],
+            [
+              126.0,
+              106.0
+            ],
+            [
+              126.0,
+              143.0
+            ],
+            [
+              15.0,
+              143.0
+            ]
+          ],
+          "confidence": 0.97741
+        }
+      ],
+      "new_events": [
+        "Alice: Keep the six potions for the healer",
+        "until the next fight starts.",
+        "Bob: GG"
+      ],
+      "reuse_stats": {
+        "crops": 3,
+        "reused": 1,
+        "inferred": 2,
+        "context_crops": 0,
+        "fallback": 0,
+        "region_reused": 1
+      }
+    },
+    {
+      "case": "dim-new-line",
+      "index": 0,
+      "authored_source": [
+        "Alice: Need a shield."
+      ],
+      "full": [
+        {
+          "text": "Alice: Need a shield.",
+          "box": [
+            [
+              16.0,
+              20.0
+            ],
+            [
+              257.0,
+              22.0
+            ],
+            [
+              257.0,
+              56.0
+            ],
+            [
+              16.0,
+              54.0
+            ]
+          ],
+          "confidence": 0.98165
+        }
+      ],
+      "reuse": [
+        {
+          "text": "Alice: Need a shield.",
+          "box": [
+            [
+              16.0,
+              20.0
+            ],
+            [
+              257.0,
+              22.0
+            ],
+            [
+              257.0,
+              56.0
+            ],
+            [
+              16.0,
+              54.0
+            ]
+          ],
+          "confidence": 0.98165
+        }
+      ],
+      "new_events": [
+        "Alice: Need a shield."
+      ],
+      "reuse_stats": {
+        "crops": 1,
+        "reused": 0,
+        "inferred": 1,
+        "context_crops": 0,
+        "fallback": 0,
+        "region_reused": 0
+      }
+    },
+    {
+      "case": "dim-new-line",
+      "index": 1,
+      "authored_source": [
+        "Alice: Need a shield.",
+        "Bob: Need 3 gems."
+      ],
+      "full": [
+        {
+          "text": "Alice: Need a shield.",
+          "box": [
+            [
+              18.0,
+              22.0
+            ],
+            [
+              256.0,
+              22.0
+            ],
+            [
+              256.0,
+              53.0
+            ],
+            [
+              18.0,
+              53.0
+            ]
+          ],
+          "confidence": 0.98776
+        },
+        {
+          "text": "Bob: Need 3 gems.",
+          "box": [
+            [
+              16.0,
+              63.0
+            ],
+            [
+              244.0,
+              66.0
+            ],
+            [
+              244.0,
+              101.0
+            ],
+            [
+              16.0,
+              99.0
+            ]
+          ],
+          "confidence": 0.98692
+        }
+      ],
+      "reuse": [
+        {
+          "text": "Alice: Need a shield.",
+          "box": [
+            [
+              18.0,
+              22.0
+            ],
+            [
+              256.0,
+              22.0
+            ],
+            [
+              256.0,
+              53.0
+            ],
+            [
+              18.0,
+              53.0
+            ]
+          ],
+          "confidence": 0.98776
+        },
+        {
+          "text": "Bob: Need 3 gems.",
+          "box": [
+            [
+              16.0,
+              63.0
+            ],
+            [
+              244.0,
+              66.0
+            ],
+            [
+              244.0,
+              101.0
+            ],
+            [
+              16.0,
+              99.0
+            ]
+          ],
+          "confidence": 0.98692
+        }
+      ],
+      "new_events": [
+        "Bob: Need 3 gems."
+      ],
+      "reuse_stats": {
+        "crops": 2,
+        "reused": 0,
+        "inferred": 2,
+        "context_crops": 0,
+        "fallback": 0,
+        "region_reused": 0
+      }
+    },
+    {
+      "case": "animated-noise",
+      "index": 0,
+      "authored_source": [
+        "Alice: I need item X5.",
+        "Bob: Do not pull the boss."
+      ],
+      "full": [
+        {
+          "text": "Alice: I need item X5.",
+          "box": [
+            [
+              19.0,
+              23.0
+            ],
+            [
+              265.0,
+              23.0
+            ],
+            [
+              265.0,
+              54.0
+            ],
+            [
+              19.0,
+              54.0
+            ]
+          ],
+          "confidence": 0.99977
+        },
+        {
+          "text": "Bob: Do not pull the boss.",
+          "box": [
+            [
+              19.0,
+              66.0
+            ],
+            [
+              314.0,
+              66.0
+            ],
+            [
+              314.0,
+              97.0
+            ],
+            [
+              19.0,
+              97.0
+            ]
+          ],
+          "confidence": 0.99993
+        }
+      ],
+      "reuse": [
+        {
+          "text": "Alice: I need item X5.",
+          "box": [
+            [
+              19.0,
+              23.0
+            ],
+            [
+              265.0,
+              23.0
+            ],
+            [
+              265.0,
+              54.0
+            ],
+            [
+              19.0,
+              54.0
+            ]
+          ],
+          "confidence": 0.99977
+        },
+        {
+          "text": "Bob: Do not pull the boss.",
+          "box": [
+            [
+              19.0,
+              66.0
+            ],
+            [
+              314.0,
+              66.0
+            ],
+            [
+              314.0,
+              97.0
+            ],
+            [
+              19.0,
+              97.0
+            ]
+          ],
+          "confidence": 0.99993
+        }
+      ],
+      "new_events": [
+        "Alice: I need item X5.",
+        "Bob: Do not pull the boss."
+      ],
+      "reuse_stats": {
+        "crops": 2,
+        "reused": 0,
+        "inferred": 2,
+        "context_crops": 0,
+        "fallback": 0,
+        "region_reused": 0
+      }
+    },
+    {
+      "case": "animated-noise",
+      "index": 1,
+      "authored_source": [
+        "Alice: I need item X5.",
+        "Bob: Do not pull the boss."
+      ],
+      "full": [
+        {
+          "text": "Alice: I need item X5.",
+          "box": [
+            [
+              19.0,
+              23.0
+            ],
+            [
+              266.0,
+              23.0
+            ],
+            [
+              266.0,
+              54.0
+            ],
+            [
+              19.0,
+              54.0
+            ]
+          ],
+          "confidence": 0.99967
+        },
+        {
+          "text": "Bob: Do not pull the boss.",
+          "box": [
+            [
+              19.0,
+              67.0
+            ],
+            [
+              315.0,
+              67.0
+            ],
+            [
+              315.0,
+              98.0
+            ],
+            [
+              19.0,
+              98.0
+            ]
+          ],
+          "confidence": 0.99993
+        }
+      ],
+      "reuse": [
+        {
+          "text": "Alice: I need item X5.",
+          "box": [
+            [
+              19.0,
+              23.0
+            ],
+            [
+              266.0,
+              23.0
+            ],
+            [
+              266.0,
+              54.0
+            ],
+            [
+              19.0,
+              54.0
+            ]
+          ],
+          "confidence": 0.99967
+        },
+        {
+          "text": "Bob: Do not pull the boss.",
+          "box": [
+            [
+              19.0,
+              67.0
+            ],
+            [
+              315.0,
+              67.0
+            ],
+            [
+              315.0,
+              98.0
+            ],
+            [
+              19.0,
+              98.0
+            ]
+          ],
+          "confidence": 0.99993
+        }
+      ],
+      "new_events": [],
+      "reuse_stats": {
+        "crops": 2,
+        "reused": 0,
+        "inferred": 2,
+        "context_crops": 0,
+        "fallback": 0,
+        "region_reused": 0
+      }
+    },
+    {
+      "case": "animated-noise",
+      "index": 2,
+      "authored_source": [
+        "Alice: I need item X5.",
+        "Bob: Do not pull the boss."
+      ],
+      "full": [
+        {
+          "text": "Alice: I need item X5.",
+          "box": [
+            [
+              19.0,
+              23.0
+            ],
+            [
+              266.0,
+              23.0
+            ],
+            [
+              266.0,
+              54.0
+            ],
+            [
+              19.0,
+              54.0
+            ]
+          ],
+          "confidence": 0.9997
+        },
+        {
+          "text": "Bob: Do not pull the boss.",
+          "box": [
+            [
+              19.0,
+              67.0
+            ],
+            [
+              315.0,
+              67.0
+            ],
+            [
+              315.0,
+              98.0
+            ],
+            [
+              19.0,
+              98.0
+            ]
+          ],
+          "confidence": 0.9995
+        }
+      ],
+      "reuse": [
+        {
+          "text": "Alice: I need item X5.",
+          "box": [
+            [
+              19.0,
+              23.0
+            ],
+            [
+              266.0,
+              23.0
+            ],
+            [
+              266.0,
+              54.0
+            ],
+            [
+              19.0,
+              54.0
+            ]
+          ],
+          "confidence": 0.9997
+        },
+        {
+          "text": "Bob: Do not pull the boss.",
+          "box": [
+            [
+              19.0,
+              67.0
+            ],
+            [
+              315.0,
+              67.0
+            ],
+            [
+              315.0,
+              98.0
+            ],
+            [
+              19.0,
+              98.0
+            ]
+          ],
+          "confidence": 0.9995
+        }
+      ],
+      "new_events": [],
+      "reuse_stats": {
+        "crops": 2,
+        "reused": 0,
+        "inferred": 2,
+        "context_crops": 0,
+        "fallback": 0,
+        "region_reused": 0
+      }
+    },
+    {
+      "case": "animated-noise",
+      "index": 3,
+      "authored_source": [
+        "Alice: I need item X5.",
+        "Bob: Do not pull the boss."
+      ],
+      "full": [
+        {
+          "text": "Alice: I need item X5.",
+          "box": [
+            [
+              19.0,
+              23.0
+            ],
+            [
+              266.0,
+              23.0
+            ],
+            [
+              266.0,
+              54.0
+            ],
+            [
+              19.0,
+              54.0
+            ]
+          ],
+          "confidence": 0.99971
+        },
+        {
+          "text": "Bob: Do not pull the boss.",
+          "box": [
+            [
+              19.0,
+              67.0
+            ],
+            [
+              315.0,
+              67.0
+            ],
+            [
+              315.0,
+              98.0
+            ],
+            [
+              19.0,
+              98.0
+            ]
+          ],
+          "confidence": 0.99994
+        }
+      ],
+      "reuse": [
+        {
+          "text": "Alice: I need item X5.",
+          "box": [
+            [
+              19.0,
+              23.0
+            ],
+            [
+              266.0,
+              23.0
+            ],
+            [
+              266.0,
+              54.0
+            ],
+            [
+              19.0,
+              54.0
+            ]
+          ],
+          "confidence": 0.99971
+        },
+        {
+          "text": "Bob: Do not pull the boss.",
+          "box": [
+            [
+              19.0,
+              67.0
+            ],
+            [
+              315.0,
+              67.0
+            ],
+            [
+              315.0,
+              98.0
+            ],
+            [
+              19.0,
+              98.0
+            ]
+          ],
+          "confidence": 0.99994
+        }
+      ],
+      "new_events": [],
+      "reuse_stats": {
+        "crops": 2,
+        "reused": 0,
+        "inferred": 2,
+        "context_crops": 0,
+        "fallback": 0,
+        "region_reused": 0
+      }
+    }
+  ],
+  "source_sha256": {
+    "app.py": "891997819b10bb12d431986b25246913339e70cd69014fe1a8136e13d1bb0f47",
+    "assets.py": "bc9da3530b88152bb8d172741e5616510032ea7a6e2649f39a1a752dee88f42e",
+    "asset_ui.py": "c98c314c298318e801ffc016ff337c8521bac13367d0ebbe230f4f664e69719a",
+    "backends.py": "754ec21e991c083b766a99911acc96759c61874c16f1a6d33be13e584d51d3ab",
+    "capture.py": "aa2ba05263d1bdc42938f0ccd9baedd7ac678c49023b0bbf13f5078fd55d5bec",
+    "chat.py": "92850db5b4047a1d96e5da0ea86d84f3886a4ec64a062f8c050b32e05fa355b2",
+    "chat_ocr.py": "81fc5f7ab524f37989a1d61f54f0aa3ab4e3042018f7fa4ce6f37d1822970716",
+    "controller.py": "a6c0ec1103f30dd158d9d133eb882b7fa34a97c86410f5e40837863139b74254",
+    "engine.py": "aa9455fb84afcefcbd0a5269eef4bd50f3da0c249853e830ca3f967f4d92860b",
+    "equipment_fast_rules.py": "03f82464703190cf442007f3b4d44f4d8bf885a39641a1e36060b9251caef5d1",
+    "equipment_layout.py": "4a9e272f0b459e296aee5320d16dd1f3717ab23f64280e52de4c02e00dba36a9",
+    "equipment_lexicon.py": "793cec0949a5eacdae35af0c05d3a84fe8b356f98da54a679b3c4778fd0e23be",
+    "equipment_overlay.py": "09ab7f2628634e35dfa8d4eda3ec61f1592335b435508dc0453c67f07e006977",
+    "equipment_recovery.py": "cc2b83962fd7584453594eb466bf6944193c18230600024ee1abc4bb3382fb9f",
+    "evidence.py": "ac45a4f9ded83656246120a1982cf430542bac6c3b12370bd80bc4bc5df9dd1e",
+    "glossary.py": "1887b6df3eb833a5d510fcd61aad99f631b8f511d18d46f68391faf03b0c7a4c",
+    "language.py": "1fb8b6be99bc58c483b5cec8095088cc28e98081c25b54c990ef7896bcb0f2a3",
+    "layout.py": "27939d8c558579a2958457abfe420f7c8c804e39f21fe01225ea608cea7c6586",
+    "monitor.py": "ae8c343aa5d7ab737770e1b11b031f1d28285e3cab3f15fed74d9ffbb319d524",
+    "ocr.py": "0c7e2175ffcbc1aa2a552b6754c05a27e89a8cee5875c2c8734a009c568e69e2",
+    "pipeline.py": "36469e988e873af9cd54c2c9af107e15f28ad35d75460b717bf91c2b6624b1c6",
+    "quest_layout.py": "11725eb540c74c6b2e8a88113174cd98957a21a9b5b59dcf2c539eab4f408272",
+    "review_ui.py": "e13d0894d110c43f8f7b084fd4077cc55d5f20f0ec08e434cbb953625c56b50a",
+    "scheduler.py": "4cce01334a31035aaadd0273bee225e6698945293f044fcc02528a9c60aa0376",
+    "security.py": "191e1df1e890fac6977421935f3876c6220ef68886927bc9e43915cb2416e459",
+    "selftest.py": "f1575044881e80594dd1ff265516d3842b1946b8f1a61d8131ae01dedf396f85",
+    "semantic_rules.py": "c002b12a5c109878ad5cb80a958a490d7f4b8fd2a84a201e55cb7595dd3faab7",
+    "settings.py": "69e6518600607d2f7d92c1234c132d721581594f3a5e2a3d42ead87d0d2c9866",
+    "soaktest.py": "db0cb127b52f3742f11e958cdb8b01d5b362f02cb990261eb4c1c3c718ff2289",
+    "storage.py": "76f4f9c4ffb39a387f2b32756ddfbfe7a2421cf1068ebd94e25cbb8d4db513de",
+    "subtitle_layout.py": "691b94f9020f082eb0cec92fae0132de6b0becfe0c95cb45989490614651ae4b",
+    "subtitle_trigger.py": "9edad1eef072d16bd6fbbc271ec00505616baf9fc6ca1ca7e1d2388beb173b7a",
+    "types.py": "b4aeec870a5d46f6dafff70d1fa29e7e295427be7b648c7c74f8feb0f0712950",
+    "validation.py": "ae8dcde09a8c621f7f124ebc23662d450a8b906e6692eda09f3349c3c1396b86",
+    "widgets.py": "3ad97215a30cf248f051527ceea93e48a0cd0037489a9caf040d47bda26ddfbd",
+    "window.py": "8fa7f109e3130d72d6222e9368b773c7aacff65909154af3c1fadfb10147cded",
+    "windows.py": "7195ffb79a16a83c70591f61f6f5ce70da982c93256edef1b19a3c177011265f",
+    "window_focus.py": "75bc4ee546a6b1fd50bc7e2a225f65305303122a1f83ed87786fc451cf4a58bf",
+    "__init__.py": "e0643366cba9ead4dcfe40c454af415dcddc6b3744f6aaf78732b7e04ab29625"
+  },
+  "source_unchanged": true,
+  "real_cpu_ocr": true,
+  "real_desktop_capture": false,
+  "foreground_control_calls": 0
+}

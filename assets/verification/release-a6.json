@@ -1,0 +1,10 @@
+{
+  "version": "2.0.0a6",
+  "exe_sha256": "91b869973e56f10d9d85292143c511c5ce1fb2b5bf9999bb09811f698cd18fdb",
+  "wheel_sha256": "ffd42559c987f68c545b19156820032244f02d14c7f8bf1b0d0e66aa313993b1",
+  "exe_checks": 17,
+  "wheel_checks": 17,
+  "unit_checks": 104,
+  "source_latency_fixture_only": true,
+  "full_700_ms_acceptance": false
+}

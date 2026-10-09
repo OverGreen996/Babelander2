@@ -1,0 +1,1513 @@
+{
+  "version": "2.0.0a9",
+  "qt_platform": "offscreen",
+  "real_ocr": true,
+  "real_model": true,
+  "real_desktop_capture": false,
+  "semantic_accuracy_scored": false,
+  "duration_per_card_seconds": 3,
+  "ocr_threads": 2,
+  "equipment_scan_ms": 200,
+  "equipment_stable_ms": 100,
+  "cards": [
+    {
+      "id": "base",
+      "expected_ocr": "Copper Longbow Gain +12% movement speed for 5 seconds.",
+      "results": [
+        {
+          "source": "Copper Longbow Gain +12% movement speed for 5 seconds.",
+          "matches_current_card": true,
+          "displayable": true,
+          "translations": [
+            {
+              "source": "Copper Longbow",
+              "target": "銅長弓",
+              "provider": "local",
+              "origin": "本機模型",
+              "warning": "",
+              "cache_hit": false,
+              "model_ms": 59.14499999198597,
+              "ocr_confidence": 0.99993,
+              "queue_ms": 0.8451000030618161,
+              "postprocess_ms": 0.13469999248627573,
+              "backend_state": "warm"
+            },
+            {
+              "source": "Gain +12% movement speed for 5 seconds.",
+              "target": "獲得 +12% 移動速度，持續 5 秒。",
+              "provider": "local",
+              "origin": "詞庫／完整規則",
+              "warning": "",
+              "cache_hit": false,
+              "model_ms": 0,
+              "ocr_confidence": 0.99058,
+              "queue_ms": 0.05360000068321824,
+              "postprocess_ms": 0,
+              "backend_state": "none"
+            }
+          ],
+          "overlay": "銅長弓\n\n獲得 +12% 移動速度，持續 5 秒。",
+          "full_qt_latency_ms": 459.05
+        }
+      ],
+      "complete_translation_ms": 459.05,
+      "ocr_exact_observed": true
+    },
+    {
+      "id": "dim_digit_change",
+      "expected_ocr": "Copper Longbow Gain +18% movement speed for 5 seconds.",
+      "results": [
+        {
+          "source": "Copper Longbow Gain +18% movement speed for 5 seconds.",
+          "matches_current_card": true,
+          "displayable": true,
+          "translations": [
+            {
+              "source": "Copper Longbow",
+              "target": "銅長弓",
+              "provider": "local",
+              "origin": "本機模型",
+              "warning": "",
+              "cache_hit": true,
+              "model_ms": 0,
+              "ocr_confidence": 0.99993,
+              "queue_ms": 0,
+              "postprocess_ms": 0,
+              "backend_state": "cache"
+            },
+            {
+              "source": "Gain +18% movement speed for 5 seconds.",
+              "target": "獲得 +18% 移動速度，持續 5 秒。",
+              "provider": "local",
+              "origin": "詞庫／完整規則",
+              "warning": "",
+              "cache_hit": false,
+              "model_ms": 0,
+              "ocr_confidence": 0.99038,
+              "queue_ms": 0.08320000779349357,
+              "postprocess_ms": 0,
+              "backend_state": "none"
+            }
+          ],
+          "overlay": "銅長弓\n\n獲得 +18% 移動速度，持續 5 秒。",
+          "full_qt_latency_ms": 555.57
+        }
+      ],
+      "complete_translation_ms": 555.57,
+      "ocr_exact_observed": true
+    },
+    {
+      "id": "conditional",
+      "expected_ocr": "Lunar Shield If health is below 30%, gain +12% movement speed for 5 seconds. Otherwise, gain +3% fire resistance.",
+      "results": [
+        {
+          "source": "Lunar Shield If health is below 30%, gain +12% movement speed for 5 seconds. Otherwise, gain +3% fire resistance.",
+          "matches_current_card": true,
+          "displayable": true,
+          "translations": [
+            {
+              "source": "Lunar Shield",
+              "target": "月亮 盾牌",
+              "provider": "local",
+              "origin": "本機模型",
+              "warning": "",
+              "cache_hit": false,
+              "model_ms": 116.76079999597277,
+              "ocr_confidence": 0.99979,
+              "queue_ms": 0.06359998951666057,
+              "postprocess_ms": 0.18119999731425196,
+              "backend_state": "warm"
+            },
+            {
+              "source": "If health is below 30%,\ngain +12% movement speed for 5 seconds.\nOtherwise, gain +3% fire resistance.",
+              "target": "若生命值低於 30%，獲得 +12% 移動速度，持續 5 秒；否則獲得 +3% 火焰抗性。",
+              "provider": "local",
+              "origin": "詞庫／完整規則",
+              "warning": "",
+              "cache_hit": false,
+              "model_ms": 0,
+              "ocr_confidence": 0.99759,
+              "queue_ms": 0.06899998697917908,
+              "postprocess_ms": 0,
+              "backend_state": "none"
+            }
+          ],
+          "overlay": "月亮 盾牌\n\n若生命值低於 30%，獲得 +12% 移動速度，持續 5 秒；否則獲得 +3% 火焰抗性。",
+          "full_qt_latency_ms": 805.06
+        }
+      ],
+      "complete_translation_ms": 805.06,
+      "ocr_exact_observed": true
+    },
+    {
+      "id": "prohibition",
+      "expected_ocr": "Storm Boots Gain +15% movement speed for 8 seconds. Do not equip this item before level 20.",
+      "results": [
+        {
+          "source": "Storm Boots Gain +15% movement speed for 8 seconds. Do not equip this item before level 20.",
+          "matches_current_card": true,
+          "displayable": true,
+          "translations": [
+            {
+              "source": "Storm Boots",
+              "target": "暴風靴",
+              "provider": "local",
+              "origin": "本機模型",
+              "warning": "",
+              "cache_hit": false,
+              "model_ms": 85.06699999270495,
+              "ocr_confidence": 0.99952,
+              "queue_ms": 0.07350000669248402,
+              "postprocess_ms": 0.14200000441633165,
+              "backend_state": "warm"
+            },
+            {
+              "source": "Gain +15% movement speed for 8 seconds.",
+              "target": "獲得 +15% 移動速度，持續 8 秒。",
+              "provider": "local",
+              "origin": "詞庫／完整規則",
+              "warning": "",
+              "cache_hit": false,
+              "model_ms": 0,
+              "ocr_confidence": 0.99061,
+              "queue_ms": 0.06359998951666057,
+              "postprocess_ms": 0,
+              "backend_state": "none"
+            },
+            {
+              "source": "Do not equip this item before level 20.",
+              "target": "不裝備此物品至達級別20前。",
+              "provider": "local",
+              "origin": "本機模型",
+              "warning": "",
+              "cache_hit": false,
+              "model_ms": 210.88240000244696,
+              "ocr_confidence": 0.99995,
+              "queue_ms": 0.07360000745393336,
+              "postprocess_ms": 0.815200008219108,
+              "backend_state": "warm"
+            }
+          ],
+          "overlay": "暴風靴\n\n獲得 +15% 移動速度，持續 8 秒。\n\n不裝備此物品至達級別20前。",
+          "full_qt_latency_ms": 957.57
+        }
+      ],
+      "complete_translation_ms": 957.57,
+      "ocr_exact_observed": true
+    },
+    {
+      "id": "stats",
+      "expected_ocr": "Glass Dagger Damage: 125 Critical Chance: 18% Durability: 130 / 130",
+      "results": [
+        {
+          "source": "Glass Dagger Damage: 125 Critical Chance: 18% Durability: 130 / 130",
+          "matches_current_card": true,
+          "displayable": true,
+          "translations": [
+            {
+              "source": "Glass Dagger",
+              "target": "玻璃匕首",
+              "provider": "local",
+              "origin": "本機模型",
+              "warning": "",
+              "cache_hit": false,
+              "model_ms": 98.72379999433178,
+              "ocr_confidence": 0.99979,
+              "queue_ms": 0.10720000136643648,
+              "postprocess_ms": 0.12870000500697643,
+              "backend_state": "warm"
+            },
+            {
+              "source": "Damage: 125",
+              "target": "傷害：125",
+              "provider": "local",
+              "origin": "詞庫／完整規則",
+              "warning": "",
+              "cache_hit": false,
+              "model_ms": 0,
+              "ocr_confidence": 0.99614,
+              "queue_ms": 0.05660000897478312,
+              "postprocess_ms": 0,
+              "backend_state": "none"
+            },
+            {
+              "source": "Critical Chance: 18%",
+              "target": "暴擊率：18%",
+              "provider": "local",
+              "origin": "詞庫／完整規則",
+              "warning": "",
+              "cache_hit": false,
+              "model_ms": 0,
+              "ocr_confidence": 0.96426,
+              "queue_ms": 0.05079999391455203,
+              "postprocess_ms": 0,
+              "backend_state": "none"
+            },
+            {
+              "source": "Durability: 130 / 130",
+              "target": "耐久度：130 / 130",
+              "provider": "local",
+              "origin": "詞庫／完整規則",
+              "warning": "",
+              "cache_hit": false,
+              "model_ms": 0,
+              "ocr_confidence": 0.93234,
+              "queue_ms": 0.057900004321709275,
+              "postprocess_ms": 0,
+              "backend_state": "none"
+            }
+          ],
+          "overlay": "玻璃匕首\n\n傷害：125\n\n暴擊率：18%\n\n耐久度：130 / 130",
+          "full_qt_latency_ms": 648.22
+        }
+      ],
+      "complete_translation_ms": 648.22,
+      "ocr_exact_observed": true
+    },
+    {
+      "id": "unless",
+      "expected_ocr": "Sealed Ring Do not activate the shield unless the outer circle turns violet.",
+      "results": [
+        {
+          "source": "Sealed Ring Do not activate the shield unless the outer circle turns violet.",
+          "matches_current_card": true,
+          "displayable": true,
+          "translations": [
+            {
+              "source": "Sealed Ring",
+              "target": "封印之環",
+              "provider": "local",
+              "origin": "本機模型",
+              "warning": "",
+              "cache_hit": false,
+              "model_ms": 97.87760001199786,
+              "ocr_confidence": 0.99856,
+              "queue_ms": 0.1049999991664663,
+              "postprocess_ms": 0.10990000737365335,
+              "backend_state": "warm"
+            },
+            {
+              "source": "Do not activate the shield unless the outer circle turns violet.",
+              "target": "不啟動 盾牌，除非外圈變為紫色。",
+              "provider": "local",
+              "origin": "本機模型",
+              "warning": "",
+              "cache_hit": false,
+              "model_ms": 230.1104999933159,
+              "ocr_confidence": 0.99455,
+              "queue_ms": 0.054500007536262274,
+              "postprocess_ms": 0.3056999994441867,
+              "backend_state": "warm"
+            }
+          ],
+          "overlay": "封印之環\n\n不啟動 盾牌，除非外圈變為紫色。",
+          "full_qt_latency_ms": 913.1
+        }
+      ],
+      "complete_translation_ms": 913.1,
+      "ocr_exact_observed": true
+    },
+    {
+      "id": "long_effect",
+      "expected_ocr": "Guardian Pendant When you block an attack while health is below 25%, restore 10% health and gain +15% armor for 8 seconds. Otherwise, gain +5% movement speed for 3 seconds. This effect cannot trigger more than once every 30 seconds.",
+      "results": [
+        {
+          "source": "Guardian Pendant When you block an attack while health is below 25%, restore 10% health and gain +15% armor for 8 seconds. Otherwise, gain +5% movement speed for 3 seconds. This effect cannot trigger more than once every 30 seconds.",
+          "matches_current_card": true,
+          "displayable": true,
+          "translations": [
+            {
+              "source": "Guardian Pendant",
+              "target": "守護者項圈",
+              "provider": "local",
+              "origin": "本機模型",
+              "warning": "",
+              "cache_hit": false,
+              "model_ms": 118.57249999593478,
+              "ocr_confidence": 0.99875,
+              "queue_ms": 0.07140000525396317,
+              "postprocess_ms": 0.16829998639877886,
+              "backend_state": "warm"
+            },
+            {
+              "source": "When you block an attack while health is below 25%,\nrestore 10% health and gain +15% armor for 8 seconds.\nOtherwise, gain +5% movement speed for 3 seconds.",
+              "target": "當你而在生命值低於25%時擋住攻擊，恢復10%的生命值並獲得+15%的防禦值持續8秒。否則，獲得+5%的移動速度持續3秒。",
+              "provider": "local",
+              "origin": "本機模型",
+              "warning": "",
+              "cache_hit": false,
+              "model_ms": 553.4422999917297,
+              "ocr_confidence": 0.99376,
+              "queue_ms": 0.05919999966863543,
+              "postprocess_ms": 0.7428999961121008,
+              "backend_state": "warm"
+            },
+            {
+              "source": "This effect cannot trigger more than once every 30 seconds.",
+              "target": "此效果無法在30秒內觸發多次。",
+              "provider": "local",
+              "origin": "本機模型",
+              "warning": "",
+              "cache_hit": false,
+              "model_ms": 177.83200000121724,
+              "ocr_confidence": 0.9999,
+              "queue_ms": 0.06550000398419797,
+              "postprocess_ms": 0.31289999606087804,
+              "backend_state": "warm"
+            }
+          ],
+          "overlay": "守護者項圈\n\n當你而在生命值低於25%時擋住攻擊，恢復10%的生命值並獲得+15%的防禦值持續8秒。否則，獲得+5%的移動速度持續3秒。\n\n此效果無法在30秒內觸發多次。",
+          "full_qt_latency_ms": 1685.54
+        }
+      ],
+      "complete_translation_ms": 1685.54,
+      "ocr_exact_observed": true
+    },
+    {
+      "id": "description",
+      "expected_ocr": "Old Lantern A dented lantern carried by the missing guard.",
+      "results": [
+        {
+          "source": "Old Lantern A dented lantern carried by the missing guard.",
+          "matches_current_card": true,
+          "displayable": true,
+          "translations": [
+            {
+              "source": "Old Lantern\nA dented lantern carried by the missing guard.",
+              "target": "舊 Lantern A 裂縫的燈籠，由失蹤的守衛所攜帶。",
+              "provider": "local",
+              "origin": "本機模型",
+              "warning": "",
+              "cache_hit": false,
+              "model_ms": 141.98790000227746,
+              "ocr_confidence": 0.99883,
+              "queue_ms": 0.09299999510403723,
+              "postprocess_ms": 0.3161000058753416,
+              "backend_state": "warm"
+            }
+          ],
+          "overlay": "舊 Lantern A 裂縫的燈籠，由失蹤的守衛所攜帶。",
+          "full_qt_latency_ms": 744.19
+        }
+      ],
+      "complete_translation_ms": 744.19,
+      "ocr_exact_observed": true
+    }
+  ],
+  "application_sha256": {
+    "app.py": "891997819b10bb12d431986b25246913339e70cd69014fe1a8136e13d1bb0f47",
+    "assets.py": "bc9da3530b88152bb8d172741e5616510032ea7a6e2649f39a1a752dee88f42e",
+    "asset_ui.py": "c98c314c298318e801ffc016ff337c8521bac13367d0ebbe230f4f664e69719a",
+    "backends.py": "67c51637c086849e3bd384c9bd76db1cbd7a73e211727be59e3579c3ecc0c320",
+    "capture.py": "aa2ba05263d1bdc42938f0ccd9baedd7ac678c49023b0bbf13f5078fd55d5bec",
+    "controller.py": "eebcc5f4ab81c403ad9348fd17c6816d63e6637a72899ee55eb48398cf67886f",
+    "engine.py": "33a2949bd93c4fbce6b85c057f53c183bede81ffd58f5415beed375066dde99f",
+    "equipment_fast_rules.py": "dc55c41d16a935b6ea05a8b45228a26eefc73589faeef5bb742ca326c3601652",
+    "equipment_lexicon.py": "ccd3d7a09c6babc0e465896df0ff26ffaa94f0fc1acd827496ffc21f65e5aa36",
+    "evidence.py": "ac45a4f9ded83656246120a1982cf430542bac6c3b12370bd80bc4bc5df9dd1e",
+    "glossary.py": "1887b6df3eb833a5d510fcd61aad99f631b8f511d18d46f68391faf03b0c7a4c",
+    "language.py": "1fb8b6be99bc58c483b5cec8095088cc28e98081c25b54c990ef7896bcb0f2a3",
+    "layout.py": "a7a3eef6c3b26f635095d454851decdd3028735629a61e6a484d9f72ff4f25fa",
+    "monitor.py": "0d941f68fcfa2c1a6232d54b3f39bd1b4f90a164659426e41073ade0ffc763a2",
+    "ocr.py": "a8b5b861135ee53fddc34ac8ac99de549fcf2f32c62876b02445d088abac68c3",
+    "pipeline.py": "8b6dd307dfa4700d1019d32fa9e3c393da336b8ffa8e5846e7dd6758c5e3b5d3",
+    "review_ui.py": "e13d0894d110c43f8f7b084fd4077cc55d5f20f0ec08e434cbb953625c56b50a",
+    "scheduler.py": "4cce01334a31035aaadd0273bee225e6698945293f044fcc02528a9c60aa0376",
+    "security.py": "191e1df1e890fac6977421935f3876c6220ef68886927bc9e43915cb2416e459",
+    "selftest.py": "6a98ecc484754711588375739af7f21e9e5523da15ebcfaf9d81e3336bf9a121",
+    "semantic_rules.py": "198eacb9bd04c242ca6c3937225b34b3b4ae55e6b49080be1bde7eb5bc013d39",
+    "settings.py": "b709054d6706c50dcdc77e9ee5ac85f7e08ef07ca7c8ad2df17afb9b71096fc6",
+    "soaktest.py": "db0cb127b52f3742f11e958cdb8b01d5b362f02cb990261eb4c1c3c718ff2289",
+    "storage.py": "76f4f9c4ffb39a387f2b32756ddfbfe7a2421cf1068ebd94e25cbb8d4db513de",
+    "subtitle_layout.py": "691b94f9020f082eb0cec92fae0132de6b0becfe0c95cb45989490614651ae4b",
+    "types.py": "5f91ac8492642fcf6e5f9e0c9da0d5d6c65b1682ec17e29982f6ecf81bee0eab",
+    "validation.py": "266949e34d1c679852144672fd66aeb959ab8f131ff46e1bb800455a0e825117",
+    "widgets.py": "3ad97215a30cf248f051527ceea93e48a0cd0037489a9caf040d47bda26ddfbd",
+    "window.py": "738f46ebec6db6069990275b006d672c1db65b5e55b6466a2bc44fe0c7d4e462",
+    "windows.py": "c54cc94ffa185307952c0e40a1800a2afbe6bb234ada4ed476971bc56dcc18bc",
+    "__init__.py": "4d9671d5caf7e08a41c3747c5c87e365eaeab6e5c83d7d4bf2c76d2917c1ea6e"
+  },
+  "warmup_warning": "",
+  "blank_cleared": true,
+  "metrics": {
+    "counts": {
+      "capture": 127,
+      "ocr_candidate_created": 9,
+      "ocr": 9,
+      "events_created": 8,
+      "pipeline_completed": 8,
+      "success": 8,
+      "ui_applied": 8,
+      "frame_unchanged": 98,
+      "cache_hit": 1
+    },
+    "recent": [
+      {
+        "reason": "frame_unchanged",
+        "mode": "equipment"
+      },
+      {
+        "reason": "capture",
+        "mode": "equipment",
+        "capture_ms": 0.41,
+        "change_detection_ms": 1.474,
+        "capture_deadline_miss_ms": 1.774,
+        "frame_seq": 68,
+        "capture_epoch": 5,
+        "producer_transient_roi_bytes": 1480500
+      },
+      {
+        "reason": "frame_unchanged",
+        "mode": "equipment"
+      },
+      {
+        "reason": "capture",
+        "mode": "equipment",
+        "capture_ms": 0.385,
+        "change_detection_ms": 1.767,
+        "capture_deadline_miss_ms": 14.805,
+        "frame_seq": 69,
+        "capture_epoch": 5,
+        "producer_transient_roi_bytes": 1480500
+      },
+      {
+        "reason": "frame_unchanged",
+        "mode": "equipment"
+      },
+      {
+        "reason": "capture",
+        "mode": "equipment",
+        "capture_ms": 0.486,
+        "change_detection_ms": 1.65,
+        "capture_deadline_miss_ms": 1.712,
+        "frame_seq": 70,
+        "capture_epoch": 5,
+        "producer_transient_roi_bytes": 1480500
+      },
+      {
+        "reason": "frame_unchanged",
+        "mode": "equipment"
+      },
+      {
+        "reason": "capture",
+        "mode": "equipment",
+        "capture_ms": 0.503,
+        "change_detection_ms": 1.72,
+        "capture_deadline_miss_ms": 2.273,
+        "frame_seq": 71,
+        "capture_epoch": 5,
+        "producer_transient_roi_bytes": 1480500
+      },
+      {
+        "reason": "frame_unchanged",
+        "mode": "equipment"
+      },
+      {
+        "reason": "capture",
+        "mode": "equipment",
+        "capture_ms": 0.48,
+        "change_detection_ms": 1.502,
+        "capture_deadline_miss_ms": 2.295,
+        "frame_seq": 72,
+        "capture_epoch": 5,
+        "producer_transient_roi_bytes": 1480500
+      },
+      {
+        "reason": "frame_unchanged",
+        "mode": "equipment"
+      },
+      {
+        "reason": "capture",
+        "mode": "equipment",
+        "capture_ms": 1.37,
+        "change_detection_ms": 1.612,
+        "capture_deadline_miss_ms": 2.266,
+        "frame_seq": 73,
+        "capture_epoch": 5,
+        "producer_transient_roi_bytes": 1480500
+      },
+      {
+        "reason": "frame_unchanged",
+        "mode": "equipment"
+      },
+      {
+        "reason": "capture",
+        "mode": "equipment",
+        "capture_ms": 0.511,
+        "change_detection_ms": 1.533,
+        "capture_deadline_miss_ms": 0.514,
+        "frame_seq": 74,
+        "capture_epoch": 5,
+        "producer_transient_roi_bytes": 1480500
+      },
+      {
+        "reason": "frame_unchanged",
+        "mode": "equipment"
+      },
+      {
+        "reason": "capture",
+        "mode": "equipment",
+        "capture_ms": 0.422,
+        "change_detection_ms": 1.44,
+        "capture_deadline_miss_ms": 4.062,
+        "frame_seq": 75,
+        "capture_epoch": 5,
+        "producer_transient_roi_bytes": 1480500
+      },
+      {
+        "reason": "frame_unchanged",
+        "mode": "equipment"
+      },
+      {
+        "reason": "capture",
+        "mode": "equipment",
+        "capture_ms": 0.627,
+        "change_detection_ms": 1.614,
+        "capture_deadline_miss_ms": 0.391,
+        "frame_seq": 76,
+        "capture_epoch": 5,
+        "producer_transient_roi_bytes": 1480500
+      },
+      {
+        "reason": "frame_unchanged",
+        "mode": "equipment"
+      },
+      {
+        "reason": "capture",
+        "mode": "equipment",
+        "capture_ms": 0.486,
+        "change_detection_ms": 1.566,
+        "capture_deadline_miss_ms": 2.12,
+        "frame_seq": 77,
+        "capture_epoch": 6,
+        "producer_transient_roi_bytes": 1480500
+      },
+      {
+        "reason": "ocr_candidate_created",
+        "mode": "equipment",
+        "pending": 1,
+        "in_flight": 0,
+        "pending_limit": 1,
+        "epoch": 6,
+        "owned_roi_bytes": 1480500,
+        "owned_roi_peak_bytes": 2961000
+      },
+      {
+        "reason": "capture",
+        "mode": "equipment",
+        "capture_ms": 0.594,
+        "change_detection_ms": 1.537,
+        "capture_deadline_miss_ms": 8.931,
+        "frame_seq": 78,
+        "capture_epoch": 6,
+        "producer_transient_roi_bytes": 1480500
+      },
+      {
+        "reason": "capture",
+        "mode": "equipment",
+        "capture_ms": 0.512,
+        "change_detection_ms": 2.146,
+        "capture_deadline_miss_ms": 3.237,
+        "frame_seq": 79,
+        "capture_epoch": 6,
+        "producer_transient_roi_bytes": 1480500
+      },
+      {
+        "reason": "ocr",
+        "mode": "equipment",
+        "ocr_ms": 380.022,
+        "frame_seq": 77,
+        "capture_epoch": 6
+      },
+      {
+        "reason": "events_created",
+        "mode": "equipment"
+      },
+      {
+        "reason": "capture",
+        "mode": "equipment",
+        "capture_ms": 0.53,
+        "change_detection_ms": 1.662,
+        "capture_deadline_miss_ms": 3.434,
+        "frame_seq": 80,
+        "capture_epoch": 6,
+        "producer_transient_roi_bytes": 1480500
+      },
+      {
+        "reason": "frame_unchanged",
+        "mode": "equipment"
+      },
+      {
+        "reason": "capture",
+        "mode": "equipment",
+        "capture_ms": 0.396,
+        "change_detection_ms": 1.897,
+        "capture_deadline_miss_ms": 3.126,
+        "frame_seq": 81,
+        "capture_epoch": 6,
+        "producer_transient_roi_bytes": 1480500
+      },
+      {
+        "reason": "frame_unchanged",
+        "mode": "equipment"
+      },
+      {
+        "reason": "pipeline_completed",
+        "mode": "equipment",
+        "capture_ms": 0.486,
+        "change_detection_ms": 1.566,
+        "image_queue_wait_ms": 0.01,
+        "ocr_queue_wait_ms": 109.225,
+        "stability_wait_ms": 109.215,
+        "ocr_ms": 380.022,
+        "frame_seq": 77,
+        "capture_epoch": 6,
+        "dispatch_wait_ms": 0.098,
+        "translation_queue_ms": 0.16,
+        "translation_request_ms": 327.988,
+        "postprocess_ms": 0.416,
+        "observed_worker_ms": 824.3
+      },
+      {
+        "reason": "success",
+        "mode": "equipment"
+      },
+      {
+        "reason": "ui_applied",
+        "mode": "equipment",
+        "overlay_update_ms": 4.704,
+        "observed_pipeline_ms": 828.184
+      },
+      {
+        "reason": "capture",
+        "mode": "equipment",
+        "capture_ms": 0.442,
+        "change_detection_ms": 1.421,
+        "capture_deadline_miss_ms": 4.187,
+        "frame_seq": 82,
+        "capture_epoch": 6,
+        "producer_transient_roi_bytes": 1480500
+      },
+      {
+        "reason": "frame_unchanged",
+        "mode": "equipment"
+      },
+      {
+        "reason": "capture",
+        "mode": "equipment",
+        "capture_ms": 0.763,
+        "change_detection_ms": 1.619,
+        "capture_deadline_miss_ms": 15.532,
+        "frame_seq": 83,
+        "capture_epoch": 6,
+        "producer_transient_roi_bytes": 1480500
+      },
+      {
+        "reason": "frame_unchanged",
+        "mode": "equipment"
+      },
+      {
+        "reason": "capture",
+        "mode": "equipment",
+        "capture_ms": 0.402,
+        "change_detection_ms": 1.502,
+        "capture_deadline_miss_ms": 4.672,
+        "frame_seq": 84,
+        "capture_epoch": 6,
+        "producer_transient_roi_bytes": 1480500
+      },
+      {
+        "reason": "frame_unchanged",
+        "mode": "equipment"
+      },
+      {
+        "reason": "capture",
+        "mode": "equipment",
+        "capture_ms": 0.47,
+        "change_detection_ms": 1.748,
+        "capture_deadline_miss_ms": 1.946,
+        "frame_seq": 85,
+        "capture_epoch": 6,
+        "producer_transient_roi_bytes": 1480500
+      },
+      {
+        "reason": "frame_unchanged",
+        "mode": "equipment"
+      },
+      {
+        "reason": "capture",
+        "mode": "equipment",
+        "capture_ms": 0.503,
+        "change_detection_ms": 1.711,
+        "capture_deadline_miss_ms": 1.885,
+        "frame_seq": 86,
+        "capture_epoch": 6,
+        "producer_transient_roi_bytes": 1480500
+      },
+      {
+        "reason": "frame_unchanged",
+        "mode": "equipment"
+      },
+      {
+        "reason": "capture",
+        "mode": "equipment",
+        "capture_ms": 0.364,
+        "change_detection_ms": 1.5,
+        "capture_deadline_miss_ms": 3.243,
+        "frame_seq": 87,
+        "capture_epoch": 6,
+        "producer_transient_roi_bytes": 1480500
+      },
+      {
+        "reason": "frame_unchanged",
+        "mode": "equipment"
+      },
+      {
+        "reason": "capture",
+        "mode": "equipment",
+        "capture_ms": 0.511,
+        "change_detection_ms": 1.609,
+        "capture_deadline_miss_ms": 2.437,
+        "frame_seq": 88,
+        "capture_epoch": 6,
+        "producer_transient_roi_bytes": 1480500
+      },
+      {
+        "reason": "frame_unchanged",
+        "mode": "equipment"
+      },
+      {
+        "reason": "capture",
+        "mode": "equipment",
+        "capture_ms": 0.398,
+        "change_detection_ms": 1.557,
+        "capture_deadline_miss_ms": 2.516,
+        "frame_seq": 89,
+        "capture_epoch": 6,
+        "producer_transient_roi_bytes": 1480500
+      },
+      {
+        "reason": "frame_unchanged",
+        "mode": "equipment"
+      },
+      {
+        "reason": "capture",
+        "mode": "equipment",
+        "capture_ms": 0.495,
+        "change_detection_ms": 1.529,
+        "capture_deadline_miss_ms": 1.84,
+        "frame_seq": 90,
+        "capture_epoch": 6,
+        "producer_transient_roi_bytes": 1480500
+      },
+      {
+        "reason": "frame_unchanged",
+        "mode": "equipment"
+      },
+      {
+        "reason": "capture",
+        "mode": "equipment",
+        "capture_ms": 0.771,
+        "change_detection_ms": 1.46,
+        "capture_deadline_miss_ms": 4.281,
+        "frame_seq": 91,
+        "capture_epoch": 6,
+        "producer_transient_roi_bytes": 1480500
+      },
+      {
+        "reason": "frame_unchanged",
+        "mode": "equipment"
+      },
+      {
+        "reason": "capture",
+        "mode": "equipment",
+        "capture_ms": 0.538,
+        "change_detection_ms": 1.95,
+        "capture_deadline_miss_ms": 0.442,
+        "frame_seq": 92,
+        "capture_epoch": 7,
+        "producer_transient_roi_bytes": 1480500
+      },
+      {
+        "reason": "ocr_candidate_created",
+        "mode": "equipment",
+        "pending": 1,
+        "in_flight": 0,
+        "pending_limit": 1,
+        "epoch": 7,
+        "owned_roi_bytes": 1480500,
+        "owned_roi_peak_bytes": 2961000
+      },
+      {
+        "reason": "capture",
+        "mode": "equipment",
+        "capture_ms": 0.424,
+        "change_detection_ms": 1.666,
+        "capture_deadline_miss_ms": 8.513,
+        "frame_seq": 93,
+        "capture_epoch": 7,
+        "producer_transient_roi_bytes": 1480500
+      },
+      {
+        "reason": "capture",
+        "mode": "equipment",
+        "capture_ms": 0.529,
+        "change_detection_ms": 1.607,
+        "capture_deadline_miss_ms": 0.891,
+        "frame_seq": 94,
+        "capture_epoch": 7,
+        "producer_transient_roi_bytes": 1480500
+      },
+      {
+        "reason": "capture",
+        "mode": "equipment",
+        "capture_ms": 0.573,
+        "change_detection_ms": 1.804,
+        "capture_deadline_miss_ms": 3.311,
+        "frame_seq": 95,
+        "capture_epoch": 7,
+        "producer_transient_roi_bytes": 1480500
+      },
+      {
+        "reason": "capture",
+        "mode": "equipment",
+        "capture_ms": 0.773,
+        "change_detection_ms": 2.048,
+        "capture_deadline_miss_ms": 3.44,
+        "frame_seq": 96,
+        "capture_epoch": 7,
+        "producer_transient_roi_bytes": 1480500
+      },
+      {
+        "reason": "ocr",
+        "mode": "equipment",
+        "ocr_ms": 666.97,
+        "frame_seq": 92,
+        "capture_epoch": 7
+      },
+      {
+        "reason": "events_created",
+        "mode": "equipment"
+      },
+      {
+        "reason": "capture",
+        "mode": "equipment",
+        "capture_ms": 0.504,
+        "change_detection_ms": 1.458,
+        "capture_deadline_miss_ms": 15.602,
+        "frame_seq": 97,
+        "capture_epoch": 7,
+        "producer_transient_roi_bytes": 1480500
+      },
+      {
+        "reason": "frame_unchanged",
+        "mode": "equipment"
+      },
+      {
+        "reason": "capture",
+        "mode": "equipment",
+        "capture_ms": 0.409,
+        "change_detection_ms": 1.561,
+        "capture_deadline_miss_ms": 2.617,
+        "frame_seq": 98,
+        "capture_epoch": 7,
+        "producer_transient_roi_bytes": 1480500
+      },
+      {
+        "reason": "frame_unchanged",
+        "mode": "equipment"
+      },
+      {
+        "reason": "capture",
+        "mode": "equipment",
+        "capture_ms": 0.509,
+        "change_detection_ms": 1.612,
+        "capture_deadline_miss_ms": 3.075,
+        "frame_seq": 99,
+        "capture_epoch": 7,
+        "producer_transient_roi_bytes": 1480500
+      },
+      {
+        "reason": "frame_unchanged",
+        "mode": "equipment"
+      },
+      {
+        "reason": "capture",
+        "mode": "equipment",
+        "capture_ms": 0.467,
+        "change_detection_ms": 1.717,
+        "capture_deadline_miss_ms": 3.014,
+        "frame_seq": 100,
+        "capture_epoch": 7,
+        "producer_transient_roi_bytes": 1480500
+      },
+      {
+        "reason": "frame_unchanged",
+        "mode": "equipment"
+      },
+      {
+        "reason": "pipeline_completed",
+        "mode": "equipment",
+        "capture_ms": 0.538,
+        "change_detection_ms": 1.95,
+        "image_queue_wait_ms": 0.01,
+        "ocr_queue_wait_ms": 108.472,
+        "stability_wait_ms": 108.462,
+        "ocr_ms": 666.97,
+        "frame_seq": 92,
+        "capture_epoch": 7,
+        "dispatch_wait_ms": 0.127,
+        "translation_queue_ms": 0.196,
+        "translation_request_ms": 849.847,
+        "postprocess_ms": 1.224,
+        "observed_worker_ms": 1634.541
+      },
+      {
+        "reason": "success",
+        "mode": "equipment"
+      },
+      {
+        "reason": "ui_applied",
+        "mode": "equipment",
+        "overlay_update_ms": 7.757,
+        "observed_pipeline_ms": 1636.155
+      },
+      {
+        "reason": "capture",
+        "mode": "equipment",
+        "capture_ms": 0.388,
+        "change_detection_ms": 1.442,
+        "capture_deadline_miss_ms": 5.047,
+        "frame_seq": 101,
+        "capture_epoch": 7,
+        "producer_transient_roi_bytes": 1480500
+      },
+      {
+        "reason": "frame_unchanged",
+        "mode": "equipment"
+      },
+      {
+        "reason": "capture",
+        "mode": "equipment",
+        "capture_ms": 0.442,
+        "change_detection_ms": 1.424,
+        "capture_deadline_miss_ms": 0.631,
+        "frame_seq": 102,
+        "capture_epoch": 7,
+        "producer_transient_roi_bytes": 1480500
+      },
+      {
+        "reason": "frame_unchanged",
+        "mode": "equipment"
+      },
+      {
+        "reason": "capture",
+        "mode": "equipment",
+        "capture_ms": 0.347,
+        "change_detection_ms": 1.389,
+        "capture_deadline_miss_ms": 1.91,
+        "frame_seq": 103,
+        "capture_epoch": 7,
+        "producer_transient_roi_bytes": 1480500
+      },
+      {
+        "reason": "frame_unchanged",
+        "mode": "equipment"
+      },
+      {
+        "reason": "capture",
+        "mode": "equipment",
+        "capture_ms": 0.4,
+        "change_detection_ms": 1.281,
+        "capture_deadline_miss_ms": 1.993,
+        "frame_seq": 104,
+        "capture_epoch": 7,
+        "producer_transient_roi_bytes": 1480500
+      },
+      {
+        "reason": "frame_unchanged",
+        "mode": "equipment"
+      },
+      {
+        "reason": "capture",
+        "mode": "equipment",
+        "capture_ms": 0.441,
+        "change_detection_ms": 1.467,
+        "capture_deadline_miss_ms": 3.449,
+        "frame_seq": 105,
+        "capture_epoch": 7,
+        "producer_transient_roi_bytes": 1480500
+      },
+      {
+        "reason": "frame_unchanged",
+        "mode": "equipment"
+      },
+      {
+        "reason": "capture",
+        "mode": "equipment",
+        "capture_ms": 0.463,
+        "change_detection_ms": 1.563,
+        "capture_deadline_miss_ms": 4.954,
+        "frame_seq": 106,
+        "capture_epoch": 7,
+        "producer_transient_roi_bytes": 1480500
+      },
+      {
+        "reason": "frame_unchanged",
+        "mode": "equipment"
+      },
+      {
+        "reason": "capture",
+        "mode": "equipment",
+        "capture_ms": 0.607,
+        "change_detection_ms": 1.587,
+        "capture_deadline_miss_ms": 2.413,
+        "frame_seq": 107,
+        "capture_epoch": 7,
+        "producer_transient_roi_bytes": 1480500
+      },
+      {
+        "reason": "frame_unchanged",
+        "mode": "equipment"
+      },
+      {
+        "reason": "capture",
+        "mode": "equipment",
+        "capture_ms": 0.369,
+        "change_detection_ms": 1.583,
+        "capture_deadline_miss_ms": 3.581,
+        "frame_seq": 108,
+        "capture_epoch": 8,
+        "producer_transient_roi_bytes": 1480500
+      },
+      {
+        "reason": "ocr_candidate_created",
+        "mode": "equipment",
+        "pending": 1,
+        "in_flight": 0,
+        "pending_limit": 1,
+        "epoch": 8,
+        "owned_roi_bytes": 1480500,
+        "owned_roi_peak_bytes": 2961000
+      },
+      {
+        "reason": "capture",
+        "mode": "equipment",
+        "capture_ms": 0.435,
+        "change_detection_ms": 2.159,
+        "capture_deadline_miss_ms": 10.613,
+        "frame_seq": 109,
+        "capture_epoch": 8,
+        "producer_transient_roi_bytes": 1480500
+      },
+      {
+        "reason": "capture",
+        "mode": "equipment",
+        "capture_ms": 0.514,
+        "change_detection_ms": 1.615,
+        "capture_deadline_miss_ms": 2.142,
+        "frame_seq": 110,
+        "capture_epoch": 8,
+        "producer_transient_roi_bytes": 1480500
+      },
+      {
+        "reason": "ocr",
+        "mode": "equipment",
+        "ocr_ms": 276.22,
+        "frame_seq": 108,
+        "capture_epoch": 8
+      },
+      {
+        "reason": "events_created",
+        "mode": "equipment"
+      },
+      {
+        "reason": "capture",
+        "mode": "equipment",
+        "capture_ms": 0.389,
+        "change_detection_ms": 1.682,
+        "capture_deadline_miss_ms": 3.27,
+        "frame_seq": 111,
+        "capture_epoch": 8,
+        "producer_transient_roi_bytes": 1480500
+      },
+      {
+        "reason": "frame_unchanged",
+        "mode": "equipment"
+      },
+      {
+        "reason": "pipeline_completed",
+        "mode": "equipment",
+        "capture_ms": 0.369,
+        "change_detection_ms": 1.583,
+        "image_queue_wait_ms": 0.01,
+        "ocr_queue_wait_ms": 111.506,
+        "stability_wait_ms": 111.496,
+        "ocr_ms": 276.22,
+        "frame_seq": 108,
+        "capture_epoch": 8,
+        "dispatch_wait_ms": 0.25,
+        "translation_queue_ms": 0.093,
+        "translation_request_ms": 141.988,
+        "postprocess_ms": 0.316,
+        "observed_worker_ms": 536.22
+      },
+      {
+        "reason": "success",
+        "mode": "equipment"
+      },
+      {
+        "reason": "ui_applied",
+        "mode": "equipment",
+        "overlay_update_ms": 2.54,
+        "observed_pipeline_ms": 540.603
+      },
+      {
+        "reason": "capture",
+        "mode": "equipment",
+        "capture_ms": 0.755,
+        "change_detection_ms": 1.949,
+        "capture_deadline_miss_ms": 2.615,
+        "frame_seq": 112,
+        "capture_epoch": 8,
+        "producer_transient_roi_bytes": 1480500
+      },
+      {
+        "reason": "frame_unchanged",
+        "mode": "equipment"
+      },
+      {
+        "reason": "capture",
+        "mode": "equipment",
+        "capture_ms": 0.43,
+        "change_detection_ms": 1.363,
+        "capture_deadline_miss_ms": 2.279,
+        "frame_seq": 113,
+        "capture_epoch": 8,
+        "producer_transient_roi_bytes": 1480500
+      },
+      {
+        "reason": "frame_unchanged",
+        "mode": "equipment"
+      },
+      {
+        "reason": "capture",
+        "mode": "equipment",
+        "capture_ms": 0.413,
+        "change_detection_ms": 1.522,
+        "capture_deadline_miss_ms": 3.382,
+        "frame_seq": 114,
+        "capture_epoch": 8,
+        "producer_transient_roi_bytes": 1480500
+      },
+      {
+        "reason": "frame_unchanged",
+        "mode": "equipment"
+      },
+      {
+        "reason": "capture",
+        "mode": "equipment",
+        "capture_ms": 0.379,
+        "change_detection_ms": 1.502,
+        "capture_deadline_miss_ms": 1.966,
+        "frame_seq": 115,
+        "capture_epoch": 8,
+        "producer_transient_roi_bytes": 1480500
+      },
+      {
+        "reason": "frame_unchanged",
+        "mode": "equipment"
+      },
+      {
+        "reason": "capture",
+        "mode": "equipment",
+        "capture_ms": 0.469,
+        "change_detection_ms": 1.657,
+        "capture_deadline_miss_ms": 1.978,
+        "frame_seq": 116,
+        "capture_epoch": 8,
+        "producer_transient_roi_bytes": 1480500
+      },
+      {
+        "reason": "frame_unchanged",
+        "mode": "equipment"
+      },
+      {
+        "reason": "capture",
+        "mode": "equipment",
+        "capture_ms": 0.56,
+        "change_detection_ms": 1.798,
+        "capture_deadline_miss_ms": 5.414,
+        "frame_seq": 117,
+        "capture_epoch": 8,
+        "producer_transient_roi_bytes": 1480500
+      },
+      {
+        "reason": "frame_unchanged",
+        "mode": "equipment"
+      },
+      {
+        "reason": "capture",
+        "mode": "equipment",
+        "capture_ms": 0.366,
+        "change_detection_ms": 1.469,
+        "capture_deadline_miss_ms": 1.241,
+        "frame_seq": 118,
+        "capture_epoch": 8,
+        "producer_transient_roi_bytes": 1480500
+      },
+      {
+        "reason": "frame_unchanged",
+        "mode": "equipment"
+      },
+      {
+        "reason": "capture",
+        "mode": "equipment",
+        "capture_ms": 0.369,
+        "change_detection_ms": 1.444,
+        "capture_deadline_miss_ms": 3.981,
+        "frame_seq": 119,
+        "capture_epoch": 8,
+        "producer_transient_roi_bytes": 1480500
+      },
+      {
+        "reason": "frame_unchanged",
+        "mode": "equipment"
+      },
+      {
+        "reason": "capture",
+        "mode": "equipment",
+        "capture_ms": 0.414,
+        "change_detection_ms": 1.432,
+        "capture_deadline_miss_ms": 2.15,
+        "frame_seq": 120,
+        "capture_epoch": 8,
+        "producer_transient_roi_bytes": 1480500
+      },
+      {
+        "reason": "frame_unchanged",
+        "mode": "equipment"
+      },
+      {
+        "reason": "capture",
+        "mode": "equipment",
+        "capture_ms": 0.391,
+        "change_detection_ms": 1.555,
+        "capture_deadline_miss_ms": 2.39,
+        "frame_seq": 121,
+        "capture_epoch": 8,
+        "producer_transient_roi_bytes": 1480500
+      },
+      {
+        "reason": "frame_unchanged",
+        "mode": "equipment"
+      },
+      {
+        "reason": "capture",
+        "mode": "equipment",
+        "capture_ms": 0.358,
+        "change_detection_ms": 1.248,
+        "capture_deadline_miss_ms": 5.267,
+        "frame_seq": 122,
+        "capture_epoch": 8,
+        "producer_transient_roi_bytes": 1480500
+      },
+      {
+        "reason": "frame_unchanged",
+        "mode": "equipment"
+      },
+      {
+        "reason": "capture",
+        "mode": "equipment",
+        "capture_ms": 0.351,
+        "change_detection_ms": 1.581,
+        "capture_deadline_miss_ms": 4.622,
+        "frame_seq": 123,
+        "capture_epoch": 9,
+        "producer_transient_roi_bytes": 1480500
+      },
+      {
+        "reason": "ocr_candidate_created",
+        "mode": "equipment",
+        "pending": 1,
+        "in_flight": 0,
+        "pending_limit": 1,
+        "epoch": 9,
+        "owned_roi_bytes": 1480500,
+        "owned_roi_peak_bytes": 2961000
+      },
+      {
+        "reason": "capture",
+        "mode": "equipment",
+        "capture_ms": 0.51,
+        "change_detection_ms": 1.623,
+        "capture_deadline_miss_ms": 9.922,
+        "frame_seq": 124,
+        "capture_epoch": 9,
+        "producer_transient_roi_bytes": 1480500
+      },
+      {
+        "reason": "ocr",
+        "mode": "equipment",
+        "ocr_ms": 156.988,
+        "frame_seq": 123,
+        "capture_epoch": 9
+      },
+      {
+        "reason": "capture",
+        "mode": "equipment",
+        "capture_ms": 0.334,
+        "change_detection_ms": 1.322,
+        "capture_deadline_miss_ms": 2.442,
+        "frame_seq": 125,
+        "capture_epoch": 9,
+        "producer_transient_roi_bytes": 1480500
+      },
+      {
+        "reason": "frame_unchanged",
+        "mode": "equipment"
+      },
+      {
+        "reason": "capture",
+        "mode": "equipment",
+        "capture_ms": 0.299,
+        "change_detection_ms": 1.291,
+        "capture_deadline_miss_ms": 4.141,
+        "frame_seq": 126,
+        "capture_epoch": 9,
+        "producer_transient_roi_bytes": 1480500
+      },
+      {
+        "reason": "frame_unchanged",
+        "mode": "equipment"
+      },
+      {
+        "reason": "capture",
+        "mode": "equipment",
+        "capture_ms": 0.345,
+        "change_detection_ms": 1.472,
+        "capture_deadline_miss_ms": 2.817,
+        "frame_seq": 127,
+        "capture_epoch": 9,
+        "producer_transient_roi_bytes": 1480500
+      },
+      {
+        "reason": "frame_unchanged",
+        "mode": "equipment"
+      }
+    ],
+    "record_limit": 128,
+    "timings": {
+      "capture_ms": {
+        "samples": 63,
+        "p50": 0.463,
+        "p95": 0.755,
+        "max": 1.37
+      },
+      "change_detection_ms": {
+        "samples": 63,
+        "p50": 1.566,
+        "p95": 1.95,
+        "max": 2.159
+      },
+      "capture_deadline_miss_ms": {
+        "samples": 60,
+        "p50": 2.817,
+        "p95": 10.613,
+        "max": 15.602
+      },
+      "ocr_ms": {
+        "samples": 7,
+        "p50": 380.022,
+        "p95": 666.97,
+        "max": 666.97
+      },
+      "image_queue_wait_ms": {
+        "samples": 3,
+        "p50": 0.01,
+        "p95": 0.01,
+        "max": 0.01
+      },
+      "ocr_queue_wait_ms": {
+        "samples": 3,
+        "p50": 109.225,
+        "p95": 109.225,
+        "max": 111.506
+      },
+      "stability_wait_ms": {
+        "samples": 3,
+        "p50": 109.215,
+        "p95": 109.215,
+        "max": 111.496
+      },
+      "dispatch_wait_ms": {
+        "samples": 3,
+        "p50": 0.127,
+        "p95": 0.127,
+        "max": 0.25
+      },
+      "translation_queue_ms": {
+        "samples": 3,
+        "p50": 0.16,
+        "p95": 0.16,
+        "max": 0.196
+      },
+      "translation_request_ms": {
+        "samples": 3,
+        "p50": 327.988,
+        "p95": 327.988,
+        "max": 849.847
+      },
+      "postprocess_ms": {
+        "samples": 3,
+        "p50": 0.416,
+        "p95": 0.416,
+        "max": 1.224
+      },
+      "observed_worker_ms": {
+        "samples": 3,
+        "p50": 824.3,
+        "p95": 824.3,
+        "max": 1634.541
+      },
+      "overlay_update_ms": {
+        "samples": 3,
+        "p50": 4.704,
+        "p95": 4.704,
+        "max": 7.757
+      },
+      "observed_pipeline_ms": {
+        "samples": 3,
+        "p50": 828.184,
+        "p95": 828.184,
+        "max": 1636.155
+      }
+    },
+    "ttft_ms": null,
+    "prefill_ms": null,
+    "decode_ms": null,
+    "text_or_images_retained": false
+  },
+  "capture_state": {
+    "pending": 0,
+    "in_flight": 0,
+    "pending_limit": 1,
+    "epoch": 9,
+    "owned_roi_bytes": 0,
+    "owned_roi_peak_bytes": 2961000
+  },
+  "stop_hid_overlay": true,
+  "completed": true,
+  "own_model_stopped": true,
+  "workers_stopped": true,
+  "capture_and_dispatchers_stopped": true,
+  "summary": {
+    "cards": 8,
+    "ocr_exact_observed": 8,
+    "complete_usable_cards": 8,
+    "mean_complete_ms": 846.04,
+    "maximum_complete_ms": 1685.54,
+    "within_700ms": 3
+  },
+  "application_source_unchanged": true
+}

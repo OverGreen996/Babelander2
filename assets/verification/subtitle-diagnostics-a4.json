@@ -1,0 +1,42 @@
+{
+  "scope": "First five rejected subtitle cues, explicit diagnostic reruns only. Excluded from original benchmark latency samples.",
+  "extra_model_requests": 5,
+  "rows": [
+    {
+      "cue_id": 1,
+      "source": "They ought to make the day the time changes the first day of summer.",
+      "raw_model_output": "他們應該將日出視為夏季的第一天。",
+      "normalized_output": "他們應該將日出視為夏季的第一天。",
+      "warning": "數值或正負號改變，已保留原文。"
+    },
+    {
+      "cue_id": 2,
+      "source": "What?",
+      "raw_model_output": "What?",
+      "normalized_output": "What?",
+      "warning": "沒有產生中文譯文，已保留原文。"
+    },
+    {
+      "cue_id": 5,
+      "source": "Now we've still got a three-hour drive back.",
+      "raw_model_output": "現在我們仍需進行三小時的車程返回。",
+      "normalized_output": "現在我們仍需進行三小時的車程返回。",
+      "warning": "數值或正負號改變，已保留原文。"
+    },
+    {
+      "cue_id": 49,
+      "source": "Johnny.",
+      "raw_model_output": "Johnny.",
+      "normalized_output": "Johnny.",
+      "warning": "沒有產生中文譯文，已保留原文。"
+    },
+    {
+      "cue_id": 58,
+      "source": "Johnny!",
+      "raw_model_output": "Johnny!",
+      "normalized_output": "Johnny!",
+      "warning": "沒有產生中文譯文，已保留原文。"
+    }
+  ],
+  "owned_model_stopped": true
+}

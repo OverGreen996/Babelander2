@@ -1,0 +1,13 @@
+{
+  "version": "2.0.0a17",
+  "passed": true,
+  "tests": 43,
+  "failures": 0,
+  "errors": 0,
+  "qt_platform": "offscreen",
+  "real_desktop_capture": false,
+  "real_model": false,
+  "paid_api": false,
+  "scope": "Synthetic concurrency/resource-policy tests. No game recall/quality or native allocation bound assertion.",
+  "details": []
+}

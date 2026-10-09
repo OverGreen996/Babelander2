@@ -1,0 +1,1357 @@
+{
+  "version": "2.0.0a21",
+  "application_sha256": {
+    "app.py": "891997819b10bb12d431986b25246913339e70cd69014fe1a8136e13d1bb0f47",
+    "assets.py": "bc9da3530b88152bb8d172741e5616510032ea7a6e2649f39a1a752dee88f42e",
+    "asset_ui.py": "c98c314c298318e801ffc016ff337c8521bac13367d0ebbe230f4f664e69719a",
+    "backends.py": "754ec21e991c083b766a99911acc96759c61874c16f1a6d33be13e584d51d3ab",
+    "capture.py": "aa2ba05263d1bdc42938f0ccd9baedd7ac678c49023b0bbf13f5078fd55d5bec",
+    "chat.py": "92850db5b4047a1d96e5da0ea86d84f3886a4ec64a062f8c050b32e05fa355b2",
+    "chat_ocr.py": "81fc5f7ab524f37989a1d61f54f0aa3ab4e3042018f7fa4ce6f37d1822970716",
+    "controller.py": "c4c49f94b6460aaf3d9ef24530677dd289e04cce3056d801736cf2eba0e819d5",
+    "engine.py": "aa9455fb84afcefcbd0a5269eef4bd50f3da0c249853e830ca3f967f4d92860b",
+    "equipment_fast_rules.py": "03f82464703190cf442007f3b4d44f4d8bf885a39641a1e36060b9251caef5d1",
+    "equipment_layout.py": "4a9e272f0b459e296aee5320d16dd1f3717ab23f64280e52de4c02e00dba36a9",
+    "equipment_lexicon.py": "793cec0949a5eacdae35af0c05d3a84fe8b356f98da54a679b3c4778fd0e23be",
+    "equipment_overlay.py": "09ab7f2628634e35dfa8d4eda3ec61f1592335b435508dc0453c67f07e006977",
+    "equipment_recovery.py": "cc2b83962fd7584453594eb466bf6944193c18230600024ee1abc4bb3382fb9f",
+    "evidence.py": "ac45a4f9ded83656246120a1982cf430542bac6c3b12370bd80bc4bc5df9dd1e",
+    "glossary.py": "1887b6df3eb833a5d510fcd61aad99f631b8f511d18d46f68391faf03b0c7a4c",
+    "language.py": "1fb8b6be99bc58c483b5cec8095088cc28e98081c25b54c990ef7896bcb0f2a3",
+    "layout.py": "27939d8c558579a2958457abfe420f7c8c804e39f21fe01225ea608cea7c6586",
+    "monitor.py": "ae8c343aa5d7ab737770e1b11b031f1d28285e3cab3f15fed74d9ffbb319d524",
+    "ocr.py": "0c7e2175ffcbc1aa2a552b6754c05a27e89a8cee5875c2c8734a009c568e69e2",
+    "pipeline.py": "36469e988e873af9cd54c2c9af107e15f28ad35d75460b717bf91c2b6624b1c6",
+    "quest_layout.py": "11725eb540c74c6b2e8a88113174cd98957a21a9b5b59dcf2c539eab4f408272",
+    "review_ui.py": "e13d0894d110c43f8f7b084fd4077cc55d5f20f0ec08e434cbb953625c56b50a",
+    "scheduler.py": "4cce01334a31035aaadd0273bee225e6698945293f044fcc02528a9c60aa0376",
+    "security.py": "191e1df1e890fac6977421935f3876c6220ef68886927bc9e43915cb2416e459",
+    "selftest.py": "c1dd54f3bdad9ce72d7bfbd67d4e0c1bcaf27175c357f4079009ed8c2e567aa1",
+    "semantic_rules.py": "c002b12a5c109878ad5cb80a958a490d7f4b8fd2a84a201e55cb7595dd3faab7",
+    "settings.py": "9ad9248ba9e7eb4f915a311f98f659a4779ed02b8ee2dbeb1d166cfc3b6491e1",
+    "soaktest.py": "db0cb127b52f3742f11e958cdb8b01d5b362f02cb990261eb4c1c3c718ff2289",
+    "storage.py": "76f4f9c4ffb39a387f2b32756ddfbfe7a2421cf1068ebd94e25cbb8d4db513de",
+    "subtitle_layout.py": "691b94f9020f082eb0cec92fae0132de6b0becfe0c95cb45989490614651ae4b",
+    "subtitle_trigger.py": "9edad1eef072d16bd6fbbc271ec00505616baf9fc6ca1ca7e1d2388beb173b7a",
+    "theme.qss": "d38bee637cd6c60297687db7e6eba25b1597a0f23024e213651deb39453ac6d6",
+    "types.py": "b4aeec870a5d46f6dafff70d1fa29e7e295427be7b648c7c74f8feb0f0712950",
+    "validation.py": "ae8dcde09a8c621f7f124ebc23662d450a8b906e6692eda09f3349c3c1396b86",
+    "widgets.py": "3ad97215a30cf248f051527ceea93e48a0cd0037489a9caf040d47bda26ddfbd",
+    "window.py": "c1fc7c072df83796f862f9cfeb8b0675f608aca4b024f11d82942972be25d584",
+    "windows.py": "7195ffb79a16a83c70591f61f6f5ce70da982c93256edef1b19a3c177011265f",
+    "window_focus.py": "75bc4ee546a6b1fd50bc7e2a225f65305303122a1f83ed87786fc451cf4a58bf",
+    "__init__.py": "6272d8135d9b74b7b70ba900ffa5bd8ecf51344e3ce8cd53d7e4ec1051769442"
+  },
+  "foreground_control_calls": 0,
+  "real_desktop_capture": false,
+  "qt_platform": "offscreen",
+  "real_cpu_ocr": true,
+  "real_local_model": true,
+  "results": [
+    {
+      "phase": "sequential",
+      "mode": "dialog",
+      "generation": 1,
+      "event_id": 1,
+      "worker_ms": 1041.8727000069339,
+      "translations": [
+        {
+          "source": "Do not cross the river yet.",
+          "target": "暫時不要越過河流。",
+          "provider": "local",
+          "origin": "詞庫／完整規則",
+          "warning": "",
+          "cache_hit": false,
+          "model_ms": 0,
+          "ocr_confidence": 0.99962,
+          "queue_ms": 0.06479999865405262,
+          "postprocess_ms": 0,
+          "backend_state": "none"
+        }
+      ]
+    },
+    {
+      "phase": "sequential",
+      "mode": "equipment",
+      "generation": 1,
+      "event_id": 0,
+      "worker_ms": 245.4695000196807,
+      "translations": [
+        {
+          "source": "Rare Shield",
+          "target": "稀有盾牌",
+          "provider": "local",
+          "origin": "詞庫／完整規則",
+          "warning": "",
+          "cache_hit": false,
+          "model_ms": 0,
+          "ocr_confidence": 0.95582,
+          "queue_ms": 0.07650000043213367,
+          "postprocess_ms": 0,
+          "backend_state": "none"
+        },
+        {
+          "source": "Gain +18% Fire Resistance for 7 seconds.",
+          "target": "獲得 +18% 火焰抗性，持續 7 秒。",
+          "provider": "local",
+          "origin": "詞庫／完整規則",
+          "warning": "",
+          "cache_hit": false,
+          "model_ms": 0,
+          "ocr_confidence": 0.99023,
+          "queue_ms": 0.03739999374374747,
+          "postprocess_ms": 0,
+          "backend_state": "none"
+        }
+      ]
+    },
+    {
+      "phase": "sequential",
+      "mode": "quest",
+      "generation": 1,
+      "event_id": 0,
+      "worker_ms": 272.7125000092201,
+      "translations": [
+        {
+          "source": "Objectives",
+          "target": "任務目標",
+          "provider": "local",
+          "origin": "詞庫／完整規則",
+          "warning": "",
+          "cache_hit": false,
+          "model_ms": 0,
+          "ocr_confidence": 0.99995,
+          "queue_ms": 0.1474000164307654,
+          "postprocess_ms": 0,
+          "backend_state": "none"
+        },
+        {
+          "source": "Collect 5 crystals.",
+          "target": "收集 5 塊晶體。",
+          "provider": "local",
+          "origin": "本機模型",
+          "warning": "",
+          "cache_hit": false,
+          "model_ms": 114.82550000073388,
+          "ocr_confidence": 0.9971,
+          "queue_ms": 0.06049999501556158,
+          "postprocess_ms": 0.149500003317371,
+          "backend_state": "warm"
+        },
+        {
+          "source": "0/5",
+          "target": "0/5",
+          "provider": "local",
+          "origin": "保留既有文字",
+          "warning": "",
+          "cache_hit": false,
+          "model_ms": 0,
+          "ocr_confidence": 0.97313,
+          "queue_ms": 0.04810001701116562,
+          "postprocess_ms": 0,
+          "backend_state": "none"
+        }
+      ]
+    },
+    {
+      "phase": "sequential",
+      "mode": "chat",
+      "generation": 1,
+      "event_id": 2,
+      "worker_ms": 412.4602999945637,
+      "translations": [
+        {
+          "source": "[Party] Rin: I need potions X6.",
+          "target": "[Party] Rin: 我需要 藥水 X6。",
+          "provider": "local",
+          "origin": "本機模型",
+          "warning": "",
+          "cache_hit": false,
+          "model_ms": 132.78770001488738,
+          "ocr_confidence": 0.9997,
+          "queue_ms": 0.12599999899975955,
+          "postprocess_ms": 0.5995000246912241,
+          "backend_state": "warm"
+        },
+        {
+          "source": "[Party] Kai: GG",
+          "target": "[Party] Kai: GG",
+          "provider": "local",
+          "origin": "詞庫／完整規則",
+          "warning": "",
+          "cache_hit": false,
+          "model_ms": 0,
+          "ocr_confidence": 0.98329,
+          "queue_ms": 0.10679999832063913,
+          "postprocess_ms": 0,
+          "backend_state": "none"
+        }
+      ]
+    },
+    {
+      "phase": "sequential",
+      "mode": "chat",
+      "generation": 1,
+      "event_id": 3,
+      "worker_ms": 416.16890000295825,
+      "translations": [
+        {
+          "source": "[Party] Jo: Do not start the raid yet.",
+          "target": "[Party] Jo: 暫時不要開始團隊副本。",
+          "provider": "local",
+          "origin": "詞庫／完整規則",
+          "warning": "",
+          "cache_hit": false,
+          "model_ms": 0,
+          "ocr_confidence": 0.99375,
+          "queue_ms": 0.07249999907799065,
+          "postprocess_ms": 0,
+          "backend_state": "none"
+        }
+      ]
+    },
+    {
+      "phase": "sequential",
+      "mode": "reply",
+      "generation": 1,
+      "event_id": 0,
+      "worker_ms": 99.56010000314564,
+      "translations": [
+        {
+          "source": "我需要6瓶藥水，請等我。",
+          "target": "I need 6 potions, please wait.",
+          "provider": "local",
+          "origin": "本機模型",
+          "warning": "",
+          "cache_hit": false,
+          "model_ms": 98.85780001059175,
+          "ocr_confidence": null,
+          "queue_ms": 0.08070000330917537,
+          "postprocess_ms": 0.14409999130293727,
+          "backend_state": "warm"
+        }
+      ]
+    },
+    {
+      "phase": "sequential",
+      "mode": "screen",
+      "generation": 1,
+      "event_id": 0,
+      "worker_ms": 348.62919998704456,
+      "translations": [
+        {
+          "source": "System Update Restart in 6 minutes. Do not close this window.",
+          "target": "系統更新重啟將在6分鐘後進行。請勿關閉此視窗。",
+          "provider": "local",
+          "origin": "本機模型",
+          "warning": "",
+          "cache_hit": false,
+          "model_ms": 147.39619998726994,
+          "ocr_confidence": 0.99992,
+          "queue_ms": 0.1238000113517046,
+          "postprocess_ms": 0.4243000003043562,
+          "backend_state": "warm"
+        }
+      ]
+    },
+    {
+      "phase": "concurrent",
+      "mode": "chat",
+      "generation": 3,
+      "event_id": 6,
+      "worker_ms": 220.77580000041053,
+      "translations": [
+        {
+          "source": "[Party] Rin: I need potions X6.",
+          "target": "[Party] Rin: 我需要 藥水 X6。",
+          "provider": "local",
+          "origin": "本機模型",
+          "warning": "",
+          "cache_hit": true,
+          "model_ms": 0,
+          "ocr_confidence": 0.9997,
+          "queue_ms": 0,
+          "postprocess_ms": 0,
+          "backend_state": "cache"
+        },
+        {
+          "source": "[Party] Kai: GG",
+          "target": "[Party] Kai: GG",
+          "provider": "local",
+          "origin": "詞庫／完整規則",
+          "warning": "",
+          "cache_hit": true,
+          "model_ms": 0,
+          "ocr_confidence": 0.98329,
+          "queue_ms": 0,
+          "postprocess_ms": 0,
+          "backend_state": "cache"
+        },
+        {
+          "source": "[Party] Jo: Do not start the raid yet.",
+          "target": "[Party] Jo: 暫時不要開始團隊副本。",
+          "provider": "local",
+          "origin": "詞庫／完整規則",
+          "warning": "",
+          "cache_hit": true,
+          "model_ms": 0,
+          "ocr_confidence": 0.99375,
+          "queue_ms": 0,
+          "postprocess_ms": 0,
+          "backend_state": "cache"
+        }
+      ]
+    },
+    {
+      "phase": "concurrent",
+      "mode": "dialog",
+      "generation": 3,
+      "event_id": 2,
+      "worker_ms": 297.30159998871386,
+      "translations": [
+        {
+          "source": "Do not cross the river yet.",
+          "target": "暫時不要越過河流。",
+          "provider": "local",
+          "origin": "詞庫／完整規則",
+          "warning": "",
+          "cache_hit": true,
+          "model_ms": 0,
+          "ocr_confidence": 0.99962,
+          "queue_ms": 0,
+          "postprocess_ms": 0,
+          "backend_state": "cache"
+        }
+      ]
+    },
+    {
+      "phase": "concurrent",
+      "mode": "equipment",
+      "generation": 3,
+      "event_id": 0,
+      "worker_ms": 459.3784000026062,
+      "translations": [
+        {
+          "source": "Rare Shield",
+          "target": "稀有盾牌",
+          "provider": "local",
+          "origin": "詞庫／完整規則",
+          "warning": "",
+          "cache_hit": true,
+          "model_ms": 0,
+          "ocr_confidence": 0.95582,
+          "queue_ms": 0,
+          "postprocess_ms": 0,
+          "backend_state": "cache"
+        },
+        {
+          "source": "Gain +18% Fire Resistance for 7 seconds.",
+          "target": "獲得 +18% 火焰抗性，持續 7 秒。",
+          "provider": "local",
+          "origin": "詞庫／完整規則",
+          "warning": "",
+          "cache_hit": true,
+          "model_ms": 0,
+          "ocr_confidence": 0.99023,
+          "queue_ms": 0,
+          "postprocess_ms": 0,
+          "backend_state": "cache"
+        }
+      ]
+    },
+    {
+      "phase": "concurrent",
+      "mode": "quest",
+      "generation": 3,
+      "event_id": 0,
+      "worker_ms": 586.4971000119112,
+      "translations": [
+        {
+          "source": "Objectives",
+          "target": "任務目標",
+          "provider": "local",
+          "origin": "詞庫／完整規則",
+          "warning": "",
+          "cache_hit": true,
+          "model_ms": 0,
+          "ocr_confidence": 0.99995,
+          "queue_ms": 0,
+          "postprocess_ms": 0,
+          "backend_state": "cache"
+        },
+        {
+          "source": "Collect 5 crystals.",
+          "target": "收集 5 塊晶體。",
+          "provider": "local",
+          "origin": "本機模型",
+          "warning": "",
+          "cache_hit": true,
+          "model_ms": 0,
+          "ocr_confidence": 0.9971,
+          "queue_ms": 0,
+          "postprocess_ms": 0,
+          "backend_state": "cache"
+        },
+        {
+          "source": "0/5",
+          "target": "0/5",
+          "provider": "local",
+          "origin": "保留既有文字",
+          "warning": "",
+          "cache_hit": true,
+          "model_ms": 0,
+          "ocr_confidence": 0.97313,
+          "queue_ms": 0,
+          "postprocess_ms": 0,
+          "backend_state": "cache"
+        }
+      ]
+    },
+    {
+      "phase": "concurrent",
+      "mode": "reply",
+      "generation": 3,
+      "event_id": 0,
+      "worker_ms": 0.13080000644549727,
+      "translations": [
+        {
+          "source": "我需要6瓶藥水，請等我。",
+          "target": "I need 6 potions, please wait.",
+          "provider": "local",
+          "origin": "本機模型",
+          "warning": "",
+          "cache_hit": true,
+          "model_ms": 0,
+          "ocr_confidence": null,
+          "queue_ms": 0,
+          "postprocess_ms": 0,
+          "backend_state": "cache"
+        }
+      ]
+    },
+    {
+      "phase": "concurrent",
+      "mode": "screen",
+      "generation": 3,
+      "event_id": 0,
+      "worker_ms": 264.90039998316206,
+      "translations": [
+        {
+          "source": "System Update Restart in 6 minutes. Do not close this window.",
+          "target": "系統更新重啟將在6分鐘後進行。請勿關閉此視窗。",
+          "provider": "local",
+          "origin": "本機模型",
+          "warning": "",
+          "cache_hit": true,
+          "model_ms": 0,
+          "ocr_confidence": 0.99992,
+          "queue_ms": 0,
+          "postprocess_ms": 0,
+          "backend_state": "cache"
+        }
+      ]
+    }
+  ],
+  "checks": {
+    "sequential_dialog": true,
+    "sequential_equipment": true,
+    "equipment_single_capture": true,
+    "equipment_original_roi": true,
+    "sequential_quest": true,
+    "quest_single_capture": true,
+    "quest_original_roi": true,
+    "sequential_chat": true,
+    "sequential_reply": true,
+    "sequential_screen": true,
+    "concurrent_dialog": true,
+    "concurrent_equipment": true,
+    "concurrent_quest": true,
+    "concurrent_chat": true,
+    "concurrent_reply": true,
+    "concurrent_screen": true,
+    "concurrent_reused_one_model": true,
+    "stop_removed_capture_and_dispatch": true,
+    "stopped_overlays_hidden": true,
+    "owned_inflight_failure_reported": true,
+    "failure_did_not_deadlock": true,
+    "request_after_crash_recovered": true,
+    "private_history_empty": true,
+    "private_cache_empty": true,
+    "volatile_cache_bounded": true,
+    "owned_models_stopped": true,
+    "workers_stopped": true,
+    "resource_release_worker_stopped": true
+  },
+  "errors": [],
+  "quality_cases": [
+    {
+      "source": "Party full?",
+      "target": "隊伍滿了嗎？",
+      "provider": "local",
+      "origin": "詞庫／完整規則",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 0,
+      "ocr_confidence": null,
+      "queue_ms": 0.04290000651963055,
+      "postprocess_ms": 0,
+      "backend_state": "none",
+      "required_marker": "隊伍",
+      "critical_marker_passed": true
+    },
+    {
+      "source": "Save one potion for me.",
+      "target": "留一個藥水給我。",
+      "provider": "local",
+      "origin": "詞庫／完整規則",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 0,
+      "ocr_confidence": null,
+      "queue_ms": 0.05370000144466758,
+      "postprocess_ms": 0,
+      "backend_state": "none",
+      "required_marker": "留",
+      "critical_marker_passed": true
+    },
+    {
+      "source": "Focus the healer first.",
+      "target": "優先集火補師。",
+      "provider": "local",
+      "origin": "詞庫／完整規則",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 0,
+      "ocr_confidence": null,
+      "queue_ms": 0.06250001024454832,
+      "postprocess_ms": 0,
+      "backend_state": "none",
+      "required_marker": "先|優先",
+      "critical_marker_passed": true
+    },
+    {
+      "source": "Do not open the gate yet.",
+      "target": "暫時不要開啟大門。",
+      "provider": "local",
+      "origin": "詞庫／完整規則",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 0,
+      "ocr_confidence": null,
+      "queue_ms": 0.0577000027988106,
+      "postprocess_ms": 0,
+      "backend_state": "none",
+      "required_marker": "不|勿|別",
+      "critical_marker_passed": true
+    },
+    {
+      "source": "Can we pause for 2 minutes?",
+      "target": "我們可以暫停2分鐘嗎？",
+      "provider": "local",
+      "origin": "詞庫／完整規則",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 0,
+      "ocr_confidence": null,
+      "queue_ms": 0.05479998071677983,
+      "postprocess_ms": 0,
+      "backend_state": "none",
+      "required_marker": "2|兩|二",
+      "critical_marker_passed": true
+    },
+    {
+      "source": "I need potions X5.",
+      "target": "我需要 藥水 X5。",
+      "provider": "local",
+      "origin": "本機模型",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 112.59780000546016,
+      "ocr_confidence": null,
+      "queue_ms": 0.05679999594576657,
+      "postprocess_ms": 0.13979998766444623,
+      "backend_state": "warm",
+      "required_marker": "5",
+      "critical_marker_passed": true
+    },
+    {
+      "source": "I need potions X6.",
+      "target": "我需要 藥水 X6。",
+      "provider": "local",
+      "origin": "本機模型",
+      "warning": "",
+      "cache_hit": true,
+      "model_ms": 0,
+      "ocr_confidence": null,
+      "queue_ms": 0,
+      "postprocess_ms": 0,
+      "backend_state": "cache",
+      "required_marker": "6",
+      "critical_marker_passed": true
+    },
+    {
+      "source": "GG",
+      "target": "GG",
+      "provider": "local",
+      "origin": "詞庫／完整規則",
+      "warning": "",
+      "cache_hit": true,
+      "model_ms": 0,
+      "ocr_confidence": null,
+      "queue_ms": 0,
+      "postprocess_ms": 0,
+      "backend_state": "cache",
+      "required_marker": "^GG$",
+      "critical_marker_passed": true
+    }
+  ],
+  "scope": "Synthetic all-mode integration and deliberate failure of the owned model only; no real game/FPS claim.",
+  "cuda_offload_confirmed": true,
+  "privacy": {
+    "chat_reply_history_rows": 0,
+    "chat_reply_cache_rows": 0,
+    "volatile_entries": 4
+  },
+  "quality_marker_passed": true,
+  "metrics": {
+    "counts": {
+      "capture": 19,
+      "ocr_candidate_created": 2,
+      "ocr": 4,
+      "frame_unchanged": 6,
+      "events_created": 8,
+      "pipeline_completed": 16,
+      "success": 8,
+      "ui_applied": 13,
+      "chat_recognition": 2,
+      "cache_hit": 4
+    },
+    "recent": [
+      {
+        "reason": "capture",
+        "mode": "dialog",
+        "capture_ms": 0.192,
+        "change_detection_ms": 0.906,
+        "capture_deadline_miss_ms": 0,
+        "frame_seq": 1,
+        "capture_epoch": 1,
+        "producer_transient_roi_bytes": 510000
+      },
+      {
+        "reason": "ocr_candidate_created",
+        "mode": "dialog",
+        "pending": 1,
+        "in_flight": 0,
+        "pending_limit": 1,
+        "epoch": 1,
+        "owned_roi_bytes": 510000,
+        "owned_roi_peak_bytes": 510000
+      },
+      {
+        "reason": "capture",
+        "mode": "dialog",
+        "capture_ms": 0.196,
+        "change_detection_ms": 1.088,
+        "capture_deadline_miss_ms": 5.626,
+        "frame_seq": 2,
+        "capture_epoch": 1,
+        "producer_transient_roi_bytes": 510000
+      },
+      {
+        "reason": "capture",
+        "mode": "dialog",
+        "capture_ms": 8.271,
+        "change_detection_ms": 62.365,
+        "capture_deadline_miss_ms": 15.054,
+        "frame_seq": 3,
+        "capture_epoch": 1,
+        "producer_transient_roi_bytes": 510000
+      },
+      {
+        "reason": "capture",
+        "mode": "dialog",
+        "capture_ms": 0.487,
+        "change_detection_ms": 1.177,
+        "capture_deadline_miss_ms": 17.339,
+        "frame_seq": 4,
+        "capture_epoch": 1,
+        "producer_transient_roi_bytes": 510000
+      },
+      {
+        "reason": "capture",
+        "mode": "dialog",
+        "capture_ms": 0.28,
+        "change_detection_ms": 1.065,
+        "capture_deadline_miss_ms": 11.086,
+        "frame_seq": 5,
+        "capture_epoch": 1,
+        "producer_transient_roi_bytes": 510000
+      },
+      {
+        "reason": "capture",
+        "mode": "dialog",
+        "capture_ms": 6.404,
+        "change_detection_ms": 0.99,
+        "capture_deadline_miss_ms": 22.848,
+        "frame_seq": 6,
+        "capture_epoch": 1,
+        "producer_transient_roi_bytes": 510000
+      },
+      {
+        "reason": "capture",
+        "mode": "dialog",
+        "capture_ms": 2.746,
+        "change_detection_ms": 1.34,
+        "capture_deadline_miss_ms": 80.413,
+        "frame_seq": 7,
+        "capture_epoch": 1,
+        "producer_transient_roi_bytes": 510000
+      },
+      {
+        "reason": "capture",
+        "mode": "dialog",
+        "capture_ms": 4.948,
+        "change_detection_ms": 0.953,
+        "capture_deadline_miss_ms": 81.189,
+        "frame_seq": 8,
+        "capture_epoch": 1,
+        "producer_transient_roi_bytes": 510000
+      },
+      {
+        "reason": "ocr",
+        "mode": "dialog",
+        "ocr_ms": 1030.904,
+        "ocr_queue_wait_ms": 0.118,
+        "frame_seq": 1,
+        "capture_epoch": 1
+      },
+      {
+        "reason": "capture",
+        "mode": "dialog",
+        "capture_ms": 0.116,
+        "change_detection_ms": 0.799,
+        "capture_deadline_miss_ms": 0.122,
+        "frame_seq": 9,
+        "capture_epoch": 1,
+        "producer_transient_roi_bytes": 510000
+      },
+      {
+        "reason": "frame_unchanged",
+        "mode": "dialog"
+      },
+      {
+        "reason": "events_created",
+        "mode": "dialog"
+      },
+      {
+        "reason": "pipeline_completed",
+        "mode": "dialog",
+        "capture_ms": 0.192,
+        "change_detection_ms": 0.906,
+        "image_queue_wait_ms": 0.005,
+        "ocr_queue_wait_ms": 0.118,
+        "ocr_ms": 1030.904,
+        "capture_observed_at": 182976.838,
+        "ocr_started_at": 182976.84,
+        "ocr_completed_at": 182977.871,
+        "frame_seq": 1,
+        "capture_epoch": 1,
+        "stability_wait_ms": 2.56,
+        "confirmation_captured_at": 182977.872,
+        "dispatch_wait_ms": 0.069,
+        "translation_queue_ms": 0.065,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0,
+        "observed_worker_ms": 1041.873
+      },
+      {
+        "reason": "success",
+        "mode": "dialog"
+      },
+      {
+        "reason": "ui_applied",
+        "mode": "dialog",
+        "overlay_update_ms": 10.211,
+        "observed_pipeline_ms": 1047.183
+      },
+      {
+        "reason": "pipeline_completed",
+        "mode": "equipment",
+        "image_queue_wait_ms": 0.006,
+        "capture_ms": 0.106,
+        "ocr_ms": 216.711,
+        "translation_queue_ms": 0.114,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0,
+        "observed_worker_ms": 245.47
+      },
+      {
+        "reason": "ui_applied",
+        "mode": "equipment",
+        "overlay_update_ms": 3.085,
+        "observed_pipeline_ms": 247.671
+      },
+      {
+        "reason": "pipeline_completed",
+        "mode": "quest",
+        "image_queue_wait_ms": 0.005,
+        "capture_ms": 0.091,
+        "ocr_ms": 146.5,
+        "translation_queue_ms": 0.256,
+        "translation_request_ms": 114.826,
+        "postprocess_ms": 0.15,
+        "observed_worker_ms": 272.713
+      },
+      {
+        "reason": "ui_applied",
+        "mode": "quest",
+        "overlay_update_ms": 1.934,
+        "observed_pipeline_ms": 278.031
+      },
+      {
+        "reason": "capture",
+        "mode": "chat",
+        "capture_ms": 0.116
+      },
+      {
+        "reason": "ocr",
+        "mode": "chat",
+        "ocr_ms": 250.459
+      },
+      {
+        "reason": "chat_recognition",
+        "mode": "chat",
+        "crops": 3,
+        "reused": 0,
+        "inferred": 3,
+        "context_crops": 0,
+        "fallback": 0,
+        "region_reused": 0
+      },
+      {
+        "reason": "events_created",
+        "mode": "chat"
+      },
+      {
+        "reason": "events_created",
+        "mode": "chat"
+      },
+      {
+        "reason": "events_created",
+        "mode": "chat"
+      },
+      {
+        "reason": "pipeline_completed",
+        "mode": "chat",
+        "capture_ms": 0.116,
+        "change_detection_ms": 0.501,
+        "image_queue_wait_ms": 0.005,
+        "ocr_ms": 250.459,
+        "dispatch_wait_ms": 0.114,
+        "translation_queue_ms": 0.126,
+        "translation_request_ms": 132.788,
+        "postprocess_ms": 0.6,
+        "observed_worker_ms": 407.348
+      },
+      {
+        "reason": "success",
+        "mode": "chat"
+      },
+      {
+        "reason": "pipeline_completed",
+        "mode": "chat",
+        "capture_ms": 0.116,
+        "change_detection_ms": 0.501,
+        "image_queue_wait_ms": 0.005,
+        "ocr_ms": 250.459,
+        "dispatch_wait_ms": 154.722,
+        "translation_queue_ms": 0.107,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0,
+        "observed_worker_ms": 412.46
+      },
+      {
+        "reason": "success",
+        "mode": "chat"
+      },
+      {
+        "reason": "pipeline_completed",
+        "mode": "chat",
+        "capture_ms": 0.116,
+        "change_detection_ms": 0.501,
+        "image_queue_wait_ms": 0.005,
+        "ocr_ms": 250.459,
+        "dispatch_wait_ms": 159.661,
+        "translation_queue_ms": 0.072,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0,
+        "observed_worker_ms": 416.169
+      },
+      {
+        "reason": "success",
+        "mode": "chat"
+      },
+      {
+        "reason": "ui_applied",
+        "mode": "chat",
+        "overlay_update_ms": 6.547,
+        "observed_pipeline_ms": 413.358
+      },
+      {
+        "reason": "ui_applied",
+        "mode": "chat",
+        "overlay_update_ms": 1.201,
+        "observed_pipeline_ms": 428.483
+      },
+      {
+        "reason": "pipeline_completed",
+        "mode": "reply",
+        "translation_queue_ms": 0.081,
+        "translation_request_ms": 98.858,
+        "postprocess_ms": 0.144,
+        "observed_worker_ms": 99.56
+      },
+      {
+        "reason": "ui_applied",
+        "mode": "reply",
+        "overlay_update_ms": 0.473,
+        "observed_pipeline_ms": 104.945
+      },
+      {
+        "reason": "pipeline_completed",
+        "mode": "screen",
+        "image_queue_wait_ms": 0.006,
+        "capture_ms": 0.121,
+        "ocr_ms": 197.596,
+        "translation_queue_ms": 0.124,
+        "translation_request_ms": 147.396,
+        "postprocess_ms": 0.424,
+        "observed_worker_ms": 348.629
+      },
+      {
+        "reason": "ui_applied",
+        "mode": "screen",
+        "overlay_update_ms": 7.222,
+        "observed_pipeline_ms": 353.187
+      },
+      {
+        "reason": "capture",
+        "mode": "chat",
+        "capture_ms": 0.253
+      },
+      {
+        "reason": "capture",
+        "mode": "dialog",
+        "capture_ms": 1.711,
+        "change_detection_ms": 1.585,
+        "capture_deadline_miss_ms": 0,
+        "frame_seq": 1,
+        "capture_epoch": 1,
+        "producer_transient_roi_bytes": 510000
+      },
+      {
+        "reason": "ocr_candidate_created",
+        "mode": "dialog",
+        "pending": 1,
+        "in_flight": 0,
+        "pending_limit": 1,
+        "epoch": 1,
+        "owned_roi_bytes": 510000,
+        "owned_roi_peak_bytes": 510000
+      },
+      {
+        "reason": "capture",
+        "mode": "dialog",
+        "capture_ms": 0.236,
+        "change_detection_ms": 1.617,
+        "capture_deadline_miss_ms": 10.308,
+        "frame_seq": 2,
+        "capture_epoch": 1,
+        "producer_transient_roi_bytes": 510000
+      },
+      {
+        "reason": "ocr",
+        "mode": "chat",
+        "ocr_ms": 214.938
+      },
+      {
+        "reason": "chat_recognition",
+        "mode": "chat",
+        "crops": 3,
+        "reused": 0,
+        "inferred": 3,
+        "context_crops": 0,
+        "fallback": 0,
+        "region_reused": 0
+      },
+      {
+        "reason": "events_created",
+        "mode": "chat"
+      },
+      {
+        "reason": "events_created",
+        "mode": "chat"
+      },
+      {
+        "reason": "events_created",
+        "mode": "chat"
+      },
+      {
+        "reason": "pipeline_completed",
+        "mode": "chat",
+        "capture_ms": 0.253,
+        "change_detection_ms": 1.035,
+        "image_queue_wait_ms": 0.007,
+        "ocr_ms": 214.938,
+        "dispatch_wait_ms": 1.147,
+        "translation_queue_ms": 0,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0,
+        "observed_worker_ms": 219.263
+      },
+      {
+        "reason": "success",
+        "mode": "chat"
+      },
+      {
+        "reason": "cache_hit",
+        "mode": "chat"
+      },
+      {
+        "reason": "pipeline_completed",
+        "mode": "chat",
+        "capture_ms": 0.253,
+        "change_detection_ms": 1.035,
+        "image_queue_wait_ms": 0.007,
+        "ocr_ms": 214.938,
+        "dispatch_wait_ms": 1.565,
+        "translation_queue_ms": 0,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0,
+        "observed_worker_ms": 220.265
+      },
+      {
+        "reason": "success",
+        "mode": "chat"
+      },
+      {
+        "reason": "cache_hit",
+        "mode": "chat"
+      },
+      {
+        "reason": "pipeline_completed",
+        "mode": "chat",
+        "capture_ms": 0.253,
+        "change_detection_ms": 1.035,
+        "image_queue_wait_ms": 0.007,
+        "ocr_ms": 214.938,
+        "dispatch_wait_ms": 2.559,
+        "translation_queue_ms": 0,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0,
+        "observed_worker_ms": 220.776
+      },
+      {
+        "reason": "success",
+        "mode": "chat"
+      },
+      {
+        "reason": "cache_hit",
+        "mode": "chat"
+      },
+      {
+        "reason": "ui_applied",
+        "mode": "chat",
+        "overlay_update_ms": 1.22,
+        "observed_pipeline_ms": 221.777
+      },
+      {
+        "reason": "capture",
+        "mode": "dialog",
+        "capture_ms": 0.326,
+        "change_detection_ms": 1.016,
+        "capture_deadline_miss_ms": 10.974,
+        "frame_seq": 3,
+        "capture_epoch": 1,
+        "producer_transient_roi_bytes": 510000
+      },
+      {
+        "reason": "ocr",
+        "mode": "dialog",
+        "ocr_ms": 75.545,
+        "ocr_queue_wait_ms": 213.529,
+        "frame_seq": 1,
+        "capture_epoch": 1
+      },
+      {
+        "reason": "capture",
+        "mode": "dialog",
+        "capture_ms": 0.069,
+        "change_detection_ms": 1.298,
+        "capture_deadline_miss_ms": 0,
+        "frame_seq": 4,
+        "capture_epoch": 1,
+        "producer_transient_roi_bytes": 510000
+      },
+      {
+        "reason": "frame_unchanged",
+        "mode": "dialog"
+      },
+      {
+        "reason": "events_created",
+        "mode": "dialog"
+      },
+      {
+        "reason": "pipeline_completed",
+        "mode": "dialog",
+        "capture_ms": 1.711,
+        "change_detection_ms": 1.585,
+        "image_queue_wait_ms": 213.385,
+        "ocr_queue_wait_ms": 213.529,
+        "ocr_ms": 75.545,
+        "capture_observed_at": 182979.464,
+        "ocr_started_at": 182979.681,
+        "ocr_completed_at": 182979.756,
+        "frame_seq": 1,
+        "capture_epoch": 1,
+        "stability_wait_ms": 3.472,
+        "confirmation_captured_at": 182979.758,
+        "dispatch_wait_ms": 0.088,
+        "translation_queue_ms": 0,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0,
+        "observed_worker_ms": 297.302
+      },
+      {
+        "reason": "success",
+        "mode": "dialog"
+      },
+      {
+        "reason": "cache_hit",
+        "mode": "dialog"
+      },
+      {
+        "reason": "ui_applied",
+        "mode": "dialog",
+        "overlay_update_ms": 0.659,
+        "observed_pipeline_ms": 300.302
+      },
+      {
+        "reason": "capture",
+        "mode": "dialog",
+        "capture_ms": 0.259,
+        "change_detection_ms": 0.738,
+        "capture_deadline_miss_ms": 13.601,
+        "frame_seq": 5,
+        "capture_epoch": 1,
+        "producer_transient_roi_bytes": 510000
+      },
+      {
+        "reason": "frame_unchanged",
+        "mode": "dialog"
+      },
+      {
+        "reason": "pipeline_completed",
+        "mode": "equipment",
+        "image_queue_wait_ms": 294.172,
+        "capture_ms": 0.133,
+        "ocr_ms": 153.207,
+        "translation_queue_ms": 0,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0,
+        "observed_worker_ms": 459.378
+      },
+      {
+        "reason": "ui_applied",
+        "mode": "equipment",
+        "overlay_update_ms": 1.517,
+        "observed_pipeline_ms": 463.36
+      },
+      {
+        "reason": "capture",
+        "mode": "dialog",
+        "capture_ms": 0.409,
+        "change_detection_ms": 1.91,
+        "capture_deadline_miss_ms": 7.589,
+        "frame_seq": 6,
+        "capture_epoch": 1,
+        "producer_transient_roi_bytes": 510000
+      },
+      {
+        "reason": "frame_unchanged",
+        "mode": "dialog"
+      },
+      {
+        "reason": "pipeline_completed",
+        "mode": "quest",
+        "image_queue_wait_ms": 454.709,
+        "capture_ms": 0.209,
+        "ocr_ms": 119.27,
+        "translation_queue_ms": 0,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0,
+        "observed_worker_ms": 586.497
+      },
+      {
+        "reason": "pipeline_completed",
+        "mode": "reply",
+        "translation_queue_ms": 0,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0,
+        "observed_worker_ms": 0.131
+      },
+      {
+        "reason": "ui_applied",
+        "mode": "quest",
+        "overlay_update_ms": 0.973,
+        "observed_pipeline_ms": 588.458
+      },
+      {
+        "reason": "ui_applied",
+        "mode": "reply",
+        "overlay_update_ms": 0.198,
+        "observed_pipeline_ms": 3.371
+      },
+      {
+        "reason": "capture",
+        "mode": "dialog",
+        "capture_ms": 0.221,
+        "change_detection_ms": 0.579,
+        "capture_deadline_miss_ms": 8.877,
+        "frame_seq": 7,
+        "capture_epoch": 1,
+        "producer_transient_roi_bytes": 510000
+      },
+      {
+        "reason": "frame_unchanged",
+        "mode": "dialog"
+      },
+      {
+        "reason": "pipeline_completed",
+        "mode": "screen",
+        "image_queue_wait_ms": 123.058,
+        "capture_ms": 0.143,
+        "ocr_ms": 139.853,
+        "translation_queue_ms": 0,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0,
+        "observed_worker_ms": 264.9
+      },
+      {
+        "reason": "ui_applied",
+        "mode": "screen",
+        "overlay_update_ms": 0.714,
+        "observed_pipeline_ms": 266.403
+      },
+      {
+        "reason": "capture",
+        "mode": "dialog",
+        "capture_ms": 0.109,
+        "change_detection_ms": 0.711,
+        "capture_deadline_miss_ms": 7.636,
+        "frame_seq": 8,
+        "capture_epoch": 1,
+        "producer_transient_roi_bytes": 510000
+      },
+      {
+        "reason": "frame_unchanged",
+        "mode": "dialog"
+      }
+    ],
+    "record_limit": 128,
+    "timings": {
+      "capture_ms": {
+        "samples": 33,
+        "p50": 0.221,
+        "p95": 4.948,
+        "max": 8.271
+      },
+      "change_detection_ms": {
+        "samples": 25,
+        "p50": 1.035,
+        "p95": 1.617,
+        "max": 62.365
+      },
+      "capture_deadline_miss_ms": {
+        "samples": 17,
+        "p50": 10.308,
+        "p95": 80.413,
+        "max": 81.189
+      },
+      "ocr_ms": {
+        "samples": 18,
+        "p50": 214.938,
+        "p95": 1030.904,
+        "max": 1030.904
+      },
+      "ocr_queue_wait_ms": {
+        "samples": 4,
+        "p50": 0.118,
+        "p95": 213.529,
+        "max": 213.529
+      },
+      "image_queue_wait_ms": {
+        "samples": 14,
+        "p50": 0.006,
+        "p95": 294.172,
+        "max": 454.709
+      },
+      "stability_wait_ms": {
+        "samples": 2,
+        "p50": 2.56,
+        "p95": 2.56,
+        "max": 3.472
+      },
+      "dispatch_wait_ms": {
+        "samples": 8,
+        "p50": 1.147,
+        "p95": 154.722,
+        "max": 159.661
+      },
+      "translation_queue_ms": {
+        "samples": 16,
+        "p50": 0,
+        "p95": 0.126,
+        "max": 0.256
+      },
+      "translation_request_ms": {
+        "samples": 16,
+        "p50": 0,
+        "p95": 132.788,
+        "max": 147.396
+      },
+      "postprocess_ms": {
+        "samples": 16,
+        "p50": 0,
+        "p95": 0.424,
+        "max": 0.6
+      },
+      "observed_worker_ms": {
+        "samples": 16,
+        "p50": 272.713,
+        "p95": 586.497,
+        "max": 1041.873
+      },
+      "overlay_update_ms": {
+        "samples": 13,
+        "p50": 1.22,
+        "p95": 7.222,
+        "max": 10.211
+      },
+      "observed_pipeline_ms": {
+        "samples": 13,
+        "p50": 300.302,
+        "p95": 588.458,
+        "max": 1047.183
+      }
+    },
+    "ttft_ms": null,
+    "prefill_ms": null,
+    "decode_ms": null,
+    "text_or_images_retained": false
+  },
+  "completed": true,
+  "source_unchanged": true,
+  "functional_passed": true,
+  "overall_passed": true
+}

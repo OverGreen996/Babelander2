@@ -1,0 +1,73 @@
+{
+  "version": "2.0.0a6",
+  "frozen": true,
+  "qt_platform": "offscreen",
+  "checks": {
+    "native_ui_nine_pages": true,
+    "bundled_ocr": true,
+    "bundled_capture_review": true,
+    "bundled_review_edit_source": true,
+    "genuine_transparent_overlay": true,
+    "conditional_paragraph": true,
+    "card_overlay": true,
+    "ocr_review_guard": true,
+    "asset_download_panel": true,
+    "idle_unload_control": true,
+    "bundled_traditional_conversion": true,
+    "translate_dialog": true,
+    "translate_equipment": true,
+    "translate_reply": true,
+    "zero_legacy_application_imports": true,
+    "zero_legacy_dependency_paths": true,
+    "workers_stopped": true
+  },
+  "translations": [
+    {
+      "mode": "dialog",
+      "source": "Alice, we must leave before sunset.",
+      "target": "艾莉絲，我們必須在日落前離開。",
+      "provider": "local",
+      "origin": "本機模型",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 1569.5929000066826,
+      "ocr_confidence": null,
+      "queue_ms": 0.09750000026542693,
+      "postprocess_ms": 0.22780000290367752,
+      "backend_state": "cold",
+      "total_ms": 1570.8
+    },
+    {
+      "mode": "equipment",
+      "source": "Gain +50% Fire Resistance for 10 seconds.",
+      "target": "獲得 +50% 火焰抗性，持續 10 秒。",
+      "provider": "local",
+      "origin": "詞庫／完整規則",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 0,
+      "ocr_confidence": null,
+      "queue_ms": 0.05329999839887023,
+      "postprocess_ms": 0,
+      "backend_state": "none",
+      "total_ms": 0.97
+    },
+    {
+      "mode": "reply",
+      "source": "我五分鐘後回來，請不要開始。",
+      "target": "I will return in five minutes, please do not start.",
+      "provider": "local",
+      "origin": "本機模型",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 90.1360999996541,
+      "ocr_confidence": null,
+      "queue_ms": 0.07449999975506216,
+      "postprocess_ms": 0.10379999002907425,
+      "backend_state": "warm",
+      "total_ms": 90.47
+    }
+  ],
+  "real_desktop_capture": false,
+  "passed": true
+}

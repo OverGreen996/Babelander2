@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "babelander-desktop"
+version = "2.0.0a23"
+description = "Windows OCR translation workspace"
+requires-python = ">=3.12,<3.13"
+dependencies = ["PySide6==6.11.2", "rapidocr==3.9.2", "requests==2.34.2", "onnxruntime==1.30.0", "numpy==2.5.3", "opencv-python==5.0.0.93", "opencc-python-reimplemented==0.1.7"]
+
+[project.scripts]
+babelander = "babelander.app:main"
+
+[tool.setuptools.packages.find]
+include = ["babelander*"]
+
+[tool.setuptools.package-data]
+babelander = ["*.qss"]

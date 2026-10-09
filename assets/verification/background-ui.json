@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "at": "2026-10-08T00:23:10.5896138+08:00",
+  "test_pid": 44388,
+  "running": true,
+  "visible_top_level_windows": 0,
+  "main_window_handle": 0,
+  "scope": "Read-only Win32 EnumWindows check of the test PID only. No other application names, content or screenshots read or saved. Snapshot, not every instant of the longevity test."
+}

@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "tests": 15,
+  "failures": [],
+  "errors": [],
+  "real_ocr": false,
+  "scope": "Synthetic safety contracts; no mixed dim text recall assertion."
+}

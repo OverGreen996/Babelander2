@@ -1,0 +1,97 @@
+{
+  "scope": "Selected examples only; no full accuracy or correct-and-timely score.",
+  "rows": [
+    {
+      "variant": "production",
+      "case_id": "unless",
+      "source": "Do not interrupt the ritual unless the outer circle changes from gold to violet.",
+      "target": "不論外圓是否從黃金轉為紫羅蘭，都不應中斷儀式。",
+      "verdict": "conditional_loss",
+      "note": "「不論是否」刪除了unless允許中斷的例外條件。",
+      "reviewer": "Codex selected-case analysis, not independent human gold annotation"
+    },
+    {
+      "variant": "production",
+      "case_id": "kits",
+      "source": "Deliver 5 medical kits before the countdown reaches 01:30.",
+      "target": "傳送門 5 醫療包 在計時器達到 01:30 前交付。",
+      "verdict": "unsupported_addition",
+      "note": "原文沒有傳送門，輸出新增了此物件。",
+      "reviewer": "Codex selected-case analysis, not independent human gold annotation"
+    },
+    {
+      "variant": "production",
+      "case_id": "actors",
+      "source": "We assumed the apprentice had misunderstood the instructions, until the master admitted that he had deliberately given her an incomplete version of the spell.",
+      "target": "我們假設師傅誤解了指令，直到師傅承認他故意給她一個不完整的咒語版本。",
+      "verdict": "actor_mismatch",
+      "note": "apprentice與master都被翻成師傅，主體錯置。",
+      "reviewer": "Codex selected-case analysis, not independent human gold annotation"
+    },
+    {
+      "variant": "production",
+      "case_id": "midnight",
+      "source": "We're not going to be home until after midnight.",
+      "target": "我們不會在午夜之後才回家。",
+      "verdict": "time_inversion",
+      "note": "原文是午夜之後才回家，輸出否定午夜之後才回家。",
+      "reviewer": "Codex selected-case analysis, not independent human gold annotation"
+    },
+    {
+      "variant": "short_en",
+      "case_id": "unless",
+      "source": "Do not interrupt the ritual unless the outer circle changes from gold to violet.",
+      "target": "除非外圈從黃色變為紫色，否則不要中斷儀式。",
+      "verdict": "partial_improvement",
+      "note": "unless邏輯修正，但gold變黃色，不能宣稱條件完全保真。",
+      "reviewer": "Codex selected-case analysis, not independent human gold annotation"
+    },
+    {
+      "variant": "short_en",
+      "case_id": "actors",
+      "source": "We assumed the apprentice had misunderstood the instructions, until the master admitted that he had deliberately given her an incomplete version of the spell.",
+      "target": "我們假設學徒誤解了指令，直到師傅承認他故意給她一個不完整的咒語版本。",
+      "verdict": "selected_improvement",
+      "note": "此句學徒與師傅正確區分；不代表全部語意驗收。",
+      "reviewer": "Codex selected-case analysis, not independent human gold annotation"
+    },
+    {
+      "variant": "short_en",
+      "case_id": "midnight",
+      "source": "We're not going to be home until after midnight.",
+      "target": "我們不會在午夜之後才回家。",
+      "verdict": "time_inversion",
+      "note": "時序反轉仍在。",
+      "reviewer": "Codex selected-case analysis, not independent human gold annotation"
+    },
+    {
+      "variant": "short_en",
+      "case_id": "long",
+      "source": "We have enough medicine to stabilize the injured passengers tonight, but finding a doctor before morning will require someone to cross the damaged railway bridge.",
+      "target": "我們今晚有足夠的藥物來穩定受傷乘客，但要在清晨找到醫生將需要有人過橋。",
+      "verdict": "omitted_details",
+      "note": "before morning變成在清晨；damaged railway bridge只剩過橋。正常EOS不保證語意完整。",
+      "reviewer": "Codex selected-case analysis, not independent human gold annotation"
+    },
+    {
+      "variant": "short_zh",
+      "case_id": "unless",
+      "source": "Do not interrupt the ritual unless the outer circle changes from gold to violet.",
+      "target": "不要在儀式進行時，除非外圈從黃色變為紫色。",
+      "verdict": "incomplete_command",
+      "note": "輸出未保留interrupt動作，指令不完整。",
+      "reviewer": "Codex selected-case analysis, not independent human gold annotation"
+    },
+    {
+      "variant": "short_zh",
+      "case_id": "midnight",
+      "source": "We're not going to be home until after midnight.",
+      "target": "我們不會在午夜之後才回家。",
+      "verdict": "time_inversion",
+      "note": "時序反轉仍在。",
+      "reviewer": "Codex selected-case analysis, not independent human gold annotation"
+    }
+  ],
+  "short_en_accepted": false,
+  "short_zh_accepted": false
+}

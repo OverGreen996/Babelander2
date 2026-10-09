@@ -1,0 +1,423 @@
+{
+  "scope": "Offline feature extraction only. Fixed authored glyphs over 16 changing backgrounds; moving glyph-shaped particles. Not OCR recall, model latency or real-game compatibility.",
+  "white_cues": 100,
+  "frames": 1600,
+  "rows": [
+    {
+      "cue_id": 1,
+      "structure_changes": 0
+    },
+    {
+      "cue_id": 2,
+      "structure_changes": 0
+    },
+    {
+      "cue_id": 3,
+      "structure_changes": 0
+    },
+    {
+      "cue_id": 4,
+      "structure_changes": 0
+    },
+    {
+      "cue_id": 5,
+      "structure_changes": 0
+    },
+    {
+      "cue_id": 6,
+      "structure_changes": 0
+    },
+    {
+      "cue_id": 7,
+      "structure_changes": 0
+    },
+    {
+      "cue_id": 8,
+      "structure_changes": 0
+    },
+    {
+      "cue_id": 9,
+      "structure_changes": 0
+    },
+    {
+      "cue_id": 10,
+      "structure_changes": 0
+    },
+    {
+      "cue_id": 11,
+      "structure_changes": 0
+    },
+    {
+      "cue_id": 12,
+      "structure_changes": 0
+    },
+    {
+      "cue_id": 13,
+      "structure_changes": 0
+    },
+    {
+      "cue_id": 14,
+      "structure_changes": 0
+    },
+    {
+      "cue_id": 15,
+      "structure_changes": 0
+    },
+    {
+      "cue_id": 16,
+      "structure_changes": 0
+    },
+    {
+      "cue_id": 17,
+      "structure_changes": 0
+    },
+    {
+      "cue_id": 18,
+      "structure_changes": 0
+    },
+    {
+      "cue_id": 19,
+      "structure_changes": 0
+    },
+    {
+      "cue_id": 20,
+      "structure_changes": 0
+    },
+    {
+      "cue_id": 21,
+      "structure_changes": 0
+    },
+    {
+      "cue_id": 22,
+      "structure_changes": 0
+    },
+    {
+      "cue_id": 23,
+      "structure_changes": 0
+    },
+    {
+      "cue_id": 24,
+      "structure_changes": 0
+    },
+    {
+      "cue_id": 25,
+      "structure_changes": 0
+    },
+    {
+      "cue_id": 26,
+      "structure_changes": 0
+    },
+    {
+      "cue_id": 27,
+      "structure_changes": 0
+    },
+    {
+      "cue_id": 28,
+      "structure_changes": 0
+    },
+    {
+      "cue_id": 29,
+      "structure_changes": 0
+    },
+    {
+      "cue_id": 30,
+      "structure_changes": 0
+    },
+    {
+      "cue_id": 31,
+      "structure_changes": 0
+    },
+    {
+      "cue_id": 32,
+      "structure_changes": 0
+    },
+    {
+      "cue_id": 33,
+      "structure_changes": 0
+    },
+    {
+      "cue_id": 34,
+      "structure_changes": 0
+    },
+    {
+      "cue_id": 35,
+      "structure_changes": 0
+    },
+    {
+      "cue_id": 36,
+      "structure_changes": 0
+    },
+    {
+      "cue_id": 37,
+      "structure_changes": 0
+    },
+    {
+      "cue_id": 38,
+      "structure_changes": 0
+    },
+    {
+      "cue_id": 39,
+      "structure_changes": 0
+    },
+    {
+      "cue_id": 40,
+      "structure_changes": 0
+    },
+    {
+      "cue_id": 41,
+      "structure_changes": 0
+    },
+    {
+      "cue_id": 42,
+      "structure_changes": 0
+    },
+    {
+      "cue_id": 43,
+      "structure_changes": 0
+    },
+    {
+      "cue_id": 44,
+      "structure_changes": 0
+    },
+    {
+      "cue_id": 45,
+      "structure_changes": 0
+    },
+    {
+      "cue_id": 46,
+      "structure_changes": 0
+    },
+    {
+      "cue_id": 47,
+      "structure_changes": 0
+    },
+    {
+      "cue_id": 48,
+      "structure_changes": 0
+    },
+    {
+      "cue_id": 49,
+      "structure_changes": 0
+    },
+    {
+      "cue_id": 50,
+      "structure_changes": 0
+    },
+    {
+      "cue_id": 51,
+      "structure_changes": 0
+    },
+    {
+      "cue_id": 52,
+      "structure_changes": 0
+    },
+    {
+      "cue_id": 53,
+      "structure_changes": 0
+    },
+    {
+      "cue_id": 54,
+      "structure_changes": 0
+    },
+    {
+      "cue_id": 55,
+      "structure_changes": 0
+    },
+    {
+      "cue_id": 56,
+      "structure_changes": 0
+    },
+    {
+      "cue_id": 57,
+      "structure_changes": 0
+    },
+    {
+      "cue_id": 58,
+      "structure_changes": 0
+    },
+    {
+      "cue_id": 59,
+      "structure_changes": 0
+    },
+    {
+      "cue_id": 60,
+      "structure_changes": 0
+    },
+    {
+      "cue_id": 61,
+      "structure_changes": 0
+    },
+    {
+      "cue_id": 62,
+      "structure_changes": 0
+    },
+    {
+      "cue_id": 63,
+      "structure_changes": 0
+    },
+    {
+      "cue_id": 64,
+      "structure_changes": 0
+    },
+    {
+      "cue_id": 65,
+      "structure_changes": 0
+    },
+    {
+      "cue_id": 66,
+      "structure_changes": 0
+    },
+    {
+      "cue_id": 67,
+      "structure_changes": 0
+    },
+    {
+      "cue_id": 68,
+      "structure_changes": 0
+    },
+    {
+      "cue_id": 69,
+      "structure_changes": 0
+    },
+    {
+      "cue_id": 70,
+      "structure_changes": 0
+    },
+    {
+      "cue_id": 71,
+      "structure_changes": 0
+    },
+    {
+      "cue_id": 72,
+      "structure_changes": 0
+    },
+    {
+      "cue_id": 73,
+      "structure_changes": 0
+    },
+    {
+      "cue_id": 74,
+      "structure_changes": 0
+    },
+    {
+      "cue_id": 75,
+      "structure_changes": 0
+    },
+    {
+      "cue_id": 76,
+      "structure_changes": 0
+    },
+    {
+      "cue_id": 77,
+      "structure_changes": 0
+    },
+    {
+      "cue_id": 78,
+      "structure_changes": 0
+    },
+    {
+      "cue_id": 79,
+      "structure_changes": 0
+    },
+    {
+      "cue_id": 80,
+      "structure_changes": 0
+    },
+    {
+      "cue_id": 81,
+      "structure_changes": 0
+    },
+    {
+      "cue_id": 82,
+      "structure_changes": 0
+    },
+    {
+      "cue_id": 83,
+      "structure_changes": 0
+    },
+    {
+      "cue_id": 84,
+      "structure_changes": 0
+    },
+    {
+      "cue_id": 85,
+      "structure_changes": 0
+    },
+    {
+      "cue_id": 86,
+      "structure_changes": 0
+    },
+    {
+      "cue_id": 87,
+      "structure_changes": 0
+    },
+    {
+      "cue_id": 88,
+      "structure_changes": 0
+    },
+    {
+      "cue_id": 89,
+      "structure_changes": 0
+    },
+    {
+      "cue_id": 90,
+      "structure_changes": 0
+    },
+    {
+      "cue_id": 91,
+      "structure_changes": 0
+    },
+    {
+      "cue_id": 92,
+      "structure_changes": 0
+    },
+    {
+      "cue_id": 93,
+      "structure_changes": 0
+    },
+    {
+      "cue_id": 94,
+      "structure_changes": 0
+    },
+    {
+      "cue_id": 95,
+      "structure_changes": 0
+    },
+    {
+      "cue_id": 96,
+      "structure_changes": 0
+    },
+    {
+      "cue_id": 97,
+      "structure_changes": 0
+    },
+    {
+      "cue_id": 98,
+      "structure_changes": 0
+    },
+    {
+      "cue_id": 99,
+      "structure_changes": 0
+    },
+    {
+      "cue_id": 100,
+      "structure_changes": 0
+    }
+  ],
+  "white_cue_false_structure_changes": 0,
+  "mixed_changes": [
+    {
+      "case": "inline",
+      "observed_change_ms": 200.0
+    },
+    {
+      "case": "new_line",
+      "observed_change_ms": 200.0
+    }
+  ],
+  "moving_glyph_shaped_particle_commits": 0,
+  "extraction_mean_ms": 3.217,
+  "extraction_p95_ms": 5.199,
+  "stationary_nontext_shapes_can_trigger_ocr": true,
+  "unsupported_low_contrast_uses_existing_watchdog": true
+}

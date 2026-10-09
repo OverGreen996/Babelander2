@@ -1,0 +1,384 @@
+{
+  "real_cpu_ocr": true,
+  "real_desktop_capture": false,
+  "qt_platform": "offscreen",
+  "foreground_control_calls": 0,
+  "results": [
+    {
+      "source": "[Party] P016: GG",
+      "target": "[Party] P016: GG",
+      "warning": "",
+      "event_id": 1
+    },
+    {
+      "source": "[Party] P016: GG",
+      "target": "[Party] P016: GG",
+      "warning": "",
+      "event_id": 2
+    },
+    {
+      "source": "[Party] P017: gg wp",
+      "target": "[Party] P017: GG WP",
+      "warning": "",
+      "event_id": 6
+    },
+    {
+      "source": "[Party] P018: ty",
+      "target": "[Party] P018: TY",
+      "warning": "",
+      "event_id": 6
+    },
+    {
+      "source": "[Party] P019: np",
+      "target": "[Party] P019: NP",
+      "warning": "",
+      "event_id": 6
+    },
+    {
+      "source": "[Party] P020: brb 2 min",
+      "target": "[Party] P020: BRB 2 分鐘",
+      "warning": "",
+      "event_id": 6
+    }
+  ],
+  "checks": {
+    "same_speaker_identical_GG_twice": true,
+    "four_new_messages_fifo": true,
+    "unchanged_frame_no_repeats": true,
+    "no_warnings": true,
+    "latest_message_visible": true,
+    "no_persistent_chat": true,
+    "no_model_loaded_for_shorthand": true,
+    "workers_stopped": true
+  },
+  "sqlite_rows": {
+    "cache": 0,
+    "history": 0,
+    "usage": 0
+  },
+  "metrics": {
+    "counts": {
+      "capture": 6,
+      "ocr": 3,
+      "chat_recognition": 3,
+      "events_created": 6,
+      "pipeline_completed": 6,
+      "success": 6,
+      "frame_unchanged": 3,
+      "ui_applied": 3,
+      "cache_hit": 1
+    },
+    "recent": [
+      {
+        "reason": "capture",
+        "mode": "chat",
+        "capture_ms": 0.441
+      },
+      {
+        "reason": "ocr",
+        "mode": "chat",
+        "ocr_ms": 1235.669
+      },
+      {
+        "reason": "chat_recognition",
+        "mode": "chat",
+        "crops": 1,
+        "reused": 0,
+        "inferred": 1,
+        "context_crops": 0,
+        "fallback": 0,
+        "region_reused": 0
+      },
+      {
+        "reason": "events_created",
+        "mode": "chat"
+      },
+      {
+        "reason": "capture",
+        "mode": "chat",
+        "capture_ms": 0.443
+      },
+      {
+        "reason": "pipeline_completed",
+        "mode": "chat",
+        "capture_ms": 0.441,
+        "change_detection_ms": 2.287,
+        "image_queue_wait_ms": 0.004,
+        "ocr_ms": 1235.669,
+        "dispatch_wait_ms": 0.068,
+        "translation_queue_ms": 0.125,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0,
+        "observed_worker_ms": 1263.54
+      },
+      {
+        "reason": "success",
+        "mode": "chat"
+      },
+      {
+        "reason": "frame_unchanged",
+        "mode": "chat"
+      },
+      {
+        "reason": "ui_applied",
+        "mode": "chat",
+        "overlay_update_ms": 8.423,
+        "observed_pipeline_ms": 1269.847
+      },
+      {
+        "reason": "capture",
+        "mode": "chat",
+        "capture_ms": 0.525
+      },
+      {
+        "reason": "ocr",
+        "mode": "chat",
+        "ocr_ms": 221.69
+      },
+      {
+        "reason": "chat_recognition",
+        "mode": "chat",
+        "crops": 2,
+        "reused": 1,
+        "inferred": 1,
+        "context_crops": 0,
+        "fallback": 0,
+        "region_reused": 1
+      },
+      {
+        "reason": "events_created",
+        "mode": "chat"
+      },
+      {
+        "reason": "pipeline_completed",
+        "mode": "chat",
+        "capture_ms": 0.525,
+        "change_detection_ms": 1.748,
+        "image_queue_wait_ms": 0.014,
+        "ocr_ms": 221.69,
+        "dispatch_wait_ms": 0.203,
+        "translation_queue_ms": 0,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0,
+        "observed_worker_ms": 227.019
+      },
+      {
+        "reason": "success",
+        "mode": "chat"
+      },
+      {
+        "reason": "cache_hit",
+        "mode": "chat"
+      },
+      {
+        "reason": "ui_applied",
+        "mode": "chat",
+        "overlay_update_ms": 0.472,
+        "observed_pipeline_ms": 229.3
+      },
+      {
+        "reason": "capture",
+        "mode": "chat",
+        "capture_ms": 0.384
+      },
+      {
+        "reason": "ocr",
+        "mode": "chat",
+        "ocr_ms": 336.768
+      },
+      {
+        "reason": "chat_recognition",
+        "mode": "chat",
+        "crops": 6,
+        "reused": 2,
+        "inferred": 4,
+        "context_crops": 0,
+        "fallback": 0,
+        "region_reused": 2
+      },
+      {
+        "reason": "events_created",
+        "mode": "chat"
+      },
+      {
+        "reason": "events_created",
+        "mode": "chat"
+      },
+      {
+        "reason": "events_created",
+        "mode": "chat"
+      },
+      {
+        "reason": "events_created",
+        "mode": "chat"
+      },
+      {
+        "reason": "pipeline_completed",
+        "mode": "chat",
+        "capture_ms": 0.384,
+        "change_detection_ms": 1.51,
+        "image_queue_wait_ms": 0.013,
+        "ocr_ms": 336.768,
+        "dispatch_wait_ms": 0.112,
+        "translation_queue_ms": 0.132,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0,
+        "observed_worker_ms": 341.899
+      },
+      {
+        "reason": "success",
+        "mode": "chat"
+      },
+      {
+        "reason": "pipeline_completed",
+        "mode": "chat",
+        "capture_ms": 0.384,
+        "change_detection_ms": 1.51,
+        "image_queue_wait_ms": 0.013,
+        "ocr_ms": 336.768,
+        "dispatch_wait_ms": 1.587,
+        "translation_queue_ms": 0.075,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0,
+        "observed_worker_ms": 343.513
+      },
+      {
+        "reason": "success",
+        "mode": "chat"
+      },
+      {
+        "reason": "pipeline_completed",
+        "mode": "chat",
+        "capture_ms": 0.384,
+        "change_detection_ms": 1.51,
+        "image_queue_wait_ms": 0.013,
+        "ocr_ms": 336.768,
+        "dispatch_wait_ms": 3.156,
+        "translation_queue_ms": 0.054,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0,
+        "observed_worker_ms": 344.514
+      },
+      {
+        "reason": "success",
+        "mode": "chat"
+      },
+      {
+        "reason": "pipeline_completed",
+        "mode": "chat",
+        "capture_ms": 0.384,
+        "change_detection_ms": 1.51,
+        "image_queue_wait_ms": 0.013,
+        "ocr_ms": 336.768,
+        "dispatch_wait_ms": 4.087,
+        "translation_queue_ms": 0.051,
+        "translation_request_ms": 0,
+        "postprocess_ms": 0,
+        "observed_worker_ms": 347.152
+      },
+      {
+        "reason": "success",
+        "mode": "chat"
+      },
+      {
+        "reason": "ui_applied",
+        "mode": "chat",
+        "overlay_update_ms": 1.505,
+        "observed_pipeline_ms": 348.692
+      },
+      {
+        "reason": "capture",
+        "mode": "chat",
+        "capture_ms": 0.412
+      },
+      {
+        "reason": "frame_unchanged",
+        "mode": "chat"
+      },
+      {
+        "reason": "capture",
+        "mode": "chat",
+        "capture_ms": 0.46
+      },
+      {
+        "reason": "frame_unchanged",
+        "mode": "chat"
+      }
+    ],
+    "record_limit": 128,
+    "timings": {
+      "capture_ms": {
+        "samples": 12,
+        "p50": 0.412,
+        "p95": 0.525,
+        "max": 0.525
+      },
+      "ocr_ms": {
+        "samples": 9,
+        "p50": 336.768,
+        "p95": 1235.669,
+        "max": 1235.669
+      },
+      "change_detection_ms": {
+        "samples": 6,
+        "p50": 1.51,
+        "p95": 1.748,
+        "max": 2.287
+      },
+      "image_queue_wait_ms": {
+        "samples": 6,
+        "p50": 0.013,
+        "p95": 0.013,
+        "max": 0.014
+      },
+      "dispatch_wait_ms": {
+        "samples": 6,
+        "p50": 0.203,
+        "p95": 3.156,
+        "max": 4.087
+      },
+      "translation_queue_ms": {
+        "samples": 6,
+        "p50": 0.054,
+        "p95": 0.125,
+        "max": 0.132
+      },
+      "translation_request_ms": {
+        "samples": 6,
+        "p50": 0,
+        "p95": 0,
+        "max": 0
+      },
+      "postprocess_ms": {
+        "samples": 6,
+        "p50": 0,
+        "p95": 0,
+        "max": 0
+      },
+      "observed_worker_ms": {
+        "samples": 6,
+        "p50": 343.513,
+        "p95": 347.152,
+        "max": 1263.54
+      },
+      "overlay_update_ms": {
+        "samples": 3,
+        "p50": 1.505,
+        "p95": 1.505,
+        "max": 8.423
+      },
+      "observed_pipeline_ms": {
+        "samples": 3,
+        "p50": 348.692,
+        "p95": 348.692,
+        "max": 1269.847
+      }
+    },
+    "ttft_ms": null,
+    "prefill_ms": null,
+    "decode_ms": null,
+    "text_or_images_retained": false
+  },
+  "errors": [],
+  "passed": true
+}

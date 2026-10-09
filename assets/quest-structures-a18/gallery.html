@@ -1,0 +1,225 @@
+<!doctype html><html lang="zh-Hant"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>任務介面 · alpha18 實測</title><style>body{margin:0;background:#0e1620;color:#e9eef5;font:16px/1.7 system-ui}main{max-width:1280px;margin:auto;padding:40px 24px}h1{font-size:36px;line-height:1.3}p{color:#b9cadc}nav{display:flex;gap:12px;flex-wrap:wrap}a{color:#9cdbff}article{background:#182534;border:1px solid #314256;border-radius:14px;padding:22px;margin:28px 0}img{max-width:100%;height:auto;border-radius:8px}summary{cursor:pointer;padding:10px 0}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:13px/1.6 monospace}.tag{color:#ade8c0;background:#1d3b34;border-radius:20px;padding:3px 12px;font-size:14px}:focus-visible{outline:3px solid #a1d9ff;outline-offset:4px}@media(max-width:600px){main{padding:24px 14px}h1{font-size:28px}article{padding:14px}}</style><main><p>BABELANDER 2 · ALPHA 18</p><h1>任務在哪裡，譯文就在哪裡。</h1><p>8 種獨立結構、16 張不同內容，真 CPU OCR、本機 CUDA Qwen 與 Qt 原位覆蓋，兩輪共 32 次。左側原文、右側實際譯圖。只有驗證頁做對照，遊戲覆蓋只顯示譯文。</p><p>模型與 OCR 事先暖機；第一輪清快取一次、共用標籤可命中，第二輪保留翻譯快取。全卡平均 710.48 / 382.68 ms。這是生成畫面回放，尚非真遊戲／FPS，也不是完整人工語意評分。</p><nav><a href="#npc-0">NPC 委託面板</a><a href="#tracker-0">HUD 側邊快捷任務欄</a><a href="#journal-0">任務日誌介紹欄</a><a href="#parchment-0">羊皮紙懸賞</a><a href="#terminal-0">科幻終端任務表</a><a href="#banner-0">世界事件橫幅</a><a href="#board-0">每日委託三格看板</a><a href="#briefing-0">直式任務介紹</a></nav><p>人工抽查仍有短標題錯譯：Supply Run → 運輸運輸；Beyond the Walls → 遠離牆壁。以上檢查不涵蓋完整語意評分，詳見 <a href="../../TEST_REPORT_ALPHA18.md">品質限制報告</a>。</p><article id="npc-0"><h2>NPC 委託面板 <span class="tag">排版／數值通過</span></h2><p>左側頭像 · 右側敘述與目標 · 底部雙按鈕 · 進度保留</p><p>首輪 734.46 ms · 重複 390.87 ms · 每輪擷取／OCR 各一次</p><img loading="lazy" src="npc-0-comparison.png" alt="NPC 委託面板 原圖與實際原位譯文"><details><summary>幾何、字色與完整性證據</summary><pre>{
+  &quot;geometry&quot;: [
+    35,
+    60,
+    800,
+    620
+  ],
+  &quot;geometry_exact&quot;: true,
+  &quot;source_complete&quot;: true,
+  &quot;numbers_preserved&quot;: true,
+  &quot;source_colors_preserved&quot;: true,
+  &quot;art_unchanged&quot;: true,
+  &quot;literal_pixels_unchanged&quot;: true,
+  &quot;cross_panel_blocks&quot;: []
+}</pre></details></article><article id="npc-1"><h2>NPC 委託面板 <span class="tag">排版／數值通過</span></h2><p>左側頭像 · 右側敘述與目標 · 底部雙按鈕 · 進度保留</p><p>首輪 814.46 ms · 重複 427.76 ms · 每輪擷取／OCR 各一次</p><img loading="lazy" src="npc-1-comparison.png" alt="NPC 委託面板 原圖與實際原位譯文"><details><summary>幾何、字色與完整性證據</summary><pre>{
+  &quot;geometry&quot;: [
+    35,
+    60,
+    800,
+    620
+  ],
+  &quot;geometry_exact&quot;: true,
+  &quot;source_complete&quot;: true,
+  &quot;numbers_preserved&quot;: true,
+  &quot;source_colors_preserved&quot;: true,
+  &quot;art_unchanged&quot;: true,
+  &quot;literal_pixels_unchanged&quot;: true,
+  &quot;cross_panel_blocks&quot;: []
+}</pre></details></article><article id="tracker-0"><h2>HUD 側邊快捷任務欄 <span class="tag">排版／數值通過</span></h2><p>窄版置右 · 雙任務區 · 勾選框 · 進度條</p><p>首輪 422.89 ms · 重複 211.04 ms · 每輪擷取／OCR 各一次</p><img loading="lazy" src="tracker-0-comparison.png" alt="HUD 側邊快捷任務欄 原圖與實際原位譯文"><details><summary>幾何、字色與完整性證據</summary><pre>{
+  &quot;geometry&quot;: [
+    900,
+    60,
+    420,
+    490
+  ],
+  &quot;geometry_exact&quot;: true,
+  &quot;source_complete&quot;: true,
+  &quot;numbers_preserved&quot;: true,
+  &quot;source_colors_preserved&quot;: true,
+  &quot;art_unchanged&quot;: true,
+  &quot;literal_pixels_unchanged&quot;: true,
+  &quot;cross_panel_blocks&quot;: []
+}</pre></details></article><article id="tracker-1"><h2>HUD 側邊快捷任務欄 <span class="tag">排版／數值通過</span></h2><p>窄版置右 · 雙任務區 · 勾選框 · 進度條</p><p>首輪 473.27 ms · 重複 205.12 ms · 每輪擷取／OCR 各一次</p><img loading="lazy" src="tracker-1-comparison.png" alt="HUD 側邊快捷任務欄 原圖與實際原位譯文"><details><summary>幾何、字色與完整性證據</summary><pre>{
+  &quot;geometry&quot;: [
+    900,
+    60,
+    420,
+    490
+  ],
+  &quot;geometry_exact&quot;: true,
+  &quot;source_complete&quot;: true,
+  &quot;numbers_preserved&quot;: true,
+  &quot;source_colors_preserved&quot;: true,
+  &quot;art_unchanged&quot;: true,
+  &quot;literal_pixels_unchanged&quot;: true,
+  &quot;cross_panel_blocks&quot;: []
+}</pre></details></article><article id="journal-0"><h2>任務日誌介紹欄 <span class="tag">排版／數值通過</span></h2><p>左側任務清單 · 右側段落 · 選擇性目標 · 放棄按鈕</p><p>首輪 1054.92 ms · 重複 521.64 ms · 每輪擷取／OCR 各一次</p><img loading="lazy" src="journal-0-comparison.png" alt="任務日誌介紹欄 原圖與實際原位譯文"><details><summary>幾何、字色與完整性證據</summary><pre>{
+  &quot;geometry&quot;: [
+    35,
+    60,
+    980,
+    670
+  ],
+  &quot;geometry_exact&quot;: true,
+  &quot;source_complete&quot;: true,
+  &quot;numbers_preserved&quot;: true,
+  &quot;source_colors_preserved&quot;: true,
+  &quot;art_unchanged&quot;: true,
+  &quot;literal_pixels_unchanged&quot;: true,
+  &quot;cross_panel_blocks&quot;: []
+}</pre></details></article><article id="journal-1"><h2>任務日誌介紹欄 <span class="tag">排版／數值通過</span></h2><p>左側任務清單 · 右側段落 · 選擇性目標 · 放棄按鈕</p><p>首輪 1000.76 ms · 重複 613.76 ms · 每輪擷取／OCR 各一次</p><img loading="lazy" src="journal-1-comparison.png" alt="任務日誌介紹欄 原圖與實際原位譯文"><details><summary>幾何、字色與完整性證據</summary><pre>{
+  &quot;geometry&quot;: [
+    35,
+    60,
+    980,
+    670
+  ],
+  &quot;geometry_exact&quot;: true,
+  &quot;source_complete&quot;: true,
+  &quot;numbers_preserved&quot;: true,
+  &quot;source_colors_preserved&quot;: true,
+  &quot;art_unchanged&quot;: true,
+  &quot;literal_pixels_unchanged&quot;: true,
+  &quot;cross_panel_blocks&quot;: []
+}</pre></details></article><article id="parchment-0"><h2>羊皮紙懸賞 <span class="tag">排版／數值通過</span></h2><p>淺色紙面深字 · 置中標題 · 長敘述 · 封印與簽署</p><p>首輪 825.94 ms · 重複 367.63 ms · 每輪擷取／OCR 各一次</p><img loading="lazy" src="parchment-0-comparison.png" alt="羊皮紙懸賞 原圖與實際原位譯文"><details><summary>幾何、字色與完整性證據</summary><pre>{
+  &quot;geometry&quot;: [
+    35,
+    60,
+    560,
+    660
+  ],
+  &quot;geometry_exact&quot;: true,
+  &quot;source_complete&quot;: true,
+  &quot;numbers_preserved&quot;: true,
+  &quot;source_colors_preserved&quot;: true,
+  &quot;art_unchanged&quot;: true,
+  &quot;literal_pixels_unchanged&quot;: true,
+  &quot;cross_panel_blocks&quot;: []
+}</pre></details></article><article id="parchment-1"><h2>羊皮紙懸賞 <span class="tag">排版／數值通過</span></h2><p>淺色紙面深字 · 置中標題 · 長敘述 · 封印與簽署</p><p>首輪 702.75 ms · 重複 394.17 ms · 每輪擷取／OCR 各一次</p><img loading="lazy" src="parchment-1-comparison.png" alt="羊皮紙懸賞 原圖與實際原位譯文"><details><summary>幾何、字色與完整性證據</summary><pre>{
+  &quot;geometry&quot;: [
+    35,
+    60,
+    560,
+    660
+  ],
+  &quot;geometry_exact&quot;: true,
+  &quot;source_complete&quot;: true,
+  &quot;numbers_preserved&quot;: true,
+  &quot;source_colors_preserved&quot;: true,
+  &quot;art_unchanged&quot;: true,
+  &quot;literal_pixels_unchanged&quot;: true,
+  &quot;cross_panel_blocks&quot;: []
+}</pre></details></article><article id="terminal-0"><h2>科幻終端任務表 <span class="tag">排版／數值通過</span></h2><p>等寬字 · 欄位與右側數值 · 倒數 · 資料板與晶片</p><p>首輪 728.52 ms · 重複 453.7 ms · 每輪擷取／OCR 各一次</p><img loading="lazy" src="terminal-0-comparison.png" alt="科幻終端任務表 原圖與實際原位譯文"><details><summary>幾何、字色與完整性證據</summary><pre>{
+  &quot;geometry&quot;: [
+    35,
+    60,
+    820,
+    520
+  ],
+  &quot;geometry_exact&quot;: true,
+  &quot;source_complete&quot;: true,
+  &quot;numbers_preserved&quot;: true,
+  &quot;source_colors_preserved&quot;: true,
+  &quot;art_unchanged&quot;: true,
+  &quot;literal_pixels_unchanged&quot;: true,
+  &quot;cross_panel_blocks&quot;: []
+}</pre></details></article><article id="terminal-1"><h2>科幻終端任務表 <span class="tag">排版／數值通過</span></h2><p>等寬字 · 欄位與右側數值 · 倒數 · 資料板與晶片</p><p>首輪 773.55 ms · 重複 541.25 ms · 每輪擷取／OCR 各一次</p><img loading="lazy" src="terminal-1-comparison.png" alt="科幻終端任務表 原圖與實際原位譯文"><details><summary>幾何、字色與完整性證據</summary><pre>{
+  &quot;geometry&quot;: [
+    35,
+    60,
+    820,
+    520
+  ],
+  &quot;geometry_exact&quot;: true,
+  &quot;source_complete&quot;: true,
+  &quot;numbers_preserved&quot;: true,
+  &quot;source_colors_preserved&quot;: true,
+  &quot;art_unchanged&quot;: true,
+  &quot;literal_pixels_unchanged&quot;: true,
+  &quot;cross_panel_blocks&quot;: []
+}</pre></details></article><article id="banner-0"><h2>世界事件橫幅 <span class="tag">排版／數值通過</span></h2><p>寬橫幅 · 左圖示 · 中目標 · 獨立右獎勵區</p><p>首輪 631.1 ms · 重複 220.28 ms · 每輪擷取／OCR 各一次</p><img loading="lazy" src="banner-0-comparison.png" alt="世界事件橫幅 原圖與實際原位譯文"><details><summary>幾何、字色與完整性證據</summary><pre>{
+  &quot;geometry&quot;: [
+    35,
+    20,
+    1040,
+    300
+  ],
+  &quot;geometry_exact&quot;: true,
+  &quot;source_complete&quot;: true,
+  &quot;numbers_preserved&quot;: true,
+  &quot;source_colors_preserved&quot;: true,
+  &quot;art_unchanged&quot;: true,
+  &quot;literal_pixels_unchanged&quot;: true,
+  &quot;cross_panel_blocks&quot;: []
+}</pre></details></article><article id="banner-1"><h2>世界事件橫幅 <span class="tag">排版／數值通過</span></h2><p>寬橫幅 · 左圖示 · 中目標 · 獨立右獎勵區</p><p>首輪 465.55 ms · 重複 231.76 ms · 每輪擷取／OCR 各一次</p><img loading="lazy" src="banner-1-comparison.png" alt="世界事件橫幅 原圖與實際原位譯文"><details><summary>幾何、字色與完整性證據</summary><pre>{
+  &quot;geometry&quot;: [
+    35,
+    20,
+    1040,
+    300
+  ],
+  &quot;geometry_exact&quot;: true,
+  &quot;source_complete&quot;: true,
+  &quot;numbers_preserved&quot;: true,
+  &quot;source_colors_preserved&quot;: true,
+  &quot;art_unchanged&quot;: true,
+  &quot;literal_pixels_unchanged&quot;: true,
+  &quot;cross_panel_blocks&quot;: []
+}</pre></details></article><article id="board-0"><h2>每日委託三格看板 <span class="tag">排版／數值通過</span></h2><p>三個獨立卡片 · 個別圖示 · 各自進度 · 各自按鈕</p><p>首輪 744.54 ms · 重複 377.95 ms · 每輪擷取／OCR 各一次</p><img loading="lazy" src="board-0-comparison.png" alt="每日委託三格看板 原圖與實際原位譯文"><details><summary>幾何、字色與完整性證據</summary><pre>{
+  &quot;geometry&quot;: [
+    35,
+    60,
+    1010,
+    390
+  ],
+  &quot;geometry_exact&quot;: true,
+  &quot;source_complete&quot;: true,
+  &quot;numbers_preserved&quot;: true,
+  &quot;source_colors_preserved&quot;: true,
+  &quot;art_unchanged&quot;: true,
+  &quot;literal_pixels_unchanged&quot;: true,
+  &quot;cross_panel_blocks&quot;: []
+}</pre></details></article><article id="board-1"><h2>每日委託三格看板 <span class="tag">排版／數值通過</span></h2><p>三個獨立卡片 · 個別圖示 · 各自進度 · 各自按鈕</p><p>首輪 494.51 ms · 重複 373.38 ms · 每輪擷取／OCR 各一次</p><img loading="lazy" src="board-1-comparison.png" alt="每日委託三格看板 原圖與實際原位譯文"><details><summary>幾何、字色與完整性證據</summary><pre>{
+  &quot;geometry&quot;: [
+    35,
+    60,
+    1010,
+    390
+  ],
+  &quot;geometry_exact&quot;: true,
+  &quot;source_complete&quot;: true,
+  &quot;numbers_preserved&quot;: true,
+  &quot;source_colors_preserved&quot;: true,
+  &quot;art_unchanged&quot;: true,
+  &quot;literal_pixels_unchanged&quot;: true,
+  &quot;cross_panel_blocks&quot;: []
+}</pre></details></article><article id="briefing-0"><h2>直式任務介紹 <span class="tag">排版／數值通過</span></h2><p>上方頭像名牌 · 下方完整任務敘述 · 選擇目標 · 完成按鈕</p><p>首輪 770.48 ms · 重複 397.88 ms · 每輪擷取／OCR 各一次</p><img loading="lazy" src="briefing-0-comparison.png" alt="直式任務介紹 原圖與實際原位譯文"><details><summary>幾何、字色與完整性證據</summary><pre>{
+  &quot;geometry&quot;: [
+    35,
+    60,
+    680,
+    680
+  ],
+  &quot;geometry_exact&quot;: true,
+  &quot;source_complete&quot;: true,
+  &quot;numbers_preserved&quot;: true,
+  &quot;source_colors_preserved&quot;: true,
+  &quot;art_unchanged&quot;: true,
+  &quot;literal_pixels_unchanged&quot;: true,
+  &quot;cross_panel_blocks&quot;: []
+}</pre></details></article><article id="briefing-1"><h2>直式任務介紹 <span class="tag">排版／數值通過</span></h2><p>上方頭像名牌 · 下方完整任務敘述 · 選擇目標 · 完成按鈕</p><p>首輪 729.95 ms · 重複 394.65 ms · 每輪擷取／OCR 各一次</p><img loading="lazy" src="briefing-1-comparison.png" alt="直式任務介紹 原圖與實際原位譯文"><details><summary>幾何、字色與完整性證據</summary><pre>{
+  &quot;geometry&quot;: [
+    35,
+    60,
+    680,
+    680
+  ],
+  &quot;geometry_exact&quot;: true,
+  &quot;source_complete&quot;: true,
+  &quot;numbers_preserved&quot;: true,
+  &quot;source_colors_preserved&quot;: true,
+  &quot;art_unchanged&quot;: true,
+  &quot;literal_pixels_unchanged&quot;: true,
+  &quot;cross_panel_blocks&quot;: []
+}</pre></details></article><p>單次卡片是靜態快照。遊戲更換任務、更新倒數或捲動後，請重新辨識；取消／還原會移除覆蓋。</p></main></html>

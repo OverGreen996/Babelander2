@@ -1,0 +1,265 @@
+{
+  "version": "2.0.0a20",
+  "cases": [
+    {
+      "source": "If the boss targets you, move away from the group.",
+      "target": "如果 首領 目標你，就遠離群體。",
+      "provider": "local",
+      "origin": "本機模型",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 2075.08300000336,
+      "ocr_confidence": null,
+      "queue_ms": 0.07509998977184296,
+      "postprocess_ms": 1.9290999916847795,
+      "backend_state": "cold",
+      "mode": "chat",
+      "markers": [
+        "首領|Boss",
+        "遠離|離開"
+      ],
+      "markers_passed": true
+    },
+    {
+      "source": "Do not sell the last 6 potions.",
+      "target": "不賣最後的6 藥水",
+      "provider": "local",
+      "origin": "本機模型",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 80.7349999959115,
+      "ocr_confidence": null,
+      "queue_ms": 0.0675999908708036,
+      "postprocess_ms": 0.5597999843303114,
+      "backend_state": "warm",
+      "mode": "chat",
+      "markers": [
+        "不|勿|別",
+        "6"
+      ],
+      "markers_passed": true
+    },
+    {
+      "source": "Save the last potion for the healer, not for me.",
+      "target": "儲存最後的 藥水 以供 補師 使用，而不是我。",
+      "provider": "local",
+      "origin": "本機模型",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 152.2803000116255,
+      "ocr_confidence": null,
+      "queue_ms": 0.05830000736750662,
+      "postprocess_ms": 0.2767000114545226,
+      "backend_state": "warm",
+      "mode": "chat",
+      "markers": [
+        "留|保留",
+        "補師"
+      ],
+      "markers_passed": false
+    },
+    {
+      "source": "The bridge is closed, but the eastern gate is still open.",
+      "target": "橋已關閉，但東門仍開放。",
+      "provider": "local",
+      "origin": "本機模型",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 110.91119999764487,
+      "ocr_confidence": null,
+      "queue_ms": 0.055100012104958296,
+      "postprocess_ms": 0.14429999282583594,
+      "backend_state": "warm",
+      "mode": "dialog",
+      "markers": [
+        "橋",
+        "門",
+        "但|仍|還"
+      ],
+      "markers_passed": true
+    },
+    {
+      "source": "Don't enter until all 3 players are ready.",
+      "target": "不要進入直到所有3名玩家準備就緒。",
+      "provider": "local",
+      "origin": "本機模型",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 93.61069998703897,
+      "ocr_confidence": null,
+      "queue_ms": 0.0425000034738332,
+      "postprocess_ms": 0.3186000103596598,
+      "backend_state": "warm",
+      "mode": "dialog",
+      "markers": [
+        "不|勿|別",
+        "3"
+      ],
+      "markers_passed": true
+    },
+    {
+      "source": "Collect 4 crystals before speaking to the captain.",
+      "target": "收集4顆晶體再與船長說話。",
+      "provider": "local",
+      "origin": "本機模型",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 110.47789998701774,
+      "ocr_confidence": null,
+      "queue_ms": 0.043599982745945454,
+      "postprocess_ms": 0.3139999753329903,
+      "backend_state": "warm",
+      "mode": "quest",
+      "markers": [
+        "4",
+        "水晶|晶體",
+        "(?:收集|蒐集)[^。]{0,20}4[^。]{0,25}(?:再|然後|之後|前|之前|先)[^。]{0,20}(?:船長|隊長|指揮官)|(?:船長|隊長|指揮官)[^。]{0,12}(?:說話|對話)(?:之)?前[^。]{0,20}(?:收集|蒐集)[^。]{0,15}4"
+      ],
+      "markers_passed": true
+    },
+    {
+      "source": "Defeat 5 wolves, then return to the camp.",
+      "target": "擊敗5隻狼，然後返回營地。",
+      "provider": "local",
+      "origin": "本機模型",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 103.20000001229346,
+      "ocr_confidence": null,
+      "queue_ms": 0.05319999763742089,
+      "postprocess_ms": 0.24549997760914266,
+      "backend_state": "warm",
+      "mode": "quest",
+      "markers": [
+        "5",
+        "狼",
+        "營地|營區"
+      ],
+      "markers_passed": true
+    },
+    {
+      "source": "When poisoned, gain +17% Fire Resistance for 8 seconds.",
+      "target": "中毒時，獲得 +17% 火抗性持續 8 秒。",
+      "provider": "local",
+      "origin": "本機模型",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 151.2401000072714,
+      "ocr_confidence": null,
+      "queue_ms": 0.062700011767447,
+      "postprocess_ms": 0.27889999910257757,
+      "backend_state": "warm",
+      "mode": "equipment",
+      "markers": [
+        "中毒|毒",
+        "17",
+        "8"
+      ],
+      "markers_passed": true
+    },
+    {
+      "source": "Restore 13 health when blocking an attack. This cannot occur more than once every 7 seconds.",
+      "target": "阻擋攻擊時恢復 13 個健康值。此動作不能超過每 7 秒一次。",
+      "provider": "local",
+      "origin": "本機模型",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 160.14920000452548,
+      "ocr_confidence": null,
+      "queue_ms": 0.06379999103955925,
+      "postprocess_ms": 0.4183999844826758,
+      "backend_state": "warm",
+      "mode": "equipment",
+      "markers": [
+        "13",
+        "7",
+        "格擋|阻擋|防禦"
+      ],
+      "markers_passed": true
+    },
+    {
+      "source": "請等我7分鐘，不要離開隊伍。",
+      "target": "Wait 7 minutes, don't leave the team.",
+      "provider": "local",
+      "origin": "本機模型",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 108.45150001114234,
+      "ocr_confidence": null,
+      "queue_ms": 0.07429998368024826,
+      "postprocess_ms": 0.24080000002868474,
+      "backend_state": "warm",
+      "mode": "reply",
+      "markers": [
+        "wait",
+        "7",
+        "not|don.t|cannot",
+        "party|team|group"
+      ],
+      "markers_passed": true
+    },
+    {
+      "source": "我們需要6瓶藥水，先別開門。",
+      "target": "We need 6 bottles of medicine, first don't open the door.",
+      "provider": "local",
+      "origin": "本機模型",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 115.54299999261275,
+      "ocr_confidence": null,
+      "queue_ms": 0.14590000500902534,
+      "postprocess_ms": 0.1742999884299934,
+      "backend_state": "warm",
+      "mode": "reply",
+      "markers": [
+        "6",
+        "potion",
+        "not|don.t|cannot",
+        "gate|door"
+      ],
+      "markers_passed": false
+    },
+    {
+      "source": "Server maintenance starts in 9 minutes. Unsaved progress will be lost.",
+      "target": "伺服器維護將於9分鐘後開始。未儲存的進度將會遺失。",
+      "provider": "local",
+      "origin": "本機模型",
+      "warning": "",
+      "cache_hit": false,
+      "model_ms": 145.9024999930989,
+      "ocr_confidence": null,
+      "queue_ms": 0.15249999705702066,
+      "postprocess_ms": 0.3243999963160604,
+      "backend_state": "warm",
+      "mode": "screen",
+      "markers": [
+        "9",
+        "維護",
+        "丟失|遺失|失去"
+      ],
+      "markers_passed": true
+    }
+  ],
+  "marker_passed_count": 10,
+  "all_critical_markers_passed": false,
+  "semantic_accuracy_scored": false,
+  "note": "New sentences outside complete-rule grammars. Review full outputs: marker presence is necessary, not sufficient for meaning.",
+  "oracle_correction": "Accepted correct ordered 再 phrasing for before; only evaluation updated, saved raw translation unchanged.",
+  "manual_findings": [
+    {
+      "source": "Save the last potion for the healer, not for me.",
+      "issue": "把物資留給補師譯成儲存；詞義不自然。",
+      "kind": "lexical"
+    },
+    {
+      "source": "我們需要6瓶藥水，先別開門。",
+      "issue": "藥水譯成泛指 medicine，遊戲物品通常應是 potions；數量及否定保留。",
+      "kind": "vocabulary"
+    },
+    {
+      "source": "If the boss targets you, move away from the group.",
+      "issue": "首領目標你不自然，應表達首領鎖定你；必要關係標记存在不代表中文流暢。",
+      "kind": "fluency"
+    }
+  ]
+}

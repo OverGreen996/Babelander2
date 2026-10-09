@@ -1,0 +1,7 @@
+{
+  "passed": false,
+  "status": "incomplete_process_ended_without_final_report",
+  "last_progress_seconds": 60.09,
+  "results_at_last_progress": 21,
+  "cause": "Unconfirmed; no exit code retained for this attempt. Relaunched under a waiting supervisor; not counted as passed."
+}
