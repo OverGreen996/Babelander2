@@ -88,7 +88,7 @@ class ChatRecognitionCache:
             while len(self.entries) > self.capacity:
                 self.entries.popitem(last=False)
 
-    def recognize(self, images, original, recognizer, token, scope, word_boxes=False):
+    def recognize(self, images, original, recognizer, token, scope, word_boxes=False, padded=None):
         token.check()
         started = time.perf_counter()
         if scope != self.scope:
@@ -146,11 +146,17 @@ class ChatRecognitionCache:
                 continue
             widest = max(group, key=lambda i: ratios[i])
             work = list(missing)
-            if ratios[widest] > max(shape[2] / shape[1], *(ratios[i] for i in missing)):
+            needs_context = ratios[widest] > max(shape[2] / shape[1], *(ratios[i] for i in missing))
+            if needs_context and padded is None:
                 work.append(widest)
                 self.last['context_crops'] += 1
             token.check()
-            template = original([images[i] for i in work])
+            if needs_context and padded is not None:
+                # Keep the original tensor width without inferring the cached
+                # widest row a second time. Word-box mode uses the full path.
+                template = padded([images[i] for i in work],max(shape[2]/shape[1],*(ratios[i] for i in group)))
+            else:
+                template = original([images[i] for i in work])
             token.check()
             self.last['inferred'] += len(work)
             if not self._valid(template, len(work)):

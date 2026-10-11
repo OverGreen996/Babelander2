@@ -13,8 +13,9 @@ parser.add_argument('--round',type=int,default=0);parser.add_argument('--period-
 parser.add_argument('--out',default='chat-poll-fixed-a22')
 parser.add_argument('--experimental-gate',action='store_true')
 parser.add_argument('--legacy-chat',action='store_true')
+parser.add_argument('--baseline-ref',help='Immutable git ref for the original OCR and recognition cache (child only).')
 parser.add_argument('--animated-chat',action='store_true');args=parser.parse_args()
-if not args.child and (args.experimental_gate or args.animated_chat or args.legacy_chat):
+if not args.child and (args.experimental_gate or args.animated_chat or args.legacy_chat or args.baseline_ref):
     parser.error('Experimental animation flags require --child; use probe_chat_gate_suite.py for candidate/control comparison.')
 out=ROOT/'test-results'/args.out;out.mkdir(parents=True,exist_ok=True)
 
@@ -71,6 +72,18 @@ from babelander.engine import Engine
 from babelander.storage import Store
 from babelander.security import KeyVault
 from babelander.window import MainWindow
+baseline_sources={}
+if args.baseline_ref:
+    import types
+    baseline_commit=subprocess.check_output(['git','rev-parse',args.baseline_ref],cwd=ROOT,text=True).strip()
+    for name in ('chat_ocr','ocr'):
+        code=subprocess.check_output(['git','show',baseline_commit+':babelander/'+name+'.py'],cwd=ROOT).decode('utf8')
+        module=types.ModuleType('babelander.'+name);module.__package__='babelander'
+        exec(compile(code,'<baseline '+baseline_commit+' '+name+'>','exec'),module.__dict__)
+        sys.modules['babelander.'+name]=module
+        baseline_sources[name]=hashlib.sha256(code.encode()).hexdigest()
+    import babelander.controller as controller_module
+    controller_module.OCR=sys.modules['babelander.ocr'].OCR
 from chat_fixtures import chat_frame
 from replay_resources import process
 app=QApplication(['Offscreen fixed-cadence chat'])
@@ -85,6 +98,7 @@ if args.experimental_gate:
     from chat_gate_experiment import SignatureAdapter
     adapter=SignatureAdapter(real_signature)
 report={'version':__version__,'chat_scan_ms':args.scan_ms,'ocr_threads':args.ocr_threads,'round':args.round,'period_ms':args.period_ms,
+        'baseline_ref':args.baseline_ref,'baseline_sources':baseline_sources,
         'source_sha256':source(),'results':[],'ocr':[],'errors':[],'changes':[],
         'frame_hashes':[hashlib.sha256(f.tobytes()).hexdigest() for f in frames],
         'real_desktop_capture':False,'foreground_control_calls':0,'qt_platform':app.platformName()}

@@ -87,6 +87,18 @@ class CacheTests(unittest.TestCase):
         self.assertIn('width=1440',result.txts[0])
         self.assertEqual(self.cache.last['reused'],0)
 
+    def test_explicit_padding_does_not_infer_cached_widest_row(self):
+        self.run_cache([crop(1),crop(2,300)])
+        calls=[]
+        def padded(images,ratio):
+            calls.append(([int(im[0,0,0]) for im in images],ratio))
+            return Output(images,tuple(f'X{im[0,0,0]} width={int(48*ratio)}' for im in images),tuple(.99 for _ in images))
+        result=self.run_cache([crop(3),crop(2,300)],padded=padded)
+        self.assertEqual(result.txts,self.original([crop(3),crop(2,300)]).txts)
+        self.assertEqual(calls,[([3],30)])
+        self.assertEqual(self.cache.last['inferred'],1)
+        self.assertEqual(self.cache.last['context_crops'],0)
+
     def test_multiple_width_sorted_batches_equal_full(self):
         old=[crop(i,i*50) for i in range(1,15)]
         self.run_cache(old)

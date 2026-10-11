@@ -1,10 +1,10 @@
 # 五分鐘開始使用
 
-[回到專案首頁](../README.md) · [官方下載](https://github.com/OverGreen996/Babelander2/releases/tag/v2.0.0a23)
+[回到專案首頁](../README.md) · [官方下載](https://github.com/OverGreen996/Babelander2/releases/tag/v2.0.0a24)
 
 ## 免安裝版
 
-1. 下載 `Babelander2-v2.0.0a23-windows-x64.zip`，**完整解壓縮**。保留 `Babelander2.exe` 與 `_internal` 的相對位置，不要只搬 EXE。
+1. 下載 `Babelander2-v2.0.0a24-windows-x64.zip`，**完整解壓縮**。保留 `Babelander2.exe` 與 `_internal` 的相對位置，不要只搬 EXE。
 2. 執行 `Babelander2.exe`，開啟「設定」。使用本機翻譯時，透過程式內的資源下載區取得模型與 runtime，或指定已有的相容檔案。資源約 1.93 GB，建議預留至少 4 GB 空間；下載需要網路，完成後本機 OCR／翻譯可離線使用。
 3. 可先預載模型，避免第一句包含冷啟動時間。選擇模式並框選文字所在區域。字幕／聊天可持續監測；裝備／任務／框選翻譯執行一次。
 

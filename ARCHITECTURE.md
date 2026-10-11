@@ -13,6 +13,7 @@
 | `monitor.py` | 字幕獨立擷取、有界 ROI 交接、亮字指紋、capture epoch 與可選複查預算 |
 | `capture.py`／`windows.py` | Win32 GDI 資源生命週期、DPI 轉換、快捷鍵、排除自身視窗擷取 |
 | `ocr.py` | 一個懶載入 CPU OCR 引擎、辨識鎖、讀序與畫面指紋 |
+| `ocr_cpu.py`／`chat_ocr.py` | 等值像素查表前處理、維持批次寬度的舊行重用、有界 session 快取；完整偵測仍走原解析度政策 |
 | `equipment_recovery.py` | 物品數字候選幾何、有界局部辨識、同模型兩種尺寸一致性檢查；不猜數字，不保留影像歷史 |
 | `window_focus.py` | 只讀 Win32 視窗／monitor／DPI 綁定、前景與幾何狀態、純平移 ROI；離開前景或幾何改變後鎖住取消 guard，不切換前景、不建立設定檔 |
 | `quest_layout.py` | 任務敘述跨行分組、獨立欄位／按鈕、有限像素斜線修正與數字片段合併；精確標籤規則不套用未知敘述 |

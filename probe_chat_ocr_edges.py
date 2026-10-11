@@ -6,7 +6,7 @@ import os
 os.environ['QT_QPA_PLATFORM']='offscreen'
 from bootstrap import prepare
 prepare()
-import json, hashlib
+import json, hashlib, argparse
 from pathlib import Path
 from PySide6.QtWidgets import QApplication
 from PySide6.QtGui import QImage,QPainter,QFont,QColor,QFontDatabase
@@ -18,6 +18,7 @@ from babelander.types import Cancellation,Cancelled
 from babelander.chat import messages
 from babelander.controller import new_chat_lines
 ROOT=Path(__file__).resolve().parent
+parser=argparse.ArgumentParser();parser.add_argument('--out');args=parser.parse_args()
 app=QApplication(['Offscreen recognition edge cases'])
 QFontDatabase.addApplicationFont('C:/Windows/Fonts/arial.ttf')
 source={p.name:hashlib.sha256(p.read_bytes()).hexdigest() for p in (ROOT/'babelander').glob('*.py')}
@@ -79,7 +80,7 @@ result={'checks':checks,'passed':all(checks.values()),'rows':rows,'source_sha256
         'source_unchanged':source=={p.name:hashlib.sha256(p.read_bytes()).hexdigest() for p in (ROOT/'babelander').glob('*.py')},
         'real_cpu_ocr':True,'real_desktop_capture':False,'foreground_control_calls':0}
 from babelander import __version__
-out=ROOT/('test-results/chat-ocr-edges-a'+__version__.split('a')[-1]+'.json')
+out=ROOT/(args.out or ('test-results/chat-ocr-edges-a'+__version__.split('a')[-1]+'.json'))
 out.write_text(json.dumps(result,ensure_ascii=False,indent=2),encoding='utf8')
 print(json.dumps({'passed':result['passed'],'checks':len(checks),'failed':[k for k,v in checks.items() if not v]}))
 raise SystemExit(not result['passed'] or not result['source_unchanged'])

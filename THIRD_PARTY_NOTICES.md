@@ -1,4 +1,4 @@
-# 第三方元件與授權聲明 · alpha23
+# 第三方元件與授權聲明 · alpha24
 
 Babelander 自有內容依 [LICENSE](LICENSE) 提供。第三方著作權仍屬原作者，其原始授權不因本程式的 All Rights Reserved 條款而縮減。
 

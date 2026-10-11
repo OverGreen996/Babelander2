@@ -35,8 +35,12 @@ class OCR:
                         if context is None:
                             return super().recognize_txt(images)
                         cache, current_token, scope = context
+                        def padded(images, width_ratio):
+                            from .ocr_cpu import recognize_padded
+                            return recognize_padded(engine.text_rec,super(SessionOCR,engine).recognize_txt,
+                                                    images,width_ratio)
                         return cache.recognize(images, super().recognize_txt, engine.text_rec,
-                                               current_token, scope, engine.return_word_box)
+                                               current_token, scope, engine.return_word_box, padded=padded)
                 self.engine=None
                 self.engine = SessionOCR(params={'Global.log_level':'error','Global.use_cls':False,'Global.text_score':.35,
                                                # Avoid upscaling a narrow subtitle's shortest side to 736px.
@@ -46,6 +50,8 @@ class OCR:
                                                'EngineConfig.onnxruntime.intra_op_num_threads':threads,
                                                'EngineConfig.onnxruntime.inter_op_num_threads':1,
                                                'EngineConfig.onnxruntime.enable_cpu_mem_arena':False})
+                from .ocr_cpu import install_detector_preprocess
+                install_detector_preprocess(self.engine.text_det)
                 self.engine_threads=threads
                 self.engine_scope=object()
             full_reason=None

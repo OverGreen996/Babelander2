@@ -1,16 +1,16 @@
-# 對應第三方來源與替換方式 · alpha23
+# 對應第三方來源與替換方式 · alpha24
 
-官方發布位置：[OverGreen996/Babelander2 · v2.0.0a23](https://github.com/OverGreen996/Babelander2/releases/tag/v2.0.0a23)。
+官方發布位置：[OverGreen996/Babelander2 · v2.0.0a24](https://github.com/OverGreen996/Babelander2/releases/tag/v2.0.0a24)。
 
 同版 Release 提供以下未修改上游來源，與免安裝二進位檔一起保留。下載不需付費或另行索取許可。來源網址、大小與 SHA-256 見 [third_party_sources.json](third_party_sources.json)，Release 另附 `SHA256SUMS.txt`。
 
 | 對應元件 | 來源附件 |
 |---|---|
-| Qt Core / Gui / Widgets / Network / OpenGL、基礎外掛 · 6.11.2 | [qtbase-everywhere-src-6.11.2.tar.xz](https://github.com/OverGreen996/Babelander2/releases/download/v2.0.0a23/qtbase-everywhere-src-6.11.2.tar.xz) |
-| Qt SVG / SVG 外掛 · 6.11.2 | [qtsvg-everywhere-src-6.11.2.tar.xz](https://github.com/OverGreen996/Babelander2/releases/download/v2.0.0a23/qtsvg-everywhere-src-6.11.2.tar.xz) |
-| 額外圖像外掛 · 6.11.2 | [qtimageformats-everywhere-src-6.11.2.tar.xz](https://github.com/OverGreen996/Babelander2/releases/download/v2.0.0a23/qtimageformats-everywhere-src-6.11.2.tar.xz) |
-| PySide6 / Shiboken6、生成器、typesystems、建置腳本 · 6.11.2 | [pyside-setup-everywhere-src-6.11.2.tar.xz](https://github.com/OverGreen996/Babelander2/releases/download/v2.0.0a23/pyside-setup-everywhere-src-6.11.2.tar.xz) |
-| Shapely wheel 內的 GEOS · 3.14.1 | [geos-3.14.1.tar.bz2](https://github.com/OverGreen996/Babelander2/releases/download/v2.0.0a23/geos-3.14.1.tar.bz2) |
+| Qt Core / Gui / Widgets / Network / OpenGL、基礎外掛 · 6.11.2 | [qtbase-everywhere-src-6.11.2.tar.xz](https://github.com/OverGreen996/Babelander2/releases/download/v2.0.0a24/qtbase-everywhere-src-6.11.2.tar.xz) |
+| Qt SVG / SVG 外掛 · 6.11.2 | [qtsvg-everywhere-src-6.11.2.tar.xz](https://github.com/OverGreen996/Babelander2/releases/download/v2.0.0a24/qtsvg-everywhere-src-6.11.2.tar.xz) |
+| 額外圖像外掛 · 6.11.2 | [qtimageformats-everywhere-src-6.11.2.tar.xz](https://github.com/OverGreen996/Babelander2/releases/download/v2.0.0a24/qtimageformats-everywhere-src-6.11.2.tar.xz) |
+| PySide6 / Shiboken6、生成器、typesystems、建置腳本 · 6.11.2 | [pyside-setup-everywhere-src-6.11.2.tar.xz](https://github.com/OverGreen996/Babelander2/releases/download/v2.0.0a24/pyside-setup-everywhere-src-6.11.2.tar.xz) |
+| Shapely wheel 內的 GEOS · 3.14.1 | [geos-3.14.1.tar.bz2](https://github.com/OverGreen996/Babelander2/releases/download/v2.0.0a24/geos-3.14.1.tar.bz2) |
 
 各附件包含上游授權及建置入口。本程式未修改這些第三方函式庫來源。
 
